@@ -15,6 +15,11 @@ Namespace AssemblyClonerAddIn
     Public Class ParameterExporterTools
 
         Private ReadOnly m_InventorApp As Inventor.Application
+        Private Const kZeroDecimalPlaceLinearPrecision As Integer = 0
+        Private Const kDimensionDisplayAsPreciseValue As Integer = 34817
+        Private Const kDimensionDisplayAsValue As Integer = 34821
+        Private Const kBomRefreshDummyParameterName As String = "BOM_REFRESH_TEMP"
+        Private Const kBomRefreshDummyPropertyName As String = "_PRECISION_UPDATE_"
 
         Public Sub New(ByVal inventorApp As Inventor.Application)
             m_InventorApp = inventorApp
@@ -30,6 +35,141 @@ Namespace AssemblyClonerAddIn
 
         Public Sub ExecuteThicknessParameterExporter()
             ExecuteParameterExporterCore("Thickness Parameter Exporter", "Thickness", scanPlateParts:=True)
+        End Sub
+
+        Public Sub ExecuteUpdateDocumentSettings()
+            Try
+                If Not ValidateActiveAssemblyDocument() Then
+                    Return
+                End If
+
+                Dim asmDoc As AssemblyDocument = CType(m_InventorApp.ActiveDocument, AssemblyDocument)
+                Dim plateTargets As New Dictionary(Of String, String)(StringComparer.OrdinalIgnoreCase)
+                CollectPlatePartsByDescription(asmDoc.ComponentDefinition.Occurrences, plateTargets)
+
+                AddInDiagnostics.Log("ParameterExporterTools", "UpdateDocumentSettings START | Assembly='" & SafeDocumentPath(asmDoc) & "' | Targets=" & plateTargets.Count.ToString())
+
+                If plateTargets.Count = 0 Then
+                    MsgBox("No plate parts found in the active assembly.", MsgBoxStyle.Information, "Update Document Settings")
+                    Return
+                End If
+
+                Dim modePrompt As String = "Found " & plateTargets.Count.ToString() & " plate parts." & vbCrLf & vbCrLf &
+                                           "Choose update mode:" & vbCrLf &
+                                           "YES = Fast API mode" & vbCrLf &
+                                           "NO = Robust UI Apply mode (recommended for stale BOM cache)" & vbCrLf &
+                                           "CANCEL = Exit" & vbCrLf & vbCrLf &
+                                           "UI mode opens Document Settings per part and triggers the same Apply/OK event path as manual toggling."
+
+                Dim modeChoice As MsgBoxResult = MsgBox(modePrompt,
+                                                        MsgBoxStyle.Question Or MsgBoxStyle.YesNoCancel Or MsgBoxStyle.DefaultButton2,
+                                                        "Update Document Settings")
+
+                If modeChoice = MsgBoxResult.Cancel Then
+                    Return
+                End If
+
+                If modeChoice = MsgBoxResult.No Then
+                    AddInDiagnostics.Log("ParameterExporterTools", "UpdateDocumentSettings user selected UI mode | Assembly='" & SafeDocumentPath(asmDoc) & "' | Targets=" & plateTargets.Count.ToString())
+                    Dim uiModeTool As New AssemblyBOMPrecision(m_InventorApp)
+                    uiModeTool.Execute(plateTargets.Keys)
+                    Return
+                End If
+
+                Dim prompt As String = "Found " & plateTargets.Count.ToString() & " plate parts." & vbCrLf & vbCrLf &
+                                       "This tool will open each plate and force the precision refresh cycle:" & vbCrLf &
+                                       "1) Linear Dim Precision toggle -> 0" & vbCrLf &
+                                       "2) Dimension Display toggle -> Display as value" & vbCrLf &
+                                       "3) Display Parameter As Expression toggle" & vbCrLf &
+                                       "4) Units toggle and restore (dirty/refresh trigger)" & vbCrLf &
+                                       "5) Save part" & vbCrLf & vbCrLf &
+                                       "Continue?"
+
+                If MsgBox(prompt, MsgBoxStyle.Question Or MsgBoxStyle.YesNo, "Update Document Settings") <> MsgBoxResult.Yes Then
+                    Return
+                End If
+
+                Dim updatedCount As Integer = 0
+                Dim skippedCount As Integer = 0
+                Dim failedCount As Integer = 0
+                Dim dirtyFlagFailureCount As Integer = 0
+                Dim noSettingDeltaCount As Integer = 0
+
+                Using progress As New ToolProgressForm("Update Document Settings")
+                    progress.Show()
+
+                    Dim index As Integer = 0
+                    For Each kvp As KeyValuePair(Of String, String) In plateTargets
+                        index += 1
+                        Dim pct As Integer = CInt((CDbl(index) / CDbl(plateTargets.Count)) * 100.0)
+                        progress.UpdateProgress(Math.Max(5, Math.Min(95, pct)), "Updating " & kvp.Value & "...")
+
+                        Dim status As String = String.Empty
+                        Dim dirtyFlagSucceeded As Boolean = False
+                        Dim hadAnySettingDelta As Boolean = False
+
+                        If UpdatePlateDocumentSettingsWithDirtyRefresh(kvp.Key,
+                                                                      status,
+                                                                      dirtyFlagSucceeded,
+                                                                      hadAnySettingDelta) Then
+                            updatedCount += 1
+
+                            If Not dirtyFlagSucceeded Then
+                                dirtyFlagFailureCount += 1
+                            End If
+
+                            If Not hadAnySettingDelta Then
+                                noSettingDeltaCount += 1
+                            End If
+                        ElseIf String.Equals(status, "SKIPPED", StringComparison.OrdinalIgnoreCase) Then
+                            skippedCount += 1
+                        Else
+                            failedCount += 1
+                        End If
+
+                        Dim normalizedStatus As String = If(String.IsNullOrWhiteSpace(status), "FAILED", status)
+                        AddInDiagnostics.Log("ParameterExporterTools", "UpdateDocumentSettings item | Part='" & kvp.Key & "' | Status='" & normalizedStatus & "'")
+                    Next
+
+                    progress.UpdateProgress(100, "Refreshing assembly BOM...")
+                End Using
+
+                RefreshAssemblyBomPrecision(asmDoc)
+
+                Dim likelyDisplayCacheStillStale As Boolean = updatedCount > 0 AndAlso
+                                                         (dirtyFlagFailureCount > 0 OrElse noSettingDeltaCount = updatedCount)
+
+                If likelyDisplayCacheStillStale Then
+                    Dim fallbackPrompt As String = "Inventor still reports stale-cache conditions for this run:" & vbCrLf & vbCrLf &
+                                                   "- Dirty flag reinforcement failed on " & dirtyFlagFailureCount.ToString() & " part(s)" & vbCrLf &
+                                                   "- Settings already at target on " & noSettingDeltaCount.ToString() & " part(s)" & vbCrLf & vbCrLf &
+                                                   "Run ROBUST UI fallback now?" & vbCrLf &
+                                                   "This uses keyboard automation (legacy SendKeys style)." & vbCrLf &
+                                                   "Do not touch keyboard/mouse while it runs."
+
+                    If MsgBox(fallbackPrompt, MsgBoxStyle.Question Or MsgBoxStyle.YesNo, "Update Document Settings") = MsgBoxResult.Yes Then
+                        AddInDiagnostics.Log("ParameterExporterTools", "UpdateDocumentSettings launching UI fallback | Assembly='" & SafeDocumentPath(asmDoc) & "' | DirtyFlagFailures=" & dirtyFlagFailureCount.ToString() & " | NoDelta=" & noSettingDeltaCount.ToString())
+                        Dim uiFallbackTool As New AssemblyBOMPrecision(m_InventorApp)
+                        uiFallbackTool.Execute(plateTargets.Keys)
+                        Return
+                    End If
+                End If
+
+                AddInDiagnostics.Log("ParameterExporterTools", "UpdateDocumentSettings COMPLETE | Assembly='" & SafeDocumentPath(asmDoc) & "' | Targets=" & plateTargets.Count.ToString() & " | Updated=" & updatedCount.ToString() & " | Skipped=" & skippedCount.ToString() & " | Failed=" & failedCount.ToString() & " | DirtyFlagFailures=" & dirtyFlagFailureCount.ToString() & " | NoDelta=" & noSettingDeltaCount.ToString())
+
+                MsgBox("Update Document Settings complete." & vbCrLf & vbCrLf &
+                       "Plate parts found: " & plateTargets.Count.ToString() & vbCrLf &
+                       "Updated: " & updatedCount.ToString() & vbCrLf &
+                       "Skipped: " & skippedCount.ToString() & vbCrLf &
+                       "Failed: " & failedCount.ToString() & vbCrLf &
+                       "Dirty-flag fallback needed: " & dirtyFlagFailureCount.ToString(),
+                       MsgBoxStyle.Information,
+                       "Update Document Settings")
+
+            Catch ex As Exception
+                AddInDiagnostics.Log("ParameterExporterTools", "ExecuteUpdateDocumentSettings failed | " & ex.Message)
+                Throw
+            End Try
         End Sub
 
         Public Sub ExecuteFixNonPlateParts()
@@ -350,6 +490,580 @@ Namespace AssemblyClonerAddIn
             Return True
         End Function
 
+        Private Function UpdatePlateDocumentSettingsWithDirtyRefresh(ByVal partPath As String,
+                                                                      ByRef status As String,
+                                                                      ByRef dirtyFlagSucceeded As Boolean,
+                                                                      ByRef hadAnySettingDelta As Boolean) As Boolean
+            status = String.Empty
+            dirtyFlagSucceeded = False
+            hadAnySettingDelta = False
+
+            If String.IsNullOrWhiteSpace(partPath) Then
+                status = "FAILED"
+                Return False
+            End If
+
+            Dim partDoc As PartDocument = Nothing
+            Dim openedByTool As Boolean = False
+
+            Try
+                partDoc = TryCast(m_InventorApp.Documents.Open(partPath, True), PartDocument)
+                openedByTool = partDoc IsNot Nothing
+
+                If partDoc Is Nothing Then
+                    status = "FAILED"
+                    Return False
+                End If
+
+                AddInDiagnostics.Log("ParameterExporterTools", "Update settings start | Part='" & partPath & "' | OpenedByTool=" & openedByTool.ToString())
+
+                Try
+                    partDoc.Activate()
+                Catch
+                End Try
+
+                If Not partDoc.IsModifiable Then
+                    status = "SKIPPED"
+                    AddInDiagnostics.Log("ParameterExporterTools", "Update settings skipped (not modifiable) | Part='" & partPath & "'")
+                    Return False
+                End If
+
+                Dim params As Parameters = partDoc.ComponentDefinition.Parameters
+                If params Is Nothing Then
+                    status = "FAILED"
+                    Return False
+                End If
+
+                Dim units As UnitsOfMeasure = Nothing
+                Dim unitsPrecisionTrace As String = "LengthDisplayPrecision unavailable"
+                Dim hadUomDisplayDelta As Boolean = False
+                Try
+                    units = partDoc.UnitsOfMeasure
+                    If units IsNot Nothing Then
+                        Dim originalLengthDisplayPrecision As Integer = CInt(units.LengthDisplayPrecision)
+                        hadUomDisplayDelta = originalLengthDisplayPrecision <> kZeroDecimalPlaceLinearPrecision
+                        Dim tempLengthDisplayPrecision As Integer = If(originalLengthDisplayPrecision = 3, 2, 3)
+                        units.LengthDisplayPrecision = CType(tempLengthDisplayPrecision, LinearPrecisionEnum)
+                        units.LengthDisplayPrecision = CType(kZeroDecimalPlaceLinearPrecision, LinearPrecisionEnum)
+                        unitsPrecisionTrace = originalLengthDisplayPrecision.ToString() & "->" & CInt(units.LengthDisplayPrecision).ToString()
+                    End If
+                Catch ex As Exception
+                    unitsPrecisionTrace = "LengthDisplayPrecision update failed: " & ex.Message
+                End Try
+
+                Dim originalPrecision As Integer = CInt(params.LinearDimensionPrecision)
+                Dim tempPrecision As Integer = If(originalPrecision = 3, 2, 3)
+                params.LinearDimensionPrecision = tempPrecision
+                params.LinearDimensionPrecision = kZeroDecimalPlaceLinearPrecision
+
+                Dim originalDisplay As Integer = CInt(params.DimensionDisplayType)
+                Dim tempDisplay As Integer = If(originalDisplay = kDimensionDisplayAsPreciseValue,
+                                               kDimensionDisplayAsValue,
+                                               kDimensionDisplayAsPreciseValue)
+                params.DimensionDisplayType = CType(tempDisplay, DimensionDisplayTypeEnum)
+                params.DimensionDisplayType = CType(kDimensionDisplayAsValue, DimensionDisplayTypeEnum)
+
+                Dim originalExpression As Boolean = params.DisplayParameterAsExpression
+                params.DisplayParameterAsExpression = False
+                params.DisplayParameterAsExpression = True
+
+                Dim hadLinearPrecisionDelta As Boolean = originalPrecision <> kZeroDecimalPlaceLinearPrecision
+                Dim hadDisplayTypeDelta As Boolean = originalDisplay <> kDimensionDisplayAsValue
+                Dim hadExpressionDelta As Boolean = (Not originalExpression)
+                hadAnySettingDelta = hadUomDisplayDelta OrElse hadLinearPrecisionDelta OrElse hadDisplayTypeDelta OrElse hadExpressionDelta
+
+                AddInDiagnostics.Log("ParameterExporterTools", "Update settings applied | Part='" & partPath & "' | UoMDisplayPrecision " & unitsPrecisionTrace & " | Precision " & originalPrecision.ToString() & "->" & CInt(params.LinearDimensionPrecision).ToString() & " | Display " & originalDisplay.ToString() & "->" & CInt(params.DimensionDisplayType).ToString() & " | Expression " & originalExpression.ToString() & "->" & params.DisplayParameterAsExpression.ToString())
+
+                Dim dirtyParamTrace As String = String.Empty
+                Dim dirtyParamOk As Boolean = TriggerDirtyFlagByDummyParameter(params, dirtyParamTrace)
+                AddInDiagnostics.Log("ParameterExporterTools", "Dirty flag parameter | Part='" & partPath & "' | Success=" & dirtyParamOk.ToString() & " | " & dirtyParamTrace)
+
+                Dim dirtyPropertyTrace As String = String.Empty
+                Dim dirtyPropertyOk As Boolean = False
+                If Not dirtyParamOk Then
+                    dirtyPropertyOk = TriggerDirtyFlagByTempProperty(partDoc, dirtyPropertyTrace)
+                    AddInDiagnostics.Log("ParameterExporterTools", "Dirty flag property | Part='" & partPath & "' | Success=" & dirtyPropertyOk.ToString() & " | " & dirtyPropertyTrace)
+                End If
+
+                dirtyFlagSucceeded = dirtyParamOk OrElse dirtyPropertyOk
+
+                Dim unitsRefreshTrace As String = String.Empty
+                Dim unitsRefreshOk As Boolean = ForceUnitsRefreshEvent(partDoc, unitsRefreshTrace)
+                AddInDiagnostics.Log("ParameterExporterTools", "Units refresh | Part='" & partPath & "' | Success=" & unitsRefreshOk.ToString() & " | " & unitsRefreshTrace)
+
+                Dim updateOk As Boolean = False
+                Dim updateError As String = String.Empty
+                Try
+                    partDoc.Update2(True)
+                    updateOk = True
+                Catch ex As Exception
+                    updateError = ex.Message
+                End Try
+
+                Dim dirtySetOk As Boolean = False
+                Dim dirtyState As String = "UNKNOWN"
+                Dim dirtyError As String = String.Empty
+                Try
+                    partDoc.Dirty = True
+                    dirtySetOk = True
+                    dirtyState = partDoc.Dirty.ToString()
+                Catch ex As Exception
+                    dirtyError = ex.Message
+                End Try
+
+                Dim saveOk As Boolean = False
+                Dim saveError As String = String.Empty
+                Try
+                    partDoc.Save2(True)
+                    saveOk = True
+                Catch ex As Exception
+                    saveError = ex.Message
+                    Throw
+                Finally
+                    AddInDiagnostics.Log("ParameterExporterTools", "Update settings finalize | Part='" & partPath & "' | Update2=" & updateOk.ToString() & If(String.IsNullOrWhiteSpace(updateError), String.Empty, " | Update2Error='" & updateError & "'") & " | DirtySet=" & dirtySetOk.ToString() & " | DirtyState='" & dirtyState & "'" & If(String.IsNullOrWhiteSpace(dirtyError), String.Empty, " | DirtyError='" & dirtyError & "'") & " | DirtyParam=" & dirtyParamOk.ToString() & " | DirtyProperty=" & dirtyPropertyOk.ToString() & " | DirtyFlagSucceeded=" & dirtyFlagSucceeded.ToString() & " | HadDelta=" & hadAnySettingDelta.ToString() & " | Save=" & saveOk.ToString() & If(String.IsNullOrWhiteSpace(saveError), String.Empty, " | SaveError='" & saveError & "'"))
+                End Try
+
+                If hadAnySettingDelta Then
+                    status = If(dirtyFlagSucceeded, "UPDATED", "UPDATED_DIRTYFLAG_FAILED")
+                Else
+                    status = If(dirtyFlagSucceeded, "UPDATED_NO_DELTA", "UPDATED_NO_DELTA_DIRTYFLAG_FAILED")
+                End If
+                Return True
+
+            Catch ex As Exception
+                AddInDiagnostics.Log("ParameterExporterTools", "UpdatePlateDocumentSettingsWithDirtyRefresh failed | Part='" & partPath & "' | " & ex.Message)
+                status = "FAILED"
+                dirtyFlagSucceeded = False
+                hadAnySettingDelta = False
+                Return False
+            Finally
+                If openedByTool AndAlso partDoc IsNot Nothing Then
+                    Try
+                        partDoc.Close(True)
+                    Catch
+                    End Try
+                End If
+            End Try
+        End Function
+
+        Private Function TriggerDirtyFlagByDummyParameter(ByVal params As Parameters,
+                                                          ByRef trace As String) As Boolean
+            trace = String.Empty
+
+            If params Is Nothing Then
+                trace = "Parameters unavailable"
+                Return False
+            End If
+
+            Try
+                Dim userParams As UserParameters = params.UserParameters
+                If userParams Is Nothing Then
+                    trace = "UserParameters unavailable"
+                    Return False
+                End If
+
+                Try
+                    Dim existing As UserParameter = userParams.Item(kBomRefreshDummyParameterName)
+                    If existing IsNot Nothing Then
+                        existing.Delete()
+                    End If
+                Catch
+                End Try
+
+                Dim dummy As UserParameter = userParams.AddByValue(kBomRefreshDummyParameterName,
+                                                                    0,
+                                                                    "mm")
+
+                If dummy Is Nothing Then
+                    trace = "Dummy parameter creation returned Nothing"
+                    Return False
+                End If
+
+                dummy.Value = 1
+                dummy.Delete()
+
+                trace = "Created, changed, and removed dummy parameter"
+                Return True
+            Catch ex As Exception
+                trace = "Exception='" & ex.Message & "'"
+                Return False
+            End Try
+        End Function
+
+        Private Function TriggerDirtyFlagByTempProperty(ByVal partDoc As PartDocument,
+                                                        ByRef trace As String) As Boolean
+            trace = String.Empty
+
+            If partDoc Is Nothing Then
+                trace = "Part document unavailable"
+                Return False
+            End If
+
+            Try
+                Dim userProps As PropertySet = partDoc.PropertySets.Item("Inventor User Defined Properties")
+                If userProps Is Nothing Then
+                    trace = "User defined property set unavailable"
+                    Return False
+                End If
+
+                Try
+                    Dim existingProp As Inventor.Property = userProps.Item(kBomRefreshDummyPropertyName)
+                    If existingProp IsNot Nothing Then
+                        existingProp.Delete()
+                    End If
+                Catch
+                End Try
+
+                Dim tempProp As Inventor.Property = userProps.Add("1", kBomRefreshDummyPropertyName)
+                If tempProp Is Nothing Then
+                    trace = "Temporary property creation returned Nothing"
+                    Return False
+                End If
+
+                tempProp.Value = "2"
+                tempProp.Delete()
+
+                trace = "Created, changed, and removed temporary custom property"
+                Return True
+            Catch ex As Exception
+                trace = "Exception='" & ex.Message & "'"
+                Return False
+            End Try
+        End Function
+
+        Private Function ForceUnitsRefreshEvent(ByVal partDoc As PartDocument,
+                                                ByRef trace As String) As Boolean
+            trace = String.Empty
+
+            If partDoc Is Nothing Then
+                trace = "No part document"
+                Return False
+            End If
+
+            Try
+                Dim units As UnitsOfMeasure = partDoc.UnitsOfMeasure
+                If units Is Nothing Then
+                    trace = "UnitsOfMeasure unavailable"
+                    Return False
+                End If
+
+                Dim originalUnits As UnitsTypeEnum = CType(units.LengthUnits, UnitsTypeEnum)
+                Dim temporaryUnits As UnitsTypeEnum = If(originalUnits = UnitsTypeEnum.kMillimeterLengthUnits,
+                                                         UnitsTypeEnum.kCentimeterLengthUnits,
+                                                         UnitsTypeEnum.kMillimeterLengthUnits)
+
+                Dim originalDisplayUnits As UnitsTypeEnum = CType(units.LengthDisplayUnits, UnitsTypeEnum)
+                Dim temporaryDisplayUnits As UnitsTypeEnum = If(originalDisplayUnits = UnitsTypeEnum.kMillimeterLengthUnits,
+                                                                UnitsTypeEnum.kCentimeterLengthUnits,
+                                                                UnitsTypeEnum.kMillimeterLengthUnits)
+
+                If temporaryUnits = originalUnits Then
+                    temporaryUnits = UnitsTypeEnum.kInchLengthUnits
+                End If
+
+                If temporaryDisplayUnits = originalDisplayUnits Then
+                    temporaryDisplayUnits = UnitsTypeEnum.kInchLengthUnits
+                End If
+
+                Dim switchedToTemporary As Boolean = False
+                Dim switchedBack As Boolean = False
+                Dim temporaryUpdateOk As Boolean = False
+                Dim restoreUpdateOk As Boolean = False
+                Dim displaySwitchedToTemporary As Boolean = False
+                Dim displaySwitchedBack As Boolean = False
+                Dim displayTemporaryUpdateOk As Boolean = False
+                Dim displayRestoreUpdateOk As Boolean = False
+
+                units.LengthUnits = temporaryUnits
+                switchedToTemporary = True
+                Try
+                    partDoc.Update2(True)
+                    temporaryUpdateOk = True
+                Catch
+                End Try
+
+                units.LengthUnits = originalUnits
+                switchedBack = True
+                Try
+                    partDoc.Update2(True)
+                    restoreUpdateOk = True
+                Catch
+                End Try
+
+                Try
+                    units.LengthDisplayUnits = temporaryDisplayUnits
+                    displaySwitchedToTemporary = True
+                Catch
+                End Try
+
+                If displaySwitchedToTemporary Then
+                    Try
+                        partDoc.Update2(True)
+                        displayTemporaryUpdateOk = True
+                    Catch
+                    End Try
+                End If
+
+                Try
+                    units.LengthDisplayUnits = originalDisplayUnits
+                    displaySwitchedBack = True
+                Catch
+                End Try
+
+                If displaySwitchedBack Then
+                    Try
+                        partDoc.Update2(True)
+                        displayRestoreUpdateOk = True
+                    Catch
+                    End Try
+                End If
+
+                trace = "OriginalUnits='" & originalUnits.ToString() & "' | TemporaryUnits='" & temporaryUnits.ToString() &
+                        "' | SetTemp=" & switchedToTemporary.ToString() & " | TempUpdate=" & temporaryUpdateOk.ToString() &
+                        " | Restored=" & switchedBack.ToString() & " | RestoreUpdate=" & restoreUpdateOk.ToString() &
+                        " | CurrentUnits='" & CType(units.LengthUnits, UnitsTypeEnum).ToString() &
+                        "' | OriginalDisplayUnits='" & originalDisplayUnits.ToString() & "' | TemporaryDisplayUnits='" & temporaryDisplayUnits.ToString() &
+                        "' | DisplaySetTemp=" & displaySwitchedToTemporary.ToString() & " | DisplayTempUpdate=" & displayTemporaryUpdateOk.ToString() &
+                        " | DisplayRestored=" & displaySwitchedBack.ToString() & " | DisplayRestoreUpdate=" & displayRestoreUpdateOk.ToString() &
+                        " | CurrentDisplayUnits='" & CType(units.LengthDisplayUnits, UnitsTypeEnum).ToString() & "'"
+
+                Return (switchedToTemporary AndAlso switchedBack) OrElse (displaySwitchedToTemporary AndAlso displaySwitchedBack)
+            Catch ex As Exception
+                AddInDiagnostics.Log("ParameterExporterTools", "ForceUnitsRefreshEvent failed | Part='" & partDoc.FullFileName & "' | " & ex.Message)
+                trace = "Exception='" & ex.Message & "'"
+                Return False
+            End Try
+        End Function
+
+        Private Sub RefreshAssemblyBomPrecision(ByVal asmDoc As AssemblyDocument)
+            If asmDoc Is Nothing Then
+                Return
+            End If
+
+            AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision START | Assembly='" & SafeDocumentPath(asmDoc) & "'")
+
+            Dim activateOk As Boolean = False
+            Try
+                asmDoc.Activate()
+                activateOk = True
+            Catch
+            End Try
+
+            Dim rebuildClassicOk As Boolean = False
+            Dim rebuildClassicError As String = String.Empty
+
+            Try
+                asmDoc.Rebuild()
+                rebuildClassicOk = True
+            Catch ex As Exception
+                rebuildClassicError = ex.Message
+            End Try
+
+            Dim rebuildOk As Boolean = False
+            Dim rebuildError As String = String.Empty
+
+            Try
+                asmDoc.Rebuild2(True)
+                rebuildOk = True
+            Catch ex As Exception
+                rebuildError = ex.Message
+            End Try
+
+            Dim updateOk As Boolean = False
+            Dim updateError As String = String.Empty
+
+            Try
+                asmDoc.Update2(True)
+                updateOk = True
+            Catch ex As Exception
+                updateError = ex.Message
+            End Try
+
+            Try
+                Dim bom As BOM = asmDoc.ComponentDefinition.BOM
+                If bom Is Nothing Then
+                    AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision end (no BOM) | Assembly='" & SafeDocumentPath(asmDoc) & "' | Activated=" & activateOk.ToString() & " | Rebuild=" & rebuildOk.ToString() & If(String.IsNullOrWhiteSpace(rebuildError), String.Empty, " | RebuildError='" & rebuildError & "'") & " | Update=" & updateOk.ToString() & If(String.IsNullOrWhiteSpace(updateError), String.Empty, " | UpdateError='" & updateError & "'"))
+                    Return
+                End If
+
+                Dim originalStructured As Boolean = bom.StructuredViewEnabled
+                Dim originalPartsOnly As Boolean = bom.PartsOnlyViewEnabled
+                Dim requiresUpdateBefore As Boolean = False
+                Dim assemblyDisplayToggleOk As Boolean = False
+                Dim assemblyDisplayToggleTrace As String = String.Empty
+
+                Try
+                    requiresUpdateBefore = bom.RequiresUpdate
+                Catch
+                End Try
+
+                Try
+                    Dim asmUnits As UnitsOfMeasure = asmDoc.UnitsOfMeasure
+                    If asmUnits IsNot Nothing Then
+                        Dim originalDisplayUnits As UnitsTypeEnum = CType(asmUnits.LengthDisplayUnits, UnitsTypeEnum)
+                        Dim temporaryDisplayUnits As UnitsTypeEnum = If(originalDisplayUnits = UnitsTypeEnum.kMillimeterLengthUnits,
+                                                                       UnitsTypeEnum.kCentimeterLengthUnits,
+                                                                       UnitsTypeEnum.kMillimeterLengthUnits)
+                        If temporaryDisplayUnits = originalDisplayUnits Then
+                            temporaryDisplayUnits = UnitsTypeEnum.kInchLengthUnits
+                        End If
+
+                        asmUnits.LengthDisplayUnits = temporaryDisplayUnits
+                        Try
+                            asmDoc.Update2(True)
+                        Catch
+                        End Try
+
+                        asmUnits.LengthDisplayUnits = originalDisplayUnits
+                        Try
+                            asmDoc.Update2(True)
+                        Catch
+                        End Try
+
+                        assemblyDisplayToggleOk = True
+                        assemblyDisplayToggleTrace = "Original='" & originalDisplayUnits.ToString() & "' | Temp='" & temporaryDisplayUnits.ToString() & "' | Current='" & CType(asmUnits.LengthDisplayUnits, UnitsTypeEnum).ToString() & "'"
+                    Else
+                        assemblyDisplayToggleTrace = "UnitsOfMeasure unavailable"
+                    End If
+                Catch ex As Exception
+                    assemblyDisplayToggleTrace = "Exception='" & ex.Message & "'"
+                End Try
+
+                Try
+                    If Not bom.StructuredViewEnabled Then
+                        bom.StructuredViewEnabled = True
+                    End If
+                Catch
+                End Try
+
+                Try
+                    If Not bom.PartsOnlyViewEnabled Then
+                        bom.PartsOnlyViewEnabled = True
+                    End If
+                Catch
+                End Try
+
+                Dim structuredToggleOk As Boolean = False
+                Dim partsOnlyToggleOk As Boolean = False
+
+                Try
+                    bom.StructuredViewEnabled = Not originalStructured
+                    bom.StructuredViewEnabled = originalStructured
+                    structuredToggleOk = True
+                Catch
+                End Try
+
+                Try
+                    bom.PartsOnlyViewEnabled = Not originalPartsOnly
+                    bom.PartsOnlyViewEnabled = originalPartsOnly
+                    partsOnlyToggleOk = True
+                Catch
+                End Try
+
+                Dim structuredRowsOk As Boolean = False
+                Dim structuredRowsCount As Integer = -1
+                Dim partsOnlyRowsOk As Boolean = False
+                Dim partsOnlyRowsCount As Integer = -1
+                Dim structuredRenumberOk As Boolean = False
+                Dim structuredRenumberError As String = String.Empty
+                Dim partsOnlyRenumberOk As Boolean = False
+                Dim partsOnlyRenumberError As String = String.Empty
+
+                Try
+                    Dim structuredView As BOMView = bom.BOMViews.Item("Structured")
+                    If structuredView IsNot Nothing Then
+                        structuredRowsCount = structuredView.BOMRows.Count
+                        structuredRowsOk = True
+
+                        Try
+                            Dim structuredViewObj As Object = structuredView
+                            structuredViewObj.Renumber()
+                            structuredRenumberOk = True
+                        Catch ex As Exception
+                            structuredRenumberError = ex.Message
+                        End Try
+                    End If
+                Catch ex As Exception
+                    AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision structured-row access failed | Assembly='" & SafeDocumentPath(asmDoc) & "' | " & ex.Message)
+                End Try
+
+                Try
+                    Dim partsOnlyView As BOMView = bom.BOMViews.Item("Parts Only")
+                    If partsOnlyView IsNot Nothing Then
+                        partsOnlyRowsCount = partsOnlyView.BOMRows.Count
+                        partsOnlyRowsOk = True
+
+                        Try
+                            Dim partsOnlyViewObj As Object = partsOnlyView
+                            partsOnlyViewObj.Renumber()
+                            partsOnlyRenumberOk = True
+                        Catch ex As Exception
+                            partsOnlyRenumberError = ex.Message
+                        End Try
+                    End If
+                Catch ex As Exception
+                    AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision parts-only row access failed | Assembly='" & SafeDocumentPath(asmDoc) & "' | " & ex.Message)
+                End Try
+
+                Dim requiresUpdateAfter As Boolean = False
+                If bom.RequiresUpdate Then
+                    requiresUpdateAfter = True
+                    Try
+                        asmDoc.Update2(True)
+                    Catch
+                    End Try
+                Else
+                    Try
+                        requiresUpdateAfter = bom.RequiresUpdate
+                    Catch
+                    End Try
+                End If
+
+                Dim finalUpdateOk As Boolean = False
+                Dim finalUpdateError As String = String.Empty
+                Try
+                    asmDoc.Update2(True)
+                    finalUpdateOk = True
+                Catch ex As Exception
+                    finalUpdateError = ex.Message
+                End Try
+
+                Dim saveOk As Boolean = False
+                Dim saveError As String = String.Empty
+                Try
+                    asmDoc.Save2(True)
+                    saveOk = True
+                Catch ex As Exception
+                    saveError = ex.Message
+                End Try
+
+                AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision COMPLETE | Assembly='" & SafeDocumentPath(asmDoc) & "' | Activated=" & activateOk.ToString() & " | RebuildClassic=" & rebuildClassicOk.ToString() & If(String.IsNullOrWhiteSpace(rebuildClassicError), String.Empty, " | RebuildClassicError='" & rebuildClassicError & "'") & " | Rebuild2=" & rebuildOk.ToString() & If(String.IsNullOrWhiteSpace(rebuildError), String.Empty, " | Rebuild2Error='" & rebuildError & "'") & " | Update=" & updateOk.ToString() & If(String.IsNullOrWhiteSpace(updateError), String.Empty, " | UpdateError='" & updateError & "'") & " | AssemblyDisplayToggle=" & assemblyDisplayToggleOk.ToString() & " | AssemblyDisplayTrace=" & assemblyDisplayToggleTrace & " | StructuredToggle=" & structuredToggleOk.ToString() & " | PartsOnlyToggle=" & partsOnlyToggleOk.ToString() & " | StructuredRowsOk=" & structuredRowsOk.ToString() & " | StructuredRows=" & structuredRowsCount.ToString() & " | StructuredRenumber=" & structuredRenumberOk.ToString() & If(String.IsNullOrWhiteSpace(structuredRenumberError), String.Empty, " | StructuredRenumberError='" & structuredRenumberError & "'") & " | PartsOnlyRowsOk=" & partsOnlyRowsOk.ToString() & " | PartsOnlyRows=" & partsOnlyRowsCount.ToString() & " | PartsOnlyRenumber=" & partsOnlyRenumberOk.ToString() & If(String.IsNullOrWhiteSpace(partsOnlyRenumberError), String.Empty, " | PartsOnlyRenumberError='" & partsOnlyRenumberError & "'") & " | RequiresUpdateBefore=" & requiresUpdateBefore.ToString() & " | RequiresUpdateAfter=" & requiresUpdateAfter.ToString() & " | FinalUpdate=" & finalUpdateOk.ToString() & If(String.IsNullOrWhiteSpace(finalUpdateError), String.Empty, " | FinalUpdateError='" & finalUpdateError & "'") & " | Save=" & saveOk.ToString() & If(String.IsNullOrWhiteSpace(saveError), String.Empty, " | SaveError='" & saveError & "'"))
+            Catch ex As Exception
+                AddInDiagnostics.Log("ParameterExporterTools", "RefreshAssemblyBomPrecision failed | Assembly='" & asmDoc.DisplayName & "' | " & ex.Message)
+            End Try
+        End Sub
+
+        Private Function SafeDocumentPath(ByVal doc As Document) As String
+            If doc Is Nothing Then
+                Return String.Empty
+            End If
+
+            Try
+                Dim path As String = doc.FullFileName
+                If Not String.IsNullOrWhiteSpace(path) Then
+                    Return path
+                End If
+            Catch
+            End Try
+
+            Try
+                Return doc.DisplayName
+            Catch
+            End Try
+
+            Return String.Empty
+        End Function
+
         Private Function ScanAssemblyForNonPlateParts(ByVal asmDoc As AssemblyDocument) As Dictionary(Of String, String)
             Dim result As New Dictionary(Of String, String)(StringComparer.OrdinalIgnoreCase)
 
@@ -495,9 +1209,10 @@ Namespace AssemblyClonerAddIn
                 If refDoc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
                     CollectPlatePartsByDescription(occ.SubOccurrences, result)
                 ElseIf refDoc.DocumentType = DocumentTypeEnum.kPartDocumentObject Then
+                    Dim partNumber As String = GetPartNumber(refDoc)
                     Dim description As String = GetDescription(refDoc)
-                    Dim upperDesc As String = If(description, String.Empty).ToUpperInvariant()
-                    Dim isPlate As Boolean = upperDesc.Contains("PL") OrElse upperDesc.Contains("VRN") OrElse upperDesc.Contains("S355JR")
+                    Dim searchText As String = (If(partNumber, String.Empty) & " " & If(description, String.Empty)).ToUpperInvariant()
+                    Dim isPlate As Boolean = searchText.Contains("PL") OrElse searchText.Contains("VRN") OrElse searchText.Contains("S355JR")
                     If isPlate Then
                         Dim fullPath As String = String.Empty
                         Try

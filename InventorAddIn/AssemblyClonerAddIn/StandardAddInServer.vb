@@ -49,6 +49,7 @@ Namespace AssemblyClonerAddIn
         Private WithEvents m_LengthParameterExporterButton As ButtonDefinition
         Private WithEvents m_Length2ParameterExporterButton As ButtonDefinition
         Private WithEvents m_ThicknessParameterExporterButton As ButtonDefinition
+        Private WithEvents m_SheetMetalConverterAssemblyButton As ButtonDefinition
         Private WithEvents m_FixNonPlatePartsButton As ButtonDefinition
         Private WithEvents m_FixSinglePartLength2Button As ButtonDefinition
         Private WithEvents m_FixBOMPlateDimensionsButton As ButtonDefinition
@@ -71,6 +72,7 @@ Namespace AssemblyClonerAddIn
         Private m_CreateGAPartsListTopLevelTool As CreateGAPartsListTopLevelTool
         Private m_CleanUpUnusedFilesTool As CleanUpUnusedFilesTool
         Private m_ParameterExporterTools As ParameterExporterTools
+        Private m_SheetMetalConverterAssemblyTool As SheetMetalConverterAssemblyTool
 
 #Region "ApplicationAddInServer Interface"
 
@@ -99,6 +101,7 @@ Namespace AssemblyClonerAddIn
             m_CreateGAPartsListTopLevelTool = New CreateGAPartsListTopLevelTool(m_InventorApp)
             m_CleanUpUnusedFilesTool = New CleanUpUnusedFilesTool(m_InventorApp)
             m_ParameterExporterTools = New ParameterExporterTools(m_InventorApp)
+            m_SheetMetalConverterAssemblyTool = New SheetMetalConverterAssemblyTool(m_InventorApp)
 
             ' Create UI buttons
             Call CreateUserInterface()
@@ -130,6 +133,7 @@ Namespace AssemblyClonerAddIn
             m_LengthParameterExporterButton = Nothing
             m_Length2ParameterExporterButton = Nothing
             m_ThicknessParameterExporterButton = Nothing
+            m_SheetMetalConverterAssemblyButton = Nothing
             m_FixNonPlatePartsButton = Nothing
             m_FixSinglePartLength2Button = Nothing
             m_FixBOMPlateDimensionsButton = Nothing
@@ -151,6 +155,7 @@ Namespace AssemblyClonerAddIn
             m_CreateGAPartsListTopLevelTool = Nothing
             m_CleanUpUnusedFilesTool = Nothing
             m_ParameterExporterTools = Nothing
+            m_SheetMetalConverterAssemblyTool = Nothing
             m_InventorApp = Nothing
 
             ' Force garbage collection
@@ -408,6 +413,18 @@ Namespace AssemblyClonerAddIn
                     thicknessIcon16,
                     thicknessIcon32)
 
+                Dim sheetConvertIcon16 As stdole.IPictureDisp = CreateGlyphPicture("SM", 16, System.Drawing.Color.FromArgb(33, 150, 243))
+                Dim sheetConvertIcon32 As stdole.IPictureDisp = CreateGlyphPicture("SM", 32, System.Drawing.Color.FromArgb(33, 150, 243))
+                m_SheetMetalConverterAssemblyButton = controlDefs.AddButtonDefinition(
+                    "Sheet Metal Converter (Assembly)",
+                    "Cmd_SpectivSheetMetalConverterAssembly2026",
+                    CommandTypesEnum.kNonShapeEditCmdType,
+                    "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}",
+                    "Convert plate parts in active assembly to sheet metal and update PLATE LENGTH/WIDTH outputs",
+                    "Sheet Metal Converter (Assembly)",
+                    sheetConvertIcon16,
+                    sheetConvertIcon32)
+
                 Dim fixNonPlateIcon16 As stdole.IPictureDisp = CreateGlyphPicture("F", 16, System.Drawing.Color.FromArgb(255, 193, 7))
                 Dim fixNonPlateIcon32 As stdole.IPictureDisp = CreateGlyphPicture("F", 32, System.Drawing.Color.FromArgb(255, 193, 7))
                 m_FixNonPlatePartsButton = controlDefs.AddButtonDefinition(
@@ -484,6 +501,7 @@ Namespace AssemblyClonerAddIn
                     parameterPanel.CommandControls.AddButton(m_LengthParameterExporterButton, True)
                     parameterPanel.CommandControls.AddButton(m_Length2ParameterExporterButton, True)
                     parameterPanel.CommandControls.AddButton(m_ThicknessParameterExporterButton, True)
+                    parameterPanel.CommandControls.AddButton(m_SheetMetalConverterAssemblyButton, False)
                     parameterPanel.CommandControls.AddButton(m_FixNonPlatePartsButton, False)
                     parameterPanel.CommandControls.AddButton(m_FixSinglePartLength2Button, False)
                     parameterPanel.CommandControls.AddButton(m_FixBOMPlateDimensionsButton, False)
@@ -939,6 +957,16 @@ Namespace AssemblyClonerAddIn
             Catch ex As Exception
                 LogToolError("ThicknessParameterExporter", ex)
                 MsgBox("Error running Thickness Parameter Exporter: " & ex.Message, MsgBoxStyle.Critical, "Thickness Parameter Exporter")
+            End Try
+        End Sub
+
+        Private Sub m_SheetMetalConverterAssemblyButton_OnExecute(ByVal Context As NameValueMap) Handles m_SheetMetalConverterAssemblyButton.OnExecute
+            Try
+                If Not GuardToolEnabled(AddInTool.SheetMetalConverterAssembly, "Sheet Metal Converter (Assembly)") Then Return
+                m_SheetMetalConverterAssemblyTool.Execute()
+            Catch ex As Exception
+                LogToolError("SheetMetalConverterAssembly", ex)
+                MsgBox("Error running Sheet Metal Converter (Assembly): " & ex.Message, MsgBoxStyle.Critical, "Sheet Metal Converter (Assembly)")
             End Try
         End Sub
 

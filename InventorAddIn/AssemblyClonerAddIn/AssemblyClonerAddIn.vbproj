@@ -106,6 +106,8 @@
     <Compile Include="UpdateSameFolderDerivedPartsTool.vb" />
     <Compile Include="AssemblyRenamerTool.vb" />
     <Compile Include="ParameterExporterTools.vb" />
+    <Compile Include="AssemblyBOMPrecision.vb" />
+    <Compile Include="SheetMetalConverterAssemblyTool.vb" />
     <Compile Include="StandardAddInServer.vb" />
     <Compile Include="AssemblyCloner.vb" />
     <Compile Include="iLogicPatcher.vb" />

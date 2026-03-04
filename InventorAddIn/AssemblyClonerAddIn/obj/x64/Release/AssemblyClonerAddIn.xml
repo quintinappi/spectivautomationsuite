@@ -362,5 +362,46 @@ AssemblyClonerAddIn
  Close log
  </summary>
 </member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.Execute(System.Collections.Generic.IEnumerable{System.String})">
+ <summary>
+ Main entry point - shows dialog and processes assembly
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.ScanForPlateParts(Inventor.AssemblyDocument)">
+ <summary>
+ Scans assembly for unique plate parts using BOM view
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.GetDiagnosticInfo(Inventor.AssemblyDocument)">
+ <summary>
+ Gets diagnostic information about what was found in the assembly
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.IsPlatePart(Inventor.PartDocument)">
+ <summary>
+ Determines if a part is a plate based on part number or description
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.UpdatePartPrecisionReliableByPath(System.String)">
+ <summary>
+ RELIABLE METHOD: Uses Document Settings UI to toggle precision
+ This is the ONLY method that reliably triggers BOM refresh
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.FinalizeAssembly(Inventor.AssemblyDocument)">
+ <summary>
+ Finalizes the assembly after processing all parts
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyBOMPrecision.ShowResults(System.Int32)">
+ <summary>
+ Shows results dialog
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.ProgressDialog">
+ <summary>
+ Simple progress dialog
+ </summary>
+</member>
 </members>
 </doc>

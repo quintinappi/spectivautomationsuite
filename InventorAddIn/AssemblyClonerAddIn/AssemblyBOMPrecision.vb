@@ -22,7 +22,7 @@ Public Class AssemblyBOMPrecision
     ''' <summary>
     ''' Main entry point - shows dialog and processes assembly
     ''' </summary>
-    Public Sub Execute()
+    Public Sub Execute(Optional ByVal explicitPartPaths As IEnumerable(Of String) = Nothing)
         Try
             ' Check for active assembly
             If m_InventorApp.ActiveDocument Is Nothing Then
@@ -40,10 +40,23 @@ Public Class AssemblyBOMPrecision
 
             Dim asmDoc As AssemblyDocument = CType(m_InventorApp.ActiveDocument, AssemblyDocument)
 
-            ' Scan for plate parts
-            Dim plateParts As List(Of PartDocument) = ScanForPlateParts(asmDoc)
+            Dim targetPartPaths As List(Of String) = Nothing
+            If explicitPartPaths IsNot Nothing Then
+                targetPartPaths = NormalizePartPaths(explicitPartPaths)
+            Else
+                Dim plateParts As List(Of PartDocument) = ScanForPlateParts(asmDoc)
+                targetPartPaths = New List(Of String)()
+                For Each partDoc As PartDocument In plateParts
+                    Try
+                        If partDoc IsNot Nothing AndAlso Not String.IsNullOrWhiteSpace(partDoc.FullFileName) Then
+                            targetPartPaths.Add(partDoc.FullFileName)
+                        End If
+                    Catch
+                    End Try
+                Next
+            End If
 
-            If plateParts.Count = 0 Then
+            If targetPartPaths.Count = 0 Then
                 ' Get diagnostic info
                 Dim diagInfo As String = GetDiagnosticInfo(asmDoc)
                 
@@ -67,7 +80,7 @@ Public Class AssemblyBOMPrecision
                             "6. Save and close part" & vbCrLf & vbCrLf & _
                             "Estimated time: {1} seconds" & vbCrLf & vbCrLf & _
                             "Continue?", _
-                            plateParts.Count, plateParts.Count * 5)
+                            targetPartPaths.Count, targetPartPaths.Count * 5)
 
             If MessageBox.Show(msg, "BOM Precision Update", _
                               MessageBoxButtons.OKCancel, MessageBoxIcon.Question) <> DialogResult.OK Then
@@ -81,22 +94,27 @@ Public Class AssemblyBOMPrecision
 
             Using m_ProgressForm = New ProgressDialog()
                 m_ProgressForm.Text = "Updating BOM Precision..."
-                m_ProgressForm.Maximum = plateParts.Count
+                m_ProgressForm.Maximum = targetPartPaths.Count
                 m_ProgressForm.Status = "Starting..."
                 m_ProgressForm.Show()
 
                 ' Process each part
-                For i As Integer = 0 To plateParts.Count - 1
+                For i As Integer = 0 To targetPartPaths.Count - 1
                     If m_Cancelled Then Exit For
 
-                    Dim partDoc As PartDocument = plateParts(i)
+                    Dim partPath As String = targetPartPaths(i)
+                    Dim partLabel As String = System.IO.Path.GetFileName(partPath)
+                    If String.IsNullOrWhiteSpace(partLabel) Then
+                        partLabel = partPath
+                    End If
+
                     m_ProgressForm.Current = i + 1
                     m_ProgressForm.Status = String.Format("Processing {0} ({1}/{2})...", _
-                                                         partDoc.DisplayName, i + 1, plateParts.Count)
+                                                         partLabel, i + 1, targetPartPaths.Count)
                     m_ProgressForm.Refresh()
 
                     ' Process the part using RELIABLE method
-                    If UpdatePartPrecisionReliable(partDoc) Then
+                    If UpdatePartPrecisionReliableByPath(partPath) Then
                         m_SuccessCount += 1
                     Else
                         m_FailCount += 1
@@ -114,7 +132,7 @@ Public Class AssemblyBOMPrecision
             FinalizeAssembly(asmDoc)
 
             ' Show results
-            ShowResults(plateParts.Count)
+            ShowResults(targetPartPaths.Count)
 
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message & vbCrLf & vbCrLf & ex.StackTrace, _
@@ -266,15 +284,11 @@ Public Class AssemblyBOMPrecision
     ''' RELIABLE METHOD: Uses Document Settings UI to toggle precision
     ''' This is the ONLY method that reliably triggers BOM refresh
     ''' </summary>
-    Private Function UpdatePartPrecisionReliable(partDoc As PartDocument) As Boolean
+    Private Function UpdatePartPrecisionReliableByPath(ByVal fullPath As String) As Boolean
         Try
-            Dim fullPath As String = partDoc.FullFileName
-            
-            ' Close if already open
-            Try
-                partDoc.Close(False)
-            Catch
-            End Try
+            If String.IsNullOrWhiteSpace(fullPath) Then
+                Return False
+            End If
             
             ' Re-open visibly
             Dim openedDoc As Document = m_InventorApp.Documents.Open(fullPath, True)
@@ -314,9 +328,9 @@ Public Class AssemblyBOMPrecision
             End Try
             Thread.Sleep(300)
 
-            ' OPEN DOCUMENT SETTINGS USING ALT+D (your custom shortcut)
-            System.Windows.Forms.SendKeys.SendWait("%d")
-            Thread.Sleep(1500)
+            If Not OpenDocumentSettingsDialog() Then
+                Return False
+            End If
             
             ' NAVIGATE TO UNITS TAB
             ' Tab 5 times to get to tab control, then Right arrow to Units
@@ -341,6 +355,10 @@ Public Class AssemblyBOMPrecision
             Thread.Sleep(300)
             System.Windows.Forms.SendKeys.SendWait("{UP}")    ' Ensure we're at 0
             Thread.Sleep(300)
+
+            ' Press Apply first to force UI event path, then confirm/close.
+            System.Windows.Forms.SendKeys.SendWait("%a")
+            Thread.Sleep(400)
             
             ' PRESS OK
             System.Windows.Forms.SendKeys.SendWait("{ENTER}")
@@ -360,13 +378,66 @@ Public Class AssemblyBOMPrecision
             
         Catch ex As Exception
             System.Diagnostics.Debug.WriteLine("Error in UI method: " & ex.Message)
-            
-            ' Try to close document if open
-            Try
-                partDoc.Close(False)
-            Catch
-            End Try
-            
+            Return False
+        End Try
+    End Function
+
+    Private Function NormalizePartPaths(ByVal partPaths As IEnumerable(Of String)) As List(Of String)
+        Dim result As New List(Of String)()
+        Dim seen As New HashSet(Of String)(StringComparer.OrdinalIgnoreCase)
+
+        If partPaths Is Nothing Then
+            Return result
+        End If
+
+        For Each rawPath As String In partPaths
+            Dim partPath As String = If(rawPath, String.Empty).Trim()
+            If String.IsNullOrWhiteSpace(partPath) Then
+                Continue For
+            End If
+
+            If Not partPath.EndsWith(".ipt", StringComparison.OrdinalIgnoreCase) Then
+                Continue For
+            End If
+
+            If seen.Add(partPath) Then
+                result.Add(partPath)
+            End If
+        Next
+
+        Return result
+    End Function
+
+    Private Function OpenDocumentSettingsDialog() As Boolean
+        Try
+            Dim cmdMgr As CommandManager = m_InventorApp.CommandManager
+            Dim ctrlDefs As ControlDefinitions = cmdMgr.ControlDefinitions
+            Dim commandIds As String() = {"PartDocumentSettingsCmd", "AppDocumentSettingsCmd", "PartSettingsCmd"}
+
+            For Each cmdId As String In commandIds
+                Try
+                    Dim ctrlDef As ControlDefinition = ctrlDefs.Item(cmdId)
+                    If ctrlDef Is Nothing Then
+                        Continue For
+                    End If
+
+                    Dim buttonDef As ButtonDefinition = TryCast(ctrlDef, ButtonDefinition)
+                    If buttonDef IsNot Nothing Then
+                        buttonDef.Execute2(False)
+                    Else
+                        ctrlDef.Execute()
+                    End If
+
+                    Thread.Sleep(1400)
+                    Return True
+                Catch
+                End Try
+            Next
+
+            System.Windows.Forms.SendKeys.SendWait("%d")
+            Thread.Sleep(1500)
+            Return True
+        Catch
             Return False
         End Try
     End Function

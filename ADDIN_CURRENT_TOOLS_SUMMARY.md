@@ -19,7 +19,7 @@
 | 4 | **Part Renamer** | R / Red | PartRenamer.vb | Rename assembly parts with heritage method (uses EXACT same logic as Assembly_Renamer.vbs) | ✅ Working |
 | 5 | **Smart Inspector** | S / Dark Gray | AssemblySmartInspector.vb | Inspect current assembly, list parts, show iLogic parameters/forms (experimental) | ✅ Working |
 | 6 | **Beam Assembly Generator** | B / Teal | BeamAssemblyGenerator.vb | Generate parametric beam assembly with endplates (SANS steel sections) | ✅ Working |
-| 7 | **Update Document Settings** | U / Pink | PlateDocumentSettings.vb | Apply document settings to fix BOM decimal precision for plate parts | ⚠️ Under investigation |
+| 7 | **Update Document Settings** | U / Pink | PlateDocumentSettings.vb | Apply document settings to fix BOM decimal precision for plate parts | ✅ Working (enhanced diagnostics) |
 | 8 | **Place Parts in IDW** | V / Cyan | PartPlacer.vb | Scan assembly for PL/S355JR parts and place them in a new IDW at 1:1 scale | ✅ NEW |
 
 ### **Part Ribbon** (Tools Tab → Cloner Tools Panel)
@@ -38,8 +38,8 @@
 - **Module:** PlateDocumentSettings.vb
 - **Trigger:** OnDocumentSave event
 - **Function:** Automatically removes decimals from BOM quantities when saving plate parts
-- **Status:** ⚠️ **Under investigation** - BOM doesn't refresh until manual document settings toggle
-- **Workaround:** Open document settings, change units → change back (no save needed)
+- **Status:** ✅ Active with refresh-cycle diagnostics for precision/dirty/BOM stages
+- **Workaround:** Use **Update Document Settings** command on assembly when BOM display is stale
 
 ---
 
@@ -167,10 +167,10 @@ Icons created at 16x16 and 32x32 pixels with colored backgrounds and white lette
 5. ✅ **Smart Inspector** - Lists parts, shows parameters, validates assembly
 
 ### **What Needs Work:**
-1. ⚠️ **Plate Document Settings** - BOM decimal fix doesn't refresh display automatically
-   - **Root Cause:** Inventor API doesn't provide direct BOM refresh
-   - **Workaround:** Toggle document settings units
-   - **Investigation:** Looking for alternative refresh methods
+1. ⚠️ **Edge-case BOM refresh validation** - precision refresh path now logs detailed trace points
+   - **Current approach:** Precision/display/expression toggle + units toggle + dirty/save + BOM refresh
+   - **Diagnostics:** Review local add-in log for per-part outcomes and refresh stage details
+   - **Next check:** Confirm behavior across large assemblies and mixed modifiable/read-only parts
 
 ### **Future Enhancements:**
 - [ ] Preview dialog before cloning
@@ -192,6 +192,6 @@ Icons created at 16x16 and 32x32 pixels with colored backgrounds and white lette
 
 ---
 
-**Last Updated:** February 4, 2026
-**Version:** 1.1
-**Status:** Production Ready (with 1 feature under investigation)
+**Last Updated:** March 4, 2026
+**Version:** 1.2
+**Status:** Production Ready (with targeted diagnostics enabled)
