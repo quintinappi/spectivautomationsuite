@@ -1,0 +1,104 @@
+﻿2025-12-16 08:31:08 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 08:31:08 | Using EXACT methodology from VBScript Option 9
+2025-12-16 08:31:08 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Side Panel-1\Panel-1.iam
+2025-12-16 08:31:08 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Side Panel-1
+2025-12-16 08:31:10 | User confirmed clone operation
+2025-12-16 08:31:10 | Opening folder browser dialog...
+2025-12-16 08:32:05 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Side Panel-13
+2025-12-16 08:32:06 | Rename parts: True
+2025-12-16 08:32:06 | Prompting for plant section prefix...
+2025-12-16 08:32:07 | Plant section prefix: Side Panel-13
+2025-12-16 08:32:08 | New assembly name: Side Panel-13
+2025-12-16 08:32:08 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Side Panel-13\Side Panel-13.iam
+2025-12-16 08:32:08 | COLLECT: Part1 S-P1.ipt (PL 20mm S355JR)
+2025-12-16 08:32:08 | COLLECT: Part2 203 x 203 x 46 H S-P1.ipt (UC203x203x46)
+2025-12-16 08:32:08 | COLLECT: Part3 S-P1.ipt (PL 10mm S355JR)
+2025-12-16 08:32:08 | COLLECT: Part4 203 x 203 x 46 H S-P1.ipt (UC203x203x46)
+2025-12-16 08:32:08 | COLLECT: Part6 S-P1.ipt (PL 8mm S355JR)
+2025-12-16 08:32:08 | COLLECT: Part7 S-P1.ipt (PL 8mm S355JR)
+2025-12-16 08:32:08 | COLLECT: Part6 203 x 203 x 46 H.ipt (I Section Parallel Flange - Universal Beams)
+2025-12-16 08:32:08 | COLLECT: Panel4-Part6.ipt (PL 12mm S355JR)
+2025-12-16 08:32:08 | Collected 8 parts
+2025-12-16 08:32:08 | Closing source assembly for safe copy...
+2025-12-16 08:32:08 | Copying assembly file...
+2025-12-16 08:32:08 | COPIED: Panel-1.iam -> Side Panel-13.iam
+2025-12-16 08:32:08 | Copying 8 parts...
+2025-12-16 08:32:08 | COPIED: Part1 S-P1.ipt -> Side Panel-13-PL1.ipt
+2025-12-16 08:32:08 | COPIED: Part2 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B2.ipt
+2025-12-16 08:32:08 | COPIED: Part3 S-P1.ipt -> Side Panel-13-PL3.ipt
+2025-12-16 08:32:08 | COPIED: Part4 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B4.ipt
+2025-12-16 08:32:08 | COPIED: Part6 S-P1.ipt -> Side Panel-13-PL5.ipt
+2025-12-16 08:32:08 | COPIED: Part7 S-P1.ipt -> Side Panel-13-PL6.ipt
+2025-12-16 08:32:08 | COPIED: Part6 203 x 203 x 46 H.ipt -> Side Panel-13-OTHER7.ipt
+2025-12-16 08:32:08 | COPIED: Panel4-Part6.ipt -> Side Panel-13-PL8.ipt
+2025-12-16 08:32:08 | Updating assembly references and patching iLogic...
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Opened Side Panel-13.iam
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Found 9 file references
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part6 203 x 203 x 46 H.ipt -> Side Panel-13-OTHER7.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Panel4-Part6.ipt -> Side Panel-13-PL8.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: No mapping for Bolted Connection1.iam
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part1 S-P1.ipt -> Side Panel-13-PL1.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part2 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B2.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part3 S-P1.ipt -> Side Panel-13-PL3.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part4 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B4.ipt
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:08 | ASSEMBLY UPDATE: Replacing Part6 S-P1.ipt -> Side Panel-13-PL5.ipt
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Replacing Part7 S-P1.ipt -> Side Panel-13-PL6.ipt
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Updated 8 references
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 08:32:09 |   Renamed: "Bolted Connection:1" -> "Bolted Connection1:1"
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Renamed 1 occurrences
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 08:32:09 | Patching iLogic rules (in same session)...
+2025-12-16 08:32:09 | Patched 0 iLogic rules
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 08:32:09 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 08:32:09 | Processing IDW files...
+2025-12-16 08:32:09 | IDW PROCESS: Found 1 IDW files
+2025-12-16 08:32:12 | IDW PROCESS: Processing MGY-200-DRD-01-01-01.idw -> MGY-200-DRD-01-01-01.idw
+2025-12-16 08:32:13 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 08:32:14 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 08:32:14 | IDW PROCESS: Found 7 references
+2025-12-16 08:32:14 | IDW PROCESS: Updating Panel-1.iam -> Side Panel-13.iam
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: Updating Part1 S-P1.ipt -> Side Panel-13-PL1.ipt
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: Updating Part2 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B2.ipt
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: Updating Part3 S-P1.ipt -> Side Panel-13-PL3.ipt
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: Updating Part4 203 x 203 x 46 H S-P1.ipt -> Side Panel-13-B4.ipt
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: No mapping for Part5 Beam S-P1.ipt
+2025-12-16 08:32:14 | IDW PROCESS: Updating Part6 S-P1.ipt -> Side Panel-13-PL5.ipt
+2025-12-16 08:32:14 | IDW PROCESS: SUCCESS
+2025-12-16 08:32:14 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 08:32:14 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 08:32:14 | IDW PROCESS: Updating iProperties for MGY-200-DRD-01-01-01.idw
+2025-12-16 08:32:14 | IDW PROCESS: Updated Part Number to 'MGY-200-DRD-01-01-01'
+2025-12-16 08:32:14 | IDW PROCESS: Updated Description to 'Side Panel-13'
+2025-12-16 08:32:14 | IDW PROCESS: iProperties update complete for MGY-200-DRD-01-01-01.idw
+2025-12-16 08:32:14 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Side Panel-13\MGY-200-DRD-01-01-01.idw
+2025-12-16 08:32:15 | IDW PROCESS: Successfully saved MGY-200-DRD-01-01-01.idw as MGY-200-DRD-01-01-01.idw (6 references updated)
+2025-12-16 08:32:15 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 08:32:15 | Updating iProperties for copied documents...
+2025-12-16 08:32:15 | Updated iProperties for Side Panel-13.iam
+2025-12-16 08:32:15 | Updated iProperties for Side Panel-13-PL1.ipt
+2025-12-16 08:32:15 | Updated iProperties for Side Panel-13-B2.ipt
+2025-12-16 08:32:16 | Updated iProperties for Side Panel-13-PL3.ipt
+2025-12-16 08:32:16 | Updated iProperties for Side Panel-13-B4.ipt
+2025-12-16 08:32:16 | Updated iProperties for Side Panel-13-PL5.ipt
+2025-12-16 08:32:16 | Updated iProperties for Side Panel-13-PL6.ipt
+2025-12-16 08:32:18 | Updated iProperties for Side Panel-13-PL8.ipt
+2025-12-16 08:32:18 | Saving iLogic patch log...
+2025-12-16 08:32:18 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 08:32:18 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_083108.log

@@ -1,0 +1,118 @@
+﻿2025-12-11 08:03:53 | === ASSEMBLY CLONER STARTED ===
+2025-12-11 08:03:53 | Using EXACT methodology from VBScript Option 9
+2025-12-11 08:03:53 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\Staircase-2\Staircase-2.iam
+2025-12-11 08:03:53 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\Staircase-2
+2025-12-11 08:03:57 | User confirmed clone operation
+2025-12-11 08:03:57 | Opening folder browser dialog...
+2025-12-11 08:04:04 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\staircasetest2
+2025-12-11 08:04:05 | Rename parts: True
+2025-12-11 08:04:05 | Prompting for plant section prefix...
+2025-12-11 08:04:06 | Plant section prefix: staircasetest2
+2025-12-11 08:04:06 | New assembly name will be: staircasetest2.iam
+2025-12-11 08:04:06 | COLLECT: Part1 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part2 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part3 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part5 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part6 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part7 Stair End Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 08:04:06 | COLLECT: Part8 Stair Stanchion Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 08:04:06 | COLLECT: Part9 Stair End Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 08:04:06 | COLLECT: Step S-2.ipt (TREAD - STD 750 WIDE STEP)
+2025-12-11 08:04:06 | COLLECT: Part10 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | COLLECT: Part11 Stanchion Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 08:04:06 | COLLECT: Part4 TFC  S-2.ipt (TFC178x54x15)
+2025-12-11 08:04:06 | Collected 12 parts
+2025-12-11 08:04:06 | Closing source assembly for safe copy...
+2025-12-11 08:04:06 | Copying assembly file...
+2025-12-11 08:04:06 | COPIED: Staircase-2.iam -> staircasetest2.iam
+2025-12-11 08:04:06 | Copying 12 parts...
+2025-12-11 08:04:06 | COPIED: Part1 TFC S-2.ipt -> staircasetest2-CH1.ipt
+2025-12-11 08:04:06 | COPIED: Part2 TFC S-2.ipt -> staircasetest2-CH2.ipt
+2025-12-11 08:04:06 | COPIED: Part3 TFC S-2.ipt -> staircasetest2-CH3.ipt
+2025-12-11 08:04:06 | COPIED: Part5 TFC S-2.ipt -> staircasetest2-CH4.ipt
+2025-12-11 08:04:06 | COPIED: Part6 TFC S-2.ipt -> staircasetest2-CH5.ipt
+2025-12-11 08:04:06 | COPIED: Part7 Stair End Plate S-2.ipt -> staircasetest2-PL6.ipt
+2025-12-11 08:04:06 | COPIED: Part8 Stair Stanchion Plate S-2.ipt -> staircasetest2-PL7.ipt
+2025-12-11 08:04:06 | COPIED: Part9 Stair End Plate S-2.ipt -> staircasetest2-PL8.ipt
+2025-12-11 08:04:06 | COPIED: Step S-2.ipt -> staircasetest2-OTHER9.ipt
+2025-12-11 08:04:06 | COPIED: Part10 TFC S-2.ipt -> staircasetest2-CH10.ipt
+2025-12-11 08:04:06 | COPIED: Part11 Stanchion Plate S-2.ipt -> staircasetest2-PL11.ipt
+2025-12-11 08:04:06 | COPIED: Part4 TFC  S-2.ipt -> staircasetest2-CH12.ipt
+2025-12-11 08:04:06 | Updating assembly references and patching iLogic...
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Opened staircasetest2.iam
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Found 13 file references
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part1 TFC S-2.ipt -> staircasetest2-CH1.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part10 TFC S-2.ipt -> staircasetest2-CH10.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part11 Stanchion Plate S-2.ipt -> staircasetest2-PL11.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part2 TFC S-2.ipt -> staircasetest2-CH2.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part3 TFC S-2.ipt -> staircasetest2-CH3.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part4 TFC  S-2.ipt -> staircasetest2-CH12.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part5 TFC S-2.ipt -> staircasetest2-CH4.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part6 TFC S-2.ipt -> staircasetest2-CH5.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part7 Stair End Plate S-2.ipt -> staircasetest2-PL6.ipt
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:06 | ASSEMBLY UPDATE: Replacing Part8 Stair Stanchion Plate S-2.ipt -> staircasetest2-PL7.ipt
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Replacing Part9 Stair End Plate S-2.ipt -> staircasetest2-PL8.ipt
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: No mapping for NSCR03-000-SCA2Bolted Connection1.iam
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Replacing Step S-2.ipt -> staircasetest2-OTHER9.ipt
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: SUCCESS
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Updated 12 references
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-11 08:04:07 |   Renamed: "Part7 Stair End Plate S-2:1" -> "staircasetest2-PL6:1"
+2025-12-11 08:04:07 |   Renamed: "Bolted Connection:1" -> "NSCR03-000-SCA2Bolted Connection1:1"
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Renamed 2 occurrences
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-11 08:04:07 | Patching iLogic rules (in same session)...
+2025-12-11 08:04:07 | Patched 1 iLogic rules
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-11 08:04:07 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-11 08:04:07 | Processing IDW files...
+2025-12-11 08:04:07 | IDW PROCESS: Found 1 IDW files
+2025-12-11 08:04:07 | IDW PROCESS: Processing MGY-200-DSL-01-12.idw
+2025-12-11 08:04:07 | IDW PROCESS: Opening original IDW from source location...
+2025-12-11 08:04:09 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-11 08:04:09 | IDW PROCESS: Found 12 references
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part1 TFC S-2.ipt -> staircasetest2-CH1.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part10 TFC S-2.ipt -> staircasetest2-CH10.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part11 Stanchion Plate S-2.ipt -> staircasetest2-PL11.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part2 TFC S-2.ipt -> staircasetest2-CH2.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part3 TFC S-2.ipt -> staircasetest2-CH3.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part4 TFC  S-2.ipt -> staircasetest2-CH12.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part5 TFC S-2.ipt -> staircasetest2-CH4.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part6 TFC S-2.ipt -> staircasetest2-CH5.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part7 Stair End Plate S-2.ipt -> staircasetest2-PL6.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part8 Stair Stanchion Plate S-2.ipt -> staircasetest2-PL7.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Part9 Stair End Plate S-2.ipt -> staircasetest2-PL8.ipt
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Updating Staircase-2.iam -> staircasetest2.iam
+2025-12-11 08:04:09 | IDW PROCESS: SUCCESS
+2025-12-11 08:04:09 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-11 08:04:09 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-11 08:04:09 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\staircasetest2\MGY-200-DSL-01-12.idw
+2025-12-11 08:04:10 | IDW PROCESS: Successfully saved MGY-200-DSL-01-12.idw (12 references updated)
+2025-12-11 08:04:11 | IDW PROCESS: All IDW files processed successfully
+2025-12-11 08:04:11 | Saving iLogic patch log...
+2025-12-11 08:04:11 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-11 08:04:11 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251211_080353.log

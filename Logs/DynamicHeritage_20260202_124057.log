@@ -1,0 +1,154 @@
+2026-02-02 12:40:57 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-02 12:40:57 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-02 12:40:58 | SUCCESS: Connected to existing Inventor instance
+2026-02-02 12:40:58 | STEP 1: Detecting open assembly and analyzing components
+2026-02-02 12:40:58 | DETECTED: Document type: 12291
+2026-02-02 12:40:58 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-02 12:40:58 | DETECTED: Active assembly - N1SCR04-734.iam
+2026-02-02 12:40:58 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\N1SCR04-734.iam
+2026-02-02 12:40:59 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-02 12:40:59 | CONFIRMED: 4 occurrences to process
+2026-02-02 12:40:59 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box
+2026-02-02 12:40:59 | STEP 0: Selecting mapping file location FIRST
+2026-02-02 12:40:59 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-02 12:41:15 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 12:41:15 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-02 12:41:16 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 12:41:16 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-02 12:41:16 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-02 12:41:16 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-02 12:41:16 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box
+2026-02-02 12:41:16 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_0_AUDIT.txt
+2026-02-02 12:41:16 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-02 12:41:16 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_0_AUDIT.txt
+2026-02-02 12:41:16 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-02 12:41:16 | STEP 2: Flattening hierarchy and grouping components
+2026-02-02 12:41:16 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-02 12:41:16 | ANALYZE: Processing assembly - N1SCR04-734.iam (Level: ROOT)
+2026-02-02 12:41:16 | ANALYZE: Found 4 occurrences in N1SCR04-734.iam
+2026-02-02 12:41:16 | ANALYZE: RECURSING into sub-assembly - Support Frame.iam
+2026-02-02 12:41:16 | ANALYZE: Processing assembly - Support Frame.iam (Level: ROOT>Support Frame.iam)
+2026-02-02 12:41:16 | ANALYZE: Found 11 occurrences in Support Frame.iam
+2026-02-02 12:41:16 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 12:41:16 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 12:41:16 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 12:41:16 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 12:41:16 | ANALYZE: PART - Part1 FB-C1.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Column.iam)
+2026-02-02 12:41:16 | ANALYZE: Created new group - PL
+2026-02-02 12:41:16 | ANALYZE: PART - Part2 203x133x25 FB-C1.ipt -> Description: UB203x133x25 -> Group: B (from Support Column.iam)
+2026-02-02 12:41:16 | ANALYZE: Created new group - B
+2026-02-02 12:41:16 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 12:41:16 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 12:41:16 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 12:41:16 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 12:41:16 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 12:41:16 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 12:41:16 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-02 12:41:17 | ANALYZE: PART - Part1 FB-B1.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Beam-1.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part2 203x133x25 FB-B1.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-1.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Beam-3.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Beam-3.iam (Level: ROOT>Support Frame.iam>Support Beam-3.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 3 occurrences in Support Beam-3.iam
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: PART - Part2 203x133x25 FB-B3.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-3.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 3 occurrences in Support Beam-2.iam
+2026-02-02 12:41:17 | ANALYZE: PART - Part1 FB-B2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Beam-2.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part2 203x133x25 FB-B2.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-2.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 3 occurrences in Support Beam-2.iam
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-B2.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: SKIPPING (suppressed occurrence in N1SCR04-734.iam)
+2026-02-02 12:41:17 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 12:41:17 | ANALYZE: RECURSING into sub-assembly - Floats Flood Chute.iam
+2026-02-02 12:41:17 | ANALYZE: Processing assembly - Floats Flood Chute.iam (Level: ROOT>Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: Found 30 occurrences in Floats Flood Chute.iam
+2026-02-02 12:41:17 | ANALYZE: PART - Part3 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part4 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part5 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part5 FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: PART - Part6 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: Created new group - A
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Angle FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: PART - Part7 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part8 (Part7 Angle MIR) FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part9 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: PART - Part10 FB-C.ipt -> Description: PL 10mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: PART - Part11 Corner Gusset FB-C.ipt -> Description: PL 10mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 12:41:17 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: PART - Lug FB-C.ipt -> Description: PL 20mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 12:41:18 | ANALYZE: WARNING - No description found for Part12 FB-C.ipt (in Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: WARNING - No description found for Part13 FB-C.ipt (in Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: WARNING - No description found for Part14 FB-C.ipt (in Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: PART - Part3 Flange L1.ipt -> Description: FLANGE - 200NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: Created new group - FLG
+2026-02-02 12:41:18 | ANALYZE: WARNING - No description found for Part15.ipt (in Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: PART - Part2 Pipe L1.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: P (from Floats Flood Chute.iam)
+2026-02-02 12:41:18 | ANALYZE: Created new group - P
+2026-02-02 12:41:18 | ANALYZE: Recursive processing completed - Total unique parts processed: 23
+2026-02-02 12:41:18 | ANALYZE: Created 5 component groups
+2026-02-02 12:41:18 | DEBUG GROUP: 'PL' contains 9 components:
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part1 FB-C1.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt
+2026-02-02 12:41:18 | DEBUG GROUP: 'B' contains 4 components:
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\Part2 203x133x25 FB-B3.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2026-02-02 12:41:18 | DEBUG GROUP: 'A' contains 4 components:
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-02-02 12:41:18 | DEBUG GROUP: 'FLG' contains 1 components:
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 Flange L1.ipt
+2026-02-02 12:41:18 | DEBUG GROUP: 'P' contains 1 components:
+2026-02-02 12:41:18 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 Pipe L1.ipt
+2026-02-02 12:41:18 | STEP 3: Getting plant section naming convention
+2026-02-02 12:41:18 | PLANT: Getting plant section naming convention from user
+2026-02-02 12:41:22 | ERROR: User did not provide required project prefix
+2026-02-02 12:41:22 | STEP 4: Showing component groups summary
+2026-02-02 12:41:22 | SUMMARY: Showing component groups to user

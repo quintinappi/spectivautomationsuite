@@ -1,0 +1,124 @@
+﻿2025-12-15 14:15:34 | === ASSEMBLY CLONER STARTED ===
+2025-12-15 14:15:34 | Using EXACT methodology from VBScript Option 9
+2025-12-15 14:15:34 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Screen motor Support\Screen Motor Support.iam
+2025-12-15 14:15:34 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Screen motor Support
+2025-12-15 14:15:35 | User confirmed clone operation
+2025-12-15 14:15:35 | Opening folder browser dialog...
+2025-12-15 14:16:14 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Motor Support Structure
+2025-12-15 14:16:15 | Rename parts: True
+2025-12-15 14:16:15 | Prompting for plant section prefix...
+2025-12-15 14:16:19 | Plant section prefix: Motor Support Structure
+2025-12-15 14:16:25 | New assembly name: Motor Support Structure
+2025-12-15 14:16:25 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Motor Support Structure\Motor Support Structure.iam
+2025-12-15 14:16:25 | COLLECT: Part1 End Plate.ipt (PL 10mm S355JR)
+2025-12-15 14:16:25 | COLLECT: Part2 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part3 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part4 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part5 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part6 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part7 (Part6 PFC MIR).ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part8 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part9 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | COLLECT: Part10 PFC.ipt (PFC100x50)
+2025-12-15 14:16:25 | Collected 10 parts
+2025-12-15 14:16:25 | Closing source assembly for safe copy...
+2025-12-15 14:16:25 | Copying assembly file...
+2025-12-15 14:16:25 | COPIED: Screen Motor Support.iam -> Motor Support Structure.iam
+2025-12-15 14:16:25 | Copying 10 parts...
+2025-12-15 14:16:25 | COPIED: Part1 End Plate.ipt -> Motor Support Structure-PL1.ipt
+2025-12-15 14:16:25 | COPIED: Part2 PFC.ipt -> Motor Support Structure-CH2.ipt
+2025-12-15 14:16:25 | COPIED: Part3 PFC.ipt -> Motor Support Structure-CH3.ipt
+2025-12-15 14:16:25 | COPIED: Part4 PFC.ipt -> Motor Support Structure-CH4.ipt
+2025-12-15 14:16:25 | COPIED: Part5 PFC.ipt -> Motor Support Structure-CH5.ipt
+2025-12-15 14:16:25 | COPIED: Part6 PFC.ipt -> Motor Support Structure-CH6.ipt
+2025-12-15 14:16:25 | COPIED: Part7 (Part6 PFC MIR).ipt -> Motor Support Structure-CH7.ipt
+2025-12-15 14:16:25 | COPIED: Part8 PFC.ipt -> Motor Support Structure-CH8.ipt
+2025-12-15 14:16:25 | COPIED: Part9 PFC.ipt -> Motor Support Structure-CH9.ipt
+2025-12-15 14:16:25 | COPIED: Part10 PFC.ipt -> Motor Support Structure-CH10.ipt
+2025-12-15 14:16:25 | Updating assembly references and patching iLogic...
+2025-12-15 14:16:25 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-15 14:16:25 | ASSEMBLY UPDATE: Opened Motor Support Structure.iam
+2025-12-15 14:16:25 | ASSEMBLY UPDATE: Found 10 file references
+2025-12-15 14:16:25 | ASSEMBLY UPDATE: Replacing Part1 End Plate.ipt -> Motor Support Structure-PL1.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part10 PFC.ipt -> Motor Support Structure-CH10.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part2 PFC.ipt -> Motor Support Structure-CH2.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part3 PFC.ipt -> Motor Support Structure-CH3.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part4 PFC.ipt -> Motor Support Structure-CH4.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part5 PFC.ipt -> Motor Support Structure-CH5.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part6 PFC.ipt -> Motor Support Structure-CH6.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part7 (Part6 PFC MIR).ipt -> Motor Support Structure-CH7.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part8 PFC.ipt -> Motor Support Structure-CH8.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Replacing Part9 PFC.ipt -> Motor Support Structure-CH9.ipt
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Updated 10 references
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-15 14:16:26 |   Renamed: "Part7 (Part6 PFC MIR):1" -> "Motor Support Structure-CH7:1"
+2025-12-15 14:16:26 |   Renamed: "Part7 (Part6 PFC MIR):2" -> "Motor Support Structure-CH7:2"
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Renamed 2 occurrences
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-15 14:16:26 | Patching iLogic rules (in same session)...
+2025-12-15 14:16:26 | Patched 0 iLogic rules
+2025-12-15 14:16:26 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-15 14:16:27 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-15 14:16:27 | Processing IDW files...
+2025-12-15 14:16:27 | IDW PROCESS: Found 1 IDW files
+2025-12-15 14:16:54 | IDW PROCESS: Processing MGY-200-DRP-09.idw -> MGY-200-DRP-00.idw
+2025-12-15 14:16:54 | IDW PROCESS: Opening original IDW from source location...
+2025-12-15 14:16:55 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-15 14:16:55 | IDW PROCESS: Found 11 references
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part1 End Plate.ipt -> Motor Support Structure-PL1.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part10 PFC.ipt -> Motor Support Structure-CH10.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part2 PFC.ipt -> Motor Support Structure-CH2.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part3 PFC.ipt -> Motor Support Structure-CH3.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part4 PFC.ipt -> Motor Support Structure-CH4.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part5 PFC.ipt -> Motor Support Structure-CH5.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part6 PFC.ipt -> Motor Support Structure-CH6.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part7 (Part6 PFC MIR).ipt -> Motor Support Structure-CH7.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part8 PFC.ipt -> Motor Support Structure-CH8.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Part9 PFC.ipt -> Motor Support Structure-CH9.ipt
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Updating Screen Motor Support.iam -> Motor Support Structure.iam
+2025-12-15 14:16:55 | IDW PROCESS: SUCCESS
+2025-12-15 14:16:55 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-15 14:16:55 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-15 14:16:55 | IDW PROCESS: Updating iProperties for MGY-200-DRP-09.idw
+2025-12-15 14:16:55 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-00'
+2025-12-15 14:16:55 | IDW PROCESS: Updated Description to 'Motor Support Structure'
+2025-12-15 14:16:55 | IDW PROCESS: iProperties update complete for MGY-200-DRP-09.idw
+2025-12-15 14:16:55 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Motor Support Structure\MGY-200-DRP-00.idw
+2025-12-15 14:16:56 | IDW PROCESS: Successfully saved MGY-200-DRP-09.idw as MGY-200-DRP-00.idw (11 references updated)
+2025-12-15 14:16:56 | IDW PROCESS: All IDW files processed successfully
+2025-12-15 14:16:56 | Updating iProperties for copied documents...
+2025-12-15 14:17:34 | Updated iProperties for Motor Support Structure.iam
+2025-12-15 14:17:34 | Updated iProperties for Motor Support Structure-PL1.ipt
+2025-12-15 14:17:34 | Updated iProperties for Motor Support Structure-CH2.ipt
+2025-12-15 14:17:34 | Updated iProperties for Motor Support Structure-CH3.ipt
+2025-12-15 14:17:35 | Updated iProperties for Motor Support Structure-CH4.ipt
+2025-12-15 14:17:35 | Updated iProperties for Motor Support Structure-CH5.ipt
+2025-12-15 14:17:35 | Updated iProperties for Motor Support Structure-CH6.ipt
+2025-12-15 14:17:38 | Updated iProperties for Motor Support Structure-CH7.ipt
+2025-12-15 14:17:39 | Updated iProperties for Motor Support Structure-CH8.ipt
+2025-12-15 14:17:39 | Updated iProperties for Motor Support Structure-CH9.ipt
+2025-12-15 14:17:39 | Updated iProperties for Motor Support Structure-CH10.ipt
+2025-12-15 14:17:39 | Saving iLogic patch log...
+2025-12-15 14:17:39 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-15 14:17:39 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251215_141534.log

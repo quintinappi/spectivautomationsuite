@@ -1,0 +1,55 @@
+﻿2025-12-11 07:14:41 | === ASSEMBLY CLONER STARTED ===
+2025-12-11 07:14:41 | Using EXACT methodology from VBScript Option 9
+2025-12-11 07:14:41 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\Staircase-2\Staircase-2.iam
+2025-12-11 07:14:41 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\Staircase-2
+2025-12-11 07:14:43 | User confirmed clone operation
+2025-12-11 07:14:43 | Opening folder browser dialog...
+2025-12-11 07:15:12 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\000 Structure\staircasetest2
+2025-12-11 07:15:14 | Rename parts: True
+2025-12-11 07:15:14 | Prompting for plant section prefix...
+2025-12-11 07:15:15 | Plant section prefix: staircasetest2
+2025-12-11 07:15:15 | New assembly name will be: staircasetest2.iam
+2025-12-11 07:15:15 | COLLECT: Part1 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part2 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part3 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part5 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part6 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part7 Stair End Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 07:15:15 | COLLECT: Part8 Stair Stanchion Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 07:15:15 | COLLECT: Part9 Stair End Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 07:15:15 | COLLECT: Step S-2.ipt (TREAD - STD 750 WIDE STEP)
+2025-12-11 07:15:15 | COLLECT: Part10 TFC S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | COLLECT: Part11 Stanchion Plate S-2.ipt (PL 10mm S355JR)
+2025-12-11 07:15:15 | COLLECT: Part4 TFC  S-2.ipt (TFC178x54x15)
+2025-12-11 07:15:15 | Collected 12 parts
+2025-12-11 07:15:15 | Closing source assembly for safe copy...
+2025-12-11 07:15:20 | Copying assembly file...
+2025-12-11 07:15:20 | COPIED: Staircase-2.iam -> staircasetest2.iam
+2025-12-11 07:15:20 | Copying 12 parts...
+2025-12-11 07:15:20 | COPIED: Part1 TFC S-2.ipt -> staircasetest2-CH1.ipt
+2025-12-11 07:15:21 | COPIED: Part2 TFC S-2.ipt -> staircasetest2-CH2.ipt
+2025-12-11 07:15:21 | COPIED: Part3 TFC S-2.ipt -> staircasetest2-CH3.ipt
+2025-12-11 07:15:21 | COPIED: Part5 TFC S-2.ipt -> staircasetest2-CH4.ipt
+2025-12-11 07:15:21 | COPIED: Part6 TFC S-2.ipt -> staircasetest2-CH5.ipt
+2025-12-11 07:15:21 | COPIED: Part7 Stair End Plate S-2.ipt -> staircasetest2-PL6.ipt
+2025-12-11 07:15:21 | COPIED: Part8 Stair Stanchion Plate S-2.ipt -> staircasetest2-PL7.ipt
+2025-12-11 07:15:21 | COPIED: Part9 Stair End Plate S-2.ipt -> staircasetest2-PL8.ipt
+2025-12-11 07:15:21 | COPIED: Step S-2.ipt -> staircasetest2-OTHER9.ipt
+2025-12-11 07:15:21 | COPIED: Part10 TFC S-2.ipt -> staircasetest2-CH10.ipt
+2025-12-11 07:15:21 | COPIED: Part11 Stanchion Plate S-2.ipt -> staircasetest2-PL11.ipt
+2025-12-11 07:15:21 | COPIED: Part4 TFC  S-2.ipt -> staircasetest2-CH12.ipt
+2025-12-11 07:15:21 | Updating assembly references using fd.ReplaceReference...
+2025-12-11 07:15:21 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-11 07:15:21 | ASSEMBLY UPDATE: Opened staircasetest2.iam
+2025-12-11 07:15:21 | ASSEMBLY UPDATE: ERROR - Unable to cast COM object of type 'System.__ComObject' to interface type 'Inventor.ReferencedFileDescriptors'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{9E0BA9CB-E916-11D2-B785-0060B0F159EF}' failed due to the following error: No such interface supported (0x80004002 (E_NOINTERFACE)).
+2025-12-11 07:15:21 | Patching iLogic rules...
+2025-12-11 07:15:21 | Patched 1 iLogic rules
+2025-12-11 07:15:21 | Processing IDW files...
+2025-12-11 07:15:21 | IDW PROCESS: Found 1 IDW files
+2025-12-11 07:15:21 | IDW PROCESS: Processing MGY-200-DSL-01-12.idw
+2025-12-11 07:15:21 | IDW PROCESS: Opening original IDW from source location...
+2025-12-11 07:15:23 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-11 07:15:23 | IDW PROCESS: ERROR - Unable to cast COM object of type 'System.__ComObject' to interface type 'Inventor.ReferencedFileDescriptors'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{9E0BA9CB-E916-11D2-B785-0060B0F159EF}' failed due to the following error: No such interface supported (0x80004002 (E_NOINTERFACE)).
+2025-12-11 07:15:23 | Saving iLogic patch log...
+2025-12-11 07:15:23 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-11 07:15:23 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251211_071441.log

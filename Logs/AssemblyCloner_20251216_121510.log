@@ -1,0 +1,64 @@
+﻿2025-12-16 12:15:10 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 12:15:10 | Using EXACT methodology from VBScript Option 9
+2025-12-16 12:15:10 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\21. NSCR04 - Primary Floats D&R Screen Station\05. Model\Structure & Walkway\1.Structure\Beam26\Beam-26.iam
+2025-12-16 12:15:10 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\21. NSCR04 - Primary Floats D&R Screen Station\05. Model\Structure & Walkway\1.Structure\Beam26
+2025-12-16 12:15:12 | User confirmed clone operation
+2025-12-16 12:15:12 | Opening folder browser dialog...
+2025-12-16 12:15:35 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam with Endplates
+2025-12-16 12:15:36 | Rename parts: True
+2025-12-16 12:15:36 | Prompting for plant section prefix...
+2025-12-16 12:15:48 | Plant section prefix: BeamWithEndplates
+2025-12-16 12:15:57 | New assembly name: BeamWithEndplates
+2025-12-16 12:15:57 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam with Endplates\BeamWithEndplates.iam
+2025-12-16 12:15:57 | COLLECT: Part1 Beam.ipt (UB203x133x25)
+2025-12-16 12:15:57 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-16 12:15:57 | Collected 2 parts
+2025-12-16 12:15:57 | Closing source assembly for safe copy...
+2025-12-16 12:15:57 | Copying assembly file...
+2025-12-16 12:15:57 | COPIED: Beam-26.iam -> BeamWithEndplates.iam
+2025-12-16 12:15:57 | Copying 2 parts...
+2025-12-16 12:15:57 | COPIED: Part1 Beam.ipt -> BeamWithEndplates-B1.ipt
+2025-12-16 12:15:57 | COPIED: Part2 End Plate.ipt -> BeamWithEndplates-PL2.ipt
+2025-12-16 12:15:57 | Updating assembly references and patching iLogic...
+2025-12-16 12:15:57 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Opened BeamWithEndplates.iam
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Found 2 file references
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: No mapping for Part1 Beam.ipt
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: No mapping for Part2 End Plate.ipt
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Updated 0 references
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 12:15:58 | Patching iLogic rules (in same session)...
+2025-12-16 12:15:58 | Patched 0 iLogic rules
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 12:15:58 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 12:15:58 | Processing IDW files...
+2025-12-16 12:15:58 | IDW PROCESS: Found 1 IDW files
+2025-12-16 12:16:04 | IDW PROCESS: Processing MGY-200-DRP-01-01-26.idw -> BeamWithEndPlates.idw
+2025-12-16 12:16:04 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 12:16:04 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 12:16:04 | IDW PROCESS: Found 3 references
+2025-12-16 12:16:04 | IDW PROCESS: Updating Beam-26.iam -> BeamWithEndplates.iam
+2025-12-16 12:16:04 | IDW PROCESS: SUCCESS
+2025-12-16 12:16:04 | IDW PROCESS: Updating Part1 Beam.ipt -> BeamWithEndplates-B1.ipt
+2025-12-16 12:16:04 | IDW PROCESS: SUCCESS
+2025-12-16 12:16:04 | IDW PROCESS: Updating Part2 End Plate.ipt -> BeamWithEndplates-PL2.ipt
+2025-12-16 12:16:04 | IDW PROCESS: SUCCESS
+2025-12-16 12:16:04 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 12:16:04 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 12:16:04 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-26.idw
+2025-12-16 12:16:04 | IDW PROCESS: Updated Part Number to 'BeamWithEndPlates'
+2025-12-16 12:16:04 | IDW PROCESS: Updated Description to 'BeamWithEndplates'
+2025-12-16 12:16:04 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-26.idw
+2025-12-16 12:16:04 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam with Endplates\BeamWithEndPlates.idw
+2025-12-16 12:16:05 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-26.idw as BeamWithEndPlates.idw (3 references updated)
+2025-12-16 12:16:05 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 12:16:05 | Updating iProperties for copied documents...
+2025-12-16 12:16:10 | Updated iProperties for BeamWithEndplates.iam
+2025-12-16 12:16:10 | Updated iProperties for BeamWithEndplates-B1.ipt
+2025-12-16 12:16:10 | Updated iProperties for BeamWithEndplates-PL2.ipt
+2025-12-16 12:16:10 | Saving iLogic patch log...
+2025-12-16 12:16:10 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 12:16:10 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_121510.log

@@ -1,0 +1,522 @@
+2026-02-22 16:58:10 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-02-22 16:58:10 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-02-22 16:58:10 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-02-22 16:58:11 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_1_MAPPING.txt
+2026-02-22 16:58:11 | VERIFIED: Mapping file exists
+2026-02-22 16:58:11 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank
+2026-02-22 16:58:12 | SUCCESS: Connected to Inventor
+2026-02-22 16:58:12 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_1_MAPPING.txt
+2026-02-22 16:58:12 | Loaded 51 mappings from file
+2026-02-22 16:58:12 | LOADED: 51 mappings
+2026-02-22 16:58:12 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-02-22 16:58:12 | WILL SEARCH 5 DIRECTORIES FROM MAPPING
+2026-02-22 16:58:12 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank
+2026-02-22 16:58:12 | FOUND IDW: MGY-200-DSL-04-01.idw
+2026-02-22 16:58:13 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket
+2026-02-22 16:58:13 | FOUND IDW: MGY-200-DSL-04-02.idw
+2026-02-22 16:58:13 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1
+2026-02-22 16:58:13 | FOUND IDW: MGY-200-DSL-04-03.idw
+2026-02-22 16:58:13 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2
+2026-02-22 16:58:13 | FOUND IDW: MGY-200-DSL-04-04.idw
+2026-02-22 16:58:13 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Uniflex Flange
+2026-02-22 16:58:13 | FOUND: 4 IDW files
+2026-02-22 16:58:13 | UPDATING IDW REFERENCES
+2026-02-22 16:58:13 | IDW: Processing 4 IDW files with Design Assistant method
+2026-02-22 16:58:13 | IDW: Processing [1/4] MGY-200-DSL-04-01.idw
+2026-02-22 16:58:13 | IDW: Opening MGY-200-DSL-04-01.idw
+2026-02-22 16:58:13 | IDW: Enabled SilentOperation mode
+2026-02-22 16:58:14 | IDW: Successfully opened IDW document
+2026-02-22 16:58:14 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:58:14 | IDW: Found 40 referenced files
+2026-02-22 16:58:14 | IDW: Found potential assembly: Tank.iam
+2026-02-22 16:58:14 | IDW: Successfully opened assembly: Tank.iam
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL1.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL1.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL2.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL2.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL3.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL3.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL4.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL4.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL5.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL5.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL6.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL6.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL7.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL7.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL8.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL8.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL9.ipt
+2026-02-22 16:58:14 | LIVE-REF: N1SCR03-723-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL9.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL10.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL10.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL11.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL11.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A2.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A2.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A3.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A3.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A4.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A4.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A5.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-A5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A5.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-P1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-P1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-P1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-P1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FLG1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FLG1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FLG1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL1.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL2.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL2.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL3.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL3.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL4.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL4.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL5.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL5.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL6.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL6.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL7.ipt
+2026-02-22 16:58:15 | LIVE-REF: N1SCR03-723-FL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL7.ipt
+2026-02-22 16:58:16 | LIVE-REF: N1SCR03-723-FL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL8.ipt
+2026-02-22 16:58:16 | LIVE-REF: N1SCR03-723-FL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL8.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL9.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL9.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL10.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL10.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL11.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL11.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL12.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL12.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL13.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL13.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL14.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL14.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL12.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL12.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL15.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL15.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL16.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL16.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL17.ipt
+2026-02-22 16:58:17 | LIVE-REF: N1SCR03-723-FL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL17.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-FL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL18.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-FL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL18.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL13.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL13.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL14.ipt
+2026-02-22 16:58:18 | LIVE-REF: N1SCR03-723-PL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL14.ipt
+2026-02-22 16:58:18 | LIVE-REF: Built reference map with 78 entries
+2026-02-22 16:58:18 | IDW: Built live reference map with 78 entries from assembly
+2026-02-22 16:58:18 | IDW:   Processing reference: Lug DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Lug DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Lug DS-T.ipt -> N1SCR03-723-PL13.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL13.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: NSCR03-723-A1.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A1.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: NSCR03-723-A1.ipt -> N1SCR03-723-A1.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A1.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: NSCR03-723-A2.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A2.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: NSCR03-723-A2.ipt -> N1SCR03-723-A2.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A2.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: NSCR03-723-A3.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A3.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: NSCR03-723-A3.ipt -> N1SCR03-723-A3.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A3.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: NSCR03-723-A4.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A4.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: NSCR03-723-A4.ipt -> N1SCR03-723-A4.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A4.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part1 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part1 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part1 DS-T.ipt -> N1SCR03-723-PL1.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL1.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part10 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part10 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part10 DS-T.ipt -> N1SCR03-723-PL10.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL10.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part11 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part11 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part11 DS-T.ipt -> N1SCR03-723-PL11.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL11.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part16 Angle DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part16 Angle DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part16 Angle DS-T.ipt -> N1SCR03-723-A5.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A5.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part17 Pipe DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part17 Pipe DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part17 Pipe DS-T.ipt -> N1SCR03-723-P1.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-P1.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part18 Flange DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part18 Flange DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part18 Flange DS-T.ipt -> N1SCR03-723-FLG1.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FLG1.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part19 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part19 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part19 Stiffener DS-T.ipt -> N1SCR03-723-FL4.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL4.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part2 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part2 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part2 DS-T.ipt -> N1SCR03-723-PL2.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL2.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part20 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part20 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part20 Stiffener DS-T.ipt -> N1SCR03-723-FL2.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL2.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part21 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part21 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part21 Stiffener DS-T.ipt -> N1SCR03-723-FL1.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL1.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part22 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part22 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part22 Stiffener DS-T.ipt -> N1SCR03-723-FL5.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL5.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part23 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part23 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part23 Stiffener DS-T.ipt -> N1SCR03-723-FL6.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL6.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part24 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part24 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part24 Stiffener DS-T.ipt -> N1SCR03-723-FL7.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL7.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part25 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part25 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part25 Stiffener DS-T.ipt -> N1SCR03-723-FL8.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL8.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part26 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part26 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part26 Stiffener DS-T.ipt -> N1SCR03-723-FL3.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL3.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part27 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part27 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part27 Stiffener DS-T.ipt -> N1SCR03-723-FL9.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL9.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part28 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part28 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part28 Stiffener DS-T.ipt -> N1SCR03-723-FL10.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL10.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part29 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part29 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part29 Stiffener DS-T.ipt -> N1SCR03-723-FL11.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL11.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part3 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part3 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part3 DS-T.ipt -> N1SCR03-723-PL3.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL3.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part30 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part30 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part30 Stiffener DS-T.ipt -> N1SCR03-723-FL12.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL12.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part31 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part31 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part31 Stiffener DS-T.ipt -> N1SCR03-723-FL18.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL18.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part32 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part32 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part32 Stiffener DS-T.ipt -> N1SCR03-723-FL15.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL15.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part33 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part33 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part33 Stiffener DS-T.ipt -> N1SCR03-723-FL16.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL16.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part34 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part34 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part34 Stiffener DS-T.ipt -> N1SCR03-723-FL13.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL13.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part35 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part35 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part35 Stiffener DS-T.ipt -> N1SCR03-723-FL17.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL17.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part36 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part36 Stiffener DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part36 Stiffener DS-T.ipt -> N1SCR03-723-FL14.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL14.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part37 Corner Gusset DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part37 Corner Gusset DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part37 Corner Gusset DS-T.ipt -> N1SCR03-723-PL12.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL12.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part38 End Plate DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part38 End Plate DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part38 End Plate DS-T.ipt -> N1SCR03-723-PL14.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL14.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part4 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part4 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part4 DS-T.ipt -> N1SCR03-723-PL4.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL4.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part5 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part5 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part5 DS-T.ipt -> N1SCR03-723-PL5.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL5.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part6 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part6 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part6 DS-T.ipt -> N1SCR03-723-PL6.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL6.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part7 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part7 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part7 DS-T.ipt -> N1SCR03-723-PL7.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL7.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part8 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part8 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part8 DS-T.ipt -> N1SCR03-723-PL8.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL8.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Part9 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part9 DS-T.ipt
+2026-02-22 16:58:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:18 | IDW:     UPDATING: Part9 DS-T.ipt -> N1SCR03-723-PL9.ipt
+2026-02-22 16:58:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL9.ipt
+2026-02-22 16:58:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:18 | IDW:   Processing reference: Tank.iam
+2026-02-22 16:58:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Tank.iam
+2026-02-22 16:58:18 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:58:18 | IDW:   Method 2: Resolved to: Tank.iam
+2026-02-22 16:58:18 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:58:18 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:58:18 | IDW:   Smart matching for: Tank.iam
+2026-02-22 16:58:18 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Tank.iam
+2026-02-22 16:58:18 | IDW:   No smart match found for: Tank.iam
+2026-02-22 16:58:18 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:58:18 | IDW: Saving with 39 updates using Design Assistant method...
+2026-02-22 16:58:19 | IDW: SUCCESS - Saved with 39 updates
+2026-02-22 16:58:19 | IDW: Processing [2/4] MGY-200-DSL-04-02.idw
+2026-02-22 16:58:19 | IDW: Opening MGY-200-DSL-04-02.idw
+2026-02-22 16:58:19 | IDW: Enabled SilentOperation mode
+2026-02-22 16:58:20 | IDW: Successfully opened IDW document
+2026-02-22 16:58:20 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:58:20 | IDW: Found 3 referenced files
+2026-02-22 16:58:20 | IDW: Found potential assembly: Tank Bracket.iam
+2026-02-22 16:58:20 | IDW: Successfully opened assembly: Tank Bracket.iam
+2026-02-22 16:58:20 | LIVE-REF: N1SCR03-723-PL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL15.ipt
+2026-02-22 16:58:20 | LIVE-REF: N1SCR03-723-PL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL15.ipt
+2026-02-22 16:58:20 | LIVE-REF: N1SCR03-723-PL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL16.ipt
+2026-02-22 16:58:20 | LIVE-REF: N1SCR03-723-PL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL16.ipt
+2026-02-22 16:58:20 | LIVE-REF: Built reference map with 4 entries
+2026-02-22 16:58:20 | IDW: Built live reference map with 4 entries from assembly
+2026-02-22 16:58:20 | IDW:   Processing reference: Part1 D-BR.ipt
+2026-02-22 16:58:20 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part1 D-BR.ipt
+2026-02-22 16:58:20 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:20 | IDW:     UPDATING: Part1 D-BR.ipt -> N1SCR03-723-PL15.ipt
+2026-02-22 16:58:20 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL15.ipt
+2026-02-22 16:58:20 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:20 | IDW:   Processing reference: Part2 Corner Gusset D-BR.ipt
+2026-02-22 16:58:20 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part2 Corner Gusset D-BR.ipt
+2026-02-22 16:58:20 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:20 | IDW:     UPDATING: Part2 Corner Gusset D-BR.ipt -> N1SCR03-723-PL16.ipt
+2026-02-22 16:58:20 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL16.ipt
+2026-02-22 16:58:20 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:20 | IDW:   Processing reference: Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:58:20 | IDW:   Method 2: Resolved to: Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:58:20 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:58:20 | IDW:   Smart matching for: Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:   No smart match found for: Tank Bracket.iam
+2026-02-22 16:58:20 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:58:20 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-22 16:58:21 | IDW: SUCCESS - Saved with 2 updates
+2026-02-22 16:58:21 | IDW: Processing [3/4] MGY-200-DSL-04-03.idw
+2026-02-22 16:58:21 | IDW: Opening MGY-200-DSL-04-03.idw
+2026-02-22 16:58:21 | IDW: Enabled SilentOperation mode
+2026-02-22 16:58:21 | IDW: Successfully opened IDW document
+2026-02-22 16:58:22 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:58:22 | IDW: Found 7 referenced files
+2026-02-22 16:58:22 | IDW: Found potential assembly: Lid-1.iam
+2026-02-22 16:58:22 | IDW: Successfully opened assembly: Lid-1.iam
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-PL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-PL17.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-PL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-PL17.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-P2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-P2.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-P2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-P2.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FLG2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG2.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FLG2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG2.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FLG3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG3.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FLG3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG3.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL19.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FL19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL19.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FL20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL20.ipt
+2026-02-22 16:58:22 | LIVE-REF: N1SCR03-723-FL20 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL20.ipt
+2026-02-22 16:58:22 | LIVE-REF: Built reference map with 12 entries
+2026-02-22 16:58:22 | IDW: Built live reference map with 12 entries from assembly
+2026-02-22 16:58:22 | IDW:   Processing reference: Lid-1.iam
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Lid-1.iam
+2026-02-22 16:58:22 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:58:22 | IDW:   Method 2: Resolved to: Lid-1.iam
+2026-02-22 16:58:22 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:58:22 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:58:22 | IDW:   Smart matching for: Lid-1.iam
+2026-02-22 16:58:22 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Lid-1.iam
+2026-02-22 16:58:22 | IDW:   No smart match found for: Lid-1.iam
+2026-02-22 16:58:22 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:58:22 | IDW:   Processing reference: Part1 End Plate L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part1 End Plate L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part1 End Plate L1.ipt -> N1SCR03-723-PL17.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-PL17.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW:   Processing reference: Part2 Pipe L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part2 Pipe L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part2 Pipe L1.ipt -> N1SCR03-723-P2.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-P2.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW:   Processing reference: Part3 Flange L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part3 Flange L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part3 Flange L1.ipt -> N1SCR03-723-FLG2.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG2.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW:   Processing reference: Part4 Blank Flange L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part4 Blank Flange L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part4 Blank Flange L1.ipt -> N1SCR03-723-FLG3.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG3.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW:   Processing reference: Part5 Stiffener L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part5 Stiffener L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part5 Stiffener L1.ipt -> N1SCR03-723-FL19.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL19.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW:   Processing reference: Part6 Stiffener L1.ipt
+2026-02-22 16:58:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part6 Stiffener L1.ipt
+2026-02-22 16:58:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:22 | IDW:     UPDATING: Part6 Stiffener L1.ipt -> N1SCR03-723-FL20.ipt
+2026-02-22 16:58:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL20.ipt
+2026-02-22 16:58:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:22 | IDW: Saving with 6 updates using Design Assistant method...
+2026-02-22 16:58:23 | IDW: SUCCESS - Saved with 6 updates
+2026-02-22 16:58:23 | IDW: Processing [4/4] MGY-200-DSL-04-04.idw
+2026-02-22 16:58:23 | IDW: Opening MGY-200-DSL-04-04.idw
+2026-02-22 16:58:23 | IDW: Enabled SilentOperation mode
+2026-02-22 16:58:23 | IDW: Successfully opened IDW document
+2026-02-22 16:58:23 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:58:23 | IDW: Found 4 referenced files
+2026-02-22 16:58:23 | IDW: Found potential assembly: Lid-2.iam
+2026-02-22 16:58:23 | IDW: Successfully opened assembly: Lid-2.iam
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-PL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-PL18.ipt
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-PL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-PL18.ipt
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-P3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-P3.ipt
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-P3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-P3.ipt
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-FLG4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-FLG4.ipt
+2026-02-22 16:58:23 | LIVE-REF: N1SCR03-723-FLG4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-FLG4.ipt
+2026-02-22 16:58:23 | LIVE-REF: Built reference map with 6 entries
+2026-02-22 16:58:23 | IDW: Built live reference map with 6 entries from assembly
+2026-02-22 16:58:23 | IDW:   Processing reference: Lid-2.iam
+2026-02-22 16:58:23 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Lid-2.iam
+2026-02-22 16:58:23 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:58:23 | IDW:   Method 2: Resolved to: Lid-2.iam
+2026-02-22 16:58:23 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:58:23 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:58:23 | IDW:   Smart matching for: Lid-2.iam
+2026-02-22 16:58:23 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Lid-2.iam
+2026-02-22 16:58:23 | IDW:   No smart match found for: Lid-2.iam
+2026-02-22 16:58:23 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:58:23 | IDW:   Processing reference: Part1 End Plate L2.ipt
+2026-02-22 16:58:23 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part1 End Plate L2.ipt
+2026-02-22 16:58:23 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:23 | IDW:     UPDATING: Part1 End Plate L2.ipt -> N1SCR03-723-PL18.ipt
+2026-02-22 16:58:23 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-PL18.ipt
+2026-02-22 16:58:23 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:23 | IDW:   Processing reference: Part2 Non Standard Pipe.ipt
+2026-02-22 16:58:23 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part2 Non Standard Pipe.ipt
+2026-02-22 16:58:23 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:23 | IDW:     UPDATING: Part2 Non Standard Pipe.ipt -> N1SCR03-723-P3.ipt
+2026-02-22 16:58:23 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-P3.ipt
+2026-02-22 16:58:23 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:23 | IDW:   Processing reference: Part3 Flange L2.ipt
+2026-02-22 16:58:23 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part3 Flange L2.ipt
+2026-02-22 16:58:23 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:58:23 | IDW:     UPDATING: Part3 Flange L2.ipt -> N1SCR03-723-FLG4.ipt
+2026-02-22 16:58:23 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-FLG4.ipt
+2026-02-22 16:58:23 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:58:23 | IDW: Saving with 3 updates using Design Assistant method...
+2026-02-22 16:58:24 | IDW: SUCCESS - Saved with 3 updates
+2026-02-22 16:58:24 | 
+2026-02-22 16:58:24 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-02-22 16:58:24 | Total IDW files processed: 4
+2026-02-22 16:58:24 | Total reference updates: 50
+2026-02-22 16:58:24 | Total errors: 0
+2026-02-22 16:58:24 | === STEP 2 COMPLETE ===
+2026-02-22 16:58:24 | Mappings: 51
+2026-02-22 16:58:24 | IDW Files: 4
+2026-02-22 16:58:24 | Updates: 50
+2026-02-22 16:58:24 | Errors: 0

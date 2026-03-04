@@ -1,0 +1,74 @@
+﻿2025-12-17 07:44:47 | === ASSEMBLY CLONER STARTED ===
+2025-12-17 07:44:47 | Using EXACT methodology from VBScript Option 9
+2025-12-17 07:44:47 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-12\Channel-12.iam
+2025-12-17 07:44:47 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-12
+2025-12-17 07:44:48 | User confirmed clone operation
+2025-12-17 07:44:48 | Opening folder browser dialog...
+2025-12-17 07:45:25 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-14
+2025-12-17 07:45:26 | Rename parts: True
+2025-12-17 07:45:26 | Prompting for plant section prefix...
+2025-12-17 07:45:28 | Plant section prefix: Channel-14
+2025-12-17 07:45:29 | New assembly name: Channel-14
+2025-12-17 07:45:29 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-14\Channel-14.iam
+2025-12-17 07:45:29 | COLLECT: Part1 PFC.ipt (PFC180x70)
+2025-12-17 07:45:29 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-17 07:45:29 | COLLECT: Part3 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-17 07:45:29 | Collected 3 parts
+2025-12-17 07:45:29 | Closing source assembly for safe copy...
+2025-12-17 07:45:30 | Copying assembly file...
+2025-12-17 07:45:30 | COPIED: Channel-12.iam -> Channel-14.iam
+2025-12-17 07:45:30 | Copying 3 parts...
+2025-12-17 07:45:30 | COPIED: Part1 PFC.ipt -> Channel-14-CH1.ipt
+2025-12-17 07:45:30 | COPIED: Part2 End Plate.ipt -> Channel-14-PL2.ipt
+2025-12-17 07:45:30 | COPIED: Part3 Corner Gusset.ipt -> Channel-14-PL3.ipt
+2025-12-17 07:45:30 | Updating assembly references and patching iLogic...
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Opened Channel-14.iam
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Found 3 file references
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Replacing Part1 PFC.ipt -> Channel-14-CH1.ipt
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Replacing Part2 End Plate.ipt -> Channel-14-PL2.ipt
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Replacing Part3 Corner Gusset.ipt -> Channel-14-PL3.ipt
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Updated 3 references
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-17 07:45:30 | Patching iLogic rules (in same session)...
+2025-12-17 07:45:30 | Patched 0 iLogic rules
+2025-12-17 07:45:30 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-17 07:45:31 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-17 07:45:31 | Processing IDW files...
+2025-12-17 07:45:31 | IDW PROCESS: Found 1 IDW files
+2025-12-17 07:45:33 | IDW PROCESS: Processing MGY-200-DRP-01-01-75.idw -> MGY-200-DRP-01-01-75.idw
+2025-12-17 07:46:38 | IDW PROCESS: Opening original IDW from source location...
+2025-12-17 07:46:58 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-17 07:46:58 | IDW PROCESS: Found 5 references
+2025-12-17 07:46:58 | IDW PROCESS: Updating Channel-12.iam -> Channel-14.iam
+2025-12-17 07:46:58 | IDW PROCESS: SUCCESS
+2025-12-17 07:46:58 | IDW PROCESS: Updating Part1 PFC.ipt -> Channel-14-CH1.ipt
+2025-12-17 07:46:58 | IDW PROCESS: SUCCESS
+2025-12-17 07:46:58 | IDW PROCESS: Updating Part2 End Plate.ipt -> Channel-14-PL2.ipt
+2025-12-17 07:46:58 | IDW PROCESS: SUCCESS
+2025-12-17 07:46:58 | IDW PROCESS: Updating Part3 Corner Gusset.ipt -> Channel-14-PL3.ipt
+2025-12-17 07:46:58 | IDW PROCESS: SUCCESS
+2025-12-17 07:46:58 | IDW PROCESS: No mapping for Part4 Corner Gusset.ipt
+2025-12-17 07:46:58 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-17 07:46:58 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-17 07:46:58 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-75.idw
+2025-12-17 07:46:58 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-75'
+2025-12-17 07:46:58 | IDW PROCESS: Updated Description to 'Channel-14'
+2025-12-17 07:46:58 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-75.idw
+2025-12-17 07:46:58 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-14\MGY-200-DRP-01-01-75.idw
+2025-12-17 07:46:59 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-75.idw as MGY-200-DRP-01-01-75.idw (4 references updated)
+2025-12-17 07:46:59 | IDW PROCESS: All IDW files processed successfully
+2025-12-17 07:46:59 | Updating iProperties for copied documents...
+2025-12-17 07:46:59 | Updated iProperties for Channel-14.iam
+2025-12-17 07:47:00 | Updated iProperties for Channel-14-CH1.ipt
+2025-12-17 07:47:00 | Updated iProperties for Channel-14-PL2.ipt
+2025-12-17 07:47:01 | Updated iProperties for Channel-14-PL3.ipt
+2025-12-17 07:47:01 | Saving iLogic patch log...
+2025-12-17 07:47:01 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-17 07:47:01 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251217_074447.log

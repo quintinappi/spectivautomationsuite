@@ -1,0 +1,61 @@
+﻿2025-12-21 08:14:22 | === ASSEMBLY CLONER STARTED ===
+2025-12-21 08:14:22 | Using EXACT methodology from VBScript Option 9
+2025-12-21 08:14:22 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Pedestal Support Bracket 1\Pedestal Support Bracket 1.iam
+2025-12-21 08:14:22 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Pedestal Support Bracket 1
+2025-12-21 08:14:24 | User confirmed clone operation
+2025-12-21 08:14:24 | Opening folder browser dialog...
+2025-12-21 08:14:43 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Pedestal Support Bracket 2
+2025-12-21 08:14:45 | Rename parts: True
+2025-12-21 08:14:45 | Prompting for plant section prefix...
+2025-12-21 08:14:47 | Plant section prefix: Pedestal Support Bracket 2
+2025-12-21 08:14:48 | New assembly name: Pedestal Support Bracket 2
+2025-12-21 08:14:48 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Pedestal Support Bracket 2\Pedestal Support Bracket 2.iam
+2025-12-21 08:14:48 | COLLECT: Pedestal Support Bracket 1 Plate 1.ipt (PL 12mm S355JR)
+2025-12-21 08:14:48 | COLLECT: Pedestal Support Bracket 1 Plate 2.ipt ()
+2025-12-21 08:14:48 | COLLECT: Pedestal Support Bracket 1 Plate 6.ipt ()
+2025-12-21 08:14:48 | COLLECT: Pedestal Support Bracket 1 Plate 4.ipt ()
+2025-12-21 08:14:48 | COLLECT: Pedestal Support Bracket 1 Plate 5.ipt ()
+2025-12-21 08:14:48 | Collected 5 parts
+2025-12-21 08:14:48 | Closing source assembly for safe copy...
+2025-12-21 08:14:48 | Copying assembly file...
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1.iam -> Pedestal Support Bracket 2.iam
+2025-12-21 08:14:48 | Copying 5 parts...
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1 Plate 1.ipt -> Pedestal Support Bracket 2-PL1.ipt
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1 Plate 2.ipt -> Pedestal Support Bracket 2-OTHER2.ipt
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1 Plate 6.ipt -> Pedestal Support Bracket 2-OTHER3.ipt
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1 Plate 4.ipt -> Pedestal Support Bracket 2-OTHER4.ipt
+2025-12-21 08:14:48 | COPIED: Pedestal Support Bracket 1 Plate 5.ipt -> Pedestal Support Bracket 2-OTHER5.ipt
+2025-12-21 08:14:48 | Updating assembly references and patching iLogic...
+2025-12-21 08:14:48 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Opened Pedestal Support Bracket 2.iam
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Found 5 file references
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Replacing Pedestal Support Bracket 1 Plate 1.ipt -> Pedestal Support Bracket 2-PL1.ipt
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: SUCCESS
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Replacing Pedestal Support Bracket 1 Plate 2.ipt -> Pedestal Support Bracket 2-OTHER2.ipt
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: SUCCESS
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Replacing Pedestal Support Bracket 1 Plate 4.ipt -> Pedestal Support Bracket 2-OTHER4.ipt
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: SUCCESS
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Replacing Pedestal Support Bracket 1 Plate 5.ipt -> Pedestal Support Bracket 2-OTHER5.ipt
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: SUCCESS
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Replacing Pedestal Support Bracket 1 Plate 6.ipt -> Pedestal Support Bracket 2-OTHER3.ipt
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: SUCCESS
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Updated 5 references
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-21 08:14:49 | Patching iLogic rules (in same session)...
+2025-12-21 08:14:49 | Patched 0 iLogic rules
+2025-12-21 08:14:49 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-21 08:14:50 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-21 08:14:50 | Processing IDW files...
+2025-12-21 08:14:50 | IDW PROCESS: Found 0 IDW files
+2025-12-21 08:14:50 | IDW PROCESS: All IDW files processed successfully
+2025-12-21 08:14:50 | Updating iProperties for copied documents...
+2025-12-21 08:15:01 | Updated iProperties for Pedestal Support Bracket 2.iam
+2025-12-21 08:15:07 | Updated iProperties for Pedestal Support Bracket 2-OTHER2.ipt
+2025-12-21 08:15:07 | Updated iProperties for Pedestal Support Bracket 2-OTHER4.ipt
+2025-12-21 08:15:07 | Updated iProperties for Pedestal Support Bracket 2-OTHER5.ipt
+2025-12-21 08:15:07 | Saving iLogic patch log...
+2025-12-21 08:15:07 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-21 08:15:07 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251221_081422.log

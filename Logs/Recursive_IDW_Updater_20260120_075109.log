@@ -1,0 +1,272 @@
+2026-01-20 07:51:09 | === RECURSIVE IDW UPDATER - AGGREGATED MAPPINGS ===
+2026-01-20 07:51:09 | Purpose: Fix scattered mapping issue by aggregating ALL mappings
+2026-01-20 07:51:14 | SUCCESS: Connected to Inventor
+2026-01-20 07:51:14 | ROOT: Found from active document: RENAME TEST - DELETE.iam
+2026-01-20 07:51:14 | ROOT: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE
+2026-01-20 07:51:14 | 
+2026-01-20 07:51:14 | STEP 1: SCANNING FOR ALL MAPPING FILES
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE
+2026-01-20 07:51:14 | FOUND: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING.txt
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Bottom
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Head Chute
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Head Chute\Design Accelerator
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Launder
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-1
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-2
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Middle
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Support Beam-1
+2026-01-20 07:51:14 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Top
+2026-01-20 07:51:14 | FOUND 1_MAPPING FILES
+2026-01-20 07:51:14 | 
+2026-01-20 07:51:14 | STEP 2: AGGREGATING ALL MAPPINGS
+2026-01-20 07:51:14 | LOADING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING.txt
+2026-01-20 07:51:14 | AGGREGATED 0 TOTAL MAPPINGS FROM ALL FILES
+2026-01-20 07:51:14 | 
+2026-01-20 07:51:14 | STEP 3: FINDING ALL IDW FILES
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\MGY-200-DSL-09-00.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Bottom\MGY-200-DSL-09-04.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Launder\MGY-200-DSL-09-03.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-1\MGY-200-DSL-09-05.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-2\MGY-200-DSL-09-06.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Middle\MGY-200-DSL-09-02.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Support Beam-1\MGY-200-DSL-09-07.idw
+2026-01-20 07:51:14 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Top\MGY-200-DSL-09-01.idw
+2026-01-20 07:51:14 | FOUND 8 IDW FILES TO PROCESS
+2026-01-20 07:51:14 | 
+2026-01-20 07:51:14 | STEP 4: UPDATING ALL IDWs WITH AGGREGATED MAPPINGS
+2026-01-20 07:51:14 | 
+2026-01-20 07:51:14 | IDW [1/8]: MGY-200-DSL-09-00.idw
+2026-01-20 07:51:14 | Opening IDW: MGY-200-DSL-09-00.idw
+2026-01-20 07:51:16 | Successfully opened IDW
+2026-01-20 07:51:17 | Found 1 referenced files
+2026-01-20 07:51:17 | Reference: RENAME TEST - DELETE.iam
+2026-01-20 07:51:17 |   No mapping found - keeping current reference
+2026-01-20 07:51:17 | No updates made
+2026-01-20 07:51:17 | 
+2026-01-20 07:51:17 | IDW [2/8]: MGY-200-DSL-09-04.idw
+2026-01-20 07:51:17 | Opening IDW: MGY-200-DSL-09-04.idw
+2026-01-20 07:51:58 | Successfully opened IDW
+2026-01-20 07:51:58 | Found 18 referenced files
+2026-01-20 07:51:58 | Reference: Lug HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part1 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part10 Stiffener HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part11 Stiffener HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part12 Stiffener HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part13 Stiffener HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part14 Stiffener HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part2 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part3 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part4 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part5 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part6 HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part7 Angle HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part8 Angle HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part9 Angle HC-B.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Bottom.iam
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part15.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | Reference: Part16 Corner Gusset.ipt
+2026-01-20 07:51:58 |   No mapping found - keeping current reference
+2026-01-20 07:51:58 | No updates made
+2026-01-20 07:51:59 | 
+2026-01-20 07:51:59 | IDW [3/8]: MGY-200-DSL-09-03.idw
+2026-01-20 07:51:59 | Opening IDW: MGY-200-DSL-09-03.idw
+2026-01-20 07:52:01 | Successfully opened IDW
+2026-01-20 07:52:01 | Found 15 referenced files
+2026-01-20 07:52:01 | Reference: Part1 HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part10 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part11 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part12 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part13 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part14 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part2 HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part3 HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part4 Angle HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part5 Angle HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part6 Pipe HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part7 Flange HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part8 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Part9 Stiffener HC-L.ipt
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | Reference: Launder.iam
+2026-01-20 07:52:01 |   No mapping found - keeping current reference
+2026-01-20 07:52:01 | No updates made
+2026-01-20 07:52:01 | 
+2026-01-20 07:52:01 | IDW [4/8]: MGY-200-DSL-09-05.idw
+2026-01-20 07:52:01 | Opening IDW: MGY-200-DSL-09-05.idw
+2026-01-20 07:52:02 | Successfully opened IDW
+2026-01-20 07:52:02 | Found 4 referenced files
+2026-01-20 07:52:02 | Reference: Part1 HC-L1.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Part2 Pipe HC-L1.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Part3 Flange HC-L1.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Lid-1.iam
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | No updates made
+2026-01-20 07:52:02 | 
+2026-01-20 07:52:02 | IDW [5/8]: MGY-200-DSL-09-06.idw
+2026-01-20 07:52:02 | Opening IDW: MGY-200-DSL-09-06.idw
+2026-01-20 07:52:02 | Successfully opened IDW
+2026-01-20 07:52:02 | Found 5 referenced files
+2026-01-20 07:52:02 | Reference: Part1 HC-L2.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Part2 Stiffener HC-L2.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Part3 Stiffener HC-L2.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Part4 Handle HC-L2.ipt
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | Reference: Lid-2.iam
+2026-01-20 07:52:02 |   No mapping found - keeping current reference
+2026-01-20 07:52:02 | No updates made
+2026-01-20 07:52:02 | 
+2026-01-20 07:52:02 | IDW [6/8]: MGY-200-DSL-09-02.idw
+2026-01-20 07:52:02 | Opening IDW: MGY-200-DSL-09-02.idw
+2026-01-20 07:52:03 | Successfully opened IDW
+2026-01-20 07:52:03 | Found 22 referenced files
+2026-01-20 07:52:03 | Reference: Lug HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part1 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part10 Angle HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part11 (Part10 Angle HC-M MIR).ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part12 Angle HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part13 Angle HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part14 Angle HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part15 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part16 Corner Gusset HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part17 Stiffener HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part18 Stiffener HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part19 Stiffener HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part2 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part20 Stiffener HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part3 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part4 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part5 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part6 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part7 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part8 HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Part9 Angle HC-M.ipt
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | Reference: Middle.iam
+2026-01-20 07:52:03 |   No mapping found - keeping current reference
+2026-01-20 07:52:03 | No updates made
+2026-01-20 07:52:03 | 
+2026-01-20 07:52:03 | IDW [7/8]: MGY-200-DSL-09-07.idw
+2026-01-20 07:52:03 | Opening IDW: MGY-200-DSL-09-07.idw
+2026-01-20 07:52:11 | Successfully opened IDW
+2026-01-20 07:52:11 | Found 4 referenced files
+2026-01-20 07:52:11 | Reference: Support Beam-1.iam
+2026-01-20 07:52:11 |   No mapping found - keeping current reference
+2026-01-20 07:52:11 | Reference: Part1 Beam.ipt
+2026-01-20 07:52:11 |   No mapping found - keeping current reference
+2026-01-20 07:52:11 | Reference: Part2 End Plate.ipt
+2026-01-20 07:52:11 |   No mapping found - keeping current reference
+2026-01-20 07:52:11 | Reference: Part3 End Plate.ipt
+2026-01-20 07:52:11 |   No mapping found - keeping current reference
+2026-01-20 07:52:11 | No updates made
+2026-01-20 07:52:11 | 
+2026-01-20 07:52:11 | IDW [8/8]: MGY-200-DSL-09-01.idw
+2026-01-20 07:52:11 | Opening IDW: MGY-200-DSL-09-01.idw
+2026-01-20 07:52:12 | Successfully opened IDW
+2026-01-20 07:52:12 | Found 20 referenced files
+2026-01-20 07:52:12 | Reference: Top.iam
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Lug HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part1 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part10 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part11 (Part10 Angle HC-T MIR).ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part12 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part13 (Part12 Angle HC-T MIR).ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part14 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part15 (Part14 Angle HC-T MIR).ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part16 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part17 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part18 Corner Gusset HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part2 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part3 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part4 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part5 HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part6 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part7 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part8 Angle HC-T.ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | Reference: Part9 (Part8 Angle HC-T MIR).ipt
+2026-01-20 07:52:12 |   No mapping found - keeping current reference
+2026-01-20 07:52:12 | No updates made
+2026-01-20 07:52:12 | 
+2026-01-20 07:52:12 | === UPDATE SUMMARY ===
+2026-01-20 07:52:12 | Total IDW files processed: 8
+2026-01-20 07:52:12 | Total reference updates: 0
+2026-01-20 07:52:12 | Total errors: 0
+2026-01-20 07:52:12 | 
+2026-01-20 07:52:12 | STEP 5: GENERATING DETAILED REPORT
+2026-01-20 07:52:12 | REPORT GENERATED: C:\Users\Quintin\Documents\Spectiv\3. Working\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\Recursive_IDW_Updater_Report_20260120_075212.txt
+2026-01-20 07:52:12 | 
+2026-01-20 07:52:12 | === RECURSIVE IDW UPDATER COMPLETED ===

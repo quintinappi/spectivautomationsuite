@@ -1,0 +1,20 @@
+2026-01-15 12:21:53 | === ASSEMBLY CLONER ===
+2026-01-15 12:21:53 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 12:21:54 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 12:21:54 | STEP 1: Detecting open assembly
+2026-01-15 12:21:54 | DETECTED: Staircase-1.iam
+2026-01-15 12:21:54 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Staircase-1.iam
+2026-01-15 12:21:55 | STEP 2: Getting destination folder from user
+2026-01-15 12:22:08 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3
+2026-01-15 12:22:08 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\AssemblyCloner_20260115_122208.log
+2026-01-15 12:22:08 | New assembly name will be: Staircase-3.iam
+2026-01-15 12:22:08 | STEP 3: Asking about heritage renaming
+2026-01-15 12:22:09 | PLANT: Getting plant section naming convention from user
+2026-01-15 12:22:33 | PLANT: Using prefix: STAIRCASE-3-
+2026-01-15 12:22:33 | STEP 4: Analyzing assembly structure
+2026-01-15 12:22:33 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 12:22:33 | COLLECT: PART Part1 TFC.ipt (TFC178x54x15)
+2026-01-15 12:22:33 | COLLECT: PART Part2 TFC.ipt (TFC178x54x15)
+2026-01-15 12:22:33 | COLLECT: PART Part3 TFC.ipt (TFC178x54x15)
+2026-01-15 12:22:33 | COLLECT: PART Part4 TFC .ipt (TFC178x54x15)
+2026-01-15 12:22:33 | COLLECT: PART Part5 TFC.ipt (TFC178x54x15)

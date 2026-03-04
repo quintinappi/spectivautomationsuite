@@ -1,0 +1,1147 @@
+2026-01-12 07:32:26 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-12 07:32:26 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-12 07:32:27 | SUCCESS: Connected to existing Inventor instance
+2026-01-12 07:32:27 | STEP 1: Detecting open assembly and analyzing components
+2026-01-12 07:32:27 | DETECTED: Document type: 12291
+2026-01-12 07:32:27 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-12 07:32:27 | DETECTED: Active assembly - NSCR05-779.iam
+2026-01-12 07:32:27 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779.iam
+2026-01-12 07:32:28 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-12 07:32:28 | CONFIRMED: 183 occurrences to process
+2026-01-12 07:32:28 | STEP 2: Flattening hierarchy and grouping components
+2026-01-12 07:32:28 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-12 07:32:28 | ANALYZE: Processing assembly - NSCR05-779.iam (Level: ROOT)
+2026-01-12 07:32:28 | ANALYZE: Found 183 occurrences in NSCR05-779.iam
+2026-01-12 07:32:28 | ANALYZE: PART - NSCR05-779-PL1.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:28 | ANALYZE: Created new group - PL
+2026-01-12 07:32:28 | ANALYZE: PART - NSCR05-779-PL2.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL3.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL4.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL5.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL6.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL7.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL8.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL9.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL10.ipt -> Description: PL 6mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A1.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: Created new group - A
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A2.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A3.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A4.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A5.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A6.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A7.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A8.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A9.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-A10.ipt -> Description: L60x60x6 -> Group: A (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-A10.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-A10.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-A10.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL11.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL12.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL12.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL13.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL14.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL14.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL13.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL14.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL14.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL13.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-PL15.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL15.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL13.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL15.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL15.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL1.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: Created new group - FL
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL2.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL3.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL3.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL3.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL3.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL4.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL6.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL7.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL8.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL8.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL8.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL8.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL8.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL8.ipt (already processed)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL9.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL10.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL11.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL12.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL13.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:29 | ANALYZE: PART - NSCR05-779-FL14.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL15.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL16.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL17.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL18.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL19.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL20.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL21.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL22.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL23.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL24.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL25.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL26.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL28.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL29.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL30.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL31.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL32.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL33.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL33.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL34.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL35.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL36.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL34.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-PL16.ipt -> Description: PL 20mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-PL17.ipt -> Description: PL 25mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL16.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL17.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL16.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL17.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL16.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL17.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-PL18.ipt -> Description: PL 10mm S355JR -> Group: PL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-PL18.ipt (already processed)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL37.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:30 | ANALYZE: PART - NSCR05-779-FL38.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL39.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL40.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL41.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL42.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL43.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL44.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL45.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL46.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL47.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL48.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL49.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL50.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL51.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL52.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL53.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL54.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL55.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL56.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL57.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL36.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL58.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL59.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: DUPLICATE PART SKIPPED - NSCR05-779-FL35.ipt (already processed)
+2026-01-12 07:32:31 | ANALYZE: PART - NSCR05-779-FL60.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: PART - N1SCR04-780-FL60.ipt -> Description: FL50x8 -> Group: FL (from NSCR05-779.iam)
+2026-01-12 07:32:31 | ANALYZE: Recursive processing completed - Total unique parts processed: 87
+2026-01-12 07:32:31 | ANALYZE: Created 3 component groups
+2026-01-12 07:32:31 | DEBUG GROUP: 'PL' contains 18 components:
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL1.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL2.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL3.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL4.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL5.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL6.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL7.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL8.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL9.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL10.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL11.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL12.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL13.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL14.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL15.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL16.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL17.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL18.ipt
+2026-01-12 07:32:31 | DEBUG GROUP: 'A' contains 10 components:
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A1.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A2.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A3.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A4.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A5.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A6.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A7.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A8.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A9.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A10.ipt
+2026-01-12 07:32:31 | DEBUG GROUP: 'FL' contains 59 components:
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL1.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL2.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL3.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL4.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL6.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL7.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL8.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL9.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL10.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL11.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL12.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL13.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL14.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL15.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL16.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL17.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL18.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL19.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL20.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL21.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL22.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL23.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL24.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL25.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL26.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL28.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL29.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL30.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL31.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL32.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL33.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL34.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL35.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL36.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL37.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL38.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL39.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL40.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL41.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL42.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL43.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL44.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL45.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL46.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL47.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL48.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL49.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL50.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL51.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL52.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL53.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL54.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL55.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL56.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL57.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL58.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL59.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\NSCR05-779-FL60.ipt
+2026-01-12 07:32:31 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR04-780-FL60.ipt
+2026-01-12 07:32:31 | STEP 3: Getting plant section naming convention
+2026-01-12 07:32:31 | PLANT: Getting plant section naming convention from user
+2026-01-12 07:33:00 | PLANT: Using custom naming convention: N1SCR05-779-
+2026-01-12 07:33:01 | STEP 4: Showing component groups summary
+2026-01-12 07:33:01 | SUMMARY: Showing component groups to user
+2026-01-12 07:33:03 | SUMMARY: User approved component groups
+2026-01-12 07:33:03 | STEP 5: Getting user naming schemes for component groups
+2026-01-12 07:33:03 | INPUT: Getting user naming schemes for 3 groups
+2026-01-12 07:33:05 | INPUT: Group 'PL' -> Scheme: N1SCR05-779-PL{N}
+2026-01-12 07:33:08 | INPUT: Group 'A' -> Scheme: N1SCR05-779-A{N}
+2026-01-12 07:33:13 | INPUT: Group 'FL' -> Scheme: N1SCR05-779-FL{N}
+2026-01-12 07:33:13 | STEP 6: Creating heritage-based copies with user naming
+2026-01-12 07:33:13 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-12 07:33:13 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-12 07:33:13 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: N1SCR05-779-
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-CH (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-PL (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-B (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-A (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-P (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-SQ (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-FL (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-LPL (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-IPE (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counter for: N1SCR05-779-OTHER (will start from 1)
+2026-01-12 07:33:13 | SCAN: No existing counters found in Registry - starting fresh
+2026-01-12 07:33:13 | EXTRACT: Processing naming scheme: N1SCR05-779-PL{N}
+2026-01-12 07:33:13 | EXTRACT: Extracted prefix: 'N1SCR05-779-'
+2026-01-12 07:33:13 | HERITAGE: Checking for existing counter with key: 'N1SCR05-779-PL'
+2026-01-12 07:33:13 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR05-779-PL' not found)
+2026-01-12 07:33:13 | HERITAGE: DEBUG - No existing counters found
+2026-01-12 07:33:13 | HERITAGE: Processing group 'PL' with scheme: N1SCR05-779-PL{N}
+2026-01-12 07:33:13 | HERITAGE: NSCR05-779-PL1.ipt -> N1SCR05-779-PL1.ipt
+2026-01-12 07:33:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL1.ipt
+2026-01-12 07:33:13 | HERITAGE: Creating new file: N1SCR05-779-PL1.ipt
+2026-01-12 07:33:13 | HERITAGE: SUCCESS - Created N1SCR05-779-PL1.ipt
+2026-01-12 07:33:13 | HERITAGE: NSCR05-779-PL2.ipt -> N1SCR05-779-PL2.ipt
+2026-01-12 07:33:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL2.ipt
+2026-01-12 07:33:13 | HERITAGE: Creating new file: N1SCR05-779-PL2.ipt
+2026-01-12 07:33:13 | HERITAGE: SUCCESS - Created N1SCR05-779-PL2.ipt
+2026-01-12 07:33:13 | HERITAGE: NSCR05-779-PL3.ipt -> N1SCR05-779-PL3.ipt
+2026-01-12 07:33:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL3.ipt
+2026-01-12 07:33:13 | HERITAGE: Creating new file: N1SCR05-779-PL3.ipt
+2026-01-12 07:33:14 | HERITAGE: SUCCESS - Created N1SCR05-779-PL3.ipt
+2026-01-12 07:33:14 | HERITAGE: NSCR05-779-PL4.ipt -> N1SCR05-779-PL4.ipt
+2026-01-12 07:33:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL4.ipt
+2026-01-12 07:33:14 | HERITAGE: Creating new file: N1SCR05-779-PL4.ipt
+2026-01-12 07:33:14 | HERITAGE: SUCCESS - Created N1SCR05-779-PL4.ipt
+2026-01-12 07:33:14 | HERITAGE: NSCR05-779-PL5.ipt -> N1SCR05-779-PL5.ipt
+2026-01-12 07:33:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL5.ipt
+2026-01-12 07:33:14 | HERITAGE: Creating new file: N1SCR05-779-PL5.ipt
+2026-01-12 07:33:14 | HERITAGE: SUCCESS - Created N1SCR05-779-PL5.ipt
+2026-01-12 07:33:14 | HERITAGE: NSCR05-779-PL6.ipt -> N1SCR05-779-PL6.ipt
+2026-01-12 07:33:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL6.ipt
+2026-01-12 07:33:14 | HERITAGE: Creating new file: N1SCR05-779-PL6.ipt
+2026-01-12 07:33:14 | HERITAGE: SUCCESS - Created N1SCR05-779-PL6.ipt
+2026-01-12 07:33:14 | HERITAGE: NSCR05-779-PL7.ipt -> N1SCR05-779-PL7.ipt
+2026-01-12 07:33:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL7.ipt
+2026-01-12 07:33:14 | HERITAGE: Creating new file: N1SCR05-779-PL7.ipt
+2026-01-12 07:33:15 | HERITAGE: SUCCESS - Created N1SCR05-779-PL7.ipt
+2026-01-12 07:33:15 | HERITAGE: NSCR05-779-PL8.ipt -> N1SCR05-779-PL8.ipt
+2026-01-12 07:33:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL8.ipt
+2026-01-12 07:33:15 | HERITAGE: Creating new file: N1SCR05-779-PL8.ipt
+2026-01-12 07:33:15 | HERITAGE: SUCCESS - Created N1SCR05-779-PL8.ipt
+2026-01-12 07:33:15 | HERITAGE: NSCR05-779-PL9.ipt -> N1SCR05-779-PL9.ipt
+2026-01-12 07:33:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL9.ipt
+2026-01-12 07:33:15 | HERITAGE: Creating new file: N1SCR05-779-PL9.ipt
+2026-01-12 07:33:15 | HERITAGE: SUCCESS - Created N1SCR05-779-PL9.ipt
+2026-01-12 07:33:15 | HERITAGE: NSCR05-779-PL10.ipt -> N1SCR05-779-PL10.ipt
+2026-01-12 07:33:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL10.ipt
+2026-01-12 07:33:15 | HERITAGE: Creating new file: N1SCR05-779-PL10.ipt
+2026-01-12 07:33:15 | HERITAGE: SUCCESS - Created N1SCR05-779-PL10.ipt
+2026-01-12 07:33:15 | HERITAGE: NSCR05-779-PL11.ipt -> N1SCR05-779-PL11.ipt
+2026-01-12 07:33:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL11.ipt
+2026-01-12 07:33:15 | HERITAGE: Creating new file: N1SCR05-779-PL11.ipt
+2026-01-12 07:33:15 | HERITAGE: SUCCESS - Created N1SCR05-779-PL11.ipt
+2026-01-12 07:33:16 | HERITAGE: NSCR05-779-PL12.ipt -> N1SCR05-779-PL12.ipt
+2026-01-12 07:33:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL12.ipt
+2026-01-12 07:33:16 | HERITAGE: Creating new file: N1SCR05-779-PL12.ipt
+2026-01-12 07:33:16 | HERITAGE: SUCCESS - Created N1SCR05-779-PL12.ipt
+2026-01-12 07:33:16 | HERITAGE: NSCR05-779-PL13.ipt -> N1SCR05-779-PL13.ipt
+2026-01-12 07:33:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL13.ipt
+2026-01-12 07:33:16 | HERITAGE: Creating new file: N1SCR05-779-PL13.ipt
+2026-01-12 07:33:16 | HERITAGE: SUCCESS - Created N1SCR05-779-PL13.ipt
+2026-01-12 07:33:16 | HERITAGE: NSCR05-779-PL14.ipt -> N1SCR05-779-PL14.ipt
+2026-01-12 07:33:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL14.ipt
+2026-01-12 07:33:16 | HERITAGE: Creating new file: N1SCR05-779-PL14.ipt
+2026-01-12 07:33:16 | HERITAGE: SUCCESS - Created N1SCR05-779-PL14.ipt
+2026-01-12 07:33:16 | HERITAGE: NSCR05-779-PL15.ipt -> N1SCR05-779-PL15.ipt
+2026-01-12 07:33:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL15.ipt
+2026-01-12 07:33:16 | HERITAGE: Creating new file: N1SCR05-779-PL15.ipt
+2026-01-12 07:33:16 | HERITAGE: SUCCESS - Created N1SCR05-779-PL15.ipt
+2026-01-12 07:33:16 | HERITAGE: NSCR05-779-PL16.ipt -> N1SCR05-779-PL16.ipt
+2026-01-12 07:33:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL16.ipt
+2026-01-12 07:33:16 | HERITAGE: Creating new file: N1SCR05-779-PL16.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-PL16.ipt
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-PL17.ipt -> N1SCR05-779-PL17.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL17.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-PL17.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-PL17.ipt
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-PL18.ipt -> N1SCR05-779-PL18.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-PL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-PL18.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-PL18.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-PL18.ipt
+2026-01-12 07:33:17 | REGISTRY: Saved N1SCR05-779-PL = 18
+2026-01-12 07:33:17 | EXTRACT: Processing naming scheme: N1SCR05-779-A{N}
+2026-01-12 07:33:17 | EXTRACT: Extracted prefix: 'N1SCR05-779-'
+2026-01-12 07:33:17 | HERITAGE: Checking for existing counter with key: 'N1SCR05-779-A'
+2026-01-12 07:33:17 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR05-779-A' not found)
+2026-01-12 07:33:17 | HERITAGE: DEBUG - No existing counters found
+2026-01-12 07:33:17 | HERITAGE: Processing group 'A' with scheme: N1SCR05-779-A{N}
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-A1.ipt -> N1SCR05-779-A1.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A1.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-A1.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-A1.ipt
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-A2.ipt -> N1SCR05-779-A2.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A2.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-A2.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-A2.ipt
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-A3.ipt -> N1SCR05-779-A3.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A3.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-A3.ipt
+2026-01-12 07:33:17 | HERITAGE: SUCCESS - Created N1SCR05-779-A3.ipt
+2026-01-12 07:33:17 | HERITAGE: NSCR05-779-A4.ipt -> N1SCR05-779-A4.ipt
+2026-01-12 07:33:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A4.ipt
+2026-01-12 07:33:17 | HERITAGE: Creating new file: N1SCR05-779-A4.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A4.ipt
+2026-01-12 07:33:18 | HERITAGE: NSCR05-779-A5.ipt -> N1SCR05-779-A5.ipt
+2026-01-12 07:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A5.ipt
+2026-01-12 07:33:18 | HERITAGE: Creating new file: N1SCR05-779-A5.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A5.ipt
+2026-01-12 07:33:18 | HERITAGE: NSCR05-779-A6.ipt -> N1SCR05-779-A6.ipt
+2026-01-12 07:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A6.ipt
+2026-01-12 07:33:18 | HERITAGE: Creating new file: N1SCR05-779-A6.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A6.ipt
+2026-01-12 07:33:18 | HERITAGE: NSCR05-779-A7.ipt -> N1SCR05-779-A7.ipt
+2026-01-12 07:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A7.ipt
+2026-01-12 07:33:18 | HERITAGE: Creating new file: N1SCR05-779-A7.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A7.ipt
+2026-01-12 07:33:18 | HERITAGE: NSCR05-779-A8.ipt -> N1SCR05-779-A8.ipt
+2026-01-12 07:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A8.ipt
+2026-01-12 07:33:18 | HERITAGE: Creating new file: N1SCR05-779-A8.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A8.ipt
+2026-01-12 07:33:18 | HERITAGE: NSCR05-779-A9.ipt -> N1SCR05-779-A9.ipt
+2026-01-12 07:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A9.ipt
+2026-01-12 07:33:18 | HERITAGE: Creating new file: N1SCR05-779-A9.ipt
+2026-01-12 07:33:18 | HERITAGE: SUCCESS - Created N1SCR05-779-A9.ipt
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-A10.ipt -> N1SCR05-779-A10.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-A10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-A10.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-A10.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-A10.ipt
+2026-01-12 07:33:19 | REGISTRY: Saved N1SCR05-779-A = 10
+2026-01-12 07:33:19 | EXTRACT: Processing naming scheme: N1SCR05-779-FL{N}
+2026-01-12 07:33:19 | EXTRACT: Extracted prefix: 'N1SCR05-779-'
+2026-01-12 07:33:19 | HERITAGE: Checking for existing counter with key: 'N1SCR05-779-FL'
+2026-01-12 07:33:19 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR05-779-FL' not found)
+2026-01-12 07:33:19 | HERITAGE: DEBUG - No existing counters found
+2026-01-12 07:33:19 | HERITAGE: Processing group 'FL' with scheme: N1SCR05-779-FL{N}
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-FL1.ipt -> N1SCR05-779-FL1.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL1.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-FL1.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-FL1.ipt
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-FL2.ipt -> N1SCR05-779-FL2.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL2.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-FL2.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-FL2.ipt
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-FL3.ipt -> N1SCR05-779-FL3.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL3.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-FL3.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-FL3.ipt
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-FL4.ipt -> N1SCR05-779-FL4.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL4.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-FL4.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-FL4.ipt
+2026-01-12 07:33:19 | HERITAGE: NSCR05-779-FL6.ipt -> N1SCR05-779-FL5.ipt
+2026-01-12 07:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL5.ipt
+2026-01-12 07:33:19 | HERITAGE: Creating new file: N1SCR05-779-FL5.ipt
+2026-01-12 07:33:19 | HERITAGE: SUCCESS - Created N1SCR05-779-FL5.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL7.ipt -> N1SCR05-779-FL6.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL6.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL6.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL6.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL8.ipt -> N1SCR05-779-FL7.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL7.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL7.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL7.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL9.ipt -> N1SCR05-779-FL8.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL8.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL8.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL8.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL10.ipt -> N1SCR05-779-FL9.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL9.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL9.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL9.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL11.ipt -> N1SCR05-779-FL10.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL10.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL10.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL10.ipt
+2026-01-12 07:33:20 | HERITAGE: NSCR05-779-FL12.ipt -> N1SCR05-779-FL11.ipt
+2026-01-12 07:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL11.ipt
+2026-01-12 07:33:20 | HERITAGE: Creating new file: N1SCR05-779-FL11.ipt
+2026-01-12 07:33:20 | HERITAGE: SUCCESS - Created N1SCR05-779-FL11.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL13.ipt -> N1SCR05-779-FL12.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL12.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL12.ipt
+2026-01-12 07:33:21 | HERITAGE: SUCCESS - Created N1SCR05-779-FL12.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL14.ipt -> N1SCR05-779-FL13.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL13.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL13.ipt
+2026-01-12 07:33:21 | HERITAGE: SUCCESS - Created N1SCR05-779-FL13.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL15.ipt -> N1SCR05-779-FL14.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL14.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL14.ipt
+2026-01-12 07:33:21 | HERITAGE: SUCCESS - Created N1SCR05-779-FL14.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL16.ipt -> N1SCR05-779-FL15.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL15.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL15.ipt
+2026-01-12 07:33:21 | HERITAGE: SUCCESS - Created N1SCR05-779-FL15.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL17.ipt -> N1SCR05-779-FL16.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL16.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL16.ipt
+2026-01-12 07:33:21 | HERITAGE: SUCCESS - Created N1SCR05-779-FL16.ipt
+2026-01-12 07:33:21 | HERITAGE: NSCR05-779-FL18.ipt -> N1SCR05-779-FL17.ipt
+2026-01-12 07:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL17.ipt
+2026-01-12 07:33:21 | HERITAGE: Creating new file: N1SCR05-779-FL17.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL17.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL19.ipt -> N1SCR05-779-FL18.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL18.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL18.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL18.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL20.ipt -> N1SCR05-779-FL19.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL19.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL19.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL19.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL21.ipt -> N1SCR05-779-FL20.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL21.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL20.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL20.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL20.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL22.ipt -> N1SCR05-779-FL21.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL22.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL21.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL21.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL21.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL23.ipt -> N1SCR05-779-FL22.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL23.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL22.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL22.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL22.ipt
+2026-01-12 07:33:22 | HERITAGE: NSCR05-779-FL24.ipt -> N1SCR05-779-FL23.ipt
+2026-01-12 07:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL24.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL23.ipt
+2026-01-12 07:33:22 | HERITAGE: Creating new file: N1SCR05-779-FL23.ipt
+2026-01-12 07:33:22 | HERITAGE: SUCCESS - Created N1SCR05-779-FL23.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL25.ipt -> N1SCR05-779-FL24.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL25.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL24.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL24.ipt
+2026-01-12 07:33:23 | HERITAGE: SUCCESS - Created N1SCR05-779-FL24.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL26.ipt -> N1SCR05-779-FL25.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL26.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL25.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL25.ipt
+2026-01-12 07:33:23 | HERITAGE: SUCCESS - Created N1SCR05-779-FL25.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL28.ipt -> N1SCR05-779-FL26.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL28.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL26.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL26.ipt
+2026-01-12 07:33:23 | HERITAGE: SUCCESS - Created N1SCR05-779-FL26.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL29.ipt -> N1SCR05-779-FL27.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL29.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL27.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL27.ipt
+2026-01-12 07:33:23 | HERITAGE: SUCCESS - Created N1SCR05-779-FL27.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL30.ipt -> N1SCR05-779-FL28.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL30.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL28.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL28.ipt
+2026-01-12 07:33:23 | HERITAGE: SUCCESS - Created N1SCR05-779-FL28.ipt
+2026-01-12 07:33:23 | HERITAGE: NSCR05-779-FL31.ipt -> N1SCR05-779-FL29.ipt
+2026-01-12 07:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL31.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL29.ipt
+2026-01-12 07:33:23 | HERITAGE: Creating new file: N1SCR05-779-FL29.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL29.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL32.ipt -> N1SCR05-779-FL30.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL32.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL30.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL30.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL30.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL33.ipt -> N1SCR05-779-FL31.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL33.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL31.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL31.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL31.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL34.ipt -> N1SCR05-779-FL32.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL34.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL32.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL32.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL32.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL35.ipt -> N1SCR05-779-FL33.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL35.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL33.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL33.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL33.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL36.ipt -> N1SCR05-779-FL34.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL36.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL34.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL34.ipt
+2026-01-12 07:33:24 | HERITAGE: SUCCESS - Created N1SCR05-779-FL34.ipt
+2026-01-12 07:33:24 | HERITAGE: NSCR05-779-FL37.ipt -> N1SCR05-779-FL35.ipt
+2026-01-12 07:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL37.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL35.ipt
+2026-01-12 07:33:24 | HERITAGE: Creating new file: N1SCR05-779-FL35.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL35.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL38.ipt -> N1SCR05-779-FL36.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL38.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL36.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL36.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL36.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL39.ipt -> N1SCR05-779-FL37.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL39.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL37.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL37.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL37.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL40.ipt -> N1SCR05-779-FL38.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL40.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL38.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL38.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL38.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL41.ipt -> N1SCR05-779-FL39.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL41.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL39.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL39.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL39.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL42.ipt -> N1SCR05-779-FL40.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL42.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL40.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL40.ipt
+2026-01-12 07:33:25 | HERITAGE: SUCCESS - Created N1SCR05-779-FL40.ipt
+2026-01-12 07:33:25 | HERITAGE: NSCR05-779-FL43.ipt -> N1SCR05-779-FL41.ipt
+2026-01-12 07:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL43.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL41.ipt
+2026-01-12 07:33:25 | HERITAGE: Creating new file: N1SCR05-779-FL41.ipt
+2026-01-12 07:33:26 | HERITAGE: SUCCESS - Created N1SCR05-779-FL41.ipt
+2026-01-12 07:33:26 | HERITAGE: NSCR05-779-FL44.ipt -> N1SCR05-779-FL42.ipt
+2026-01-12 07:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL44.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL42.ipt
+2026-01-12 07:33:26 | HERITAGE: Creating new file: N1SCR05-779-FL42.ipt
+2026-01-12 07:33:26 | HERITAGE: SUCCESS - Created N1SCR05-779-FL42.ipt
+2026-01-12 07:33:26 | HERITAGE: NSCR05-779-FL45.ipt -> N1SCR05-779-FL43.ipt
+2026-01-12 07:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL45.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL43.ipt
+2026-01-12 07:33:26 | HERITAGE: Creating new file: N1SCR05-779-FL43.ipt
+2026-01-12 07:33:26 | HERITAGE: SUCCESS - Created N1SCR05-779-FL43.ipt
+2026-01-12 07:33:26 | HERITAGE: NSCR05-779-FL46.ipt -> N1SCR05-779-FL44.ipt
+2026-01-12 07:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL46.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL44.ipt
+2026-01-12 07:33:26 | HERITAGE: Creating new file: N1SCR05-779-FL44.ipt
+2026-01-12 07:33:26 | HERITAGE: SUCCESS - Created N1SCR05-779-FL44.ipt
+2026-01-12 07:33:26 | HERITAGE: NSCR05-779-FL47.ipt -> N1SCR05-779-FL45.ipt
+2026-01-12 07:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL47.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL45.ipt
+2026-01-12 07:33:26 | HERITAGE: Creating new file: N1SCR05-779-FL45.ipt
+2026-01-12 07:33:26 | HERITAGE: SUCCESS - Created N1SCR05-779-FL45.ipt
+2026-01-12 07:33:26 | HERITAGE: NSCR05-779-FL48.ipt -> N1SCR05-779-FL46.ipt
+2026-01-12 07:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL48.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL46.ipt
+2026-01-12 07:33:26 | HERITAGE: Creating new file: N1SCR05-779-FL46.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL46.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL49.ipt -> N1SCR05-779-FL47.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL49.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL47.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL47.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL47.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL50.ipt -> N1SCR05-779-FL48.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL50.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL48.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL48.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL48.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL51.ipt -> N1SCR05-779-FL49.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL51.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL49.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL49.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL49.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL52.ipt -> N1SCR05-779-FL50.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL52.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL50.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL50.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL50.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL53.ipt -> N1SCR05-779-FL51.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL53.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL51.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL51.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL51.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL54.ipt -> N1SCR05-779-FL52.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL54.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL52.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL52.ipt
+2026-01-12 07:33:27 | HERITAGE: SUCCESS - Created N1SCR05-779-FL52.ipt
+2026-01-12 07:33:27 | HERITAGE: NSCR05-779-FL55.ipt -> N1SCR05-779-FL53.ipt
+2026-01-12 07:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL55.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL53.ipt
+2026-01-12 07:33:27 | HERITAGE: Creating new file: N1SCR05-779-FL53.ipt
+2026-01-12 07:33:28 | HERITAGE: SUCCESS - Created N1SCR05-779-FL53.ipt
+2026-01-12 07:33:28 | HERITAGE: NSCR05-779-FL56.ipt -> N1SCR05-779-FL54.ipt
+2026-01-12 07:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL56.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL54.ipt
+2026-01-12 07:33:28 | HERITAGE: Creating new file: N1SCR05-779-FL54.ipt
+2026-01-12 07:33:28 | HERITAGE: SUCCESS - Created N1SCR05-779-FL54.ipt
+2026-01-12 07:33:28 | HERITAGE: NSCR05-779-FL57.ipt -> N1SCR05-779-FL55.ipt
+2026-01-12 07:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL57.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL55.ipt
+2026-01-12 07:33:28 | HERITAGE: Creating new file: N1SCR05-779-FL55.ipt
+2026-01-12 07:33:28 | HERITAGE: SUCCESS - Created N1SCR05-779-FL55.ipt
+2026-01-12 07:33:28 | HERITAGE: NSCR05-779-FL58.ipt -> N1SCR05-779-FL56.ipt
+2026-01-12 07:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL58.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL56.ipt
+2026-01-12 07:33:28 | HERITAGE: Creating new file: N1SCR05-779-FL56.ipt
+2026-01-12 07:33:28 | HERITAGE: SUCCESS - Created N1SCR05-779-FL56.ipt
+2026-01-12 07:33:28 | HERITAGE: NSCR05-779-FL59.ipt -> N1SCR05-779-FL57.ipt
+2026-01-12 07:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\NSCR05-779-FL59.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL57.ipt
+2026-01-12 07:33:28 | HERITAGE: Creating new file: N1SCR05-779-FL57.ipt
+2026-01-12 07:33:28 | HERITAGE: SUCCESS - Created N1SCR05-779-FL57.ipt
+2026-01-12 07:33:28 | HERITAGE: NSCR05-779-FL60.ipt -> N1SCR05-779-FL58.ipt
+2026-01-12 07:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\NSCR05-779-FL60.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\N1SCR05-779-FL58.ipt
+2026-01-12 07:33:28 | HERITAGE: Creating new file: N1SCR05-779-FL58.ipt
+2026-01-12 07:33:29 | HERITAGE: SUCCESS - Created N1SCR05-779-FL58.ipt
+2026-01-12 07:33:29 | HERITAGE: N1SCR04-780-FL60.ipt -> N1SCR05-779-FL59.ipt
+2026-01-12 07:33:29 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR04-780-FL60.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\722 Underpan\CM Underpan\N1SCR05-779-FL59.ipt
+2026-01-12 07:33:29 | HERITAGE: Creating new file: N1SCR05-779-FL59.ipt
+2026-01-12 07:33:29 | HERITAGE: SUCCESS - Created N1SCR05-779-FL59.ipt
+2026-01-12 07:33:29 | REGISTRY: Saved N1SCR05-779-FL = 59
+2026-01-12 07:33:29 | STEP 7: Updating assembly references
+2026-01-12 07:33:29 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-12 07:33:29 | ASSEMBLY: Updating references in - NSCR05-779.iam (Level: ROOT)
+2026-01-12 07:33:29 | ASSEMBLY: Replacing NSCR05-779-PL1.ipt -> N1SCR05-779-PL1.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL1.ipt
+2026-01-12 07:33:29 | ASSEMBLY: Replacing NSCR05-779-PL2.ipt -> N1SCR05-779-PL2.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL2.ipt
+2026-01-12 07:33:30 | ASSEMBLY: Replacing NSCR05-779-PL3.ipt -> N1SCR05-779-PL3.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL3.ipt
+2026-01-12 07:33:30 | ASSEMBLY: Replacing NSCR05-779-PL4.ipt -> N1SCR05-779-PL4.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL4.ipt
+2026-01-12 07:33:30 | ASSEMBLY: Replacing NSCR05-779-PL5.ipt -> N1SCR05-779-PL5.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL5.ipt
+2026-01-12 07:33:31 | ASSEMBLY: Replacing NSCR05-779-PL6.ipt -> N1SCR05-779-PL6.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL6.ipt
+2026-01-12 07:33:31 | ASSEMBLY: Replacing NSCR05-779-PL7.ipt -> N1SCR05-779-PL7.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL7.ipt
+2026-01-12 07:33:31 | ASSEMBLY: Replacing NSCR05-779-PL8.ipt -> N1SCR05-779-PL8.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL8.ipt
+2026-01-12 07:33:32 | ASSEMBLY: Replacing NSCR05-779-PL9.ipt -> N1SCR05-779-PL9.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL9.ipt
+2026-01-12 07:33:32 | ASSEMBLY: Replacing NSCR05-779-PL10.ipt -> N1SCR05-779-PL10.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL10.ipt
+2026-01-12 07:33:33 | ASSEMBLY: Replacing NSCR05-779-A1.ipt -> N1SCR05-779-A1.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A1.ipt
+2026-01-12 07:33:33 | ASSEMBLY: Replacing NSCR05-779-A2.ipt -> N1SCR05-779-A2.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A2.ipt
+2026-01-12 07:33:33 | ASSEMBLY: Replacing NSCR05-779-A3.ipt -> N1SCR05-779-A3.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A3.ipt
+2026-01-12 07:33:34 | ASSEMBLY: Replacing NSCR05-779-A4.ipt -> N1SCR05-779-A4.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A4.ipt
+2026-01-12 07:33:34 | ASSEMBLY: Replacing NSCR05-779-A5.ipt -> N1SCR05-779-A5.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A5.ipt
+2026-01-12 07:33:34 | ASSEMBLY: Replacing NSCR05-779-A6.ipt -> N1SCR05-779-A6.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A6.ipt
+2026-01-12 07:33:35 | ASSEMBLY: Replacing NSCR05-779-A7.ipt -> N1SCR05-779-A7.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A7.ipt
+2026-01-12 07:33:35 | ASSEMBLY: Replacing NSCR05-779-A8.ipt -> N1SCR05-779-A8.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A8.ipt
+2026-01-12 07:33:35 | ASSEMBLY: Replacing NSCR05-779-A9.ipt -> N1SCR05-779-A9.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A9.ipt
+2026-01-12 07:33:36 | ASSEMBLY: Replacing NSCR05-779-A10.ipt -> N1SCR05-779-A10.ipt [A] (in NSCR05-779.iam)
+2026-01-12 07:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-A10.ipt
+2026-01-12 07:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-A10.ipt (not renamed)
+2026-01-12 07:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-A10.ipt (not renamed)
+2026-01-12 07:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-A10.ipt (not renamed)
+2026-01-12 07:33:36 | ASSEMBLY: Replacing NSCR05-779-PL11.ipt -> N1SCR05-779-PL11.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL11.ipt
+2026-01-12 07:33:36 | ASSEMBLY: Replacing NSCR05-779-PL12.ipt -> N1SCR05-779-PL12.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL12.ipt
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL12.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: Replacing NSCR05-779-PL13.ipt -> N1SCR05-779-PL13.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL13.ipt
+2026-01-12 07:33:37 | ASSEMBLY: Replacing NSCR05-779-PL14.ipt -> N1SCR05-779-PL14.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL14.ipt
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL14.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL13.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL14.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL14.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL13.ipt (not renamed)
+2026-01-12 07:33:37 | ASSEMBLY: Replacing NSCR05-779-PL15.ipt -> N1SCR05-779-PL15.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL15.ipt
+2026-01-12 07:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL15.ipt (not renamed)
+2026-01-12 07:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL13.ipt (not renamed)
+2026-01-12 07:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL15.ipt (not renamed)
+2026-01-12 07:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL15.ipt (not renamed)
+2026-01-12 07:33:38 | ASSEMBLY: Replacing NSCR05-779-FL1.ipt -> N1SCR05-779-FL1.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL1.ipt
+2026-01-12 07:33:38 | ASSEMBLY: Replacing NSCR05-779-FL2.ipt -> N1SCR05-779-FL2.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL2.ipt
+2026-01-12 07:33:38 | ASSEMBLY: Replacing NSCR05-779-FL3.ipt -> N1SCR05-779-FL3.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL3.ipt
+2026-01-12 07:33:39 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL3.ipt (not renamed)
+2026-01-12 07:33:39 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL3.ipt (not renamed)
+2026-01-12 07:33:39 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL3.ipt (not renamed)
+2026-01-12 07:33:39 | ASSEMBLY: Replacing NSCR05-779-FL4.ipt -> N1SCR05-779-FL4.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL4.ipt
+2026-01-12 07:33:39 | ASSEMBLY: Replacing NSCR05-779-FL6.ipt -> N1SCR05-779-FL5.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL5.ipt
+2026-01-12 07:33:39 | ASSEMBLY: Replacing NSCR05-779-FL7.ipt -> N1SCR05-779-FL6.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL6.ipt
+2026-01-12 07:33:39 | ASSEMBLY: Replacing NSCR05-779-FL8.ipt -> N1SCR05-779-FL7.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:40 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL7.ipt
+2026-01-12 07:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL7.ipt (not renamed)
+2026-01-12 07:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL7.ipt (not renamed)
+2026-01-12 07:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL7.ipt (not renamed)
+2026-01-12 07:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL7.ipt (not renamed)
+2026-01-12 07:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL7.ipt (not renamed)
+2026-01-12 07:33:40 | ASSEMBLY: Replacing NSCR05-779-FL9.ipt -> N1SCR05-779-FL8.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:40 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL8.ipt
+2026-01-12 07:33:40 | ASSEMBLY: Replacing NSCR05-779-FL10.ipt -> N1SCR05-779-FL9.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:40 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL9.ipt
+2026-01-12 07:33:40 | ASSEMBLY: Replacing NSCR05-779-FL11.ipt -> N1SCR05-779-FL10.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL10.ipt
+2026-01-12 07:33:41 | ASSEMBLY: Replacing NSCR05-779-FL12.ipt -> N1SCR05-779-FL11.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL11.ipt
+2026-01-12 07:33:41 | ASSEMBLY: Replacing NSCR05-779-FL13.ipt -> N1SCR05-779-FL12.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL12.ipt
+2026-01-12 07:33:41 | ASSEMBLY: Replacing NSCR05-779-FL14.ipt -> N1SCR05-779-FL13.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL13.ipt
+2026-01-12 07:33:42 | ASSEMBLY: Replacing NSCR05-779-FL15.ipt -> N1SCR05-779-FL14.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL14.ipt
+2026-01-12 07:33:42 | ASSEMBLY: Replacing NSCR05-779-FL16.ipt -> N1SCR05-779-FL15.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL15.ipt
+2026-01-12 07:33:42 | ASSEMBLY: Replacing NSCR05-779-FL17.ipt -> N1SCR05-779-FL16.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL16.ipt
+2026-01-12 07:33:42 | ASSEMBLY: Replacing NSCR05-779-FL18.ipt -> N1SCR05-779-FL17.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL17.ipt
+2026-01-12 07:33:43 | ASSEMBLY: Replacing NSCR05-779-FL19.ipt -> N1SCR05-779-FL18.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL18.ipt
+2026-01-12 07:33:43 | ASSEMBLY: Replacing NSCR05-779-FL20.ipt -> N1SCR05-779-FL19.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL19.ipt
+2026-01-12 07:33:43 | ASSEMBLY: Replacing NSCR05-779-FL21.ipt -> N1SCR05-779-FL20.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL20.ipt
+2026-01-12 07:33:43 | ASSEMBLY: Replacing NSCR05-779-FL22.ipt -> N1SCR05-779-FL21.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:44 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL21.ipt
+2026-01-12 07:33:44 | ASSEMBLY: Replacing NSCR05-779-FL23.ipt -> N1SCR05-779-FL22.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:44 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL22.ipt
+2026-01-12 07:33:44 | ASSEMBLY: Replacing NSCR05-779-FL24.ipt -> N1SCR05-779-FL23.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:44 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL23.ipt
+2026-01-12 07:33:44 | ASSEMBLY: Replacing NSCR05-779-FL25.ipt -> N1SCR05-779-FL24.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:44 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL24.ipt
+2026-01-12 07:33:45 | ASSEMBLY: Replacing NSCR05-779-FL26.ipt -> N1SCR05-779-FL25.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:45 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL25.ipt
+2026-01-12 07:33:45 | ASSEMBLY: Replacing NSCR05-779-FL28.ipt -> N1SCR05-779-FL26.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:45 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL26.ipt
+2026-01-12 07:33:45 | ASSEMBLY: Replacing NSCR05-779-FL29.ipt -> N1SCR05-779-FL27.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:45 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL27.ipt
+2026-01-12 07:33:45 | ASSEMBLY: Replacing NSCR05-779-FL30.ipt -> N1SCR05-779-FL28.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL28.ipt
+2026-01-12 07:33:46 | ASSEMBLY: Replacing NSCR05-779-FL31.ipt -> N1SCR05-779-FL29.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL29.ipt
+2026-01-12 07:33:46 | ASSEMBLY: Replacing NSCR05-779-FL32.ipt -> N1SCR05-779-FL30.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL30.ipt
+2026-01-12 07:33:46 | ASSEMBLY: Replacing NSCR05-779-FL33.ipt -> N1SCR05-779-FL31.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL31.ipt
+2026-01-12 07:33:46 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:46 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL31.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: Replacing NSCR05-779-FL34.ipt -> N1SCR05-779-FL32.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:47 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL32.ipt
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: Replacing NSCR05-779-FL35.ipt -> N1SCR05-779-FL33.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:47 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL33.ipt
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:47 | ASSEMBLY: Replacing NSCR05-779-FL36.ipt -> N1SCR05-779-FL34.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:48 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL34.ipt
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL32.ipt (not renamed)
+2026-01-12 07:33:48 | ASSEMBLY: Replacing NSCR05-779-PL16.ipt -> N1SCR05-779-PL16.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:48 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL16.ipt
+2026-01-12 07:33:48 | ASSEMBLY: Replacing NSCR05-779-PL17.ipt -> N1SCR05-779-PL17.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:48 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL17.ipt
+2026-01-12 07:33:48 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL16.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL17.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL16.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL17.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL16.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL17.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: Replacing NSCR05-779-PL18.ipt -> N1SCR05-779-PL18.ipt [PL] (in NSCR05-779.iam)
+2026-01-12 07:33:49 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-PL18.ipt
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-PL18.ipt (not renamed)
+2026-01-12 07:33:49 | ASSEMBLY: Replacing NSCR05-779-FL37.ipt -> N1SCR05-779-FL35.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:49 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL35.ipt
+2026-01-12 07:33:49 | ASSEMBLY: Replacing NSCR05-779-FL38.ipt -> N1SCR05-779-FL36.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:50 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL36.ipt
+2026-01-12 07:33:50 | ASSEMBLY: Replacing NSCR05-779-FL39.ipt -> N1SCR05-779-FL37.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:50 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL37.ipt
+2026-01-12 07:33:50 | ASSEMBLY: Replacing NSCR05-779-FL40.ipt -> N1SCR05-779-FL38.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:50 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL38.ipt
+2026-01-12 07:33:50 | ASSEMBLY: Replacing NSCR05-779-FL41.ipt -> N1SCR05-779-FL39.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:50 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL39.ipt
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:50 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:51 | ASSEMBLY: Replacing NSCR05-779-FL42.ipt -> N1SCR05-779-FL40.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:51 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL40.ipt
+2026-01-12 07:33:51 | ASSEMBLY: Replacing NSCR05-779-FL43.ipt -> N1SCR05-779-FL41.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:51 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL41.ipt
+2026-01-12 07:33:51 | ASSEMBLY: Replacing NSCR05-779-FL44.ipt -> N1SCR05-779-FL42.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:51 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL42.ipt
+2026-01-12 07:33:51 | ASSEMBLY: Replacing NSCR05-779-FL45.ipt -> N1SCR05-779-FL43.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:52 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL43.ipt
+2026-01-12 07:33:52 | ASSEMBLY: Replacing NSCR05-779-FL46.ipt -> N1SCR05-779-FL44.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:52 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL44.ipt
+2026-01-12 07:33:52 | ASSEMBLY: Replacing NSCR05-779-FL47.ipt -> N1SCR05-779-FL45.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:52 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL45.ipt
+2026-01-12 07:33:52 | ASSEMBLY: Replacing NSCR05-779-FL48.ipt -> N1SCR05-779-FL46.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:53 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL46.ipt
+2026-01-12 07:33:53 | ASSEMBLY: Replacing NSCR05-779-FL49.ipt -> N1SCR05-779-FL47.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:53 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL47.ipt
+2026-01-12 07:33:53 | ASSEMBLY: Replacing NSCR05-779-FL50.ipt -> N1SCR05-779-FL48.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:53 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL48.ipt
+2026-01-12 07:33:53 | ASSEMBLY: Replacing NSCR05-779-FL51.ipt -> N1SCR05-779-FL49.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:53 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL49.ipt
+2026-01-12 07:33:53 | ASSEMBLY: Replacing NSCR05-779-FL52.ipt -> N1SCR05-779-FL50.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:54 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL50.ipt
+2026-01-12 07:33:54 | ASSEMBLY: Replacing NSCR05-779-FL53.ipt -> N1SCR05-779-FL51.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:54 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL51.ipt
+2026-01-12 07:33:54 | ASSEMBLY: Replacing NSCR05-779-FL54.ipt -> N1SCR05-779-FL52.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:54 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL52.ipt
+2026-01-12 07:33:54 | ASSEMBLY: Replacing NSCR05-779-FL55.ipt -> N1SCR05-779-FL53.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:54 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL53.ipt
+2026-01-12 07:33:54 | ASSEMBLY: Replacing NSCR05-779-FL56.ipt -> N1SCR05-779-FL54.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:55 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL54.ipt
+2026-01-12 07:33:55 | ASSEMBLY: Replacing NSCR05-779-FL57.ipt -> N1SCR05-779-FL55.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:55 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL55.ipt
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL34.ipt (not renamed)
+2026-01-12 07:33:55 | ASSEMBLY: Replacing NSCR05-779-FL58.ipt -> N1SCR05-779-FL56.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:55 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL56.ipt
+2026-01-12 07:33:55 | ASSEMBLY: Replacing NSCR05-779-FL59.ipt -> N1SCR05-779-FL57.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:56 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL57.ipt
+2026-01-12 07:33:56 | ASSEMBLY: INFO - No mapping found for N1SCR05-779-FL33.ipt (not renamed)
+2026-01-12 07:33:56 | ASSEMBLY: Replacing NSCR05-779-FL60.ipt -> N1SCR05-779-FL58.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:56 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL58.ipt
+2026-01-12 07:33:56 | ASSEMBLY: Replacing N1SCR04-780-FL60.ipt -> N1SCR05-779-FL59.ipt [FL] (in NSCR05-779.iam)
+2026-01-12 07:33:56 | ASSEMBLY: SUCCESS - Updated to N1SCR05-779-FL59.ipt
+2026-01-12 07:33:56 | ASSEMBLY: Saving assembly with updated references...
+2026-01-12 07:34:01 | ASSEMBLY: Successfully saved assembly
+2026-01-12 07:34:01 | STEP 8: Auto-detecting and updating IDW files
+2026-01-12 07:34:01 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-12 07:34:01 | IDW: Found drawing file - KNL-N0200-SCR05-0779-PD.idw
+2026-01-12 07:34:01 | IDW: Processing KNL-N0200-SCR05-0779-PD.idw
+2026-01-12 07:34:02 | IDW: Opening KNL-N0200-SCR05-0779-PD.idw
+2026-01-12 07:34:06 | IDW: Found 88 referenced files
+2026-01-12 07:34:06 | IDW: Updating reference N1SCR04-780-FL60.ipt -> N1SCR05-779-FL59.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: INFO - No mapping found for NSCR05-779.iam
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A1.ipt -> N1SCR05-779-A1.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A10.ipt -> N1SCR05-779-A10.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A2.ipt -> N1SCR05-779-A2.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A3.ipt -> N1SCR05-779-A3.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A4.ipt -> N1SCR05-779-A4.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A5.ipt -> N1SCR05-779-A5.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A6.ipt -> N1SCR05-779-A6.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A7.ipt -> N1SCR05-779-A7.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A8.ipt -> N1SCR05-779-A8.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-A9.ipt -> N1SCR05-779-A9.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL1.ipt -> N1SCR05-779-FL1.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL10.ipt -> N1SCR05-779-FL9.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL11.ipt -> N1SCR05-779-FL10.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL12.ipt -> N1SCR05-779-FL11.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL13.ipt -> N1SCR05-779-FL12.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL14.ipt -> N1SCR05-779-FL13.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL15.ipt -> N1SCR05-779-FL14.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL16.ipt -> N1SCR05-779-FL15.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL17.ipt -> N1SCR05-779-FL16.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL18.ipt -> N1SCR05-779-FL17.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL19.ipt -> N1SCR05-779-FL18.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL2.ipt -> N1SCR05-779-FL2.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL20.ipt -> N1SCR05-779-FL19.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL21.ipt -> N1SCR05-779-FL20.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL22.ipt -> N1SCR05-779-FL21.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL23.ipt -> N1SCR05-779-FL22.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL24.ipt -> N1SCR05-779-FL23.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL25.ipt -> N1SCR05-779-FL24.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL26.ipt -> N1SCR05-779-FL25.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL28.ipt -> N1SCR05-779-FL26.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL29.ipt -> N1SCR05-779-FL27.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL3.ipt -> N1SCR05-779-FL3.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL30.ipt -> N1SCR05-779-FL28.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL31.ipt -> N1SCR05-779-FL29.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL32.ipt -> N1SCR05-779-FL30.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL33.ipt -> N1SCR05-779-FL31.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL34.ipt -> N1SCR05-779-FL32.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL35.ipt -> N1SCR05-779-FL33.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL36.ipt -> N1SCR05-779-FL34.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL37.ipt -> N1SCR05-779-FL35.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL38.ipt -> N1SCR05-779-FL36.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL39.ipt -> N1SCR05-779-FL37.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL4.ipt -> N1SCR05-779-FL4.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL40.ipt -> N1SCR05-779-FL38.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL41.ipt -> N1SCR05-779-FL39.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL42.ipt -> N1SCR05-779-FL40.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL43.ipt -> N1SCR05-779-FL41.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL44.ipt -> N1SCR05-779-FL42.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL45.ipt -> N1SCR05-779-FL43.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL46.ipt -> N1SCR05-779-FL44.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL47.ipt -> N1SCR05-779-FL45.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL48.ipt -> N1SCR05-779-FL46.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL49.ipt -> N1SCR05-779-FL47.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: INFO - No mapping found for NSCR05-779-FL5.ipt
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL50.ipt -> N1SCR05-779-FL48.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL51.ipt -> N1SCR05-779-FL49.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL52.ipt -> N1SCR05-779-FL50.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL53.ipt -> N1SCR05-779-FL51.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL54.ipt -> N1SCR05-779-FL52.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL55.ipt -> N1SCR05-779-FL53.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL56.ipt -> N1SCR05-779-FL54.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL57.ipt -> N1SCR05-779-FL55.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL58.ipt -> N1SCR05-779-FL56.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL59.ipt -> N1SCR05-779-FL57.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL6.ipt -> N1SCR05-779-FL5.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL7.ipt -> N1SCR05-779-FL6.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL8.ipt -> N1SCR05-779-FL7.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-FL9.ipt -> N1SCR05-779-FL8.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL1.ipt -> N1SCR05-779-PL1.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL10.ipt -> N1SCR05-779-PL10.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL11.ipt -> N1SCR05-779-PL11.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL12.ipt -> N1SCR05-779-PL12.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL13.ipt -> N1SCR05-779-PL13.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:06 | IDW: Updating reference NSCR05-779-PL14.ipt -> N1SCR05-779-PL14.ipt
+2026-01-12 07:34:06 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL15.ipt -> N1SCR05-779-PL15.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL16.ipt -> N1SCR05-779-PL16.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL17.ipt -> N1SCR05-779-PL17.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL18.ipt -> N1SCR05-779-PL18.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL2.ipt -> N1SCR05-779-PL2.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL3.ipt -> N1SCR05-779-PL3.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL4.ipt -> N1SCR05-779-PL4.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL5.ipt -> N1SCR05-779-PL5.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL6.ipt -> N1SCR05-779-PL6.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL7.ipt -> N1SCR05-779-PL7.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL8.ipt -> N1SCR05-779-PL8.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:07 | IDW: Updating reference NSCR05-779-PL9.ipt -> N1SCR05-779-PL9.ipt
+2026-01-12 07:34:07 | IDW: SUCCESS - Reference updated
+2026-01-12 07:34:10 | IDW: Saved KNL-N0200-SCR05-0779-PD.idw
+2026-01-12 07:34:10 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-12 07:34:10 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-12 07:34:10 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-12 07:34:10 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

@@ -1,0 +1,74 @@
+﻿2025-12-17 08:54:28 | === ASSEMBLY CLONER STARTED ===
+2025-12-17 08:54:28 | Using EXACT methodology from VBScript Option 9
+2025-12-17 08:54:28 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam45\Beam-45.iam
+2025-12-17 08:54:28 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam45
+2025-12-17 08:54:29 | User confirmed clone operation
+2025-12-17 08:54:29 | Opening folder browser dialog...
+2025-12-17 08:54:49 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-27
+2025-12-17 08:54:50 | Rename parts: True
+2025-12-17 08:54:50 | Prompting for plant section prefix...
+2025-12-17 08:54:52 | Plant section prefix: Beam-27
+2025-12-17 08:54:52 | New assembly name: Beam-27
+2025-12-17 08:54:52 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-27\Beam-27.iam
+2025-12-17 08:54:52 | COLLECT: Part1 Beam.ipt (203 x 133 x 25 PFI)
+2025-12-17 08:54:52 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-17 08:54:52 | COLLECT: Part4 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-17 08:54:52 | Collected 3 parts
+2025-12-17 08:54:52 | Closing source assembly for safe copy...
+2025-12-17 08:54:52 | Copying assembly file...
+2025-12-17 08:54:52 | COPIED: Beam-45.iam -> Beam-27.iam
+2025-12-17 08:54:52 | Copying 3 parts...
+2025-12-17 08:54:52 | COPIED: Part1 Beam.ipt -> Beam-27-OTHER1.ipt
+2025-12-17 08:54:52 | COPIED: Part2 End Plate.ipt -> Beam-27-PL2.ipt
+2025-12-17 08:54:52 | COPIED: Part4 Corner Gusset.ipt -> Beam-27-PL3.ipt
+2025-12-17 08:54:52 | Updating assembly references and patching iLogic...
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Opened Beam-27.iam
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Found 3 file references
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Replacing Part1 Beam.ipt -> Beam-27-OTHER1.ipt
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Replacing Part2 End Plate.ipt -> Beam-27-PL2.ipt
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Replacing Part4 Corner Gusset.ipt -> Beam-27-PL3.ipt
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Updated 3 references
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-17 08:54:52 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-17 08:54:53 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-17 08:54:53 | Patching iLogic rules (in same session)...
+2025-12-17 08:54:53 | Patched 0 iLogic rules
+2025-12-17 08:54:53 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-17 08:54:53 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-17 08:54:53 | Processing IDW files...
+2025-12-17 08:54:53 | IDW PROCESS: Found 1 IDW files
+2025-12-17 08:54:55 | IDW PROCESS: Processing MGY-200-DRP-01-01-45.idw -> MGY-200-DRP-01-01-45.idw
+2025-12-17 08:54:59 | IDW PROCESS: Opening original IDW from source location...
+2025-12-17 08:55:00 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-17 08:55:00 | IDW PROCESS: Found 5 references
+2025-12-17 08:55:00 | IDW PROCESS: Updating Beam-45.iam -> Beam-27.iam
+2025-12-17 08:55:00 | IDW PROCESS: SUCCESS
+2025-12-17 08:55:00 | IDW PROCESS: Updating Part1 Beam.ipt -> Beam-27-OTHER1.ipt
+2025-12-17 08:55:00 | IDW PROCESS: SUCCESS
+2025-12-17 08:55:00 | IDW PROCESS: Updating Part2 End Plate.ipt -> Beam-27-PL2.ipt
+2025-12-17 08:55:00 | IDW PROCESS: SUCCESS
+2025-12-17 08:55:00 | IDW PROCESS: No mapping for Part3 Centre Gusset.ipt
+2025-12-17 08:55:00 | IDW PROCESS: Updating Part4 Corner Gusset.ipt -> Beam-27-PL3.ipt
+2025-12-17 08:55:00 | IDW PROCESS: SUCCESS
+2025-12-17 08:55:00 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-17 08:55:00 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-17 08:55:00 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-45.idw
+2025-12-17 08:55:00 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-45'
+2025-12-17 08:55:00 | IDW PROCESS: Updated Description to 'Beam-27'
+2025-12-17 08:55:00 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-45.idw
+2025-12-17 08:55:00 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-27\MGY-200-DRP-01-01-45.idw
+2025-12-17 08:55:01 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-45.idw as MGY-200-DRP-01-01-45.idw (4 references updated)
+2025-12-17 08:55:01 | IDW PROCESS: All IDW files processed successfully
+2025-12-17 08:55:01 | Updating iProperties for copied documents...
+2025-12-17 08:55:01 | Updated iProperties for Beam-27.iam
+2025-12-17 08:55:02 | Updated iProperties for Beam-27-OTHER1.ipt
+2025-12-17 08:55:02 | Updated iProperties for Beam-27-PL2.ipt
+2025-12-17 08:55:02 | Updated iProperties for Beam-27-PL3.ipt
+2025-12-17 08:55:03 | Saving iLogic patch log...
+2025-12-17 08:55:03 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-17 08:55:03 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251217_085428.log

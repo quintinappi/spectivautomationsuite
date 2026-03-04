@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventor Renamer - User Manual</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .copyright {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        h1 { color: #2c3e50; margin-top: 0; }
+        h2 { color: #3498db; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h3 { color: #2980b9; }
+        .step {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 5px solid #3498db;
+        }
+        .warning {
+            background-color: #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #fdcb6e;
+            margin: 15px 0;
+        }
+        .success {
+            background-color: #d5f4e6;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #00b894;
+            margin: 15px 0;
+        }
+        .code {
+            background-color: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        .menu-option {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 3px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>INVENTOR RENAMER</h1>
+            <p>Production User Manual</p>
+            <p>Version: September 2025</p>
+        </div>
+
+        <div class="copyright">
+            <strong>© 2025 Quintin. All Rights Reserved.</strong><br>
+            This software and documentation are proprietary and confidential.
+            Unauthorized reproduction or distribution is strictly prohibited.
+        </div>
+
+        <h2>🚀 Quick Start</h2>
+        <div class="step">
+            <h3>3-Step Process:</h3>
+            <ol>
+                <li><strong>Double-click MAIN_LAUNCHER.bat</strong> → Select [1] Part Renaming</li>
+                <li><strong>Return to main menu</strong> → Select [2] IDW Updates</li>
+                <li><strong>Done!</strong> All parts renamed and IDW drawings updated</li>
+            </ol>
+        </div>
+
+        <h2>📋 What You Need Before Starting</h2>
+        <table>
+            <tr>
+                <th>Requirement</th>
+                <th>Status Check</th>
+            </tr>
+            <tr>
+                <td>Autodesk Inventor running</td>
+                <td>✅ Open with your main assembly loaded</td>
+            </tr>
+            <tr>
+                <td>All part files accessible</td>
+                <td>✅ No read-only locks or network issues</td>
+            </tr>
+            <tr>
+                <td>Project prefix decided</td>
+                <td>✅ Choose: PLANT1-000-, AREA2-000-, etc.</td>
+            </tr>
+            <tr>
+                <td>Backup (recommended)</td>
+                <td>⚠️ Copy project folder before running</td>
+            </tr>
+        </table>
+
+        <h2>🎯 Step-by-Step Instructions</h2>
+
+        <h3>Step 1: Launch Main Menu</h3>
+        <div class="step">
+            <p><strong>Navigate to FINAL_PRODUCTION_SCRIPTS folder</strong></p>
+            <p><strong>Double-click: MAIN_LAUNCHER.bat</strong></p>
+            <div class="code">
+INVENTOR RENAMER - MAIN LAUNCHER
+
+=== MAIN WORKFLOW ===
+[1] Part Renaming      - Rename assembly parts with heritage method
+[2] IDW Updates        - Update IDW references to new part names
+[3] Title Automation   - Auto-update IDW drawing titles
+
+=== UTILITIES ===
+[4] Registry Management - Manage numbering counters and database
+[5] File Utilities     - Find duplicate files and conflicts
+
+=== RESCUE TOOLS ===
+[6] Smart Prefix Scanner     - Scan model to prevent duplicate numbers
+[7] Emergency IDW Fixer      - Fix specific folders missed by Step 2
+[8] IDW-Assembly Synchronizer - Sync IDWs to assembly (scattered files)
+[9] Assembly Cloner          - Clone assembly + parts to new folder
+[10] Part Cloner             - Clone individual part to new folder
+
+=== iLOGIC TOOLS ===
+[11] iLogic Scanner          - Scan/export iLogic rules from document
+
+[0] Exit
+            </div>
+        </div>
+
+        <h3>Step 2: Part Renaming</h3>
+        <div class="step">
+            <p><strong>Select Option [1] - Part Renaming</strong></p>
+
+            <h4>Prefix Input:</h4>
+            <p>Enter your project prefix when prompted:</p>
+            <ul>
+                <li><code>PLANT1-000-</code> (Plant 1)</li>
+                <li><code>AREA2-000-</code> (Area 2)</li>
+                <li><code>NCRH01-000-</code> (default)</li>
+                <li>Or press Enter for default</li>
+            </ul>
+
+            <h4>What Happens:</h4>
+            <ol>
+                <li>Scans your entire assembly hierarchy</li>
+                <li>Groups parts automatically:
+                    <ul>
+                        <li><strong>PL</strong> = Platework ("PL 20mm S355JR")</li>
+                        <li><strong>B</strong> = Beams/Columns ("UB254x146x31")</li>
+                        <li><strong>CH</strong> = Channels ("PFC180x70")</li>
+                        <li><strong>A</strong> = Angles ("L50x50x6")</li>
+                        <li><strong>FL</strong> = Flatbar ("FL50x8")</li>
+                    </ul>
+                </li>
+                <li>Creates heritage copies with new names</li>
+                <li>Updates assembly references</li>
+                <li>Saves mapping file for Step 2</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Important:</strong> Keep Inventor open during processing! Don't close or switch projects.
+        </div>
+
+        <h3>Step 3: IDW Updates</h3>
+        <div class="step">
+            <p><strong>Return to main menu, select Option [2] - IDW Updates</strong></p>
+
+            <h4>What Happens:</h4>
+            <ol>
+                <li>Loads mapping from Step 1</li>
+                <li>Finds all IDW drawing files</li>
+                <li>Updates each drawing to reference new part names</li>
+                <li>Uses Autodesk Design Assistant method</li>
+                <li>Saves all updated drawings</li>
+            </ol>
+
+            <h4>Results:</h4>
+            <p>Your IDW drawings now open with the new part names (PLANT1-000-PL1.ipt instead of Part1.ipt)</p>
+        </div>
+
+        <h3>Step 4: Title Automation (Optional)</h3>
+        <div class="step">
+            <p><strong>Return to main menu, select Option [3] - Title Automation</strong></p>
+
+            <h4>What It Does:</h4>
+            <ul>
+                <li>Automatically detects base views in IDW drawings</li>
+                <li>Updates title blocks with proper formatting</li>
+                <li>Generates titles based on assembly names and quantities</li>
+                <li>Applies correct font sizes and formatting</li>
+            </ul>
+
+            <h4>Title Format Examples:</h4>
+            <table>
+                <tr>
+                    <th>Part Type</th>
+                    <th>Title Format</th>
+                </tr>
+                <tr>
+                    <td>Individual Parts</td>
+                    <td>PLANT1-000-PL1<br>SCALE 1:5</td>
+                </tr>
+                <tr>
+                    <td>Assemblies</td>
+                    <td>PLANT1-000-BA1<br>7-OFF REQ'D<br>SCALE 1:20</td>
+                </tr>
+            </table>
+
+            <h4>Prerequisites:</h4>
+            <ul>
+                <li>Steps 1 and 2 completed successfully</li>
+                <li>IDW files accessible</li>
+                <li>Inventor still running</li>
+            </ul>
+        </div>
+
+        <h3>Step 5: Verify Results</h3>
+        <div class="success">
+            <h4>✅ Success Indicators:</h4>
+            <ul>
+                <li>All steps complete without errors</li>
+                <li>Log files show "SUCCESS" messages</li>
+                <li>IDW files open correctly with new part references</li>
+                <li>Parts now have project prefix names</li>
+                <li>Drawing titles are properly formatted (if Step 4 completed)</li>
+            </ul>
+        </div>
+
+        <h3>Assembly Cloner (Rescue Tool)</h3>
+        <div class="step">
+            <p><strong>Select Option [9] - Assembly Cloner</strong></p>
+
+            <h4>What It Does:</h4>
+            <ul>
+                <li>Copies entire assembly + all parts to a new isolated folder</li>
+                <li>Updates all references to use local copies</li>
+                <li>Optionally applies heritage renaming (PL, CH, B, etc.)</li>
+                <li>Copies and updates associated IDW drawings</li>
+                <li>Creates fully isolated clone with no cross-references</li>
+            </ul>
+
+            <h4>When to Use:</h4>
+            <ul>
+                <li>Creating variants without cross-references</li>
+                <li>Copying assemblies to new projects</li>
+                <li>Isolating assemblies for modification</li>
+                <li>Fixing IDW reference mismatches</li>
+            </ul>
+
+            <div class="warning">
+                <strong>⚠️ Important:</strong> Ensure IDW references match assembly parts for successful updates. Sync IDW model references if needed before cloning.
+            </div>
+        </div>
+
+        <h3>Part Cloner (Rescue Tool)</h3>
+        <div class="step">
+            <p><strong>Select Option [10] - Part Cloner</strong></p>
+
+            <h4>What It Does:</h4>
+            <ul>
+                <li>Copies individual part (.ipt) to a new isolated folder</li>
+                <li>Displays part iProperties (title, author, description, etc.)</li>
+                <li>Optionally renames the part file</li>
+                <li>Creates isolated copy for modification</li>
+            </ul>
+
+            <h4>When to Use:</h4>
+            <ul>
+                <li>Creating part variants</li>
+                <li>Isolating parts for modification</li>
+                <li>Backup copies of individual parts</li>
+                <li>Reviewing part properties before cloning</li>
+            </ul>
+
+            <div class="warning">
+                <strong>⚠️ Important:</strong> Open the source part in Inventor before running. No assembly or IDW complications.
+            </div>
+        </div>
+
+        <h2>🔧 Additional Tools</h2>
+
+        <h3>Registry Management</h3>
+        <div class="step">
+            <p><strong>Select Option [4] - Registry Management</strong></p>
+
+            <h4>SCAN Function:</h4>
+            <ul>
+                <li>Enter prefix to check current numbering state</li>
+                <li>Shows: PLANT1-000-PL = 15, PLANT1-000-B = 8, etc.</li>
+            </ul>
+
+            <h4>CLEAR Function:</h4>
+            <ul>
+                <li><strong>⚠️ DANGEROUS:</strong> Resets all counters to zero</li>
+                <li>Next run starts fresh (PL1, B1, CH1, etc.)</li>
+                <li>Also deletes mapping file</li>
+                <li>Requires double confirmation</li>
+            </ul>
+        </div>
+
+        <h3>File Utilities</h3>
+        <div class="step">
+            <p><strong>Select Option [5] - File Utilities</strong></p>
+            <p>Scans for duplicate files that might cause issues. Run before Part Renaming if you suspect naming conflicts.</p>
+        </div>
+
+        <h2>🚨 Troubleshooting</h2>
+
+        <table>
+            <tr>
+                <th>Problem</th>
+                <th>Solution</th>
+            </tr>
+            <tr>
+                <td>"No running Inventor instance found"</td>
+                <td>Start Inventor and open your assembly</td>
+            </tr>
+            <tr>
+                <td>"Could not load mapping file"</td>
+                <td>Run Step 1 (Part Renaming) first</td>
+            </tr>
+            <tr>
+                <td>"Access denied" errors</td>
+                <td>Check file permissions, remove read-only attributes</td>
+            </tr>
+            <tr>
+                <td>IDW files won't open</td>
+                <td>Check log files for specific errors</td>
+            </tr>
+            <tr>
+                <td>Parts not grouping correctly</td>
+                <td>Set Description property in part iProperties</td>
+            </tr>
+        </table>
+
+        <h2>📁 Where Files Are Located</h2>
+
+        <div class="code">
+FINAL_PRODUCTION_SCRIPTS/
+├── MAIN_LAUNCHER.bat          ← START HERE
+├── Logs/                      ← All log files
+├── Part_Renaming/             ← Step 1 scripts
+├── IDW_Updates/               ← Step 2 scripts
+├── Title_Automation/          ← Step 3 scripts
+├── Registry_Management/       ← Counter management
+├── File_Utilities/            ← File tools
+├── iLogic_Tools/              ← iLogic utilities
+├── InventorAddIn/             ← Add-in versions
+└── Documentation/             ← This documentation
+
+Assembly Folders (after processing):
+├── YourAssembly.iam
+├── STEP_1_MAPPING.txt         ← Mapping file (created by Step 1)
+├── RenamedPart1.ipt
+├── RenamedPart2.ipt
+└── UpdatedDrawing.idw
+        </div>
+
+        <h2>💡 Pro Tips</h2>
+
+        <div class="step">
+            <ul>
+                <li><strong>Test first:</strong> Try on a small assembly before large projects</li>
+                <li><strong>Check logs:</strong> Always review log files after each step</li>
+                <li><strong>Backup project:</strong> Copy entire project folder before running</li>
+                <li><strong>Sequential processing:</strong> Always run Step 1 before Step 2</li>
+                <li><strong>Keep Inventor open:</strong> Don't close during processing</li>
+                <li><strong>Sync IDW references:</strong> If IDW updates fail, ensure drawing model references match current assembly parts</li>
+                <li><strong>Use Assembly Cloner:</strong> For creating isolated copies or fixing reference issues</li>
+                <li><strong>Mapping files:</strong> Now saved per-assembly in the assembly folder for safety</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 Quintin. All Rights Reserved.</strong></p>
+            <p>Inventor Renamer - Production Version</p>
+        </div>
+    </div>
+</body>
+</html>

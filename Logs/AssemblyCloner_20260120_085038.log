@@ -1,0 +1,108 @@
+2026-01-20 08:50:38 | === ASSEMBLY CLONER ===
+2026-01-20 08:50:38 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-20 08:50:39 | SUCCESS: Connected to existing Inventor instance
+2026-01-20 08:50:39 | STEP 1: Detecting open assembly
+2026-01-20 08:50:39 | DETECTED: Head Chute.iam
+2026-01-20 08:50:39 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\Head Chute.iam
+2026-01-20 08:50:40 | STEP 2: Getting destination folder from user
+2026-01-20 08:50:44 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE
+2026-01-20 08:50:44 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\AssemblyCloner_20260120_085044.log
+2026-01-20 08:50:44 | New assembly name will be: RENAME TEST - DELETE.iam
+2026-01-20 08:50:44 | STEP 3: Asking about heritage renaming
+2026-01-20 08:50:45 | PLANT: Getting plant section naming convention from user
+2026-01-20 08:50:46 | PLANT: Using prefix: CLONE-001-
+2026-01-20 08:50:46 | STEP 4: Analyzing assembly structure
+2026-01-20 08:50:46 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-20 08:50:46 | COLLECT: SUB-ASSEMBLY Top.iam at ROOT
+2026-01-20 08:50:46 | COLLECT: PART Part1 HC-T.ipt (PL 6mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part2 HC-T.ipt (PL 6mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part3 HC-T.ipt (PL 6mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part4 HC-T.ipt (PL 6mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part5 HC-T.ipt (PL 6mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part6 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part7 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part8 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part9 (Part8 Angle HC-T MIR).ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:46 | COLLECT: PART Part10 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part11 (Part10 Angle HC-T MIR).ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part12 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part13 (Part12 Angle HC-T MIR).ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part14 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part15 (Part14 Angle HC-T MIR).ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part16 Angle HC-T.ipt (L60x60x6) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part17 HC-T.ipt (PL 10mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Part18 Corner Gusset HC-T.ipt (PL 8mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: PART Lug HC-T.ipt (PL 20mm S355JR) at ROOT>Top.iam
+2026-01-20 08:50:47 | COLLECT: SUB-ASSEMBLY Middle.iam at ROOT
+2026-01-20 08:50:47 | COLLECT: PART Part1 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part2 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part3 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part4 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part5 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part6 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part7 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part8 HC-M.ipt (PL 6mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part9 Angle HC-M.ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part10 Angle HC-M.ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part11 (Part10 Angle HC-M MIR).ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part12 Angle HC-M.ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part13 Angle HC-M.ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part14 Angle HC-M.ipt (L60x60x6) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part15 HC-M.ipt (PL 10mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Part16 Corner Gusset HC-M.ipt (PL 8mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:47 | COLLECT: PART Lug HC-M.ipt (PL 20mm S355JR) at ROOT>Middle.iam
+2026-01-20 08:50:48 | COLLECT: PART Part17 Stiffener HC-M.ipt (FL50x8) at ROOT>Middle.iam
+2026-01-20 08:50:48 | COLLECT: PART Part18 Stiffener HC-M.ipt (FL50x8) at ROOT>Middle.iam
+2026-01-20 08:50:48 | COLLECT: PART Part19 Stiffener HC-M.ipt (FL50x8) at ROOT>Middle.iam
+2026-01-20 08:50:48 | COLLECT: PART Part20 Stiffener HC-M.ipt (FL50x8) at ROOT>Middle.iam
+2026-01-20 08:50:48 | COLLECT: SUB-ASSEMBLY Launder.iam at ROOT
+2026-01-20 08:50:48 | COLLECT: PART Part1 HC-L.ipt (PL 6mm S355JR) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part2 HC-L.ipt (PL 6mm S355JR) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part3 HC-L.ipt (PL 6mm S355JR) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part4 Angle HC-L.ipt (L60x60x6) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part5 Angle HC-L.ipt (L60x60x6) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part6 Pipe HC-L.ipt (PIPE - 150NB S.A.B.S.62 - HEAVY) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part7 Flange HC-L.ipt (FLANGE - 150NB S.A.B.S.1123 1000/3 12 TH'K) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part9 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part8 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part10 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part11 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part12 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part13 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: PART Part14 Stiffener HC-L.ipt (FL50x8) at ROOT>Launder.iam
+2026-01-20 08:50:48 | COLLECT: SUB-ASSEMBLY Bottom.iam at ROOT
+2026-01-20 08:50:49 | COLLECT: PART Part1 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part2 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part3 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part4 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part5 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part6 HC-B.ipt (PL 6mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part7 Angle HC-B.ipt (L60x60x6) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part8 Angle HC-B.ipt (L60x60x6) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part9 Angle HC-B.ipt (L60x60x6) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part10 Stiffener HC-B.ipt (FL50x8) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part11 Stiffener HC-B.ipt (FL50x8) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part12 Stiffener HC-B.ipt (FL50x8) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part13 Stiffener HC-B.ipt (FL50x8) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part14 Stiffener HC-B.ipt (FL50x8) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Lug HC-B.ipt (PL 20mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part15.ipt (PL 10mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: PART Part16 Corner Gusset.ipt (PL 10mm S355JR) at ROOT>Bottom.iam
+2026-01-20 08:50:49 | COLLECT: SUB-ASSEMBLY Lid-1.iam at ROOT
+2026-01-20 08:50:49 | COLLECT: PART Part1 HC-L1.ipt (PL 6mm S355JR) at ROOT>Lid-1.iam
+2026-01-20 08:50:49 | COLLECT: PART Part2 Pipe HC-L1.ipt (PIPE - 150NB S.A.B.S.62 - HEAVY) at ROOT>Lid-1.iam
+2026-01-20 08:50:49 | COLLECT: PART Part3 Flange HC-L1.ipt (FLANGE - 150NB S.A.B.S.1123 1000/3 12 TH'K) at ROOT>Lid-1.iam
+2026-01-20 08:50:49 | COLLECT: SUB-ASSEMBLY Lid-2.iam at ROOT
+2026-01-20 08:50:49 | COLLECT: PART Part1 HC-L2.ipt (PL 6mm S355JR) at ROOT>Lid-2.iam
+2026-01-20 08:50:49 | COLLECT: PART Part2 Stiffener HC-L2.ipt (FL50x8) at ROOT>Lid-2.iam
+2026-01-20 08:50:50 | COLLECT: PART Part3 Stiffener HC-L2.ipt (FL50x8) at ROOT>Lid-2.iam
+2026-01-20 08:50:50 | COLLECT: PART Part4 Handle HC-L2.ipt (R16) at ROOT>Lid-2.iam
+2026-01-20 08:50:50 | COLLECT: SUB-ASSEMBLY NCVR06-701-Bolted Connection1.iam at ROOT
+2026-01-20 08:50:50 | COLLECT: SUB-ASSEMBLY NCVR06-701-Bolted Connection2.iam at ROOT
+2026-01-20 08:50:50 | COLLECT: SUB-ASSEMBLY NCVR06-701-Bolted Connection3.iam at ROOT
+2026-01-20 08:50:50 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT
+2026-01-20 08:50:50 | COLLECT: PART Part1 Beam.ipt (UB203 x 133 x 25) at ROOT>Support Beam-1.iam
+2026-01-20 08:50:50 | COLLECT: PART Part2 End Plate.ipt (PL 10mm S355JR) at ROOT>Support Beam-1.iam
+2026-01-20 08:50:50 | COLLECT: PART Part3 End Plate.ipt (PL 10mm S355JR) at ROOT>Support Beam-1.iam
+2026-01-20 08:50:50 | COLLECT: Found 91 unique files
+2026-01-20 08:50:50 | COLLECT: Scanning for IDW drawing files...

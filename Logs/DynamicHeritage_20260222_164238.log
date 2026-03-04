@@ -1,0 +1,1056 @@
+2026-02-22 16:42:38 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-22 16:42:38 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-22 16:42:39 | SUCCESS: Connected to existing Inventor instance
+2026-02-22 16:42:39 | STEP 1: Detecting open assembly and analyzing components
+2026-02-22 16:42:39 | DETECTED: Document type: 12291
+2026-02-22 16:42:39 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-22 16:42:39 | DETECTED: Active assembly - N1SCR03-728.iam
+2026-02-22 16:42:39 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\N1SCR03-728.iam
+2026-02-22 16:44:07 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-22 16:44:07 | CONFIRMED: 2 occurrences to process
+2026-02-22 16:44:07 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection
+2026-02-22 16:44:07 | STEP 0: Selecting mapping file location FIRST
+2026-02-22 16:44:07 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-22 16:44:24 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_1_MAPPING.txt
+2026-02-22 16:44:24 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-22 16:44:26 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_1_MAPPING.txt
+2026-02-22 16:44:26 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-22 16:44:26 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-22 16:44:26 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-22 16:44:26 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection
+2026-02-22 16:44:26 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_0_AUDIT.txt
+2026-02-22 16:44:26 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-22 16:44:26 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_0_AUDIT.txt
+2026-02-22 16:44:26 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-22 16:44:26 | STEP 2: Flattening hierarchy and grouping components
+2026-02-22 16:44:26 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-22 16:44:26 | ANALYZE: Processing assembly - N1SCR03-728.iam (Level: ROOT)
+2026-02-22 16:44:26 | ANALYZE: Found 2 occurrences in N1SCR03-728.iam
+2026-02-22 16:44:26 | ANALYZE: RECURSING into sub-assembly - Oversize Protection Chute.iam
+2026-02-22 16:44:26 | ANALYZE: Processing assembly - Oversize Protection Chute.iam (Level: ROOT>Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: Found 142 occurrences in Oversize Protection Chute.iam
+2026-02-22 16:44:26 | ANALYZE: PART - Part1 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: Created new group - PL
+2026-02-22 16:44:26 | ANALYZE: PART - Part2 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part3 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part4 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part5 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part6 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part7 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part8 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part9 DS-OPC.ipt -> Description: PL 6mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: DUPLICATE PART SKIPPED - Part9 DS-OPC.ipt (already processed)
+2026-02-22 16:44:26 | ANALYZE: PART - Part10 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: Created new group - A
+2026-02-22 16:44:26 | ANALYZE: PART - Part11 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: PART - Part12 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:26 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Angle DS-OPC.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle DS-OPC.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle DS-OPC.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: PART - Part13 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle DS-OPC.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Angle DS-OPC.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: PART - Part14 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part15 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part16 (Part15 Angle MIR) DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part17 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part18 (Part17 Angle MIR) DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part19 Angle DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part20 (Part19 Angle MIR) DS-OPC.ipt -> Description: L60x60x6 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part21 Angle DS-OPC.ipt -> Description: L70x70x8 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part22 Angle DS-OPC.ipt -> Description: L70x70x8 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part24 Angle DS-OPC.ipt -> Description: L100x100x8 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part23 (Part22 Angle MIR) DS-OPC.ipt -> Description: L70x70x8 -> Group: A (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Liner1.ipt -> Description: LPL 10mm VRN400 -> Group: OTHER (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: Created new group - OTHER
+2026-02-22 16:44:27 | ANALYZE: PART - Liner2 (Liner1 MIR).ipt -> Description: LPL 10mm VRN400 -> Group: OTHER (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner1.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner2 (Liner1 MIR).ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner1.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner2 (Liner1 MIR).ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner1.ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: DUPLICATE PART SKIPPED - Liner2 (Liner1 MIR).ipt (already processed)
+2026-02-22 16:44:27 | ANALYZE: PART - Part25 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: Created new group - FL
+2026-02-22 16:44:27 | ANALYZE: PART - Part26 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part27 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:27 | ANALYZE: PART - Part28 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: PART - Part29 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part27 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part27 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part27 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part27 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part30 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part31 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part32 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part33 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part34 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part35 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:28 | ANALYZE: PART - Part36 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: PART - Part37 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:28 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: PART - Part38 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: PART - Part39 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: PART - Part40 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part40 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: PART - Part41 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:29 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part42 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part43 Stiffener DS-OPC.ipt -> Description: FL50x8 -> Group: FL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part43 Stiffener DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: SKIPPING NSCR03-728-Bolted Connection1.iam (bolted connection assembly)
+2026-02-22 16:44:30 | ANALYZE: PART - Part44 End Plate DS-OPC.ipt -> Description: PL 20mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:30 | ANALYZE: PART - Lug DS-OPC.ipt -> Description: PL 25mm S355JR -> Group: PL (from Oversize Protection Chute.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part44 End Plate DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part44 End Plate DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part44 End Plate DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-OPC.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: RECURSING into sub-assembly - Screen Deck Frame.iam
+2026-02-22 16:44:30 | ANALYZE: Processing assembly - Screen Deck Frame.iam (Level: ROOT>Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: Found 134 occurrences in Screen Deck Frame.iam
+2026-02-22 16:44:30 | ANALYZE: PART - Part1 70x70x8 OP-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part1 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part2 70x70x8 OP-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part2 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part3 70x70x8 OP-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part4 OP-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part4 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: PART - Part5 OP-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 OP-SDF.ipt (already processed)
+2026-02-22 16:44:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 OP-SDF.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: PART - Screen Panel 305x305.ipt -> Description: SCREEN PANEL 305x305 - POLY WEDGE SWF -> Group: OTHER (from Screen Deck Frame.iam)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: PART - Part6 OP-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: PART - Part7 50X50X6 OP-SDF.ipt -> Description: L50x50x6 -> Group: A (from Screen Deck Frame.iam)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 OP-SDF.ipt (already processed)
+2026-02-22 16:44:33 | ANALYZE: SKIPPING (suppressed occurrence in Screen Deck Frame.iam)
+2026-02-22 16:44:33 | ANALYZE: SKIPPING (suppressed occurrence in Screen Deck Frame.iam)
+2026-02-22 16:44:33 | ANALYZE: Recursive processing completed - Total unique parts processed: 55
+2026-02-22 16:44:33 | ANALYZE: Created 4 component groups
+2026-02-22 16:44:33 | DEBUG GROUP: 'PL' contains 14 components:
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part1 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part2 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part3 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part4 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part5 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part6 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part7 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part8 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part9 DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part44 End Plate DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Lug DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part4 OP-SDF.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part5 OP-SDF.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part6 OP-SDF.ipt
+2026-02-22 16:44:33 | DEBUG GROUP: 'A' contains 19 components:
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part10 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part11 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part12 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part13 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part14 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part15 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part16 (Part15 Angle MIR) DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part17 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part18 (Part17 Angle MIR) DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part19 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part20 (Part19 Angle MIR) DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part21 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part22 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part24 Angle DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part23 (Part22 Angle MIR) DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part1 70x70x8 OP-SDF.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part2 70x70x8 OP-SDF.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part3 70x70x8 OP-SDF.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part7 50X50X6 OP-SDF.ipt
+2026-02-22 16:44:33 | DEBUG GROUP: 'OTHER' contains 3 components:
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner1.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner2 (Liner1 MIR).ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Screen Panel 305x305.ipt
+2026-02-22 16:44:33 | DEBUG GROUP: 'FL' contains 19 components:
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part25 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part26 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part27 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part28 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part29 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part30 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part31 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part32 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part33 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part34 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part35 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part36 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part37 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part38 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part39 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part40 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part41 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part42 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part43 Stiffener DS-OPC.ipt
+2026-02-22 16:44:33 | STEP 3: Getting plant section naming convention
+2026-02-22 16:44:33 | PLANT: Getting plant section naming convention from user
+2026-02-22 16:44:39 | PLANT: Using custom naming convention: N1SCR03-728-
+2026-02-22 16:44:40 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-22 16:44:41 | STEP 4: Showing component groups summary
+2026-02-22 16:44:41 | SUMMARY: Showing component groups to user
+2026-02-22 16:44:42 | SUMMARY: User approved component groups
+2026-02-22 16:44:42 | STEP 5: Getting user naming schemes for component groups
+2026-02-22 16:44:42 | INPUT: Getting user naming schemes for 4 groups
+2026-02-22 16:44:44 | INPUT: Group 'PL' -> Scheme: N1SCR03-728-PL{N}
+2026-02-22 16:44:45 | INPUT: Group 'A' -> Scheme: N1SCR03-728-A{N}
+2026-02-22 16:45:05 | INPUT: Group 'OTHER' -> Scheme: N1SCR03-728-PART{N}
+2026-02-22 16:45:07 | INPUT: Group 'FL' -> Scheme: N1SCR03-728-FL{N}
+2026-02-22 16:45:07 | STEP 6: Creating heritage-based copies with user naming
+2026-02-22 16:45:07 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-22 16:45:07 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-22 16:45:07 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-22 16:45:07 | EXTRACT: Processing naming scheme: N1SCR03-728-PL{N}
+2026-02-22 16:45:07 | EXTRACT: Extracted prefix: 'N1SCR03-728-'
+2026-02-22 16:45:07 | HERITAGE: Checking for existing counter with key: 'N1SCR03-728-PL'
+2026-02-22 16:45:07 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR03-728-PL' not found)
+2026-02-22 16:45:07 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:45:07 | HERITAGE: Processing group 'PL' with scheme: N1SCR03-728-PL{N}
+2026-02-22 16:45:07 | HERITAGE: Part1 DS-OPC.ipt -> N1SCR03-728-PL1.ipt
+2026-02-22 16:45:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part1 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL1.ipt
+2026-02-22 16:45:07 | HERITAGE: Creating new file: N1SCR03-728-PL1.ipt
+2026-02-22 16:45:07 | HERITAGE: SUCCESS - Created N1SCR03-728-PL1.ipt
+2026-02-22 16:45:07 | HERITAGE: Part2 DS-OPC.ipt -> N1SCR03-728-PL2.ipt
+2026-02-22 16:45:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part2 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL2.ipt
+2026-02-22 16:45:07 | HERITAGE: Creating new file: N1SCR03-728-PL2.ipt
+2026-02-22 16:45:07 | HERITAGE: SUCCESS - Created N1SCR03-728-PL2.ipt
+2026-02-22 16:45:07 | HERITAGE: Part3 DS-OPC.ipt -> N1SCR03-728-PL3.ipt
+2026-02-22 16:45:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part3 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL3.ipt
+2026-02-22 16:45:07 | HERITAGE: Creating new file: N1SCR03-728-PL3.ipt
+2026-02-22 16:45:07 | HERITAGE: SUCCESS - Created N1SCR03-728-PL3.ipt
+2026-02-22 16:45:07 | HERITAGE: Part4 DS-OPC.ipt -> N1SCR03-728-PL4.ipt
+2026-02-22 16:45:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part4 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL4.ipt
+2026-02-22 16:45:07 | HERITAGE: Creating new file: N1SCR03-728-PL4.ipt
+2026-02-22 16:45:08 | HERITAGE: SUCCESS - Created N1SCR03-728-PL4.ipt
+2026-02-22 16:45:08 | HERITAGE: Part5 DS-OPC.ipt -> N1SCR03-728-PL5.ipt
+2026-02-22 16:45:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part5 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL5.ipt
+2026-02-22 16:45:08 | HERITAGE: Creating new file: N1SCR03-728-PL5.ipt
+2026-02-22 16:45:08 | HERITAGE: SUCCESS - Created N1SCR03-728-PL5.ipt
+2026-02-22 16:45:08 | HERITAGE: Part6 DS-OPC.ipt -> N1SCR03-728-PL6.ipt
+2026-02-22 16:45:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part6 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL6.ipt
+2026-02-22 16:45:08 | HERITAGE: Creating new file: N1SCR03-728-PL6.ipt
+2026-02-22 16:45:08 | HERITAGE: SUCCESS - Created N1SCR03-728-PL6.ipt
+2026-02-22 16:45:08 | HERITAGE: Part7 DS-OPC.ipt -> N1SCR03-728-PL7.ipt
+2026-02-22 16:45:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part7 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL7.ipt
+2026-02-22 16:45:08 | HERITAGE: Creating new file: N1SCR03-728-PL7.ipt
+2026-02-22 16:45:08 | HERITAGE: SUCCESS - Created N1SCR03-728-PL7.ipt
+2026-02-22 16:45:08 | HERITAGE: Part8 DS-OPC.ipt -> N1SCR03-728-PL8.ipt
+2026-02-22 16:45:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part8 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL8.ipt
+2026-02-22 16:45:08 | HERITAGE: Creating new file: N1SCR03-728-PL8.ipt
+2026-02-22 16:45:08 | HERITAGE: SUCCESS - Created N1SCR03-728-PL8.ipt
+2026-02-22 16:45:08 | HERITAGE: Part9 DS-OPC.ipt -> N1SCR03-728-PL9.ipt
+2026-02-22 16:45:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part9 DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL9.ipt
+2026-02-22 16:45:08 | HERITAGE: Creating new file: N1SCR03-728-PL9.ipt
+2026-02-22 16:45:09 | HERITAGE: SUCCESS - Created N1SCR03-728-PL9.ipt
+2026-02-22 16:45:09 | HERITAGE: Part44 End Plate DS-OPC.ipt -> N1SCR03-728-PL10.ipt
+2026-02-22 16:45:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part44 End Plate DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL10.ipt
+2026-02-22 16:45:09 | HERITAGE: Creating new file: N1SCR03-728-PL10.ipt
+2026-02-22 16:45:09 | HERITAGE: SUCCESS - Created N1SCR03-728-PL10.ipt
+2026-02-22 16:45:09 | HERITAGE: Lug DS-OPC.ipt -> N1SCR03-728-PL11.ipt
+2026-02-22 16:45:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Lug DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL11.ipt
+2026-02-22 16:45:09 | HERITAGE: Creating new file: N1SCR03-728-PL11.ipt
+2026-02-22 16:45:09 | HERITAGE: SUCCESS - Created N1SCR03-728-PL11.ipt
+2026-02-22 16:45:09 | HERITAGE: Part4 OP-SDF.ipt -> N1SCR03-728-PL12.ipt
+2026-02-22 16:45:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part4 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL12.ipt
+2026-02-22 16:45:09 | HERITAGE: Creating new file: N1SCR03-728-PL12.ipt
+2026-02-22 16:45:09 | HERITAGE: SUCCESS - Created N1SCR03-728-PL12.ipt
+2026-02-22 16:45:09 | HERITAGE: Part5 OP-SDF.ipt -> N1SCR03-728-PL13.ipt
+2026-02-22 16:45:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part5 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL13.ipt
+2026-02-22 16:45:09 | HERITAGE: Creating new file: N1SCR03-728-PL13.ipt
+2026-02-22 16:45:10 | HERITAGE: SUCCESS - Created N1SCR03-728-PL13.ipt
+2026-02-22 16:45:10 | HERITAGE: Part6 OP-SDF.ipt -> N1SCR03-728-PL14.ipt
+2026-02-22 16:45:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part6 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL14.ipt
+2026-02-22 16:45:10 | HERITAGE: Creating new file: N1SCR03-728-PL14.ipt
+2026-02-22 16:45:10 | HERITAGE: SUCCESS - Created N1SCR03-728-PL14.ipt
+2026-02-22 16:45:10 | REGISTRY: Saved N1SCR03-728-PL = 14
+2026-02-22 16:45:10 | EXTRACT: Processing naming scheme: N1SCR03-728-A{N}
+2026-02-22 16:45:10 | EXTRACT: Extracted prefix: 'N1SCR03-728-'
+2026-02-22 16:45:10 | HERITAGE: Checking for existing counter with key: 'N1SCR03-728-A'
+2026-02-22 16:45:10 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR03-728-A' not found)
+2026-02-22 16:45:10 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:45:10 | HERITAGE: Processing group 'A' with scheme: N1SCR03-728-A{N}
+2026-02-22 16:45:10 | HERITAGE: Part10 Angle DS-OPC.ipt -> N1SCR03-728-A1.ipt
+2026-02-22 16:45:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part10 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A1.ipt
+2026-02-22 16:45:10 | HERITAGE: Creating new file: N1SCR03-728-A1.ipt
+2026-02-22 16:45:10 | HERITAGE: SUCCESS - Created N1SCR03-728-A1.ipt
+2026-02-22 16:45:10 | HERITAGE: Part11 Angle DS-OPC.ipt -> N1SCR03-728-A2.ipt
+2026-02-22 16:45:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part11 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A2.ipt
+2026-02-22 16:45:10 | HERITAGE: Creating new file: N1SCR03-728-A2.ipt
+2026-02-22 16:45:10 | HERITAGE: SUCCESS - Created N1SCR03-728-A2.ipt
+2026-02-22 16:45:10 | HERITAGE: Part12 Angle DS-OPC.ipt -> N1SCR03-728-A3.ipt
+2026-02-22 16:45:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part12 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A3.ipt
+2026-02-22 16:45:10 | HERITAGE: Creating new file: N1SCR03-728-A3.ipt
+2026-02-22 16:45:11 | HERITAGE: SUCCESS - Created N1SCR03-728-A3.ipt
+2026-02-22 16:45:11 | HERITAGE: Part13 Angle DS-OPC.ipt -> N1SCR03-728-A4.ipt
+2026-02-22 16:45:11 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part13 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A4.ipt
+2026-02-22 16:45:11 | HERITAGE: Creating new file: N1SCR03-728-A4.ipt
+2026-02-22 16:45:11 | HERITAGE: SUCCESS - Created N1SCR03-728-A4.ipt
+2026-02-22 16:45:11 | HERITAGE: Part14 Angle DS-OPC.ipt -> N1SCR03-728-A5.ipt
+2026-02-22 16:45:11 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part14 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A5.ipt
+2026-02-22 16:45:11 | HERITAGE: Creating new file: N1SCR03-728-A5.ipt
+2026-02-22 16:45:11 | HERITAGE: SUCCESS - Created N1SCR03-728-A5.ipt
+2026-02-22 16:45:11 | HERITAGE: Part15 Angle DS-OPC.ipt -> N1SCR03-728-A6.ipt
+2026-02-22 16:45:11 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part15 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A6.ipt
+2026-02-22 16:45:11 | HERITAGE: Creating new file: N1SCR03-728-A6.ipt
+2026-02-22 16:45:11 | HERITAGE: SUCCESS - Created N1SCR03-728-A6.ipt
+2026-02-22 16:45:11 | HERITAGE: Part16 (Part15 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A7.ipt
+2026-02-22 16:45:11 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part16 (Part15 Angle MIR) DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A7.ipt
+2026-02-22 16:45:11 | HERITAGE: Creating new file: N1SCR03-728-A7.ipt
+2026-02-22 16:45:11 | HERITAGE: SUCCESS - Created N1SCR03-728-A7.ipt
+2026-02-22 16:45:12 | HERITAGE: Part17 Angle DS-OPC.ipt -> N1SCR03-728-A8.ipt
+2026-02-22 16:45:12 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part17 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A8.ipt
+2026-02-22 16:45:12 | HERITAGE: Creating new file: N1SCR03-728-A8.ipt
+2026-02-22 16:45:12 | HERITAGE: SUCCESS - Created N1SCR03-728-A8.ipt
+2026-02-22 16:45:12 | HERITAGE: Part18 (Part17 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A9.ipt
+2026-02-22 16:45:12 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part18 (Part17 Angle MIR) DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A9.ipt
+2026-02-22 16:45:12 | HERITAGE: Creating new file: N1SCR03-728-A9.ipt
+2026-02-22 16:45:12 | HERITAGE: SUCCESS - Created N1SCR03-728-A9.ipt
+2026-02-22 16:45:12 | HERITAGE: Part19 Angle DS-OPC.ipt -> N1SCR03-728-A10.ipt
+2026-02-22 16:45:12 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part19 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A10.ipt
+2026-02-22 16:45:12 | HERITAGE: Creating new file: N1SCR03-728-A10.ipt
+2026-02-22 16:45:12 | HERITAGE: SUCCESS - Created N1SCR03-728-A10.ipt
+2026-02-22 16:45:12 | HERITAGE: Part20 (Part19 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A11.ipt
+2026-02-22 16:45:12 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part20 (Part19 Angle MIR) DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A11.ipt
+2026-02-22 16:45:12 | HERITAGE: Creating new file: N1SCR03-728-A11.ipt
+2026-02-22 16:45:12 | HERITAGE: SUCCESS - Created N1SCR03-728-A11.ipt
+2026-02-22 16:45:13 | HERITAGE: Part21 Angle DS-OPC.ipt -> N1SCR03-728-A12.ipt
+2026-02-22 16:45:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part21 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A12.ipt
+2026-02-22 16:45:13 | HERITAGE: Creating new file: N1SCR03-728-A12.ipt
+2026-02-22 16:45:13 | HERITAGE: SUCCESS - Created N1SCR03-728-A12.ipt
+2026-02-22 16:45:13 | HERITAGE: Part22 Angle DS-OPC.ipt -> N1SCR03-728-A13.ipt
+2026-02-22 16:45:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part22 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A13.ipt
+2026-02-22 16:45:13 | HERITAGE: Creating new file: N1SCR03-728-A13.ipt
+2026-02-22 16:45:13 | HERITAGE: SUCCESS - Created N1SCR03-728-A13.ipt
+2026-02-22 16:45:13 | HERITAGE: Part24 Angle DS-OPC.ipt -> N1SCR03-728-A14.ipt
+2026-02-22 16:45:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part24 Angle DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A14.ipt
+2026-02-22 16:45:13 | HERITAGE: Creating new file: N1SCR03-728-A14.ipt
+2026-02-22 16:45:13 | HERITAGE: SUCCESS - Created N1SCR03-728-A14.ipt
+2026-02-22 16:45:13 | HERITAGE: Part23 (Part22 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A15.ipt
+2026-02-22 16:45:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part23 (Part22 Angle MIR) DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A15.ipt
+2026-02-22 16:45:13 | HERITAGE: Creating new file: N1SCR03-728-A15.ipt
+2026-02-22 16:45:13 | HERITAGE: SUCCESS - Created N1SCR03-728-A15.ipt
+2026-02-22 16:45:14 | HERITAGE: Part1 70x70x8 OP-SDF.ipt -> N1SCR03-728-A16.ipt
+2026-02-22 16:45:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part1 70x70x8 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A16.ipt
+2026-02-22 16:45:14 | HERITAGE: Creating new file: N1SCR03-728-A16.ipt
+2026-02-22 16:45:14 | HERITAGE: SUCCESS - Created N1SCR03-728-A16.ipt
+2026-02-22 16:45:14 | HERITAGE: Part2 70x70x8 OP-SDF.ipt -> N1SCR03-728-A17.ipt
+2026-02-22 16:45:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part2 70x70x8 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A17.ipt
+2026-02-22 16:45:14 | HERITAGE: Creating new file: N1SCR03-728-A17.ipt
+2026-02-22 16:45:14 | HERITAGE: SUCCESS - Created N1SCR03-728-A17.ipt
+2026-02-22 16:45:14 | HERITAGE: Part3 70x70x8 OP-SDF.ipt -> N1SCR03-728-A18.ipt
+2026-02-22 16:45:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part3 70x70x8 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A18.ipt
+2026-02-22 16:45:14 | HERITAGE: Creating new file: N1SCR03-728-A18.ipt
+2026-02-22 16:45:14 | HERITAGE: SUCCESS - Created N1SCR03-728-A18.ipt
+2026-02-22 16:45:14 | HERITAGE: Part7 50X50X6 OP-SDF.ipt -> N1SCR03-728-A19.ipt
+2026-02-22 16:45:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part7 50X50X6 OP-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A19.ipt
+2026-02-22 16:45:14 | HERITAGE: Creating new file: N1SCR03-728-A19.ipt
+2026-02-22 16:45:14 | HERITAGE: SUCCESS - Created N1SCR03-728-A19.ipt
+2026-02-22 16:45:14 | REGISTRY: Saved N1SCR03-728-A = 19
+2026-02-22 16:45:14 | EXTRACT: Processing naming scheme: N1SCR03-728-PART{N}
+2026-02-22 16:45:14 | EXTRACT: Extracted prefix: 'N1SCR03-728-'
+2026-02-22 16:45:14 | HERITAGE: Checking for existing counter with key: 'N1SCR03-728-OTHER'
+2026-02-22 16:45:14 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'N1SCR03-728-OTHER' not found)
+2026-02-22 16:45:14 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:45:14 | HERITAGE: Processing group 'OTHER' with scheme: N1SCR03-728-PART{N}
+2026-02-22 16:45:14 | HERITAGE: Liner1.ipt -> N1SCR03-728-PART1.ipt
+2026-02-22 16:45:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART1.ipt
+2026-02-22 16:45:14 | HERITAGE: Creating new file: N1SCR03-728-PART1.ipt
+2026-02-22 16:45:15 | HERITAGE: SUCCESS - Created N1SCR03-728-PART1.ipt
+2026-02-22 16:45:15 | HERITAGE: Liner2 (Liner1 MIR).ipt -> N1SCR03-728-PART2.ipt
+2026-02-22 16:45:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner2 (Liner1 MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART2.ipt
+2026-02-22 16:45:15 | HERITAGE: Creating new file: N1SCR03-728-PART2.ipt
+2026-02-22 16:45:15 | HERITAGE: SUCCESS - Created N1SCR03-728-PART2.ipt
+2026-02-22 16:45:15 | HERITAGE: Screen Panel 305x305.ipt -> N1SCR03-728-PART3.ipt
+2026-02-22 16:45:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Screen Panel 305x305.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PART3.ipt
+2026-02-22 16:45:15 | HERITAGE: Creating new file: N1SCR03-728-PART3.ipt
+2026-02-22 16:45:15 | HERITAGE: SUCCESS - Created N1SCR03-728-PART3.ipt
+2026-02-22 16:45:15 | REGISTRY: Saved N1SCR03-728-OTHER = 3
+2026-02-22 16:45:15 | EXTRACT: Processing naming scheme: N1SCR03-728-FL{N}
+2026-02-22 16:45:15 | EXTRACT: Extracted prefix: 'N1SCR03-728-'
+2026-02-22 16:45:15 | HERITAGE: Checking for existing counter with key: 'N1SCR03-728-FL'
+2026-02-22 16:45:15 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR03-728-FL' not found)
+2026-02-22 16:45:15 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:45:15 | HERITAGE: Processing group 'FL' with scheme: N1SCR03-728-FL{N}
+2026-02-22 16:45:15 | HERITAGE: Part25 Stiffener DS-OPC.ipt -> N1SCR03-728-FL1.ipt
+2026-02-22 16:45:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part25 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL1.ipt
+2026-02-22 16:45:15 | HERITAGE: Creating new file: N1SCR03-728-FL1.ipt
+2026-02-22 16:45:15 | HERITAGE: SUCCESS - Created N1SCR03-728-FL1.ipt
+2026-02-22 16:45:15 | HERITAGE: Part26 Stiffener DS-OPC.ipt -> N1SCR03-728-FL2.ipt
+2026-02-22 16:45:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part26 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL2.ipt
+2026-02-22 16:45:15 | HERITAGE: Creating new file: N1SCR03-728-FL2.ipt
+2026-02-22 16:45:16 | HERITAGE: SUCCESS - Created N1SCR03-728-FL2.ipt
+2026-02-22 16:45:16 | HERITAGE: Part27 Stiffener DS-OPC.ipt -> N1SCR03-728-FL3.ipt
+2026-02-22 16:45:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part27 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL3.ipt
+2026-02-22 16:45:16 | HERITAGE: Creating new file: N1SCR03-728-FL3.ipt
+2026-02-22 16:45:16 | HERITAGE: SUCCESS - Created N1SCR03-728-FL3.ipt
+2026-02-22 16:45:16 | HERITAGE: Part28 Stiffener DS-OPC.ipt -> N1SCR03-728-FL4.ipt
+2026-02-22 16:45:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part28 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL4.ipt
+2026-02-22 16:45:16 | HERITAGE: Creating new file: N1SCR03-728-FL4.ipt
+2026-02-22 16:45:16 | HERITAGE: SUCCESS - Created N1SCR03-728-FL4.ipt
+2026-02-22 16:45:16 | HERITAGE: Part29 Stiffener DS-OPC.ipt -> N1SCR03-728-FL5.ipt
+2026-02-22 16:45:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part29 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL5.ipt
+2026-02-22 16:45:16 | HERITAGE: Creating new file: N1SCR03-728-FL5.ipt
+2026-02-22 16:45:16 | HERITAGE: SUCCESS - Created N1SCR03-728-FL5.ipt
+2026-02-22 16:45:16 | HERITAGE: Part30 Stiffener DS-OPC.ipt -> N1SCR03-728-FL6.ipt
+2026-02-22 16:45:16 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part30 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL6.ipt
+2026-02-22 16:45:16 | HERITAGE: Creating new file: N1SCR03-728-FL6.ipt
+2026-02-22 16:45:17 | HERITAGE: SUCCESS - Created N1SCR03-728-FL6.ipt
+2026-02-22 16:45:17 | HERITAGE: Part31 Stiffener DS-OPC.ipt -> N1SCR03-728-FL7.ipt
+2026-02-22 16:45:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part31 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL7.ipt
+2026-02-22 16:45:17 | HERITAGE: Creating new file: N1SCR03-728-FL7.ipt
+2026-02-22 16:45:17 | HERITAGE: SUCCESS - Created N1SCR03-728-FL7.ipt
+2026-02-22 16:45:17 | HERITAGE: Part32 Stiffener DS-OPC.ipt -> N1SCR03-728-FL8.ipt
+2026-02-22 16:45:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part32 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL8.ipt
+2026-02-22 16:45:17 | HERITAGE: Creating new file: N1SCR03-728-FL8.ipt
+2026-02-22 16:45:17 | HERITAGE: SUCCESS - Created N1SCR03-728-FL8.ipt
+2026-02-22 16:45:17 | HERITAGE: Part33 Stiffener DS-OPC.ipt -> N1SCR03-728-FL9.ipt
+2026-02-22 16:45:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part33 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL9.ipt
+2026-02-22 16:45:17 | HERITAGE: Creating new file: N1SCR03-728-FL9.ipt
+2026-02-22 16:45:17 | HERITAGE: SUCCESS - Created N1SCR03-728-FL9.ipt
+2026-02-22 16:45:17 | HERITAGE: Part34 Stiffener DS-OPC.ipt -> N1SCR03-728-FL10.ipt
+2026-02-22 16:45:17 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part34 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL10.ipt
+2026-02-22 16:45:17 | HERITAGE: Creating new file: N1SCR03-728-FL10.ipt
+2026-02-22 16:45:18 | HERITAGE: SUCCESS - Created N1SCR03-728-FL10.ipt
+2026-02-22 16:45:18 | HERITAGE: Part35 Stiffener DS-OPC.ipt -> N1SCR03-728-FL11.ipt
+2026-02-22 16:45:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part35 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL11.ipt
+2026-02-22 16:45:18 | HERITAGE: Creating new file: N1SCR03-728-FL11.ipt
+2026-02-22 16:45:18 | HERITAGE: SUCCESS - Created N1SCR03-728-FL11.ipt
+2026-02-22 16:45:18 | HERITAGE: Part36 Stiffener DS-OPC.ipt -> N1SCR03-728-FL12.ipt
+2026-02-22 16:45:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part36 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL12.ipt
+2026-02-22 16:45:18 | HERITAGE: Creating new file: N1SCR03-728-FL12.ipt
+2026-02-22 16:45:18 | HERITAGE: SUCCESS - Created N1SCR03-728-FL12.ipt
+2026-02-22 16:45:18 | HERITAGE: Part37 Stiffener DS-OPC.ipt -> N1SCR03-728-FL13.ipt
+2026-02-22 16:45:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part37 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL13.ipt
+2026-02-22 16:45:18 | HERITAGE: Creating new file: N1SCR03-728-FL13.ipt
+2026-02-22 16:45:18 | HERITAGE: SUCCESS - Created N1SCR03-728-FL13.ipt
+2026-02-22 16:45:18 | HERITAGE: Part38 Stiffener DS-OPC.ipt -> N1SCR03-728-FL14.ipt
+2026-02-22 16:45:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part38 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL14.ipt
+2026-02-22 16:45:18 | HERITAGE: Creating new file: N1SCR03-728-FL14.ipt
+2026-02-22 16:45:19 | HERITAGE: SUCCESS - Created N1SCR03-728-FL14.ipt
+2026-02-22 16:45:19 | HERITAGE: Part39 Stiffener DS-OPC.ipt -> N1SCR03-728-FL15.ipt
+2026-02-22 16:45:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part39 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL15.ipt
+2026-02-22 16:45:19 | HERITAGE: Creating new file: N1SCR03-728-FL15.ipt
+2026-02-22 16:45:19 | HERITAGE: SUCCESS - Created N1SCR03-728-FL15.ipt
+2026-02-22 16:45:19 | HERITAGE: Part40 Stiffener DS-OPC.ipt -> N1SCR03-728-FL16.ipt
+2026-02-22 16:45:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part40 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL16.ipt
+2026-02-22 16:45:19 | HERITAGE: Creating new file: N1SCR03-728-FL16.ipt
+2026-02-22 16:45:19 | HERITAGE: SUCCESS - Created N1SCR03-728-FL16.ipt
+2026-02-22 16:45:19 | HERITAGE: Part41 Stiffener DS-OPC.ipt -> N1SCR03-728-FL17.ipt
+2026-02-22 16:45:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part41 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL17.ipt
+2026-02-22 16:45:19 | HERITAGE: Creating new file: N1SCR03-728-FL17.ipt
+2026-02-22 16:45:19 | HERITAGE: SUCCESS - Created N1SCR03-728-FL17.ipt
+2026-02-22 16:45:19 | HERITAGE: Part42 Stiffener DS-OPC.ipt -> N1SCR03-728-FL18.ipt
+2026-02-22 16:45:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part42 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL18.ipt
+2026-02-22 16:45:19 | HERITAGE: Creating new file: N1SCR03-728-FL18.ipt
+2026-02-22 16:45:20 | HERITAGE: SUCCESS - Created N1SCR03-728-FL18.ipt
+2026-02-22 16:45:20 | HERITAGE: Part43 Stiffener DS-OPC.ipt -> N1SCR03-728-FL19.ipt
+2026-02-22 16:45:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part43 Stiffener DS-OPC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL19.ipt
+2026-02-22 16:45:20 | HERITAGE: Creating new file: N1SCR03-728-FL19.ipt
+2026-02-22 16:45:20 | HERITAGE: SUCCESS - Created N1SCR03-728-FL19.ipt
+2026-02-22 16:45:20 | REGISTRY: Saved N1SCR03-728-FL = 19
+2026-02-22 16:45:20 | STEP 7: Updating assembly references
+2026-02-22 16:45:20 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-22 16:45:20 | ASSEMBLY: Updating references in - N1SCR03-728.iam (Level: ROOT)
+2026-02-22 16:45:20 | ASSEMBLY: RECURSING into sub-assembly - Oversize Protection Chute.iam
+2026-02-22 16:45:20 | ASSEMBLY: Updating references in - Oversize Protection Chute.iam (Level: ROOT>Oversize Protection Chute.iam)
+2026-02-22 16:45:20 | ASSEMBLY: Replacing Part1 DS-OPC.ipt -> N1SCR03-728-PL1.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:20 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL1.ipt
+2026-02-22 16:45:20 | ASSEMBLY: Replacing Part2 DS-OPC.ipt -> N1SCR03-728-PL2.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:21 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL2.ipt
+2026-02-22 16:45:21 | ASSEMBLY: Replacing Part3 DS-OPC.ipt -> N1SCR03-728-PL3.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:21 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL3.ipt
+2026-02-22 16:45:21 | ASSEMBLY: Replacing Part4 DS-OPC.ipt -> N1SCR03-728-PL4.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:21 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL4.ipt
+2026-02-22 16:45:21 | ASSEMBLY: Replacing Part5 DS-OPC.ipt -> N1SCR03-728-PL5.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:22 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL5.ipt
+2026-02-22 16:45:22 | ASSEMBLY: Replacing Part6 DS-OPC.ipt -> N1SCR03-728-PL6.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:22 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL6.ipt
+2026-02-22 16:45:22 | ASSEMBLY: Replacing Part7 DS-OPC.ipt -> N1SCR03-728-PL7.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:22 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL7.ipt
+2026-02-22 16:45:23 | ASSEMBLY: Replacing Part8 DS-OPC.ipt -> N1SCR03-728-PL8.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:23 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL8.ipt
+2026-02-22 16:45:23 | ASSEMBLY: Replacing Part9 DS-OPC.ipt -> N1SCR03-728-PL9.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:23 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL9.ipt
+2026-02-22 16:45:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL9.ipt (not renamed)
+2026-02-22 16:45:23 | ASSEMBLY: Replacing Part10 Angle DS-OPC.ipt -> N1SCR03-728-A1.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:24 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A1.ipt
+2026-02-22 16:45:24 | ASSEMBLY: Replacing Part11 Angle DS-OPC.ipt -> N1SCR03-728-A2.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:24 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A2.ipt
+2026-02-22 16:45:24 | ASSEMBLY: Replacing Part12 Angle DS-OPC.ipt -> N1SCR03-728-A3.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:24 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A3.ipt
+2026-02-22 16:45:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A2.ipt (not renamed)
+2026-02-22 16:45:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A3.ipt (not renamed)
+2026-02-22 16:45:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A3.ipt (not renamed)
+2026-02-22 16:45:25 | ASSEMBLY: Replacing Part13 Angle DS-OPC.ipt -> N1SCR03-728-A4.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:25 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A4.ipt
+2026-02-22 16:45:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A3.ipt (not renamed)
+2026-02-22 16:45:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A4.ipt (not renamed)
+2026-02-22 16:45:25 | ASSEMBLY: Replacing Part14 Angle DS-OPC.ipt -> N1SCR03-728-A5.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:25 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A5.ipt
+2026-02-22 16:45:25 | ASSEMBLY: Replacing Part15 Angle DS-OPC.ipt -> N1SCR03-728-A6.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:26 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A6.ipt
+2026-02-22 16:45:26 | ASSEMBLY: Replacing Part16 (Part15 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A7.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:26 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A7.ipt
+2026-02-22 16:45:26 | ASSEMBLY: Replacing Part17 Angle DS-OPC.ipt -> N1SCR03-728-A8.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:26 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A8.ipt
+2026-02-22 16:45:26 | ASSEMBLY: Replacing Part18 (Part17 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A9.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:27 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A9.ipt
+2026-02-22 16:45:27 | ASSEMBLY: Replacing Part19 Angle DS-OPC.ipt -> N1SCR03-728-A10.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:27 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A10.ipt
+2026-02-22 16:45:27 | ASSEMBLY: Replacing Part20 (Part19 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A11.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:27 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A11.ipt
+2026-02-22 16:45:27 | ASSEMBLY: Replacing Part21 Angle DS-OPC.ipt -> N1SCR03-728-A12.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:27 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A12.ipt
+2026-02-22 16:45:27 | ASSEMBLY: Replacing Part22 Angle DS-OPC.ipt -> N1SCR03-728-A13.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:28 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A13.ipt
+2026-02-22 16:45:28 | ASSEMBLY: Replacing Part24 Angle DS-OPC.ipt -> N1SCR03-728-A14.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:28 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A14.ipt
+2026-02-22 16:45:28 | ASSEMBLY: Replacing Part23 (Part22 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A15.ipt [A] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:28 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A15.ipt
+2026-02-22 16:45:28 | ASSEMBLY: Replacing Liner1.ipt -> N1SCR03-728-PART1.ipt [OTHER] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:28 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PART1.ipt
+2026-02-22 16:45:28 | ASSEMBLY: Replacing Liner2 (Liner1 MIR).ipt -> N1SCR03-728-PART2.ipt [OTHER] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:28 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PART2.ipt
+2026-02-22 16:45:28 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART1.ipt (not renamed)
+2026-02-22 16:45:28 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART2.ipt (not renamed)
+2026-02-22 16:45:29 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART1.ipt (not renamed)
+2026-02-22 16:45:29 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART2.ipt (not renamed)
+2026-02-22 16:45:29 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART1.ipt (not renamed)
+2026-02-22 16:45:29 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART2.ipt (not renamed)
+2026-02-22 16:45:29 | ASSEMBLY: Replacing Part25 Stiffener DS-OPC.ipt -> N1SCR03-728-FL1.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:29 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL1.ipt
+2026-02-22 16:45:29 | ASSEMBLY: Replacing Part26 Stiffener DS-OPC.ipt -> N1SCR03-728-FL2.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:29 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL2.ipt
+2026-02-22 16:45:29 | ASSEMBLY: Replacing Part27 Stiffener DS-OPC.ipt -> N1SCR03-728-FL3.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:29 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL3.ipt
+2026-02-22 16:45:29 | ASSEMBLY: Replacing Part28 Stiffener DS-OPC.ipt -> N1SCR03-728-FL4.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:29 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL4.ipt
+2026-02-22 16:45:29 | ASSEMBLY: Replacing Part29 Stiffener DS-OPC.ipt -> N1SCR03-728-FL5.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL5.ipt
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL1.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL2.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL3.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL4.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL1.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL2.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL3.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL4.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL1.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL2.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL3.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL4.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL1.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL2.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL3.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL4.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL5.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: Replacing Part30 Stiffener DS-OPC.ipt -> N1SCR03-728-FL6.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL6.ipt
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL6.ipt (not renamed)
+2026-02-22 16:45:30 | ASSEMBLY: Replacing Part31 Stiffener DS-OPC.ipt -> N1SCR03-728-FL7.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL7.ipt
+2026-02-22 16:45:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL7.ipt (not renamed)
+2026-02-22 16:45:31 | ASSEMBLY: Replacing Part32 Stiffener DS-OPC.ipt -> N1SCR03-728-FL8.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL8.ipt
+2026-02-22 16:45:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL8.ipt (not renamed)
+2026-02-22 16:45:31 | ASSEMBLY: Replacing Part33 Stiffener DS-OPC.ipt -> N1SCR03-728-FL9.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL9.ipt
+2026-02-22 16:45:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL9.ipt (not renamed)
+2026-02-22 16:45:31 | ASSEMBLY: Replacing Part34 Stiffener DS-OPC.ipt -> N1SCR03-728-FL10.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL10.ipt
+2026-02-22 16:45:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL10.ipt (not renamed)
+2026-02-22 16:45:31 | ASSEMBLY: Replacing Part35 Stiffener DS-OPC.ipt -> N1SCR03-728-FL11.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL11.ipt
+2026-02-22 16:45:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL11.ipt (not renamed)
+2026-02-22 16:45:31 | ASSEMBLY: Replacing Part36 Stiffener DS-OPC.ipt -> N1SCR03-728-FL12.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL12.ipt
+2026-02-22 16:45:32 | ASSEMBLY: Replacing Part37 Stiffener DS-OPC.ipt -> N1SCR03-728-FL13.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL13.ipt
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL12.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL13.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL12.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL13.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL12.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL13.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL12.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL13.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: Replacing Part38 Stiffener DS-OPC.ipt -> N1SCR03-728-FL14.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL14.ipt
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL14.ipt (not renamed)
+2026-02-22 16:45:32 | ASSEMBLY: Replacing Part39 Stiffener DS-OPC.ipt -> N1SCR03-728-FL15.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL15.ipt
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL15.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: Replacing Part40 Stiffener DS-OPC.ipt -> N1SCR03-728-FL16.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL16.ipt
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL16.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: Replacing Part41 Stiffener DS-OPC.ipt -> N1SCR03-728-FL17.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL17.ipt
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL17.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL17.ipt (not renamed)
+2026-02-22 16:45:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL17.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL17.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL17.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: Replacing Part42 Stiffener DS-OPC.ipt -> N1SCR03-728-FL18.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL18.ipt
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL18.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: Replacing Part43 Stiffener DS-OPC.ipt -> N1SCR03-728-FL19.ipt [FL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-FL19.ipt
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-FL19.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: SKIPPING NSCR03-728-Bolted Connection1.iam (bolted connection assembly)
+2026-02-22 16:45:34 | ASSEMBLY: Replacing Part44 End Plate DS-OPC.ipt -> N1SCR03-728-PL10.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL10.ipt
+2026-02-22 16:45:34 | ASSEMBLY: Replacing Lug DS-OPC.ipt -> N1SCR03-728-PL11.ipt [PL] (in Oversize Protection Chute.iam)
+2026-02-22 16:45:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL11.ipt
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL10.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL11.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL10.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL11.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL10.ipt (not renamed)
+2026-02-22 16:45:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL11.ipt (not renamed)
+2026-02-22 16:45:37 | ASSEMBLY: Saved sub-assembly - Oversize Protection Chute.iam
+2026-02-22 16:45:37 | ASSEMBLY: RECURSING into sub-assembly - Screen Deck Frame.iam
+2026-02-22 16:45:37 | ASSEMBLY: Updating references in - Screen Deck Frame.iam (Level: ROOT>Screen Deck Frame.iam)
+2026-02-22 16:45:37 | ASSEMBLY: Replacing Part1 70x70x8 OP-SDF.ipt -> N1SCR03-728-A16.ipt [A] (in Screen Deck Frame.iam)
+2026-02-22 16:45:38 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A16.ipt
+2026-02-22 16:45:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A16.ipt (not renamed)
+2026-02-22 16:45:39 | ASSEMBLY: Replacing Part2 70x70x8 OP-SDF.ipt -> N1SCR03-728-A17.ipt [A] (in Screen Deck Frame.iam)
+2026-02-22 16:45:40 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A17.ipt
+2026-02-22 16:45:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A17.ipt (not renamed)
+2026-02-22 16:45:40 | ASSEMBLY: Replacing Part3 70x70x8 OP-SDF.ipt -> N1SCR03-728-A18.ipt [A] (in Screen Deck Frame.iam)
+2026-02-22 16:45:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A18.ipt
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A18.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: Replacing Part4 OP-SDF.ipt -> N1SCR03-728-PL12.ipt [PL] (in Screen Deck Frame.iam)
+2026-02-22 16:45:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL12.ipt
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL12.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: Replacing Part5 OP-SDF.ipt -> N1SCR03-728-PL13.ipt [PL] (in Screen Deck Frame.iam)
+2026-02-22 16:45:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL13.ipt
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL13.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL13.ipt (not renamed)
+2026-02-22 16:45:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL13.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: Replacing Screen Panel 305x305.ipt -> N1SCR03-728-PART3.ipt [OTHER] (in Screen Deck Frame.iam)
+2026-02-22 16:45:43 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PART3.ipt
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PART3.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: Replacing Part6 OP-SDF.ipt -> N1SCR03-728-PL14.ipt [PL] (in Screen Deck Frame.iam)
+2026-02-22 16:45:45 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-PL14.ipt
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-PL14.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: Replacing Part7 50X50X6 OP-SDF.ipt -> N1SCR03-728-A19.ipt [A] (in Screen Deck Frame.iam)
+2026-02-22 16:45:46 | ASSEMBLY: SUCCESS - Updated to N1SCR03-728-A19.ipt
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-728-A19.ipt (not renamed)
+2026-02-22 16:45:46 | ASSEMBLY: SKIPPING (suppressed occurrence in Screen Deck Frame.iam)
+2026-02-22 16:45:46 | ASSEMBLY: SKIPPING (suppressed occurrence in Screen Deck Frame.iam)
+2026-02-22 16:45:47 | ASSEMBLY: Saved sub-assembly - Screen Deck Frame.iam
+2026-02-22 16:45:47 | ASSEMBLY: Saving assembly with updated references...
+2026-02-22 16:45:47 | ASSEMBLY: Successfully saved assembly
+2026-02-22 16:45:47 | STEP 8: Auto-detecting and updating IDW files
+2026-02-22 16:45:47 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-22 16:45:47 | IDW: Found drawing file - MGY-200-DSL-03-00.idw
+2026-02-22 16:45:47 | IDW: Processing MGY-200-DSL-03-00.idw
+2026-02-22 16:45:49 | IDW: Opening MGY-200-DSL-03-00.idw
+2026-02-22 16:45:58 | IDW: Found 1 referenced files
+2026-02-22 16:45:58 | IDW: INFO - No mapping found for N1SCR03-728.iam
+2026-02-22 16:46:03 | IDW: Saved MGY-200-DSL-03-00.idw
+2026-02-22 16:46:03 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-22 16:46:03 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-22 16:46:03 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_1_MAPPING.txt
+2026-02-22 16:46:03 | MAPPING: Comprehensive mapping count = 55
+2026-02-22 16:46:03 | MAPPING: Prepared: Part1 DS-OPC.ipt -> N1SCR03-728-PL1.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part2 DS-OPC.ipt -> N1SCR03-728-PL2.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part3 DS-OPC.ipt -> N1SCR03-728-PL3.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part4 DS-OPC.ipt -> N1SCR03-728-PL4.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part5 DS-OPC.ipt -> N1SCR03-728-PL5.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part6 DS-OPC.ipt -> N1SCR03-728-PL6.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part7 DS-OPC.ipt -> N1SCR03-728-PL7.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part8 DS-OPC.ipt -> N1SCR03-728-PL8.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part9 DS-OPC.ipt -> N1SCR03-728-PL9.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part44 End Plate DS-OPC.ipt -> N1SCR03-728-PL10.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Lug DS-OPC.ipt -> N1SCR03-728-PL11.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part4 OP-SDF.ipt -> N1SCR03-728-PL12.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part5 OP-SDF.ipt -> N1SCR03-728-PL13.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part6 OP-SDF.ipt -> N1SCR03-728-PL14.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part10 Angle DS-OPC.ipt -> N1SCR03-728-A1.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part11 Angle DS-OPC.ipt -> N1SCR03-728-A2.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part12 Angle DS-OPC.ipt -> N1SCR03-728-A3.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part13 Angle DS-OPC.ipt -> N1SCR03-728-A4.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part14 Angle DS-OPC.ipt -> N1SCR03-728-A5.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part15 Angle DS-OPC.ipt -> N1SCR03-728-A6.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part16 (Part15 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A7.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part17 Angle DS-OPC.ipt -> N1SCR03-728-A8.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part18 (Part17 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A9.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part19 Angle DS-OPC.ipt -> N1SCR03-728-A10.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part20 (Part19 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A11.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part21 Angle DS-OPC.ipt -> N1SCR03-728-A12.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part22 Angle DS-OPC.ipt -> N1SCR03-728-A13.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part24 Angle DS-OPC.ipt -> N1SCR03-728-A14.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part23 (Part22 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A15.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part1 70x70x8 OP-SDF.ipt -> N1SCR03-728-A16.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part2 70x70x8 OP-SDF.ipt -> N1SCR03-728-A17.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part3 70x70x8 OP-SDF.ipt -> N1SCR03-728-A18.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part7 50X50X6 OP-SDF.ipt -> N1SCR03-728-A19.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Liner1.ipt -> N1SCR03-728-PART1.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Liner2 (Liner1 MIR).ipt -> N1SCR03-728-PART2.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Screen Panel 305x305.ipt -> N1SCR03-728-PART3.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part25 Stiffener DS-OPC.ipt -> N1SCR03-728-FL1.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part26 Stiffener DS-OPC.ipt -> N1SCR03-728-FL2.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part27 Stiffener DS-OPC.ipt -> N1SCR03-728-FL3.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part28 Stiffener DS-OPC.ipt -> N1SCR03-728-FL4.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part29 Stiffener DS-OPC.ipt -> N1SCR03-728-FL5.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part30 Stiffener DS-OPC.ipt -> N1SCR03-728-FL6.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part31 Stiffener DS-OPC.ipt -> N1SCR03-728-FL7.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part32 Stiffener DS-OPC.ipt -> N1SCR03-728-FL8.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part33 Stiffener DS-OPC.ipt -> N1SCR03-728-FL9.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part34 Stiffener DS-OPC.ipt -> N1SCR03-728-FL10.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part35 Stiffener DS-OPC.ipt -> N1SCR03-728-FL11.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part36 Stiffener DS-OPC.ipt -> N1SCR03-728-FL12.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part37 Stiffener DS-OPC.ipt -> N1SCR03-728-FL13.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part38 Stiffener DS-OPC.ipt -> N1SCR03-728-FL14.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part39 Stiffener DS-OPC.ipt -> N1SCR03-728-FL15.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part40 Stiffener DS-OPC.ipt -> N1SCR03-728-FL16.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part41 Stiffener DS-OPC.ipt -> N1SCR03-728-FL17.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part42 Stiffener DS-OPC.ipt -> N1SCR03-728-FL18.ipt
+2026-02-22 16:46:03 | MAPPING: Prepared: Part43 Stiffener DS-OPC.ipt -> N1SCR03-728-FL19.ipt
+2026-02-22 16:46:03 | MAPPING: Write attempt 1 of 3
+2026-02-22 16:46:03 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-22 16:46:03 | MAPPING: VERIFICATION - File exists! Size: 20511 bytes
+2026-02-22 16:46:03 | MAPPING: SUCCESS - Mapping file saved with 55 mappings
+2026-02-22 16:46:04 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-22 16:46:04 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-22 16:46:04 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

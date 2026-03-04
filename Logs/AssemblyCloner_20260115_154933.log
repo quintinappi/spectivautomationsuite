@@ -1,0 +1,566 @@
+2026-01-15 15:49:33 | === ASSEMBLY CLONER ===
+2026-01-15 15:49:33 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 15:49:34 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 15:49:34 | STEP 1: Detecting open assembly
+2026-01-15 15:49:34 | DETECTED: Flood Box.iam
+2026-01-15 15:49:34 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 15:49:35 | STEP 2: Getting destination folder from user
+2026-01-15 15:49:37 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:49:37 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_154937.log
+2026-01-15 15:49:37 | New assembly name will be: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:37 | STEP 3: Asking about heritage renaming
+2026-01-15 15:49:38 | PLANT: Getting plant section naming convention from user
+2026-01-15 15:49:41 | PLANT: Using prefix: CLONE-001-
+2026-01-15 15:49:41 | STEP 4: Analyzing assembly structure
+2026-01-15 15:49:41 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Support Frame.iam at ROOT
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Support Column.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: PART Part1 FB-C1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:49:41 | COLLECT: PART Part2 203x133x25 FB-C1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: PART Part1 FB-B1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:49:41 | COLLECT: PART Part2 203x133x25 FB-B1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Support Beam-3.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: PART Part2 203x133x25 FB-B3.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-3.iam
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Support Beam-2.iam at ROOT>Support Frame.iam
+2026-01-15 15:49:41 | COLLECT: PART Part1 FB-B2.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:49:41 | COLLECT: PART Part2 203x133x25 FB-B2.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:49:41 | COLLECT: Skipping suppressed occurrence Flood Chute Development:1 at ROOT
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-15 15:49:41 | COLLECT: SUB-ASSEMBLY Flood Chute.iam at ROOT
+2026-01-15 15:49:41 | COLLECT: PART Part1 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part2 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part3 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part4 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part5 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part6 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part7 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part8 (Part7 Angle MIR) FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part9 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part10 FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: PART Lug FB-C.ipt (PL 20mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:49:42 | COLLECT: Found 28 unique files
+2026-01-15 15:49:42 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-00.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-02.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-01-00.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-01-03.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | COLLECT: DRAWING MGY-200-DRD-09-01-01.idw
+2026-01-15 15:49:42 | ANALYZE: Found 35 unique parts to copy
+2026-01-15 15:49:42 | STEP 5: Grouping components for heritage naming
+2026-01-15 15:49:42 | GROUP: Grouping parts for heritage naming...
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Support Frame.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Support Column.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Bolted Connection2.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Support Beam-1.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Support Beam-3.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Support Beam-2.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:49:42 | GROUP: Skipping sub-assembly Flood Chute.iam
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-00.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-02.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | GROUP: Skipping drawing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:49:42 | GROUP: Created 3 groups
+2026-01-15 15:49:42 | SCHEME: PL -> CLONE-001-PL{N}
+2026-01-15 15:49:42 | SCHEME: B -> CLONE-001-B{N}
+2026-01-15 15:49:42 | SCHEME: A -> CLONE-001-A{N}
+2026-01-15 15:49:42 | STEP 6: Copying assembly to destination
+2026-01-15 15:49:42 | Closing source assembly for safe copy...
+2026-01-15 15:49:42 | COPIED: Assembly Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:42 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Support Frame.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Support Column.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Support Column.iam -> Support Column.iam
+2026-01-15 15:49:42 | COPIED: Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:49:42 | COPIED: Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Bolted Connection2.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Support Beam-1.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:49:42 | COPIED: Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:49:42 | COPIED: Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Support Beam-3.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:49:42 | COPIED: Part2 203x133x25 FB-B3.ipt -> CLONE-001-B3.ipt
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Support Beam-2.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:49:42 | COPIED: Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:49:42 | COPIED: Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:49:42 | COPY: SUB-ASSEMBLY Flood Chute.iam (keeping original name)
+2026-01-15 15:49:42 | COPIED: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:49:42 | COPIED: Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:49:42 | COPIED: Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:49:42 | COPIED: Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:49:42 | COPIED: Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:49:42 | COPIED: Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:49:42 | COPIED: Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:49:42 | COPIED: Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:49:42 | COPIED: Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:49:42 | COPIED: Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:49:42 | COPIED: Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:49:42 | COPIED: Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:49:42 | COPIED: Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-00.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-00.idw -> MGY-200-DRD-09-00.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-02.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-02.idw -> MGY-200-DRD-09-02.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-01-00.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-01-00.idw -> MGY-200-DRD-09-01-00.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-01-03.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-01-03.idw -> MGY-200-DRD-09-01-03.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:42 | COPY: DRAWING MGY-200-DRD-09-01-01.idw (keeping original name)
+2026-01-15 15:49:42 | COPIED: MGY-200-DRD-09-01-01.idw -> MGY-200-DRD-09-01-01.idw
+2026-01-15 15:49:42 | STEP 8: Updating references in ALL copied assemblies
+2026-01-15 15:49:42 | STEP 8a: Opening main assembly to preload all components
+2026-01-15 15:49:42 | STEP 8a: Main assembly loaded with all components
+2026-01-15 15:49:42 | STEP 8: Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:42 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:42 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:42 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:42 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | STEP 8: Updating references in Support Frame.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | STEP 8: Updating references in Support Column.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | STEP 8: Updating references in Bolted Connection2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | STEP 8: Updating references in Support Beam-1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | STEP 8: Updating references in Support Beam-3.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | STEP 8: Updating references in Support Beam-2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | STEP 8: Updating references in Flood Chute.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:49:45 | ASSEMBLY UPDATE (Inventor): ERROR - Could not open assembly: Object doesn't support this property or method
+2026-01-15 15:49:45 | STEP 8b: Saved main assembly
+2026-01-15 15:49:45 | STEP 9: Updating IDW drawing references
+2026-01-15 15:49:45 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2026-01-15 15:49:45 | IDW UPDATE: Error: Object required
+2026-01-15 15:49:45 | IDW UPDATE: Calling Inventor fallback method
+2026-01-15 15:49:45 | IDW UPDATE (Inventor): Starting IDW update for destFolder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:49:45 | IDW UPDATE (Inventor): Enabled SilentOperation mode
+2026-01-15 15:49:45 | IDW UPDATE (Inventor): Set resolve mode to skip unresolved files
+2026-01-15 15:49:46 | IDW UPDATE: Opening main assembly to load all parts: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:46 | IDW UPDATE: WARNING - Could not open main assembly: Object doesn't support this property or method
+2026-01-15 15:49:46 | IDW UPDATE (Inventor): Found 38 files in destination folder
+2026-01-15 15:49:46 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-00.idw
+2026-01-15 15:49:46 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-00.idw
+2026-01-15 15:49:46 | IDW UPDATE: Found 1 references
+2026-01-15 15:49:46 | IDW UPDATE: Checking reference: Flood Box.iam (path: F:\NL\06. Model\02. WBS\NP\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Flood Box.iam)
+2026-01-15 15:49:46 | IDW UPDATE: FOUND mapping - Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:46 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:47 | IDW UPDATE: Saved MGY-200-DRD-09-00.idw (1 updated)
+2026-01-15 15:49:47 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-00.idw
+2026-01-15 15:49:47 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:49:48 | IDW UPDATE: Found 1 references
+2026-01-15 15:49:48 | IDW UPDATE: Checking reference: Support Frame.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Frame.iam)
+2026-01-15 15:49:48 | IDW UPDATE: FOUND mapping - Support Frame.iam -> Support Frame.iam
+2026-01-15 15:49:48 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:48 | IDW UPDATE: Saved MGY-200-DRD-09-01-00.idw (1 updated)
+2026-01-15 15:49:48 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-01.idw
+2026-01-15 15:49:48 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:49:49 | IDW UPDATE: Found 3 references
+2026-01-15 15:49:49 | IDW UPDATE: Checking reference: Support Column.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Column.iam)
+2026-01-15 15:49:49 | IDW UPDATE: FOUND mapping - Support Column.iam -> Support Column.iam
+2026-01-15 15:49:49 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:49 | IDW UPDATE: Checking reference: Part1 FB-C1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Column\Part1 FB-C1.ipt)
+2026-01-15 15:49:49 | IDW UPDATE: FOUND mapping - Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:49:49 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:49 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-C1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt)
+2026-01-15 15:49:49 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:49:49 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:50 | IDW UPDATE: Saved MGY-200-DRD-09-01-01.idw (3 updated)
+2026-01-15 15:49:50 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:50 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:49:50 | IDW UPDATE: Found 3 references
+2026-01-15 15:49:50 | IDW UPDATE: Checking reference: Support Beam-1.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-1.iam)
+2026-01-15 15:49:50 | IDW UPDATE: FOUND mapping - Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:49:50 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:50 | IDW UPDATE: Checking reference: Part1 FB-B1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt)
+2026-01-15 15:49:50 | IDW UPDATE: FOUND mapping - Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:49:50 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:50 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-B1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt)
+2026-01-15 15:49:50 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:49:50 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:51 | IDW UPDATE: Saved MGY-200-DRD-09-01-02.idw (3 updated)
+2026-01-15 15:49:51 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-03.idw
+2026-01-15 15:49:51 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:49:51 | IDW UPDATE: Found 3 references
+2026-01-15 15:49:51 | IDW UPDATE: Checking reference: Support Beam-2.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-2.iam)
+2026-01-15 15:49:51 | IDW UPDATE: FOUND mapping - Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:49:51 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:51 | IDW UPDATE: Checking reference: Part1 FB-B2.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt)
+2026-01-15 15:49:51 | IDW UPDATE: FOUND mapping - Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:49:51 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:51 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-B2.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt)
+2026-01-15 15:49:51 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:49:51 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Saved MGY-200-DRD-09-01-03.idw (3 updated)
+2026-01-15 15:49:52 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-02.idw
+2026-01-15 15:49:52 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-02.idw
+2026-01-15 15:49:52 | IDW UPDATE: Found 13 references
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Flood Chute.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute.iam)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part7 Angle FB-C.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Part7 Angle FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Lug FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Lug FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part1 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part1 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part10 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part10 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part11 Corner Gusset FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part11 Corner Gusset FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part2 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part2 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part3 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part3 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part4 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part4 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part5 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part5 FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part6 Angle FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part6 Angle FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part8 (Part7 Angle MIR) FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:52 | IDW UPDATE: Checking reference: Part9 Angle FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part9 Angle FB-C.ipt)
+2026-01-15 15:49:52 | IDW UPDATE: FOUND mapping - Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:49:52 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:49:53 | IDW UPDATE: Saved MGY-200-DRD-09-02.idw (13 updated)
+2026-01-15 15:49:53 | IDW UPDATE (Inventor): Restored original settings
+2026-01-15 15:49:53 | STEP 10: Updating iProperties for copied documents
+2026-01-15 15:49:53 | IPROP: Starting iProperties update for 36 copied files
+2026-01-15 15:49:53 | IPROP: Updated iProperties for TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:49:57 | IPROP: ERROR saving TO DELETE - FLOODBOX TEST.iam: Object required

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventor Renamer - Technical Reference</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #e74c3c);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .copyright {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        h1 { color: #2c3e50; margin-top: 0; }
+        h2 { color: #e74c3c; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; }
+        h3 { color: #c0392b; }
+        .technical-block {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 5px solid #e74c3c;
+        }
+        .code-block {
+            background-color: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .api-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .warning {
+            background-color: #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #fdcb6e;
+            margin: 15px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>INVENTOR RENAMER</h1>
+            <p>Technical Reference</p>
+            <p>Version: September 2025</p>
+        </div>
+
+        <div class="copyright">
+            <strong>© 2025 Quintin. All Rights Reserved.</strong><br>
+            This software and documentation are proprietary and confidential.
+            Unauthorized reproduction or distribution is strictly prohibited.
+        </div>
+
+        <h2>🏗️ System Architecture</h2>
+
+        <div class="technical-block">
+            <h3>Core Components</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Purpose</th>
+                    <th>Input</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>Assembly_Renamer.vbs</td>
+                    <td>Heritage-based part renaming</td>
+                    <td>Open Inventor assembly</td>
+                    <td>Renamed parts + mapping file</td>
+                </tr>
+                <tr>
+                    <td>IDW_Reference_Updater.vbs</td>
+                    <td>Drawing reference updates</td>
+                    <td>Mapping file + IDW files</td>
+                    <td>Updated IDW drawings</td>
+                </tr>
+                <tr>
+                    <td>Registry_Manager.vbs</td>
+                    <td>Counter management</td>
+                    <td>User commands</td>
+                    <td>Registry state changes</td>
+                </tr>
+                <tr>
+                    <td>Title_Updater.vbs</td>
+                    <td>IDW title automation</td>
+                    <td>IDW files + assembly data</td>
+                    <td>Updated title blocks</td>
+                </tr>
+                <tr>
+                    <td>MAIN_LAUNCHER.bat</td>
+                    <td>Workflow orchestration</td>
+                    <td>User menu selection</td>
+                    <td>Script execution</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>🔧 Heritage Method Implementation</h2>
+
+        <div class="api-section">
+            <h3>Core Heritage Algorithm</h3>
+            <div class="code-block">
+' Heritage file creation - preserves design relationships
+Sub CreateHeritageFile(originalPath, newPath, groupName)
+    ' Open original part
+    Set partDoc = invApp.Documents.Open(originalPath, False)
+
+    ' Create heritage copy with new name
+    partDoc.SaveAs newPath, True  ' True = create heritage link
+
+    ' Close original (heritage copy remains)
+    partDoc.Close
+
+    LogMessage "HERITAGE: Created " & newPath & " from " & originalPath
+End Sub
+
+' Assembly reference updating
+Sub UpdateAssemblyReferences(assemblyDoc, originalPath, newPath)
+    For Each occ In assemblyDoc.ComponentDefinition.Occurrences
+        If occ.ReferencedFileDescriptor.FullFileName = originalPath Then
+            ' Replace reference to point to heritage file
+            occ.Replace newPath, True
+            LogMessage "ASSEMBLY: Updated reference " & originalPath & " → " & newPath
+        End If
+    Next
+End Sub
+            </div>
+        </div>
+
+        <h2>🤖 Part Classification Logic</h2>
+
+        <div class="technical-block">
+            <h3>Intelligent Grouping Algorithm</h3>
+            <table>
+                <tr>
+                    <th>Description Pattern</th>
+                    <th>Detection Logic</th>
+                    <th>Group Code</th>
+                    <th>Example Output</th>
+                </tr>
+                <tr>
+                    <td>"PL 20mm S355JR"</td>
+                    <td>PL + S355JR</td>
+                    <td>PL</td>
+                    <td>PLANT1-000-PL15</td>
+                </tr>
+                <tr>
+                    <td>"PL 10mm VRN400"</td>
+                    <td>PL + non-S355JR</td>
+                    <td>LPL</td>
+                    <td>PLANT1-000-LPL3</td>
+                </tr>
+                <tr>
+                    <td>"UB254x146x31"</td>
+                    <td>UB/UC prefix</td>
+                    <td>B</td>
+                    <td>PLANT1-000-B8</td>
+                </tr>
+                <tr>
+                    <td>"PFC180x70"</td>
+                    <td>PFC/TFC prefix</td>
+                    <td>CH</td>
+                    <td>PLANT1-000-CH2</td>
+                </tr>
+                <tr>
+                    <td>"L50x50x6"</td>
+                    <td>L prefix</td>
+                    <td>A</td>
+                    <td>PLANT1-000-A12</td>
+                </tr>
+                <tr>
+                    <td>"FL50x8"</td>
+                    <td>FL prefix</td>
+                    <td>FL</td>
+                    <td>PLANT1-000-FL2</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>📝 Title Automation System</h2>
+
+        <div class="technical-block">
+            <h3>Automatic Title Generation Algorithm</h3>
+            <p>The Title Automation system intelligently detects and formats IDW drawing titles with professional standards.</p>
+
+            <h4>Title Format Standards:</h4>
+            <table>
+                <tr>
+                    <th>Component Type</th>
+                    <th>Title Format</th>
+                    <th>Font Specifications</th>
+                </tr>
+                <tr>
+                    <td>Individual Parts</td>
+                    <td>PART-NAME<br>SCALE 1:5</td>
+                    <td>Part name: 3.5mm<br>Scale: 2.5mm</td>
+                </tr>
+                <tr>
+                    <td>Assemblies</td>
+                    <td>ASSEMBLY-NAME<br>7-OFF REQ'D<br>SCALE 1:20</td>
+                    <td>Assembly name: 3.5mm<br>Quantity/Scale: 2.5mm</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="api-section">
+            <h3>Base View Detection Algorithm</h3>
+            <div class="code-block">
+' Automatic base view detection and title formatting
+Function DetectBaseView(view)
+    ' Check if view is a base view (not projected, section, or detail)
+    If view.ViewType = kBaseDrawingViewType Then
+        DetectBaseView = True
+        ' Additional validation logic here
+    Else
+        DetectBaseView = False
+    End If
+End Function
+
+' Title formatting with quantity detection
+Sub FormatTitleBlock(baseView, assemblyDoc)
+    ' Get referenced model name
+    modelName = GetModelName(baseView)
+
+    ' Detect if part or assembly
+    If IsAssembly(baseView) Then
+        quantity = CalculateQuantity(assemblyDoc, modelName)
+        title = modelName & vbCrLf & quantity & "-OFF REQ'D" & vbCrLf & "SCALE " & GetScale(baseView)
+    Else
+        title = modelName & vbCrLf & "SCALE " & GetScale(baseView)
+    End If
+
+    ' Apply formatting with font sizes
+    ApplyTitleFormatting(baseView, title)
+End Sub
+            </div>
+        </div>
+
+        <div class="technical-block">
+            <h3>Multi-File Processing</h3>
+            <ul>
+                <li><strong>Batch Processing:</strong> Processes multiple IDW files automatically</li>
+                <li><strong>Assembly Integration:</strong> Reads main assembly for quantity calculations</li>
+                <li><strong>Error Recovery:</strong> Continues processing if individual files fail</li>
+                <li><strong>Logging:</strong> Detailed logs of all title updates</li>
+            </ul>
+        </div>
+
+        <h2>📁 File System Integration</h2>
+
+        <div class="api-section">
+            <h3>STEP_1_MAPPING.txt Format</h3>
+            <div class="code-block">
+# STEP 1 MAPPING FILE - Generated: 2025-09-29 14:30:15
+# Format: OriginalPath|NewPath|OriginalFile|NewFile|Group|Description
+
+D:\Project\Column-1\Part1.ipt|D:\Project\Column-1\PLANT1-000-PL1.ipt|Part1.ipt|PLANT1-000-PL1.ipt|PL|PL 20mm S355JR
+D:\Project\Beam-17\Part2.ipt|D:\Project\Beam-17\PLANT1-000-B1.ipt|Part2.ipt|PLANT1-000-B1.ipt|B|UB254x146x31
+            </div>
+
+            <h3>File Path Coordination</h3>
+            <ul>
+                <li><strong>Created by:</strong> Assembly_Renamer.vbs in root production folder</li>
+                <li><strong>Read by:</strong> IDW_Reference_Updater.vbs from root production folder</li>
+                <li><strong>Deleted by:</strong> Registry_Manager.vbs during clear operation</li>
+                <li><strong>Format:</strong> Pipe-separated values with full file paths</li>
+            </ul>
+        </div>
+
+        <h2>🗄️ Registry Database Schema</h2>
+
+        <div class="technical-block">
+            <h3>Windows Registry Structure</h3>
+            <p><strong>Location:</strong> <code>HKEY_CURRENT_USER\Software\InventorRenamer\</code></p>
+
+            <h4>Key Naming Convention:</h4>
+            <div class="code-block">
+[PREFIX][GROUP_CODE] = [COUNTER_VALUE]
+
+Examples:
+PLANT1-000-PL = 15    (Platework counter for PLANT1-000- prefix)
+PLANT1-000-B = 8      (Beam counter for PLANT1-000- prefix)
+NCRH01-000-CH = 3     (Channel counter for NCRH01-000- prefix)
+            </div>
+
+            <h4>Counter Management:</h4>
+            <ul>
+                <li><strong>Type:</strong> REG_DWORD (32-bit integer)</li>
+                <li><strong>Range:</strong> 1 to 999999</li>
+                <li><strong>Increment:</strong> +1 per part processed</li>
+                <li><strong>Persistence:</strong> Survives reboots and script executions</li>
+            </ul>
+        </div>
+
+        <h2>🔌 Inventor COM API Usage</h2>
+
+        <div class="api-section">
+            <h3>Critical API Calls</h3>
+            <div class="code-block">
+' Connect to running Inventor instance
+Set invApp = GetObject(, "Inventor.Application")
+
+' Open document without UI
+Set doc = invApp.Documents.Open(filePath, False)
+
+' Heritage file creation
+doc.SaveAs newPath, True  ' True = create heritage link
+
+' Assembly reference updating
+occurrence.Replace newPath, True
+
+' IDW reference updating (Design Assistant method)
+Set fd = view.ReferencedDocumentDescriptor
+fd.ReplaceReference originalPath, newPath
+
+' Part property access
+Set propertySet = partDoc.PropertySets.Item("Design Tracking Properties")
+Set descProp = propertySet.Item("Description")
+description = Trim(descProp.Value)
+            </div>
+        </div>
+
+        <h2>⚡ Performance Characteristics</h2>
+
+        <div class="technical-block">
+            <h3>Processing Benchmarks</h3>
+            <table>
+                <tr>
+                    <th>Assembly Size</th>
+                    <th>Part Count</th>
+                    <th>Step 1 Time</th>
+                    <th>Step 2 Time</th>
+                    <th>Memory Usage</th>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>1-50 parts</td>
+                    <td>30-60 seconds</td>
+                    <td>15-30 seconds</td>
+                    <td>10-20 MB</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td>51-200 parts</td>
+                    <td>2-5 minutes</td>
+                    <td>1-3 minutes</td>
+                    <td>20-50 MB</td>
+                </tr>
+                <tr>
+                    <td>Large</td>
+                    <td>201-500 parts</td>
+                    <td>5-15 minutes</td>
+                    <td>3-8 minutes</td>
+                    <td>50-100 MB</td>
+                </tr>
+                <tr>
+                    <td>Very Large</td>
+                    <td>500+ parts</td>
+                    <td>15-60 minutes</td>
+                    <td>8-30 minutes</td>
+                    <td>100-200 MB</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>⚠️ Error Handling</h2>
+
+        <div class="api-section">
+            <h3>Error Recovery Patterns</h3>
+            <div class="code-block">
+' File access error handling
+On Error Resume Next
+Set partDoc = invApp.Documents.Open(partPath, False)
+If Err.Number <> 0 Then
+    LogMessage "ERROR: Cannot open " & partPath & " - " & Err.Description
+    Err.Clear
+    On Error GoTo 0
+    Exit Sub
+End If
+On Error GoTo 0
+
+' Registry access with fallback
+On Error Resume Next
+currentValue = shell.RegRead(regPath & keyName)
+If Err.Number <> 0 Then
+    currentValue = 0  ' Start at 1 (will be incremented)
+    Err.Clear
+End If
+On Error GoTo 0
+            </div>
+        </div>
+
+        <h2>🔧 System Requirements</h2>
+
+        <div class="technical-block">
+            <h3>Software Dependencies</h3>
+            <ul>
+                <li><strong>Autodesk Inventor:</strong> 2018 or later (tested through 2024)</li>
+                <li><strong>Windows:</strong> 10/11 with VBScript support</li>
+                <li><strong>Permissions:</strong> Registry write access, file system write access</li>
+                <li><strong>Memory:</strong> 8GB+ RAM recommended for large assemblies</li>
+                <li><strong>Storage:</strong> 2x project size free space for heritage files</li>
+            </ul>
+
+            <h3>Network Considerations</h3>
+            <div class="warning">
+                <strong>⚠️ Performance Impact:</strong> Network drives add 50-100% processing time.
+                Copy project to local drive for optimal performance.
+            </div>
+        </div>
+
+        <h2>📋 Log File Format</h2>
+
+        <div class="api-section">
+            <h3>Log Entry Structure</h3>
+            <div class="code-block">
+2025-09-29 14:30:15 | [LEVEL] MESSAGE
+
+Log Levels:
+- INFO     General information
+- SUCCESS  Successful operations
+- WARNING  Non-critical issues
+- ERROR    Critical failures
+- MAPPING  Mapping file operations
+- ASSEMBLY Assembly processing
+- HERITAGE Heritage file creation
+- IDW      IDW processing
+
+Example Entries:
+2025-09-29 14:30:15 | INFO Starting Assembly Renamer
+2025-09-29 14:30:16 | SUCCESS Connected to Inventor instance
+2025-09-29 14:30:20 | HERITAGE Created PLANT1-000-PL1.ipt from Part1.ipt
+2025-09-29 14:30:25 | ASSEMBLY Updated reference Part1.ipt → PLANT1-000-PL1.ipt
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 Quintin. All Rights Reserved.</strong></p>
+            <p>Inventor Renamer - Technical Reference</p>
+        </div>
+    </div>
+</body>
+</html>

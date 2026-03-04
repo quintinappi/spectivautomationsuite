@@ -1,0 +1,1556 @@
+2026-01-23 08:38:45 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-23 08:38:45 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-23 08:41:09 | SUCCESS: Connected to existing Inventor instance
+2026-01-23 08:41:09 | STEP 1: Detecting open assembly and analyzing components
+2026-01-23 08:41:09 | DETECTED: Document type: 12291
+2026-01-23 08:41:09 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-23 08:41:09 | DETECTED: Active assembly - Static Screen Wider.iam
+2026-01-23 08:41:09 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Static Screen Wider.iam
+2026-01-23 08:41:10 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-23 08:41:10 | CONFIRMED: 5 occurrences to process
+2026-01-23 08:41:10 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen
+2026-01-23 08:41:10 | STEP 0: Selecting mapping file location FIRST
+2026-01-23 08:41:10 | MAPPING_SELECT: Prompting user for mapping file location
+2026-01-23 08:41:23 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\STEP_1_MAPPING.txt
+2026-01-23 08:41:23 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-01-23 08:41:25 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\STEP_1_MAPPING.txt
+2026-01-23 08:41:25 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-01-23 08:41:25 | AUDIT: === START AUDIT LOG CREATION ===
+2026-01-23 08:41:25 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-01-23 08:41:25 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen
+2026-01-23 08:41:25 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\STEP_0_AUDIT.txt
+2026-01-23 08:41:25 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-01-23 08:41:25 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\STEP_0_AUDIT.txt
+2026-01-23 08:41:25 | AUDIT: === END AUDIT LOG CREATION ===
+2026-01-23 08:41:25 | STEP 2: Flattening hierarchy and grouping components
+2026-01-23 08:41:25 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-23 08:41:25 | ANALYZE: Processing assembly - Static Screen Wider.iam (Level: ROOT)
+2026-01-23 08:41:25 | ANALYZE: Found 5 occurrences in Static Screen Wider.iam
+2026-01-23 08:41:25 | ANALYZE: RECURSING into sub-assembly - Static Screen Top Wider.iam
+2026-01-23 08:41:25 | ANALYZE: Processing assembly - Static Screen Top Wider.iam (Level: ROOT>Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: Found 90 occurrences in Static Screen Top Wider.iam
+2026-01-23 08:41:25 | ANALYZE: PART - Part1 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: Created new group - PL
+2026-01-23 08:41:25 | ANALYZE: PART - Part2 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-TOP.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part3 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part4 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 SS-TOP.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part5 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part6 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part7 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part8 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part9 SS-TOP Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part10 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part11 60X60X6 SS-TOP Wider.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: Created new group - A
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part11 60X60X6 SS-TOP Wider.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part12 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-TOP.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part13 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part13 60X60X6 SS-TOP.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part14 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: DUPLICATE PART SKIPPED - Part14 60X60X6 SS-TOP.ipt (already processed)
+2026-01-23 08:41:25 | ANALYZE: PART - Part15 SS-TOP.ipt -> Description: PL 8mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: PART - Part19 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:25 | ANALYZE: Created new group - FL
+2026-01-23 08:41:25 | ANALYZE: PART - Part23 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: PART - Part24 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Part16 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: PART - Part17 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: PART - Part18 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part18 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part18 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Part20 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Lug SS-TOP.ipt -> Description: PL 20mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Part22 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: PART - Part21 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Part25 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: PART - Part26 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:26 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener SS-TOP.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part16 SS-TOP.ipt -> Description: PL 8mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part16 SS-TOP.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part21 SS-MID.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Top Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part16 SS-TOP.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part16 SS-TOP.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part21 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: RECURSING into sub-assembly - Static Screen Middle Wider.iam
+2026-01-23 08:41:27 | ANALYZE: Processing assembly - Static Screen Middle Wider.iam (Level: ROOT>Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: Found 114 occurrences in Static Screen Middle Wider.iam
+2026-01-23 08:41:27 | ANALYZE: PART - Part47 SS-MID.ipt -> Description: PL 8mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part1 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part2 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part3 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part4 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part5 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part6 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part6 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part7 60X60X6 SS-MID Wider.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part8 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part8 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part9 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part10 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part11 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part12 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part15 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part19 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part19 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part20 60X60X6 SS-MID Wider.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part20 60X60X6 SS-MID Wider.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: PART - Part23 SS-MID W.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part24 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: PART - Part42 Liner SS-MID.ipt -> Description: LPL 10mm VRN400 -> Group: OTHER (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:27 | ANALYZE: Created new group - OTHER
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Liner SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Liner SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Liner SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Liner SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Liner SS-MID.ipt (already processed)
+2026-01-23 08:41:27 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-23 08:41:28 | ANALYZE: PART - Part33 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part34 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part35 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part36 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part37 SS-MID Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part38 Pipe SS-MID.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: P (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: Created new group - P
+2026-01-23 08:41:28 | ANALYZE: PART - Part39 Flange SS-MID.ipt -> Description: FLANGE - 200NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: Created new group - FLG
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part23 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: PART - Part25 SS-MID W.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part40 SS-MID W.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part25 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part40 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part40 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part40 SS-MID W.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: PART - Part29 SS-MID RIB.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: PART - Part30 SS-MID RIB.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID RIB.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part15 60X60X6 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: PART - Part32 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part21 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: PART - Part22 SS-MID.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part21 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-01-23 08:41:28 | ANALYZE: DUPLICATE PART SKIPPED - Part21 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part45 SS-MID.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part45 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part28 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part27 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part46 SS-MID.ipt -> Description: PL 8mm S355JR -> Group: PL (from Static Screen Middle Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part46 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part47 SS-MID.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: RECURSING into sub-assembly - Static Screen Bottom Wider.iam
+2026-01-23 08:41:29 | ANALYZE: Processing assembly - Static Screen Bottom Wider.iam (Level: ROOT>Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: Found 38 occurrences in Static Screen Bottom Wider.iam
+2026-01-23 08:41:29 | ANALYZE: PART - Part1 SS-BOT Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part2 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part3 SS-BOT Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part4 SS-BOT Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part5 SS-BOT Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part6 SS-BOT Wider.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part7 60X60X6 SS-BOT Wider.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-BOT Wider.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part8 60X60X6 SS-BOT.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part8 60X60X6 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: PART - Part9 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part10 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part11 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part12 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: PART - Part13 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-01-23 08:41:29 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Lug SS-BOT.ipt -> Description: PL 20mm S355JR -> Group: PL (from Static Screen Bottom Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-BOT.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: RECURSING into sub-assembly - Screen Deck Frame Wider.iam
+2026-01-23 08:41:30 | ANALYZE: Processing assembly - Screen Deck Frame Wider.iam (Level: ROOT>Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: Found 130 occurrences in Screen Deck Frame Wider.iam
+2026-01-23 08:41:30 | ANALYZE: PART - Part1 70x70x8 SS-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part1 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Part2 70x70x8 SS-SDF Wider.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part2 70x70x8 SS-SDF Wider.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Part3 70x70x8 SS-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Part4 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part4 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Part5 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: PART - Screen Panel 305x305.ipt -> Description: SCREEN PANEL 305x305 - POLY WEDGE SWF -> Group: OTHER (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:30 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:31 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: PART - Part6 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: PART - Part7 50X50X6 SS-SDF.ipt -> Description: L50x50x6 -> Group: A (from Screen Deck Frame Wider.iam)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-01-23 08:41:32 | ANALYZE: RECURSING into sub-assembly - Static Screen Launder.iam
+2026-01-23 08:41:32 | ANALYZE: Processing assembly - Static Screen Launder.iam (Level: ROOT>Static Screen Launder.iam)
+2026-01-23 08:41:33 | ANALYZE: Found 12 occurrences in Static Screen Launder.iam
+2026-01-23 08:41:33 | ANALYZE: PART - Part1 SS-LAU.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Launder.iam)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: PART - Part2 Angle SS-LAU.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Launder.iam)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Angle SS-LAU.ipt (already processed)
+2026-01-23 08:41:33 | ANALYZE: Recursive processing completed - Total unique parts processed: 90
+2026-01-23 08:41:33 | ANALYZE: Created 6 component groups
+2026-01-23 08:41:33 | DEBUG GROUP: 'PL' contains 44 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part1 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part2 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part3 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part4 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part5 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part6 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part7 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part8 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part9 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part10 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part15 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Lug SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part16 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part21 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part47 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part1 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part2 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part3 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part4 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part5 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part9 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part10 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part11 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part23 SS-MID W.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part24 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part33 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part34 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part35 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part36 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part37 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part22 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part45 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part46 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part1 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part2 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part3 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part4 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part5 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part6 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Lug SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part4 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part5 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part6 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\Part1 SS-LAU.ipt
+2026-01-23 08:41:33 | DEBUG GROUP: 'A' contains 18 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part11 60X60X6 SS-TOP Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part12 60X60X6 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part13 60X60X6 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part14 60X60X6 SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part6 60X60X6 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part7 60X60X6 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part8 60X60X6 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part12 60X60X6 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part15 60X60X6 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part19 60X60X6 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part20 60X60X6 SS-MID Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part7 60X60X6 SS-BOT Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part8 60X60X6 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part1 70x70x8 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part2 70x70x8 SS-SDF Wider.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part3 70x70x8 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part7 50X50X6 SS-SDF.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\Part2 Angle SS-LAU.ipt
+2026-01-23 08:41:33 | DEBUG GROUP: 'FL' contains 24 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part19 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part23 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part24 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part16 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part17 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part18 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part20 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part22 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part21 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part25 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part26 Stiffener SS-TOP.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part25 SS-MID W.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part40 SS-MID W.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part25 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part29 SS-MID RIB.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part30 SS-MID RIB.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part32 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part28 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part27 SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part9 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part10 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part11 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part12 SS-BOT.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part13 SS-BOT.ipt
+2026-01-23 08:41:33 | DEBUG GROUP: 'OTHER' contains 2 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part42 Liner SS-MID.ipt
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Screen Panel 305x305.ipt
+2026-01-23 08:41:33 | DEBUG GROUP: 'P' contains 1 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part38 Pipe SS-MID.ipt
+2026-01-23 08:41:33 | DEBUG GROUP: 'FLG' contains 1 components:
+2026-01-23 08:41:33 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part39 Flange SS-MID.ipt
+2026-01-23 08:41:33 | STEP 3: Getting plant section naming convention
+2026-01-23 08:41:33 | PLANT: Getting plant section naming convention from user
+2026-01-23 08:41:37 | PLANT: Using custom naming convention: N1SCR05-727-
+2026-01-23 08:41:37 | REGISTRY: Prefix does not exist, starting fresh
+2026-01-23 08:41:38 | STEP 4: Showing component groups summary
+2026-01-23 08:41:38 | SUMMARY: Showing component groups to user
+2026-01-23 08:41:40 | SUMMARY: User approved component groups
+2026-01-23 08:41:40 | STEP 5: Getting user naming schemes for component groups
+2026-01-23 08:41:40 | INPUT: Getting user naming schemes for 6 groups
+2026-01-23 08:41:42 | INPUT: Group 'PL' -> Scheme: N1SCR05-727-PL{N}
+2026-01-23 08:41:43 | INPUT: Group 'A' -> Scheme: N1SCR05-727-A{N}
+2026-01-23 08:41:44 | INPUT: Group 'FL' -> Scheme: N1SCR05-727-FL{N}
+2026-01-23 08:41:52 | INPUT: Group 'OTHER' -> Scheme: N1SCR05-727-PART{N}
+2026-01-23 08:41:54 | INPUT: Group 'P' -> Scheme: N1SCR05-727-P{N}
+2026-01-23 08:41:55 | INPUT: Group 'FLG' -> Scheme: N1SCR05-727-FLG{N}
+2026-01-23 08:41:55 | STEP 6: Creating heritage-based copies with user naming
+2026-01-23 08:41:55 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-23 08:41:55 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-23 08:41:55 | HERITAGE: Starting fresh - not loading existing counters
+2026-01-23 08:41:55 | EXTRACT: Processing naming scheme: N1SCR05-727-PL{N}
+2026-01-23 08:41:55 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:41:55 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-PL'
+2026-01-23 08:41:55 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR05-727-PL' not found)
+2026-01-23 08:41:55 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:41:55 | HERITAGE: Processing group 'PL' with scheme: N1SCR05-727-PL{N}
+2026-01-23 08:41:55 | HERITAGE: Part1 SS-TOP Wider.ipt -> N1SCR05-727-PL1.ipt
+2026-01-23 08:41:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part1 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL1.ipt
+2026-01-23 08:41:55 | HERITAGE: Creating new file: N1SCR05-727-PL1.ipt
+2026-01-23 08:41:55 | HERITAGE: SUCCESS - Created N1SCR05-727-PL1.ipt
+2026-01-23 08:41:55 | HERITAGE: Part2 SS-TOP.ipt -> N1SCR05-727-PL2.ipt
+2026-01-23 08:41:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part2 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL2.ipt
+2026-01-23 08:41:55 | HERITAGE: Creating new file: N1SCR05-727-PL2.ipt
+2026-01-23 08:41:55 | HERITAGE: SUCCESS - Created N1SCR05-727-PL2.ipt
+2026-01-23 08:41:56 | HERITAGE: Part3 SS-TOP Wider.ipt -> N1SCR05-727-PL3.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part3 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL3.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL3.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL3.ipt
+2026-01-23 08:41:56 | HERITAGE: Part4 SS-TOP.ipt -> N1SCR05-727-PL4.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part4 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL4.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL4.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL4.ipt
+2026-01-23 08:41:56 | HERITAGE: Part5 SS-TOP Wider.ipt -> N1SCR05-727-PL5.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part5 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL5.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL5.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL5.ipt
+2026-01-23 08:41:56 | HERITAGE: Part6 SS-TOP Wider.ipt -> N1SCR05-727-PL6.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part6 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL6.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL6.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL6.ipt
+2026-01-23 08:41:56 | HERITAGE: Part7 SS-TOP Wider.ipt -> N1SCR05-727-PL7.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part7 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL7.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL7.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL7.ipt
+2026-01-23 08:41:56 | HERITAGE: Part8 SS-TOP Wider.ipt -> N1SCR05-727-PL8.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part8 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL8.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL8.ipt
+2026-01-23 08:41:56 | HERITAGE: SUCCESS - Created N1SCR05-727-PL8.ipt
+2026-01-23 08:41:56 | HERITAGE: Part9 SS-TOP Wider.ipt -> N1SCR05-727-PL9.ipt
+2026-01-23 08:41:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part9 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL9.ipt
+2026-01-23 08:41:56 | HERITAGE: Creating new file: N1SCR05-727-PL9.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL9.ipt
+2026-01-23 08:41:57 | HERITAGE: Part10 SS-TOP.ipt -> N1SCR05-727-PL10.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part10 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL10.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL10.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL10.ipt
+2026-01-23 08:41:57 | HERITAGE: Part15 SS-TOP.ipt -> N1SCR05-727-PL11.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part15 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL11.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL11.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL11.ipt
+2026-01-23 08:41:57 | HERITAGE: Lug SS-TOP.ipt -> N1SCR05-727-PL12.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Lug SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL12.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL12.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL12.ipt
+2026-01-23 08:41:57 | HERITAGE: Part16 SS-TOP.ipt -> N1SCR05-727-PL13.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part16 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-PL13.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL13.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL13.ipt
+2026-01-23 08:41:57 | HERITAGE: Part21 SS-MID.ipt -> N1SCR05-727-PL14.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part21 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL14.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL14.ipt
+2026-01-23 08:41:57 | HERITAGE: SUCCESS - Created N1SCR05-727-PL14.ipt
+2026-01-23 08:41:57 | HERITAGE: Part47 SS-MID.ipt -> N1SCR05-727-PL15.ipt
+2026-01-23 08:41:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part47 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL15.ipt
+2026-01-23 08:41:57 | HERITAGE: Creating new file: N1SCR05-727-PL15.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL15.ipt
+2026-01-23 08:41:58 | HERITAGE: Part1 SS-MID Wider.ipt -> N1SCR05-727-PL16.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part1 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL16.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL16.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL16.ipt
+2026-01-23 08:41:58 | HERITAGE: Part2 SS-MID Wider.ipt -> N1SCR05-727-PL17.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part2 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\N1SCR05-727-PL17.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL17.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL17.ipt
+2026-01-23 08:41:58 | HERITAGE: Part3 SS-MID Wider.ipt -> N1SCR05-727-PL18.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part3 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\N1SCR05-727-PL18.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL18.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL18.ipt
+2026-01-23 08:41:58 | HERITAGE: Part4 SS-MID Wider.ipt -> N1SCR05-727-PL19.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part4 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\N1SCR05-727-PL19.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL19.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL19.ipt
+2026-01-23 08:41:58 | HERITAGE: Part5 SS-MID Wider.ipt -> N1SCR05-727-PL20.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part5 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL20.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL20.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL20.ipt
+2026-01-23 08:41:58 | HERITAGE: Part9 SS-MID.ipt -> N1SCR05-727-PL21.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part9 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL21.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL21.ipt
+2026-01-23 08:41:58 | HERITAGE: SUCCESS - Created N1SCR05-727-PL21.ipt
+2026-01-23 08:41:58 | HERITAGE: Part10 SS-MID Wider.ipt -> N1SCR05-727-PL22.ipt
+2026-01-23 08:41:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part10 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL22.ipt
+2026-01-23 08:41:58 | HERITAGE: Creating new file: N1SCR05-727-PL22.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL22.ipt
+2026-01-23 08:41:59 | HERITAGE: Part11 SS-MID Wider.ipt -> N1SCR05-727-PL23.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part11 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\N1SCR05-727-PL23.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL23.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL23.ipt
+2026-01-23 08:41:59 | HERITAGE: Part23 SS-MID W.ipt -> N1SCR05-727-PL24.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part23 SS-MID W.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL24.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL24.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL24.ipt
+2026-01-23 08:41:59 | HERITAGE: Part24 SS-MID Wider.ipt -> N1SCR05-727-PL25.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part24 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\N1SCR05-727-PL25.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL25.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL25.ipt
+2026-01-23 08:41:59 | HERITAGE: Part33 SS-MID Wider.ipt -> N1SCR05-727-PL26.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part33 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL26.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL26.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL26.ipt
+2026-01-23 08:41:59 | HERITAGE: Part34 SS-MID Wider.ipt -> N1SCR05-727-PL27.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part34 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL27.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL27.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL27.ipt
+2026-01-23 08:41:59 | HERITAGE: Part35 SS-MID Wider.ipt -> N1SCR05-727-PL28.ipt
+2026-01-23 08:41:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part35 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL28.ipt
+2026-01-23 08:41:59 | HERITAGE: Creating new file: N1SCR05-727-PL28.ipt
+2026-01-23 08:41:59 | HERITAGE: SUCCESS - Created N1SCR05-727-PL28.ipt
+2026-01-23 08:42:00 | HERITAGE: Part36 SS-MID Wider.ipt -> N1SCR05-727-PL29.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part36 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL29.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL29.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL29.ipt
+2026-01-23 08:42:00 | HERITAGE: Part37 SS-MID Wider.ipt -> N1SCR05-727-PL30.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part37 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL30.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL30.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL30.ipt
+2026-01-23 08:42:00 | HERITAGE: Part22 SS-MID.ipt -> N1SCR05-727-PL31.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part22 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL31.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL31.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL31.ipt
+2026-01-23 08:42:00 | HERITAGE: Part45 SS-MID.ipt -> N1SCR05-727-PL32.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part45 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL32.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL32.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL32.ipt
+2026-01-23 08:42:00 | HERITAGE: Part46 SS-MID.ipt -> N1SCR05-727-PL33.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part46 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PL33.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL33.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL33.ipt
+2026-01-23 08:42:00 | HERITAGE: Part1 SS-BOT Wider.ipt -> N1SCR05-727-PL34.ipt
+2026-01-23 08:42:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part1 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL34.ipt
+2026-01-23 08:42:00 | HERITAGE: Creating new file: N1SCR05-727-PL34.ipt
+2026-01-23 08:42:00 | HERITAGE: SUCCESS - Created N1SCR05-727-PL34.ipt
+2026-01-23 08:42:01 | HERITAGE: Part2 SS-BOT.ipt -> N1SCR05-727-PL35.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part2 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL35.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL35.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL35.ipt
+2026-01-23 08:42:01 | HERITAGE: Part3 SS-BOT Wider.ipt -> N1SCR05-727-PL36.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part3 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL36.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL36.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL36.ipt
+2026-01-23 08:42:01 | HERITAGE: Part4 SS-BOT Wider.ipt -> N1SCR05-727-PL37.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part4 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL37.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL37.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL37.ipt
+2026-01-23 08:42:01 | HERITAGE: Part5 SS-BOT Wider.ipt -> N1SCR05-727-PL38.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part5 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL38.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL38.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL38.ipt
+2026-01-23 08:42:01 | HERITAGE: Part6 SS-BOT Wider.ipt -> N1SCR05-727-PL39.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part6 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL39.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL39.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL39.ipt
+2026-01-23 08:42:01 | HERITAGE: Lug SS-BOT.ipt -> N1SCR05-727-PL40.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Lug SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-PL40.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL40.ipt
+2026-01-23 08:42:01 | HERITAGE: SUCCESS - Created N1SCR05-727-PL40.ipt
+2026-01-23 08:42:01 | HERITAGE: Part4 SS-SDF.ipt -> N1SCR05-727-PL41.ipt
+2026-01-23 08:42:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part4 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-PL41.ipt
+2026-01-23 08:42:01 | HERITAGE: Creating new file: N1SCR05-727-PL41.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-PL41.ipt
+2026-01-23 08:42:02 | HERITAGE: Part5 SS-SDF.ipt -> N1SCR05-727-PL42.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part5 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-PL42.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-PL42.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-PL42.ipt
+2026-01-23 08:42:02 | HERITAGE: Part6 SS-SDF.ipt -> N1SCR05-727-PL43.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part6 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-PL43.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-PL43.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-PL43.ipt
+2026-01-23 08:42:02 | HERITAGE: Part1 SS-LAU.ipt -> N1SCR05-727-PL44.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\Part1 SS-LAU.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\N1SCR05-727-PL44.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-PL44.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-PL44.ipt
+2026-01-23 08:42:02 | REGISTRY: Saved N1SCR05-727-PL = 44
+2026-01-23 08:42:02 | EXTRACT: Processing naming scheme: N1SCR05-727-A{N}
+2026-01-23 08:42:02 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:42:02 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-A'
+2026-01-23 08:42:02 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR05-727-A' not found)
+2026-01-23 08:42:02 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:42:02 | HERITAGE: Processing group 'A' with scheme: N1SCR05-727-A{N}
+2026-01-23 08:42:02 | HERITAGE: Part11 60X60X6 SS-TOP Wider.ipt -> N1SCR05-727-A1.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part11 60X60X6 SS-TOP Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-A1.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-A1.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-A1.ipt
+2026-01-23 08:42:02 | HERITAGE: Part12 60X60X6 SS-TOP.ipt -> N1SCR05-727-A2.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part12 60X60X6 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-A2.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-A2.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-A2.ipt
+2026-01-23 08:42:02 | HERITAGE: Part13 60X60X6 SS-TOP.ipt -> N1SCR05-727-A3.ipt
+2026-01-23 08:42:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part13 60X60X6 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-A3.ipt
+2026-01-23 08:42:02 | HERITAGE: Creating new file: N1SCR05-727-A3.ipt
+2026-01-23 08:42:02 | HERITAGE: SUCCESS - Created N1SCR05-727-A3.ipt
+2026-01-23 08:42:03 | HERITAGE: Part14 60X60X6 SS-TOP.ipt -> N1SCR05-727-A4.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part14 60X60X6 SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-A4.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A4.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A4.ipt
+2026-01-23 08:42:03 | HERITAGE: Part6 60X60X6 SS-MID.ipt -> N1SCR05-727-A5.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part6 60X60X6 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A5.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A5.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A5.ipt
+2026-01-23 08:42:03 | HERITAGE: Part7 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A6.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\Part7 60X60X6 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle Wihtout Bleed\N1SCR05-727-A6.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A6.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A6.ipt
+2026-01-23 08:42:03 | HERITAGE: Part8 60X60X6 SS-MID.ipt -> N1SCR05-727-A7.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part8 60X60X6 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A7.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A7.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A7.ipt
+2026-01-23 08:42:03 | HERITAGE: Part12 60X60X6 SS-MID.ipt -> N1SCR05-727-A8.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part12 60X60X6 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A8.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A8.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A8.ipt
+2026-01-23 08:42:03 | HERITAGE: Part15 60X60X6 SS-MID.ipt -> N1SCR05-727-A9.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part15 60X60X6 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A9.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A9.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A9.ipt
+2026-01-23 08:42:03 | HERITAGE: Part19 60X60X6 SS-MID.ipt -> N1SCR05-727-A10.ipt
+2026-01-23 08:42:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part19 60X60X6 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A10.ipt
+2026-01-23 08:42:03 | HERITAGE: Creating new file: N1SCR05-727-A10.ipt
+2026-01-23 08:42:03 | HERITAGE: SUCCESS - Created N1SCR05-727-A10.ipt
+2026-01-23 08:42:04 | HERITAGE: Part20 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A11.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part20 60X60X6 SS-MID Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-A11.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A11.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A11.ipt
+2026-01-23 08:42:04 | HERITAGE: Part7 60X60X6 SS-BOT Wider.ipt -> N1SCR05-727-A12.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part7 60X60X6 SS-BOT Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-A12.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A12.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A12.ipt
+2026-01-23 08:42:04 | HERITAGE: Part8 60X60X6 SS-BOT.ipt -> N1SCR05-727-A13.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part8 60X60X6 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-A13.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A13.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A13.ipt
+2026-01-23 08:42:04 | HERITAGE: Part1 70x70x8 SS-SDF.ipt -> N1SCR05-727-A14.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part1 70x70x8 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-A14.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A14.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A14.ipt
+2026-01-23 08:42:04 | HERITAGE: Part2 70x70x8 SS-SDF Wider.ipt -> N1SCR05-727-A15.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part2 70x70x8 SS-SDF Wider.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-A15.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A15.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A15.ipt
+2026-01-23 08:42:04 | HERITAGE: Part3 70x70x8 SS-SDF.ipt -> N1SCR05-727-A16.ipt
+2026-01-23 08:42:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part3 70x70x8 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-A16.ipt
+2026-01-23 08:42:04 | HERITAGE: Creating new file: N1SCR05-727-A16.ipt
+2026-01-23 08:42:04 | HERITAGE: SUCCESS - Created N1SCR05-727-A16.ipt
+2026-01-23 08:42:05 | HERITAGE: Part7 50X50X6 SS-SDF.ipt -> N1SCR05-727-A17.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Part7 50X50X6 SS-SDF.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-A17.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-A17.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-A17.ipt
+2026-01-23 08:42:05 | HERITAGE: Part2 Angle SS-LAU.ipt -> N1SCR05-727-A18.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\Part2 Angle SS-LAU.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Launder\N1SCR05-727-A18.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-A18.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-A18.ipt
+2026-01-23 08:42:05 | REGISTRY: Saved N1SCR05-727-A = 18
+2026-01-23 08:42:05 | EXTRACT: Processing naming scheme: N1SCR05-727-FL{N}
+2026-01-23 08:42:05 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:42:05 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-FL'
+2026-01-23 08:42:05 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR05-727-FL' not found)
+2026-01-23 08:42:05 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:42:05 | HERITAGE: Processing group 'FL' with scheme: N1SCR05-727-FL{N}
+2026-01-23 08:42:05 | HERITAGE: Part19 Stiffener SS-TOP.ipt -> N1SCR05-727-FL1.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part19 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL1.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-FL1.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-FL1.ipt
+2026-01-23 08:42:05 | HERITAGE: Part23 Stiffener SS-TOP.ipt -> N1SCR05-727-FL2.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part23 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL2.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-FL2.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-FL2.ipt
+2026-01-23 08:42:05 | HERITAGE: Part24 Stiffener SS-TOP.ipt -> N1SCR05-727-FL3.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part24 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL3.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-FL3.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-FL3.ipt
+2026-01-23 08:42:05 | HERITAGE: Part16 Stiffener SS-TOP.ipt -> N1SCR05-727-FL4.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part16 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL4.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-FL4.ipt
+2026-01-23 08:42:05 | HERITAGE: SUCCESS - Created N1SCR05-727-FL4.ipt
+2026-01-23 08:42:05 | HERITAGE: Part17 Stiffener SS-TOP.ipt -> N1SCR05-727-FL5.ipt
+2026-01-23 08:42:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part17 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL5.ipt
+2026-01-23 08:42:05 | HERITAGE: Creating new file: N1SCR05-727-FL5.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL5.ipt
+2026-01-23 08:42:06 | HERITAGE: Part18 Stiffener SS-TOP.ipt -> N1SCR05-727-FL6.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part18 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL6.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL6.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL6.ipt
+2026-01-23 08:42:06 | HERITAGE: Part20 Stiffener SS-TOP.ipt -> N1SCR05-727-FL7.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part20 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL7.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL7.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL7.ipt
+2026-01-23 08:42:06 | HERITAGE: Part22 Stiffener SS-TOP.ipt -> N1SCR05-727-FL8.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part22 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL8.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL8.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL8.ipt
+2026-01-23 08:42:06 | HERITAGE: Part21 Stiffener SS-TOP.ipt -> N1SCR05-727-FL9.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part21 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL9.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL9.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL9.ipt
+2026-01-23 08:42:06 | HERITAGE: Part25 Stiffener SS-TOP.ipt -> N1SCR05-727-FL10.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part25 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL10.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL10.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL10.ipt
+2026-01-23 08:42:06 | HERITAGE: Part26 Stiffener SS-TOP.ipt -> N1SCR05-727-FL11.ipt
+2026-01-23 08:42:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\Part26 Stiffener SS-TOP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Top\N1SCR05-727-FL11.ipt
+2026-01-23 08:42:06 | HERITAGE: Creating new file: N1SCR05-727-FL11.ipt
+2026-01-23 08:42:06 | HERITAGE: SUCCESS - Created N1SCR05-727-FL11.ipt
+2026-01-23 08:42:07 | HERITAGE: Part25 SS-MID W.ipt -> N1SCR05-727-FL12.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part25 SS-MID W.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL12.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL12.ipt
+2026-01-23 08:42:07 | HERITAGE: SUCCESS - Created N1SCR05-727-FL12.ipt
+2026-01-23 08:42:07 | HERITAGE: Part40 SS-MID W.ipt -> N1SCR05-727-FL13.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part40 SS-MID W.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL13.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL13.ipt
+2026-01-23 08:42:07 | HERITAGE: SUCCESS - Created N1SCR05-727-FL13.ipt
+2026-01-23 08:42:07 | HERITAGE: Part25 SS-MID.ipt -> N1SCR05-727-FL14.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part25 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL14.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL14.ipt
+2026-01-23 08:42:07 | HERITAGE: SUCCESS - Created N1SCR05-727-FL14.ipt
+2026-01-23 08:42:07 | HERITAGE: Part29 SS-MID RIB.ipt -> N1SCR05-727-FL15.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part29 SS-MID RIB.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\N1SCR05-727-FL15.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL15.ipt
+2026-01-23 08:42:07 | HERITAGE: SUCCESS - Created N1SCR05-727-FL15.ipt
+2026-01-23 08:42:07 | HERITAGE: Part30 SS-MID RIB.ipt -> N1SCR05-727-FL16.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Part30 SS-MID RIB.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\N1SCR05-727-FL16.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL16.ipt
+2026-01-23 08:42:07 | HERITAGE: SUCCESS - Created N1SCR05-727-FL16.ipt
+2026-01-23 08:42:07 | HERITAGE: Part32 SS-MID.ipt -> N1SCR05-727-FL17.ipt
+2026-01-23 08:42:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part32 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL17.ipt
+2026-01-23 08:42:07 | HERITAGE: Creating new file: N1SCR05-727-FL17.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL17.ipt
+2026-01-23 08:42:08 | HERITAGE: Part28 SS-MID.ipt -> N1SCR05-727-FL18.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part28 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL18.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL18.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL18.ipt
+2026-01-23 08:42:08 | HERITAGE: Part27 SS-MID.ipt -> N1SCR05-727-FL19.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part27 SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FL19.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL19.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL19.ipt
+2026-01-23 08:42:08 | HERITAGE: Part9 SS-BOT.ipt -> N1SCR05-727-FL20.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part9 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-FL20.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL20.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL20.ipt
+2026-01-23 08:42:08 | HERITAGE: Part10 SS-BOT.ipt -> N1SCR05-727-FL21.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part10 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-FL21.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL21.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL21.ipt
+2026-01-23 08:42:08 | HERITAGE: Part11 SS-BOT.ipt -> N1SCR05-727-FL22.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part11 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-FL22.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL22.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL22.ipt
+2026-01-23 08:42:08 | HERITAGE: Part12 SS-BOT.ipt -> N1SCR05-727-FL23.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part12 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-FL23.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL23.ipt
+2026-01-23 08:42:08 | HERITAGE: SUCCESS - Created N1SCR05-727-FL23.ipt
+2026-01-23 08:42:08 | HERITAGE: Part13 SS-BOT.ipt -> N1SCR05-727-FL24.ipt
+2026-01-23 08:42:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\Part13 SS-BOT.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Bottom\N1SCR05-727-FL24.ipt
+2026-01-23 08:42:08 | HERITAGE: Creating new file: N1SCR05-727-FL24.ipt
+2026-01-23 08:42:09 | HERITAGE: SUCCESS - Created N1SCR05-727-FL24.ipt
+2026-01-23 08:42:09 | REGISTRY: Saved N1SCR05-727-FL = 24
+2026-01-23 08:42:09 | EXTRACT: Processing naming scheme: N1SCR05-727-PART{N}
+2026-01-23 08:42:09 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:42:09 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-OTHER'
+2026-01-23 08:42:09 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'N1SCR05-727-OTHER' not found)
+2026-01-23 08:42:09 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:42:09 | HERITAGE: Processing group 'OTHER' with scheme: N1SCR05-727-PART{N}
+2026-01-23 08:42:09 | HERITAGE: Part42 Liner SS-MID.ipt -> N1SCR05-727-PART1.ipt
+2026-01-23 08:42:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part42 Liner SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-PART1.ipt
+2026-01-23 08:42:09 | HERITAGE: Creating new file: N1SCR05-727-PART1.ipt
+2026-01-23 08:42:09 | HERITAGE: SUCCESS - Created N1SCR05-727-PART1.ipt
+2026-01-23 08:42:09 | HERITAGE: Screen Panel 305x305.ipt -> N1SCR05-727-PART2.ipt
+2026-01-23 08:42:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\Screen Panel 305x305.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Screen Deck Frame\N1SCR05-727-PART2.ipt
+2026-01-23 08:42:09 | HERITAGE: Creating new file: N1SCR05-727-PART2.ipt
+2026-01-23 08:42:09 | HERITAGE: SUCCESS - Created N1SCR05-727-PART2.ipt
+2026-01-23 08:42:09 | REGISTRY: Saved N1SCR05-727-OTHER = 2
+2026-01-23 08:42:09 | EXTRACT: Processing naming scheme: N1SCR05-727-P{N}
+2026-01-23 08:42:09 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:42:09 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-P'
+2026-01-23 08:42:09 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR05-727-P' not found)
+2026-01-23 08:42:09 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:42:09 | HERITAGE: Processing group 'P' with scheme: N1SCR05-727-P{N}
+2026-01-23 08:42:09 | HERITAGE: Part38 Pipe SS-MID.ipt -> N1SCR05-727-P1.ipt
+2026-01-23 08:42:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part38 Pipe SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-P1.ipt
+2026-01-23 08:42:09 | HERITAGE: Creating new file: N1SCR05-727-P1.ipt
+2026-01-23 08:42:09 | HERITAGE: SUCCESS - Created N1SCR05-727-P1.ipt
+2026-01-23 08:42:09 | REGISTRY: Saved N1SCR05-727-P = 1
+2026-01-23 08:42:09 | EXTRACT: Processing naming scheme: N1SCR05-727-FLG{N}
+2026-01-23 08:42:09 | EXTRACT: Extracted prefix: 'N1SCR05-727-'
+2026-01-23 08:42:09 | HERITAGE: Checking for existing counter with key: 'N1SCR05-727-FLG'
+2026-01-23 08:42:09 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR05-727-FLG' not found)
+2026-01-23 08:42:09 | HERITAGE: DEBUG - No existing counters found
+2026-01-23 08:42:09 | HERITAGE: Processing group 'FLG' with scheme: N1SCR05-727-FLG{N}
+2026-01-23 08:42:09 | HERITAGE: Part39 Flange SS-MID.ipt -> N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\Part39 Flange SS-MID.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\Middle With Bleed\N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:09 | HERITAGE: Creating new file: N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:09 | HERITAGE: SUCCESS - Created N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:09 | REGISTRY: Saved N1SCR05-727-FLG = 1
+2026-01-23 08:42:09 | STEP 7: Updating assembly references
+2026-01-23 08:42:09 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-23 08:42:09 | ASSEMBLY: Updating references in - Static Screen Wider.iam (Level: ROOT)
+2026-01-23 08:42:09 | ASSEMBLY: RECURSING into sub-assembly - Static Screen Top Wider.iam
+2026-01-23 08:42:09 | ASSEMBLY: Updating references in - Static Screen Top Wider.iam (Level: ROOT>Static Screen Top Wider.iam)
+2026-01-23 08:42:09 | ASSEMBLY: Replacing Part1 SS-TOP Wider.ipt -> N1SCR05-727-PL1.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:09 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL1.ipt
+2026-01-23 08:42:09 | ASSEMBLY: Replacing Part2 SS-TOP.ipt -> N1SCR05-727-PL2.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:09 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL2.ipt
+2026-01-23 08:42:10 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL2.ipt (not renamed)
+2026-01-23 08:42:10 | ASSEMBLY: Replacing Part3 SS-TOP Wider.ipt -> N1SCR05-727-PL3.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:10 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL3.ipt
+2026-01-23 08:42:10 | ASSEMBLY: Replacing Part4 SS-TOP.ipt -> N1SCR05-727-PL4.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:10 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL4.ipt
+2026-01-23 08:42:10 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL4.ipt (not renamed)
+2026-01-23 08:42:10 | ASSEMBLY: Replacing Part5 SS-TOP Wider.ipt -> N1SCR05-727-PL5.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL5.ipt
+2026-01-23 08:42:11 | ASSEMBLY: Replacing Part6 SS-TOP Wider.ipt -> N1SCR05-727-PL6.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL6.ipt
+2026-01-23 08:42:11 | ASSEMBLY: Replacing Part7 SS-TOP Wider.ipt -> N1SCR05-727-PL7.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL7.ipt
+2026-01-23 08:42:11 | ASSEMBLY: Replacing Part8 SS-TOP Wider.ipt -> N1SCR05-727-PL8.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL8.ipt
+2026-01-23 08:42:11 | ASSEMBLY: Replacing Part9 SS-TOP Wider.ipt -> N1SCR05-727-PL9.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL9.ipt
+2026-01-23 08:42:11 | ASSEMBLY: Replacing Part10 SS-TOP.ipt -> N1SCR05-727-PL10.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:11 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL10.ipt
+2026-01-23 08:42:12 | ASSEMBLY: Replacing Part11 60X60X6 SS-TOP Wider.ipt -> N1SCR05-727-A1.ipt [A] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:12 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A1.ipt
+2026-01-23 08:42:12 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A1.ipt (not renamed)
+2026-01-23 08:42:12 | ASSEMBLY: Replacing Part12 60X60X6 SS-TOP.ipt -> N1SCR05-727-A2.ipt [A] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:12 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A2.ipt
+2026-01-23 08:42:12 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A2.ipt (not renamed)
+2026-01-23 08:42:12 | ASSEMBLY: Replacing Part13 60X60X6 SS-TOP.ipt -> N1SCR05-727-A3.ipt [A] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:12 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A3.ipt
+2026-01-23 08:42:12 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A3.ipt (not renamed)
+2026-01-23 08:42:12 | ASSEMBLY: Replacing Part14 60X60X6 SS-TOP.ipt -> N1SCR05-727-A4.ipt [A] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:13 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A4.ipt
+2026-01-23 08:42:13 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A4.ipt (not renamed)
+2026-01-23 08:42:13 | ASSEMBLY: Replacing Part15 SS-TOP.ipt -> N1SCR05-727-PL11.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:13 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL11.ipt
+2026-01-23 08:42:13 | ASSEMBLY: Replacing Part19 Stiffener SS-TOP.ipt -> N1SCR05-727-FL1.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:13 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL1.ipt
+2026-01-23 08:42:13 | ASSEMBLY: Replacing Part23 Stiffener SS-TOP.ipt -> N1SCR05-727-FL2.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:13 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL2.ipt
+2026-01-23 08:42:14 | ASSEMBLY: Replacing Part24 Stiffener SS-TOP.ipt -> N1SCR05-727-FL3.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:14 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL3.ipt
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL11.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL1.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL2.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL3.ipt (not renamed)
+2026-01-23 08:42:14 | ASSEMBLY: Replacing Part16 Stiffener SS-TOP.ipt -> N1SCR05-727-FL4.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:14 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL4.ipt
+2026-01-23 08:42:14 | ASSEMBLY: Replacing Part17 Stiffener SS-TOP.ipt -> N1SCR05-727-FL5.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:15 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL5.ipt
+2026-01-23 08:42:15 | ASSEMBLY: Replacing Part18 Stiffener SS-TOP.ipt -> N1SCR05-727-FL6.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:15 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL6.ipt
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL4.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL5.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL6.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL4.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL5.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL6.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: Replacing Part20 Stiffener SS-TOP.ipt -> N1SCR05-727-FL7.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:15 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL7.ipt
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:15 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL7.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: Replacing Lug SS-TOP.ipt -> N1SCR05-727-PL12.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:16 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL12.ipt
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL12.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL12.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL12.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: Replacing Part22 Stiffener SS-TOP.ipt -> N1SCR05-727-FL8.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:16 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL8.ipt
+2026-01-23 08:42:16 | ASSEMBLY: Replacing Part21 Stiffener SS-TOP.ipt -> N1SCR05-727-FL9.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:16 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL9.ipt
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL8.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL9.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL8.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL9.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL8.ipt (not renamed)
+2026-01-23 08:42:16 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL9.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: Replacing Part25 Stiffener SS-TOP.ipt -> N1SCR05-727-FL10.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:17 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL10.ipt
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL10.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL10.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL10.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: Replacing Part26 Stiffener SS-TOP.ipt -> N1SCR05-727-FL11.ipt [FL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:17 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL11.ipt
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL11.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL11.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL11.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: Replacing Part16 SS-TOP.ipt -> N1SCR05-727-PL13.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:17 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL13.ipt
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL13.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: Replacing Part21 SS-MID.ipt -> N1SCR05-727-PL14.ipt [PL] (in Static Screen Top Wider.iam)
+2026-01-23 08:42:17 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL14.ipt
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL13.ipt (not renamed)
+2026-01-23 08:42:17 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL13.ipt (not renamed)
+2026-01-23 08:42:18 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL14.ipt (not renamed)
+2026-01-23 08:42:18 | ASSEMBLY: Saved sub-assembly - Static Screen Top Wider.iam
+2026-01-23 08:42:18 | ASSEMBLY: RECURSING into sub-assembly - Static Screen Middle Wider.iam
+2026-01-23 08:42:18 | ASSEMBLY: Updating references in - Static Screen Middle Wider.iam (Level: ROOT>Static Screen Middle Wider.iam)
+2026-01-23 08:42:18 | ASSEMBLY: Replacing Part47 SS-MID.ipt -> N1SCR05-727-PL15.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:18 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL15.ipt
+2026-01-23 08:42:18 | ASSEMBLY: Replacing Part1 SS-MID Wider.ipt -> N1SCR05-727-PL16.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:18 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL16.ipt
+2026-01-23 08:42:19 | ASSEMBLY: Replacing Part2 SS-MID Wider.ipt -> N1SCR05-727-PL17.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:19 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL17.ipt
+2026-01-23 08:42:19 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL17.ipt (not renamed)
+2026-01-23 08:42:19 | ASSEMBLY: Replacing Part3 SS-MID Wider.ipt -> N1SCR05-727-PL18.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:19 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL18.ipt
+2026-01-23 08:42:19 | ASSEMBLY: Replacing Part4 SS-MID Wider.ipt -> N1SCR05-727-PL19.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:19 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL19.ipt
+2026-01-23 08:42:19 | ASSEMBLY: Replacing Part5 SS-MID Wider.ipt -> N1SCR05-727-PL20.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:19 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL20.ipt
+2026-01-23 08:42:19 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL20.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: Replacing Part6 60X60X6 SS-MID.ipt -> N1SCR05-727-A5.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:20 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A5.ipt
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A5.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: Replacing Part7 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A6.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:20 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A6.ipt
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A6.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A6.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A6.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: Replacing Part8 60X60X6 SS-MID.ipt -> N1SCR05-727-A7.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:20 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A7.ipt
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A7.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: Replacing Part9 SS-MID.ipt -> N1SCR05-727-PL21.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:20 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL21.ipt
+2026-01-23 08:42:20 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL21.ipt (not renamed)
+2026-01-23 08:42:20 | ASSEMBLY: Replacing Part10 SS-MID Wider.ipt -> N1SCR05-727-PL22.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:21 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL22.ipt
+2026-01-23 08:42:21 | ASSEMBLY: Replacing Part11 SS-MID Wider.ipt -> N1SCR05-727-PL23.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:21 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL23.ipt
+2026-01-23 08:42:21 | ASSEMBLY: Replacing Part12 60X60X6 SS-MID.ipt -> N1SCR05-727-A8.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:21 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A8.ipt
+2026-01-23 08:42:21 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A8.ipt (not renamed)
+2026-01-23 08:42:21 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A8.ipt (not renamed)
+2026-01-23 08:42:21 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A8.ipt (not renamed)
+2026-01-23 08:42:21 | ASSEMBLY: Replacing Part15 60X60X6 SS-MID.ipt -> N1SCR05-727-A9.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:21 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A9.ipt
+2026-01-23 08:42:21 | ASSEMBLY: Replacing Part19 60X60X6 SS-MID.ipt -> N1SCR05-727-A10.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:21 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A10.ipt
+2026-01-23 08:42:21 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A10.ipt (not renamed)
+2026-01-23 08:42:22 | ASSEMBLY: Replacing Part20 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A11.ipt [A] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:22 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A11.ipt
+2026-01-23 08:42:22 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A11.ipt (not renamed)
+2026-01-23 08:42:22 | ASSEMBLY: Replacing Part23 SS-MID W.ipt -> N1SCR05-727-PL24.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:22 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL24.ipt
+2026-01-23 08:42:22 | ASSEMBLY: Replacing Part24 SS-MID Wider.ipt -> N1SCR05-727-PL25.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:22 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL25.ipt
+2026-01-23 08:42:22 | ASSEMBLY: Replacing Part42 Liner SS-MID.ipt -> N1SCR05-727-PART1.ipt [OTHER] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:22 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PART1.ipt
+2026-01-23 08:42:22 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART1.ipt (not renamed)
+2026-01-23 08:42:23 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART1.ipt (not renamed)
+2026-01-23 08:42:23 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART1.ipt (not renamed)
+2026-01-23 08:42:23 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART1.ipt (not renamed)
+2026-01-23 08:42:23 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART1.ipt (not renamed)
+2026-01-23 08:42:23 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part33 SS-MID Wider.ipt -> N1SCR05-727-PL26.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL26.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part34 SS-MID Wider.ipt -> N1SCR05-727-PL27.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL27.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part35 SS-MID Wider.ipt -> N1SCR05-727-PL28.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL28.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part36 SS-MID Wider.ipt -> N1SCR05-727-PL29.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL29.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part37 SS-MID Wider.ipt -> N1SCR05-727-PL30.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL30.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part38 Pipe SS-MID.ipt -> N1SCR05-727-P1.ipt [P] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:23 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-P1.ipt
+2026-01-23 08:42:23 | ASSEMBLY: Replacing Part39 Flange SS-MID.ipt -> N1SCR05-727-FLG1.ipt [FLG] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:24 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:24 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL24.ipt (not renamed)
+2026-01-23 08:42:24 | ASSEMBLY: Replacing Part25 SS-MID W.ipt -> N1SCR05-727-FL12.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:24 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL12.ipt
+2026-01-23 08:42:24 | ASSEMBLY: Replacing Part40 SS-MID W.ipt -> N1SCR05-727-FL13.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:24 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL13.ipt
+2026-01-23 08:42:24 | ASSEMBLY: Replacing Part25 SS-MID.ipt -> N1SCR05-727-FL14.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:24 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL14.ipt
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL12.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL13.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL14.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL12.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL13.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL14.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL12.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL13.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL14.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: Replacing Part29 SS-MID RIB.ipt -> N1SCR05-727-FL15.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:25 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL15.ipt
+2026-01-23 08:42:25 | ASSEMBLY: Replacing Part30 SS-MID RIB.ipt -> N1SCR05-727-FL16.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:25 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL16.ipt
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL15.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL15.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL15.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL15.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL16.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL15.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A9.ipt (not renamed)
+2026-01-23 08:42:25 | ASSEMBLY: Replacing Part32 SS-MID.ipt -> N1SCR05-727-FL17.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:26 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL17.ipt
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL17.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: Replacing Part21 SS-MID.ipt -> N1SCR05-727-PL14.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:26 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL14.ipt
+2026-01-23 08:42:26 | ASSEMBLY: Replacing Part22 SS-MID.ipt -> N1SCR05-727-PL31.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:26 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL31.ipt
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL31.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL14.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL31.ipt (not renamed)
+2026-01-23 08:42:26 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL31.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL14.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL31.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL31.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: Replacing Part45 SS-MID.ipt -> N1SCR05-727-PL32.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:27 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL32.ipt
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL32.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: Replacing Part28 SS-MID.ipt -> N1SCR05-727-FL18.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:27 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL18.ipt
+2026-01-23 08:42:27 | ASSEMBLY: Replacing Part27 SS-MID.ipt -> N1SCR05-727-FL19.ipt [FL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:27 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL19.ipt
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL18.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL19.ipt (not renamed)
+2026-01-23 08:42:27 | ASSEMBLY: Replacing Part46 SS-MID.ipt -> N1SCR05-727-PL33.ipt [PL] (in Static Screen Middle Wider.iam)
+2026-01-23 08:42:28 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL33.ipt
+2026-01-23 08:42:28 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL33.ipt (not renamed)
+2026-01-23 08:42:28 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL15.ipt (not renamed)
+2026-01-23 08:42:28 | ASSEMBLY: Saved sub-assembly - Static Screen Middle Wider.iam
+2026-01-23 08:42:28 | ASSEMBLY: RECURSING into sub-assembly - Static Screen Bottom Wider.iam
+2026-01-23 08:42:28 | ASSEMBLY: Updating references in - Static Screen Bottom Wider.iam (Level: ROOT>Static Screen Bottom Wider.iam)
+2026-01-23 08:42:28 | ASSEMBLY: Replacing Part1 SS-BOT Wider.ipt -> N1SCR05-727-PL34.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:28 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL34.ipt
+2026-01-23 08:42:28 | ASSEMBLY: Replacing Part2 SS-BOT.ipt -> N1SCR05-727-PL35.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:28 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL35.ipt
+2026-01-23 08:42:28 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL35.ipt (not renamed)
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part3 SS-BOT Wider.ipt -> N1SCR05-727-PL36.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL36.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part4 SS-BOT Wider.ipt -> N1SCR05-727-PL37.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL37.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part5 SS-BOT Wider.ipt -> N1SCR05-727-PL38.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL38.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part6 SS-BOT Wider.ipt -> N1SCR05-727-PL39.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL39.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part7 60X60X6 SS-BOT Wider.ipt -> N1SCR05-727-A12.ipt [A] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A12.ipt
+2026-01-23 08:42:29 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A12.ipt (not renamed)
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part8 60X60X6 SS-BOT.ipt -> N1SCR05-727-A13.ipt [A] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A13.ipt
+2026-01-23 08:42:29 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A13.ipt (not renamed)
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part9 SS-BOT.ipt -> N1SCR05-727-FL20.ipt [FL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL20.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part10 SS-BOT.ipt -> N1SCR05-727-FL21.ipt [FL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL21.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part11 SS-BOT.ipt -> N1SCR05-727-FL22.ipt [FL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL22.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part12 SS-BOT.ipt -> N1SCR05-727-FL23.ipt [FL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:29 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL23.ipt
+2026-01-23 08:42:29 | ASSEMBLY: Replacing Part13 SS-BOT.ipt -> N1SCR05-727-FL24.ipt [FL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:30 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-FL24.ipt
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL20.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL21.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL22.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL23.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL24.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL20.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL21.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL22.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL23.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL24.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL20.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL21.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL22.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL23.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL24.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL20.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL21.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL22.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL23.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-FL24.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: Replacing Lug SS-BOT.ipt -> N1SCR05-727-PL40.ipt [PL] (in Static Screen Bottom Wider.iam)
+2026-01-23 08:42:30 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL40.ipt
+2026-01-23 08:42:30 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL40.ipt (not renamed)
+2026-01-23 08:42:30 | ASSEMBLY: Saved sub-assembly - Static Screen Bottom Wider.iam
+2026-01-23 08:42:31 | ASSEMBLY: RECURSING into sub-assembly - Screen Deck Frame Wider.iam
+2026-01-23 08:42:31 | ASSEMBLY: Updating references in - Screen Deck Frame Wider.iam (Level: ROOT>Screen Deck Frame Wider.iam)
+2026-01-23 08:42:31 | ASSEMBLY: Replacing Part1 70x70x8 SS-SDF.ipt -> N1SCR05-727-A14.ipt [A] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A14.ipt
+2026-01-23 08:42:31 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A14.ipt (not renamed)
+2026-01-23 08:42:31 | ASSEMBLY: Replacing Part2 70x70x8 SS-SDF Wider.ipt -> N1SCR05-727-A15.ipt [A] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A15.ipt
+2026-01-23 08:42:31 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A15.ipt (not renamed)
+2026-01-23 08:42:31 | ASSEMBLY: Replacing Part3 70x70x8 SS-SDF.ipt -> N1SCR05-727-A16.ipt [A] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:31 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A16.ipt
+2026-01-23 08:42:31 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:31 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:31 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A16.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: Replacing Part4 SS-SDF.ipt -> N1SCR05-727-PL41.ipt [PL] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:32 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL41.ipt
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL41.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: Replacing Part5 SS-SDF.ipt -> N1SCR05-727-PL42.ipt [PL] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:32 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL42.ipt
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL42.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL42.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL42.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: Replacing Screen Panel 305x305.ipt -> N1SCR05-727-PART2.ipt [OTHER] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:32 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PART2.ipt
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:32 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:33 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PART2.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: Replacing Part6 SS-SDF.ipt -> N1SCR05-727-PL43.ipt [PL] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:34 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL43.ipt
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL43.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: Replacing Part7 50X50X6 SS-SDF.ipt -> N1SCR05-727-A17.ipt [A] (in Screen Deck Frame Wider.iam)
+2026-01-23 08:42:34 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A17.ipt
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:34 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A17.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: Saved sub-assembly - Screen Deck Frame Wider.iam
+2026-01-23 08:42:35 | ASSEMBLY: RECURSING into sub-assembly - Static Screen Launder.iam
+2026-01-23 08:42:35 | ASSEMBLY: Updating references in - Static Screen Launder.iam (Level: ROOT>Static Screen Launder.iam)
+2026-01-23 08:42:35 | ASSEMBLY: Replacing Part1 SS-LAU.ipt -> N1SCR05-727-PL44.ipt [PL] (in Static Screen Launder.iam)
+2026-01-23 08:42:35 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-PL44.ipt
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL44.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL44.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-PL44.ipt (not renamed)
+2026-01-23 08:42:35 | ASSEMBLY: Replacing Part2 Angle SS-LAU.ipt -> N1SCR05-727-A18.ipt [A] (in Static Screen Launder.iam)
+2026-01-23 08:42:35 | ASSEMBLY: SUCCESS - Updated to N1SCR05-727-A18.ipt
+2026-01-23 08:42:35 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:36 | ASSEMBLY: INFO - No mapping found for N1SCR05-727-A18.ipt (not renamed)
+2026-01-23 08:42:38 | ASSEMBLY: Saved sub-assembly - Static Screen Launder.iam
+2026-01-23 08:42:38 | ASSEMBLY: Saving assembly with updated references...
+2026-01-23 08:42:39 | ASSEMBLY: Successfully saved assembly
+2026-01-23 08:42:39 | STEP 8: Auto-detecting and updating IDW files
+2026-01-23 08:42:39 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-23 08:42:39 | IDW: Found drawing file - MGY-200-DRP-06-00.idw
+2026-01-23 08:42:39 | IDW: Processing MGY-200-DRP-06-00.idw
+2026-01-23 08:42:41 | IDW: Opening MGY-200-DRP-06-00.idw
+2026-01-23 08:42:47 | IDW: Found 1 referenced files
+2026-01-23 08:42:47 | IDW: INFO - No mapping found for Static Screen.iam
+2026-01-23 08:42:50 | IDW: Saved MGY-200-DRP-06-00.idw
+2026-01-23 08:42:50 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-23 08:42:50 | MAPPING: === START SAVE MAPPING FILE ===
+2026-01-23 08:42:50 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\726 Static Screen\STEP_1_MAPPING.txt
+2026-01-23 08:42:50 | MAPPING: Comprehensive mapping count = 90
+2026-01-23 08:42:50 | MAPPING: Prepared: Part1 SS-TOP Wider.ipt -> N1SCR05-727-PL1.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part2 SS-TOP.ipt -> N1SCR05-727-PL2.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part3 SS-TOP Wider.ipt -> N1SCR05-727-PL3.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part4 SS-TOP.ipt -> N1SCR05-727-PL4.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part5 SS-TOP Wider.ipt -> N1SCR05-727-PL5.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part6 SS-TOP Wider.ipt -> N1SCR05-727-PL6.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part7 SS-TOP Wider.ipt -> N1SCR05-727-PL7.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part8 SS-TOP Wider.ipt -> N1SCR05-727-PL8.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part9 SS-TOP Wider.ipt -> N1SCR05-727-PL9.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part10 SS-TOP.ipt -> N1SCR05-727-PL10.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part15 SS-TOP.ipt -> N1SCR05-727-PL11.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Lug SS-TOP.ipt -> N1SCR05-727-PL12.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part16 SS-TOP.ipt -> N1SCR05-727-PL13.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part21 SS-MID.ipt -> N1SCR05-727-PL14.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part47 SS-MID.ipt -> N1SCR05-727-PL15.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part1 SS-MID Wider.ipt -> N1SCR05-727-PL16.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part2 SS-MID Wider.ipt -> N1SCR05-727-PL17.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part3 SS-MID Wider.ipt -> N1SCR05-727-PL18.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part4 SS-MID Wider.ipt -> N1SCR05-727-PL19.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part5 SS-MID Wider.ipt -> N1SCR05-727-PL20.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part9 SS-MID.ipt -> N1SCR05-727-PL21.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part10 SS-MID Wider.ipt -> N1SCR05-727-PL22.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part11 SS-MID Wider.ipt -> N1SCR05-727-PL23.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part23 SS-MID W.ipt -> N1SCR05-727-PL24.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part24 SS-MID Wider.ipt -> N1SCR05-727-PL25.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part33 SS-MID Wider.ipt -> N1SCR05-727-PL26.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part34 SS-MID Wider.ipt -> N1SCR05-727-PL27.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part35 SS-MID Wider.ipt -> N1SCR05-727-PL28.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part36 SS-MID Wider.ipt -> N1SCR05-727-PL29.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part37 SS-MID Wider.ipt -> N1SCR05-727-PL30.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part22 SS-MID.ipt -> N1SCR05-727-PL31.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part45 SS-MID.ipt -> N1SCR05-727-PL32.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part46 SS-MID.ipt -> N1SCR05-727-PL33.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part1 SS-BOT Wider.ipt -> N1SCR05-727-PL34.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part2 SS-BOT.ipt -> N1SCR05-727-PL35.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part3 SS-BOT Wider.ipt -> N1SCR05-727-PL36.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part4 SS-BOT Wider.ipt -> N1SCR05-727-PL37.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part5 SS-BOT Wider.ipt -> N1SCR05-727-PL38.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part6 SS-BOT Wider.ipt -> N1SCR05-727-PL39.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Lug SS-BOT.ipt -> N1SCR05-727-PL40.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part4 SS-SDF.ipt -> N1SCR05-727-PL41.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part5 SS-SDF.ipt -> N1SCR05-727-PL42.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part6 SS-SDF.ipt -> N1SCR05-727-PL43.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part1 SS-LAU.ipt -> N1SCR05-727-PL44.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part11 60X60X6 SS-TOP Wider.ipt -> N1SCR05-727-A1.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part12 60X60X6 SS-TOP.ipt -> N1SCR05-727-A2.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part13 60X60X6 SS-TOP.ipt -> N1SCR05-727-A3.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part14 60X60X6 SS-TOP.ipt -> N1SCR05-727-A4.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part6 60X60X6 SS-MID.ipt -> N1SCR05-727-A5.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part7 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A6.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part8 60X60X6 SS-MID.ipt -> N1SCR05-727-A7.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part12 60X60X6 SS-MID.ipt -> N1SCR05-727-A8.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part15 60X60X6 SS-MID.ipt -> N1SCR05-727-A9.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part19 60X60X6 SS-MID.ipt -> N1SCR05-727-A10.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part20 60X60X6 SS-MID Wider.ipt -> N1SCR05-727-A11.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part7 60X60X6 SS-BOT Wider.ipt -> N1SCR05-727-A12.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part8 60X60X6 SS-BOT.ipt -> N1SCR05-727-A13.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part1 70x70x8 SS-SDF.ipt -> N1SCR05-727-A14.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part2 70x70x8 SS-SDF Wider.ipt -> N1SCR05-727-A15.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part3 70x70x8 SS-SDF.ipt -> N1SCR05-727-A16.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part7 50X50X6 SS-SDF.ipt -> N1SCR05-727-A17.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part2 Angle SS-LAU.ipt -> N1SCR05-727-A18.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part19 Stiffener SS-TOP.ipt -> N1SCR05-727-FL1.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part23 Stiffener SS-TOP.ipt -> N1SCR05-727-FL2.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part24 Stiffener SS-TOP.ipt -> N1SCR05-727-FL3.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part16 Stiffener SS-TOP.ipt -> N1SCR05-727-FL4.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part17 Stiffener SS-TOP.ipt -> N1SCR05-727-FL5.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part18 Stiffener SS-TOP.ipt -> N1SCR05-727-FL6.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part20 Stiffener SS-TOP.ipt -> N1SCR05-727-FL7.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part22 Stiffener SS-TOP.ipt -> N1SCR05-727-FL8.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part21 Stiffener SS-TOP.ipt -> N1SCR05-727-FL9.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part25 Stiffener SS-TOP.ipt -> N1SCR05-727-FL10.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part26 Stiffener SS-TOP.ipt -> N1SCR05-727-FL11.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part25 SS-MID W.ipt -> N1SCR05-727-FL12.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part40 SS-MID W.ipt -> N1SCR05-727-FL13.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part25 SS-MID.ipt -> N1SCR05-727-FL14.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part29 SS-MID RIB.ipt -> N1SCR05-727-FL15.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part30 SS-MID RIB.ipt -> N1SCR05-727-FL16.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part32 SS-MID.ipt -> N1SCR05-727-FL17.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part28 SS-MID.ipt -> N1SCR05-727-FL18.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part27 SS-MID.ipt -> N1SCR05-727-FL19.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part9 SS-BOT.ipt -> N1SCR05-727-FL20.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part10 SS-BOT.ipt -> N1SCR05-727-FL21.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part11 SS-BOT.ipt -> N1SCR05-727-FL22.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part12 SS-BOT.ipt -> N1SCR05-727-FL23.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part13 SS-BOT.ipt -> N1SCR05-727-FL24.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part42 Liner SS-MID.ipt -> N1SCR05-727-PART1.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Screen Panel 305x305.ipt -> N1SCR05-727-PART2.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part38 Pipe SS-MID.ipt -> N1SCR05-727-P1.ipt
+2026-01-23 08:42:50 | MAPPING: Prepared: Part39 Flange SS-MID.ipt -> N1SCR05-727-FLG1.ipt
+2026-01-23 08:42:50 | MAPPING: Write attempt 1 of 3
+2026-01-23 08:42:50 | MAPPING: Write attempt 1 SUCCEEDED
+2026-01-23 08:42:50 | MAPPING: VERIFICATION - File exists! Size: 33767 bytes
+2026-01-23 08:42:50 | MAPPING: SUCCESS - Mapping file saved with 90 mappings
+2026-01-23 08:42:52 | MAPPING: === END SAVE MAPPING FILE ===
+2026-01-23 08:42:52 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-23 08:42:52 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

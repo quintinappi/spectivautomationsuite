@@ -1,0 +1,281 @@
+2026-01-14 13:32:14 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-14 13:32:14 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-14 13:32:17 | SUCCESS: Connected to existing Inventor instance
+2026-01-14 13:32:17 | STEP 1: Detecting open assembly and analyzing components
+2026-01-14 13:32:18 | DETECTED: Document type: 12291
+2026-01-14 13:32:18 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-14 13:32:18 | DETECTED: Active assembly - N1SCR04-730.iam
+2026-01-14 13:32:18 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\730 CM Head Box Rename Test\730 CM Head Box Rename Test\Workspaces\Workspace\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\N1SCR04-730.iam
+2026-01-14 13:32:19 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-14 13:32:19 | CONFIRMED: 42 occurrences to process
+2026-01-14 13:32:19 | STEP 2: Flattening hierarchy and grouping components
+2026-01-14 13:32:19 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-14 13:32:19 | ANALYZE: Processing assembly - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 13:32:19 | ANALYZE: Found 42 occurrences in N1SCR04-730.iam
+2026-01-14 13:32:19 | ANALYZE: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 13:32:19 | ANALYZE: Processing assembly - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 13:32:19 | ANALYZE: Found 86 occurrences in Head Box.iam
+2026-01-14 13:32:19 | STEP 3: Getting plant section naming convention
+2026-01-14 13:32:19 | PLANT: Getting plant section naming convention from user
+2026-01-14 13:32:27 | PLANT: Using custom naming convention: TEST-000-
+2026-01-14 13:32:27 | REGISTRY: Prefix does not exist, starting fresh
+2026-01-14 13:32:29 | STEP 4: Showing component groups summary
+2026-01-14 13:32:29 | SUMMARY: Showing component groups to user
+2026-01-14 13:32:30 | STEP 5: Getting user naming schemes for component groups
+2026-01-14 13:32:30 | INPUT: Getting user naming schemes for 0 groups
+2026-01-14 13:32:30 | STEP 6: Creating heritage-based copies with user naming
+2026-01-14 13:32:30 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-14 13:32:30 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-14 13:32:30 | HERITAGE: Starting fresh - not loading existing counters
+2026-01-14 13:32:30 | STEP 7: Updating assembly references
+2026-01-14 13:32:30 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-14 13:32:30 | ASSEMBLY: Updating references in - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 13:32:30 | ASSEMBLY: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 13:32:30 | ASSEMBLY: Updating references in - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 13:32:30 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL1.ipt (not renamed)
+2026-01-14 13:32:30 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL3.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL5.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL6.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL9.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL10.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL10.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FLG2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART3.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A1.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A2.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A3.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A5.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A6.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL11.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: Saved sub-assembly - Head Box.iam
+2026-01-14 13:32:32 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:32:32 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL17.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A9.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:32 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 13:32:33 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:32:33 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL17.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A9.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 13:32:33 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 13:32:33 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL18.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 13:32:33 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-01-14 13:32:34 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 13:32:34 | ASSEMBLY: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 13:32:34 | ASSEMBLY: Saving assembly with updated references...
+2026-01-14 13:32:34 | ASSEMBLY: Successfully saved assembly
+2026-01-14 13:32:34 | STEP 8: Auto-detecting and updating IDW files
+2026-01-14 13:32:34 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-14 13:32:34 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:32:34 | IDW: Processing KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:32:35 | IDW: Opening KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:32:36 | IDW: Found 48 referenced files
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for Head Box.iam
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A1.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A10.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A2.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A3.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A4.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A5.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A6.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A7.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A8.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-A9.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL1.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL10.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL2.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL3.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL4.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL6.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL7.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL8.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-FL9.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PART1.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PART2.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PART3.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PART4.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PART5.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL1.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL10.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL11.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL12.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL13.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL14.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL15.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL16.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL17.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL18.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL19.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL2.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL3.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL4.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL5.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL6.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL7.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL8.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-PL9.ipt
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730.iam
+2026-01-14 13:32:36 | IDW: INFO - No mapping found for N1SCR04-730-EXPLODED.ipn
+2026-01-14 13:32:36 | IDW: Saved KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:32:36 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-14 13:32:36 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-14 13:32:36 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-14 13:32:36 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

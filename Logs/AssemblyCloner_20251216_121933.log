@@ -1,0 +1,66 @@
+﻿2025-12-16 12:19:33 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 12:19:33 | Using EXACT methodology from VBScript Option 9
+2025-12-16 12:19:33 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Library\Beam with Endplates\BeamWithEndplates.iam
+2025-12-16 12:19:33 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Library\Beam with Endplates
+2025-12-16 12:19:34 | User confirmed clone operation
+2025-12-16 12:19:34 | Opening folder browser dialog...
+2025-12-16 12:20:00 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-25
+2025-12-16 12:20:01 | Rename parts: True
+2025-12-16 12:20:01 | Prompting for plant section prefix...
+2025-12-16 12:20:03 | Plant section prefix: Beam-25
+2025-12-16 12:20:03 | New assembly name: Beam-25
+2025-12-16 12:20:03 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-25\Beam-25.iam
+2025-12-16 12:20:03 | COLLECT: BeamWithEndplates-B1.ipt (UB203x133x25)
+2025-12-16 12:20:03 | COLLECT: BeamWithEndplates-PL2.ipt (PL 10mm S355JR)
+2025-12-16 12:20:03 | Collected 2 parts
+2025-12-16 12:20:03 | Closing source assembly for safe copy...
+2025-12-16 12:20:04 | Copying assembly file...
+2025-12-16 12:20:04 | COPIED: BeamWithEndplates.iam -> Beam-25.iam
+2025-12-16 12:20:04 | Copying 2 parts...
+2025-12-16 12:20:04 | COPIED: BeamWithEndplates-B1.ipt -> Beam-25-B1.ipt
+2025-12-16 12:20:04 | COPIED: BeamWithEndplates-PL2.ipt -> Beam-25-PL2.ipt
+2025-12-16 12:20:04 | Updating assembly references and patching iLogic...
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Opened Beam-25.iam
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Found 2 file references
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Replacing BeamWithEndplates-B1.ipt -> Beam-25-B1.ipt
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Replacing BeamWithEndplates-PL2.ipt -> Beam-25-PL2.ipt
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Updated 2 references
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 12:20:04 | Patching iLogic rules (in same session)...
+2025-12-16 12:20:04 | Patched 0 iLogic rules
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 12:20:04 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 12:20:04 | Processing IDW files...
+2025-12-16 12:20:04 | IDW PROCESS: Found 1 IDW files
+2025-12-16 12:20:07 | IDW PROCESS: Processing BeamWithEndPlates.idw -> Beam-25.idw
+2025-12-16 12:20:07 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 12:20:07 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 12:20:07 | IDW PROCESS: Found 3 references
+2025-12-16 12:20:07 | IDW PROCESS: Updating BeamWithEndplates.iam -> Beam-25.iam
+2025-12-16 12:20:08 | IDW PROCESS: SUCCESS
+2025-12-16 12:20:08 | IDW PROCESS: Updating BeamWithEndplates-B1.ipt -> Beam-25-B1.ipt
+2025-12-16 12:20:08 | IDW PROCESS: SUCCESS
+2025-12-16 12:20:08 | IDW PROCESS: Updating BeamWithEndplates-PL2.ipt -> Beam-25-PL2.ipt
+2025-12-16 12:20:08 | IDW PROCESS: SUCCESS
+2025-12-16 12:20:08 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 12:20:08 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 12:20:08 | IDW PROCESS: Updating iProperties for BeamWithEndPlates.idw
+2025-12-16 12:20:08 | IDW PROCESS: Updated Part Number to 'Beam-25'
+2025-12-16 12:20:08 | IDW PROCESS: Updated Description to 'Beam-25'
+2025-12-16 12:20:08 | IDW PROCESS: iProperties update complete for BeamWithEndPlates.idw
+2025-12-16 12:20:08 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-25\Beam-25.idw
+2025-12-16 12:20:08 | IDW PROCESS: Successfully saved BeamWithEndPlates.idw as Beam-25.idw (3 references updated)
+2025-12-16 12:20:08 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 12:20:08 | Updating iProperties for copied documents...
+2025-12-16 12:20:08 | Updated iProperties for Beam-25.iam
+2025-12-16 12:20:09 | Updated iProperties for Beam-25-B1.ipt
+2025-12-16 12:20:09 | Updated iProperties for Beam-25-PL2.ipt
+2025-12-16 12:20:09 | Saving iLogic patch log...
+2025-12-16 12:20:09 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 12:20:09 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_121933.log

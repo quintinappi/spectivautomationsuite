@@ -1,0 +1,143 @@
+﻿Imports System.Runtime.InteropServices
+Imports Inventor
+Imports Microsoft.VisualBasic
+Imports System
+
+<ComVisible(True)>
+<Guid("B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B")>
+Public Class StandardAddInServer
+    Implements Inventor.ApplicationAddInServer
+
+    Private m_inventorApplication As Inventor.Application
+    Private m_addInSite As ApplicationAddInSite
+    Private m_userInterfaceMgr As UserInterfaceManager
+    Private m_ribbon As Ribbon
+    Private m_cloneButton As ButtonDefinition
+    Private m_fixDecimalsButton As ButtonDefinition
+
+    Public Sub Activate(addInSiteObject As ApplicationAddInSite, firstTime As Boolean) Implements ApplicationAddInServer.Activate
+        Try
+            m_addInSite = addInSiteObject
+            m_inventorApplication = addInSiteObject.Application
+            m_userInterfaceMgr = m_inventorApplication.UserInterfaceManager
+
+            If firstTime Then
+                AddToUserInterface()
+            End If
+                
+        Catch ex As Exception
+            MsgBox("Error activating add-in: " & ex.Message)
+        End Try
+    End Sub
+
+    Public Sub Deactivate() Implements ApplicationAddInServer.Deactivate
+        Try
+            RemoveFromUserInterface()
+            m_inventorApplication = Nothing
+            m_addInSite = Nothing
+            m_userInterfaceMgr = Nothing
+        Catch ex As Exception
+            MsgBox("Error deactivating add-in: " & ex.Message)
+        End Try
+    End Sub
+
+    Public ReadOnly Property Automation() As Object Implements ApplicationAddInServer.Automation
+        Get
+            Return Nothing
+        End Get
+    End Property
+
+    Public Sub ExecuteCommand(commandID As Integer) Implements ApplicationAddInServer.ExecuteCommand
+        ' Not used in this add-in
+    End Sub
+
+    Private Sub AddToUserInterface()
+        Try
+            m_ribbon = m_userInterfaceMgr.Ribbons.Item("Assembly")
+            Dim tab As RibbonTab = m_ribbon.RibbonTabs.Item("id_TabManage")
+            Dim panel As RibbonPanel = tab.RibbonPanels.Item("id_Panel_AssemblyManage")
+
+            ' Clone Assembly button
+            m_cloneButton = m_inventorApplication.CommandManager.ControlDefinitions.AddButtonDefinition(
+                "Clone Assembly & Patch iLogic", 
+                "CloneAssemblyButton", 
+                CommandTypesEnum.kQueryOnlyCmdType,
+                m_addInSite.Parent.ClientId, 
+                "Clone the current assembly and patch iLogic rules",
+                "Clone Assembly", 
+                , , 
+                ButtonDisplayEnum.kDisplayTextInLearningMode)
+
+            AddHandler m_cloneButton.OnExecute, AddressOf CloneButton_OnExecute
+            panel.CommandControls.AddButton(m_cloneButton)
+            
+            ' Fix Decimals button
+            m_fixDecimalsButton = m_inventorApplication.CommandManager.ControlDefinitions.AddButtonDefinition(
+                "Fix Plate Decimals", 
+                "FixDecimalsButton", 
+                CommandTypesEnum.kQueryOnlyCmdType,
+                m_addInSite.Parent.ClientId, 
+                "Apply zero-decimal fix to current plate part",
+                "Fix Decimals", 
+                , , 
+                ButtonDisplayEnum.kDisplayTextInLearningMode)
+
+            AddHandler m_fixDecimalsButton.OnExecute, AddressOf FixDecimalsButton_OnExecute
+            panel.CommandControls.AddButton(m_fixDecimalsButton)
+            
+        Catch ex As Exception
+            MsgBox("Error adding to UI: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub RemoveFromUserInterface()
+        Try
+            If m_cloneButton IsNot Nothing Then
+                m_cloneButton.Delete()
+                m_cloneButton = Nothing
+            End If
+            
+            If m_fixDecimalsButton IsNot Nothing Then
+                m_fixDecimalsButton.Delete()
+                m_fixDecimalsButton = Nothing
+            End If
+        Catch ex As Exception
+            MsgBox("Error removing from UI: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub CloneButton_OnExecute()
+        Try
+            Dim cloner As New AssemblyCloner(m_inventorApplication)
+            cloner.CloneAndPatch()
+        Catch ex As Exception
+            MsgBox("Error cloning assembly: " & ex.Message)
+        End Try
+    End Sub
+    
+    Private Sub FixDecimalsButton_OnExecute()
+        Try
+            ' Check if a part is open
+            If m_inventorApplication.ActiveDocument Is Nothing Then
+                MsgBox("Please open a plate part first.", MsgBoxStyle.Information, "No Document Open")
+                Exit Sub
+            End If
+            
+            If m_inventorApplication.ActiveDocument.DocumentType <> DocumentTypeEnum.kPartDocumentObject Then
+                MsgBox("This tool only works on part documents." & vbCrLf & "Please open a plate part.", MsgBoxStyle.Exclamation, "Wrong Document Type")
+                Exit Sub
+            End If
+            
+            Dim partDoc As PartDocument = CType(m_inventorApplication.ActiveDocument, PartDocument)
+            
+            ' Apply the fix
+            Dim fixer As New PlateDocumentSettings(m_inventorApplication)
+            fixer.ApplyDecimalFix(partDoc)
+            
+            MsgBox("Decimal fix applied successfully!" & vbCrLf & vbCrLf & "Document Settings updated:", MsgBoxStyle.Information, "Success")
+            
+        Catch ex As Exception
+            MsgBox("Error fixing decimals: " & ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+End Class

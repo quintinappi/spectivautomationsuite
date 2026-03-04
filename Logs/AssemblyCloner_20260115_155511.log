@@ -1,0 +1,571 @@
+2026-01-15 15:55:11 | === ASSEMBLY CLONER ===
+2026-01-15 15:55:11 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 15:55:18 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 15:55:18 | STEP 1: Detecting open assembly
+2026-01-15 15:55:18 | DETECTED: Flood Box.iam
+2026-01-15 15:55:18 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 15:55:19 | STEP 2: Getting destination folder from user
+2026-01-15 15:55:22 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:55:22 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_155522.log
+2026-01-15 15:55:22 | New assembly name will be: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:22 | STEP 3: Asking about heritage renaming
+2026-01-15 15:55:23 | PLANT: Getting plant section naming convention from user
+2026-01-15 15:55:24 | PLANT: Using prefix: CLONE-001-
+2026-01-15 15:55:24 | STEP 4: Analyzing assembly structure
+2026-01-15 15:55:24 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 15:55:24 | COLLECT: SUB-ASSEMBLY Support Frame.iam at ROOT
+2026-01-15 15:55:24 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:24 | COLLECT: SUB-ASSEMBLY Support Column.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:24 | COLLECT: PART Part1 FB-C1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:55:24 | COLLECT: PART Part2 203x133x25 FB-C1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:55:24 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:24 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:24 | COLLECT: PART Part1 FB-B1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:55:24 | COLLECT: PART Part2 203x133x25 FB-B1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:55:25 | COLLECT: SUB-ASSEMBLY Support Beam-3.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:25 | COLLECT: PART Part2 203x133x25 FB-B3.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-3.iam
+2026-01-15 15:55:25 | COLLECT: SUB-ASSEMBLY Support Beam-2.iam at ROOT>Support Frame.iam
+2026-01-15 15:55:25 | COLLECT: PART Part1 FB-B2.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:55:25 | COLLECT: PART Part2 203x133x25 FB-B2.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:55:25 | COLLECT: Skipping suppressed occurrence Flood Chute Development:1 at ROOT
+2026-01-15 15:55:25 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-15 15:55:25 | COLLECT: SUB-ASSEMBLY Flood Chute.iam at ROOT
+2026-01-15 15:55:25 | COLLECT: PART Part1 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part2 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part3 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part4 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part5 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part6 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part7 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part8 (Part7 Angle MIR) FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part9 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part10 FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: PART Lug FB-C.ipt (PL 20mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:55:25 | COLLECT: Found 28 unique files
+2026-01-15 15:55:25 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-00.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-02.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-01-00.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-01-03.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:25 | COLLECT: DRAWING MGY-200-DRD-09-01-01.idw
+2026-01-15 15:55:25 | ANALYZE: Found 35 unique parts to copy
+2026-01-15 15:55:25 | STEP 5: Grouping components for heritage naming
+2026-01-15 15:55:25 | GROUP: Grouping parts for heritage naming...
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Support Frame.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Support Column.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Bolted Connection2.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Support Beam-1.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Support Beam-3.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Support Beam-2.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:55:25 | GROUP: Skipping sub-assembly Flood Chute.iam
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-00.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-02.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:25 | GROUP: Skipping drawing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:55:25 | GROUP: Created 3 groups
+2026-01-15 15:55:25 | SCHEME: PL -> CLONE-001-PL{N}
+2026-01-15 15:55:25 | SCHEME: B -> CLONE-001-B{N}
+2026-01-15 15:55:25 | SCHEME: A -> CLONE-001-A{N}
+2026-01-15 15:55:25 | STEP 6: Copying assembly to destination
+2026-01-15 15:55:25 | Closing source assembly for safe copy...
+2026-01-15 15:55:26 | COPIED: Assembly Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:26 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Support Frame.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Support Column.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Support Column.iam -> Support Column.iam
+2026-01-15 15:55:26 | COPIED: Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:55:26 | COPIED: Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Bolted Connection2.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Support Beam-1.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:55:26 | COPIED: Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:55:26 | COPIED: Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Support Beam-3.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:55:26 | COPIED: Part2 203x133x25 FB-B3.ipt -> CLONE-001-B3.ipt
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Support Beam-2.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:55:26 | COPIED: Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:55:26 | COPIED: Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:55:26 | COPY: SUB-ASSEMBLY Flood Chute.iam (keeping original name)
+2026-01-15 15:55:26 | COPIED: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:55:26 | COPIED: Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:55:26 | COPIED: Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:55:26 | COPIED: Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:55:26 | COPIED: Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:55:26 | COPIED: Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:55:26 | COPIED: Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:55:26 | COPIED: Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:55:26 | COPIED: Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:55:26 | COPIED: Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:55:26 | COPIED: Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:55:26 | COPIED: Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:55:26 | COPIED: Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-00.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-00.idw -> MGY-200-DRD-09-00.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-02.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-02.idw -> MGY-200-DRD-09-02.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-01-00.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-01-00.idw -> MGY-200-DRD-09-01-00.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-01-03.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-01-03.idw -> MGY-200-DRD-09-01-03.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:26 | COPY: DRAWING MGY-200-DRD-09-01-01.idw (keeping original name)
+2026-01-15 15:55:26 | COPIED: MGY-200-DRD-09-01-01.idw -> MGY-200-DRD-09-01-01.idw
+2026-01-15 15:55:26 | STEP 8: Updating references in ALL copied assemblies
+2026-01-15 15:55:26 | STEP 8a: Pre-loading all copied PARTS into memory...
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL1.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-B1.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL2.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-B2.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-B3.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL3.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-B4.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL4.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL5.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL6.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL7.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL8.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-A1.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-A2.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-A3.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-A4.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL9.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL10.ipt
+2026-01-15 15:55:26 | PRELOAD: CLONE-001-PL11.ipt
+2026-01-15 15:55:26 | STEP 8b: Pre-loading all copied SUB-ASSEMBLIES...
+2026-01-15 15:55:26 | PRELOAD: Support Frame.iam
+2026-01-15 15:55:26 | PRELOAD: Bolted Connection1.iam
+2026-01-15 15:55:26 | PRELOAD: Support Column.iam
+2026-01-15 15:55:26 | PRELOAD: Bolted Connection2.iam
+2026-01-15 15:55:26 | PRELOAD: Support Beam-1.iam
+2026-01-15 15:55:26 | PRELOAD: Support Beam-3.iam
+2026-01-15 15:55:26 | PRELOAD: Support Beam-2.iam
+2026-01-15 15:55:26 | PRELOAD: Bolted Connection1.iam
+2026-01-15 15:55:26 | PRELOAD: Flood Chute.iam
+2026-01-15 15:55:26 | STEP 8c: Opening main assembly with all components in memory...
+2026-01-15 15:55:26 | STEP 8c: Main assembly opened successfully
+2026-01-15 15:55:26 | STEP 8d: Updating file references in all assemblies...
+2026-01-15 15:55:26 | STEP 8: Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Found TO DELETE - FLOODBOX TEST.iam in memory
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Found 4 references
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: bolted connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: support frame.iam -> Support Frame.iam
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Updated 2 references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:26 | STEP 8: Updating references in Support Frame.iam
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Found Support Frame.iam in memory
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Found 6 references
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: bolted connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: ReplaceReference failed: Invalid procedure call or argument
+2026-01-15 15:55:26 | IN-MEMORY UPDATE: Updated 0 references in Support Frame.iam
+2026-01-15 15:55:26 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Bolted Connection1.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 0 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 0 references in Bolted Connection1.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Support Column.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Support Column.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 2 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part1 fb-c1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part2 203x133x25 fb-c1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 2 references in Support Column.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Bolted Connection2.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Bolted Connection2.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 0 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 0 references in Bolted Connection2.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Support Beam-1.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Support Beam-1.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 2 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part1 fb-b1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part2 203x133x25 fb-b1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 2 references in Support Beam-1.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Support Beam-3.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Support Beam-3.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 2 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part1 fb-b1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part2 203x133x25 fb-b3.ipt -> CLONE-001-B3.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 2 references in Support Beam-3.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Support Beam-2.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Support Beam-2.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 2 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part1 fb-b2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part2 203x133x25 fb-b2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 2 references in Support Beam-2.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Bolted Connection1.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 0 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 0 references in Bolted Connection1.iam
+2026-01-15 15:55:27 | STEP 8: Updating references in Flood Chute.iam
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found Flood Chute.iam in memory
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Found 12 references
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part7 angle fb-c.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: lug fb-c.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part1 fb-c.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part10 fb-c.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part11 corner gusset fb-c.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part2 fb-c.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part3 fb-c.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part4 fb-c.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part5 fb-c.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part6 angle fb-c.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part8 (part7 angle mir) fb-c.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: part9 angle fb-c.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:55:27 | IN-MEMORY UPDATE: Updated 12 references in Flood Chute.iam
+2026-01-15 15:55:27 | STEP 8e: Saving all documents...
+2026-01-15 15:55:29 | SAVED: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:29 | STEP 8: Complete
+2026-01-15 15:55:29 | STEP 9: Updating IDW drawing references
+2026-01-15 15:55:29 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2026-01-15 15:55:29 | IDW UPDATE: Error: Object required
+2026-01-15 15:55:29 | IDW UPDATE: Calling Inventor fallback method
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Starting IDW update for destFolder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Enabled SilentOperation mode
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Set resolve mode to skip unresolved files
+2026-01-15 15:55:29 | IDW UPDATE: Opening main assembly to load all parts: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:29 | IDW UPDATE: WARNING - Could not open main assembly: Object doesn't support this property or method
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Found 38 files in destination folder
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-00.idw
+2026-01-15 15:55:29 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-00.idw
+2026-01-15 15:55:30 | IDW UPDATE: Found 1 references
+2026-01-15 15:55:30 | IDW UPDATE: Checking reference: Flood Box.iam (path: F:\NL\06. Model\02. WBS\NP\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Flood Box.iam)
+2026-01-15 15:55:30 | IDW UPDATE: FOUND mapping - Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:55:30 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:31 | IDW UPDATE: Saved MGY-200-DRD-09-00.idw (1 updated)
+2026-01-15 15:55:31 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-00.idw
+2026-01-15 15:55:31 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:55:33 | IDW UPDATE: Found 1 references
+2026-01-15 15:55:33 | IDW UPDATE: Checking reference: Support Frame.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Frame.iam)
+2026-01-15 15:55:33 | IDW UPDATE: FOUND mapping - Support Frame.iam -> Support Frame.iam
+2026-01-15 15:55:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:35 | IDW UPDATE: Saved MGY-200-DRD-09-01-00.idw (1 updated)
+2026-01-15 15:55:35 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-01.idw
+2026-01-15 15:55:35 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:55:36 | IDW UPDATE: Found 3 references
+2026-01-15 15:55:36 | IDW UPDATE: Checking reference: Support Column.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Column.iam)
+2026-01-15 15:55:36 | IDW UPDATE: FOUND mapping - Support Column.iam -> Support Column.iam
+2026-01-15 15:55:36 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:36 | IDW UPDATE: Checking reference: Part1 FB-C1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Column\Part1 FB-C1.ipt)
+2026-01-15 15:55:36 | IDW UPDATE: FOUND mapping - Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:55:36 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:36 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-C1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt)
+2026-01-15 15:55:36 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:55:36 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:37 | IDW UPDATE: Saved MGY-200-DRD-09-01-01.idw (3 updated)
+2026-01-15 15:55:37 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:37 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:55:38 | IDW UPDATE: Found 3 references
+2026-01-15 15:55:38 | IDW UPDATE: Checking reference: Support Beam-1.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-1.iam)
+2026-01-15 15:55:38 | IDW UPDATE: FOUND mapping - Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:55:38 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:38 | IDW UPDATE: Checking reference: Part1 FB-B1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt)
+2026-01-15 15:55:38 | IDW UPDATE: FOUND mapping - Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:55:38 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:38 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-B1.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt)
+2026-01-15 15:55:38 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:55:38 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:39 | IDW UPDATE: Saved MGY-200-DRD-09-01-02.idw (3 updated)
+2026-01-15 15:55:39 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-01-03.idw
+2026-01-15 15:55:39 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:55:41 | IDW UPDATE: Found 3 references
+2026-01-15 15:55:41 | IDW UPDATE: Checking reference: Support Beam-2.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-2.iam)
+2026-01-15 15:55:41 | IDW UPDATE: FOUND mapping - Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:55:41 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:41 | IDW UPDATE: Checking reference: Part1 FB-B2.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt)
+2026-01-15 15:55:41 | IDW UPDATE: FOUND mapping - Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:55:41 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:41 | IDW UPDATE: Checking reference: Part2 203x133x25 FB-B2.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt)
+2026-01-15 15:55:41 | IDW UPDATE: FOUND mapping - Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:55:41 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:42 | IDW UPDATE: Saved MGY-200-DRD-09-01-03.idw (3 updated)
+2026-01-15 15:55:42 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-02.idw
+2026-01-15 15:55:42 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-02.idw
+2026-01-15 15:55:43 | IDW UPDATE: Found 13 references
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Flood Chute.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute.iam)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part7 Angle FB-C.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Part7 Angle FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Lug FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Lug FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part1 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part1 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part10 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part10 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part11 Corner Gusset FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part11 Corner Gusset FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part2 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part2 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part3 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part3 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part4 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part4 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part5 FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part5 FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part6 Angle FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part6 Angle FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part8 (Part7 Angle MIR) FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:43 | IDW UPDATE: Checking reference: Part9 Angle FB-C.ipt (path: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Chute\Part9 Angle FB-C.ipt)
+2026-01-15 15:55:43 | IDW UPDATE: FOUND mapping - Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:55:43 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 15:55:44 | IDW UPDATE: Saved MGY-200-DRD-09-02.idw (13 updated)
+2026-01-15 15:55:44 | IDW UPDATE (Inventor): Restored original settings
+2026-01-15 15:55:44 | STEP 10: Updating iProperties for copied documents
+2026-01-15 15:55:44 | IPROP: Starting iProperties update for 36 copied files
+2026-01-15 15:55:45 | IPROP: Updated iProperties for TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:56:07 | IPROP: ERROR saving TO DELETE - FLOODBOX TEST.iam: Object required
+2026-01-15 15:56:17 | IPROP: Updated iProperties for Support Frame.iam
+2026-01-15 15:56:17 | IPROP: ERROR saving Support Frame.iam: Object required
+2026-01-15 15:56:18 | IPROP: Updated iProperties for Bolted Connection1.iam
+2026-01-15 15:56:18 | IPROP: ERROR saving Bolted Connection1.iam: Object required
+2026-01-15 15:56:18 | IPROP: Updated iProperties for Support Column.iam
+2026-01-15 15:56:19 | IPROP: ERROR saving Support Column.iam: Object required
+2026-01-15 15:56:19 | IPROP: Updated iProperties for CLONE-001-PL1.ipt
+2026-01-15 15:56:19 | IPROP: ERROR saving CLONE-001-PL1.ipt: Object required
+2026-01-15 15:56:20 | IPROP: Updated iProperties for CLONE-001-B1.ipt
+2026-01-15 15:56:20 | IPROP: ERROR saving CLONE-001-B1.ipt: Object required
+2026-01-15 15:56:21 | IPROP: Updated iProperties for Bolted Connection2.iam
+2026-01-15 15:56:21 | IPROP: ERROR saving Bolted Connection2.iam: Object required
+2026-01-15 15:56:21 | IPROP: Updated iProperties for Support Beam-1.iam
+2026-01-15 15:56:22 | IPROP: ERROR saving Support Beam-1.iam: Object required
+2026-01-15 15:56:22 | IPROP: Updated iProperties for CLONE-001-PL2.ipt
+2026-01-15 15:56:22 | IPROP: ERROR saving CLONE-001-PL2.ipt: Object required
+2026-01-15 15:56:23 | IPROP: Updated iProperties for CLONE-001-B2.ipt
+2026-01-15 15:56:23 | IPROP: ERROR saving CLONE-001-B2.ipt: Object required
+2026-01-15 15:56:24 | IPROP: Updated iProperties for Support Beam-3.iam
+2026-01-15 15:56:24 | IPROP: ERROR saving Support Beam-3.iam: Object required
+2026-01-15 15:56:25 | IPROP: Updated iProperties for CLONE-001-B3.ipt
+2026-01-15 15:56:25 | IPROP: ERROR saving CLONE-001-B3.ipt: Object required
+2026-01-15 15:56:25 | IPROP: Updated iProperties for Support Beam-2.iam
+2026-01-15 15:56:26 | IPROP: ERROR saving Support Beam-2.iam: Object required
+2026-01-15 15:56:26 | IPROP: Updated iProperties for CLONE-001-PL3.ipt
+2026-01-15 15:56:26 | IPROP: ERROR saving CLONE-001-PL3.ipt: Object required
+2026-01-15 15:56:27 | IPROP: Updated iProperties for CLONE-001-B4.ipt
+2026-01-15 15:56:27 | IPROP: ERROR saving CLONE-001-B4.ipt: Object required
+2026-01-15 15:56:28 | IPROP: Updated iProperties for Bolted Connection1.iam
+2026-01-15 15:56:28 | IPROP: ERROR saving Bolted Connection1.iam: Object required
+2026-01-15 15:56:29 | IPROP: Updated iProperties for Flood Chute.iam
+2026-01-15 15:56:31 | IPROP: ERROR saving Flood Chute.iam: Object required
+2026-01-15 15:56:32 | IPROP: Updated iProperties for CLONE-001-PL4.ipt
+2026-01-15 15:56:34 | IPROP: ERROR saving CLONE-001-PL4.ipt: Object required
+2026-01-15 15:56:34 | IPROP: Updated iProperties for CLONE-001-PL5.ipt
+2026-01-15 15:56:36 | IPROP: ERROR saving CLONE-001-PL5.ipt: Object required
+2026-01-15 15:56:36 | IPROP: Updated iProperties for CLONE-001-PL6.ipt
+2026-01-15 15:56:37 | IPROP: ERROR saving CLONE-001-PL6.ipt: Object required
+2026-01-15 15:56:38 | IPROP: Updated iProperties for CLONE-001-PL7.ipt
+2026-01-15 15:56:38 | IPROP: ERROR saving CLONE-001-PL7.ipt: Object required
+2026-01-15 15:56:40 | IPROP: Updated iProperties for CLONE-001-PL8.ipt
+2026-01-15 15:56:40 | IPROP: ERROR saving CLONE-001-PL8.ipt: Object required
+2026-01-15 15:56:41 | IPROP: Updated iProperties for CLONE-001-A1.ipt
+2026-01-15 15:56:41 | IPROP: ERROR saving CLONE-001-A1.ipt: Object required
+2026-01-15 15:56:42 | IPROP: Updated iProperties for CLONE-001-A2.ipt
+2026-01-15 15:56:42 | IPROP: ERROR saving CLONE-001-A2.ipt: Object required
+2026-01-15 15:56:43 | IPROP: Updated iProperties for CLONE-001-A3.ipt
+2026-01-15 15:56:43 | IPROP: ERROR saving CLONE-001-A3.ipt: Object required
+2026-01-15 15:56:43 | IPROP: Updated iProperties for CLONE-001-A4.ipt
+2026-01-15 15:56:43 | IPROP: ERROR saving CLONE-001-A4.ipt: Object required
+2026-01-15 15:56:44 | IPROP: Updated iProperties for CLONE-001-PL9.ipt
+2026-01-15 15:56:44 | IPROP: ERROR saving CLONE-001-PL9.ipt: Object required
+2026-01-15 15:56:44 | IPROP: Updated iProperties for CLONE-001-PL10.ipt
+2026-01-15 15:56:45 | IPROP: ERROR saving CLONE-001-PL10.ipt: Object required
+2026-01-15 15:56:46 | IPROP: Updated iProperties for CLONE-001-PL11.ipt
+2026-01-15 15:56:46 | IPROP: ERROR saving CLONE-001-PL11.ipt: Object required
+2026-01-15 15:56:46 | IPROP: Completed - updated 29 documents
+2026-01-15 15:56:46 | STEP 11: Validation scan and destination logging
+2026-01-15 15:56:46 | VALIDATE: Writing source and destination inventories...
+2026-01-15 15:56:46 | VALIDATE: Source file count = 56
+2026-01-15 15:56:46 | VALIDATE: Destination file count = 72
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box - 2025-11-25.rar
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\MGY-200-DRD-09-00.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Flood Chute Development for plates.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Flood Chute Development.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Flood Chute.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Lug FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\MGY-200-DRD-09-02.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part1 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part10 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part2 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part3 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part4 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part5 FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box\Design Accelerator\Bolted Connection1.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\OldVersions\Flood Box.0034.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\MGY-200-DRD-09-01-00.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\OldVersions\Support Frame.0075.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\MGY-200-DRD-09-01-02.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\OldVersions\Part1 FB-B1.0016.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\OldVersions\Part2 203x133x25 FB-B1.0053.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\OldVersions\Support Beam-1.0058.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\MGY-200-DRD-09-01-03.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\OldVersions\Part1 FB-B2.0018.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\OldVersions\Part2 203x133x25 FB-B2.0042.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\OldVersions\Support Beam-2.0051.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\MGY-200-DRD-09-01-02.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\Part1 FB-B3.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\Part2 203x133x25 FB-B3.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\Support Beam-3.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\OldVersions\Part1 FB-B1.0016.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\OldVersions\Part2 203x133x25 FB-B1.0053.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\OldVersions\Part2 203x133x25 FB-B3.0056.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\OldVersions\Support Beam-1.0057.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\OldVersions\Support Beam-3.0061.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\lockfile.lck
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\MGY-200-DRD-09-01-01.idw
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Part1 FB-C1.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Support Column.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\OldVersions\Part2 203x133x25 FB-C1.0046.ipt
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\OldVersions\Support Column.0061.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame\Design Accelerator\Bolted Connection1.iam
+2026-01-15 15:56:46 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame\Design Accelerator\Bolted Connection2.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_155522.log
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Bolted Connection1.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Bolted Connection2.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A1.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A2.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A3.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A4.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B1.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B2.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B3.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B4.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL1.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL10.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL11.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL2.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL3.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL4.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL5.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL6.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL7.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL8.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL9.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute Development for plates.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute Development.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-00.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-00.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-01.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-02.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-03.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-02.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Part7 Angle FB-C.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-1.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-2.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-3.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Column.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Frame.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Bolted Connection1.0006.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Bolted Connection2.0004.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-A1.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-A2.0006.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-A3.0005.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-A4.0007.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-B1.0047.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-B2.0054.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-B3.0057.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-B4.0043.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL1.0017.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL10.0015.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL11.0005.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL2.0017.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL3.0019.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL4.0010.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL5.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL6.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL7.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL8.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\CLONE-001-PL9.0008.ipt
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Flood Chute.0017.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-00.0007.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-01-00.0009.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-01-01.0013.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-01-02.0014.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-01-03.0014.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\MGY-200-DRD-09-02.0014.idw
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Support Beam-1.0060.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Support Beam-2.0053.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Support Beam-3.0063.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Support Column.0063.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\Support Frame.0076.iam
+2026-01-15 15:56:46 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\OldVersions\TO DELETE - FLOODBOX TEST.0035.iam
+2026-01-15 15:56:46 | VALIDATE: Checking copied mappings...
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Frame.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame\Design Accelerator\Bolted Connection1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Bolted Connection1.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Support Column.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Column.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Part1 FB-C1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL1.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B1.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Frame\Design Accelerator\Bolted Connection2.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Bolted Connection2.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Support Beam-1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-1.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL2.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B2.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\Support Beam-3.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-3.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\Part2 203x133x25 FB-B3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B3.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Support Beam-2.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Support Beam-2.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL3.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-B4.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box\Design Accelerator\Bolted Connection1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Bolted Connection1.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Flood Chute.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\Flood Chute.iam
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part1 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL4.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part2 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL5.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part3 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL6.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part4 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL7.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part5 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL8.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part6 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A1.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part7 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A2.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A3.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part9 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-A4.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part10 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL9.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL10.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\Lug FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\CLONE-001-PL11.ipt
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\MGY-200-DRD-09-00.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-00.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Chute\MGY-200-DRD-09-02.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-02.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\MGY-200-DRD-09-01-00.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-00.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-1\MGY-200-DRD-09-01-02.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-02.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-2\MGY-200-DRD-09-01-03.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-03.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Beam-3\MGY-200-DRD-09-01-02.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-02.idw
+2026-01-15 15:56:46 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Support\Support Column\MGY-200-DRD-09-01-01.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\MGY-200-DRD-09-01-01.idw
+2026-01-15 15:56:46 | VALIDATE: Missing mapped files = 0
+2026-01-15 15:56:46 | === ASSEMBLY CLONER COMPLETED ===

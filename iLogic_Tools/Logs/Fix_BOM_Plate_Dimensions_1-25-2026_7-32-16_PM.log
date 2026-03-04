@@ -1,0 +1,149 @@
+1/25/2026 7:32:07 PM - === FIX BOM PLATE DIMENSIONS STARTED ===
+1/25/2026 7:32:07 PM - Date/Time: 1/25/2026 7:32:07 PM
+1/25/2026 7:32:07 PM - Attempting to get Inventor application...
+1/25/2026 7:32:07 PM - Connected to Inventor successfully
+1/25/2026 7:32:07 PM - Active document: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\Static Screen Bottom Wider.iam
+1/25/2026 7:32:07 PM - Document type: 12291
+1/25/2026 7:32:07 PM - Processing assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\Static Screen Bottom Wider.iam
+1/25/2026 7:32:07 PM - 
+1/25/2026 7:32:07 PM - === STEP 1: Scanning assembly for plate parts ===
+1/25/2026 7:32:07 PM - Looking for parts with PL, VRN, or S355JR in description...
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL33.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL34.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL35.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL36.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL37.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL38.ipt (PL 6mm S355JR)
+1/25/2026 7:32:07 PM -   Found plate: N1SCR04-726-PL39.ipt (PL 20mm S355JR)
+1/25/2026 7:32:07 PM - Found 7 plate parts
+1/25/2026 7:32:07 PM - 
+1/25/2026 7:32:07 PM - === STEP 2: Processing plate parts ===
+1/25/2026 7:32:07 PM - 
+1/25/2026 7:32:07 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL33.ipt
+1/25/2026 7:32:07 PM -   Part already open in Inventor
+1/25/2026 7:32:07 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:07 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:07 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:07 PM -   Existing custom properties:
+1/25/2026 7:32:07 PM -     - LENGTH = 3389.800 mm
+1/25/2026 7:32:07 PM -     - PLATE LENGTH = 3389.800 mm
+1/25/2026 7:32:07 PM -     - PLATE WIDTH = 246.674 mm
+1/25/2026 7:32:07 PM -     - HEIGHT = 3389.800 mm
+1/25/2026 7:32:07 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:07 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:07 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:07 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:07 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:07 PM -   Part saved
+1/25/2026 7:32:07 PM - 
+1/25/2026 7:32:07 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL34.ipt
+1/25/2026 7:32:08 PM -   Part already open in Inventor
+1/25/2026 7:32:08 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:08 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:08 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:08 PM -   Existing custom properties:
+1/25/2026 7:32:08 PM -     - PLATE LENGTH = 816.542 mm
+1/25/2026 7:32:08 PM -     - PLATE WIDTH = 532.012 mm
+1/25/2026 7:32:08 PM -     - HEIGHT = 816.542 mm
+1/25/2026 7:32:08 PM -     - LENGTH = 816.542 mm
+1/25/2026 7:32:08 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:08 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:08 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:08 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:08 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:08 PM -   Part saved
+1/25/2026 7:32:08 PM - 
+1/25/2026 7:32:08 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL35.ipt
+1/25/2026 7:32:08 PM -   Part already open in Inventor
+1/25/2026 7:32:08 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:08 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:08 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:08 PM -   Existing custom properties:
+1/25/2026 7:32:08 PM -     - LENGTH = 3389.800 mm
+1/25/2026 7:32:08 PM -     - PLATE LENGTH = 3389.800 mm
+1/25/2026 7:32:08 PM -     - PLATE WIDTH = 175.000 mm
+1/25/2026 7:32:08 PM -     - HEIGHT = 3389.800 mm
+1/25/2026 7:32:08 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:08 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:08 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:08 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:08 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:08 PM -   Part saved
+1/25/2026 7:32:08 PM - 
+1/25/2026 7:32:08 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL36.ipt
+1/25/2026 7:32:08 PM -   Part already open in Inventor
+1/25/2026 7:32:08 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:08 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:08 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:08 PM -   Existing custom properties:
+1/25/2026 7:32:08 PM -     - LENGTH = 3389.800 mm
+1/25/2026 7:32:08 PM -     - PLATE LENGTH = 3389.800 mm
+1/25/2026 7:32:08 PM -     - PLATE WIDTH = 396.417 mm
+1/25/2026 7:32:08 PM -     - HEIGHT = 3389.800 mm
+1/25/2026 7:32:08 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:08 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:08 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:08 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:08 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:08 PM -   Part saved
+1/25/2026 7:32:08 PM - 
+1/25/2026 7:32:08 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL37.ipt
+1/25/2026 7:32:08 PM -   Part already open in Inventor
+1/25/2026 7:32:08 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:08 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:09 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:09 PM -   Existing custom properties:
+1/25/2026 7:32:09 PM -     - LENGTH = 3389.800 mm
+1/25/2026 7:32:09 PM -     - PLATE LENGTH = 3389.800 mm
+1/25/2026 7:32:09 PM -     - PLATE WIDTH = 408.633 mm
+1/25/2026 7:32:09 PM -     - HEIGHT = 3389.800 mm
+1/25/2026 7:32:09 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:09 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:09 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:09 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:09 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:09 PM -   Part saved
+1/25/2026 7:32:09 PM - 
+1/25/2026 7:32:09 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL38.ipt
+1/25/2026 7:32:09 PM -   Part already open in Inventor
+1/25/2026 7:32:09 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:09 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:09 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:09 PM -   Existing custom properties:
+1/25/2026 7:32:09 PM -     - LENGTH = 3389.800 mm
+1/25/2026 7:32:09 PM -     - PLATE LENGTH = 3389.800 mm
+1/25/2026 7:32:09 PM -     - PLATE WIDTH = 600.000 mm
+1/25/2026 7:32:09 PM -     - HEIGHT = 3389.800 mm
+1/25/2026 7:32:09 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:09 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:09 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:09 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:09 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:09 PM -   Part saved
+1/25/2026 7:32:09 PM - 
+1/25/2026 7:32:09 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\726 Static Screen\Bottom\N1SCR04-726-PL39.ipt
+1/25/2026 7:32:09 PM -   Part already open in Inventor
+1/25/2026 7:32:09 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/25/2026 7:32:09 PM -   Sheet metal document detected via SubType
+1/25/2026 7:32:09 PM -   Updated LENGTH custom iProperty (expression)
+1/25/2026 7:32:09 PM -   Existing custom properties:
+1/25/2026 7:32:09 PM -     - LENGTH = 150.000 mm
+1/25/2026 7:32:09 PM -     - PLATE LENGTH = 150.000 mm
+1/25/2026 7:32:09 PM -     - PLATE WIDTH = 90.000 mm
+1/25/2026 7:32:09 PM -     - HEIGHT = 150.000 mm
+1/25/2026 7:32:09 PM -     - =<sheet metal width> = WIDTH
+1/25/2026 7:32:09 PM -   WIDTH property does not exist, creating...
+1/25/2026 7:32:09 PM -   ERROR creating WIDTH property: Invalid procedure call or argument (Error: 5)
+1/25/2026 7:32:09 PM -   ERROR creating empty WIDTH property: Invalid procedure call or argument
+1/25/2026 7:32:09 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/25/2026 7:32:09 PM -   Part saved
+1/25/2026 7:32:09 PM - 
+1/25/2026 7:32:09 PM - === STEP 3: Refreshing BOM ===
+1/25/2026 7:32:09 PM - BOM refreshed successfully
+1/25/2026 7:32:09 PM - 
+1/25/2026 7:32:09 PM - === PROCESSING COMPLETE ===
+1/25/2026 7:32:09 PM - Parts processed successfully: 7
+1/25/2026 7:32:09 PM - Parts skipped (not sheet metal): 0
+1/25/2026 7:32:09 PM - Parts failed: 0
+1/25/2026 7:32:09 PM - Total plate parts: 7
+

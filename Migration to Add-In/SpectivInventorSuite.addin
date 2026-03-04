@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ========================================================================
+     SPECTIV INVENTOR AUTOMATION SUITE - ADD-IN MANIFEST
+     ========================================================================
+     Description: Inventor Add-In manifest file
+     Location: Copy to %APPDATA%\Autodesk\ApplicationPlugins\SpectivInventorSuite\
+
+     INSTALLATION:
+     1. Create folder: %APPDATA%\Autodesk\ApplicationPlugins\SpectivInventorSuite\
+     2. Copy this file as: SpectivInventorSuite.addin
+     3. Copy SpectivInventorSuite.dll to same folder
+     4. Restart Inventor
+
+     SUPPORTED VERSIONS:
+     - Inventor 2026
+     - Inventor 2025
+     - Inventor 2024
+     ======================================================================== -->
+<Addin Type="Application">
+    <ClassId>{A8E8C9A2-1234-4567-89AB-CDEF01234567}</ClassId>
+    <ClientId>{A8E8C9A2-1234-4567-89AB-CDEF01234569}</ClientId>
+    <DisplayName>Spectiv Inventor Automation Suite</DisplayName>
+    <Description>Assembly automation tools including Assembly Cloner, Part Renaming, and IDW Updates</Description>
+
+    <Assembly>SpectivInventorSuite.dll</Assembly>
+
+    <AssemblyLocation>C:\Users\Quintin\AppData\Roaming\Autodesk\ApplicationPlugins\SpectivInventorSuite\SpectivInventorSuite.dll</AssemblyLocation>
+
+    <SupportedSoftwareVersion>
+        <Version>2026</Version>
+        <Version>2025</Version>
+        <Version>2024</Version>
+    </SupportedSoftwareVersion>
+
+    <VendorId>Spectiv</VendorId>
+    <VendorDescription>Spectiv Solutions</VendorDescription>
+</Addin>

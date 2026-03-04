@@ -1,0 +1,366 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AssemblyClonerAddIn
+</name>
+</assembly>
+<members>
+<member name="T:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer">
+ <summary>
+ The main Add-In server class that Inventor loads
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.Activate(Inventor.ApplicationAddInSite,System.Boolean)">
+ <summary>
+ Called when the Add-In is loaded by Inventor
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.Deactivate">
+ <summary>
+ Called when the Add-In is unloaded
+ </summary>
+</member>
+<member name="P:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.Automation">
+ <summary>
+ Returns automation object (not used)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.ExecuteCommand(System.Int32)">
+ <summary>
+ Execute command (not used)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.CreateUserInterface">
+ <summary>
+ Create ribbon buttons
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.CreateGlyphPicture(System.String,System.Int32,System.Drawing.Color)">
+ <summary>
+ Creates a simple colored square icon with a single letter.
+ This avoids shipping separate icon files and prevents the ribbon from showing text-only controls.
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.PictureDispConverter">
+ <summary>
+ Helper to convert System.Drawing.Image to stdole.IPictureDisp (required by Inventor API).
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.m_CloneButton_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Clone Assembly button clicked
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.StandardAddInServer.m_PartRenamerButton_OnExecute(Inventor.NameValueMap)">
+ <summary>
+ Handles the Part Renamer button click
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner">
+ <summary>
+ Main assembly cloning logic - Uses EXACT methodology from VBScript Option 9
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.#ctor(Inventor.Application)">
+ <summary>
+ Constructor
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CloneAssembly">
+ <summary>
+ Main entry point - clone the active assembly
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.UpdateCopiedSubAssemblyReferences(System.String)">
+ <summary>
+ Update references inside copied sub-assemblies so nested links resolve to copied files.
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.GetDestinationFolder(System.String)">
+ <summary>
+ Get destination folder from user using folder browser dialog
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CollectAllReferencedParts(Inventor.AssemblyDocument,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ Collect all referenced parts from assembly (recursive)
+ Also captures occurrence names for iLogic patching
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CollectPartsRecursively(Inventor.AssemblyDocument,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+ <summary>
+ Recursively collect parts from assembly
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CopyAllSubAssemblies(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+ <summary>
+ Copy all referenced sub-assemblies to destination folder (same filename)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.GetDescriptionFromIProperty(Inventor.Document)">
+ <summary>
+ Get description from iProperty
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CopyAllParts(System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+ <summary>
+ Copy all parts to destination folder using File.Copy (same as VBScript fso.CopyFile)
+ Builds occurrence name mappings for iLogic patching
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.ClassifyByDescription(System.String)">
+ <summary>
+ Classify part by description (same as VBScript)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.UpdateAssemblyAndPatchILogic(System.String)">
+ <summary>
+ Update assembly references AND patch iLogic in SAME session
+ CRITICAL: Don't close and re-open - that causes Inventor to re-resolve references!
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.UpdateAssemblyReferencesWithFileDescriptors(System.String)">
+ <summary>
+ OLD METHOD - DEPRECATED - Use UpdateAssemblyAndPatchILogic instead
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.RenameOccurrencesToMatchFiles(Inventor.AssemblyDocument)">
+ <summary>
+ Rename all occurrences to match their new filenames
+ CRITICAL: fd.ReplaceReference updates file path but NOT occurrence name!
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.ProcessIDWFilesWithReferenceUpdate(System.String,System.String,System.String,System.String)">
+ <summary>
+ Process IDW files using fd.ReplaceReference (EXACT same as VBScript ProcessIDWFilesWithReferenceUpdate)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.TryGetMappedPath(System.String,System.String@)">
+ <summary>
+ Resolve mapped path using exact full path first, then filename fallback for normalized path mismatches.
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.InitializeLog">
+ <summary>
+ Initialize logging
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.LogMessage(System.String)">
+ <summary>
+ Log a message with timestamp
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CloseLog">
+ <summary>
+ Close the log file
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.SaveiLogicPatchLog(System.String)">
+ <summary>
+ Save the iLogic patch log to a file
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.UpdateIPropertiesForCopiedDocuments">
+ <summary>
+ Update iProperties for all copied documents (parts and assemblies)
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher">
+ <summary>
+ Handles all iLogic-related operations
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.#ctor(Inventor.Application)">
+ <summary>
+ Constructor
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.InitializeiLogic">
+ <summary>
+ Initialize connection to iLogic Add-In
+ </summary>
+</member>
+<member name="P:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.IsAvailable">
+ <summary>
+ Check if iLogic is available
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.ScanAndDisplayRules(Inventor.Document)">
+ <summary>
+ Scan a document and display all iLogic rules with source code
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.ExportRulesToFiles(Inventor.Document,System.Object)">
+ <summary>
+ Export all rules from a document to text files
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.GetRulesAsDictionary(Inventor.Document)">
+ <summary>
+ Get all rules from a document as a dictionary (name -> text)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.PatchRules(Inventor.Document,System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ Patch all rules in a document - replace old part names with new ones
+ </summary>
+ <param name="doc">The document containing rules</param>
+ <param name="replacements">Dictionary of old name -> new name</param>
+ <returns>Number of rules modified</returns>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.PatchRulesRecursive(Inventor.Document,System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ Patch rules in a document and all its referenced documents (recursive)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.PatchOccurrenceRecursive(Inventor.ComponentOccurrence,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.HashSet{System.String})">
+ <summary>
+ Recursively patch rules in component occurrences
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.BuildReplacementsDictionary(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+ <summary>
+ Build replacements dictionary from occurrence rename mapping
+ </summary>
+ <param name="oldNames">Old occurrence names (e.g., "Part1 TFC S-2:1")</param>
+ <param name="newNames">New occurrence names (e.g., "STAIRCASE-3-PL1:1")</param>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.RemoveInstanceNumber(System.String)">
+ <summary>
+ Remove instance number from occurrence name (e.g., "Part:1" -> "Part")
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.iLogicPatcher.CleanFileName(System.String)">
+ <summary>
+ Clean a string for use as filename
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer">
+ <summary>
+ Part Renamer - Dynamic heritage-based renaming solution
+ Port of Assembly_Renamer.vbs with EXACT same logic
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.#ctor(Inventor.Application)">
+ <summary>
+ Constructor
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.RenameAssemblyParts">
+ <summary>
+ Main entry point - rename parts in active assembly
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.DetectOpenAssembly">
+ <summary>
+ Detect the open assembly (same as VBScript DetectOpenAssembly)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.FlattenAndGroupComponents(Inventor.AssemblyDocument)">
+ <summary>
+ Flatten and group components (same as VBScript FlattenAndGroupComponents)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.ProcessAssemblyRecursively(Inventor.AssemblyDocument,System.Collections.Generic.Dictionary{System.String,System.Boolean},System.String,System.Boolean)">
+ <summary>
+ Recursively process assembly (same as VBScript ProcessAssemblyRecursively)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.GetDescriptionFromIProperty(Inventor.Document)">
+ <summary>
+ Get description from iProperty (same as VBScript GetDescriptionFromIProperty)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.ClassifyByDescription(System.String)">
+ <summary>
+ Classify by description (EXACT same logic as VBScript ClassifyByDescription)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.GetPlantSectionNaming">
+ <summary>
+ Get plant section naming from user (same as VBScript GetPlantSectionNaming)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.ShowGroupsSummary">
+ <summary>
+ Show groups summary (same as VBScript ShowGroupsSummary)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.GetUserNamingSchemes">
+ <summary>
+ Get user naming schemes (same as VBScript GetUserNamingSchemes)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.CreateDynamicHeritageBasedCopies(Inventor.AssemblyDocument)">
+ <summary>
+ Create dynamic heritage-based copies (same as VBScript CreateDynamicHeritageBasedCopies)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.GenerateNewFileName(System.String,System.Int32)">
+ <summary>
+ Generate new filename (same as VBScript GenerateNewFileName)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.UpdateDynamicAssemblyReferences(Inventor.AssemblyDocument)">
+ <summary>
+ Update assembly references (same as VBScript UpdateDynamicAssemblyReferences)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.UpdateAssemblyReferencesRecursively(Inventor.AssemblyDocument,System.String)">
+ <summary>
+ Recursively update assembly references (same as VBScript)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.UpdateAllIDWsInDirectory(Inventor.AssemblyDocument)">
+ <summary>
+ Update all IDWs in directory (same as VBScript UpdateAllIDWsInDirectory)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.UpdateSingleIDWWithDynamicReferences(System.String,System.String)">
+ <summary>
+ Update single IDW (same as VBScript UpdateSingleIDWWithDynamicReferences)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.RenameMainAssemblyWithPrefix(Inventor.AssemblyDocument)">
+ <summary>
+ Rename the main assembly with the selected project prefix and track mapping for IDW updates.
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.SaveMappingFile(Inventor.AssemblyDocument)">
+ <summary>
+ Save mapping file (same as VBScript SaveMappingFile)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.ScanRegistryForCounters(System.Collections.Generic.Dictionary{System.String,System.Int32},System.String)">
+ <summary>
+ Scan registry for counters (same as VBScript ScanRegistryForCounters)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.SaveCounterToRegistry(System.String,System.Int32)">
+ <summary>
+ Save counter to registry (same as VBScript SaveCounterToRegistry)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.ExtractPrefixFromScheme(System.String)">
+ <summary>
+ Extract prefix from scheme (same as VBScript ExtractPrefixFromScheme)
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.InitializeLog">
+ <summary>
+ Initialize logging
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.LogMessage(System.String)">
+ <summary>
+ Log a message
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.CloseLog">
+ <summary>
+ Close log
+ </summary>
+</member>
+</members>
+</doc>

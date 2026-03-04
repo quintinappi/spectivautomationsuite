@@ -1,0 +1,133 @@
+2026-01-15 15:45:31 | === ASSEMBLY CLONER ===
+2026-01-15 15:45:31 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 15:45:32 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 15:45:32 | STEP 1: Detecting open assembly
+2026-01-15 15:45:32 | DETECTED: Flood Box.iam
+2026-01-15 15:45:32 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 15:45:33 | STEP 2: Getting destination folder from user
+2026-01-15 15:45:36 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:45:36 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_154536.log
+2026-01-15 15:45:36 | New assembly name will be: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:45:36 | STEP 3: Asking about heritage renaming
+2026-01-15 15:45:36 | PLANT: Getting plant section naming convention from user
+2026-01-15 15:45:38 | PLANT: Using prefix: CLONE-001-
+2026-01-15 15:45:38 | STEP 4: Analyzing assembly structure
+2026-01-15 15:45:38 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Support Frame.iam at ROOT
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Support Column.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: PART Part1 FB-C1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:45:38 | COLLECT: PART Part2 203x133x25 FB-C1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: PART Part1 FB-B1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:45:38 | COLLECT: PART Part2 203x133x25 FB-B1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Support Beam-3.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: PART Part2 203x133x25 FB-B3.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-3.iam
+2026-01-15 15:45:38 | COLLECT: SUB-ASSEMBLY Support Beam-2.iam at ROOT>Support Frame.iam
+2026-01-15 15:45:38 | COLLECT: PART Part1 FB-B2.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:45:38 | COLLECT: PART Part2 203x133x25 FB-B2.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:45:38 | COLLECT: Skipping suppressed occurrence Flood Chute Development:1 at ROOT
+2026-01-15 15:45:39 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-15 15:45:39 | COLLECT: SUB-ASSEMBLY Flood Chute.iam at ROOT
+2026-01-15 15:45:39 | COLLECT: PART Part1 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part2 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part3 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part4 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part5 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part6 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part7 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part8 (Part7 Angle MIR) FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part9 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part10 FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: PART Lug FB-C.ipt (PL 20mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:45:39 | COLLECT: Found 28 unique files
+2026-01-15 15:45:39 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-00.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-02.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-01-00.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-01-03.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | COLLECT: DRAWING MGY-200-DRD-09-01-01.idw
+2026-01-15 15:45:39 | ANALYZE: Found 35 unique parts to copy
+2026-01-15 15:45:39 | STEP 5: Grouping components for heritage naming
+2026-01-15 15:45:39 | GROUP: Grouping parts for heritage naming...
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Support Frame.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Support Column.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Bolted Connection2.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Support Beam-1.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Support Beam-3.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Support Beam-2.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:45:39 | GROUP: Skipping sub-assembly Flood Chute.iam
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-00.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-02.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | GROUP: Skipping drawing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:45:39 | GROUP: Created 3 groups
+2026-01-15 15:45:39 | SCHEME: PL -> CLONE-001-PL{N}
+2026-01-15 15:45:39 | SCHEME: B -> CLONE-001-B{N}
+2026-01-15 15:45:39 | SCHEME: A -> CLONE-001-A{N}
+2026-01-15 15:45:39 | STEP 6: Copying assembly to destination
+2026-01-15 15:45:39 | Closing source assembly for safe copy...
+2026-01-15 15:45:39 | COPIED: Assembly Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:45:39 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Support Frame.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Support Column.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Support Column.iam -> Support Column.iam
+2026-01-15 15:45:39 | COPIED: Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:45:39 | COPIED: Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Bolted Connection2.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Support Beam-1.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:45:39 | COPIED: Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:45:39 | COPIED: Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Support Beam-3.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:45:39 | COPIED: Part2 203x133x25 FB-B3.ipt -> CLONE-001-B3.ipt
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Support Beam-2.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:45:39 | COPIED: Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:45:39 | COPIED: Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:45:39 | COPY: SUB-ASSEMBLY Flood Chute.iam (keeping original name)
+2026-01-15 15:45:39 | COPIED: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:45:39 | COPIED: Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:45:39 | COPIED: Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:45:39 | COPIED: Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:45:39 | COPIED: Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:45:39 | COPIED: Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:45:39 | COPIED: Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:45:39 | COPIED: Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:45:39 | COPIED: Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:45:39 | COPIED: Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:45:39 | COPIED: Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:45:39 | COPIED: Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:45:39 | COPIED: Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-00.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-00.idw -> MGY-200-DRD-09-00.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-02.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-02.idw -> MGY-200-DRD-09-02.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-01-00.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-01-00.idw -> MGY-200-DRD-09-01-00.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-01-03.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-01-03.idw -> MGY-200-DRD-09-01-03.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:45:39 | COPY: DRAWING MGY-200-DRD-09-01-01.idw (keeping original name)
+2026-01-15 15:45:39 | COPIED: MGY-200-DRD-09-01-01.idw -> MGY-200-DRD-09-01-01.idw
+2026-01-15 15:45:39 | STEP 8: Updating references in ALL copied assemblies
+2026-01-15 15:45:39 | STEP 8a: Opening main assembly to preload all components

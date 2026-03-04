@@ -1,0 +1,92 @@
+﻿2025-12-12 16:20:57 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-12-12 16:20:57 | Auto-detecting open model and creating dynamic renaming workflow
+2025-12-12 16:20:59 | STEP 1: Detecting open assembly and analyzing components
+2025-12-12 16:20:59 | DETECTED: Active assembly - b-99.iam
+2025-12-12 16:20:59 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\b-99.iam
+2025-12-12 16:21:01 | USER CONFIRMED: Proceeding with assembly processing
+2025-12-12 16:21:01 | STEP 2: Flattening hierarchy and grouping components
+2025-12-12 16:21:01 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-12-12 16:21:01 | ANALYZE: Processing assembly - b-99.iam (Level: ROOT)
+2025-12-12 16:21:01 | ANALYZE: Found 6 occurrences in b-99.iam
+2025-12-12 16:21:01 | ANALYZE: PART - b-99-PL1.ipt -> Description: PL 10mm S355JR -> Group: PL
+2025-12-12 16:21:01 | ANALYZE: Created new group - PL
+2025-12-12 16:21:01 | ANALYZE: DUPLICATE PART SKIPPED - b-99-PL1.ipt
+2025-12-12 16:21:01 | ANALYZE: PART - b-99-B2.ipt -> Description: UB203x133x25 -> Group: B
+2025-12-12 16:21:01 | ANALYZE: Created new group - B
+2025-12-12 16:21:01 | ANALYZE: PART - b-99-PL3.ipt -> Description: PL 8mm S355JR -> Group: PL
+2025-12-12 16:21:01 | ANALYZE: DUPLICATE PART SKIPPED - b-99-PL3.ipt
+2025-12-12 16:21:01 | ANALYZE: PART - b-99-PL4.ipt -> Description: PL 8mm S355JR -> Group: PL
+2025-12-12 16:21:01 | ANALYZE: Recursive processing completed - Total unique parts processed: 4
+2025-12-12 16:21:01 | ANALYZE: Created 2 component groups
+2025-12-12 16:21:01 | DEBUG GROUP: 'PL' contains 3 components
+2025-12-12 16:21:01 | DEBUG GROUP: 'B' contains 1 components
+2025-12-12 16:21:01 | STEP 3: Getting plant section naming convention
+2025-12-12 16:21:07 | PLANT: Using custom naming convention: PLANT1-000-
+2025-12-12 16:21:09 | STEP 4: Showing component groups summary
+2025-12-12 16:21:11 | SUMMARY: User approved component groups
+2025-12-12 16:21:11 | STEP 5: Getting user naming schemes for component groups
+2025-12-12 16:21:11 | INPUT: Getting user naming schemes for 2 groups
+2025-12-12 16:21:13 | INPUT: Group 'PL' -> Scheme: PLANT1-000-PL{N}
+2025-12-12 16:21:14 | INPUT: Group 'B' -> Scheme: PLANT1-000-B{N}
+2025-12-12 16:21:14 | STEP 6: Creating heritage-based copies with user naming
+2025-12-12 16:21:14 | HERITAGE: Creating dynamic heritage-based copies
+2025-12-12 16:21:14 | SCAN: Scanning Registry for existing counters with prefix: PLANT1-000-
+2025-12-12 16:21:14 | SCAN: Found existing counter: PLANT1-000-PL = 1
+2025-12-12 16:21:14 | SCAN: Found existing counter: PLANT1-000-B = 1
+2025-12-12 16:21:14 | SCAN: Loaded 2 existing counters from Registry
+2025-12-12 16:21:14 | HERITAGE: Checking for existing counter with key: 'PLANT1-000-PL'
+2025-12-12 16:21:14 | HERITAGE: Group 'PL' continuing from number 2
+2025-12-12 16:21:14 | HERITAGE: Processing group 'PL' with scheme: PLANT1-000-PL{N}
+2025-12-12 16:21:14 | HERITAGE: b-99-PL1.ipt -> PLANT1-000-PL2.ipt
+2025-12-12 16:21:14 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\b-99-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\PLANT1-000-PL2.ipt
+2025-12-12 16:21:14 | HERITAGE: Creating new file: PLANT1-000-PL2.ipt
+2025-12-12 16:21:15 | HERITAGE: SUCCESS - Created PLANT1-000-PL2.ipt
+2025-12-12 16:21:15 | HERITAGE: b-99-PL3.ipt -> PLANT1-000-PL3.ipt
+2025-12-12 16:21:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\b-99-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\PLANT1-000-PL3.ipt
+2025-12-12 16:21:15 | HERITAGE: Creating new file: PLANT1-000-PL3.ipt
+2025-12-12 16:21:15 | HERITAGE: SUCCESS - Created PLANT1-000-PL3.ipt
+2025-12-12 16:21:15 | HERITAGE: b-99-PL4.ipt -> PLANT1-000-PL4.ipt
+2025-12-12 16:21:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\b-99-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\PLANT1-000-PL4.ipt
+2025-12-12 16:21:15 | HERITAGE: Creating new file: PLANT1-000-PL4.ipt
+2025-12-12 16:21:15 | HERITAGE: SUCCESS - Created PLANT1-000-PL4.ipt
+2025-12-12 16:21:15 | REGISTRY: Saved PLANT1-000-PL = 4
+2025-12-12 16:21:15 | HERITAGE: Checking for existing counter with key: 'PLANT1-000-B'
+2025-12-12 16:21:15 | HERITAGE: Group 'B' continuing from number 2
+2025-12-12 16:21:15 | HERITAGE: Processing group 'B' with scheme: PLANT1-000-B{N}
+2025-12-12 16:21:15 | HERITAGE: b-99-B2.ipt -> PLANT1-000-B2.ipt
+2025-12-12 16:21:15 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\b-99-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\PLANT1-000-B2.ipt
+2025-12-12 16:21:15 | HERITAGE: Creating new file: PLANT1-000-B2.ipt
+2025-12-12 16:21:15 | HERITAGE: SUCCESS - Created PLANT1-000-B2.ipt
+2025-12-12 16:21:15 | REGISTRY: Saved PLANT1-000-B = 2
+2025-12-12 16:21:15 | STEP 7: Updating assembly references
+2025-12-12 16:21:15 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-12-12 16:21:15 | ASSEMBLY: Updating references in - b-99.iam (Level: ROOT)
+2025-12-12 16:21:15 | ASSEMBLY: Replacing b-99-PL1.ipt -> PLANT1-000-PL2.ipt [PL]
+2025-12-12 16:21:15 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-PL2.ipt
+2025-12-12 16:21:15 | ASSEMBLY: Replacing b-99-B2.ipt -> PLANT1-000-B2.ipt [B]
+2025-12-12 16:21:15 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-B2.ipt
+2025-12-12 16:21:15 | ASSEMBLY: Replacing b-99-PL3.ipt -> PLANT1-000-PL3.ipt [PL]
+2025-12-12 16:21:15 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-PL3.ipt
+2025-12-12 16:21:15 | ASSEMBLY: Replacing b-99-PL4.ipt -> PLANT1-000-PL4.ipt [PL]
+2025-12-12 16:21:15 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-PL4.ipt
+2025-12-12 16:21:15 | ASSEMBLY: Saving assembly with updated references...
+2025-12-12 16:21:15 | ASSEMBLY: Successfully saved assembly
+2025-12-12 16:21:15 | STEP 8: Auto-detecting and updating IDW files
+2025-12-12 16:21:15 | IDW: Auto-detecting IDW files in assembly directory
+2025-12-12 16:21:15 | IDW: Found drawing file - MGY-200-DRP-01-01-99.idw
+2025-12-12 16:21:16 | IDW: Opening MGY-200-DRP-01-01-99.idw
+2025-12-12 16:21:16 | IDW: Found 5 referenced files
+2025-12-12 16:21:16 | IDW: INFO - No mapping found for B-99.iam
+2025-12-12 16:21:16 | IDW: INFO - No mapping found for B-99-B2.ipt
+2025-12-12 16:21:16 | IDW: INFO - No mapping found for B-99-PL1.ipt
+2025-12-12 16:21:16 | IDW: INFO - No mapping found for B-99-PL3.ipt
+2025-12-12 16:21:16 | IDW: INFO - No mapping found for B-99-PL4.ipt
+2025-12-12 16:21:16 | IDW: Saved MGY-200-DRP-01-01-99.idw
+2025-12-12 16:21:16 | STEP 8.5: Saving mapping file for external IDW updater
+2025-12-12 16:21:16 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-12-12 16:21:16 | ERROR: Unspecified error (0x80004005 (E_FAIL))
+Stack:    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Object[] aArgs, Boolean[] aArgsIsByRef, Int32[] aArgsWrapperTypes, Type[] aArgsTypes, Type retType)
+   at Inventor.AssemblyDocument.get_FullFileName()
+   at AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.SaveMappingFile(AssemblyDocument activeDoc)
+   at AssemblyClonerAddIn.AssemblyClonerAddIn.PartRenamer.RenameAssemblyParts()

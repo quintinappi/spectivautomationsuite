@@ -1,0 +1,276 @@
+1/26/2026 7:12:19 PM - === FIX BOM PLATE DIMENSIONS STARTED ===
+1/26/2026 7:12:19 PM - Date/Time: 1/26/2026 7:12:19 PM
+1/26/2026 7:12:19 PM - Attempting to get Inventor application...
+1/26/2026 7:12:19 PM - Connected to Inventor successfully
+1/26/2026 7:12:20 PM - Active document: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\Static Screen Top Wider.iam
+1/26/2026 7:12:20 PM - Document type: 12291
+1/26/2026 7:12:20 PM - Processing assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\Static Screen Top Wider.iam
+1/26/2026 7:12:20 PM - 
+1/26/2026 7:12:20 PM - === STEP 1: Scanning assembly for plate parts ===
+1/26/2026 7:12:20 PM - Looking for parts with PL, VRN, or S355JR in description...
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL1.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL2.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL3.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL4.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL5.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL6.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL7.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL8.ipt (PL 6mm S355JR)
+1/26/2026 7:12:20 PM -   Found plate: N1SCR05-726-PL9.ipt (PL 6mm S355JR)
+1/26/2026 7:12:21 PM -   Found plate: N1SCR05-726-PL10.ipt (PL 6mm S355jR)
+1/26/2026 7:12:21 PM -   Found plate: N1SCR05-726-PL11.ipt (PL 8mm S355JR)
+1/26/2026 7:12:24 PM -   Found plate: N1SCR05-726-PL12.ipt (PL 20mm S355JR)
+1/26/2026 7:12:25 PM -   Found plate: N1SCR05-726-PL58.ipt (PL 8mm S355JR)
+1/26/2026 7:12:25 PM -   Found plate: N1SCR05-726-PL59.ipt (PL 10mm S355JR)
+1/26/2026 7:12:25 PM - Found 14 plate parts
+1/26/2026 7:12:25 PM - 
+1/26/2026 7:12:25 PM - === STEP 2: Processing plate parts ===
+1/26/2026 7:12:25 PM - 
+1/26/2026 7:12:25 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL1.ipt
+1/26/2026 7:12:26 PM -   Part already open in Inventor
+1/26/2026 7:12:26 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:26 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:26 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:26 PM -   Existing custom properties:
+1/26/2026 7:12:26 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:26 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:26 PM -     - PLATE WIDTH = 956.000 mm
+1/26/2026 7:12:26 PM -     - Thickness = 6 mm
+1/26/2026 7:12:26 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:26 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:26 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:26 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:26 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:26 PM -   Part saved
+1/26/2026 7:12:26 PM - 
+1/26/2026 7:12:26 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL2.ipt
+1/26/2026 7:12:27 PM -   Part already open in Inventor
+1/26/2026 7:12:27 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:27 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:27 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:27 PM -   Existing custom properties:
+1/26/2026 7:12:27 PM -     - PLATE LENGTH = 1124.024 mm
+1/26/2026 7:12:27 PM -     - PLATE WIDTH = 800.000 mm
+1/26/2026 7:12:27 PM -     - LENGTH = 1124.024 mm
+1/26/2026 7:12:27 PM -     - Thickness = 6 mm
+1/26/2026 7:12:27 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:27 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:27 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:27 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:27 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:27 PM -   Part saved
+1/26/2026 7:12:27 PM - 
+1/26/2026 7:12:27 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL3.ipt
+1/26/2026 7:12:28 PM -   Part already open in Inventor
+1/26/2026 7:12:28 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:28 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:28 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:28 PM -   Existing custom properties:
+1/26/2026 7:12:28 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:28 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:28 PM -     - PLATE WIDTH = 860.033 mm
+1/26/2026 7:12:28 PM -     - Thickness = 6 mm
+1/26/2026 7:12:28 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:28 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:28 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:28 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:28 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:28 PM -   Part saved
+1/26/2026 7:12:28 PM - 
+1/26/2026 7:12:28 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL4.ipt
+1/26/2026 7:12:29 PM -   Part already open in Inventor
+1/26/2026 7:12:29 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:29 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:29 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:29 PM -   Existing custom properties:
+1/26/2026 7:12:29 PM -     - LENGTH = 600.000 mm
+1/26/2026 7:12:29 PM -     - Part name test = 150.000 mm - 6 mm
+1/26/2026 7:12:29 PM -     - PLATE LENGTH = 600.000 mm
+1/26/2026 7:12:29 PM -     - PLATE WIDTH = 150.000 mm
+1/26/2026 7:12:29 PM -     - Thickness = 6 mm
+1/26/2026 7:12:29 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:29 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:29 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:29 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:29 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:29 PM -   Part saved
+1/26/2026 7:12:29 PM - 
+1/26/2026 7:12:29 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL5.ipt
+1/26/2026 7:12:30 PM -   Part already open in Inventor
+1/26/2026 7:12:30 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:30 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:30 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:30 PM -   Existing custom properties:
+1/26/2026 7:12:30 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:30 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:30 PM -     - PLATE WIDTH = 305.752 mm
+1/26/2026 7:12:30 PM -     - Thickness = 6 mm
+1/26/2026 7:12:30 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:30 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:30 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:30 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:30 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:30 PM -   Part saved
+1/26/2026 7:12:30 PM - 
+1/26/2026 7:12:30 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL6.ipt
+1/26/2026 7:12:31 PM -   Part already open in Inventor
+1/26/2026 7:12:31 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:31 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:31 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:31 PM -   Existing custom properties:
+1/26/2026 7:12:31 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:31 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:31 PM -     - PLATE WIDTH = 700.000 mm
+1/26/2026 7:12:31 PM -     - Thickness = 6 mm
+1/26/2026 7:12:31 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:31 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:31 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:31 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:31 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:31 PM -   Part saved
+1/26/2026 7:12:31 PM - 
+1/26/2026 7:12:31 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL7.ipt
+1/26/2026 7:12:32 PM -   Part already open in Inventor
+1/26/2026 7:12:32 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:32 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:32 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:32 PM -   Existing custom properties:
+1/26/2026 7:12:32 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:32 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:32 PM -     - PLATE WIDTH = 494.000 mm
+1/26/2026 7:12:32 PM -     - Thickness = 6 mm
+1/26/2026 7:12:32 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:32 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:32 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:32 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:32 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:32 PM -   Part saved
+1/26/2026 7:12:32 PM - 
+1/26/2026 7:12:32 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL8.ipt
+1/26/2026 7:12:33 PM -   Part already open in Inventor
+1/26/2026 7:12:33 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:33 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:33 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:33 PM -   Existing custom properties:
+1/26/2026 7:12:33 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:33 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:33 PM -     - PLATE WIDTH = 85.213 mm
+1/26/2026 7:12:33 PM -     - Thickness = 6 mm
+1/26/2026 7:12:33 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:33 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:33 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:33 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:33 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:33 PM -   Part saved
+1/26/2026 7:12:33 PM - 
+1/26/2026 7:12:33 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL9.ipt
+1/26/2026 7:12:34 PM -   Part already open in Inventor
+1/26/2026 7:12:34 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:34 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:34 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:34 PM -   Existing custom properties:
+1/26/2026 7:12:34 PM -     - LENGTH = 3389.800 mm
+1/26/2026 7:12:34 PM -     - PLATE LENGTH = 3389.800 mm
+1/26/2026 7:12:34 PM -     - PLATE WIDTH = 218.008 mm
+1/26/2026 7:12:34 PM -     - Thickness = 6 mm
+1/26/2026 7:12:34 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:34 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:34 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:34 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:34 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:34 PM -   Part saved
+1/26/2026 7:12:34 PM - 
+1/26/2026 7:12:34 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL10.ipt
+1/26/2026 7:12:35 PM -   Part already open in Inventor
+1/26/2026 7:12:35 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:35 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:35 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:35 PM -   Existing custom properties:
+1/26/2026 7:12:35 PM -     - LENGTH = 1000.000 mm
+1/26/2026 7:12:35 PM -     - PLATE LENGTH = 1000.000 mm
+1/26/2026 7:12:35 PM -     - PLATE WIDTH = 150.000 mm
+1/26/2026 7:12:35 PM -     - Thickness = 6 mm
+1/26/2026 7:12:35 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:35 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:35 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:35 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:35 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:35 PM -   Part saved
+1/26/2026 7:12:35 PM - 
+1/26/2026 7:12:35 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL11.ipt
+1/26/2026 7:12:36 PM -   Part already open in Inventor
+1/26/2026 7:12:36 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:36 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:36 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:36 PM -   Existing custom properties:
+1/26/2026 7:12:36 PM -     - PLATE LENGTH = 167.295 mm
+1/26/2026 7:12:36 PM -     - PLATE WIDTH = 105.518 mm
+1/26/2026 7:12:36 PM -     - LENGTH = 167.295 mm
+1/26/2026 7:12:36 PM -     - Thickness = 8 mm
+1/26/2026 7:12:36 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:36 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:36 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:36 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:36 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:36 PM -   Part saved
+1/26/2026 7:12:36 PM - 
+1/26/2026 7:12:36 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL12.ipt
+1/26/2026 7:12:37 PM -   Part already open in Inventor
+1/26/2026 7:12:37 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:37 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:37 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:37 PM -   Existing custom properties:
+1/26/2026 7:12:37 PM -     - LENGTH = 150.000 mm
+1/26/2026 7:12:37 PM -     - PLATE LENGTH = 150.000 mm
+1/26/2026 7:12:37 PM -     - PLATE WIDTH = 150.000 mm
+1/26/2026 7:12:37 PM -     - Thickness = 20 mm
+1/26/2026 7:12:37 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:37 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:37 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:37 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:37 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:37 PM -   Part saved
+1/26/2026 7:12:37 PM - 
+1/26/2026 7:12:37 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Top\N1SCR05-726-PL58.ipt
+1/26/2026 7:12:38 PM -   Part already open in Inventor
+1/26/2026 7:12:38 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:38 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:38 PM -   Created LENGTH custom iProperty
+1/26/2026 7:12:38 PM -   Existing custom properties:
+1/26/2026 7:12:38 PM -     - PLATE LENGTH = 377.748 mm
+1/26/2026 7:12:38 PM -     - PLATE WIDTH = 202.602 mm
+1/26/2026 7:12:38 PM -     - Thickness = 8 mm
+1/26/2026 7:12:38 PM -     - =<sheet metal length> = LENGTH
+1/26/2026 7:12:38 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:38 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:38 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:38 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:38 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:38 PM -   Part saved
+1/26/2026 7:12:38 PM - 
+1/26/2026 7:12:38 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\N1SCR05-726 Static Screen\Middle With Bleed\N1SCR05-726-PL59.ipt
+1/26/2026 7:12:39 PM -   Part already open in Inventor
+1/26/2026 7:12:39 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+1/26/2026 7:12:39 PM -   Sheet metal document detected via SubType
+1/26/2026 7:12:39 PM -   Updated LENGTH custom iProperty (expression)
+1/26/2026 7:12:39 PM -   Existing custom properties:
+1/26/2026 7:12:39 PM -     - LENGTH = 230.000 mm
+1/26/2026 7:12:39 PM -     - PLATE LENGTH = 230.000 mm
+1/26/2026 7:12:39 PM -     - PLATE WIDTH = 200.000 mm
+1/26/2026 7:12:39 PM -     - Thickness = 10 mm
+1/26/2026 7:12:39 PM -   Deleting malformed property: =<sheet metal width>
+1/26/2026 7:12:39 PM -   WIDTH property does not exist, creating...
+1/26/2026 7:12:39 PM -   Created WIDTH property with placeholder
+1/26/2026 7:12:39 PM -   Set WIDTH expression successfully
+1/26/2026 7:12:39 PM -   Successfully set LENGTH and WIDTH custom iProperties
+1/26/2026 7:12:39 PM -   Part saved
+1/26/2026 7:12:39 PM - 
+1/26/2026 7:12:39 PM - === STEP 3: Refreshing BOM ===
+1/26/2026 7:12:40 PM - BOM refreshed successfully
+1/26/2026 7:12:40 PM - 
+1/26/2026 7:12:40 PM - === PROCESSING COMPLETE ===
+1/26/2026 7:12:40 PM - Parts processed successfully: 14
+1/26/2026 7:12:40 PM - Parts skipped (not sheet metal): 0
+1/26/2026 7:12:40 PM - Parts failed: 0
+1/26/2026 7:12:40 PM - Total plate parts: 14
+

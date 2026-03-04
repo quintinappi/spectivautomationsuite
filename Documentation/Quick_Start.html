@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventor Renamer - Quick Start</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .copyright {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        h1 { color: #2c3e50; margin-top: 0; font-size: 2.5em; }
+        h2 { color: #27ae60; border-bottom: 2px solid #27ae60; padding-bottom: 10px; }
+        h3 { color: #229954; }
+        .step-box {
+            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
+            border: 2px solid #27ae60;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        .step-number {
+            background-color: #27ae60;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        .warning {
+            background-color: #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #fdcb6e;
+            margin: 15px 0;
+        }
+        .success {
+            background-color: #d5f4e6;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #00b894;
+            margin: 15px 0;
+        }
+        .checklist {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        .checklist ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .checklist li {
+            padding: 8px 0;
+            font-size: 16px;
+        }
+        .checklist li:before {
+            content: "✅ ";
+            color: #27ae60;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 QUICK START</h1>
+            <p>Get up and running in 3 simple steps</p>
+        </div>
+
+        <div class="copyright">
+            <strong>© 2025 Quintin. All Rights Reserved.</strong><br>
+            This software and documentation are proprietary and confidential.
+        </div>
+
+        <h2>📋 Before You Start</h2>
+        <div class="checklist">
+            <ul>
+                <li>Autodesk Inventor is running</li>
+                <li>Your main assembly is open in Inventor</li>
+                <li>All part files are accessible (no read-only locks)</li>
+                <li>You've decided on a project prefix (PLANT1-000-, AREA2-000-, etc.)</li>
+            </ul>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Recommended:</strong> Backup your project folder before running. While the heritage method preserves original files, a backup provides extra safety.
+        </div>
+
+        <h2>🎯 3-Step Process</h2>
+
+        <div class="step-box">
+            <span class="step-number">1</span>
+            <strong>Launch & Rename Parts</strong><br>
+            Double-click <span class="highlight">MAIN_LAUNCHER.bat</span> → Select <span class="highlight">[1] Part Renaming</span><br>
+            Enter your project prefix when prompted (e.g., PLANT1-000-)
+        </div>
+
+        <div class="step-box">
+            <span class="step-number">2</span>
+            <strong>Update IDW Drawings</strong><br>
+            Return to main menu → Select <span class="highlight">[2] IDW Updates</span><br>
+            This automatically updates all your drawings to reference the new part names
+        </div>
+
+        <div class="step-box">
+            <span class="step-number">3</span>
+            <strong>Update IDW Drawings & Titles</strong><br>
+            Return to main menu → Select <span class="highlight">[2] IDW Updates</span><br>
+            <strong>Optional:</strong> Select <span class="highlight">[3] Title Automation</span> for automatic title formatting
+        </div>
+
+        <div class="step-box" style="background: linear-gradient(135deg, #d5f4e6, #e8f5e8);">
+            <span class="step-number">✓</span>
+            <strong>Complete!</strong><br>
+            Parts renamed, drawings updated, and titles formatted.<br>
+            Check log files to verify everything completed successfully.
+        </div>
+
+        <h2>🎛️ What Each Step Does</h2>
+
+        <h3>Step 1: Part Renaming</h3>
+        <ul>
+            <li><strong>Scans</strong> your entire assembly hierarchy</li>
+            <li><strong>Groups</strong> parts automatically (PL=platework, B=beams, CH=channels, etc.)</li>
+            <li><strong>Creates</strong> heritage copies with new names (preserves design relationships)</li>
+            <li><strong>Updates</strong> assembly references to point to new parts</li>
+            <li><strong>Saves</strong> mapping file for Step 2</li>
+        </ul>
+
+        <h3>Step 2: IDW Updates</h3>
+        <ul>
+            <li><strong>Loads</strong> the mapping from Step 1</li>
+            <li><strong>Finds</strong> all IDW drawing files in your project</li>
+            <li><strong>Updates</strong> each drawing to reference the new part names</li>
+            <li><strong>Uses</strong> Autodesk Design Assistant method for reliability</li>
+            <li><strong>Saves</strong> all updated drawings</li>
+        </ul>
+
+        <h3>Step 3: Title Automation (Optional)</h3>
+        <ul>
+            <li><strong>Detects</strong> base views in IDW drawings automatically</li>
+            <li><strong>Generates</strong> titles based on assembly names and quantities</li>
+            <li><strong>Formats</strong> titles with proper font sizes and layout</li>
+            <li><strong>Updates</strong> title blocks for parts and assemblies</li>
+            <li><strong>Processes</strong> multiple IDW files in batch</li>
+        </ul>
+
+        <h2>✅ How to Know It Worked</h2>
+
+        <div class="success">
+            <h3>Success Indicators:</h3>
+            <ul>
+                <li>Both steps complete without error messages</li>
+                <li>Log files show "SUCCESS" entries</li>
+                <li>Your parts now have project prefix names (PLANT1-000-PL1.ipt instead of Part1.ipt)</li>
+                <li>IDW drawings open correctly and show the new part names</li>
+                <li>Assembly still functions normally with all constraints intact</li>
+            </ul>
+        </div>
+
+        <h2>🚨 Common Issues</h2>
+
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background-color: #27ae60; color: white;">
+                <th style="border: 1px solid #ddd; padding: 12px;">Problem</th>
+                <th style="border: 1px solid #ddd; padding: 12px;">Quick Fix</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 12px;">"No running Inventor instance found"</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Start Inventor and open your assembly first</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 12px;">"Could not load mapping file"</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Run Step 1 (Part Renaming) first</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 12px;">"Access denied" errors</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Check file permissions, remove read-only locks</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 12px;">Parts not grouping correctly</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Set Description property in part iProperties</td>
+            </tr>
+        </table>
+
+        <h2>💡 Pro Tips</h2>
+
+        <div style="background-color: #e8f5e8; padding: 20px; border-radius: 5px; border-left: 5px solid #27ae60;">
+            <ul>
+                <li><strong>Test first:</strong> Try on a small assembly before large projects</li>
+                <li><strong>Stay connected:</strong> Keep Inventor open throughout the entire process</li>
+                <li><strong>Check logs:</strong> Always review log files after each step completes</li>
+                <li><strong>Run in sequence:</strong> Always complete Step 1 before starting Step 2</li>
+                <li><strong>Project prefixes:</strong> Use consistent naming like PLANT1-000-, AREA2-000-</li>
+            </ul>
+        </div>
+
+        <h2>📁 File Locations</h2>
+
+        <div style="background-color: #2d3748; color: #e2e8f0; padding: 15px; border-radius: 5px; font-family: 'Courier New', monospace;">
+FINAL_PRODUCTION_SCRIPTS/<br>
+├── MAIN_LAUNCHER.bat          ← START HERE<br>
+├── STEP_1_MAPPING.txt          ← Created by Step 1<br>
+├── Logs/                      ← Check here for results<br>
+├── Documentation/             ← You are here<br>
+├── Part_Renaming/             ← Step 1 scripts<br>
+└── IDW_Updates/               ← Step 2 scripts
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 Quintin. All Rights Reserved.</strong></p>
+            <p>Need more details? See <strong>User_Manual.html</strong> for complete instructions</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+2026-01-19 05:38:57 | === ASSEMBLY CLONER ===
+2026-01-19 05:38:57 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-19 05:39:00 | SUCCESS: Connected to existing Inventor instance
+2026-01-19 05:39:00 | STEP 1: Detecting open assembly
+2026-01-19 05:39:00 | DETECTED: Beam-11.iam
+2026-01-19 05:39:00 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\Beam-11.iam
+2026-01-19 05:39:02 | STEP 2: Getting destination folder from user
+2026-01-19 05:39:14 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50
+2026-01-19 05:39:14 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\AssemblyCloner_20260119_053914.log
+2026-01-19 05:39:14 | New assembly name will be: Beam-50.iam
+2026-01-19 05:39:14 | STEP 3: Asking about heritage renaming
+2026-01-19 05:39:32 | STEP 4: Analyzing assembly structure
+2026-01-19 05:39:32 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-19 05:39:32 | COLLECT: PART N1SCR06-000-B41.ipt (UB254x146x31) at ROOT
+2026-01-19 05:39:32 | COLLECT: PART N1SCR06-000-PL85.ipt (PL 10mm S355JR) at ROOT
+2026-01-19 05:39:32 | COLLECT: PART N1SCR06-000-PL86.ipt (PL 10mm S355JR) at ROOT
+2026-01-19 05:39:32 | COLLECT: Found 3 unique files
+2026-01-19 05:39:32 | COLLECT: Scanning for IDW drawing files...
+2026-01-19 05:39:32 | COLLECT: DRAWING MGY-200-DRP-01-01-11.idw
+2026-01-19 05:39:32 | COLLECT: Skipping OldVersions folder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\OldVersions
+2026-01-19 05:39:32 | ANALYZE: Found 4 unique parts to copy
+2026-01-19 05:39:32 | STEP 6: Copying assembly to destination
+2026-01-19 05:39:32 | Closing source assembly for safe copy...
+2026-01-19 05:39:33 | COPIED: Assembly Beam-11.iam -> Beam-50.iam
+2026-01-19 05:39:33 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-19 05:39:33 | COPIED: N1SCR06-000-B41.ipt -> N1SCR06-000-B41.ipt
+2026-01-19 05:39:33 | COPIED: N1SCR06-000-PL85.ipt -> N1SCR06-000-PL85.ipt
+2026-01-19 05:39:33 | COPIED: N1SCR06-000-PL86.ipt -> N1SCR06-000-PL86.ipt
+2026-01-19 05:39:33 | COPY: DRAWING MGY-200-DRP-01-01-11.idw (keeping original name)
+2026-01-19 05:39:33 | COPIED: MGY-200-DRP-01-01-11.idw -> MGY-200-DRP-01-01-11.idw
+2026-01-19 05:39:33 | STEP 8: Updating references in ALL copied assemblies
+2026-01-19 05:39:33 | STEP 8a: Pre-loading all copied PARTS into memory...
+2026-01-19 05:39:33 | PRELOAD: N1SCR06-000-B41.ipt
+2026-01-19 05:39:33 | PRELOAD: N1SCR06-000-PL85.ipt
+2026-01-19 05:39:33 | PRELOAD: N1SCR06-000-PL86.ipt
+2026-01-19 05:39:33 | STEP 8b: Pre-loading all copied SUB-ASSEMBLIES...
+2026-01-19 05:39:33 | STEP 8c: Opening main assembly with all components in memory...
+2026-01-19 05:39:33 | STEP 8c: Main assembly opened successfully
+2026-01-19 05:39:33 | STEP 8d: Updating file references in all assemblies...
+2026-01-19 05:39:33 | STEP 8d: Found 1 assemblies to update
+2026-01-19 05:39:33 | STEP 8d: [1/1] Updating references in Beam-50.iam
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Found Beam-50.iam in memory
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Built lookup with 5 filenames, 5 paths
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Found 3 references
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-b41.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-B41.ipt)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-pl85.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL85.ipt)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-pl86.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL86.ipt)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:42 | IN-MEMORY UPDATE: Updated 0 references in Beam-50.iam
+2026-01-19 05:39:42 | STEP 8d: Explicitly updating MAIN assembly: Beam-50.iam
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Found Beam-50.iam in memory
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Built lookup with 5 filenames, 5 paths
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Found 3 references
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-b41.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-B41.ipt)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-pl85.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL85.ipt)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Checking ref: n1scr06-000-pl86.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL86.ipt)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-19 05:39:46 | IN-MEMORY UPDATE: Updated 0 references in Beam-50.iam
+2026-01-19 05:39:46 | STEP 8e: Saving all documents...
+2026-01-19 05:39:53 | SAVED: D&R Product.iam
+2026-01-19 05:40:01 | SAVED: Structure & Walkway Asm.iam
+2026-01-19 05:40:05 | STEP 8: Complete
+2026-01-19 05:40:05 | STEP 9: Updating IDW drawing references
+2026-01-19 05:40:05 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2026-01-19 05:40:05 | IDW UPDATE: Error: Object required
+2026-01-19 05:40:05 | IDW UPDATE: Calling Inventor fallback method
+2026-01-19 05:40:05 | IDW UPDATE (Inventor): Starting IDW update for destFolder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50
+2026-01-19 05:40:05 | IDW UPDATE (Inventor): Enabled SilentOperation mode
+2026-01-19 05:40:05 | IDW UPDATE (Inventor): Set resolve mode to skip unresolved files
+2026-01-19 05:40:22 | IDW UPDATE: Opening main assembly to load all parts: Beam-50.iam
+2026-01-19 05:40:22 | IDW UPDATE: WARNING - Could not open main assembly: Object doesn't support this property or method
+2026-01-19 05:40:22 | IDW UPDATE (Inventor): Found 6 files in destination folder
+2026-01-19 05:40:22 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRP-01-01-11.idw
+2026-01-19 05:40:22 | IDW UPDATE (Inventor): Processing MGY-200-DRP-01-01-11.idw
+2026-01-19 05:40:23 | IDW UPDATE: Found 4 references
+2026-01-19 05:40:23 | IDW UPDATE: Checking reference: N1SCR04-730-B41.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR04-730-B41.ipt)
+2026-01-19 05:40:23 | IDW UPDATE: Checking reference: N1SCR04-730-PL85.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR04-730-PL85.ipt)
+2026-01-19 05:40:23 | IDW UPDATE: Checking reference: N1SCR04-730-PL86.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR04-730-PL86.ipt)
+2026-01-19 05:40:23 | IDW UPDATE: Checking reference: Beam-11.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\1.Structure\Beam11\Beam-11.iam)
+2026-01-19 05:40:23 | IDW UPDATE: FOUND mapping - Beam-11.iam -> Beam-50.iam
+2026-01-19 05:40:23 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-19 05:40:26 | IDW UPDATE: Saved MGY-200-DRP-01-01-11.idw (1 updated)
+2026-01-19 05:40:26 | IDW UPDATE (Inventor): Restored original settings
+2026-01-19 05:40:26 | STEP 11: Validation scan and destination logging
+2026-01-19 05:40:26 | VALIDATE: Writing source and destination inventories...
+2026-01-19 05:40:26 | VALIDATE: Source file count = 9
+2026-01-19 05:40:26 | VALIDATE: Destination file count = 7
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\Beam-11.iam
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\MGY-200-DRP-01-01-11.idw
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-B41.ipt
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-PL85.ipt
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-PL86.ipt
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\OldVersions\Beam-11.0090.iam
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\OldVersions\N1SCR06-000-B41.0002.ipt
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\OldVersions\N1SCR06-000-PL85.0001.ipt
+2026-01-19 05:40:26 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\OldVersions\N1SCR06-000-PL86.0001.ipt
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\AssemblyCloner_20260119_053914.log
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\Beam-50.iam
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\MGY-200-DRP-01-01-11.idw
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-B41.ipt
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL85.ipt
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL86.ipt
+2026-01-19 05:40:26 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\OldVersions\MGY-200-DRP-01-01-11.0014.idw
+2026-01-19 05:40:26 | VALIDATE: Checking copied mappings...
+2026-01-19 05:40:26 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\Beam-11.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\Beam-50.iam
+2026-01-19 05:40:26 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-B41.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-B41.ipt
+2026-01-19 05:40:26 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-PL85.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL85.ipt
+2026-01-19 05:40:26 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\N1SCR06-000-PL86.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\N1SCR06-000-PL86.ipt
+2026-01-19 05:40:26 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam11\MGY-200-DRP-01-01-11.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\23. SSCR06 - Secondary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-50\MGY-200-DRP-01-01-11.idw
+2026-01-19 05:40:26 | VALIDATE: Missing mapped files = 0
+2026-01-19 05:40:26 | === ASSEMBLY CLONER COMPLETED ===

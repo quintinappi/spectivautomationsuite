@@ -1,0 +1,127 @@
+2/2/2026 12:46:08 PM - === FIX BOM PLATE DIMENSIONS STARTED ===
+2/2/2026 12:46:08 PM - Date/Time: 2/2/2026 12:46:08 PM
+2/2/2026 12:46:08 PM - Attempting to get Inventor application...
+2/2/2026 12:46:08 PM - Connected to Inventor successfully
+2/2/2026 12:46:08 PM - Active document: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Floats Flood Chute.iam
+2/2/2026 12:46:08 PM - Document type: 12291
+2/2/2026 12:46:08 PM - Processing assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Floats Flood Chute.iam
+2/2/2026 12:46:08 PM - 
+2/2/2026 12:46:08 PM - === STEP 1: Scanning assembly for plate parts ===
+2/2/2026 12:46:08 PM - Looking for parts with PL, VRN, or S355JR in description...
+2/2/2026 12:46:08 PM -   Found plate: Part3 FB-C.ipt (PL 6mm S355JR)
+2/2/2026 12:46:08 PM -   Found plate: Part4 FB-C.ipt (PL 6mm S355JR)
+2/2/2026 12:46:08 PM -   Found plate: Part5 FB-C.ipt (PL 6mm S355JR)
+2/2/2026 12:46:08 PM -   Found plate: Part10 FB-C.ipt (PL 10mm S355JR)
+2/2/2026 12:46:08 PM -   Found plate: Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR)
+2/2/2026 12:46:08 PM -   Found plate: Lug FB-C.ipt (PL 20mm S355JR)
+2/2/2026 12:46:08 PM - Found 6 plate parts
+2/2/2026 12:46:08 PM - 
+2/2/2026 12:46:08 PM - === STEP 2: Processing plate parts ===
+2/2/2026 12:46:08 PM - 
+2/2/2026 12:46:08 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt
+2/2/2026 12:46:08 PM -   Part already open in Inventor
+2/2/2026 12:46:08 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:08 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:08 PM -   Created LENGTH custom iProperty
+2/2/2026 12:46:08 PM -   Existing custom properties:
+2/2/2026 12:46:08 PM -     - PLATE LENGTH = 3470.000 mm
+2/2/2026 12:46:08 PM -     - PLATE WIDTH = 1234.334 mm
+2/2/2026 12:46:08 PM -     - =<sheet metal length> = LENGTH
+2/2/2026 12:46:08 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:08 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:08 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:08 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:08 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:18 PM -   Part saved
+2/2/2026 12:46:18 PM - 
+2/2/2026 12:46:18 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt
+2/2/2026 12:46:19 PM -   Part already open in Inventor
+2/2/2026 12:46:19 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:19 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:19 PM -   Created LENGTH custom iProperty
+2/2/2026 12:46:19 PM -   Existing custom properties:
+2/2/2026 12:46:19 PM -     - PLATE LENGTH = 3470.000 mm
+2/2/2026 12:46:19 PM -     - PLATE WIDTH = 6.000 mm
+2/2/2026 12:46:19 PM -     - =<sheet metal length> = LENGTH
+2/2/2026 12:46:19 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:19 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:19 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:19 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:19 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:20 PM -   Part saved
+2/2/2026 12:46:20 PM - 
+2/2/2026 12:46:20 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt
+2/2/2026 12:46:20 PM -   Part already open in Inventor
+2/2/2026 12:46:20 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:20 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:20 PM -   Created LENGTH custom iProperty
+2/2/2026 12:46:20 PM -   Existing custom properties:
+2/2/2026 12:46:20 PM -     - PLATE LENGTH = 1793.253 mm
+2/2/2026 12:46:20 PM -     - PLATE WIDTH = 886.252 mm
+2/2/2026 12:46:20 PM -     - =<sheet metal length> = LENGTH
+2/2/2026 12:46:21 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:21 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:21 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:21 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:21 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:21 PM -   Part saved
+2/2/2026 12:46:21 PM - 
+2/2/2026 12:46:21 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt
+2/2/2026 12:46:21 PM -   Part already open in Inventor
+2/2/2026 12:46:21 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:21 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:21 PM -   Created LENGTH custom iProperty
+2/2/2026 12:46:21 PM -   Existing custom properties:
+2/2/2026 12:46:21 PM -     - THK = 10
+2/2/2026 12:46:21 PM -     - PLATE LENGTH = 209.000 mm
+2/2/2026 12:46:21 PM -     - PLATE WIDTH = 200.000 mm
+2/2/2026 12:46:21 PM -     - =<sheet metal length> = LENGTH
+2/2/2026 12:46:21 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:21 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:21 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:21 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:21 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:21 PM -   Part saved
+2/2/2026 12:46:21 PM - 
+2/2/2026 12:46:21 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2/2/2026 12:46:21 PM -   Part already open in Inventor
+2/2/2026 12:46:21 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:21 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:22 PM -   Created LENGTH custom iProperty
+2/2/2026 12:46:22 PM -   Existing custom properties:
+2/2/2026 12:46:22 PM -     - THK = 10
+2/2/2026 12:46:22 PM -     - PLATE LENGTH = 209.000 mm
+2/2/2026 12:46:22 PM -     - PLATE WIDTH = 184.000 mm
+2/2/2026 12:46:22 PM -     - =<sheet metal length> = LENGTH
+2/2/2026 12:46:22 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:22 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:22 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:22 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:22 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:22 PM -   Part saved
+2/2/2026 12:46:22 PM - 
+2/2/2026 12:46:22 PM - Processing: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt
+2/2/2026 12:46:22 PM -   Part already open in Inventor
+2/2/2026 12:46:22 PM -   Document SubType: {9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}
+2/2/2026 12:46:22 PM -   Sheet metal document detected via SubType
+2/2/2026 12:46:22 PM -   Updated LENGTH custom iProperty (expression)
+2/2/2026 12:46:22 PM -   Existing custom properties:
+2/2/2026 12:46:22 PM -     - LENGTH = 150.000 mm
+2/2/2026 12:46:22 PM -     - PLATE LENGTH = 150.000 mm
+2/2/2026 12:46:22 PM -     - PLATE WIDTH = 90.000 mm
+2/2/2026 12:46:22 PM -   Deleting malformed property: =<sheet metal width>
+2/2/2026 12:46:22 PM -   WIDTH property does not exist, creating...
+2/2/2026 12:46:22 PM -   Created WIDTH property with placeholder
+2/2/2026 12:46:22 PM -   Set WIDTH expression successfully
+2/2/2026 12:46:22 PM -   Successfully set LENGTH and WIDTH custom iProperties
+2/2/2026 12:46:22 PM -   Part saved
+2/2/2026 12:46:22 PM - 
+2/2/2026 12:46:22 PM - === STEP 3: Refreshing BOM ===
+2/2/2026 12:46:22 PM - BOM refreshed successfully
+2/2/2026 12:46:22 PM - 
+2/2/2026 12:46:22 PM - === PROCESSING COMPLETE ===
+2/2/2026 12:46:22 PM - Parts processed successfully: 6
+2/2/2026 12:46:22 PM - Parts skipped (not sheet metal): 0
+2/2/2026 12:46:22 PM - Parts failed: 0
+2/2/2026 12:46:22 PM - Total plate parts: 6
+

@@ -1,0 +1,936 @@
+2026-02-22 16:56:08 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-22 16:56:08 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-22 16:56:09 | SUCCESS: Connected to existing Inventor instance
+2026-02-22 16:56:09 | STEP 1: Detecting open assembly and analyzing components
+2026-02-22 16:56:09 | DETECTED: Document type: 12291
+2026-02-22 16:56:09 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-22 16:56:09 | DETECTED: Active assembly - N1SCR03-723.iam
+2026-02-22 16:56:09 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\N1SCR03-723.iam
+2026-02-22 16:56:10 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-22 16:56:10 | CONFIRMED: 8 occurrences to process
+2026-02-22 16:56:10 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank
+2026-02-22 16:56:10 | STEP 0: Selecting mapping file location FIRST
+2026-02-22 16:56:10 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-22 16:56:28 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_1_MAPPING.txt
+2026-02-22 16:56:28 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-22 16:56:29 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_1_MAPPING.txt
+2026-02-22 16:56:29 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-22 16:56:29 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-22 16:56:29 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-22 16:56:29 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank
+2026-02-22 16:56:29 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_0_AUDIT.txt
+2026-02-22 16:56:29 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-22 16:56:30 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_0_AUDIT.txt
+2026-02-22 16:56:30 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-22 16:56:30 | STEP 2: Flattening hierarchy and grouping components
+2026-02-22 16:56:30 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-22 16:56:30 | ANALYZE: Processing assembly - N1SCR03-723.iam (Level: ROOT)
+2026-02-22 16:56:30 | ANALYZE: Found 8 occurrences in N1SCR03-723.iam
+2026-02-22 16:56:30 | ANALYZE: RECURSING into sub-assembly - Tank.iam
+2026-02-22 16:56:30 | ANALYZE: Processing assembly - Tank.iam (Level: ROOT>Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: Found 185 occurrences in Tank.iam
+2026-02-22 16:56:30 | ANALYZE: PART - Part1 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: Created new group - PL
+2026-02-22 16:56:30 | ANALYZE: PART - Part2 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: PART - Part3 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: DUPLICATE PART SKIPPED - Part3 DS-T.ipt (already processed)
+2026-02-22 16:56:30 | ANALYZE: PART - Part4 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: DUPLICATE PART SKIPPED - Part4 DS-T.ipt (already processed)
+2026-02-22 16:56:30 | ANALYZE: PART - Part5 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:30 | ANALYZE: DUPLICATE PART SKIPPED - Part5 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: PART - Part6 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: PART - Part7 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: DUPLICATE PART SKIPPED - Part7 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: PART - Part8 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: PART - Part9 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: DUPLICATE PART SKIPPED - Part9 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: DUPLICATE PART SKIPPED - Part9 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: DUPLICATE PART SKIPPED - Part9 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: PART - Part10 DS-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: DUPLICATE PART SKIPPED - Part10 DS-T.ipt (already processed)
+2026-02-22 16:56:31 | ANALYZE: PART - Part11 DS-T.ipt -> Description: PL 16mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: PART - NSCR03-723-A1.ipt -> Description: L60x60x6 -> Group: A (from Tank.iam)
+2026-02-22 16:56:31 | ANALYZE: Created new group - A
+2026-02-22 16:56:31 | ANALYZE: PART - NSCR03-723-A2.ipt -> Description: L60x60x6 -> Group: A (from Tank.iam)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A1.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A2.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: PART - NSCR03-723-A3.ipt -> Description: L60x60x6 -> Group: A (from Tank.iam)
+2026-02-22 16:56:32 | ANALYZE: PART - NSCR03-723-A4.ipt -> Description: L60x60x6 -> Group: A (from Tank.iam)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A3.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A4.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A3.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A4.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A3.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - NSCR03-723-A4.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: PART - Part16 Angle DS-T.ipt -> Description: L60x60x6 -> Group: A (from Tank.iam)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:32 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Angle DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: PART - Part17 Pipe DS-T.ipt -> Description: PIPE - 400NB S.A.B.S.719 - 6 W.T. -> Group: P (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: Created new group - P
+2026-02-22 16:56:33 | ANALYZE: PART - Part18 Flange DS-T.ipt -> Description: FLANGE - 400NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: Created new group - FLG
+2026-02-22 16:56:33 | ANALYZE: PART - Part21 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: Created new group - FL
+2026-02-22 16:56:33 | ANALYZE: PART - Part20 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: PART - Part26 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: PART - Part19 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:33 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: PART - Part22 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: PART - Part23 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: PART - Part24 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:34 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: PART - Part25 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:35 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:36 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part25 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: PART - Part27 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:37 | ANALYZE: PART - Part28 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: PART - Part29 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: PART - Part30 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:37 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: PART - Part34 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: PART - Part36 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: PART - Part37 Corner Gusset DS-T.ipt -> Description: PL 10mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:38 | ANALYZE: PART - Part32 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:38 | ANALYZE: PART - Part33 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:38 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: PART - Part35 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Corner Gusset DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:39 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: PART - Part31 Stiffener DS-T.ipt -> Description: FL50x8 -> Group: FL (from Tank.iam)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-T.ipt (already processed)
+2026-02-22 16:56:40 | ANALYZE: PART - Lug DS-T.ipt -> Description: PL 25mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:41 | ANALYZE: PART - Part38 End Plate DS-T.ipt -> Description: PL 20mm S355JR -> Group: PL (from Tank.iam)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part38 End Plate DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part38 End Plate DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part38 End Plate DS-T.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:56:41 | ANALYZE: Processing assembly - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:56:41 | ANALYZE: Found 3 occurrences in Tank Bracket.iam
+2026-02-22 16:56:41 | ANALYZE: PART - Part1 D-BR.ipt -> Description: PL 10mm S355JR -> Group: PL (from Tank Bracket.iam)
+2026-02-22 16:56:41 | ANALYZE: PART - Part2 Corner Gusset D-BR.ipt -> Description: PL 10mm S355JR -> Group: PL (from Tank Bracket.iam)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:56:41 | ANALYZE: Processing assembly - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:56:41 | ANALYZE: Found 3 occurrences in Tank Bracket.iam
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part1 D-BR.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:41 | ANALYZE: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:56:41 | ANALYZE: Processing assembly - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:56:41 | ANALYZE: Found 3 occurrences in Tank Bracket.iam
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part1 D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:56:42 | ANALYZE: Processing assembly - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:56:42 | ANALYZE: Found 3 occurrences in Tank Bracket.iam
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part1 D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Corner Gusset D-BR.ipt (already processed)
+2026-02-22 16:56:42 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-02-22 16:56:42 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-02-22 16:56:42 | ANALYZE: Found 9 occurrences in Lid-1.iam
+2026-02-22 16:56:42 | ANALYZE: PART - Part1 End Plate L1.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-1.iam)
+2026-02-22 16:56:42 | ANALYZE: PART - Part2 Pipe L1.ipt -> Description: PIPE - 100NB S.A.B.S.62 - HEAVY -> Group: P (from Lid-1.iam)
+2026-02-22 16:56:42 | ANALYZE: PART - Part3 Flange L1.ipt -> Description: FLANGE - 100NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Lid-1.iam)
+2026-02-22 16:56:42 | ANALYZE: PART - Part4 Blank Flange L1.ipt -> Description: FLANGE (blank) - 100NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Lid-1.iam)
+2026-02-22 16:56:42 | ANALYZE: PART - Part5 Stiffener L1.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-02-22 16:56:43 | ANALYZE: PART - Part6 Stiffener L1.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-02-22 16:56:43 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Stiffener L1.ipt (already processed)
+2026-02-22 16:56:43 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Stiffener L1.ipt (already processed)
+2026-02-22 16:56:43 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Stiffener L1.ipt (already processed)
+2026-02-22 16:56:43 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-02-22 16:56:43 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-22 16:56:43 | ANALYZE: Found 3 occurrences in Lid-2.iam
+2026-02-22 16:56:43 | ANALYZE: PART - Part1 End Plate L2.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-2.iam)
+2026-02-22 16:56:43 | ANALYZE: PART - Part2 Non Standard Pipe.ipt -> Description: PIPE 477 O.D. -  6 W.T. -> Group: P (from Lid-2.iam)
+2026-02-22 16:56:43 | ANALYZE: PART - Part3 Flange L2.ipt -> Description: FLANGE - 450NB S.A.B.S.1123 1000/3 30 TH'K -> Group: FLG (from Lid-2.iam)
+2026-02-22 16:56:43 | ANALYZE: PART - TF 0450 X 0450 G.ipt -> Description: UNIFIT STEEL FLANGE ADAPTOR - TF 0450 X 0450 G -> Group: FLG (from N1SCR03-723.iam)
+2026-02-22 16:56:43 | ANALYZE: Recursive processing completed - Total unique parts processed: 51
+2026-02-22 16:56:43 | ANALYZE: Created 5 component groups
+2026-02-22 16:56:43 | DEBUG GROUP: 'PL' contains 18 components:
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part1 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part2 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part3 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part4 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part5 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part6 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part7 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part8 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part9 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part10 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part11 DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part37 Corner Gusset DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Lug DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part38 End Plate DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part1 D-BR.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part2 Corner Gusset D-BR.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part1 End Plate L1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part1 End Plate L2.ipt
+2026-02-22 16:56:43 | DEBUG GROUP: 'A' contains 5 components:
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A2.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A3.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A4.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part16 Angle DS-T.ipt
+2026-02-22 16:56:43 | DEBUG GROUP: 'P' contains 3 components:
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part17 Pipe DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part2 Pipe L1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part2 Non Standard Pipe.ipt
+2026-02-22 16:56:43 | DEBUG GROUP: 'FLG' contains 5 components:
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part18 Flange DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part3 Flange L1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part4 Blank Flange L1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part3 Flange L2.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Uniflex Flange\TF 0450 X 0450 G.ipt
+2026-02-22 16:56:43 | DEBUG GROUP: 'FL' contains 20 components:
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part21 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part20 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part26 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part19 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part22 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part23 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part24 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part25 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part27 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part28 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part29 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part30 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part34 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part36 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part32 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part33 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part35 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part31 Stiffener DS-T.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part5 Stiffener L1.ipt
+2026-02-22 16:56:43 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part6 Stiffener L1.ipt
+2026-02-22 16:56:43 | STEP 3: Getting plant section naming convention
+2026-02-22 16:56:43 | PLANT: Getting plant section naming convention from user
+2026-02-22 16:56:48 | PLANT: Using custom naming convention: N1SCR03-723-
+2026-02-22 16:56:48 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-22 16:56:50 | STEP 4: Showing component groups summary
+2026-02-22 16:56:50 | SUMMARY: Showing component groups to user
+2026-02-22 16:56:51 | SUMMARY: User approved component groups
+2026-02-22 16:56:51 | STEP 5: Getting user naming schemes for component groups
+2026-02-22 16:56:51 | INPUT: Getting user naming schemes for 5 groups
+2026-02-22 16:56:53 | INPUT: Group 'PL' -> Scheme: N1SCR03-723-PL{N}
+2026-02-22 16:56:54 | INPUT: Group 'A' -> Scheme: N1SCR03-723-A{N}
+2026-02-22 16:56:55 | INPUT: Group 'P' -> Scheme: N1SCR03-723-P{N}
+2026-02-22 16:56:55 | INPUT: Group 'FLG' -> Scheme: N1SCR03-723-FLG{N}
+2026-02-22 16:56:56 | INPUT: Group 'FL' -> Scheme: N1SCR03-723-FL{N}
+2026-02-22 16:56:56 | STEP 6: Creating heritage-based copies with user naming
+2026-02-22 16:56:56 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-22 16:56:56 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-22 16:56:56 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-22 16:56:56 | EXTRACT: Processing naming scheme: N1SCR03-723-PL{N}
+2026-02-22 16:56:56 | EXTRACT: Extracted prefix: 'N1SCR03-723-'
+2026-02-22 16:56:56 | HERITAGE: Checking for existing counter with key: 'N1SCR03-723-PL'
+2026-02-22 16:56:56 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR03-723-PL' not found)
+2026-02-22 16:56:56 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:56:56 | HERITAGE: Processing group 'PL' with scheme: N1SCR03-723-PL{N}
+2026-02-22 16:56:56 | HERITAGE: Part1 DS-T.ipt -> N1SCR03-723-PL1.ipt
+2026-02-22 16:56:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part1 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL1.ipt
+2026-02-22 16:56:56 | HERITAGE: Creating new file: N1SCR03-723-PL1.ipt
+2026-02-22 16:56:57 | HERITAGE: SUCCESS - Created N1SCR03-723-PL1.ipt
+2026-02-22 16:56:57 | HERITAGE: Part2 DS-T.ipt -> N1SCR03-723-PL2.ipt
+2026-02-22 16:56:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part2 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL2.ipt
+2026-02-22 16:56:57 | HERITAGE: Creating new file: N1SCR03-723-PL2.ipt
+2026-02-22 16:56:57 | HERITAGE: SUCCESS - Created N1SCR03-723-PL2.ipt
+2026-02-22 16:56:57 | HERITAGE: Part3 DS-T.ipt -> N1SCR03-723-PL3.ipt
+2026-02-22 16:56:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part3 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL3.ipt
+2026-02-22 16:56:57 | HERITAGE: Creating new file: N1SCR03-723-PL3.ipt
+2026-02-22 16:56:57 | HERITAGE: SUCCESS - Created N1SCR03-723-PL3.ipt
+2026-02-22 16:56:57 | HERITAGE: Part4 DS-T.ipt -> N1SCR03-723-PL4.ipt
+2026-02-22 16:56:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part4 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL4.ipt
+2026-02-22 16:56:57 | HERITAGE: Creating new file: N1SCR03-723-PL4.ipt
+2026-02-22 16:56:57 | HERITAGE: SUCCESS - Created N1SCR03-723-PL4.ipt
+2026-02-22 16:56:57 | HERITAGE: Part5 DS-T.ipt -> N1SCR03-723-PL5.ipt
+2026-02-22 16:56:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part5 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL5.ipt
+2026-02-22 16:56:57 | HERITAGE: Creating new file: N1SCR03-723-PL5.ipt
+2026-02-22 16:56:58 | HERITAGE: SUCCESS - Created N1SCR03-723-PL5.ipt
+2026-02-22 16:56:58 | HERITAGE: Part6 DS-T.ipt -> N1SCR03-723-PL6.ipt
+2026-02-22 16:56:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part6 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL6.ipt
+2026-02-22 16:56:58 | HERITAGE: Creating new file: N1SCR03-723-PL6.ipt
+2026-02-22 16:56:58 | HERITAGE: SUCCESS - Created N1SCR03-723-PL6.ipt
+2026-02-22 16:56:58 | HERITAGE: Part7 DS-T.ipt -> N1SCR03-723-PL7.ipt
+2026-02-22 16:56:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part7 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL7.ipt
+2026-02-22 16:56:58 | HERITAGE: Creating new file: N1SCR03-723-PL7.ipt
+2026-02-22 16:56:58 | HERITAGE: SUCCESS - Created N1SCR03-723-PL7.ipt
+2026-02-22 16:56:58 | HERITAGE: Part8 DS-T.ipt -> N1SCR03-723-PL8.ipt
+2026-02-22 16:56:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part8 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL8.ipt
+2026-02-22 16:56:58 | HERITAGE: Creating new file: N1SCR03-723-PL8.ipt
+2026-02-22 16:56:58 | HERITAGE: SUCCESS - Created N1SCR03-723-PL8.ipt
+2026-02-22 16:56:58 | HERITAGE: Part9 DS-T.ipt -> N1SCR03-723-PL9.ipt
+2026-02-22 16:56:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part9 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL9.ipt
+2026-02-22 16:56:58 | HERITAGE: Creating new file: N1SCR03-723-PL9.ipt
+2026-02-22 16:56:58 | HERITAGE: SUCCESS - Created N1SCR03-723-PL9.ipt
+2026-02-22 16:56:58 | HERITAGE: Part10 DS-T.ipt -> N1SCR03-723-PL10.ipt
+2026-02-22 16:56:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part10 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL10.ipt
+2026-02-22 16:56:58 | HERITAGE: Creating new file: N1SCR03-723-PL10.ipt
+2026-02-22 16:56:59 | HERITAGE: SUCCESS - Created N1SCR03-723-PL10.ipt
+2026-02-22 16:56:59 | HERITAGE: Part11 DS-T.ipt -> N1SCR03-723-PL11.ipt
+2026-02-22 16:56:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part11 DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL11.ipt
+2026-02-22 16:56:59 | HERITAGE: Creating new file: N1SCR03-723-PL11.ipt
+2026-02-22 16:56:59 | HERITAGE: SUCCESS - Created N1SCR03-723-PL11.ipt
+2026-02-22 16:56:59 | HERITAGE: Part37 Corner Gusset DS-T.ipt -> N1SCR03-723-PL12.ipt
+2026-02-22 16:56:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part37 Corner Gusset DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL12.ipt
+2026-02-22 16:56:59 | HERITAGE: Creating new file: N1SCR03-723-PL12.ipt
+2026-02-22 16:56:59 | HERITAGE: SUCCESS - Created N1SCR03-723-PL12.ipt
+2026-02-22 16:56:59 | HERITAGE: Lug DS-T.ipt -> N1SCR03-723-PL13.ipt
+2026-02-22 16:56:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Lug DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL13.ipt
+2026-02-22 16:56:59 | HERITAGE: Creating new file: N1SCR03-723-PL13.ipt
+2026-02-22 16:56:59 | HERITAGE: SUCCESS - Created N1SCR03-723-PL13.ipt
+2026-02-22 16:56:59 | HERITAGE: Part38 End Plate DS-T.ipt -> N1SCR03-723-PL14.ipt
+2026-02-22 16:56:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part38 End Plate DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-PL14.ipt
+2026-02-22 16:56:59 | HERITAGE: Creating new file: N1SCR03-723-PL14.ipt
+2026-02-22 16:56:59 | HERITAGE: SUCCESS - Created N1SCR03-723-PL14.ipt
+2026-02-22 16:56:59 | HERITAGE: Part1 D-BR.ipt -> N1SCR03-723-PL15.ipt
+2026-02-22 16:56:59 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part1 D-BR.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL15.ipt
+2026-02-22 16:56:59 | HERITAGE: Creating new file: N1SCR03-723-PL15.ipt
+2026-02-22 16:57:00 | HERITAGE: SUCCESS - Created N1SCR03-723-PL15.ipt
+2026-02-22 16:57:00 | HERITAGE: Part2 Corner Gusset D-BR.ipt -> N1SCR03-723-PL16.ipt
+2026-02-22 16:57:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\Part2 Corner Gusset D-BR.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Bracket\N1SCR03-723-PL16.ipt
+2026-02-22 16:57:00 | HERITAGE: Creating new file: N1SCR03-723-PL16.ipt
+2026-02-22 16:57:00 | HERITAGE: SUCCESS - Created N1SCR03-723-PL16.ipt
+2026-02-22 16:57:00 | HERITAGE: Part1 End Plate L1.ipt -> N1SCR03-723-PL17.ipt
+2026-02-22 16:57:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part1 End Plate L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-PL17.ipt
+2026-02-22 16:57:00 | HERITAGE: Creating new file: N1SCR03-723-PL17.ipt
+2026-02-22 16:57:00 | HERITAGE: SUCCESS - Created N1SCR03-723-PL17.ipt
+2026-02-22 16:57:00 | HERITAGE: Part1 End Plate L2.ipt -> N1SCR03-723-PL18.ipt
+2026-02-22 16:57:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part1 End Plate L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-PL18.ipt
+2026-02-22 16:57:00 | HERITAGE: Creating new file: N1SCR03-723-PL18.ipt
+2026-02-22 16:57:00 | HERITAGE: SUCCESS - Created N1SCR03-723-PL18.ipt
+2026-02-22 16:57:00 | REGISTRY: Saved N1SCR03-723-PL = 18
+2026-02-22 16:57:00 | EXTRACT: Processing naming scheme: N1SCR03-723-A{N}
+2026-02-22 16:57:00 | EXTRACT: Extracted prefix: 'N1SCR03-723-'
+2026-02-22 16:57:00 | HERITAGE: Checking for existing counter with key: 'N1SCR03-723-A'
+2026-02-22 16:57:00 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR03-723-A' not found)
+2026-02-22 16:57:00 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:57:00 | HERITAGE: Processing group 'A' with scheme: N1SCR03-723-A{N}
+2026-02-22 16:57:00 | HERITAGE: NSCR03-723-A1.ipt -> N1SCR03-723-A1.ipt
+2026-02-22 16:57:00 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A1.ipt
+2026-02-22 16:57:00 | HERITAGE: Creating new file: N1SCR03-723-A1.ipt
+2026-02-22 16:57:00 | HERITAGE: SUCCESS - Created N1SCR03-723-A1.ipt
+2026-02-22 16:57:01 | HERITAGE: NSCR03-723-A2.ipt -> N1SCR03-723-A2.ipt
+2026-02-22 16:57:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A2.ipt
+2026-02-22 16:57:01 | HERITAGE: Creating new file: N1SCR03-723-A2.ipt
+2026-02-22 16:57:01 | HERITAGE: SUCCESS - Created N1SCR03-723-A2.ipt
+2026-02-22 16:57:01 | HERITAGE: NSCR03-723-A3.ipt -> N1SCR03-723-A3.ipt
+2026-02-22 16:57:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A3.ipt
+2026-02-22 16:57:01 | HERITAGE: Creating new file: N1SCR03-723-A3.ipt
+2026-02-22 16:57:01 | HERITAGE: SUCCESS - Created N1SCR03-723-A3.ipt
+2026-02-22 16:57:01 | HERITAGE: NSCR03-723-A4.ipt -> N1SCR03-723-A4.ipt
+2026-02-22 16:57:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\NSCR03-723-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A4.ipt
+2026-02-22 16:57:01 | HERITAGE: Creating new file: N1SCR03-723-A4.ipt
+2026-02-22 16:57:01 | HERITAGE: SUCCESS - Created N1SCR03-723-A4.ipt
+2026-02-22 16:57:01 | HERITAGE: Part16 Angle DS-T.ipt -> N1SCR03-723-A5.ipt
+2026-02-22 16:57:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part16 Angle DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-A5.ipt
+2026-02-22 16:57:01 | HERITAGE: Creating new file: N1SCR03-723-A5.ipt
+2026-02-22 16:57:01 | HERITAGE: SUCCESS - Created N1SCR03-723-A5.ipt
+2026-02-22 16:57:01 | REGISTRY: Saved N1SCR03-723-A = 5
+2026-02-22 16:57:01 | EXTRACT: Processing naming scheme: N1SCR03-723-P{N}
+2026-02-22 16:57:01 | EXTRACT: Extracted prefix: 'N1SCR03-723-'
+2026-02-22 16:57:01 | HERITAGE: Checking for existing counter with key: 'N1SCR03-723-P'
+2026-02-22 16:57:01 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR03-723-P' not found)
+2026-02-22 16:57:01 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:57:01 | HERITAGE: Processing group 'P' with scheme: N1SCR03-723-P{N}
+2026-02-22 16:57:01 | HERITAGE: Part17 Pipe DS-T.ipt -> N1SCR03-723-P1.ipt
+2026-02-22 16:57:01 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part17 Pipe DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-P1.ipt
+2026-02-22 16:57:01 | HERITAGE: Creating new file: N1SCR03-723-P1.ipt
+2026-02-22 16:57:01 | HERITAGE: SUCCESS - Created N1SCR03-723-P1.ipt
+2026-02-22 16:57:02 | HERITAGE: Part2 Pipe L1.ipt -> N1SCR03-723-P2.ipt
+2026-02-22 16:57:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part2 Pipe L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-P2.ipt
+2026-02-22 16:57:02 | HERITAGE: Creating new file: N1SCR03-723-P2.ipt
+2026-02-22 16:57:02 | HERITAGE: SUCCESS - Created N1SCR03-723-P2.ipt
+2026-02-22 16:57:02 | HERITAGE: Part2 Non Standard Pipe.ipt -> N1SCR03-723-P3.ipt
+2026-02-22 16:57:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part2 Non Standard Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-P3.ipt
+2026-02-22 16:57:02 | HERITAGE: Creating new file: N1SCR03-723-P3.ipt
+2026-02-22 16:57:02 | HERITAGE: SUCCESS - Created N1SCR03-723-P3.ipt
+2026-02-22 16:57:02 | REGISTRY: Saved N1SCR03-723-P = 3
+2026-02-22 16:57:02 | EXTRACT: Processing naming scheme: N1SCR03-723-FLG{N}
+2026-02-22 16:57:02 | EXTRACT: Extracted prefix: 'N1SCR03-723-'
+2026-02-22 16:57:02 | HERITAGE: Checking for existing counter with key: 'N1SCR03-723-FLG'
+2026-02-22 16:57:02 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR03-723-FLG' not found)
+2026-02-22 16:57:02 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:57:02 | HERITAGE: Processing group 'FLG' with scheme: N1SCR03-723-FLG{N}
+2026-02-22 16:57:02 | HERITAGE: Part18 Flange DS-T.ipt -> N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part18 Flange DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:02 | HERITAGE: Creating new file: N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:02 | HERITAGE: SUCCESS - Created N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:02 | HERITAGE: Part3 Flange L1.ipt -> N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part3 Flange L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:02 | HERITAGE: Creating new file: N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:02 | HERITAGE: SUCCESS - Created N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:02 | HERITAGE: Part4 Blank Flange L1.ipt -> N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:02 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part4 Blank Flange L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:02 | HERITAGE: Creating new file: N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:03 | HERITAGE: SUCCESS - Created N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:03 | HERITAGE: Part3 Flange L2.ipt -> N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\Part3 Flange L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-2\N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:03 | HERITAGE: Creating new file: N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:03 | HERITAGE: SUCCESS - Created N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:03 | HERITAGE: TF 0450 X 0450 G.ipt -> N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Uniflex Flange\TF 0450 X 0450 G.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Uniflex Flange\N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:03 | HERITAGE: Creating new file: N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:03 | HERITAGE: SUCCESS - Created N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:03 | REGISTRY: Saved N1SCR03-723-FLG = 5
+2026-02-22 16:57:03 | EXTRACT: Processing naming scheme: N1SCR03-723-FL{N}
+2026-02-22 16:57:03 | EXTRACT: Extracted prefix: 'N1SCR03-723-'
+2026-02-22 16:57:03 | HERITAGE: Checking for existing counter with key: 'N1SCR03-723-FL'
+2026-02-22 16:57:03 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR03-723-FL' not found)
+2026-02-22 16:57:03 | HERITAGE: DEBUG - No existing counters found
+2026-02-22 16:57:03 | HERITAGE: Processing group 'FL' with scheme: N1SCR03-723-FL{N}
+2026-02-22 16:57:03 | HERITAGE: Part21 Stiffener DS-T.ipt -> N1SCR03-723-FL1.ipt
+2026-02-22 16:57:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part21 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL1.ipt
+2026-02-22 16:57:03 | HERITAGE: Creating new file: N1SCR03-723-FL1.ipt
+2026-02-22 16:57:03 | HERITAGE: SUCCESS - Created N1SCR03-723-FL1.ipt
+2026-02-22 16:57:03 | HERITAGE: Part20 Stiffener DS-T.ipt -> N1SCR03-723-FL2.ipt
+2026-02-22 16:57:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part20 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL2.ipt
+2026-02-22 16:57:03 | HERITAGE: Creating new file: N1SCR03-723-FL2.ipt
+2026-02-22 16:57:03 | HERITAGE: SUCCESS - Created N1SCR03-723-FL2.ipt
+2026-02-22 16:57:03 | HERITAGE: Part26 Stiffener DS-T.ipt -> N1SCR03-723-FL3.ipt
+2026-02-22 16:57:03 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part26 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL3.ipt
+2026-02-22 16:57:03 | HERITAGE: Creating new file: N1SCR03-723-FL3.ipt
+2026-02-22 16:57:04 | HERITAGE: SUCCESS - Created N1SCR03-723-FL3.ipt
+2026-02-22 16:57:04 | HERITAGE: Part19 Stiffener DS-T.ipt -> N1SCR03-723-FL4.ipt
+2026-02-22 16:57:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part19 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL4.ipt
+2026-02-22 16:57:04 | HERITAGE: Creating new file: N1SCR03-723-FL4.ipt
+2026-02-22 16:57:04 | HERITAGE: SUCCESS - Created N1SCR03-723-FL4.ipt
+2026-02-22 16:57:04 | HERITAGE: Part22 Stiffener DS-T.ipt -> N1SCR03-723-FL5.ipt
+2026-02-22 16:57:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part22 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL5.ipt
+2026-02-22 16:57:04 | HERITAGE: Creating new file: N1SCR03-723-FL5.ipt
+2026-02-22 16:57:04 | HERITAGE: SUCCESS - Created N1SCR03-723-FL5.ipt
+2026-02-22 16:57:04 | HERITAGE: Part23 Stiffener DS-T.ipt -> N1SCR03-723-FL6.ipt
+2026-02-22 16:57:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part23 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL6.ipt
+2026-02-22 16:57:04 | HERITAGE: Creating new file: N1SCR03-723-FL6.ipt
+2026-02-22 16:57:04 | HERITAGE: SUCCESS - Created N1SCR03-723-FL6.ipt
+2026-02-22 16:57:04 | HERITAGE: Part24 Stiffener DS-T.ipt -> N1SCR03-723-FL7.ipt
+2026-02-22 16:57:04 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part24 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL7.ipt
+2026-02-22 16:57:04 | HERITAGE: Creating new file: N1SCR03-723-FL7.ipt
+2026-02-22 16:57:05 | HERITAGE: SUCCESS - Created N1SCR03-723-FL7.ipt
+2026-02-22 16:57:05 | HERITAGE: Part25 Stiffener DS-T.ipt -> N1SCR03-723-FL8.ipt
+2026-02-22 16:57:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part25 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL8.ipt
+2026-02-22 16:57:05 | HERITAGE: Creating new file: N1SCR03-723-FL8.ipt
+2026-02-22 16:57:05 | HERITAGE: SUCCESS - Created N1SCR03-723-FL8.ipt
+2026-02-22 16:57:05 | HERITAGE: Part27 Stiffener DS-T.ipt -> N1SCR03-723-FL9.ipt
+2026-02-22 16:57:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part27 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL9.ipt
+2026-02-22 16:57:05 | HERITAGE: Creating new file: N1SCR03-723-FL9.ipt
+2026-02-22 16:57:05 | HERITAGE: SUCCESS - Created N1SCR03-723-FL9.ipt
+2026-02-22 16:57:05 | HERITAGE: Part28 Stiffener DS-T.ipt -> N1SCR03-723-FL10.ipt
+2026-02-22 16:57:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part28 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL10.ipt
+2026-02-22 16:57:05 | HERITAGE: Creating new file: N1SCR03-723-FL10.ipt
+2026-02-22 16:57:05 | HERITAGE: SUCCESS - Created N1SCR03-723-FL10.ipt
+2026-02-22 16:57:05 | HERITAGE: Part29 Stiffener DS-T.ipt -> N1SCR03-723-FL11.ipt
+2026-02-22 16:57:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part29 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL11.ipt
+2026-02-22 16:57:05 | HERITAGE: Creating new file: N1SCR03-723-FL11.ipt
+2026-02-22 16:57:05 | HERITAGE: SUCCESS - Created N1SCR03-723-FL11.ipt
+2026-02-22 16:57:05 | HERITAGE: Part30 Stiffener DS-T.ipt -> N1SCR03-723-FL12.ipt
+2026-02-22 16:57:05 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part30 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL12.ipt
+2026-02-22 16:57:05 | HERITAGE: Creating new file: N1SCR03-723-FL12.ipt
+2026-02-22 16:57:06 | HERITAGE: SUCCESS - Created N1SCR03-723-FL12.ipt
+2026-02-22 16:57:06 | HERITAGE: Part34 Stiffener DS-T.ipt -> N1SCR03-723-FL13.ipt
+2026-02-22 16:57:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part34 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL13.ipt
+2026-02-22 16:57:06 | HERITAGE: Creating new file: N1SCR03-723-FL13.ipt
+2026-02-22 16:57:06 | HERITAGE: SUCCESS - Created N1SCR03-723-FL13.ipt
+2026-02-22 16:57:06 | HERITAGE: Part36 Stiffener DS-T.ipt -> N1SCR03-723-FL14.ipt
+2026-02-22 16:57:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part36 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL14.ipt
+2026-02-22 16:57:06 | HERITAGE: Creating new file: N1SCR03-723-FL14.ipt
+2026-02-22 16:57:06 | HERITAGE: SUCCESS - Created N1SCR03-723-FL14.ipt
+2026-02-22 16:57:06 | HERITAGE: Part32 Stiffener DS-T.ipt -> N1SCR03-723-FL15.ipt
+2026-02-22 16:57:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part32 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL15.ipt
+2026-02-22 16:57:06 | HERITAGE: Creating new file: N1SCR03-723-FL15.ipt
+2026-02-22 16:57:06 | HERITAGE: SUCCESS - Created N1SCR03-723-FL15.ipt
+2026-02-22 16:57:06 | HERITAGE: Part33 Stiffener DS-T.ipt -> N1SCR03-723-FL16.ipt
+2026-02-22 16:57:06 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part33 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL16.ipt
+2026-02-22 16:57:06 | HERITAGE: Creating new file: N1SCR03-723-FL16.ipt
+2026-02-22 16:57:07 | HERITAGE: SUCCESS - Created N1SCR03-723-FL16.ipt
+2026-02-22 16:57:07 | HERITAGE: Part35 Stiffener DS-T.ipt -> N1SCR03-723-FL17.ipt
+2026-02-22 16:57:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part35 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL17.ipt
+2026-02-22 16:57:07 | HERITAGE: Creating new file: N1SCR03-723-FL17.ipt
+2026-02-22 16:57:07 | HERITAGE: SUCCESS - Created N1SCR03-723-FL17.ipt
+2026-02-22 16:57:07 | HERITAGE: Part31 Stiffener DS-T.ipt -> N1SCR03-723-FL18.ipt
+2026-02-22 16:57:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\Part31 Stiffener DS-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Tank\N1SCR03-723-FL18.ipt
+2026-02-22 16:57:07 | HERITAGE: Creating new file: N1SCR03-723-FL18.ipt
+2026-02-22 16:57:07 | HERITAGE: SUCCESS - Created N1SCR03-723-FL18.ipt
+2026-02-22 16:57:07 | HERITAGE: Part5 Stiffener L1.ipt -> N1SCR03-723-FL19.ipt
+2026-02-22 16:57:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part5 Stiffener L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL19.ipt
+2026-02-22 16:57:07 | HERITAGE: Creating new file: N1SCR03-723-FL19.ipt
+2026-02-22 16:57:07 | HERITAGE: SUCCESS - Created N1SCR03-723-FL19.ipt
+2026-02-22 16:57:07 | HERITAGE: Part6 Stiffener L1.ipt -> N1SCR03-723-FL20.ipt
+2026-02-22 16:57:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\Part6 Stiffener L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\Lid-1\N1SCR03-723-FL20.ipt
+2026-02-22 16:57:07 | HERITAGE: Creating new file: N1SCR03-723-FL20.ipt
+2026-02-22 16:57:07 | HERITAGE: SUCCESS - Created N1SCR03-723-FL20.ipt
+2026-02-22 16:57:07 | REGISTRY: Saved N1SCR03-723-FL = 20
+2026-02-22 16:57:08 | STEP 7: Updating assembly references
+2026-02-22 16:57:08 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-22 16:57:08 | ASSEMBLY: Updating references in - N1SCR03-723.iam (Level: ROOT)
+2026-02-22 16:57:08 | ASSEMBLY: RECURSING into sub-assembly - Tank.iam
+2026-02-22 16:57:08 | ASSEMBLY: Updating references in - Tank.iam (Level: ROOT>Tank.iam)
+2026-02-22 16:57:08 | ASSEMBLY: Replacing Part1 DS-T.ipt -> N1SCR03-723-PL1.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL1.ipt
+2026-02-22 16:57:08 | ASSEMBLY: Replacing Part2 DS-T.ipt -> N1SCR03-723-PL2.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL2.ipt
+2026-02-22 16:57:08 | ASSEMBLY: Replacing Part3 DS-T.ipt -> N1SCR03-723-PL3.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL3.ipt
+2026-02-22 16:57:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL3.ipt (not renamed)
+2026-02-22 16:57:09 | ASSEMBLY: Replacing Part4 DS-T.ipt -> N1SCR03-723-PL4.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL4.ipt
+2026-02-22 16:57:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL4.ipt (not renamed)
+2026-02-22 16:57:09 | ASSEMBLY: Replacing Part5 DS-T.ipt -> N1SCR03-723-PL5.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL5.ipt
+2026-02-22 16:57:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL5.ipt (not renamed)
+2026-02-22 16:57:09 | ASSEMBLY: Replacing Part6 DS-T.ipt -> N1SCR03-723-PL6.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL6.ipt
+2026-02-22 16:57:10 | ASSEMBLY: Replacing Part7 DS-T.ipt -> N1SCR03-723-PL7.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL7.ipt
+2026-02-22 16:57:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL7.ipt (not renamed)
+2026-02-22 16:57:10 | ASSEMBLY: Replacing Part8 DS-T.ipt -> N1SCR03-723-PL8.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL8.ipt
+2026-02-22 16:57:11 | ASSEMBLY: Replacing Part9 DS-T.ipt -> N1SCR03-723-PL9.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL9.ipt
+2026-02-22 16:57:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL9.ipt (not renamed)
+2026-02-22 16:57:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL9.ipt (not renamed)
+2026-02-22 16:57:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL9.ipt (not renamed)
+2026-02-22 16:57:11 | ASSEMBLY: Replacing Part10 DS-T.ipt -> N1SCR03-723-PL10.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL10.ipt
+2026-02-22 16:57:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL10.ipt (not renamed)
+2026-02-22 16:57:11 | ASSEMBLY: Replacing Part11 DS-T.ipt -> N1SCR03-723-PL11.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:12 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL11.ipt
+2026-02-22 16:57:12 | ASSEMBLY: Replacing NSCR03-723-A1.ipt -> N1SCR03-723-A1.ipt [A] (in Tank.iam)
+2026-02-22 16:57:12 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-A1.ipt
+2026-02-22 16:57:12 | ASSEMBLY: Replacing NSCR03-723-A2.ipt -> N1SCR03-723-A2.ipt [A] (in Tank.iam)
+2026-02-22 16:57:12 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-A2.ipt
+2026-02-22 16:57:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A1.ipt (not renamed)
+2026-02-22 16:57:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A2.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: Replacing NSCR03-723-A3.ipt -> N1SCR03-723-A3.ipt [A] (in Tank.iam)
+2026-02-22 16:57:13 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-A3.ipt
+2026-02-22 16:57:13 | ASSEMBLY: Replacing NSCR03-723-A4.ipt -> N1SCR03-723-A4.ipt [A] (in Tank.iam)
+2026-02-22 16:57:13 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-A4.ipt
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A3.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A4.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A3.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A4.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A3.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A4.ipt (not renamed)
+2026-02-22 16:57:13 | ASSEMBLY: Replacing Part16 Angle DS-T.ipt -> N1SCR03-723-A5.ipt [A] (in Tank.iam)
+2026-02-22 16:57:13 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-A5.ipt
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-A5.ipt (not renamed)
+2026-02-22 16:57:14 | ASSEMBLY: Replacing Part17 Pipe DS-T.ipt -> N1SCR03-723-P1.ipt [P] (in Tank.iam)
+2026-02-22 16:57:14 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-P1.ipt
+2026-02-22 16:57:14 | ASSEMBLY: Replacing Part18 Flange DS-T.ipt -> N1SCR03-723-FLG1.ipt [FLG] (in Tank.iam)
+2026-02-22 16:57:14 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:14 | ASSEMBLY: Replacing Part21 Stiffener DS-T.ipt -> N1SCR03-723-FL1.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:14 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL1.ipt
+2026-02-22 16:57:15 | ASSEMBLY: Replacing Part20 Stiffener DS-T.ipt -> N1SCR03-723-FL2.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:15 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL2.ipt
+2026-02-22 16:57:15 | ASSEMBLY: Replacing Part26 Stiffener DS-T.ipt -> N1SCR03-723-FL3.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:15 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL3.ipt
+2026-02-22 16:57:15 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL3.ipt (not renamed)
+2026-02-22 16:57:15 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL2.ipt (not renamed)
+2026-02-22 16:57:15 | ASSEMBLY: Replacing Part19 Stiffener DS-T.ipt -> N1SCR03-723-FL4.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:15 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL4.ipt
+2026-02-22 16:57:15 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:15 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:15 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:16 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:16 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:16 | ASSEMBLY: Replacing Part22 Stiffener DS-T.ipt -> N1SCR03-723-FL5.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:16 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL5.ipt
+2026-02-22 16:57:16 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL5.ipt (not renamed)
+2026-02-22 16:57:16 | ASSEMBLY: Replacing Part23 Stiffener DS-T.ipt -> N1SCR03-723-FL6.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:16 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL6.ipt
+2026-02-22 16:57:16 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL6.ipt (not renamed)
+2026-02-22 16:57:16 | ASSEMBLY: Replacing Part24 Stiffener DS-T.ipt -> N1SCR03-723-FL7.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:16 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL7.ipt
+2026-02-22 16:57:16 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:17 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: Replacing Part25 Stiffener DS-T.ipt -> N1SCR03-723-FL8.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:18 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL8.ipt
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL2.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL3.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL3.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL2.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:18 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL5.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL5.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL6.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL6.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:19 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL7.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL8.ipt (not renamed)
+2026-02-22 16:57:20 | ASSEMBLY: Replacing Part27 Stiffener DS-T.ipt -> N1SCR03-723-FL9.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:20 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL9.ipt
+2026-02-22 16:57:21 | ASSEMBLY: Replacing Part28 Stiffener DS-T.ipt -> N1SCR03-723-FL10.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:21 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL10.ipt
+2026-02-22 16:57:21 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL10.ipt (not renamed)
+2026-02-22 16:57:21 | ASSEMBLY: Replacing Part29 Stiffener DS-T.ipt -> N1SCR03-723-FL11.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:21 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL11.ipt
+2026-02-22 16:57:21 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL11.ipt (not renamed)
+2026-02-22 16:57:21 | ASSEMBLY: Replacing Part30 Stiffener DS-T.ipt -> N1SCR03-723-FL12.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:22 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL12.ipt
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL4.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: Replacing Part34 Stiffener DS-T.ipt -> N1SCR03-723-FL13.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:22 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL13.ipt
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:22 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: Replacing Part36 Stiffener DS-T.ipt -> N1SCR03-723-FL14.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:23 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL14.ipt
+2026-02-22 16:57:23 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL14.ipt (not renamed)
+2026-02-22 16:57:23 | ASSEMBLY: Replacing Part37 Corner Gusset DS-T.ipt -> N1SCR03-723-PL12.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:23 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL12.ipt
+2026-02-22 16:57:23 | ASSEMBLY: Replacing Part32 Stiffener DS-T.ipt -> N1SCR03-723-FL15.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:24 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL15.ipt
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL15.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: Replacing Part33 Stiffener DS-T.ipt -> N1SCR03-723-FL16.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:24 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL16.ipt
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL16.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:24 | ASSEMBLY: Replacing Part35 Stiffener DS-T.ipt -> N1SCR03-723-FL17.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:25 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL17.ipt
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL14.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL14.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL12.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL15.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL15.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL16.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL16.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:25 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL17.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: Replacing Part31 Stiffener DS-T.ipt -> N1SCR03-723-FL18.ipt [FL] (in Tank.iam)
+2026-02-22 16:57:26 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL18.ipt
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL18.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL13.ipt (not renamed)
+2026-02-22 16:57:26 | ASSEMBLY: Replacing Lug DS-T.ipt -> N1SCR03-723-PL13.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:26 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL13.ipt
+2026-02-22 16:57:27 | ASSEMBLY: Replacing Part38 End Plate DS-T.ipt -> N1SCR03-723-PL14.ipt [PL] (in Tank.iam)
+2026-02-22 16:57:27 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL14.ipt
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL13.ipt (not renamed)
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL14.ipt (not renamed)
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL13.ipt (not renamed)
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL14.ipt (not renamed)
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL13.ipt (not renamed)
+2026-02-22 16:57:27 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL14.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: Saved sub-assembly - Tank.iam
+2026-02-22 16:57:30 | ASSEMBLY: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:30 | ASSEMBLY: Updating references in - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:57:30 | ASSEMBLY: Replacing Part1 D-BR.ipt -> N1SCR03-723-PL15.ipt [PL] (in Tank Bracket.iam)
+2026-02-22 16:57:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL15.ipt
+2026-02-22 16:57:30 | ASSEMBLY: Replacing Part2 Corner Gusset D-BR.ipt -> N1SCR03-723-PL16.ipt [PL] (in Tank Bracket.iam)
+2026-02-22 16:57:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL16.ipt
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: Saved sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:30 | ASSEMBLY: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:30 | ASSEMBLY: Updating references in - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL15.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: Saved sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:30 | ASSEMBLY: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:30 | ASSEMBLY: Updating references in - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL15.ipt (not renamed)
+2026-02-22 16:57:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:31 | ASSEMBLY: Saved sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:31 | ASSEMBLY: RECURSING into sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:31 | ASSEMBLY: Updating references in - Tank Bracket.iam (Level: ROOT>Tank Bracket.iam)
+2026-02-22 16:57:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL15.ipt (not renamed)
+2026-02-22 16:57:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-PL16.ipt (not renamed)
+2026-02-22 16:57:31 | ASSEMBLY: Saved sub-assembly - Tank Bracket.iam
+2026-02-22 16:57:31 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-02-22 16:57:31 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part1 End Plate L1.ipt -> N1SCR03-723-PL17.ipt [PL] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL17.ipt
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part2 Pipe L1.ipt -> N1SCR03-723-P2.ipt [P] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-P2.ipt
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part3 Flange L1.ipt -> N1SCR03-723-FLG2.ipt [FLG] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part4 Blank Flange L1.ipt -> N1SCR03-723-FLG3.ipt [FLG] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part5 Stiffener L1.ipt -> N1SCR03-723-FL19.ipt [FL] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL19.ipt
+2026-02-22 16:57:31 | ASSEMBLY: Replacing Part6 Stiffener L1.ipt -> N1SCR03-723-FL20.ipt [FL] (in Lid-1.iam)
+2026-02-22 16:57:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FL20.ipt
+2026-02-22 16:57:31 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL20.ipt (not renamed)
+2026-02-22 16:57:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL20.ipt (not renamed)
+2026-02-22 16:57:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-723-FL20.ipt (not renamed)
+2026-02-22 16:57:32 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-02-22 16:57:32 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-02-22 16:57:32 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-22 16:57:32 | ASSEMBLY: Replacing Part1 End Plate L2.ipt -> N1SCR03-723-PL18.ipt [PL] (in Lid-2.iam)
+2026-02-22 16:57:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-PL18.ipt
+2026-02-22 16:57:32 | ASSEMBLY: Replacing Part2 Non Standard Pipe.ipt -> N1SCR03-723-P3.ipt [P] (in Lid-2.iam)
+2026-02-22 16:57:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-P3.ipt
+2026-02-22 16:57:32 | ASSEMBLY: Replacing Part3 Flange L2.ipt -> N1SCR03-723-FLG4.ipt [FLG] (in Lid-2.iam)
+2026-02-22 16:57:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:33 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-02-22 16:57:33 | ASSEMBLY: Replacing TF 0450 X 0450 G.ipt -> N1SCR03-723-FLG5.ipt [FLG] (in N1SCR03-723.iam)
+2026-02-22 16:57:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:33 | ASSEMBLY: Saving assembly with updated references...
+2026-02-22 16:57:36 | ASSEMBLY: Successfully saved assembly
+2026-02-22 16:57:36 | STEP 8: Auto-detecting and updating IDW files
+2026-02-22 16:57:36 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-22 16:57:36 | IDW: Found drawing file - MGY-200-DSL-04-00.idw
+2026-02-22 16:57:36 | IDW: Processing MGY-200-DSL-04-00.idw
+2026-02-22 16:57:38 | IDW: Opening MGY-200-DSL-04-00.idw
+2026-02-22 16:57:41 | IDW: Found 1 referenced files
+2026-02-22 16:57:41 | IDW: INFO - No mapping found for N1SCR03-723.iam
+2026-02-22 16:57:46 | IDW: Saved MGY-200-DSL-04-00.idw
+2026-02-22 16:57:46 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-22 16:57:46 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-22 16:57:46 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\723 Desliming Tank\STEP_1_MAPPING.txt
+2026-02-22 16:57:46 | MAPPING: Comprehensive mapping count = 51
+2026-02-22 16:57:46 | MAPPING: Prepared: Part1 DS-T.ipt -> N1SCR03-723-PL1.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part2 DS-T.ipt -> N1SCR03-723-PL2.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part3 DS-T.ipt -> N1SCR03-723-PL3.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part4 DS-T.ipt -> N1SCR03-723-PL4.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part5 DS-T.ipt -> N1SCR03-723-PL5.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part6 DS-T.ipt -> N1SCR03-723-PL6.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part7 DS-T.ipt -> N1SCR03-723-PL7.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part8 DS-T.ipt -> N1SCR03-723-PL8.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part9 DS-T.ipt -> N1SCR03-723-PL9.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part10 DS-T.ipt -> N1SCR03-723-PL10.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part11 DS-T.ipt -> N1SCR03-723-PL11.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part37 Corner Gusset DS-T.ipt -> N1SCR03-723-PL12.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Lug DS-T.ipt -> N1SCR03-723-PL13.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part38 End Plate DS-T.ipt -> N1SCR03-723-PL14.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part1 D-BR.ipt -> N1SCR03-723-PL15.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part2 Corner Gusset D-BR.ipt -> N1SCR03-723-PL16.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part1 End Plate L1.ipt -> N1SCR03-723-PL17.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part1 End Plate L2.ipt -> N1SCR03-723-PL18.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: NSCR03-723-A1.ipt -> N1SCR03-723-A1.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: NSCR03-723-A2.ipt -> N1SCR03-723-A2.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: NSCR03-723-A3.ipt -> N1SCR03-723-A3.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: NSCR03-723-A4.ipt -> N1SCR03-723-A4.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part16 Angle DS-T.ipt -> N1SCR03-723-A5.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part17 Pipe DS-T.ipt -> N1SCR03-723-P1.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part2 Pipe L1.ipt -> N1SCR03-723-P2.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part2 Non Standard Pipe.ipt -> N1SCR03-723-P3.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part18 Flange DS-T.ipt -> N1SCR03-723-FLG1.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part3 Flange L1.ipt -> N1SCR03-723-FLG2.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part4 Blank Flange L1.ipt -> N1SCR03-723-FLG3.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part3 Flange L2.ipt -> N1SCR03-723-FLG4.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: TF 0450 X 0450 G.ipt -> N1SCR03-723-FLG5.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part21 Stiffener DS-T.ipt -> N1SCR03-723-FL1.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part20 Stiffener DS-T.ipt -> N1SCR03-723-FL2.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part26 Stiffener DS-T.ipt -> N1SCR03-723-FL3.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part19 Stiffener DS-T.ipt -> N1SCR03-723-FL4.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part22 Stiffener DS-T.ipt -> N1SCR03-723-FL5.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part23 Stiffener DS-T.ipt -> N1SCR03-723-FL6.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part24 Stiffener DS-T.ipt -> N1SCR03-723-FL7.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part25 Stiffener DS-T.ipt -> N1SCR03-723-FL8.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part27 Stiffener DS-T.ipt -> N1SCR03-723-FL9.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part28 Stiffener DS-T.ipt -> N1SCR03-723-FL10.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part29 Stiffener DS-T.ipt -> N1SCR03-723-FL11.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part30 Stiffener DS-T.ipt -> N1SCR03-723-FL12.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part34 Stiffener DS-T.ipt -> N1SCR03-723-FL13.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part36 Stiffener DS-T.ipt -> N1SCR03-723-FL14.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part32 Stiffener DS-T.ipt -> N1SCR03-723-FL15.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part33 Stiffener DS-T.ipt -> N1SCR03-723-FL16.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part35 Stiffener DS-T.ipt -> N1SCR03-723-FL17.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part31 Stiffener DS-T.ipt -> N1SCR03-723-FL18.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part5 Stiffener L1.ipt -> N1SCR03-723-FL19.ipt
+2026-02-22 16:57:46 | MAPPING: Prepared: Part6 Stiffener L1.ipt -> N1SCR03-723-FL20.ipt
+2026-02-22 16:57:46 | MAPPING: Write attempt 1 of 3
+2026-02-22 16:57:46 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-22 16:57:46 | MAPPING: VERIFICATION - File exists! Size: 18256 bytes
+2026-02-22 16:57:46 | MAPPING: SUCCESS - Mapping file saved with 51 mappings
+2026-02-22 16:57:48 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-22 16:57:48 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-22 16:57:48 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

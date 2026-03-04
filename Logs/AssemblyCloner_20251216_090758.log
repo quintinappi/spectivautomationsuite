@@ -1,0 +1,105 @@
+﻿2025-12-16 09:07:58 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 09:07:58 | Using EXACT methodology from VBScript Option 9
+2025-12-16 09:07:58 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-10\Walkway-10-2.iam
+2025-12-16 09:07:58 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-10
+2025-12-16 09:08:00 | User confirmed clone operation
+2025-12-16 09:08:00 | Opening folder browser dialog...
+2025-12-16 09:08:16 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-6
+2025-12-16 09:08:17 | Rename parts: True
+2025-12-16 09:08:17 | Prompting for plant section prefix...
+2025-12-16 09:08:19 | Plant section prefix: Walkway-6
+2025-12-16 09:08:21 | New assembly name: Walkway-6
+2025-12-16 09:08:21 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-6\Walkway-6.iam
+2025-12-16 09:08:21 | COLLECT: Part1 Beam-2.ipt (IPE180)
+2025-12-16 09:08:21 | COLLECT: Part2 PFC-2.ipt (PFC180x70)
+2025-12-16 09:08:21 | COLLECT: Part3 PFC-2.ipt (PFC180x70)
+2025-12-16 09:08:21 | COLLECT: Part4 End Plate-2.ipt (PL 10mm S355JR)
+2025-12-16 09:08:21 | COLLECT: Part5 End Plate-2.ipt (PL 10mm S355JR)
+2025-12-16 09:08:21 | COLLECT: Part6 End Plate-2.ipt (PL 10mm S355JR)
+2025-12-16 09:08:21 | COLLECT: Part7 Corner Gusset-2.ipt (PL 8mm S355JR)
+2025-12-16 09:08:21 | COLLECT: Part8 Centre Gusset-2.ipt (PL 8mm S355JR)
+2025-12-16 09:08:21 | COLLECT: Part9 Angle-2.ipt (L70x70x6)
+2025-12-16 09:08:21 | Collected 9 parts
+2025-12-16 09:08:21 | Closing source assembly for safe copy...
+2025-12-16 09:08:28 | Copying assembly file...
+2025-12-16 09:08:28 | COPIED: Walkway-10-2.iam -> Walkway-6.iam
+2025-12-16 09:08:28 | Copying 9 parts...
+2025-12-16 09:08:28 | COPIED: Part1 Beam-2.ipt -> Walkway-6-IPE1.ipt
+2025-12-16 09:08:28 | COPIED: Part2 PFC-2.ipt -> Walkway-6-CH2.ipt
+2025-12-16 09:08:28 | COPIED: Part3 PFC-2.ipt -> Walkway-6-CH3.ipt
+2025-12-16 09:08:28 | COPIED: Part4 End Plate-2.ipt -> Walkway-6-PL4.ipt
+2025-12-16 09:08:28 | COPIED: Part5 End Plate-2.ipt -> Walkway-6-PL5.ipt
+2025-12-16 09:08:28 | COPIED: Part6 End Plate-2.ipt -> Walkway-6-PL6.ipt
+2025-12-16 09:08:28 | COPIED: Part7 Corner Gusset-2.ipt -> Walkway-6-PL7.ipt
+2025-12-16 09:08:28 | COPIED: Part8 Centre Gusset-2.ipt -> Walkway-6-PL8.ipt
+2025-12-16 09:08:28 | COPIED: Part9 Angle-2.ipt -> Walkway-6-A9.ipt
+2025-12-16 09:08:28 | Updating assembly references and patching iLogic...
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Opened Walkway-6.iam
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Found 9 file references
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part1 Beam-2.ipt -> Walkway-6-IPE1.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part2 PFC-2.ipt -> Walkway-6-CH2.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part3 PFC-2.ipt -> Walkway-6-CH3.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part4 End Plate-2.ipt -> Walkway-6-PL4.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part5 End Plate-2.ipt -> Walkway-6-PL5.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part6 End Plate-2.ipt -> Walkway-6-PL6.ipt
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:28 | ASSEMBLY UPDATE: Replacing Part7 Corner Gusset-2.ipt -> Walkway-6-PL7.ipt
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Replacing Part8 Centre Gusset-2.ipt -> Walkway-6-PL8.ipt
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Replacing Part9 Angle-2.ipt -> Walkway-6-A9.ipt
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Updated 9 references
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 09:08:29 | Patching iLogic rules (in same session)...
+2025-12-16 09:08:29 | Patched 0 iLogic rules
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 09:08:29 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 09:08:29 | Processing IDW files...
+2025-12-16 09:08:29 | IDW PROCESS: Found 1 IDW files
+2025-12-16 09:08:34 | IDW PROCESS: Processing MGY-200-DRP-01-11.idw -> MGY-200-DRP-01-11.idw
+2025-12-16 09:08:44 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 09:08:45 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 09:08:45 | IDW PROCESS: Found 10 references
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part1 Beam.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part2 PFC.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part3 PFC.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part4 End Plate.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part5 End Plate.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part6 End Plate.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part7 Corner Gusset.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part8 Centre Gusset.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Part9 Angle.ipt
+2025-12-16 09:08:45 | IDW PROCESS: No mapping for Walkway-10.iam
+2025-12-16 09:08:45 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 09:08:45 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 09:08:45 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-11.idw
+2025-12-16 09:08:45 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-11'
+2025-12-16 09:08:45 | IDW PROCESS: Updated Description to 'Walkway-6'
+2025-12-16 09:08:45 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-11.idw
+2025-12-16 09:08:45 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-6\MGY-200-DRP-01-11.idw
+2025-12-16 09:08:45 | IDW PROCESS: Successfully saved MGY-200-DRP-01-11.idw as MGY-200-DRP-01-11.idw (0 references updated)
+2025-12-16 09:08:45 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 09:08:45 | Updating iProperties for copied documents...
+2025-12-16 09:08:46 | Updated iProperties for Walkway-6.iam
+2025-12-16 09:08:46 | Updated iProperties for Walkway-6-IPE1.ipt
+2025-12-16 09:08:46 | Updated iProperties for Walkway-6-CH2.ipt
+2025-12-16 09:08:46 | Updated iProperties for Walkway-6-CH3.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-PL4.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-PL5.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-PL6.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-PL7.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-PL8.ipt
+2025-12-16 09:08:47 | Updated iProperties for Walkway-6-A9.ipt
+2025-12-16 09:08:48 | Saving iLogic patch log...
+2025-12-16 09:08:48 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 09:08:48 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_090758.log

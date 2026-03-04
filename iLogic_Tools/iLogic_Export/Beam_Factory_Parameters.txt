@@ -1,0 +1,117 @@
+==============================================
+PARAMETERS EXTRACTION
+==============================================
+Source File: Beam_Factory
+Exported: 12/15/2025 7:16:34 AM
+==============================================
+
+USER PARAMETERS:
+-------------------------------------------
+  h_ = 203.2 mm [mm]
+  b_ = 133.2 mm [mm]
+  tw = 5.7 mm [mm]
+  tf = 7.8 mm [mm]
+  r1 = 7.6 mm [mm]
+  Length = 1000 mm [mm]
+  kg_m = 25 mm [mm]
+  Size_IBeam = "203 x 133 x 25" [Text]
+  Size_HBeam = "203 x 203 x 46" [Text]
+  Size_IPE = "IPE200" [Text]
+  I_Beam = True [Boolean]
+  H_Beam = False [Boolean]
+  IPE = False [Boolean]
+  Beam_Type = "I-Beam" [Text]
+
+MODEL PARAMETERS:
+-------------------------------------------
+  d0 = b_
+  d1 = h_
+  d2 = r1
+  d3 = tf
+  d4 = tw
+  d5 = Length
+  d6 = 0.00 deg
+  d7 = 25 mm
+  d8 = 95 mm
+  d9 = 95 mm
+  d11 = 0.00 deg
+  d12 = 22.000000 mm
+
+iPROPERTIES:
+-------------------------------------------
+
+[Summary Information]
+  Title = 
+  Subject = 
+  Author = H.H.
+  Keywords = 
+  Comments = 
+  Last Saved By = 
+  Revision Number = 
+
+[Document Summary Information]
+  Category = 
+  Manager = 
+  Company = 
+
+[Design Tracking Properties]
+  Creation Date = 10/18/2021
+  Part Number = Beam_Factory
+  Project = 
+  Cost Center = 
+  Checked By = 
+  Checked Date = 1/1/1601
+  Eng. Approved By = 
+  Eng. Approved Date = 1/1/1601
+  Status = 
+  Material = Steel, Mild
+  Part Revision = {C9154D94-8A17-499E-A877-F72B788DF451}
+  Web Link = 
+  Description = 203 x 133 x 25 PFI
+  Vendor = 
+  Part Type = {4D29B490-49B2-11D0-93C3-7E0706000000}
+  Part Type name = Modeling
+  Date proxy refreshed = 1/1/1601
+  Mfg. Approved By = 
+  Mfg. Approved Date = 1/1/1601
+  Estimated Cost = 0
+  Standard = 
+  Design State = 1
+  Designer = H.H.
+  Engineer = 
+  Authority = 
+  Parameterized Template = False
+  Template Row = 
+  External Part Revision = {CA03B470-9BC9-44BE-875E-BC130AEA0F46}
+  Standard Revision = 
+  Manufacturer = 
+  Standards Organization = 
+  Language = 
+  Defer Updates = False
+  Size Designation = 
+  Categories = 
+  Stock Number = 1
+  Weld Material = 
+  Mass = 218451.181209082
+  Area = 56341.3123020014
+  Volume = 27828.1759502015
+  Density = 7.85
+  Valid MassProps = 17
+  Flat Pattern Extents Width = 0
+  FlatPatternExtentsLength = 0
+  Flat PatternExtents Area = 0
+  SheetMetalRule = 
+  Last Update with = 2026 (Build 300175050, 175E)
+  Sheet Metal Width = 
+  Sheet Metal Length = 
+  Sheet Metal Area = 
+  Material Identifier = C:\Users\Public\Documents\Autodesk\Inventor 2020\Design Data\Materials\InventorMaterialLibrary.adsklib#1:Steel, Mild
+#MaterialInv_029
+  Appearance = Steel
+  Flat Pattern Defer Update = False
+  Revit Category = 0
+
+[User Defined Properties]
+  Length = 1000.000 mm
+  Size_IBeam = 203 x 133 x 25
+  Size_HBeam = 203 x 203 x 46

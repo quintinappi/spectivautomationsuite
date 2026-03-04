@@ -1,0 +1,465 @@
+2026-02-02 17:27:07 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-02 17:27:07 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-02 17:27:08 | SUCCESS: Connected to existing Inventor instance
+2026-02-02 17:27:08 | STEP 1: Detecting open assembly and analyzing components
+2026-02-02 17:27:08 | DETECTED: Document type: 12291
+2026-02-02 17:27:08 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-02 17:27:08 | DETECTED: Active assembly - N1SCR04-734.iam
+2026-02-02 17:27:08 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\N1SCR04-734.iam
+2026-02-02 17:27:09 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-02 17:27:09 | CONFIRMED: 4 occurrences to process
+2026-02-02 17:27:09 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box
+2026-02-02 17:27:09 | STEP 0: Selecting mapping file location FIRST
+2026-02-02 17:27:09 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-02 17:28:24 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 17:28:24 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-02 17:28:25 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 17:28:25 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-02 17:28:25 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-02 17:28:25 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-02 17:28:25 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box
+2026-02-02 17:28:25 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_0_AUDIT.txt
+2026-02-02 17:28:25 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-02 17:28:26 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_0_AUDIT.txt
+2026-02-02 17:28:26 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-02 17:28:26 | STEP 2: Flattening hierarchy and grouping components
+2026-02-02 17:28:26 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - N1SCR04-734.iam (Level: ROOT)
+2026-02-02 17:28:26 | ANALYZE: Found 4 occurrences in N1SCR04-734.iam
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Frame.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Frame.iam (Level: ROOT>Support Frame.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 11 occurrences in Support Frame.iam
+2026-02-02 17:28:26 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: PART - Part1 FB-C1.ipt -> Description: PL10 mm S355JR - 140 mm x 200 mm -> Group: PL (from Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Created new group - PL
+2026-02-02 17:28:26 | ANALYZE: PART - Part2 203x133x25 FB-C1.ipt -> Description: UB203x133x25 -> Group: B (from Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Created new group - B
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 2 occurrences in Support Column.iam
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-C1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-02 17:28:26 | ANALYZE: PART - Part1 FB-B1.ipt -> Description: PL10 mm S355JR - 130 mm x 200 mm -> Group: PL (from Support Beam-1.iam)
+2026-02-02 17:28:26 | ANALYZE: PART - Part2 203x133x25 FB-B1.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-1.iam)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Beam-3.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Beam-3.iam (Level: ROOT>Support Frame.iam>Support Beam-3.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 3 occurrences in Support Beam-3.iam
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: PART - Part2 203x133x25 FB-B3.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-3.iam)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B1.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 3 occurrences in Support Beam-2.iam
+2026-02-02 17:28:26 | ANALYZE: PART - Part1 FB-B2.ipt -> Description: PL10 mm S355JR - 130 mm x 170 mm -> Group: PL (from Support Beam-2.iam)
+2026-02-02 17:28:26 | ANALYZE: PART - Part2 203x133x25 FB-B2.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-2.iam)
+2026-02-02 17:28:26 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 17:28:26 | ANALYZE: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:26 | ANALYZE: Processing assembly - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 17:28:26 | ANALYZE: Found 3 occurrences in Support Beam-2.iam
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 FB-B2.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: SKIPPING (suppressed occurrence in N1SCR04-734.iam)
+2026-02-02 17:28:27 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 17:28:27 | ANALYZE: RECURSING into sub-assembly - Floats Flood Chute.iam
+2026-02-02 17:28:27 | ANALYZE: Processing assembly - Floats Flood Chute.iam (Level: ROOT>Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: Found 30 occurrences in Floats Flood Chute.iam
+2026-02-02 17:28:27 | ANALYZE: PART - Part3 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part4 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part5 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part5 FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: PART - Part6 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: Created new group - A
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Angle FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: PART - Part7 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part8 (Part7 Angle MIR) FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part9 Angle FB-C.ipt -> Description: L60x60x6 -> Group: A (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: PART - Part10 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part11 Corner Gusset FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part10 FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Corner Gusset FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: PART - Lug FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: DUPLICATE PART SKIPPED - Lug FB-C.ipt (already processed)
+2026-02-02 17:28:27 | ANALYZE: PART - Part12 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part13 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part14 FB-C.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part3 Flange L1.ipt -> Description: FLANGE - 200NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: Created new group - FLG
+2026-02-02 17:28:27 | ANALYZE: PART - Part15.ipt -> Description: PL 6mm S355JR -> Group: PL (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: PART - Part2 Pipe L1.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: P (from Floats Flood Chute.iam)
+2026-02-02 17:28:27 | ANALYZE: Created new group - P
+2026-02-02 17:28:27 | ANALYZE: Recursive processing completed - Total unique parts processed: 23
+2026-02-02 17:28:27 | ANALYZE: Created 5 component groups
+2026-02-02 17:28:27 | DEBUG GROUP: 'PL' contains 13 components:
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part1 FB-C1.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part12 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part13 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part14 FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part15.ipt
+2026-02-02 17:28:27 | DEBUG GROUP: 'B' contains 4 components:
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\Part2 203x133x25 FB-B3.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2026-02-02 17:28:27 | DEBUG GROUP: 'A' contains 4 components:
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-02-02 17:28:27 | DEBUG GROUP: 'FLG' contains 1 components:
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 Flange L1.ipt
+2026-02-02 17:28:27 | DEBUG GROUP: 'P' contains 1 components:
+2026-02-02 17:28:27 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 Pipe L1.ipt
+2026-02-02 17:28:27 | STEP 3: Getting plant section naming convention
+2026-02-02 17:28:27 | PLANT: Getting plant section naming convention from user
+2026-02-02 17:28:31 | PLANT: Using custom naming convention: N1SCR04-734-
+2026-02-02 17:28:31 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-02 17:28:34 | STEP 4: Showing component groups summary
+2026-02-02 17:28:34 | SUMMARY: Showing component groups to user
+2026-02-02 17:28:37 | SUMMARY: User approved component groups
+2026-02-02 17:28:37 | STEP 5: Getting user naming schemes for component groups
+2026-02-02 17:28:37 | INPUT: Getting user naming schemes for 5 groups
+2026-02-02 17:28:40 | INPUT: Group 'PL' -> Scheme: N1SCR04-734-PL{N}
+2026-02-02 17:28:41 | INPUT: Group 'B' -> Scheme: N1SCR04-734-B{N}
+2026-02-02 17:28:42 | INPUT: Group 'A' -> Scheme: N1SCR04-734-A{N}
+2026-02-02 17:28:43 | INPUT: Group 'FLG' -> Scheme: N1SCR04-734-FLG{N}
+2026-02-02 17:28:44 | INPUT: Group 'P' -> Scheme: N1SCR04-734-P{N}
+2026-02-02 17:28:44 | STEP 6: Creating heritage-based copies with user naming
+2026-02-02 17:28:44 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-02 17:28:44 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-02 17:28:44 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-02 17:28:44 | EXTRACT: Processing naming scheme: N1SCR04-734-PL{N}
+2026-02-02 17:28:44 | EXTRACT: Extracted prefix: 'N1SCR04-734-'
+2026-02-02 17:28:44 | HERITAGE: Checking for existing counter with key: 'N1SCR04-734-PL'
+2026-02-02 17:28:44 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR04-734-PL' not found)
+2026-02-02 17:28:44 | HERITAGE: DEBUG - No existing counters found
+2026-02-02 17:28:44 | HERITAGE: Processing group 'PL' with scheme: N1SCR04-734-PL{N}
+2026-02-02 17:28:44 | HERITAGE: Part1 FB-C1.ipt -> N1SCR04-734-PL1.ipt
+2026-02-02 17:28:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part1 FB-C1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-PL1.ipt
+2026-02-02 17:28:44 | HERITAGE: Creating new file: N1SCR04-734-PL1.ipt
+2026-02-02 17:28:44 | HERITAGE: SUCCESS - Created N1SCR04-734-PL1.ipt
+2026-02-02 17:28:44 | HERITAGE: Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt
+2026-02-02 17:28:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:28:44 | HERITAGE: Creating new file: N1SCR04-734-PL2.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL2.ipt
+2026-02-02 17:28:45 | HERITAGE: Part1 FB-B2.ipt -> N1SCR04-734-PL3.ipt
+2026-02-02 17:28:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-PL3.ipt
+2026-02-02 17:28:45 | HERITAGE: Creating new file: N1SCR04-734-PL3.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL3.ipt
+2026-02-02 17:28:45 | HERITAGE: Part3 FB-C.ipt -> N1SCR04-734-PL4.ipt
+2026-02-02 17:28:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:28:45 | HERITAGE: Creating new file: N1SCR04-734-PL4.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL4.ipt
+2026-02-02 17:28:45 | HERITAGE: Part4 FB-C.ipt -> N1SCR04-734-PL5.ipt
+2026-02-02 17:28:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:28:45 | HERITAGE: Creating new file: N1SCR04-734-PL5.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL5.ipt
+2026-02-02 17:28:45 | HERITAGE: Part5 FB-C.ipt -> N1SCR04-734-PL6.ipt
+2026-02-02 17:28:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:28:45 | HERITAGE: Creating new file: N1SCR04-734-PL6.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL6.ipt
+2026-02-02 17:28:45 | HERITAGE: Part10 FB-C.ipt -> N1SCR04-734-PL7.ipt
+2026-02-02 17:28:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:28:45 | HERITAGE: Creating new file: N1SCR04-734-PL7.ipt
+2026-02-02 17:28:45 | HERITAGE: SUCCESS - Created N1SCR04-734-PL7.ipt
+2026-02-02 17:28:46 | HERITAGE: Part11 Corner Gusset FB-C.ipt -> N1SCR04-734-PL8.ipt
+2026-02-02 17:28:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:28:46 | HERITAGE: Creating new file: N1SCR04-734-PL8.ipt
+2026-02-02 17:28:46 | HERITAGE: SUCCESS - Created N1SCR04-734-PL8.ipt
+2026-02-02 17:28:46 | HERITAGE: Lug FB-C.ipt -> N1SCR04-734-PL9.ipt
+2026-02-02 17:28:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:28:46 | HERITAGE: Creating new file: N1SCR04-734-PL9.ipt
+2026-02-02 17:28:46 | HERITAGE: SUCCESS - Created N1SCR04-734-PL9.ipt
+2026-02-02 17:28:46 | HERITAGE: Part12 FB-C.ipt -> N1SCR04-734-PL10.ipt
+2026-02-02 17:28:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part12 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL10.ipt
+2026-02-02 17:28:46 | HERITAGE: Creating new file: N1SCR04-734-PL10.ipt
+2026-02-02 17:28:46 | HERITAGE: SUCCESS - Created N1SCR04-734-PL10.ipt
+2026-02-02 17:28:46 | HERITAGE: Part13 FB-C.ipt -> N1SCR04-734-PL11.ipt
+2026-02-02 17:28:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part13 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL11.ipt
+2026-02-02 17:28:46 | HERITAGE: Creating new file: N1SCR04-734-PL11.ipt
+2026-02-02 17:28:46 | HERITAGE: SUCCESS - Created N1SCR04-734-PL11.ipt
+2026-02-02 17:28:46 | HERITAGE: Part14 FB-C.ipt -> N1SCR04-734-PL12.ipt
+2026-02-02 17:28:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part14 FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL12.ipt
+2026-02-02 17:28:46 | HERITAGE: Creating new file: N1SCR04-734-PL12.ipt
+2026-02-02 17:28:47 | HERITAGE: SUCCESS - Created N1SCR04-734-PL12.ipt
+2026-02-02 17:28:47 | HERITAGE: Part15.ipt -> N1SCR04-734-PL13.ipt
+2026-02-02 17:28:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL13.ipt
+2026-02-02 17:28:47 | HERITAGE: Creating new file: N1SCR04-734-PL13.ipt
+2026-02-02 17:28:47 | HERITAGE: SUCCESS - Created N1SCR04-734-PL13.ipt
+2026-02-02 17:28:47 | REGISTRY: Saved N1SCR04-734-PL = 13
+2026-02-02 17:28:47 | EXTRACT: Processing naming scheme: N1SCR04-734-B{N}
+2026-02-02 17:28:47 | EXTRACT: Extracted prefix: 'N1SCR04-734-'
+2026-02-02 17:28:47 | HERITAGE: Checking for existing counter with key: 'N1SCR04-734-B'
+2026-02-02 17:28:47 | HERITAGE: Group 'B' starting from number 1 (new prefix or group - key 'N1SCR04-734-B' not found)
+2026-02-02 17:28:47 | HERITAGE: DEBUG - No existing counters found
+2026-02-02 17:28:47 | HERITAGE: Processing group 'B' with scheme: N1SCR04-734-B{N}
+2026-02-02 17:28:47 | HERITAGE: Part2 203x133x25 FB-C1.ipt -> N1SCR04-734-B1.ipt
+2026-02-02 17:28:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-B1.ipt
+2026-02-02 17:28:47 | HERITAGE: Creating new file: N1SCR04-734-B1.ipt
+2026-02-02 17:28:47 | HERITAGE: SUCCESS - Created N1SCR04-734-B1.ipt
+2026-02-02 17:28:47 | HERITAGE: Part2 203x133x25 FB-B1.ipt -> N1SCR04-734-B2.ipt
+2026-02-02 17:28:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-B2.ipt
+2026-02-02 17:28:47 | HERITAGE: Creating new file: N1SCR04-734-B2.ipt
+2026-02-02 17:28:47 | HERITAGE: SUCCESS - Created N1SCR04-734-B2.ipt
+2026-02-02 17:28:47 | HERITAGE: Part2 203x133x25 FB-B3.ipt -> N1SCR04-734-B3.ipt
+2026-02-02 17:28:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\Part2 203x133x25 FB-B3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\N1SCR04-734-B3.ipt
+2026-02-02 17:28:47 | HERITAGE: Creating new file: N1SCR04-734-B3.ipt
+2026-02-02 17:28:47 | HERITAGE: SUCCESS - Created N1SCR04-734-B3.ipt
+2026-02-02 17:28:47 | HERITAGE: Part2 203x133x25 FB-B2.ipt -> N1SCR04-734-B4.ipt
+2026-02-02 17:28:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-B4.ipt
+2026-02-02 17:28:47 | HERITAGE: Creating new file: N1SCR04-734-B4.ipt
+2026-02-02 17:28:48 | HERITAGE: SUCCESS - Created N1SCR04-734-B4.ipt
+2026-02-02 17:28:48 | REGISTRY: Saved N1SCR04-734-B = 4
+2026-02-02 17:28:48 | EXTRACT: Processing naming scheme: N1SCR04-734-A{N}
+2026-02-02 17:28:48 | EXTRACT: Extracted prefix: 'N1SCR04-734-'
+2026-02-02 17:28:48 | HERITAGE: Checking for existing counter with key: 'N1SCR04-734-A'
+2026-02-02 17:28:48 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR04-734-A' not found)
+2026-02-02 17:28:48 | HERITAGE: DEBUG - No existing counters found
+2026-02-02 17:28:48 | HERITAGE: Processing group 'A' with scheme: N1SCR04-734-A{N}
+2026-02-02 17:28:48 | HERITAGE: Part6 Angle FB-C.ipt -> N1SCR04-734-A1.ipt
+2026-02-02 17:28:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part6 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:28:48 | HERITAGE: Creating new file: N1SCR04-734-A1.ipt
+2026-02-02 17:28:48 | HERITAGE: SUCCESS - Created N1SCR04-734-A1.ipt
+2026-02-02 17:28:48 | HERITAGE: Part7 Angle FB-C.ipt -> N1SCR04-734-A2.ipt
+2026-02-02 17:28:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part7 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:28:48 | HERITAGE: Creating new file: N1SCR04-734-A2.ipt
+2026-02-02 17:28:48 | HERITAGE: SUCCESS - Created N1SCR04-734-A2.ipt
+2026-02-02 17:28:48 | HERITAGE: Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR04-734-A3.ipt
+2026-02-02 17:28:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:28:48 | HERITAGE: Creating new file: N1SCR04-734-A3.ipt
+2026-02-02 17:28:48 | HERITAGE: SUCCESS - Created N1SCR04-734-A3.ipt
+2026-02-02 17:28:48 | HERITAGE: Part9 Angle FB-C.ipt -> N1SCR04-734-A4.ipt
+2026-02-02 17:28:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part9 Angle FB-C.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:28:48 | HERITAGE: Creating new file: N1SCR04-734-A4.ipt
+2026-02-02 17:28:48 | HERITAGE: SUCCESS - Created N1SCR04-734-A4.ipt
+2026-02-02 17:28:48 | REGISTRY: Saved N1SCR04-734-A = 4
+2026-02-02 17:28:48 | EXTRACT: Processing naming scheme: N1SCR04-734-FLG{N}
+2026-02-02 17:28:48 | EXTRACT: Extracted prefix: 'N1SCR04-734-'
+2026-02-02 17:28:48 | HERITAGE: Checking for existing counter with key: 'N1SCR04-734-FLG'
+2026-02-02 17:28:48 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR04-734-FLG' not found)
+2026-02-02 17:28:48 | HERITAGE: DEBUG - No existing counters found
+2026-02-02 17:28:48 | HERITAGE: Processing group 'FLG' with scheme: N1SCR04-734-FLG{N}
+2026-02-02 17:28:48 | HERITAGE: Part3 Flange L1.ipt -> N1SCR04-734-FLG1.ipt
+2026-02-02 17:28:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 Flange L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-FLG1.ipt
+2026-02-02 17:28:48 | HERITAGE: Creating new file: N1SCR04-734-FLG1.ipt
+2026-02-02 17:28:49 | HERITAGE: SUCCESS - Created N1SCR04-734-FLG1.ipt
+2026-02-02 17:28:49 | REGISTRY: Saved N1SCR04-734-FLG = 1
+2026-02-02 17:28:49 | EXTRACT: Processing naming scheme: N1SCR04-734-P{N}
+2026-02-02 17:28:49 | EXTRACT: Extracted prefix: 'N1SCR04-734-'
+2026-02-02 17:28:49 | HERITAGE: Checking for existing counter with key: 'N1SCR04-734-P'
+2026-02-02 17:28:49 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR04-734-P' not found)
+2026-02-02 17:28:49 | HERITAGE: DEBUG - No existing counters found
+2026-02-02 17:28:49 | HERITAGE: Processing group 'P' with scheme: N1SCR04-734-P{N}
+2026-02-02 17:28:49 | HERITAGE: Part2 Pipe L1.ipt -> N1SCR04-734-P1.ipt
+2026-02-02 17:28:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 Pipe L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-P1.ipt
+2026-02-02 17:28:49 | HERITAGE: Creating new file: N1SCR04-734-P1.ipt
+2026-02-02 17:28:49 | HERITAGE: SUCCESS - Created N1SCR04-734-P1.ipt
+2026-02-02 17:28:49 | REGISTRY: Saved N1SCR04-734-P = 1
+2026-02-02 17:28:49 | STEP 7: Updating assembly references
+2026-02-02 17:28:49 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-02 17:28:49 | ASSEMBLY: Updating references in - N1SCR04-734.iam (Level: ROOT)
+2026-02-02 17:28:49 | ASSEMBLY: RECURSING into sub-assembly - Support Frame.iam
+2026-02-02 17:28:49 | ASSEMBLY: Updating references in - Support Frame.iam (Level: ROOT>Support Frame.iam)
+2026-02-02 17:28:49 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 17:28:49 | ASSEMBLY: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:49 | ASSEMBLY: Updating references in - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:49 | ASSEMBLY: Replacing Part1 FB-C1.ipt -> N1SCR04-734-PL1.ipt [PL] (in Support Column.iam)
+2026-02-02 17:28:49 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL1.ipt
+2026-02-02 17:28:49 | ASSEMBLY: Replacing Part2 203x133x25 FB-C1.ipt -> N1SCR04-734-B1.ipt [B] (in Support Column.iam)
+2026-02-02 17:28:50 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-B1.ipt
+2026-02-02 17:28:50 | ASSEMBLY: Saved sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: Updating references in - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-B1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: Saved sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: Updating references in - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-B1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: Saved sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: RECURSING into sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: Updating references in - Support Column.iam (Level: ROOT>Support Frame.iam>Support Column.iam)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-B1.ipt (not renamed)
+2026-02-02 17:28:50 | ASSEMBLY: Saved sub-assembly - Support Column.iam
+2026-02-02 17:28:50 | ASSEMBLY: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-02-02 17:28:50 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:50 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 17:28:50 | ASSEMBLY: Replacing Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt [PL] (in Support Beam-1.iam)
+2026-02-02 17:28:50 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL2.ipt
+2026-02-02 17:28:50 | ASSEMBLY: Replacing Part2 203x133x25 FB-B1.ipt -> N1SCR04-734-B2.ipt [B] (in Support Beam-1.iam)
+2026-02-02 17:28:50 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-B2.ipt
+2026-02-02 17:28:50 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL2.ipt (not renamed)
+2026-02-02 17:28:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:51 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Frame.iam>Support Beam-1.iam)
+2026-02-02 17:28:51 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL2.ipt (not renamed)
+2026-02-02 17:28:51 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-B2.ipt (not renamed)
+2026-02-02 17:28:51 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL2.ipt (not renamed)
+2026-02-02 17:28:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-02 17:28:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-3.iam
+2026-02-02 17:28:51 | ASSEMBLY: Updating references in - Support Beam-3.iam (Level: ROOT>Support Frame.iam>Support Beam-3.iam)
+2026-02-02 17:28:51 | ASSEMBLY: Replacing Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt [PL] (in Support Beam-3.iam)
+2026-02-02 17:28:51 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL2.ipt
+2026-02-02 17:28:51 | ASSEMBLY: Replacing Part2 203x133x25 FB-B3.ipt -> N1SCR04-734-B3.ipt [B] (in Support Beam-3.iam)
+2026-02-02 17:28:51 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-B3.ipt
+2026-02-02 17:28:51 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL2.ipt (not renamed)
+2026-02-02 17:28:51 | ASSEMBLY: Saved sub-assembly - Support Beam-3.iam
+2026-02-02 17:28:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:51 | ASSEMBLY: Updating references in - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 17:28:51 | ASSEMBLY: Replacing Part1 FB-B2.ipt -> N1SCR04-734-PL3.ipt [PL] (in Support Beam-2.iam)
+2026-02-02 17:28:51 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL3.ipt
+2026-02-02 17:28:51 | ASSEMBLY: Replacing Part2 203x133x25 FB-B2.ipt -> N1SCR04-734-B4.ipt [B] (in Support Beam-2.iam)
+2026-02-02 17:28:51 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-B4.ipt
+2026-02-02 17:28:51 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL3.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: Saved sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:52 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:52 | ASSEMBLY: Updating references in - Support Beam-2.iam (Level: ROOT>Support Frame.iam>Support Beam-2.iam)
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL3.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-B4.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL3.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: Saved sub-assembly - Support Beam-2.iam
+2026-02-02 17:28:52 | ASSEMBLY: Saved sub-assembly - Support Frame.iam
+2026-02-02 17:28:52 | ASSEMBLY: SKIPPING (suppressed occurrence in N1SCR04-734.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 17:28:52 | ASSEMBLY: RECURSING into sub-assembly - Floats Flood Chute.iam
+2026-02-02 17:28:52 | ASSEMBLY: Updating references in - Floats Flood Chute.iam (Level: ROOT>Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part3 FB-C.ipt -> N1SCR04-734-PL4.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL4.ipt
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part4 FB-C.ipt -> N1SCR04-734-PL5.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL5.ipt
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part5 FB-C.ipt -> N1SCR04-734-PL6.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL6.ipt
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL6.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part6 Angle FB-C.ipt -> N1SCR04-734-A1.ipt [A] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-A1.ipt
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-A1.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part7 Angle FB-C.ipt -> N1SCR04-734-A2.ipt [A] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-A2.ipt
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR04-734-A3.ipt [A] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-A3.ipt
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part9 Angle FB-C.ipt -> N1SCR04-734-A4.ipt [A] (in Floats Flood Chute.iam)
+2026-02-02 17:28:52 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-A4.ipt
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-A4.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-A4.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-A4.ipt (not renamed)
+2026-02-02 17:28:52 | ASSEMBLY: Replacing Part10 FB-C.ipt -> N1SCR04-734-PL7.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL7.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part11 Corner Gusset FB-C.ipt -> N1SCR04-734-PL8.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL8.ipt
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL7.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL8.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL7.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL8.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL7.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL8.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Lug FB-C.ipt -> N1SCR04-734-PL9.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL9.ipt
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL9.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL9.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: INFO - No mapping found for N1SCR04-734-PL9.ipt (not renamed)
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part12 FB-C.ipt -> N1SCR04-734-PL10.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL10.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part13 FB-C.ipt -> N1SCR04-734-PL11.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL11.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part14 FB-C.ipt -> N1SCR04-734-PL12.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL12.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part3 Flange L1.ipt -> N1SCR04-734-FLG1.ipt [FLG] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-FLG1.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part15.ipt -> N1SCR04-734-PL13.ipt [PL] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-PL13.ipt
+2026-02-02 17:28:53 | ASSEMBLY: Replacing Part2 Pipe L1.ipt -> N1SCR04-734-P1.ipt [P] (in Floats Flood Chute.iam)
+2026-02-02 17:28:53 | ASSEMBLY: SUCCESS - Updated to N1SCR04-734-P1.ipt
+2026-02-02 17:28:56 | ASSEMBLY: Saved sub-assembly - Floats Flood Chute.iam
+2026-02-02 17:28:56 | ASSEMBLY: Saving assembly with updated references...
+2026-02-02 17:28:57 | ASSEMBLY: Successfully saved assembly
+2026-02-02 17:28:57 | STEP 8: Auto-detecting and updating IDW files
+2026-02-02 17:28:57 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-02 17:28:57 | IDW: Found drawing file - MGY-200-DRD-09-00.idw
+2026-02-02 17:28:57 | IDW: Found drawing file - N1SCR04-734-PA.idw
+2026-02-02 17:28:57 | IDW: Processing MGY-200-DRD-09-00.idw
+2026-02-02 17:28:58 | IDW: Opening MGY-200-DRD-09-00.idw
+2026-02-02 17:29:16 | IDW: Found 1 referenced files
+2026-02-02 17:29:16 | IDW: INFO - No mapping found for N1SCR04-734.iam
+2026-02-02 17:29:19 | IDW: Saved MGY-200-DRD-09-00.idw
+2026-02-02 17:29:19 | IDW: Processing N1SCR04-734-PA.idw
+2026-02-02 17:29:19 | IDW: Opening N1SCR04-734-PA.idw
+2026-02-02 17:29:20 | IDW: Found 1 referenced files
+2026-02-02 17:29:20 | IDW: INFO - No mapping found for Floats Flood Chute.iam
+2026-02-02 17:29:21 | IDW: Saved N1SCR04-734-PA.idw
+2026-02-02 17:29:21 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-02 17:29:21 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-02 17:29:21 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 17:29:21 | MAPPING: Comprehensive mapping count = 23
+2026-02-02 17:29:21 | MAPPING: Prepared: Part1 FB-C1.ipt -> N1SCR04-734-PL1.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part1 FB-B2.ipt -> N1SCR04-734-PL3.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part3 FB-C.ipt -> N1SCR04-734-PL4.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part4 FB-C.ipt -> N1SCR04-734-PL5.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part5 FB-C.ipt -> N1SCR04-734-PL6.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part10 FB-C.ipt -> N1SCR04-734-PL7.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part11 Corner Gusset FB-C.ipt -> N1SCR04-734-PL8.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Lug FB-C.ipt -> N1SCR04-734-PL9.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part12 FB-C.ipt -> N1SCR04-734-PL10.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part13 FB-C.ipt -> N1SCR04-734-PL11.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part14 FB-C.ipt -> N1SCR04-734-PL12.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part15.ipt -> N1SCR04-734-PL13.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part2 203x133x25 FB-C1.ipt -> N1SCR04-734-B1.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part2 203x133x25 FB-B1.ipt -> N1SCR04-734-B2.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part2 203x133x25 FB-B3.ipt -> N1SCR04-734-B3.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part2 203x133x25 FB-B2.ipt -> N1SCR04-734-B4.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part6 Angle FB-C.ipt -> N1SCR04-734-A1.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part7 Angle FB-C.ipt -> N1SCR04-734-A2.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR04-734-A3.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part9 Angle FB-C.ipt -> N1SCR04-734-A4.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part3 Flange L1.ipt -> N1SCR04-734-FLG1.ipt
+2026-02-02 17:29:21 | MAPPING: Prepared: Part2 Pipe L1.ipt -> N1SCR04-734-P1.ipt
+2026-02-02 17:29:21 | MAPPING: Write attempt 1 of 3
+2026-02-02 17:29:21 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-02 17:29:21 | MAPPING: VERIFICATION - File exists! Size: 8814 bytes
+2026-02-02 17:29:21 | MAPPING: SUCCESS - Mapping file saved with 23 mappings
+2026-02-02 17:29:23 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-02 17:29:23 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-02 17:29:23 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

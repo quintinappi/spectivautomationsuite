@@ -1,0 +1,1342 @@
+2026-01-14 10:30:39 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-14 10:30:39 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-14 10:30:42 | MAPPING: No existing mapping file found (this is first run)
+2026-01-14 10:30:42 | SUCCESS: Connected to existing Inventor instance
+2026-01-14 10:30:42 | STEP 1: Detecting open assembly and analyzing components
+2026-01-14 10:30:42 | DETECTED: Document type: 12291
+2026-01-14 10:30:42 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-14 10:30:42 | DETECTED: Active assembly - N1SCR04-730.iam
+2026-01-14 10:30:42 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\N1SCR04-730.iam
+2026-01-14 10:30:44 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-14 10:30:44 | CONFIRMED: 42 occurrences to process
+2026-01-14 10:30:44 | STEP 2: Flattening hierarchy and grouping components
+2026-01-14 10:30:44 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-14 10:30:44 | ANALYZE: Processing assembly - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 10:30:44 | ANALYZE: Found 42 occurrences in N1SCR04-730.iam
+2026-01-14 10:30:44 | ANALYZE: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 10:30:44 | ANALYZE: Processing assembly - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Found 86 occurrences in Head Box.iam
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL1.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Created new group - PL
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL2.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL3.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL4.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL5.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL6.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL7.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL8.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL8.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL8.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL9.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PL10.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL10.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PART1.ipt -> Description: PIPE - 800NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Created new group - P
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-FL4.ipt -> Description: FL50x8 -> Group: FL (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Created new group - FL
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PART2.ipt -> Description: PIPE - 500NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-FL2.ipt -> Description: FLANGE - 500NB S.A.B.S.1123 1000/3 25 TH'K -> Group: FLG (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Created new group - FLG
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART2.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL2.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-PART3.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-FL3.ipt -> Description: FLANGE - 200NB S.A.B.S.1123 1000/3 18 TH'K -> Group: FLG (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A1.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: Created new group - A
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A2.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A3.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A4.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A5.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A6.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A7.ipt -> Description: L50x50x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: PART - N1SCR04-730-A8.ipt -> Description: L50x50x6 -> Group: A (from Head Box.iam)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-14 10:30:44 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL11.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL12.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL13.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL14.ipt -> Description: PL 25mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL15.ipt -> Description: PL 20mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL16.ipt -> Description: PL 8mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 10:30:45 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PL17.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-A9.ipt -> Description: L60x60x6 -> Group: A (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-FL5.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL5.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL5.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-FL6.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-FL7.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: PART - N1SCR04-730-PART4.ipt -> Description: R16 -> Group: OTHER (from Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: Created new group - OTHER
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 10:30:45 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 10:30:45 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL17.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A9.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL5.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL5.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL5.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL6.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL7.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 10:30:45 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 10:30:45 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 10:30:45 | ANALYZE: Found 18 occurrences in Lid-2.iam
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-PL18.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-A10.ipt -> Description: L60x60x6 -> Group: A (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-FL8.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL8.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL8.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A10.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-FL9.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL9.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-FL10.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL10.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL9.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL9.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL10.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL10.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-PART5.ipt -> Description: R16 -> Group: OTHER (from Lid-2.iam)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 10:30:46 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 10:30:46 | ANALYZE: PART - N1SCR04-730-PL19.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-730.iam)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-14 10:30:46 | ANALYZE: Recursive processing completed - Total unique parts processed: 43
+2026-01-14 10:30:46 | ANALYZE: Created 6 component groups
+2026-01-14 10:30:46 | DEBUG GROUP: 'PL' contains 19 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL1.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL2.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL3.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL4.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL5.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL6.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL7.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL8.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL9.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL10.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL11.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL12.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL13.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL14.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL15.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL16.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL17.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unrenamed Parts\N1SCR04-730-PL18.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL19.ipt
+2026-01-14 10:30:46 | DEBUG GROUP: 'P' contains 3 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART1.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART2.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART3.ipt
+2026-01-14 10:30:46 | DEBUG GROUP: 'FL' contains 7 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL4.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL5.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL6.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL7.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL8.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL9.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL10.ipt
+2026-01-14 10:30:46 | DEBUG GROUP: 'FLG' contains 2 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL2.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FL3.ipt
+2026-01-14 10:30:46 | DEBUG GROUP: 'A' contains 10 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A1.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A2.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A3.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A4.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A5.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A6.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A7.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A8.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A9.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-A10.ipt
+2026-01-14 10:30:46 | DEBUG GROUP: 'OTHER' contains 2 components:
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART4.ipt
+2026-01-14 10:30:46 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART5.ipt
+2026-01-14 10:30:46 | STEP 3: Getting plant section naming convention
+2026-01-14 10:30:46 | PLANT: Getting plant section naming convention from user
+2026-01-14 10:31:37 | PLANT: Using custom naming convention: N1SCR04-730-
+2026-01-14 10:31:38 | STEP 4: Showing component groups summary
+2026-01-14 10:31:38 | SUMMARY: Showing component groups to user
+2026-01-14 10:31:40 | SUMMARY: User approved component groups
+2026-01-14 10:31:40 | STEP 5: Getting user naming schemes for component groups
+2026-01-14 10:31:40 | INPUT: Getting user naming schemes for 6 groups
+2026-01-14 10:31:44 | INPUT: Group 'PL' -> Scheme: N1SCR04-730-PL{N}
+2026-01-14 10:31:47 | INPUT: Group 'P' -> Scheme: N1SCR04-730-P{N}
+2026-01-14 10:31:50 | INPUT: Group 'FL' -> Scheme: N1SCR04-730-FL{N}
+2026-01-14 10:31:53 | INPUT: Group 'FLG' -> Scheme: N1SCR04-730-FLG{N}
+2026-01-14 10:31:55 | INPUT: Group 'A' -> Scheme: N1SCR04-730-A{N}
+2026-01-14 10:32:06 | INPUT: Group 'OTHER' -> Scheme: N1SCR04-730-R{N}
+2026-01-14 10:32:06 | STEP 6: Creating heritage-based copies with user naming
+2026-01-14 10:32:06 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-14 10:32:06 | HERITAGE: Checking if registry has existing counters
+2026-01-14 10:32:06 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: N1SCR04-730-
+2026-01-14 10:32:06 | SCAN: No existing counter for: N1SCR04-730-CH (will start from 1)
+2026-01-14 10:32:06 | SCAN: Found existing counter: N1SCR04-730-PL = 19
+2026-01-14 10:32:06 | SCAN: No existing counter for: N1SCR04-730-B (will start from 1)
+2026-01-14 10:32:06 | SCAN: Found existing counter: N1SCR04-730-A = 10
+2026-01-14 10:32:06 | SCAN: No existing counter for: N1SCR04-730-P (will start from 1)
+2026-01-14 10:32:06 | SCAN: Found existing counter: N1SCR04-730-FLG = 3
+2026-01-14 10:32:06 | SCAN: Found existing counter: N1SCR04-730-R = 2
+2026-01-14 10:32:06 | SCAN: No existing counter for: N1SCR04-730-SQ (will start from 1)
+2026-01-14 10:32:06 | SCAN: Found existing counter: N1SCR04-730-FL = 10
+2026-01-14 10:32:07 | SCAN: No existing counter for: N1SCR04-730-LPL (will start from 1)
+2026-01-14 10:32:07 | SCAN: No existing counter for: N1SCR04-730-IPE (will start from 1)
+2026-01-14 10:32:07 | SCAN: Found existing counter: N1SCR04-730-OTHER = 5
+2026-01-14 10:32:07 | SCAN: Loaded 6 existing counters from Registry
+2026-01-14 10:32:07 | HERITAGE: Registry has 6 counters - continuing numbering
+2026-01-14 10:32:07 | SCAN: Scanning directory for existing heritage files to ensure correct numbering
+2026-01-14 10:32:07 | SCAN: Directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\
+2026-01-14 10:32:07 | SCAN: Found 142 heritage files to analyze
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A1
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A10.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A10
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '1', Number: '0'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A1', Number: 0
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A1 = 0
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A2
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A3
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A4
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A5
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A6
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A7
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A8.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A8
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '8'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='8', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A9.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A9
+2026-01-14 10:32:07 | SCAN: groupStart=14, numberStart=14
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A', Group: '', Number: '9'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='9', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL1
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL10.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL10
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '1', Number: '0'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL1', Number: 0
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL1 = 0
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL2
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL3
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL4
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL5
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL6
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL7
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL8.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL8
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '8'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='8', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL9.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL9
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL', Group: '', Number: '9'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='9', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG1
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG2
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG3
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG4
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG5
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG6
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART1
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=17
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART2
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=17
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART3
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=17
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART4
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=17
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART5
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=17
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL1
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL10.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL10
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '0'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 0
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL1 = 0
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL11.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL11
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 1
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 0 to 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL12.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL12
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 2
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 1 to 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL13.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL13
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '3'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 3
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 2 to 3
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL14.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL14
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '4'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 4
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 3 to 4
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL15.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL15
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '5'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 5
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 4 to 5
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL16.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL16
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '6'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 6
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 5 to 6
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL17.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL17
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '7'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 7
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 6 to 7
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL19.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL19
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '9'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 9
+2026-01-14 10:32:07 | SCAN: Updated N1SCR04-730-PL1 from 7 to 9
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL2
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL3
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL4
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL5
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL6
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL7
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL8.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL8
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '8'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='8', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL9.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL9
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=15
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '', Number: '9'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='9', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A1
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A10.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A10
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '1', Number: '0'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-A1', Number: 0
+2026-01-14 10:32:07 | SCAN: Added new TEST01-A1 = 0
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A2
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A3
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A4
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A5
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A6
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A7
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A8.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A8
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '8'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='8', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-A9.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-A9
+2026-01-14 10:32:07 | SCAN: groupStart=9, numberStart=9
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-A', Group: '', Number: '9'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='9', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL1
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL2
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL3
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL4
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL5
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL6
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FL7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FL7
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FL', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG1
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG2
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG3
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG4
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG5
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-FLG6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-FLG6
+2026-01-14 10:32:07 | SCAN: groupStart=11, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-FLG', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PART1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PART1
+2026-01-14 10:32:07 | SCAN: groupStart=12, numberStart=12
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PART', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PART2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PART2
+2026-01-14 10:32:07 | SCAN: groupStart=12, numberStart=12
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PART', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL1
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL10.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL10
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '0'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 0
+2026-01-14 10:32:07 | SCAN: Added new TEST01-PL1 = 0
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL11.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL11
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 1
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 0 to 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL12.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL12
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 2
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 1 to 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL13.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL13
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '3'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 3
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 2 to 3
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL14.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL14
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '4'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 4
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 3 to 4
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL15.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL15
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '5'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 5
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 4 to 5
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL16.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL16
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '6'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 6
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 5 to 6
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL17.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL17
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '7'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 7
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 6 to 7
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL19.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL19
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '9'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 9
+2026-01-14 10:32:07 | SCAN: Updated TEST01-PL1 from 7 to 9
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL2.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL2
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '2'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='2', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL3.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL3
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '3'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='3', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL4.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL4
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '4'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='4', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL5.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL5
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '5'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='5', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL6.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL6
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '6'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='6', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL7.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL7
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '7'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='7', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL8.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL8
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '8'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='8', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL9.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL9
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=10
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '', Number: '9'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='9', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A1.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A1.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A1.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A1.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A1.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A10.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A10.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A10.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A10.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A10.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A2.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A2.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A2.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A2.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A2.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A3.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A3.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A3.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A3.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A3.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A4.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A4.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A4.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A4.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A4.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A5.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A5.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A5.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A5.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A5.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A6.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A6.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A6.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A6.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A6.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A7.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A7.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A7.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A7.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A7.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A8.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A8.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A8.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A8.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A8.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-A9.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-A9.0001
+2026-01-14 10:32:07 | SCAN: groupStart=16, numberStart=19
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-A9.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-A9.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-A9.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL10.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL10.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL10.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL10.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL10.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL2.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL2.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL2.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL2.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL2.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL2.0001_1.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL2.0001_1
+2026-01-14 10:32:07 | SCAN: groupStart=22, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL2.0001_', Group: '', Number: '1'
+2026-01-14 10:32:07 | SCAN: WARNING - Invalid number or group: numberPart='1', groupPart=''
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL3.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL3.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL3.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL3.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL3.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL4.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL4.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL4.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL4.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL4.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL5.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL5.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL5.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL5.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL5.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL6.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL6.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL6.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL6.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL6.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL7.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL7.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL7.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL7.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL7.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL8.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL8.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL8.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL8.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL8.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FL9.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FL9.0001
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FL9.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FL9.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FL9.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG1.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG1.0002
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG1.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FLG1.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FLG1.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-FLG2.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-FLG2.0002
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-FLG2.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-FLG2.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-FLG2.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART1.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART1.0001
+2026-01-14 10:32:07 | SCAN: groupStart=19, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART1.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PART1.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PART1.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART2.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART2.0001
+2026-01-14 10:32:07 | SCAN: groupStart=19, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART2.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PART2.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PART2.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART3.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART3.0001
+2026-01-14 10:32:07 | SCAN: groupStart=19, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART3.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PART3.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PART3.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART4.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART4.0001
+2026-01-14 10:32:07 | SCAN: groupStart=19, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART4.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PART4.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PART4.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PART5.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PART5.0001
+2026-01-14 10:32:07 | SCAN: groupStart=19, numberStart=22
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PART5.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PART5.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PART5.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL1.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL1.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL1.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL1.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL10.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL10.0002
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL10.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL10.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL10.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL11.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL11.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL11.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL11.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL11.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL12.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL12.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL12.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL12.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL12.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL13.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL13.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL13.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL13.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL13.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL14.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL14.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL14.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL14.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL14.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL15.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL15.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL15.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL15.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL15.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL16.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL16.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL16.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL16.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL16.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL17.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL17.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL17.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL17.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL17.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL19.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL19.0002
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL19.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL19.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL19.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL2.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL2.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL2.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL2.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL2.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL3.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL3.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL3.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL3.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL3.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL4.0003.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL4.0003
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL4.', Group: '000', Number: '3'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL4.000', Number: 3
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL4.000 = 3
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL5.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL5.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL5.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL5.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL5.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL6.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL6.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL6.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL6.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL6.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL7.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL7.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL7.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL7.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL7.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL8.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL8.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL8.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL8.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL8.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL9.0002.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL9.0002
+2026-01-14 10:32:07 | SCAN: groupStart=17, numberStart=20
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL9.', Group: '000', Number: '2'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL9.000', Number: 2
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL9.000 = 2
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL17.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL17.0001
+2026-01-14 10:32:07 | SCAN: groupStart=13, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL17.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL17.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new TEST01-PL17.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL18.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL18
+2026-01-14 10:32:07 | SCAN: groupStart=15, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL', Group: '1', Number: '8'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL1', Number: 8
+2026-01-14 10:32:07 | SCAN: Kept existing N1SCR04-730-PL1 at 9 (current 8 is lower)
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL18.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL18
+2026-01-14 10:32:07 | SCAN: groupStart=10, numberStart=11
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL', Group: '1', Number: '8'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL1', Number: 8
+2026-01-14 10:32:07 | SCAN: Kept existing TEST01-PL1 at 9 (current 8 is lower)
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: N1SCR04-730-PL18.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: N1SCR04-730-PL18.0001
+2026-01-14 10:32:07 | SCAN: groupStart=18, numberStart=21
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'N1SCR04-730-PL18.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'N1SCR04-730-PL18.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new N1SCR04-730-PL18.000 = 1
+2026-01-14 10:32:07 | SCAN: Analyzing fileName: TEST01-PL18.0001.ipt
+2026-01-14 10:32:07 | SCAN: BaseName after extension removal: TEST01-PL18.0001
+2026-01-14 10:32:07 | SCAN: groupStart=13, numberStart=16
+2026-01-14 10:32:07 | SCAN: Parsed - Prefix: 'TEST01-PL18.', Group: '000', Number: '1'
+2026-01-14 10:32:07 | SCAN: Valid parse - Key: 'TEST01-PL18.000', Number: 1
+2026-01-14 10:32:07 | SCAN: Added new TEST01-PL18.000 = 1
+2026-01-14 10:32:07 | EXTRACT: Processing naming scheme: N1SCR04-730-PL{N}
+2026-01-14 10:32:07 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-14 10:32:07 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-PL'
+2026-01-14 10:32:07 | HERITAGE: Group 'PL' continuing from number 20 (found registry counter 19)
+2026-01-14 10:32:07 | HERITAGE: Processing group 'PL' with scheme: N1SCR04-730-PL{N}
+2026-01-14 10:32:07 | HERITAGE: N1SCR04-730-PL1.ipt -> N1SCR04-730-PL20.ipt
+2026-01-14 10:32:07 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PL20.ipt
+2026-01-14 10:32:07 | STEP 7: Updating assembly references
+2026-01-14 10:32:07 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-14 10:32:07 | ASSEMBLY: Updating references in - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 10:32:07 | ASSEMBLY: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 10:32:07 | ASSEMBLY: Updating references in - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 10:32:07 | ASSEMBLY: Replacing N1SCR04-730-PL1.ipt -> N1SCR04-730-PL20.ipt [PL] (in Head Box.iam)
+2026-01-14 10:32:07 | ASSEMBLY: ERROR - Replace failed: Invalid procedure call or argument
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL2.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL3.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL4.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL5.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL6.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL7.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL8.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL9.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL10.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL10.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-14 10:32:07 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART3.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A1.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A2.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A3.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A5.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A6.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A7.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A8.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL11.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL12.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL13.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL14.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL15.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 10:32:08 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL16.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: Saved sub-assembly - Head Box.iam
+2026-01-14 10:32:09 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 10:32:09 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL17.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A9.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:09 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 10:32:10 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 10:32:10 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL17.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A9.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART4.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 10:32:10 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 10:32:10 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL18.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL8.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL9.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL10.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 10:32:10 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART5.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-01-14 10:32:11 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 10:32:11 | ASSEMBLY: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL19.ipt (not renamed)
+2026-01-14 10:32:11 | ASSEMBLY: Saving assembly with updated references...
+2026-01-14 10:32:11 | ASSEMBLY: Successfully saved assembly
+2026-01-14 10:32:11 | STEP 8: Auto-detecting and updating IDW files
+2026-01-14 10:32:11 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-14 10:32:11 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 10:32:11 | IDW: Processing KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 10:32:12 | IDW: Opening KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 10:32:16 | IDW: Found 48 referenced files
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for Head Box.iam
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A1.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A10.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A2.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A3.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A4.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A5.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A6.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A7.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A8.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-A9.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL1.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL10.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL2.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL3.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL4.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL6.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL7.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL8.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-FL9.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PART1.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PART2.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PART3.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PART4.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PART5.ipt
+2026-01-14 10:32:16 | IDW: Updating reference N1SCR04-730-PL1.ipt -> N1SCR04-730-PL20.ipt
+2026-01-14 10:32:16 | IDW: ERROR - ReplaceReference failed: Invalid procedure call or argument
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL10.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL11.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL12.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL13.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL14.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL15.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL16.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL17.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL19.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL2.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL3.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL4.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL5.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL6.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL7.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL8.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL9.ipt
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730.iam
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-EXPLODED.ipn
+2026-01-14 10:32:16 | IDW: INFO - No mapping found for N1SCR04-730-PL18.ipt
+2026-01-14 10:32:17 | IDW: Saved KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 10:32:17 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-14 10:32:17 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-14 10:32:17 | MAPPING: Created parent directory: C:\InventorSuite
+2026-01-14 10:32:17 | MAPPING: Created central mappings directory: C:\InventorSuite\Mappings
+2026-01-14 10:32:17 | MAPPING: Saving mapping file to central location: C:\InventorSuite\Mappings\STEP_1_MAPPING.txt
+2026-01-14 10:32:17 | MAPPING: Creating new mapping file
+2026-01-14 10:32:17 | MAPPING: N1SCR04-730-PL1.ipt -> N1SCR04-730-PL20.ipt
+2026-01-14 10:32:17 | MAPPING: Saved comprehensive mapping to C:\InventorSuite\Mappings\STEP_1_MAPPING.txt (1 mappings)
+2026-01-14 10:32:17 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-14 10:32:17 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

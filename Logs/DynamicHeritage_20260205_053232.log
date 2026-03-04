@@ -1,0 +1,1003 @@
+2026-02-05 05:32:32 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-05 05:32:32 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-05 05:32:34 | SUCCESS: Connected to existing Inventor instance
+2026-02-05 05:32:34 | STEP 1: Detecting open assembly and analyzing components
+2026-02-05 05:32:34 | DETECTED: Document type: 12291
+2026-02-05 05:32:34 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-05 05:32:34 | DETECTED: Active assembly - N1SCR04-722.iam
+2026-02-05 05:32:34 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722.iam
+2026-02-05 05:32:36 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-05 05:32:36 | CONFIRMED: 192 occurrences to process
+2026-02-05 05:32:36 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan
+2026-02-05 05:32:36 | STEP 0: Selecting mapping file location FIRST
+2026-02-05 05:32:36 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-05 05:32:51 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\STEP_1_MAPPING.txt
+2026-02-05 05:32:52 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-05 05:32:53 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\STEP_1_MAPPING.txt
+2026-02-05 05:32:53 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-05 05:32:53 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-05 05:32:53 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-05 05:32:53 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan
+2026-02-05 05:32:53 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\STEP_0_AUDIT.txt
+2026-02-05 05:32:55 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-05 05:33:00 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\STEP_0_AUDIT.txt
+2026-02-05 05:33:00 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-05 05:33:00 | STEP 2: Flattening hierarchy and grouping components
+2026-02-05 05:33:00 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-05 05:33:00 | ANALYZE: Processing assembly - N1SCR04-722.iam (Level: ROOT)
+2026-02-05 05:33:00 | ANALYZE: Found 192 occurrences in N1SCR04-722.iam
+2026-02-05 05:33:00 | ANALYZE: PART - Part1 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:00 | ANALYZE: Created new group - PL
+2026-02-05 05:33:00 | ANALYZE: PART - Part2 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:00 | ANALYZE: PART - Part3 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:00 | ANALYZE: PART - Part4 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:00 | ANALYZE: PART - Part5 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:00 | ANALYZE: PART - Part6 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part7 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part7 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part8 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part8 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part9 DS-UP.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part9 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part10 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: Created new group - A
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part11 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part12 (Part11 Angle MIR) DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part13 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part14 (Part13 Angle MIR) DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part15 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part16 (Part15 Angle MIR) DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part17 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part18 (Part17 Angle MIR) DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part19 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part20 (Part19 Angle MIR) DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part21 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part22 Angle DS-UP.ipt -> Description: L60x60x6 -> Group: A (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Angle DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Angle DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part23 DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part24 Corner Gusset DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part25 DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part26 Corner Gusset DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part23 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part25 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part26 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part27 DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part28 Corner Gusset DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part29 Corner Gusset DS-UP.ipt -> Description: PL 10mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part27 DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Corner Gusset DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part31 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: Created new group - FL
+2026-02-05 05:33:01 | ANALYZE: PART - Part32 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part33 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part30 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part30 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part30 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part30 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part31 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part30 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part34 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: PART - Part35 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part34 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part35 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part36 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part37 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:01 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:01 | ANALYZE: PART - Part38 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part39 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part39 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part40 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part40 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part41 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part41 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part42 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part42 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part43 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part43 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part44 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part44 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part45 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part45 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part46 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part46 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part47 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: PART - Part48 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part47 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part48 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part47 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part48 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part47 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part48 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part49 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part49 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part50 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part50 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: PART - Part51 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:02 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: PART - Part52 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part52 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: PART - Part53 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part53 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: PART - Part54 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part54 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: PART - Part55 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: PART - Part56 Stiffener DS-UP.ipt -> Description: FL50x8 -> Group: FL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part55 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part56 Stiffener DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: PART - Part57 End Plate DS-UP.ipt -> Description: PL 20mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: PART - Lug DS-UP.ipt -> Description: PL 25mm S355JR -> Group: PL (from N1SCR04-722.iam)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part57 End Plate DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part57 End Plate DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part57 End Plate DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part57 End Plate DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Part57 End Plate DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug DS-UP.ipt (already processed)
+2026-02-05 05:33:03 | ANALYZE: Recursive processing completed - Total unique parts processed: 58
+2026-02-05 05:33:03 | ANALYZE: Created 3 component groups
+2026-02-05 05:33:03 | DEBUG GROUP: 'PL' contains 18 components:
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part1 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part2 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part3 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part4 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part5 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part6 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part7 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part8 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part9 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part23 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part24 Corner Gusset DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part25 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part26 Corner Gusset DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part27 DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part28 Corner Gusset DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part29 Corner Gusset DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part57 End Plate DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Lug DS-UP.ipt
+2026-02-05 05:33:03 | DEBUG GROUP: 'A' contains 13 components:
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part10 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part11 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part12 (Part11 Angle MIR) DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part13 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part14 (Part13 Angle MIR) DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part15 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part16 (Part15 Angle MIR) DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part17 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part18 (Part17 Angle MIR) DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part19 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part20 (Part19 Angle MIR) DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part21 Angle DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part22 Angle DS-UP.ipt
+2026-02-05 05:33:03 | DEBUG GROUP: 'FL' contains 27 components:
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part31 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part32 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part33 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part30 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part34 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part35 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part36 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part37 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part38 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part39 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part40 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part41 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part42 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part43 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part44 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part45 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part46 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part47 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part48 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part49 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part50 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part51 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part52 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part53 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part54 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part55 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part56 Stiffener DS-UP.ipt
+2026-02-05 05:33:03 | STEP 3: Getting plant section naming convention
+2026-02-05 05:33:03 | PLANT: Getting plant section naming convention from user
+2026-02-05 05:33:08 | PLANT: Using custom naming convention: N1SCR04-722-
+2026-02-05 05:33:08 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-05 05:33:10 | STEP 4: Showing component groups summary
+2026-02-05 05:33:10 | SUMMARY: Showing component groups to user
+2026-02-05 05:33:12 | SUMMARY: User approved component groups
+2026-02-05 05:33:12 | STEP 5: Getting user naming schemes for component groups
+2026-02-05 05:33:12 | INPUT: Getting user naming schemes for 3 groups
+2026-02-05 05:33:15 | INPUT: Group 'PL' -> Scheme: N1SCR04-722-PL{N}
+2026-02-05 05:33:16 | INPUT: Group 'A' -> Scheme: N1SCR04-722-A{N}
+2026-02-05 05:33:18 | INPUT: Group 'FL' -> Scheme: N1SCR04-722-FL{N}
+2026-02-05 05:33:18 | STEP 6: Creating heritage-based copies with user naming
+2026-02-05 05:33:18 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-05 05:33:18 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-05 05:33:18 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-05 05:33:18 | EXTRACT: Processing naming scheme: N1SCR04-722-PL{N}
+2026-02-05 05:33:18 | EXTRACT: Extracted prefix: 'N1SCR04-722-'
+2026-02-05 05:33:18 | HERITAGE: Checking for existing counter with key: 'N1SCR04-722-PL'
+2026-02-05 05:33:18 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR04-722-PL' not found)
+2026-02-05 05:33:18 | HERITAGE: DEBUG - No existing counters found
+2026-02-05 05:33:18 | HERITAGE: Processing group 'PL' with scheme: N1SCR04-722-PL{N}
+2026-02-05 05:33:18 | HERITAGE: Part1 DS-UP.ipt -> N1SCR04-722-PL1.ipt
+2026-02-05 05:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part1 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL1.ipt
+2026-02-05 05:33:18 | HERITAGE: Creating new file: N1SCR04-722-PL1.ipt
+2026-02-05 05:33:18 | HERITAGE: SUCCESS - Created N1SCR04-722-PL1.ipt
+2026-02-05 05:33:18 | HERITAGE: Part2 DS-UP.ipt -> N1SCR04-722-PL2.ipt
+2026-02-05 05:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part2 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL2.ipt
+2026-02-05 05:33:18 | HERITAGE: Creating new file: N1SCR04-722-PL2.ipt
+2026-02-05 05:33:18 | HERITAGE: SUCCESS - Created N1SCR04-722-PL2.ipt
+2026-02-05 05:33:18 | HERITAGE: Part3 DS-UP.ipt -> N1SCR04-722-PL3.ipt
+2026-02-05 05:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part3 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL3.ipt
+2026-02-05 05:33:18 | HERITAGE: Creating new file: N1SCR04-722-PL3.ipt
+2026-02-05 05:33:18 | HERITAGE: SUCCESS - Created N1SCR04-722-PL3.ipt
+2026-02-05 05:33:18 | HERITAGE: Part4 DS-UP.ipt -> N1SCR04-722-PL4.ipt
+2026-02-05 05:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part4 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL4.ipt
+2026-02-05 05:33:18 | HERITAGE: Creating new file: N1SCR04-722-PL4.ipt
+2026-02-05 05:33:18 | HERITAGE: SUCCESS - Created N1SCR04-722-PL4.ipt
+2026-02-05 05:33:18 | HERITAGE: Part5 DS-UP.ipt -> N1SCR04-722-PL5.ipt
+2026-02-05 05:33:18 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part5 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL5.ipt
+2026-02-05 05:33:18 | HERITAGE: Creating new file: N1SCR04-722-PL5.ipt
+2026-02-05 05:33:19 | HERITAGE: SUCCESS - Created N1SCR04-722-PL5.ipt
+2026-02-05 05:33:19 | HERITAGE: Part6 DS-UP.ipt -> N1SCR04-722-PL6.ipt
+2026-02-05 05:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part6 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL6.ipt
+2026-02-05 05:33:19 | HERITAGE: Creating new file: N1SCR04-722-PL6.ipt
+2026-02-05 05:33:19 | HERITAGE: SUCCESS - Created N1SCR04-722-PL6.ipt
+2026-02-05 05:33:19 | HERITAGE: Part7 DS-UP.ipt -> N1SCR04-722-PL7.ipt
+2026-02-05 05:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part7 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL7.ipt
+2026-02-05 05:33:19 | HERITAGE: Creating new file: N1SCR04-722-PL7.ipt
+2026-02-05 05:33:19 | HERITAGE: SUCCESS - Created N1SCR04-722-PL7.ipt
+2026-02-05 05:33:19 | HERITAGE: Part8 DS-UP.ipt -> N1SCR04-722-PL8.ipt
+2026-02-05 05:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part8 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL8.ipt
+2026-02-05 05:33:19 | HERITAGE: Creating new file: N1SCR04-722-PL8.ipt
+2026-02-05 05:33:19 | HERITAGE: SUCCESS - Created N1SCR04-722-PL8.ipt
+2026-02-05 05:33:19 | HERITAGE: Part9 DS-UP.ipt -> N1SCR04-722-PL9.ipt
+2026-02-05 05:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part9 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL9.ipt
+2026-02-05 05:33:19 | HERITAGE: Creating new file: N1SCR04-722-PL9.ipt
+2026-02-05 05:33:19 | HERITAGE: SUCCESS - Created N1SCR04-722-PL9.ipt
+2026-02-05 05:33:19 | HERITAGE: Part23 DS-UP.ipt -> N1SCR04-722-PL10.ipt
+2026-02-05 05:33:19 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part23 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL10.ipt
+2026-02-05 05:33:19 | HERITAGE: Creating new file: N1SCR04-722-PL10.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL10.ipt
+2026-02-05 05:33:20 | HERITAGE: Part24 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL11.ipt
+2026-02-05 05:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part24 Corner Gusset DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL11.ipt
+2026-02-05 05:33:20 | HERITAGE: Creating new file: N1SCR04-722-PL11.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL11.ipt
+2026-02-05 05:33:20 | HERITAGE: Part25 DS-UP.ipt -> N1SCR04-722-PL12.ipt
+2026-02-05 05:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part25 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL12.ipt
+2026-02-05 05:33:20 | HERITAGE: Creating new file: N1SCR04-722-PL12.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL12.ipt
+2026-02-05 05:33:20 | HERITAGE: Part26 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL13.ipt
+2026-02-05 05:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part26 Corner Gusset DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL13.ipt
+2026-02-05 05:33:20 | HERITAGE: Creating new file: N1SCR04-722-PL13.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL13.ipt
+2026-02-05 05:33:20 | HERITAGE: Part27 DS-UP.ipt -> N1SCR04-722-PL14.ipt
+2026-02-05 05:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part27 DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL14.ipt
+2026-02-05 05:33:20 | HERITAGE: Creating new file: N1SCR04-722-PL14.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL14.ipt
+2026-02-05 05:33:20 | HERITAGE: Part28 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL15.ipt
+2026-02-05 05:33:20 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part28 Corner Gusset DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL15.ipt
+2026-02-05 05:33:20 | HERITAGE: Creating new file: N1SCR04-722-PL15.ipt
+2026-02-05 05:33:20 | HERITAGE: SUCCESS - Created N1SCR04-722-PL15.ipt
+2026-02-05 05:33:21 | HERITAGE: Part29 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL16.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part29 Corner Gusset DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL16.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-PL16.ipt
+2026-02-05 05:33:21 | HERITAGE: SUCCESS - Created N1SCR04-722-PL16.ipt
+2026-02-05 05:33:21 | HERITAGE: Part57 End Plate DS-UP.ipt -> N1SCR04-722-PL17.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part57 End Plate DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL17.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-PL17.ipt
+2026-02-05 05:33:21 | HERITAGE: SUCCESS - Created N1SCR04-722-PL17.ipt
+2026-02-05 05:33:21 | HERITAGE: Lug DS-UP.ipt -> N1SCR04-722-PL18.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Lug DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-PL18.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-PL18.ipt
+2026-02-05 05:33:21 | HERITAGE: SUCCESS - Created N1SCR04-722-PL18.ipt
+2026-02-05 05:33:21 | REGISTRY: Saved N1SCR04-722-PL = 18
+2026-02-05 05:33:21 | EXTRACT: Processing naming scheme: N1SCR04-722-A{N}
+2026-02-05 05:33:21 | EXTRACT: Extracted prefix: 'N1SCR04-722-'
+2026-02-05 05:33:21 | HERITAGE: Checking for existing counter with key: 'N1SCR04-722-A'
+2026-02-05 05:33:21 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR04-722-A' not found)
+2026-02-05 05:33:21 | HERITAGE: DEBUG - No existing counters found
+2026-02-05 05:33:21 | HERITAGE: Processing group 'A' with scheme: N1SCR04-722-A{N}
+2026-02-05 05:33:21 | HERITAGE: Part10 Angle DS-UP.ipt -> N1SCR04-722-A1.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part10 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A1.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-A1.ipt
+2026-02-05 05:33:21 | HERITAGE: SUCCESS - Created N1SCR04-722-A1.ipt
+2026-02-05 05:33:21 | HERITAGE: Part11 Angle DS-UP.ipt -> N1SCR04-722-A2.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part11 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A2.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-A2.ipt
+2026-02-05 05:33:21 | HERITAGE: SUCCESS - Created N1SCR04-722-A2.ipt
+2026-02-05 05:33:21 | HERITAGE: Part12 (Part11 Angle MIR) DS-UP.ipt -> N1SCR04-722-A3.ipt
+2026-02-05 05:33:21 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part12 (Part11 Angle MIR) DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A3.ipt
+2026-02-05 05:33:21 | HERITAGE: Creating new file: N1SCR04-722-A3.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A3.ipt
+2026-02-05 05:33:22 | HERITAGE: Part13 Angle DS-UP.ipt -> N1SCR04-722-A4.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part13 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A4.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A4.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A4.ipt
+2026-02-05 05:33:22 | HERITAGE: Part14 (Part13 Angle MIR) DS-UP.ipt -> N1SCR04-722-A5.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part14 (Part13 Angle MIR) DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A5.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A5.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A5.ipt
+2026-02-05 05:33:22 | HERITAGE: Part15 Angle DS-UP.ipt -> N1SCR04-722-A6.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part15 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A6.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A6.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A6.ipt
+2026-02-05 05:33:22 | HERITAGE: Part16 (Part15 Angle MIR) DS-UP.ipt -> N1SCR04-722-A7.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part16 (Part15 Angle MIR) DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A7.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A7.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A7.ipt
+2026-02-05 05:33:22 | HERITAGE: Part17 Angle DS-UP.ipt -> N1SCR04-722-A8.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part17 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A8.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A8.ipt
+2026-02-05 05:33:22 | HERITAGE: SUCCESS - Created N1SCR04-722-A8.ipt
+2026-02-05 05:33:22 | HERITAGE: Part18 (Part17 Angle MIR) DS-UP.ipt -> N1SCR04-722-A9.ipt
+2026-02-05 05:33:22 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part18 (Part17 Angle MIR) DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A9.ipt
+2026-02-05 05:33:22 | HERITAGE: Creating new file: N1SCR04-722-A9.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-A9.ipt
+2026-02-05 05:33:23 | HERITAGE: Part19 Angle DS-UP.ipt -> N1SCR04-722-A10.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part19 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A10.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-A10.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-A10.ipt
+2026-02-05 05:33:23 | HERITAGE: Part20 (Part19 Angle MIR) DS-UP.ipt -> N1SCR04-722-A11.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part20 (Part19 Angle MIR) DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A11.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-A11.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-A11.ipt
+2026-02-05 05:33:23 | HERITAGE: Part21 Angle DS-UP.ipt -> N1SCR04-722-A12.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part21 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A12.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-A12.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-A12.ipt
+2026-02-05 05:33:23 | HERITAGE: Part22 Angle DS-UP.ipt -> N1SCR04-722-A13.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part22 Angle DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-A13.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-A13.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-A13.ipt
+2026-02-05 05:33:23 | REGISTRY: Saved N1SCR04-722-A = 13
+2026-02-05 05:33:23 | EXTRACT: Processing naming scheme: N1SCR04-722-FL{N}
+2026-02-05 05:33:23 | EXTRACT: Extracted prefix: 'N1SCR04-722-'
+2026-02-05 05:33:23 | HERITAGE: Checking for existing counter with key: 'N1SCR04-722-FL'
+2026-02-05 05:33:23 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR04-722-FL' not found)
+2026-02-05 05:33:23 | HERITAGE: DEBUG - No existing counters found
+2026-02-05 05:33:23 | HERITAGE: Processing group 'FL' with scheme: N1SCR04-722-FL{N}
+2026-02-05 05:33:23 | HERITAGE: Part31 Stiffener DS-UP.ipt -> N1SCR04-722-FL1.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part31 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL1.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-FL1.ipt
+2026-02-05 05:33:23 | HERITAGE: SUCCESS - Created N1SCR04-722-FL1.ipt
+2026-02-05 05:33:23 | HERITAGE: Part32 Stiffener DS-UP.ipt -> N1SCR04-722-FL2.ipt
+2026-02-05 05:33:23 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part32 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL2.ipt
+2026-02-05 05:33:23 | HERITAGE: Creating new file: N1SCR04-722-FL2.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL2.ipt
+2026-02-05 05:33:24 | HERITAGE: Part33 Stiffener DS-UP.ipt -> N1SCR04-722-FL3.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part33 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL3.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL3.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL3.ipt
+2026-02-05 05:33:24 | HERITAGE: Part30 Stiffener DS-UP.ipt -> N1SCR04-722-FL4.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part30 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL4.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL4.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL4.ipt
+2026-02-05 05:33:24 | HERITAGE: Part34 Stiffener DS-UP.ipt -> N1SCR04-722-FL5.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part34 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL5.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL5.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL5.ipt
+2026-02-05 05:33:24 | HERITAGE: Part35 Stiffener DS-UP.ipt -> N1SCR04-722-FL6.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part35 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL6.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL6.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL6.ipt
+2026-02-05 05:33:24 | HERITAGE: Part36 Stiffener DS-UP.ipt -> N1SCR04-722-FL7.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part36 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL7.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL7.ipt
+2026-02-05 05:33:24 | HERITAGE: SUCCESS - Created N1SCR04-722-FL7.ipt
+2026-02-05 05:33:24 | HERITAGE: Part37 Stiffener DS-UP.ipt -> N1SCR04-722-FL8.ipt
+2026-02-05 05:33:24 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part37 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL8.ipt
+2026-02-05 05:33:24 | HERITAGE: Creating new file: N1SCR04-722-FL8.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL8.ipt
+2026-02-05 05:33:25 | HERITAGE: Part38 Stiffener DS-UP.ipt -> N1SCR04-722-FL9.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part38 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL9.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL9.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL9.ipt
+2026-02-05 05:33:25 | HERITAGE: Part39 Stiffener DS-UP.ipt -> N1SCR04-722-FL10.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part39 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL10.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL10.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL10.ipt
+2026-02-05 05:33:25 | HERITAGE: Part40 Stiffener DS-UP.ipt -> N1SCR04-722-FL11.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part40 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL11.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL11.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL11.ipt
+2026-02-05 05:33:25 | HERITAGE: Part41 Stiffener DS-UP.ipt -> N1SCR04-722-FL12.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part41 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL12.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL12.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL12.ipt
+2026-02-05 05:33:25 | HERITAGE: Part42 Stiffener DS-UP.ipt -> N1SCR04-722-FL13.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part42 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL13.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL13.ipt
+2026-02-05 05:33:25 | HERITAGE: SUCCESS - Created N1SCR04-722-FL13.ipt
+2026-02-05 05:33:25 | HERITAGE: Part43 Stiffener DS-UP.ipt -> N1SCR04-722-FL14.ipt
+2026-02-05 05:33:25 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part43 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL14.ipt
+2026-02-05 05:33:25 | HERITAGE: Creating new file: N1SCR04-722-FL14.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL14.ipt
+2026-02-05 05:33:26 | HERITAGE: Part44 Stiffener DS-UP.ipt -> N1SCR04-722-FL15.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part44 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL15.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL15.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL15.ipt
+2026-02-05 05:33:26 | HERITAGE: Part45 Stiffener DS-UP.ipt -> N1SCR04-722-FL16.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part45 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL16.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL16.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL16.ipt
+2026-02-05 05:33:26 | HERITAGE: Part46 Stiffener DS-UP.ipt -> N1SCR04-722-FL17.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part46 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL17.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL17.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL17.ipt
+2026-02-05 05:33:26 | HERITAGE: Part47 Stiffener DS-UP.ipt -> N1SCR04-722-FL18.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part47 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL18.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL18.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL18.ipt
+2026-02-05 05:33:26 | HERITAGE: Part48 Stiffener DS-UP.ipt -> N1SCR04-722-FL19.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part48 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL19.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL19.ipt
+2026-02-05 05:33:26 | HERITAGE: SUCCESS - Created N1SCR04-722-FL19.ipt
+2026-02-05 05:33:26 | HERITAGE: Part49 Stiffener DS-UP.ipt -> N1SCR04-722-FL20.ipt
+2026-02-05 05:33:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part49 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL20.ipt
+2026-02-05 05:33:26 | HERITAGE: Creating new file: N1SCR04-722-FL20.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL20.ipt
+2026-02-05 05:33:27 | HERITAGE: Part50 Stiffener DS-UP.ipt -> N1SCR04-722-FL21.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part50 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL21.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL21.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL21.ipt
+2026-02-05 05:33:27 | HERITAGE: Part51 Stiffener DS-UP.ipt -> N1SCR04-722-FL22.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part51 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL22.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL22.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL22.ipt
+2026-02-05 05:33:27 | HERITAGE: Part52 Stiffener DS-UP.ipt -> N1SCR04-722-FL23.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part52 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL23.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL23.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL23.ipt
+2026-02-05 05:33:27 | HERITAGE: Part53 Stiffener DS-UP.ipt -> N1SCR04-722-FL24.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part53 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL24.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL24.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL24.ipt
+2026-02-05 05:33:27 | HERITAGE: Part54 Stiffener DS-UP.ipt -> N1SCR04-722-FL25.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part54 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL25.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL25.ipt
+2026-02-05 05:33:27 | HERITAGE: SUCCESS - Created N1SCR04-722-FL25.ipt
+2026-02-05 05:33:27 | HERITAGE: Part55 Stiffener DS-UP.ipt -> N1SCR04-722-FL26.ipt
+2026-02-05 05:33:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part55 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL26.ipt
+2026-02-05 05:33:27 | HERITAGE: Creating new file: N1SCR04-722-FL26.ipt
+2026-02-05 05:33:28 | HERITAGE: SUCCESS - Created N1SCR04-722-FL26.ipt
+2026-02-05 05:33:28 | HERITAGE: Part56 Stiffener DS-UP.ipt -> N1SCR04-722-FL27.ipt
+2026-02-05 05:33:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\Part56 Stiffener DS-UP.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\N1SCR04-722-FL27.ipt
+2026-02-05 05:33:28 | HERITAGE: Creating new file: N1SCR04-722-FL27.ipt
+2026-02-05 05:33:28 | HERITAGE: SUCCESS - Created N1SCR04-722-FL27.ipt
+2026-02-05 05:33:28 | REGISTRY: Saved N1SCR04-722-FL = 27
+2026-02-05 05:33:28 | STEP 7: Updating assembly references
+2026-02-05 05:33:28 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-05 05:33:28 | ASSEMBLY: Updating references in - N1SCR04-722.iam (Level: ROOT)
+2026-02-05 05:33:28 | ASSEMBLY: Replacing Part1 DS-UP.ipt -> N1SCR04-722-PL1.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:28 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL1.ipt
+2026-02-05 05:33:28 | ASSEMBLY: Replacing Part2 DS-UP.ipt -> N1SCR04-722-PL2.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL2.ipt
+2026-02-05 05:33:29 | ASSEMBLY: Replacing Part3 DS-UP.ipt -> N1SCR04-722-PL3.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL3.ipt
+2026-02-05 05:33:29 | ASSEMBLY: Replacing Part4 DS-UP.ipt -> N1SCR04-722-PL4.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL4.ipt
+2026-02-05 05:33:29 | ASSEMBLY: Replacing Part5 DS-UP.ipt -> N1SCR04-722-PL5.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL5.ipt
+2026-02-05 05:33:30 | ASSEMBLY: Replacing Part6 DS-UP.ipt -> N1SCR04-722-PL6.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL6.ipt
+2026-02-05 05:33:30 | ASSEMBLY: Replacing Part7 DS-UP.ipt -> N1SCR04-722-PL7.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL7.ipt
+2026-02-05 05:33:30 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL7.ipt (not renamed)
+2026-02-05 05:33:30 | ASSEMBLY: Replacing Part8 DS-UP.ipt -> N1SCR04-722-PL8.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL8.ipt
+2026-02-05 05:33:30 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL8.ipt (not renamed)
+2026-02-05 05:33:30 | ASSEMBLY: Replacing Part9 DS-UP.ipt -> N1SCR04-722-PL9.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL9.ipt
+2026-02-05 05:33:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL9.ipt (not renamed)
+2026-02-05 05:33:31 | ASSEMBLY: Replacing Part10 Angle DS-UP.ipt -> N1SCR04-722-A1.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A1.ipt
+2026-02-05 05:33:31 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-A1.ipt (not renamed)
+2026-02-05 05:33:31 | ASSEMBLY: Replacing Part11 Angle DS-UP.ipt -> N1SCR04-722-A2.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A2.ipt
+2026-02-05 05:33:31 | ASSEMBLY: Replacing Part12 (Part11 Angle MIR) DS-UP.ipt -> N1SCR04-722-A3.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A3.ipt
+2026-02-05 05:33:31 | ASSEMBLY: Replacing Part13 Angle DS-UP.ipt -> N1SCR04-722-A4.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A4.ipt
+2026-02-05 05:33:32 | ASSEMBLY: Replacing Part14 (Part13 Angle MIR) DS-UP.ipt -> N1SCR04-722-A5.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A5.ipt
+2026-02-05 05:33:32 | ASSEMBLY: Replacing Part15 Angle DS-UP.ipt -> N1SCR04-722-A6.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A6.ipt
+2026-02-05 05:33:32 | ASSEMBLY: Replacing Part16 (Part15 Angle MIR) DS-UP.ipt -> N1SCR04-722-A7.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A7.ipt
+2026-02-05 05:33:32 | ASSEMBLY: Replacing Part17 Angle DS-UP.ipt -> N1SCR04-722-A8.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A8.ipt
+2026-02-05 05:33:33 | ASSEMBLY: Replacing Part18 (Part17 Angle MIR) DS-UP.ipt -> N1SCR04-722-A9.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A9.ipt
+2026-02-05 05:33:33 | ASSEMBLY: Replacing Part19 Angle DS-UP.ipt -> N1SCR04-722-A10.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A10.ipt
+2026-02-05 05:33:33 | ASSEMBLY: Replacing Part20 (Part19 Angle MIR) DS-UP.ipt -> N1SCR04-722-A11.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A11.ipt
+2026-02-05 05:33:34 | ASSEMBLY: Replacing Part21 Angle DS-UP.ipt -> N1SCR04-722-A12.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A12.ipt
+2026-02-05 05:33:34 | ASSEMBLY: Replacing Part22 Angle DS-UP.ipt -> N1SCR04-722-A13.ipt [A] (in N1SCR04-722.iam)
+2026-02-05 05:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-A13.ipt
+2026-02-05 05:33:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-A12.ipt (not renamed)
+2026-02-05 05:33:34 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-A13.ipt (not renamed)
+2026-02-05 05:33:34 | ASSEMBLY: Replacing Part23 DS-UP.ipt -> N1SCR04-722-PL10.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL10.ipt
+2026-02-05 05:33:34 | ASSEMBLY: Replacing Part24 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL11.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL11.ipt
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL11.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: Replacing Part25 DS-UP.ipt -> N1SCR04-722-PL12.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL12.ipt
+2026-02-05 05:33:35 | ASSEMBLY: Replacing Part26 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL13.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL13.ipt
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL13.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL10.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL11.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL11.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL12.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL13.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL13.ipt (not renamed)
+2026-02-05 05:33:35 | ASSEMBLY: Replacing Part27 DS-UP.ipt -> N1SCR04-722-PL14.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:35 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL14.ipt
+2026-02-05 05:33:36 | ASSEMBLY: Replacing Part28 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL15.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL15.ipt
+2026-02-05 05:33:36 | ASSEMBLY: Replacing Part29 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL16.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL16.ipt
+2026-02-05 05:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL14.ipt (not renamed)
+2026-02-05 05:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL15.ipt (not renamed)
+2026-02-05 05:33:36 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL16.ipt (not renamed)
+2026-02-05 05:33:36 | ASSEMBLY: Replacing Part31 Stiffener DS-UP.ipt -> N1SCR04-722-FL1.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL1.ipt
+2026-02-05 05:33:36 | ASSEMBLY: Replacing Part32 Stiffener DS-UP.ipt -> N1SCR04-722-FL2.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL2.ipt
+2026-02-05 05:33:37 | ASSEMBLY: Replacing Part33 Stiffener DS-UP.ipt -> N1SCR04-722-FL3.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL3.ipt
+2026-02-05 05:33:37 | ASSEMBLY: Replacing Part30 Stiffener DS-UP.ipt -> N1SCR04-722-FL4.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:37 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL4.ipt
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL1.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL2.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL3.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL4.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL1.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL2.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL3.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL4.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL1.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL2.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL3.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL4.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL1.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL2.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL3.ipt (not renamed)
+2026-02-05 05:33:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL4.ipt (not renamed)
+2026-02-05 05:33:38 | ASSEMBLY: Replacing Part34 Stiffener DS-UP.ipt -> N1SCR04-722-FL5.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL5.ipt
+2026-02-05 05:33:38 | ASSEMBLY: Replacing Part35 Stiffener DS-UP.ipt -> N1SCR04-722-FL6.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL6.ipt
+2026-02-05 05:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL5.ipt (not renamed)
+2026-02-05 05:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL6.ipt (not renamed)
+2026-02-05 05:33:38 | ASSEMBLY: Replacing Part36 Stiffener DS-UP.ipt -> N1SCR04-722-FL7.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL7.ipt
+2026-02-05 05:33:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL7.ipt (not renamed)
+2026-02-05 05:33:38 | ASSEMBLY: Replacing Part37 Stiffener DS-UP.ipt -> N1SCR04-722-FL8.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL8.ipt
+2026-02-05 05:33:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL8.ipt (not renamed)
+2026-02-05 05:33:39 | ASSEMBLY: Replacing Part38 Stiffener DS-UP.ipt -> N1SCR04-722-FL9.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL9.ipt
+2026-02-05 05:33:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL9.ipt (not renamed)
+2026-02-05 05:33:39 | ASSEMBLY: Replacing Part39 Stiffener DS-UP.ipt -> N1SCR04-722-FL10.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL10.ipt
+2026-02-05 05:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL10.ipt (not renamed)
+2026-02-05 05:33:40 | ASSEMBLY: Replacing Part40 Stiffener DS-UP.ipt -> N1SCR04-722-FL11.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL11.ipt
+2026-02-05 05:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL11.ipt (not renamed)
+2026-02-05 05:33:40 | ASSEMBLY: Replacing Part41 Stiffener DS-UP.ipt -> N1SCR04-722-FL12.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL12.ipt
+2026-02-05 05:33:40 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL12.ipt (not renamed)
+2026-02-05 05:33:40 | ASSEMBLY: Replacing Part42 Stiffener DS-UP.ipt -> N1SCR04-722-FL13.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL13.ipt
+2026-02-05 05:33:41 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL13.ipt (not renamed)
+2026-02-05 05:33:41 | ASSEMBLY: Replacing Part43 Stiffener DS-UP.ipt -> N1SCR04-722-FL14.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL14.ipt
+2026-02-05 05:33:41 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL14.ipt (not renamed)
+2026-02-05 05:33:41 | ASSEMBLY: Replacing Part44 Stiffener DS-UP.ipt -> N1SCR04-722-FL15.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL15.ipt
+2026-02-05 05:33:41 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL15.ipt (not renamed)
+2026-02-05 05:33:41 | ASSEMBLY: Replacing Part45 Stiffener DS-UP.ipt -> N1SCR04-722-FL16.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL16.ipt
+2026-02-05 05:33:42 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL16.ipt (not renamed)
+2026-02-05 05:33:42 | ASSEMBLY: Replacing Part46 Stiffener DS-UP.ipt -> N1SCR04-722-FL17.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL17.ipt
+2026-02-05 05:33:42 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL17.ipt (not renamed)
+2026-02-05 05:33:42 | ASSEMBLY: Replacing Part47 Stiffener DS-UP.ipt -> N1SCR04-722-FL18.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL18.ipt
+2026-02-05 05:33:42 | ASSEMBLY: Replacing Part48 Stiffener DS-UP.ipt -> N1SCR04-722-FL19.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL19.ipt
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL18.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL19.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL18.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL19.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL18.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL19.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: Replacing Part49 Stiffener DS-UP.ipt -> N1SCR04-722-FL20.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL20.ipt
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:43 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL20.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: Replacing Part50 Stiffener DS-UP.ipt -> N1SCR04-722-FL21.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL21.ipt
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:44 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL21.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: Replacing Part51 Stiffener DS-UP.ipt -> N1SCR04-722-FL22.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:45 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL22.ipt
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL22.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: Replacing Part52 Stiffener DS-UP.ipt -> N1SCR04-722-FL23.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:45 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL23.ipt
+2026-02-05 05:33:45 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL23.ipt (not renamed)
+2026-02-05 05:33:45 | ASSEMBLY: Replacing Part53 Stiffener DS-UP.ipt -> N1SCR04-722-FL24.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL24.ipt
+2026-02-05 05:33:46 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL24.ipt (not renamed)
+2026-02-05 05:33:46 | ASSEMBLY: Replacing Part54 Stiffener DS-UP.ipt -> N1SCR04-722-FL25.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL25.ipt
+2026-02-05 05:33:46 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL25.ipt (not renamed)
+2026-02-05 05:33:46 | ASSEMBLY: Replacing Part55 Stiffener DS-UP.ipt -> N1SCR04-722-FL26.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL26.ipt
+2026-02-05 05:33:46 | ASSEMBLY: Replacing Part56 Stiffener DS-UP.ipt -> N1SCR04-722-FL27.ipt [FL] (in N1SCR04-722.iam)
+2026-02-05 05:33:46 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-FL27.ipt
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL26.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-FL27.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: Replacing Part57 End Plate DS-UP.ipt -> N1SCR04-722-PL17.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:47 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL17.ipt
+2026-02-05 05:33:47 | ASSEMBLY: Replacing Lug DS-UP.ipt -> N1SCR04-722-PL18.ipt [PL] (in N1SCR04-722.iam)
+2026-02-05 05:33:47 | ASSEMBLY: SUCCESS - Updated to N1SCR04-722-PL18.ipt
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL17.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL18.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL17.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL18.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL17.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL18.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL17.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL18.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL17.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: INFO - No mapping found for N1SCR04-722-PL18.ipt (not renamed)
+2026-02-05 05:33:47 | ASSEMBLY: Saving assembly with updated references...
+2026-02-05 05:34:33 | ASSEMBLY: Successfully saved assembly
+2026-02-05 05:34:33 | STEP 8: Auto-detecting and updating IDW files
+2026-02-05 05:34:33 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-05 05:34:33 | IDW: Found drawing file - MGY-200-DSL-02.idw
+2026-02-05 05:34:33 | IDW: Processing MGY-200-DSL-02.idw
+2026-02-05 05:34:34 | IDW: Opening MGY-200-DSL-02.idw
+2026-02-05 05:34:50 | IDW: Found 59 referenced files
+2026-02-05 05:34:50 | IDW: Updating reference Lug DS-UP.ipt -> N1SCR04-722-PL18.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: INFO - No mapping found for N1SCR04-722.iam
+2026-02-05 05:34:50 | IDW: Updating reference Part1 DS-UP.ipt -> N1SCR04-722-PL1.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part10 Angle DS-UP.ipt -> N1SCR04-722-A1.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part11 Angle DS-UP.ipt -> N1SCR04-722-A2.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part12 (Part11 Angle MIR) DS-UP.ipt -> N1SCR04-722-A3.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part13 Angle DS-UP.ipt -> N1SCR04-722-A4.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part14 (Part13 Angle MIR) DS-UP.ipt -> N1SCR04-722-A5.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part15 Angle DS-UP.ipt -> N1SCR04-722-A6.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part16 (Part15 Angle MIR) DS-UP.ipt -> N1SCR04-722-A7.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part17 Angle DS-UP.ipt -> N1SCR04-722-A8.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part18 (Part17 Angle MIR) DS-UP.ipt -> N1SCR04-722-A9.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part19 Angle DS-UP.ipt -> N1SCR04-722-A10.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part2 DS-UP.ipt -> N1SCR04-722-PL2.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part20 (Part19 Angle MIR) DS-UP.ipt -> N1SCR04-722-A11.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part21 Angle DS-UP.ipt -> N1SCR04-722-A12.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part22 Angle DS-UP.ipt -> N1SCR04-722-A13.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part23 DS-UP.ipt -> N1SCR04-722-PL10.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part24 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL11.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part25 DS-UP.ipt -> N1SCR04-722-PL12.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part26 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL13.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part27 DS-UP.ipt -> N1SCR04-722-PL14.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part28 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL15.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part29 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL16.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part3 DS-UP.ipt -> N1SCR04-722-PL3.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part30 Stiffener DS-UP.ipt -> N1SCR04-722-FL4.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part31 Stiffener DS-UP.ipt -> N1SCR04-722-FL1.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part32 Stiffener DS-UP.ipt -> N1SCR04-722-FL2.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part33 Stiffener DS-UP.ipt -> N1SCR04-722-FL3.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part34 Stiffener DS-UP.ipt -> N1SCR04-722-FL5.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part35 Stiffener DS-UP.ipt -> N1SCR04-722-FL6.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part36 Stiffener DS-UP.ipt -> N1SCR04-722-FL7.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part37 Stiffener DS-UP.ipt -> N1SCR04-722-FL8.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part38 Stiffener DS-UP.ipt -> N1SCR04-722-FL9.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part39 Stiffener DS-UP.ipt -> N1SCR04-722-FL10.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part4 DS-UP.ipt -> N1SCR04-722-PL4.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part40 Stiffener DS-UP.ipt -> N1SCR04-722-FL11.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part41 Stiffener DS-UP.ipt -> N1SCR04-722-FL12.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part42 Stiffener DS-UP.ipt -> N1SCR04-722-FL13.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part43 Stiffener DS-UP.ipt -> N1SCR04-722-FL14.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part44 Stiffener DS-UP.ipt -> N1SCR04-722-FL15.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part45 Stiffener DS-UP.ipt -> N1SCR04-722-FL16.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part46 Stiffener DS-UP.ipt -> N1SCR04-722-FL17.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part47 Stiffener DS-UP.ipt -> N1SCR04-722-FL18.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part48 Stiffener DS-UP.ipt -> N1SCR04-722-FL19.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part49 Stiffener DS-UP.ipt -> N1SCR04-722-FL20.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part5 DS-UP.ipt -> N1SCR04-722-PL5.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part50 Stiffener DS-UP.ipt -> N1SCR04-722-FL21.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part51 Stiffener DS-UP.ipt -> N1SCR04-722-FL22.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part52 Stiffener DS-UP.ipt -> N1SCR04-722-FL23.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part53 Stiffener DS-UP.ipt -> N1SCR04-722-FL24.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part54 Stiffener DS-UP.ipt -> N1SCR04-722-FL25.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part55 Stiffener DS-UP.ipt -> N1SCR04-722-FL26.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part56 Stiffener DS-UP.ipt -> N1SCR04-722-FL27.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part57 End Plate DS-UP.ipt -> N1SCR04-722-PL17.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part6 DS-UP.ipt -> N1SCR04-722-PL6.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part7 DS-UP.ipt -> N1SCR04-722-PL7.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part8 DS-UP.ipt -> N1SCR04-722-PL8.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:50 | IDW: Updating reference Part9 DS-UP.ipt -> N1SCR04-722-PL9.ipt
+2026-02-05 05:34:50 | IDW: SUCCESS - Reference updated
+2026-02-05 05:34:55 | IDW: Saved MGY-200-DSL-02.idw
+2026-02-05 05:34:55 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-05 05:34:55 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-05 05:34:55 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\722 Underpan\STEP_1_MAPPING.txt
+2026-02-05 05:34:55 | MAPPING: Comprehensive mapping count = 58
+2026-02-05 05:34:55 | MAPPING: Prepared: Part1 DS-UP.ipt -> N1SCR04-722-PL1.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part2 DS-UP.ipt -> N1SCR04-722-PL2.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part3 DS-UP.ipt -> N1SCR04-722-PL3.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part4 DS-UP.ipt -> N1SCR04-722-PL4.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part5 DS-UP.ipt -> N1SCR04-722-PL5.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part6 DS-UP.ipt -> N1SCR04-722-PL6.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part7 DS-UP.ipt -> N1SCR04-722-PL7.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part8 DS-UP.ipt -> N1SCR04-722-PL8.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part9 DS-UP.ipt -> N1SCR04-722-PL9.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part23 DS-UP.ipt -> N1SCR04-722-PL10.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part24 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL11.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part25 DS-UP.ipt -> N1SCR04-722-PL12.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part26 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL13.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part27 DS-UP.ipt -> N1SCR04-722-PL14.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part28 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL15.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part29 Corner Gusset DS-UP.ipt -> N1SCR04-722-PL16.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part57 End Plate DS-UP.ipt -> N1SCR04-722-PL17.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Lug DS-UP.ipt -> N1SCR04-722-PL18.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part10 Angle DS-UP.ipt -> N1SCR04-722-A1.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part11 Angle DS-UP.ipt -> N1SCR04-722-A2.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part12 (Part11 Angle MIR) DS-UP.ipt -> N1SCR04-722-A3.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part13 Angle DS-UP.ipt -> N1SCR04-722-A4.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part14 (Part13 Angle MIR) DS-UP.ipt -> N1SCR04-722-A5.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part15 Angle DS-UP.ipt -> N1SCR04-722-A6.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part16 (Part15 Angle MIR) DS-UP.ipt -> N1SCR04-722-A7.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part17 Angle DS-UP.ipt -> N1SCR04-722-A8.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part18 (Part17 Angle MIR) DS-UP.ipt -> N1SCR04-722-A9.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part19 Angle DS-UP.ipt -> N1SCR04-722-A10.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part20 (Part19 Angle MIR) DS-UP.ipt -> N1SCR04-722-A11.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part21 Angle DS-UP.ipt -> N1SCR04-722-A12.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part22 Angle DS-UP.ipt -> N1SCR04-722-A13.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part31 Stiffener DS-UP.ipt -> N1SCR04-722-FL1.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part32 Stiffener DS-UP.ipt -> N1SCR04-722-FL2.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part33 Stiffener DS-UP.ipt -> N1SCR04-722-FL3.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part30 Stiffener DS-UP.ipt -> N1SCR04-722-FL4.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part34 Stiffener DS-UP.ipt -> N1SCR04-722-FL5.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part35 Stiffener DS-UP.ipt -> N1SCR04-722-FL6.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part36 Stiffener DS-UP.ipt -> N1SCR04-722-FL7.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part37 Stiffener DS-UP.ipt -> N1SCR04-722-FL8.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part38 Stiffener DS-UP.ipt -> N1SCR04-722-FL9.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part39 Stiffener DS-UP.ipt -> N1SCR04-722-FL10.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part40 Stiffener DS-UP.ipt -> N1SCR04-722-FL11.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part41 Stiffener DS-UP.ipt -> N1SCR04-722-FL12.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part42 Stiffener DS-UP.ipt -> N1SCR04-722-FL13.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part43 Stiffener DS-UP.ipt -> N1SCR04-722-FL14.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part44 Stiffener DS-UP.ipt -> N1SCR04-722-FL15.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part45 Stiffener DS-UP.ipt -> N1SCR04-722-FL16.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part46 Stiffener DS-UP.ipt -> N1SCR04-722-FL17.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part47 Stiffener DS-UP.ipt -> N1SCR04-722-FL18.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part48 Stiffener DS-UP.ipt -> N1SCR04-722-FL19.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part49 Stiffener DS-UP.ipt -> N1SCR04-722-FL20.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part50 Stiffener DS-UP.ipt -> N1SCR04-722-FL21.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part51 Stiffener DS-UP.ipt -> N1SCR04-722-FL22.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part52 Stiffener DS-UP.ipt -> N1SCR04-722-FL23.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part53 Stiffener DS-UP.ipt -> N1SCR04-722-FL24.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part54 Stiffener DS-UP.ipt -> N1SCR04-722-FL25.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part55 Stiffener DS-UP.ipt -> N1SCR04-722-FL26.ipt
+2026-02-05 05:34:55 | MAPPING: Prepared: Part56 Stiffener DS-UP.ipt -> N1SCR04-722-FL27.ipt
+2026-02-05 05:34:55 | MAPPING: Write attempt 1 of 3
+2026-02-05 05:34:55 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-05 05:34:55 | MAPPING: VERIFICATION - File exists! Size: 19470 bytes
+2026-02-05 05:34:55 | MAPPING: SUCCESS - Mapping file saved with 58 mappings
+2026-02-05 05:34:56 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-05 05:34:56 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-05 05:34:56 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

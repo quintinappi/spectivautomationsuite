@@ -1,0 +1,145 @@
+2026-01-15 21:15:19 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-15 21:15:19 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-15 21:15:21 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 21:15:21 | STEP 1: Detecting open assembly and analyzing components
+2026-01-15 21:15:21 | DETECTED: Document type: 12291
+2026-01-15 21:15:21 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-15 21:15:21 | DETECTED: Active assembly - Walkway-16.iam
+2026-01-15 21:15:21 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16.iam
+2026-01-15 21:15:22 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-15 21:15:22 | CONFIRMED: 11 occurrences to process
+2026-01-15 21:15:22 | STEP 2: Flattening hierarchy and grouping components
+2026-01-15 21:15:22 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-15 21:15:22 | ANALYZE: Processing assembly - Walkway-16.iam (Level: ROOT)
+2026-01-15 21:15:22 | ANALYZE: Found 11 occurrences in Walkway-16.iam
+2026-01-15 21:15:22 | ANALYZE: PART - Walkway-16-CH1.ipt -> Description: PFC180x70 -> Group: CH (from Walkway-16.iam)
+2026-01-15 21:15:22 | ANALYZE: Created new group - CH
+2026-01-15 21:15:22 | ANALYZE: PART - Walkway-16-PL6.ipt -> Description: PL 10mm S355JR -> Group: PL (from Walkway-16.iam)
+2026-01-15 21:15:22 | ANALYZE: Created new group - PL
+2026-01-15 21:15:22 | ANALYZE: PART - Walkway-16-IPE7.ipt -> Description: IPE200 -> Group: IPE (from Walkway-16.iam)
+2026-01-15 21:15:22 | ANALYZE: Created new group - IPE
+2026-01-15 21:15:22 | ANALYZE: PART - Walkway-16-IPE8.ipt -> Description: IPE200 -> Group: IPE (from Walkway-16.iam)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-PL6.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-IPE7.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-IPE8.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: PART - Walkway-16-PL10.ipt -> Description: PL 8mm S355JR -> Group: PL (from Walkway-16.iam)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-PL10.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-PL10.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: DUPLICATE PART SKIPPED - Walkway-16-PL10.ipt (already processed)
+2026-01-15 21:15:22 | ANALYZE: Recursive processing completed - Total unique parts processed: 5
+2026-01-15 21:15:22 | ANALYZE: Created 3 component groups
+2026-01-15 21:15:22 | DEBUG GROUP: 'CH' contains 1 components:
+2026-01-15 21:15:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-CH1.ipt
+2026-01-15 21:15:22 | DEBUG GROUP: 'PL' contains 2 components:
+2026-01-15 21:15:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-PL6.ipt
+2026-01-15 21:15:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-PL10.ipt
+2026-01-15 21:15:22 | DEBUG GROUP: 'IPE' contains 2 components:
+2026-01-15 21:15:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-IPE7.ipt
+2026-01-15 21:15:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-IPE8.ipt
+2026-01-15 21:15:22 | STEP 3: Getting plant section naming convention
+2026-01-15 21:15:22 | PLANT: Getting plant section naming convention from user
+2026-01-15 21:15:39 | PLANT: Using custom naming convention: WALKWAY16-000-
+2026-01-15 21:15:40 | REGISTRY: Prefix does not exist, starting fresh
+2026-01-15 21:15:42 | STEP 4: Showing component groups summary
+2026-01-15 21:15:42 | SUMMARY: Showing component groups to user
+2026-01-15 21:15:44 | SUMMARY: User approved component groups
+2026-01-15 21:15:44 | STEP 5: Getting user naming schemes for component groups
+2026-01-15 21:15:44 | INPUT: Getting user naming schemes for 3 groups
+2026-01-15 21:15:46 | INPUT: Group 'CH' -> Scheme: WALKWAY16-000-CH{N}
+2026-01-15 21:15:47 | INPUT: Group 'PL' -> Scheme: WALKWAY16-000-PL{N}
+2026-01-15 21:15:48 | INPUT: Group 'IPE' -> Scheme: WALKWAY16-000-IPE{N}
+2026-01-15 21:15:48 | STEP 6: Creating heritage-based copies with user naming
+2026-01-15 21:15:48 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-15 21:15:48 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-15 21:15:48 | HERITAGE: Starting fresh - not loading existing counters
+2026-01-15 21:15:48 | EXTRACT: Processing naming scheme: WALKWAY16-000-CH{N}
+2026-01-15 21:15:48 | EXTRACT: Extracted prefix: 'WALKWAY16-000-'
+2026-01-15 21:15:48 | HERITAGE: Checking for existing counter with key: 'WALKWAY16-000-CH'
+2026-01-15 21:15:48 | HERITAGE: Group 'CH' starting from number 1 (new prefix or group - key 'WALKWAY16-000-CH' not found)
+2026-01-15 21:15:48 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 21:15:48 | HERITAGE: Processing group 'CH' with scheme: WALKWAY16-000-CH{N}
+2026-01-15 21:15:48 | HERITAGE: Walkway-16-CH1.ipt -> WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-CH1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:48 | HERITAGE: Creating new file: WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:48 | HERITAGE: SUCCESS - Created WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:48 | REGISTRY: Saved WALKWAY16-000-CH = 1
+2026-01-15 21:15:48 | EXTRACT: Processing naming scheme: WALKWAY16-000-PL{N}
+2026-01-15 21:15:48 | EXTRACT: Extracted prefix: 'WALKWAY16-000-'
+2026-01-15 21:15:48 | HERITAGE: Checking for existing counter with key: 'WALKWAY16-000-PL'
+2026-01-15 21:15:48 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'WALKWAY16-000-PL' not found)
+2026-01-15 21:15:48 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 21:15:48 | HERITAGE: Processing group 'PL' with scheme: WALKWAY16-000-PL{N}
+2026-01-15 21:15:48 | HERITAGE: Walkway-16-PL6.ipt -> WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:48 | HERITAGE: Creating new file: WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:48 | HERITAGE: SUCCESS - Created WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:48 | HERITAGE: Walkway-16-PL10.ipt -> WALKWAY16-000-PL2.ipt
+2026-01-15 21:15:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\WALKWAY16-000-PL2.ipt
+2026-01-15 21:15:48 | HERITAGE: Creating new file: WALKWAY16-000-PL2.ipt
+2026-01-15 21:15:48 | HERITAGE: SUCCESS - Created WALKWAY16-000-PL2.ipt
+2026-01-15 21:15:48 | REGISTRY: Saved WALKWAY16-000-PL = 2
+2026-01-15 21:15:48 | EXTRACT: Processing naming scheme: WALKWAY16-000-IPE{N}
+2026-01-15 21:15:48 | EXTRACT: Extracted prefix: 'WALKWAY16-000-'
+2026-01-15 21:15:48 | HERITAGE: Checking for existing counter with key: 'WALKWAY16-000-IPE'
+2026-01-15 21:15:48 | HERITAGE: Group 'IPE' starting from number 1 (new prefix or group - key 'WALKWAY16-000-IPE' not found)
+2026-01-15 21:15:48 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 21:15:48 | HERITAGE: Processing group 'IPE' with scheme: WALKWAY16-000-IPE{N}
+2026-01-15 21:15:48 | HERITAGE: Walkway-16-IPE7.ipt -> WALKWAY16-000-IPE1.ipt
+2026-01-15 21:15:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-IPE7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\WALKWAY16-000-IPE1.ipt
+2026-01-15 21:15:48 | HERITAGE: Creating new file: WALKWAY16-000-IPE1.ipt
+2026-01-15 21:15:48 | HERITAGE: SUCCESS - Created WALKWAY16-000-IPE1.ipt
+2026-01-15 21:15:49 | HERITAGE: Walkway-16-IPE8.ipt -> WALKWAY16-000-IPE2.ipt
+2026-01-15 21:15:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\Walkway-16-IPE8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-16\WALKWAY16-000-IPE2.ipt
+2026-01-15 21:15:49 | HERITAGE: Creating new file: WALKWAY16-000-IPE2.ipt
+2026-01-15 21:15:49 | HERITAGE: SUCCESS - Created WALKWAY16-000-IPE2.ipt
+2026-01-15 21:15:49 | REGISTRY: Saved WALKWAY16-000-IPE = 2
+2026-01-15 21:15:49 | STEP 7: Updating assembly references
+2026-01-15 21:15:49 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-15 21:15:49 | ASSEMBLY: Updating references in - Walkway-16.iam (Level: ROOT)
+2026-01-15 21:15:49 | ASSEMBLY: Replacing Walkway-16-CH1.ipt -> WALKWAY16-000-CH1.ipt [CH] (in Walkway-16.iam)
+2026-01-15 21:15:49 | ASSEMBLY: SUCCESS - Updated to WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:49 | ASSEMBLY: Replacing Walkway-16-PL6.ipt -> WALKWAY16-000-PL1.ipt [PL] (in Walkway-16.iam)
+2026-01-15 21:15:49 | ASSEMBLY: SUCCESS - Updated to WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:49 | ASSEMBLY: Replacing Walkway-16-IPE7.ipt -> WALKWAY16-000-IPE1.ipt [IPE] (in Walkway-16.iam)
+2026-01-15 21:15:49 | ASSEMBLY: SUCCESS - Updated to WALKWAY16-000-IPE1.ipt
+2026-01-15 21:15:49 | ASSEMBLY: Replacing Walkway-16-IPE8.ipt -> WALKWAY16-000-IPE2.ipt [IPE] (in Walkway-16.iam)
+2026-01-15 21:15:49 | ASSEMBLY: SUCCESS - Updated to WALKWAY16-000-IPE2.ipt
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-PL1.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-IPE1.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-IPE2.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: Replacing Walkway-16-PL10.ipt -> WALKWAY16-000-PL2.ipt [PL] (in Walkway-16.iam)
+2026-01-15 21:15:49 | ASSEMBLY: SUCCESS - Updated to WALKWAY16-000-PL2.ipt
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-PL2.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-PL2.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: INFO - No mapping found for WALKWAY16-000-PL2.ipt (not renamed)
+2026-01-15 21:15:49 | ASSEMBLY: Saving assembly with updated references...
+2026-01-15 21:15:50 | ASSEMBLY: Successfully saved assembly
+2026-01-15 21:15:50 | STEP 8: Auto-detecting and updating IDW files
+2026-01-15 21:15:50 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-15 21:15:50 | IDW: Found drawing file - MGY-200-DRP-01-16.idw
+2026-01-15 21:15:50 | IDW: Processing MGY-200-DRP-01-16.idw
+2026-01-15 21:15:50 | IDW: Opening MGY-200-DRP-01-16.idw
+2026-01-15 21:15:51 | IDW: Found 15 referenced files
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-A13.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-A14.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-CH4.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-IPE1.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-IPE2.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-IPE3.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-13-PL8.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16.iam
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16-A4.ipt
+2026-01-15 21:15:51 | IDW: Updating reference Walkway-16-CH1.ipt -> WALKWAY16-000-CH1.ipt
+2026-01-15 21:15:51 | IDW: SUCCESS - Reference updated
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16-CH5.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16-PL2.ipt
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16-PL3.ipt
+2026-01-15 21:15:51 | IDW: Updating reference Walkway-16-PL6.ipt -> WALKWAY16-000-PL1.ipt
+2026-01-15 21:15:51 | IDW: SUCCESS - Reference updated
+2026-01-15 21:15:51 | IDW: INFO - No mapping found for Walkway-16-PL9.ipt
+2026-01-15 21:15:53 | IDW: Saved MGY-200-DRP-01-16.idw
+2026-01-15 21:15:53 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-15 21:15:53 | MAPPING: === START SAVE MAPPING FILE ===
+2026-01-15 21:15:53 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-15 21:15:53 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-15 21:15:53 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

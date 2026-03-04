@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventor Renamer - Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #2c3e50, #4a6741);
+            color: white;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        .header:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.1) 10px,
+                rgba(255,255,255,0.1) 20px
+            );
+            animation: slide 20s linear infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(-50px); }
+            100% { transform: translateX(50px); }
+        }
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        .copyright {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 16px;
+            border: 2px solid #2c3e50;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .doc-card {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .doc-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-color: #007bff;
+        }
+        .doc-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #007bff, #28a745, #dc3545, #ffc107);
+        }
+        .doc-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .doc-icon {
+            font-size: 1.8em;
+            margin-right: 15px;
+        }
+        .doc-description {
+            color: #6c757d;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .doc-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .doc-link:hover {
+            background: linear-gradient(135deg, #0056b3, #003d82);
+            transform: scale(1.05);
+            text-decoration: none;
+            color: white;
+        }
+        .system-info {
+            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
+            border: 2px solid #28a745;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .quick-links {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .version-badge {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>🔧 INVENTOR RENAMER</h1>
+                <div class="subtitle">Professional Assembly Part Renaming Solution</div>
+                <div class="version-badge">Production Version - September 2025</div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <strong>© 2025 Quintin. All Rights Reserved.</strong><br>
+            This software and documentation are proprietary and confidential.<br>
+            Unauthorized reproduction or distribution is strictly prohibited.
+        </div>
+
+        <div class="system-info">
+            <h2 style="color: #28a745; margin-top: 0;">🎯 What Is Inventor Renamer?</h2>
+            <p><strong>A comprehensive solution for systematically renaming Autodesk Inventor assembly parts with intelligent classification and automatic IDW drawing reference updates.</strong></p>
+
+            <ul style="font-size: 16px; line-height: 1.8;">
+                <li><strong>Heritage-Based Method:</strong> Preserves design relationships and file history</li>
+                <li><strong>Intelligent Classification:</strong> Automatically groups parts (PL, B, CH, A, etc.)</li>
+                <li><strong>Dynamic Prefixes:</strong> Support for any project naming convention</li>
+                <li><strong>Complete Workflow:</strong> From part renaming to IDW updates in 2 steps</li>
+                <li><strong>Production Ready:</strong> Thoroughly tested and professionally organized</li>
+            </ul>
+        </div>
+
+        <div class="quick-links">
+            <h2 style="color: #856404; margin-top: 0;">🚀 Getting Started</h2>
+            <p style="font-size: 18px; margin-bottom: 15px;"><strong>New to Inventor Renamer? Start here:</strong></p>
+            <ol style="font-size: 16px; line-height: 1.8;">
+                <li>Read the <strong>Quick Start Guide</strong> for immediate setup</li>
+                <li>Open Inventor with your assembly</li>
+                <li>Double-click <code>MAIN_LAUNCHER.bat</code> to begin</li>
+                <li>Follow the process: Part Renaming → IDW Updates → Title Automation</li>
+            </ol>
+        </div>
+
+        <h2 style="color: #2c3e50; text-align: center; margin: 40px 0;">📚 Documentation Library</h2>
+
+        <div class="doc-grid">
+            <div class="doc-card">
+                <div class="doc-title">
+                    <span class="doc-icon">🚀</span>
+                    Quick Start Guide
+                </div>
+                <div class="doc-description">
+                    Get up and running in 3 simple steps. Perfect for first-time users who want to start immediately.
+                    Covers preparation, step-by-step process, and success verification.
+                </div>
+                <a href="Quick_Start.html" class="doc-link">Start Here →</a>
+            </div>
+
+            <div class="doc-card">
+                <div class="doc-title">
+                    <span class="doc-icon">📖</span>
+                    User Manual
+                </div>
+                <div class="doc-description">
+                    Complete user guide with detailed instructions, troubleshooting, prerequisites, and best practices.
+                    Everything you need for successful operation.
+                </div>
+                <a href="User_Manual.html" class="doc-link">Read Manual →</a>
+            </div>
+
+            <div class="doc-card">
+                <div class="doc-title">
+                    <span class="doc-icon">⚙️</span>
+                    Technical Reference
+                </div>
+                <div class="doc-description">
+                    Developer documentation with API details, architecture overview, performance characteristics,
+                    and implementation details for customization.
+                </div>
+                <a href="Technical_Reference.html" class="doc-link">View Technical →</a>
+            </div>
+        </div>
+
+        <h2 style="color: #2c3e50; text-align: center; margin: 40px 0;">🎛️ Main Application</h2>
+
+        <div style="text-align: center; background: linear-gradient(135deg, #e3f2fd, #f3e5f5); padding: 30px; border-radius: 10px; border: 2px solid #2196f3;">
+            <h3 style="color: #1976d2; margin-top: 0;">Ready to Start Renaming?</h3>
+            <p style="font-size: 18px; margin-bottom: 25px;">Navigate to the main production folder and launch the application:</p>
+
+            <div style="background-color: #2d3748; color: #e2e8f0; padding: 20px; border-radius: 5px; font-family: 'Courier New', monospace; margin: 20px 0; text-align: left;">
+📁 FINAL_PRODUCTION_SCRIPTS/<br>
+├── 🚀 <strong>MAIN_LAUNCHER.bat</strong>  ← Double-click to start<br>
+├── 📋 STEP_1_MAPPING.txt<br>
+├── 📂 Logs/<br>
+├── 📂 Part_Renaming/<br>
+├── 📂 IDW_Updates/<br>
+└── 📂 Documentation/  ← You are here
+            </div>
+
+            <p style="font-size: 16px; color: #666; margin-top: 20px;">
+                <strong>Tip:</strong> Make sure Inventor is running with your assembly open before launching!
+            </p>
+        </div>
+
+        <h2 style="color: #2c3e50; text-align: center; margin: 40px 0;">📊 System Overview</h2>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #007bff;">
+                <h4 style="color: #007bff; margin-top: 0;">Step 1: Part Renaming</h4>
+                <p>Heritage-based renaming with intelligent classification. Processes entire assembly hierarchy.</p>
+            </div>
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #28a745;">
+                <h4 style="color: #28a745; margin-top: 0;">Step 2: IDW Updates</h4>
+                <p>Automatic drawing reference updates using Design Assistant method. Processes all IDW files.</p>
+            </div>
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #6f42c1;">
+                <h4 style="color: #6f42c1; margin-top: 0;">Title Automation</h4>
+                <p>Automatic IDW title block formatting with intelligent base view detection and quantity calculations.</p>
+            </div>
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+                <h4 style="color: #856404; margin-top: 0;">Registry Management</h4>
+                <p>Counter persistence and database management for continuous numbering across sessions.</p>
+            </div>
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
+                <h4 style="color: #dc3545; margin-top: 0;">File Utilities</h4>
+                <p>Duplicate detection and conflict resolution tools for project preparation.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 style="margin-top: 0;">🎯 Production Ready</h3>
+            <p style="font-size: 18px; margin: 15px 0;">
+                This system has been thoroughly tested and is ready for immediate deployment
+                in any Inventor-based engineering workflow.
+            </p>
+            <div style="border-top: 1px solid rgba(255,255,255,0.3); margin: 20px 0; padding-top: 20px;">
+                <strong>© 2025 Quintin. All Rights Reserved.</strong><br>
+                Inventor Renamer - Professional Assembly Renaming Solution
+            </div>
+        </div>
+    </div>
+</body>
+</html>

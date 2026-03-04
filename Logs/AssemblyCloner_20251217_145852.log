@@ -1,0 +1,68 @@
+﻿2025-12-17 14:58:52 | === ASSEMBLY CLONER STARTED ===
+2025-12-17 14:58:52 | Using EXACT methodology from VBScript Option 9
+2025-12-17 14:58:52 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-28\Beam-28.iam
+2025-12-17 14:58:52 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-28
+2025-12-17 14:58:53 | User confirmed clone operation
+2025-12-17 14:58:53 | Opening folder browser dialog...
+2025-12-17 14:59:07 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-29
+2025-12-17 14:59:09 | Rename parts: True
+2025-12-17 14:59:09 | Prompting for plant section prefix...
+2025-12-17 14:59:10 | Plant section prefix: Beam-29
+2025-12-17 14:59:11 | New assembly name: Beam-29
+2025-12-17 14:59:11 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-29\Beam-29.iam
+2025-12-17 14:59:11 | COLLECT: Beam-28-OTHER1.ipt (203 x 133 x 25 PFI)
+2025-12-17 14:59:11 | COLLECT: Beam-28-PL2.ipt (PL 10mm S355JR)
+2025-12-17 14:59:11 | Collected 2 parts
+2025-12-17 14:59:11 | Closing source assembly for safe copy...
+2025-12-17 14:59:13 | Copying assembly file...
+2025-12-17 14:59:13 | COPIED: Beam-28.iam -> Beam-29.iam
+2025-12-17 14:59:13 | Copying 2 parts...
+2025-12-17 14:59:13 | COPIED: Beam-28-OTHER1.ipt -> Beam-29-OTHER1.ipt
+2025-12-17 14:59:13 | COPIED: Beam-28-PL2.ipt -> Beam-29-PL2.ipt
+2025-12-17 14:59:13 | Updating assembly references and patching iLogic...
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Opened Beam-29.iam
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Found 2 file references
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Replacing Beam-28-OTHER1.ipt -> Beam-29-OTHER1.ipt
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Replacing Beam-28-PL2.ipt -> Beam-29-PL2.ipt
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: SUCCESS
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Updated 2 references
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-17 14:59:13 | Patching iLogic rules (in same session)...
+2025-12-17 14:59:13 | Patched 0 iLogic rules
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-17 14:59:13 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-17 14:59:13 | Processing IDW files...
+2025-12-17 14:59:13 | IDW PROCESS: Found 1 IDW files
+2025-12-17 14:59:15 | IDW PROCESS: Processing MGY-200-DRP-01-01-45.idw -> MGY-200-DRP-01-01-45.idw
+2025-12-17 14:59:18 | IDW PROCESS: Opening original IDW from source location...
+2025-12-17 14:59:19 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-17 14:59:19 | IDW PROCESS: Found 5 references
+2025-12-17 14:59:19 | IDW PROCESS: No mapping for Part3 Centre Gusset.ipt
+2025-12-17 14:59:19 | IDW PROCESS: Updating Beam-28.iam -> Beam-29.iam
+2025-12-17 14:59:19 | IDW PROCESS: SUCCESS
+2025-12-17 14:59:19 | IDW PROCESS: Updating Beam-28-OTHER1.ipt -> Beam-29-OTHER1.ipt
+2025-12-17 14:59:19 | IDW PROCESS: SUCCESS
+2025-12-17 14:59:19 | IDW PROCESS: Updating Beam-28-PL2.ipt -> Beam-29-PL2.ipt
+2025-12-17 14:59:19 | IDW PROCESS: SUCCESS
+2025-12-17 14:59:19 | IDW PROCESS: No mapping for Beam-28-PL3.ipt
+2025-12-17 14:59:19 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-17 14:59:19 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-17 14:59:19 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-45.idw
+2025-12-17 14:59:19 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-45'
+2025-12-17 14:59:19 | IDW PROCESS: Updated Description to 'Beam-29'
+2025-12-17 14:59:19 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-45.idw
+2025-12-17 14:59:19 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-29\MGY-200-DRP-01-01-45.idw
+2025-12-17 14:59:20 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-45.idw as MGY-200-DRP-01-01-45.idw (3 references updated)
+2025-12-17 14:59:20 | IDW PROCESS: All IDW files processed successfully
+2025-12-17 14:59:20 | Updating iProperties for copied documents...
+2025-12-17 14:59:20 | Updated iProperties for Beam-29.iam
+2025-12-17 14:59:20 | Updated iProperties for Beam-29-OTHER1.ipt
+2025-12-17 14:59:20 | Updated iProperties for Beam-29-PL2.ipt
+2025-12-17 14:59:21 | Saving iLogic patch log...
+2025-12-17 14:59:21 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-17 14:59:21 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251217_145852.log

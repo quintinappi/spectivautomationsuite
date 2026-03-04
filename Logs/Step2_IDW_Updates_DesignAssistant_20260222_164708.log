@@ -1,0 +1,509 @@
+2026-02-22 16:47:08 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-02-22 16:47:08 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-02-22 16:47:08 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-02-22 16:47:11 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_1_MAPPING.txt
+2026-02-22 16:47:11 | VERIFIED: Mapping file exists
+2026-02-22 16:47:11 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection
+2026-02-22 16:47:12 | SUCCESS: Connected to Inventor
+2026-02-22 16:47:12 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\STEP_1_MAPPING.txt
+2026-02-22 16:47:12 | Loaded 55 mappings from file
+2026-02-22 16:47:12 | LOADED: 55 mappings
+2026-02-22 16:47:12 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-02-22 16:47:12 | WILL SEARCH 2 DIRECTORIES FROM MAPPING
+2026-02-22 16:47:12 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute
+2026-02-22 16:47:12 | FOUND IDW: MGY-200-DSL-03-01.idw
+2026-02-22 16:47:12 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame
+2026-02-22 16:47:12 | FOUND IDW: MGY-200-DSL-03-02.idw
+2026-02-22 16:47:12 | FOUND: 2 IDW files
+2026-02-22 16:47:12 | UPDATING IDW REFERENCES
+2026-02-22 16:47:12 | IDW: Processing 2 IDW files with Design Assistant method
+2026-02-22 16:47:12 | IDW: Processing [1/2] MGY-200-DSL-03-01.idw
+2026-02-22 16:47:12 | IDW: Opening MGY-200-DSL-03-01.idw
+2026-02-22 16:47:12 | IDW: Enabled SilentOperation mode
+2026-02-22 16:47:13 | IDW: Successfully opened IDW document
+2026-02-22 16:47:13 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:47:13 | IDW: Found 48 referenced files
+2026-02-22 16:47:13 | IDW: Found potential assembly: Oversize Protection Chute.iam
+2026-02-22 16:47:13 | IDW: Successfully opened assembly: Oversize Protection Chute.iam
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL1.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL1.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL2.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL2.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL3.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL3.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL4.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL4.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL5.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL5.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL6.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL6.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL7.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL7.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL8.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL8.ipt
+2026-02-22 16:47:13 | LIVE-REF: N1SCR03-728-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL9.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL9.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A3.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A3.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A4.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A4.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A5.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A5.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A6.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A6.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A7.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A7.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A8.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A8.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A9.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A9.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A10.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A10.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A11.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A11.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A12.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A12.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A13.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A13.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A14.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A14.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A15.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-A15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A15.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-PART1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-PART1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-PART2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-PART2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL1.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL2.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL3.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL3.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL4.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL4.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL5.ipt
+2026-02-22 16:47:14 | LIVE-REF: N1SCR03-728-FL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL5.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL6.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL6.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL7.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL7.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL8.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL8.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL9.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL9.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL10.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL10.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL11.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL11.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL12.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL12.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL13.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL13.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL14.ipt
+2026-02-22 16:47:15 | LIVE-REF: N1SCR03-728-FL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL14.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL15.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL15.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL16.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL16.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL17.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL17.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL18.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL18.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL19.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-FL19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL19.ipt
+2026-02-22 16:47:16 | LIVE-REF: NSCR03-728-Bolted Connection1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Oversize Protection\Design Accelerator\NSCR03-728-Bolted Connection1.iam
+2026-02-22 16:47:16 | LIVE-REF: NSCR03-728-Bolted Connection1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Oversize Protection\Design Accelerator\NSCR03-728-Bolted Connection1.iam
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL10.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL10.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL11.ipt
+2026-02-22 16:47:16 | LIVE-REF: N1SCR03-728-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL11.ipt
+2026-02-22 16:47:16 | LIVE-REF: Built reference map with 96 entries
+2026-02-22 16:47:16 | IDW: Built live reference map with 96 entries from assembly
+2026-02-22 16:47:16 | IDW:   Processing reference: Liner1.ipt
+2026-02-22 16:47:16 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner1.ipt
+2026-02-22 16:47:16 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:16 | IDW:     UPDATING: Liner1.ipt -> N1SCR03-728-PART1.ipt
+2026-02-22 16:47:16 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART1.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Liner2 (Liner1 MIR).ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Liner2 (Liner1 MIR).ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Liner2 (Liner1 MIR).ipt -> N1SCR03-728-PART2.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PART2.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Lug DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Lug DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Lug DS-OPC.ipt -> N1SCR03-728-PL11.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL11.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:47:17 | IDW:   Method 2: Resolved to: Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:47:17 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:47:17 | IDW:   Smart matching for: Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:   No smart match found for: Oversize Protection Chute.iam
+2026-02-22 16:47:17 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:47:17 | IDW:   Processing reference: Part1 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part1 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part1 DS-OPC.ipt -> N1SCR03-728-PL1.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL1.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part10 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part10 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part10 Angle DS-OPC.ipt -> N1SCR03-728-A1.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A1.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part11 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part11 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part11 Angle DS-OPC.ipt -> N1SCR03-728-A2.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A2.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part12 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part12 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part12 Angle DS-OPC.ipt -> N1SCR03-728-A3.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A3.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part13 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part13 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part13 Angle DS-OPC.ipt -> N1SCR03-728-A4.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A4.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part14 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part14 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part14 Angle DS-OPC.ipt -> N1SCR03-728-A5.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A5.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part15 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part15 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part15 Angle DS-OPC.ipt -> N1SCR03-728-A6.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A6.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part16 (Part15 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part16 (Part15 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part16 (Part15 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A7.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A7.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part17 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part17 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part17 Angle DS-OPC.ipt -> N1SCR03-728-A8.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A8.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part18 (Part17 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part18 (Part17 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part18 (Part17 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A9.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A9.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part19 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part19 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part19 Angle DS-OPC.ipt -> N1SCR03-728-A10.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A10.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part2 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part2 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part2 DS-OPC.ipt -> N1SCR03-728-PL2.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL2.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part20 (Part19 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part20 (Part19 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part20 (Part19 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A11.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A11.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part21 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part21 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part21 Angle DS-OPC.ipt -> N1SCR03-728-A12.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A12.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part22 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part22 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part22 Angle DS-OPC.ipt -> N1SCR03-728-A13.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A13.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part23 (Part22 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part23 (Part22 Angle MIR) DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part23 (Part22 Angle MIR) DS-OPC.ipt -> N1SCR03-728-A15.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A15.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part24 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part24 Angle DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part24 Angle DS-OPC.ipt -> N1SCR03-728-A14.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-A14.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part25 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part25 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part25 Stiffener DS-OPC.ipt -> N1SCR03-728-FL1.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL1.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part26 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part26 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part26 Stiffener DS-OPC.ipt -> N1SCR03-728-FL2.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL2.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part27 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part27 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part27 Stiffener DS-OPC.ipt -> N1SCR03-728-FL3.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL3.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part28 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part28 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part28 Stiffener DS-OPC.ipt -> N1SCR03-728-FL4.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL4.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part29 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part29 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part29 Stiffener DS-OPC.ipt -> N1SCR03-728-FL5.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL5.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part3 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part3 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part3 DS-OPC.ipt -> N1SCR03-728-PL3.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL3.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part30 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part30 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part30 Stiffener DS-OPC.ipt -> N1SCR03-728-FL6.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL6.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part31 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part31 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part31 Stiffener DS-OPC.ipt -> N1SCR03-728-FL7.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL7.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part32 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part32 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part32 Stiffener DS-OPC.ipt -> N1SCR03-728-FL8.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL8.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part33 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part33 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part33 Stiffener DS-OPC.ipt -> N1SCR03-728-FL9.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL9.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part34 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part34 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part34 Stiffener DS-OPC.ipt -> N1SCR03-728-FL10.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL10.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part35 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part35 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part35 Stiffener DS-OPC.ipt -> N1SCR03-728-FL11.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL11.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part36 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part36 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part36 Stiffener DS-OPC.ipt -> N1SCR03-728-FL12.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL12.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part37 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part37 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part37 Stiffener DS-OPC.ipt -> N1SCR03-728-FL13.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL13.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part38 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part38 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part38 Stiffener DS-OPC.ipt -> N1SCR03-728-FL14.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL14.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part39 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part39 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part39 Stiffener DS-OPC.ipt -> N1SCR03-728-FL15.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL15.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part4 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part4 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part4 DS-OPC.ipt -> N1SCR03-728-PL4.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL4.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part40 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part40 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part40 Stiffener DS-OPC.ipt -> N1SCR03-728-FL16.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL16.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part41 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part41 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part41 Stiffener DS-OPC.ipt -> N1SCR03-728-FL17.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL17.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part42 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part42 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part42 Stiffener DS-OPC.ipt -> N1SCR03-728-FL18.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL18.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part43 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part43 Stiffener DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part43 Stiffener DS-OPC.ipt -> N1SCR03-728-FL19.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-FL19.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part44 End Plate DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part44 End Plate DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part44 End Plate DS-OPC.ipt -> N1SCR03-728-PL10.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL10.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part5 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part5 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part5 DS-OPC.ipt -> N1SCR03-728-PL5.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL5.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part6 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part6 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part6 DS-OPC.ipt -> N1SCR03-728-PL6.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL6.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part7 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part7 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part7 DS-OPC.ipt -> N1SCR03-728-PL7.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL7.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part8 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part8 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part8 DS-OPC.ipt -> N1SCR03-728-PL8.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL8.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW:   Processing reference: Part9 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\Part9 DS-OPC.ipt
+2026-02-22 16:47:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:17 | IDW:     UPDATING: Part9 DS-OPC.ipt -> N1SCR03-728-PL9.ipt
+2026-02-22 16:47:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Chute\N1SCR03-728-PL9.ipt
+2026-02-22 16:47:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:17 | IDW: Saving with 47 updates using Design Assistant method...
+2026-02-22 16:47:17 | IDW: SUCCESS - Saved with 47 updates
+2026-02-22 16:47:18 | IDW: Processing [2/2] MGY-200-DSL-03-02.idw
+2026-02-22 16:47:18 | IDW: Opening MGY-200-DSL-03-02.idw
+2026-02-22 16:47:18 | IDW: Enabled SilentOperation mode
+2026-02-22 16:47:19 | IDW: Successfully opened IDW document
+2026-02-22 16:47:19 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 16:47:19 | IDW: Found 8 referenced files
+2026-02-22 16:47:19 | IDW: Found potential assembly: Screen Deck Frame.iam
+2026-02-22 16:47:19 | IDW: Successfully opened assembly: Screen Deck Frame.iam
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A16.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A16.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A17.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A17.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A18.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-A18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A18.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL12.ipt
+2026-02-22 16:47:19 | LIVE-REF: N1SCR03-728-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL12.ipt
+2026-02-22 16:47:20 | LIVE-REF: N1SCR03-728-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL13.ipt
+2026-02-22 16:47:20 | LIVE-REF: N1SCR03-728-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL13.ipt
+2026-02-22 16:47:20 | LIVE-REF: N1SCR03-728-PART3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PART3.ipt
+2026-02-22 16:47:20 | LIVE-REF: N1SCR03-728-PART3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PART3.ipt
+2026-02-22 16:47:22 | LIVE-REF: N1SCR03-728-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL14.ipt
+2026-02-22 16:47:22 | LIVE-REF: N1SCR03-728-PL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL14.ipt
+2026-02-22 16:47:22 | LIVE-REF: N1SCR03-728-A19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A19.ipt
+2026-02-22 16:47:22 | LIVE-REF: N1SCR03-728-A19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A19.ipt
+2026-02-22 16:47:22 | LIVE-REF: Built reference map with 16 entries
+2026-02-22 16:47:22 | IDW: Built live reference map with 16 entries from assembly
+2026-02-22 16:47:22 | IDW:   Processing reference: Part1 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part1 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part1 70x70x8 OP-SDF.ipt -> N1SCR03-728-A16.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A16.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part2 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part2 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part2 70x70x8 OP-SDF.ipt -> N1SCR03-728-A17.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A17.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part3 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part3 70x70x8 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part3 70x70x8 OP-SDF.ipt -> N1SCR03-728-A18.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A18.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part4 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part4 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part4 OP-SDF.ipt -> N1SCR03-728-PL12.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL12.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part5 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part5 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part5 OP-SDF.ipt -> N1SCR03-728-PL13.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL13.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part6 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part6 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part6 OP-SDF.ipt -> N1SCR03-728-PL14.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-PL14.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Part7 50X50X6 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Part7 50X50X6 OP-SDF.ipt
+2026-02-22 16:47:22 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 16:47:22 | IDW:     UPDATING: Part7 50X50X6 OP-SDF.ipt -> N1SCR03-728-A19.ipt
+2026-02-22 16:47:22 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\N1SCR03-728-A19.ipt
+2026-02-22 16:47:22 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 16:47:22 | IDW:   Processing reference: Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:   Method 2: Resolving actual file path
+2026-02-22 16:47:22 | IDW:   Method 2: Resolved to: Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:   Method 3: Searching live assembly references
+2026-02-22 16:47:22 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 16:47:22 | IDW:   Smart matching for: Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\728 Oversize Protection\Screen Deck Frame\Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:   No smart match found for: Screen Deck Frame.iam
+2026-02-22 16:47:22 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 16:47:22 | IDW: Saving with 7 updates using Design Assistant method...
+2026-02-22 16:47:23 | IDW: SUCCESS - Saved with 7 updates
+2026-02-22 16:47:23 | 
+2026-02-22 16:47:23 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-02-22 16:47:23 | Total IDW files processed: 2
+2026-02-22 16:47:23 | Total reference updates: 54
+2026-02-22 16:47:23 | Total errors: 0
+2026-02-22 16:47:23 | === STEP 2 COMPLETE ===
+2026-02-22 16:47:23 | Mappings: 55
+2026-02-22 16:47:23 | IDW Files: 2
+2026-02-22 16:47:23 | Updates: 54
+2026-02-22 16:47:23 | Errors: 0

@@ -1,0 +1,59 @@
+2025-12-08 17:34:38 | === ASSEMBLY CLONER ===
+2025-12-08 17:34:38 | Copy assembly with all parts to new isolated location
+2025-12-08 17:34:42 | SUCCESS: Connected to existing Inventor instance
+2025-12-08 17:34:42 | STEP 1: Detecting open assembly
+2025-12-08 17:34:42 | DETECTED: Access Walkway-2.iam
+2025-12-08 17:34:42 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\Access Walkway-2.iam
+2025-12-08 17:34:43 | STEP 2: Getting destination folder from user
+2025-12-08 17:34:53 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-3
+2025-12-08 17:34:53 | New assembly name will be: Access Walkway-3.iam
+2025-12-08 17:34:53 | STEP 3: Asking about heritage renaming
+2025-12-08 17:34:55 | PLANT: Getting plant section naming convention from user
+2025-12-08 17:35:00 | PLANT: Using prefix: WALKWAY-3-
+2025-12-08 17:35:00 | STEP 4: Analyzing assembly structure
+2025-12-08 17:35:00 | COLLECT: Scanning assembly for all referenced parts...
+2025-12-08 17:35:00 | COLLECT: Part1 TFC.ipt (TFC178x54x15)
+2025-12-08 17:35:00 | COLLECT: Part7 TFC.ipt (TFC178x54x15)
+2025-12-08 17:35:00 | COLLECT: Part2 Stair End Plate.ipt (PL 10mm S355JR)
+2025-12-08 17:35:00 | COLLECT: Part3 TFC.ipt (TFC178x54x15)
+2025-12-08 17:35:00 | COLLECT: Part4 Stanchion Plate.ipt (PL 10mm S355JR)
+2025-12-08 17:35:00 | COLLECT: Found 5 unique parts
+2025-12-08 17:35:00 | ANALYZE: Found 5 unique parts to copy
+2025-12-08 17:35:00 | STEP 5: Grouping components for heritage naming
+2025-12-08 17:35:00 | GROUP: Grouping parts for heritage naming...
+2025-12-08 17:35:00 | GROUP: Created 2 groups
+2025-12-08 17:35:00 | SCHEME: CH -> WALKWAY-3-CH{N}
+2025-12-08 17:35:00 | SCHEME: PL -> WALKWAY-3-PL{N}
+2025-12-08 17:35:00 | STEP 6: Copying assembly to destination
+2025-12-08 17:35:00 | Closing source assembly for safe copy...
+2025-12-08 17:35:01 | COPIED: Assembly Access Walkway-2.iam -> Access Walkway-3.iam
+2025-12-08 17:35:01 | STEP 7: Copying parts to destination
+2025-12-08 17:35:01 | COPIED: Part1 TFC.ipt -> WALKWAY-3-CH1.ipt
+2025-12-08 17:35:01 | COPIED: Part7 TFC.ipt -> WALKWAY-3-CH2.ipt
+2025-12-08 17:35:01 | COPIED: Part2 Stair End Plate.ipt -> WALKWAY-3-PL1.ipt
+2025-12-08 17:35:01 | COPIED: Part3 TFC.ipt -> WALKWAY-3-CH3.ipt
+2025-12-08 17:35:01 | COPIED: Part4 Stanchion Plate.ipt -> WALKWAY-3-PL2.ipt
+2025-12-08 17:35:01 | STEP 8: Updating references in copied assembly using ApprenticeServer
+2025-12-08 17:35:01 | ASSEMBLY UPDATE: ERROR - Could not create ApprenticeServer: Object required
+2025-12-08 17:35:15 | STEP 9: Processing IDW files (update references, then save to new location)
+2025-12-08 17:35:15 | IDW PROCESS: Found MGY-200-DRD-01-11.idw
+2025-12-08 17:35:19 | IDW PROCESS: Opening original IDW from source location...
+2025-12-08 17:35:21 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-08 17:35:21 | IDW PROCESS: Found 8 references
+2025-12-08 17:35:21 | IDW PROCESS: Updating Access Walkway-2.iam -> Access Walkway-3.iam
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: Updating Part1 TFC.ipt -> WALKWAY-3-CH1.ipt
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: Updating Part2 Stair End Plate.ipt -> WALKWAY-3-PL1.ipt
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: Updating Part3 TFC.ipt -> WALKWAY-3-CH3.ipt
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: Updating Part4 Stanchion Plate.ipt -> WALKWAY-3-PL2.ipt
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: No mapping for Part5 Angle.ipt
+2025-12-08 17:35:21 | IDW PROCESS: No mapping for Part6 (Part5 Angle MIR).ipt
+2025-12-08 17:35:21 | IDW PROCESS: Updating Part7 TFC.ipt -> WALKWAY-3-CH2.ipt
+2025-12-08 17:35:21 | IDW PROCESS: SUCCESS
+2025-12-08 17:35:21 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-3\MGY-200-DRD-01-12.idw
+2025-12-08 17:35:22 | IDW PROCESS: Successfully saved MGY-200-DRD-01-12.idw (6 references updated)
+2025-12-08 17:35:22 | === ASSEMBLY CLONER COMPLETED ===

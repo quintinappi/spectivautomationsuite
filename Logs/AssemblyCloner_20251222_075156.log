@@ -1,0 +1,74 @@
+﻿2025-12-22 07:51:56 | === ASSEMBLY CLONER STARTED ===
+2025-12-22 07:51:56 | Using EXACT methodology from VBScript Option 9
+2025-12-22 07:51:56 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Library\Floor Channel with Notches\Floor Channel with Notches.iam
+2025-12-22 07:51:56 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Library\Floor Channel with Notches
+2025-12-22 07:51:58 | User confirmed clone operation
+2025-12-22 07:51:58 | Opening folder browser dialog...
+2025-12-22 07:52:20 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-11
+2025-12-22 07:52:22 | Rename parts: True
+2025-12-22 07:52:22 | Prompting for plant section prefix...
+2025-12-22 07:52:23 | Plant section prefix: Channel-11
+2025-12-22 07:52:23 | New assembly name: Channel-11
+2025-12-22 07:52:23 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-11\Channel-11.iam
+2025-12-22 07:52:23 | COLLECT: Floor Channel with Notches-CH1.ipt (PFC180x70)
+2025-12-22 07:52:23 | COLLECT: Floor Channel with Notches-PL2.ipt (PL 10mm S355JR)
+2025-12-22 07:52:23 | COLLECT: Floor Channel with Notches-PL3.ipt (PL 8mm S355JR)
+2025-12-22 07:52:23 | Collected 3 parts
+2025-12-22 07:52:23 | Closing source assembly for safe copy...
+2025-12-22 07:52:24 | Copying assembly file...
+2025-12-22 07:52:24 | COPIED: Floor Channel with Notches.iam -> Channel-11.iam
+2025-12-22 07:52:24 | Copying 3 parts...
+2025-12-22 07:52:24 | COPIED: Floor Channel with Notches-CH1.ipt -> Channel-11-CH1.ipt
+2025-12-22 07:52:24 | COPIED: Floor Channel with Notches-PL2.ipt -> Channel-11-PL2.ipt
+2025-12-22 07:52:24 | COPIED: Floor Channel with Notches-PL3.ipt -> Channel-11-PL3.ipt
+2025-12-22 07:52:24 | Updating assembly references and patching iLogic...
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Opened Channel-11.iam
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Found 3 file references
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Replacing Floor Channel with Notches-CH1.ipt -> Channel-11-CH1.ipt
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: SUCCESS
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Replacing Floor Channel with Notches-PL2.ipt -> Channel-11-PL2.ipt
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: SUCCESS
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Replacing Floor Channel with Notches-PL3.ipt -> Channel-11-PL3.ipt
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: SUCCESS
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Updated 3 references
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-22 07:52:24 | Patching iLogic rules (in same session)...
+2025-12-22 07:52:24 | Patched 0 iLogic rules
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-22 07:52:24 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-22 07:52:24 | Processing IDW files...
+2025-12-22 07:52:24 | IDW PROCESS: Found 1 IDW files
+2025-12-22 07:52:26 | IDW PROCESS: Processing MGY-200-DRP-01-01-xx.idw -> MGY-200-DRP-01-01-xx.idw
+2025-12-22 07:52:26 | IDW PROCESS: Opening original IDW from source location...
+2025-12-22 07:52:26 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-22 07:52:26 | IDW PROCESS: Found 5 references
+2025-12-22 07:52:26 | IDW PROCESS: No mapping for Part4 Corner Gusset.ipt
+2025-12-22 07:52:26 | IDW PROCESS: Updating Floor Channel with Notches.iam -> Channel-11.iam
+2025-12-22 07:52:26 | IDW PROCESS: SUCCESS
+2025-12-22 07:52:26 | IDW PROCESS: Updating Floor Channel with Notches-CH1.ipt -> Channel-11-CH1.ipt
+2025-12-22 07:52:26 | IDW PROCESS: SUCCESS
+2025-12-22 07:52:26 | IDW PROCESS: Updating Floor Channel with Notches-PL2.ipt -> Channel-11-PL2.ipt
+2025-12-22 07:52:26 | IDW PROCESS: SUCCESS
+2025-12-22 07:52:26 | IDW PROCESS: Updating Floor Channel with Notches-PL3.ipt -> Channel-11-PL3.ipt
+2025-12-22 07:52:26 | IDW PROCESS: SUCCESS
+2025-12-22 07:52:26 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-22 07:52:26 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-22 07:52:26 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-xx.idw
+2025-12-22 07:52:26 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-xx'
+2025-12-22 07:52:26 | IDW PROCESS: Updated Description to 'Channel-11'
+2025-12-22 07:52:26 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-xx.idw
+2025-12-22 07:52:26 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Channel-11\MGY-200-DRP-01-01-xx.idw
+2025-12-22 07:52:27 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-xx.idw as MGY-200-DRP-01-01-xx.idw (4 references updated)
+2025-12-22 07:52:27 | IDW PROCESS: All IDW files processed successfully
+2025-12-22 07:52:27 | Updating iProperties for copied documents...
+2025-12-22 07:52:27 | Updated iProperties for Channel-11.iam
+2025-12-22 07:52:28 | Updated iProperties for Channel-11-CH1.ipt
+2025-12-22 07:52:28 | Updated iProperties for Channel-11-PL2.ipt
+2025-12-22 07:52:28 | Updated iProperties for Channel-11-PL3.ipt
+2025-12-22 07:52:28 | Saving iLogic patch log...
+2025-12-22 07:52:28 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-22 07:52:28 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251222_075156.log

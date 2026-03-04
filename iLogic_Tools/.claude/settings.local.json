@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(cat:*)",
+      "Bash(cmd /c \"dir /O-D \"\"C:\\Users\\Quintin\\Documents\\Spectiv\\3. Working\\22. DMS plant\\REF\\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\\Logs\\*.log\"\" 2>nul\")",
+      "WebSearch",
+      "Bash(cscript:*)"
+    ]
+  }
+}

@@ -1,0 +1,1294 @@
+2026-02-12 15:36:44 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-02-12 15:36:44 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-02-12 15:36:44 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-02-12 15:36:58 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_1_MAPPING.txt
+2026-02-12 15:36:58 | VERIFIED: Mapping file exists
+2026-02-12 15:36:58 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box
+2026-02-12 15:36:59 | SUCCESS: Connected to Inventor
+2026-02-12 15:36:59 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_1_MAPPING.txt
+2026-02-12 15:36:59 | Loaded 130 mappings from file
+2026-02-12 15:36:59 | LOADED: 130 mappings
+2026-02-12 15:36:59 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-02-12 15:36:59 | WILL SEARCH 10 DIRECTORIES FROM MAPPING
+2026-02-12 15:36:59 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top
+2026-02-12 15:36:59 | FOUND IDW: MGY-200-DSL-05-01.idw
+2026-02-12 15:36:59 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)
+2026-02-12 15:36:59 | FOUND IDW: MGY-200-DSL-05-02.idw
+2026-02-12 15:36:59 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)
+2026-02-12 15:36:59 | FOUND IDW: MGY-200-DSL-05-03.idw
+2026-02-12 15:36:59 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3
+2026-02-12 15:36:59 | FOUND IDW: MGY-200-DSL-05-04.idw
+2026-02-12 15:36:59 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)
+2026-02-12 15:36:59 | FOUND IDW: MGY-200-DSL-05-05.idw
+2026-02-12 15:37:00 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door
+2026-02-12 15:37:00 | FOUND IDW: MGY-200-DSL-05-06.idw
+2026-02-12 15:37:00 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid
+2026-02-12 15:37:00 | FOUND IDW: MGY-200-DSL-05-07.idw
+2026-02-12 15:37:00 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2
+2026-02-12 15:37:00 | FOUND IDW: MGY-200-DSL-05-08.idw
+2026-02-12 15:37:00 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket
+2026-02-12 15:37:00 | FOUND IDW: MGY-200-DSL-05-09.idw
+2026-02-12 15:37:00 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box
+2026-02-12 15:37:00 | FOUND IDW: MGY-200-DSL-05-00.idw
+2026-02-12 15:37:00 | FOUND: 10 IDW files
+2026-02-12 15:37:00 | UPDATING IDW REFERENCES
+2026-02-12 15:37:00 | IDW: Processing 10 IDW files with Design Assistant method
+2026-02-12 15:37:00 | IDW: Processing [1/10] MGY-200-DSL-05-01.idw
+2026-02-12 15:37:00 | IDW: Opening MGY-200-DSL-05-01.idw
+2026-02-12 15:37:00 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:01 | IDW: Successfully opened IDW document
+2026-02-12 15:37:02 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:02 | IDW: Found 53 referenced files
+2026-02-12 15:37:02 | IDW: Found potential assembly: Top - Mixing Box.iam
+2026-02-12 15:37:02 | IDW: Successfully opened assembly: Top - Mixing Box.iam
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL1.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL1.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL2.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL2.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL3.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL3.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL4.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL4.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL5.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL5.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL6.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL6.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL7.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL7.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL8.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL8.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL9.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL9.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL10.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL10.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL11.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL11.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL12.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL12.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL13.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL13.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL14.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL14.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL15.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL15.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL16.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-PL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL16.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A1.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A1.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A2.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A2.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A3.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A3.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A4.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A4.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A5.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A5.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A6.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A6.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A7.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A7.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A8.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A8.ipt
+2026-02-12 15:37:02 | LIVE-REF: N1SCR03-729-A9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A9.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A9.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A10.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A10.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A11.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A11.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A12.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A12.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A13.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-A13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A13.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL1.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL1.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-CH1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-CH1.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-CH1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-CH1.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL17.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL17.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL2.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL2.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL3.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL3.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL4.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL4.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL5.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL5.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL6.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL6.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL7.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL7.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL8.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL8.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL9.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL9.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL10.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL10.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL11.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL11.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL12.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL12.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL13.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL13.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL14.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL14.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL15.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL15.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL16.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL16.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL17.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-FL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL17.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL18.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL18.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL19.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL19.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL20.ipt
+2026-02-12 15:37:03 | LIVE-REF: N1SCR03-729-PL20 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL20.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PL21.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL21.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PL21 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL21.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART1.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART1.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART2.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART2.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART3.ipt
+2026-02-12 15:37:04 | LIVE-REF: N1SCR03-729-PART3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART3.ipt
+2026-02-12 15:37:04 | LIVE-REF: Built reference map with 110 entries
+2026-02-12 15:37:04 | IDW: Built live reference map with 110 entries from assembly
+2026-02-12 15:37:04 | IDW:   Processing reference: Lug.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Lug.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Lug.ipt -> N1SCR03-729-PL18.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL18.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part1.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL1.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL1.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part10.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part10.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part10.ipt -> N1SCR03-729-PL10.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL10.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part11.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part11.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part11.ipt -> N1SCR03-729-PL11.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL11.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part12.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part12.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part12.ipt -> N1SCR03-729-PL12.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL12.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part13.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part13.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part13.ipt -> N1SCR03-729-PL13.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL13.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part14.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part14.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part14.ipt -> N1SCR03-729-PL14.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL14.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part15.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part15.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part15.ipt -> N1SCR03-729-PL15.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL15.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part16.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part16.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part16.ipt -> N1SCR03-729-PL16.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL16.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part17 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part17 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part17 Angle.ipt -> N1SCR03-729-A1.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A1.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part18 (Part17 Angle MIR).ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part18 (Part17 Angle MIR).ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part18 (Part17 Angle MIR).ipt -> N1SCR03-729-A2.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A2.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part19 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part19 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part19 Angle.ipt -> N1SCR03-729-A3.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A3.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part2.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL2.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL2.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part20 (Part19 Angle MIR).ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part20 (Part19 Angle MIR).ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part20 (Part19 Angle MIR).ipt -> N1SCR03-729-A4.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A4.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part21 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part21 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part21 Angle.ipt -> N1SCR03-729-A5.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A5.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part22 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part22 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part22 Angle.ipt -> N1SCR03-729-A6.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A6.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part23 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part23 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part23 Angle.ipt -> N1SCR03-729-A7.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A7.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part24 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part24 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part24 Angle.ipt -> N1SCR03-729-A8.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A8.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part25 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part25 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part25 Angle.ipt -> N1SCR03-729-A9.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A9.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part26 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part26 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part26 Angle.ipt -> N1SCR03-729-A10.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A10.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part27 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part27 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part27 Angle.ipt -> N1SCR03-729-A11.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A11.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part28 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part28 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part28 Angle.ipt -> N1SCR03-729-A12.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A12.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part29 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part29 Angle.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part29 Angle.ipt -> N1SCR03-729-A13.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A13.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part3.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL3.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL3.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part30 Flat Bar.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part30 Flat Bar.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part30 Flat Bar.ipt -> N1SCR03-729-FL1.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL1.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part31 End Plate.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part31 End Plate.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part31 End Plate.ipt -> N1SCR03-729-PL21.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL21.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part32 Corner Gusset.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part32 Corner Gusset.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part32 Corner Gusset.ipt -> N1SCR03-729-PL19.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL19.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part33.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part33.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part33.ipt -> N1SCR03-729-PL20.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL20.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part34 PFC.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part34 PFC.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part34 PFC.ipt -> N1SCR03-729-CH1.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-CH1.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part35 End Plate.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part35 End Plate.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part35 End Plate.ipt -> N1SCR03-729-PL17.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL17.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part36 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part36 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part36 Stiffener.ipt -> N1SCR03-729-FL2.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL2.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part37 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part37 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part37 Stiffener.ipt -> N1SCR03-729-FL3.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL3.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part38 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part38 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part38 Stiffener.ipt -> N1SCR03-729-FL4.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL4.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part39 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part39 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part39 Stiffener.ipt -> N1SCR03-729-FL5.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL5.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part4.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part4.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part4.ipt -> N1SCR03-729-PL4.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL4.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part40 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part40 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part40 Stiffener.ipt -> N1SCR03-729-FL6.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL6.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part41 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part41 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part41 Stiffener.ipt -> N1SCR03-729-FL7.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL7.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part42 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part42 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part42 Stiffener.ipt -> N1SCR03-729-FL8.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL8.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part43 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part43 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part43 Stiffener.ipt -> N1SCR03-729-FL9.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL9.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part44 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part44 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part44 Stiffener.ipt -> N1SCR03-729-FL10.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL10.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part45 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part45 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part45 Stiffener.ipt -> N1SCR03-729-FL11.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL11.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part46 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part46 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part46 Stiffener.ipt -> N1SCR03-729-FL12.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL12.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part47 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part47 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part47 Stiffener.ipt -> N1SCR03-729-FL13.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL13.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part48 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part48 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part48 Stiffener.ipt -> N1SCR03-729-FL14.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL14.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part49 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part49 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part49 Stiffener.ipt -> N1SCR03-729-FL15.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL15.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part5.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part5.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part5.ipt -> N1SCR03-729-PL5.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL5.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part50 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part50 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part50 Stiffener.ipt -> N1SCR03-729-FL16.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL16.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part51 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part51 Stiffener.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part51 Stiffener.ipt -> N1SCR03-729-FL17.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL17.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part6.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part6.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part6.ipt -> N1SCR03-729-PL6.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL6.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part7.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part7.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part7.ipt -> N1SCR03-729-PL7.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL7.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part8.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part8.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part8.ipt -> N1SCR03-729-PL8.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL8.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Part9.ipt
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part9.ipt
+2026-02-12 15:37:04 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:04 | IDW:     UPDATING: Part9.ipt -> N1SCR03-729-PL9.ipt
+2026-02-12 15:37:04 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL9.ipt
+2026-02-12 15:37:04 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:04 | IDW:   Processing reference: Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:04 | IDW:   Method 2: Resolved to: Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:04 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:04 | IDW:   Smart matching for: Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:   No smart match found for: Top - Mixing Box.iam
+2026-02-12 15:37:04 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:04 | IDW: Saving with 52 updates using Design Assistant method...
+2026-02-12 15:37:05 | IDW: SUCCESS - Saved with 52 updates
+2026-02-12 15:37:05 | IDW: Processing [2/10] MGY-200-DSL-05-02.idw
+2026-02-12 15:37:05 | IDW: Opening MGY-200-DSL-05-02.idw
+2026-02-12 15:37:05 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:06 | IDW: Successfully opened IDW document
+2026-02-12 15:37:06 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:06 | IDW: Found 16 referenced files
+2026-02-12 15:37:06 | IDW: Found potential assembly: Box-1 (Overflow).iam
+2026-02-12 15:37:06 | IDW: Successfully opened assembly: Box-1 (Overflow).iam
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL22.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL22.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL22 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL22.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL23.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL23.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL23 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL23.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL24.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL24.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL24 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL24.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL25.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL25.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL25 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL25.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL26.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL26.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL26 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL26.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL27.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL27.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL27 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL27.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL28.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL28.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL28 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL28.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL29.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL29.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL29 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL29.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A14.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A14.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A15.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A15.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A16.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A16.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A17.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-A17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A17.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-P1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-P1.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-P1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-P1.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-FLG1.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-FLG1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-FLG1.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL30.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL30.ipt
+2026-02-12 15:37:06 | LIVE-REF: N1SCR03-729-PL30 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL30.ipt
+2026-02-12 15:37:07 | LIVE-REF: N1SCR03-729-PL31.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL31.ipt
+2026-02-12 15:37:07 | LIVE-REF: N1SCR03-729-PL31 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL31.ipt
+2026-02-12 15:37:07 | LIVE-REF: N1SCR03-729-PL32.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL32.ipt
+2026-02-12 15:37:07 | LIVE-REF: N1SCR03-729-PL32 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL32.ipt
+2026-02-12 15:37:07 | LIVE-REF: Built reference map with 34 entries
+2026-02-12 15:37:07 | IDW: Built live reference map with 34 entries from assembly
+2026-02-12 15:37:07 | IDW:   Processing reference: Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:07 | IDW:   Method 2: Resolved to: Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:07 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:07 | IDW:   Smart matching for: Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:   No smart match found for: Box-1 (Overflow).iam
+2026-02-12 15:37:07 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:07 | IDW:   Processing reference: Lug.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Lug.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Lug.ipt -> N1SCR03-729-PL30.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL30.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part1.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL22.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL22.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part10 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part10 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part10 Angle.ipt -> N1SCR03-729-A15.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A15.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part11 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part11 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part11 Angle.ipt -> N1SCR03-729-A16.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A16.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part12 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part12 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part12 Angle.ipt -> N1SCR03-729-A17.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A17.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part13 Pipe.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part13 Pipe.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part13 Pipe.ipt -> N1SCR03-729-P1.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-P1.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part14 Flange.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part14 Flange.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part14 Flange.ipt -> N1SCR03-729-FLG1.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-FLG1.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part2.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL23.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL23.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part3.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL24.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL24.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part4.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part4.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part4.ipt -> N1SCR03-729-PL25.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL25.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part5.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part5.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part5.ipt -> N1SCR03-729-PL26.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL26.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part6.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part6.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part6.ipt -> N1SCR03-729-PL28.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL28.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part7.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part7.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part7.ipt -> N1SCR03-729-PL27.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL27.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part8.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part8.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part8.ipt -> N1SCR03-729-PL29.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL29.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW:   Processing reference: Part9 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part9 Angle.ipt
+2026-02-12 15:37:07 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:07 | IDW:     UPDATING: Part9 Angle.ipt -> N1SCR03-729-A14.ipt
+2026-02-12 15:37:07 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A14.ipt
+2026-02-12 15:37:07 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:07 | IDW: Saving with 15 updates using Design Assistant method...
+2026-02-12 15:37:07 | IDW: SUCCESS - Saved with 15 updates
+2026-02-12 15:37:07 | IDW: Processing [3/10] MGY-200-DSL-05-03.idw
+2026-02-12 15:37:07 | IDW: Opening MGY-200-DSL-05-03.idw
+2026-02-12 15:37:07 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:08 | IDW: Successfully opened IDW document
+2026-02-12 15:37:08 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:08 | IDW: Found 13 referenced files
+2026-02-12 15:37:08 | IDW: Found potential assembly: Box-2 (Orifice).iam
+2026-02-12 15:37:08 | IDW: Successfully opened assembly: Box-2 (Orifice).iam
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL33.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL33.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL33 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL33.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL34.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL34.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL34 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL34.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL35.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL35.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL35 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL35.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL36.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL36.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL36 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL36.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL37.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL37.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL37 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL37.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL38.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL38.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-PL38 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL38.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A18.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A18.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A19.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A19.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A20.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A20 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A20.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A21.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A21.ipt
+2026-02-12 15:37:08 | LIVE-REF: N1SCR03-729-A21 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A21.ipt
+2026-02-12 15:37:09 | LIVE-REF: N1SCR03-729-PL39.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL39.ipt
+2026-02-12 15:37:09 | LIVE-REF: N1SCR03-729-PL39 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL39.ipt
+2026-02-12 15:37:09 | LIVE-REF: N1SCR03-729-PL40.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL40.ipt
+2026-02-12 15:37:09 | LIVE-REF: N1SCR03-729-PL40 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL40.ipt
+2026-02-12 15:37:09 | LIVE-REF: Built reference map with 24 entries
+2026-02-12 15:37:09 | IDW: Built live reference map with 24 entries from assembly
+2026-02-12 15:37:09 | IDW:   Processing reference: Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:09 | IDW:   Method 2: Resolved to: Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:09 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:09 | IDW:   Smart matching for: Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:   No smart match found for: Box-2 (Orifice).iam
+2026-02-12 15:37:09 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:09 | IDW:   Processing reference: Lug.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Lug.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Lug.ipt -> N1SCR03-729-PL40.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL40.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part1.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL33.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL33.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part10 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part10 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part10 Angle.ipt -> N1SCR03-729-A21.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A21.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part11.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part11.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part11.ipt -> N1SCR03-729-PL39.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL39.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part2.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL34.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL34.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part3.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL35.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL35.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part4.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part4.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part4.ipt -> N1SCR03-729-PL36.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL36.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part5.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part5.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part5.ipt -> N1SCR03-729-PL37.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL37.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part6.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part6.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part6.ipt -> N1SCR03-729-PL38.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL38.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part7 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part7 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part7 Angle.ipt -> N1SCR03-729-A18.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A18.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part8 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part8 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part8 Angle.ipt -> N1SCR03-729-A19.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A19.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW:   Processing reference: Part9 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part9 Angle.ipt
+2026-02-12 15:37:09 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:09 | IDW:     UPDATING: Part9 Angle.ipt -> N1SCR03-729-A20.ipt
+2026-02-12 15:37:09 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A20.ipt
+2026-02-12 15:37:09 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:09 | IDW: Saving with 12 updates using Design Assistant method...
+2026-02-12 15:37:09 | IDW: SUCCESS - Saved with 12 updates
+2026-02-12 15:37:09 | IDW: Processing [4/10] MGY-200-DSL-05-04.idw
+2026-02-12 15:37:09 | IDW: Opening MGY-200-DSL-05-04.idw
+2026-02-12 15:37:09 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:10 | IDW: Successfully opened IDW document
+2026-02-12 15:37:10 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:10 | IDW: Found 9 referenced files
+2026-02-12 15:37:10 | IDW: Found potential assembly: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW: Successfully opened assembly: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-PL41.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL41.ipt
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-PL41 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL41.ipt
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-A22.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A22.ipt
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-A22 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A22.ipt
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-PL42.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL42.ipt
+2026-02-12 15:37:10 | LIVE-REF: N1SCR03-729-PL42 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL42.ipt
+2026-02-12 15:37:10 | LIVE-REF: Built reference map with 6 entries
+2026-02-12 15:37:10 | IDW: Built live reference map with 6 entries from assembly
+2026-02-12 15:37:10 | IDW:   Processing reference: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:10 | IDW:   Method 2: Resolved to: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:10 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:10 | IDW:   Smart matching for: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:   No smart match found for: Box-3 Panel-1.iam
+2026-02-12 15:37:10 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:10 | IDW:   Processing reference: Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:10 | IDW:   Method 2: Resolved to: Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:10 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:10 | IDW:   Smart matching for: Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:   No smart match found for: Box-3 Panel-2.iam
+2026-02-12 15:37:10 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:10 | IDW:   Processing reference: Box-3.iam
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3.iam
+2026-02-12 15:37:10 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:10 | IDW:   Method 2: Resolved to: Box-3.iam
+2026-02-12 15:37:10 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:10 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:10 | IDW:   Smart matching for: Box-3.iam
+2026-02-12 15:37:10 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3.iam
+2026-02-12 15:37:10 | IDW:   No smart match found for: Box-3.iam
+2026-02-12 15:37:10 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:10 | IDW:   Processing reference: Lug.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Lug.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Lug.ipt -> N1SCR03-729-PL42.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL42.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part1.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL41.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL41.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part2.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL43.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL43.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW:   Processing reference: Part3 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part3 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Part3 Angle.ipt -> N1SCR03-729-A22.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A22.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW:   Processing reference: Part4 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part4 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Part4 Angle.ipt -> N1SCR03-729-A23.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A23.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW:   Processing reference: Part5 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part5 Angle.ipt
+2026-02-12 15:37:10 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:10 | IDW:     UPDATING: Part5 Angle.ipt -> N1SCR03-729-A24.ipt
+2026-02-12 15:37:10 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A24.ipt
+2026-02-12 15:37:10 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:10 | IDW: Saving with 6 updates using Design Assistant method...
+2026-02-12 15:37:10 | IDW: SUCCESS - Saved with 6 updates
+2026-02-12 15:37:11 | IDW: Processing [5/10] MGY-200-DSL-05-05.idw
+2026-02-12 15:37:11 | IDW: Opening MGY-200-DSL-05-05.idw
+2026-02-12 15:37:11 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:12 | IDW: Successfully opened IDW document
+2026-02-12 15:37:12 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:12 | IDW: Found 21 referenced files
+2026-02-12 15:37:12 | IDW: Found potential assembly: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW: Successfully opened assembly: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL45.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL45.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL45 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL45.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL46.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL46.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL46 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL46.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL47.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL47.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL47 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL47.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL48.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL48.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL48 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL48.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL49.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL49.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL49 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL49.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-A25.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A25.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-A25 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A25.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-A26.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A26.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-A26 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A26.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL50.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL50.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL50 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL50.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-P2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-P2.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-P2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-P2.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FLG2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FLG2.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FLG2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FLG2.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL18.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL18.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL19.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL19.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL20.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL20 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL20.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL21.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL21.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL21 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL21.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL22.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL22.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL22 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL22.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL23.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL23.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-FL23 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL23.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL51.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL51.ipt
+2026-02-12 15:37:12 | LIVE-REF: N1SCR03-729-PL51 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL51.ipt
+2026-02-12 15:37:12 | LIVE-REF: Built reference map with 34 entries
+2026-02-12 15:37:12 | IDW: Built live reference map with 34 entries from assembly
+2026-02-12 15:37:12 | IDW:   Processing reference: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:12 | IDW:   Method 2: Resolved to: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:12 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:12 | IDW:   Smart matching for: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:   No smart match found for: Box-4 (Outlet).iam
+2026-02-12 15:37:12 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:12 | IDW:   Processing reference: Lug.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Lug.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Lug.ipt -> N1SCR03-729-PL51.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL51.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part1.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL45.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL45.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part10 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part10 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part10 Pipe.ipt -> N1SCR03-729-P2.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-P2.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:12 | IDW:   Method 2: Resolved to: Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:12 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:12 | IDW:   Smart matching for: Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:   No smart match found for: Part11 Pipe.ipt
+2026-02-12 15:37:12 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:12 | IDW:   Processing reference: Part12 Flange.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part12 Flange.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part12 Flange.ipt -> N1SCR03-729-FLG2.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FLG2.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:12 | IDW:   Method 2: Resolved to: Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:12 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:12 | IDW:   Smart matching for: Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:   No smart match found for: Part13 Blank Flange.ipt
+2026-02-12 15:37:12 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:12 | IDW:   Processing reference: Part14 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part14 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part14 Stiffener.ipt -> N1SCR03-729-FL18.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL18.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part15 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part15 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part15 Stiffener.ipt -> N1SCR03-729-FL19.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL19.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part16 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part16 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part16 Stiffener.ipt -> N1SCR03-729-FL20.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL20.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part17 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part17 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part17 Stiffener.ipt -> N1SCR03-729-FL22.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL22.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part18 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part18 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part18 Stiffener.ipt -> N1SCR03-729-FL21.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL21.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part19 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part19 Stiffener.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part19 Stiffener.ipt -> N1SCR03-729-FL23.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL23.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part2.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL46.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL46.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part3.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL47.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL47.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part4.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part4.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part4.ipt -> N1SCR03-729-PL48.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL48.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part5.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part5.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part5.ipt -> N1SCR03-729-PL49.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL49.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part6 Angle.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part6 Angle.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part6 Angle.ipt -> N1SCR03-729-A25.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A25.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part7 Angle.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part7 Angle.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part7 Angle.ipt -> N1SCR03-729-A26.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A26.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part8 End Plate.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part8 End Plate.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part8 End Plate.ipt -> N1SCR03-729-PL50.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL50.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW:   Processing reference: Part9 Corner Gusset.ipt
+2026-02-12 15:37:12 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part9 Corner Gusset.ipt
+2026-02-12 15:37:12 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:12 | IDW:     UPDATING: Part9 Corner Gusset.ipt -> N1SCR03-729-PL44.ipt
+2026-02-12 15:37:12 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL44.ipt
+2026-02-12 15:37:12 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:12 | IDW: Saving with 18 updates using Design Assistant method...
+2026-02-12 15:37:13 | IDW: SUCCESS - Saved with 18 updates
+2026-02-12 15:37:13 | IDW: Processing [6/10] MGY-200-DSL-05-06.idw
+2026-02-12 15:37:13 | IDW: Opening MGY-200-DSL-05-06.idw
+2026-02-12 15:37:13 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:13 | IDW: Successfully opened IDW document
+2026-02-12 15:37:13 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:13 | IDW: Found 7 referenced files
+2026-02-12 15:37:14 | IDW: Found potential assembly: Orifice Door.iam
+2026-02-12 15:37:14 | IDW: Successfully opened assembly: Orifice Door.iam
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL52.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL52.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL52 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL52.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-FL24.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-FL24.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-FL24 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-FL24.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL53.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL53.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL53 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL53.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-R1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-R1.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-R1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-R1.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL54.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL54.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL54 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL54.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL55.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL55.ipt
+2026-02-12 15:37:14 | LIVE-REF: N1SCR03-729-PL55 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL55.ipt
+2026-02-12 15:37:14 | LIVE-REF: Built reference map with 12 entries
+2026-02-12 15:37:14 | IDW: Built live reference map with 12 entries from assembly
+2026-02-12 15:37:14 | IDW:   Processing reference: Orifice Door.iam
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Orifice Door.iam
+2026-02-12 15:37:14 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:14 | IDW:   Method 2: Resolved to: Orifice Door.iam
+2026-02-12 15:37:14 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:14 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:14 | IDW:   Smart matching for: Orifice Door.iam
+2026-02-12 15:37:14 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Orifice Door.iam
+2026-02-12 15:37:14 | IDW:   No smart match found for: Orifice Door.iam
+2026-02-12 15:37:14 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:14 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part1.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL52.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL52.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part2.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-FL24.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-FL24.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part3.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL53.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL53.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW:   Processing reference: Part4.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part4.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part4.ipt -> N1SCR03-729-R1.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-R1.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW:   Processing reference: Part5.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part5.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part5.ipt -> N1SCR03-729-PL54.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL54.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW:   Processing reference: Part6.ipt
+2026-02-12 15:37:14 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part6.ipt
+2026-02-12 15:37:14 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:14 | IDW:     UPDATING: Part6.ipt -> N1SCR03-729-PL55.ipt
+2026-02-12 15:37:14 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL55.ipt
+2026-02-12 15:37:14 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:14 | IDW: Saving with 6 updates using Design Assistant method...
+2026-02-12 15:37:14 | IDW: SUCCESS - Saved with 6 updates
+2026-02-12 15:37:14 | IDW: Processing [7/10] MGY-200-DSL-05-07.idw
+2026-02-12 15:37:14 | IDW: Opening MGY-200-DSL-05-07.idw
+2026-02-12 15:37:14 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:15 | IDW: Successfully opened IDW document
+2026-02-12 15:37:15 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:15 | IDW: Found 4 referenced files
+2026-02-12 15:37:15 | IDW: Found potential assembly: Lid.iam
+2026-02-12 15:37:15 | IDW: Successfully opened assembly: Lid.iam
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-PL56.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-PL56.ipt
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-PL56 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-PL56.ipt
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-P3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-P3.ipt
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-P3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-P3.ipt
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-FLG3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-FLG3.ipt
+2026-02-12 15:37:15 | LIVE-REF: N1SCR03-729-FLG3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-FLG3.ipt
+2026-02-12 15:37:15 | LIVE-REF: Built reference map with 6 entries
+2026-02-12 15:37:15 | IDW: Built live reference map with 6 entries from assembly
+2026-02-12 15:37:15 | IDW:   Processing reference: Lid.iam
+2026-02-12 15:37:15 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Lid.iam
+2026-02-12 15:37:15 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:15 | IDW:   Method 2: Resolved to: Lid.iam
+2026-02-12 15:37:15 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:15 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:15 | IDW:   Smart matching for: Lid.iam
+2026-02-12 15:37:15 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Lid.iam
+2026-02-12 15:37:15 | IDW:   No smart match found for: Lid.iam
+2026-02-12 15:37:15 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:15 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:15 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part1.ipt
+2026-02-12 15:37:15 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:15 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL56.ipt
+2026-02-12 15:37:15 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-PL56.ipt
+2026-02-12 15:37:15 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:15 | IDW:   Processing reference: Part2 Pipe.ipt
+2026-02-12 15:37:15 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part2 Pipe.ipt
+2026-02-12 15:37:15 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:15 | IDW:     UPDATING: Part2 Pipe.ipt -> N1SCR03-729-P3.ipt
+2026-02-12 15:37:15 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-P3.ipt
+2026-02-12 15:37:15 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:15 | IDW:   Processing reference: Part3 Flange.ipt
+2026-02-12 15:37:15 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part3 Flange.ipt
+2026-02-12 15:37:15 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:15 | IDW:     UPDATING: Part3 Flange.ipt -> N1SCR03-729-FLG3.ipt
+2026-02-12 15:37:15 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-FLG3.ipt
+2026-02-12 15:37:15 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:15 | IDW: Saving with 3 updates using Design Assistant method...
+2026-02-12 15:37:15 | IDW: SUCCESS - Saved with 3 updates
+2026-02-12 15:37:16 | IDW: Processing [8/10] MGY-200-DSL-05-08.idw
+2026-02-12 15:37:16 | IDW: Opening MGY-200-DSL-05-08.idw
+2026-02-12 15:37:16 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:17 | IDW: Successfully opened IDW document
+2026-02-12 15:37:17 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:17 | IDW: Found 6 referenced files
+2026-02-12 15:37:17 | IDW: Found potential assembly: Lid-2.iam
+2026-02-12 15:37:17 | IDW: Successfully opened assembly: Lid-2.iam
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-PL57.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-PL57.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-PL57 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-PL57.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-P4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-P4.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-P4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-P4.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FLG4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG4.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FLG4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG4.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FLG5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG5.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FLG5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG5.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FL25.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL25.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FL25 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL25.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FL26.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL26.ipt
+2026-02-12 15:37:17 | LIVE-REF: N1SCR03-729-FL26 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL26.ipt
+2026-02-12 15:37:17 | LIVE-REF: Built reference map with 12 entries
+2026-02-12 15:37:17 | IDW: Built live reference map with 12 entries from assembly
+2026-02-12 15:37:17 | IDW:   Processing reference: Lid-2.iam
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Lid-2.iam
+2026-02-12 15:37:17 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:17 | IDW:   Method 2: Resolved to: Lid-2.iam
+2026-02-12 15:37:17 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:17 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:17 | IDW:   Smart matching for: Lid-2.iam
+2026-02-12 15:37:17 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Lid-2.iam
+2026-02-12 15:37:17 | IDW:   No smart match found for: Lid-2.iam
+2026-02-12 15:37:17 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:17 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part1.ipt
+2026-02-12 15:37:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:17 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL57.ipt
+2026-02-12 15:37:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-PL57.ipt
+2026-02-12 15:37:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:17 | IDW:   Processing reference: Part2 Pipe.ipt
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part2 Pipe.ipt
+2026-02-12 15:37:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:17 | IDW:     UPDATING: Part2 Pipe.ipt -> N1SCR03-729-P4.ipt
+2026-02-12 15:37:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-P4.ipt
+2026-02-12 15:37:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:17 | IDW:   Processing reference: Part3 Flange.ipt
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part3 Flange.ipt
+2026-02-12 15:37:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:17 | IDW:     UPDATING: Part3 Flange.ipt -> N1SCR03-729-FLG4.ipt
+2026-02-12 15:37:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG4.ipt
+2026-02-12 15:37:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:17 | IDW:   Processing reference: Part4 Blank Flange.ipt
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part4 Blank Flange.ipt
+2026-02-12 15:37:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:17 | IDW:     UPDATING: Part4 Blank Flange.ipt -> N1SCR03-729-FLG5.ipt
+2026-02-12 15:37:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG5.ipt
+2026-02-12 15:37:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:17 | IDW:   Processing reference: Part5 Stiffener.ipt
+2026-02-12 15:37:17 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part5 Stiffener.ipt
+2026-02-12 15:37:17 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:17 | IDW:     UPDATING: Part5 Stiffener.ipt -> N1SCR03-729-FL25.ipt
+2026-02-12 15:37:17 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL25.ipt
+2026-02-12 15:37:17 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:17 | IDW: Saving with 5 updates using Design Assistant method...
+2026-02-12 15:37:17 | IDW: SUCCESS - Saved with 5 updates
+2026-02-12 15:37:17 | IDW: Processing [9/10] MGY-200-DSL-05-09.idw
+2026-02-12 15:37:17 | IDW: Opening MGY-200-DSL-05-09.idw
+2026-02-12 15:37:17 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:18 | IDW: Successfully opened IDW document
+2026-02-12 15:37:18 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:18 | IDW: Found 4 referenced files
+2026-02-12 15:37:18 | IDW: Found potential assembly: Bracket Asm.iam
+2026-02-12 15:37:18 | IDW: Successfully opened assembly: Bracket Asm.iam
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL58.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL58.ipt
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL58 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL58.ipt
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL59.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL59.ipt
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL59 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL59.ipt
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL60.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL60.ipt
+2026-02-12 15:37:18 | LIVE-REF: N1SCR03-729-PL60 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL60.ipt
+2026-02-12 15:37:18 | LIVE-REF: Built reference map with 6 entries
+2026-02-12 15:37:18 | IDW: Built live reference map with 6 entries from assembly
+2026-02-12 15:37:18 | IDW:   Processing reference: Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:18 | IDW:   Method 2: Resolved to: Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:18 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:18 | IDW:   Smart matching for: Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:   No smart match found for: Bracket Asm.iam
+2026-02-12 15:37:18 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:18 | IDW:   Processing reference: Part1.ipt
+2026-02-12 15:37:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part1.ipt
+2026-02-12 15:37:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:18 | IDW:     UPDATING: Part1.ipt -> N1SCR03-729-PL58.ipt
+2026-02-12 15:37:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL58.ipt
+2026-02-12 15:37:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:18 | IDW:   Processing reference: Part2.ipt
+2026-02-12 15:37:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part2.ipt
+2026-02-12 15:37:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:18 | IDW:     UPDATING: Part2.ipt -> N1SCR03-729-PL59.ipt
+2026-02-12 15:37:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL59.ipt
+2026-02-12 15:37:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:18 | IDW:   Processing reference: Part3.ipt
+2026-02-12 15:37:18 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part3.ipt
+2026-02-12 15:37:18 | IDW:   Method 1: Found exact path match in mapping
+2026-02-12 15:37:18 | IDW:     UPDATING: Part3.ipt -> N1SCR03-729-PL60.ipt
+2026-02-12 15:37:18 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL60.ipt
+2026-02-12 15:37:18 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-12 15:37:18 | IDW: Saving with 3 updates using Design Assistant method...
+2026-02-12 15:37:19 | IDW: SUCCESS - Saved with 3 updates
+2026-02-12 15:37:19 | IDW: Processing [10/10] MGY-200-DSL-05-00.idw
+2026-02-12 15:37:19 | IDW: Opening MGY-200-DSL-05-00.idw
+2026-02-12 15:37:19 | IDW: Enabled SilentOperation mode
+2026-02-12 15:37:19 | IDW: Successfully opened IDW document
+2026-02-12 15:37:19 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-12 15:37:19 | IDW: Found 1 referenced files
+2026-02-12 15:37:19 | IDW: Found potential assembly: N1SCR03-729.iam
+2026-02-12 15:37:19 | IDW: Successfully opened assembly: N1SCR03-729.iam
+2026-02-12 15:37:19 | LIVE-REF: Top - Mixing Box.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Top - Mixing Box.iam
+2026-02-12 15:37:19 | LIVE-REF: TOP - MIXING BOX [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Top - Mixing Box.iam
+2026-02-12 15:37:19 | LIVE-REF: Box-1 (Overflow).iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Box-1 (Overflow).iam
+2026-02-12 15:37:19 | LIVE-REF: BOX-1 (OVERFLOW) [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Box-1 (Overflow).iam
+2026-02-12 15:37:19 | LIVE-REF: Box-2 (Orifice).iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Box-2 (Orifice).iam
+2026-02-12 15:37:19 | LIVE-REF: BOX-2 (ORIFICE) [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Box-2 (Orifice).iam
+2026-02-12 15:37:19 | LIVE-REF: Box-3.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3.iam
+2026-02-12 15:37:19 | LIVE-REF: BOX-3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Box-3.iam
+2026-02-12 15:37:19 | LIVE-REF: Box-4 (Outlet).iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Box-4 (Outlet).iam
+2026-02-12 15:37:19 | LIVE-REF: BOX-4 (OUTLET) [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Box-4 (Outlet).iam
+2026-02-12 15:37:19 | LIVE-REF: Orifice Door.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Orifice Door.iam
+2026-02-12 15:37:19 | LIVE-REF: ORIFICE DOOR [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Orifice Door.iam
+2026-02-12 15:37:19 | LIVE-REF: Lid.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Lid.iam
+2026-02-12 15:37:19 | LIVE-REF: LID [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Lid.iam
+2026-02-12 15:37:19 | LIVE-REF: Lid-2.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Lid-2.iam
+2026-02-12 15:37:19 | LIVE-REF: LID-2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Lid-2.iam
+2026-02-12 15:37:19 | LIVE-REF: Bracket Asm.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Bracket Asm.iam
+2026-02-12 15:37:19 | LIVE-REF: BRACKET ASM [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Bracket Asm.iam
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL61.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL61.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL61 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL61.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL62.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL62.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL62 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL62.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL63.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL63.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL63 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL63.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL64.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL64.ipt
+2026-02-12 15:37:19 | LIVE-REF: N1SCR03-729-PL64 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL64.ipt
+2026-02-12 15:37:20 | LIVE-REF: Built reference map with 26 entries
+2026-02-12 15:37:20 | IDW: Built live reference map with 26 entries from assembly
+2026-02-12 15:37:20 | IDW:   Processing reference: N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:   Method 2: Resolving actual file path
+2026-02-12 15:37:20 | IDW:   Method 2: Resolved to: N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:   Method 3: Searching live assembly references
+2026-02-12 15:37:20 | IDW:   Method 4: Trying smart path structure matching
+2026-02-12 15:37:20 | IDW:   Smart matching for: N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:   IDW relative structure: 24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:   No smart match found for: N1SCR03-729.iam
+2026-02-12 15:37:20 | IDW:     (No mapping found - keeping current reference)
+2026-02-12 15:37:20 | IDW: No updates made
+2026-02-12 15:37:20 | 
+2026-02-12 15:37:20 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-02-12 15:37:20 | Total IDW files processed: 10
+2026-02-12 15:37:20 | Total reference updates: 120
+2026-02-12 15:37:20 | Total errors: 0
+2026-02-12 15:37:20 | === STEP 2 COMPLETE ===
+2026-02-12 15:37:20 | Mappings: 130
+2026-02-12 15:37:20 | IDW Files: 10
+2026-02-12 15:37:20 | Updates: 120
+2026-02-12 15:37:20 | Errors: 0

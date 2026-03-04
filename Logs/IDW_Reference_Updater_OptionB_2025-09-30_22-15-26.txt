@@ -1,0 +1,2743 @@
+9/30/2025 10:15:26 PM - === STEP 2: IDW REFERENCE UPDATES - ASSEMBLY-BY-ASSEMBLY METHOD (OPTION B) ===
+9/30/2025 10:15:26 PM - Processing: Structure.iam → Sub-assemblies → IDW Updates
+9/30/2025 10:15:30 PM - SUCCESS: Connected to existing Inventor instance
+9/30/2025 10:15:30 PM - MAPPING: Loading from C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt
+9/30/2025 10:15:30 PM - MAPPING: Loaded 329 entries
+9/30/2025 10:15:30 PM - STRUCTURE: Processing Structure.iam [Primary]
+9/30/2025 10:15:30 PM - STRUCTURE: Path - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure.iam
+9/30/2025 10:15:30 PM - STRUCTURE: Found 433 occurrences
+9/30/2025 10:15:30 PM - 
+9/30/2025 10:15:30 PM - === PROCESSING SUB-ASSEMBLIES ===
+9/30/2025 10:15:30 PM - 
+9/30/2025 10:15:30 PM - ---
+9/30/2025 10:15:30 PM - ASSEMBLY: Column-1.iam
+9/30/2025 10:15:30 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1
+9/30/2025 10:15:30 PM - IDW FOUND: MGY-100-SCR-01-50.idw
+9/30/2025 10:15:31 PM - IDW: Opening MGY-100-SCR-01-50.idw
+9/30/2025 10:15:31 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:31 PM - IDW:   ℹ No mapping for Column-1.iam
+9/30/2025 10:15:31 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:32 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:32 PM - ✓ SUCCESS: Column-1.iam
+9/30/2025 10:15:32 PM - ---
+9/30/2025 10:15:32 PM - ASSEMBLY: Column-2.iam
+9/30/2025 10:15:32 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-2
+9/30/2025 10:15:32 PM - IDW FOUND: MGY-100-SCR-01-51.idw
+9/30/2025 10:15:32 PM - IDW: Opening MGY-100-SCR-01-51.idw
+9/30/2025 10:15:33 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:33 PM - IDW:   ℹ No mapping for Column-2.iam
+9/30/2025 10:15:33 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:15:33 PM - IDW:   ✓ Updated
+9/30/2025 10:15:33 PM - IDW:   Updating Part2 203 x 203 x 46 H.ipt → NCRH01-000-B1.ipt
+9/30/2025 10:15:33 PM - IDW:   ✓ Updated
+9/30/2025 10:15:33 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:15:33 PM - IDW:   ✓ Updated
+9/30/2025 10:15:33 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:15:33 PM - IDW:   ✓ Updated
+9/30/2025 10:15:34 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:15:34 PM - IDW FOUND: MGY-100-SCR-01-51.idw
+9/30/2025 10:15:35 PM - IDW: Opening MGY-100-SCR-01-51.idw
+9/30/2025 10:15:36 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:36 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:36 PM - IDW:   ℹ No mapping for Column-2.iam
+9/30/2025 10:15:37 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:37 PM - IDW FOUND: MGY-100-SCR-01-51.idw
+9/30/2025 10:15:38 PM - IDW: Opening MGY-100-SCR-01-51.idw
+9/30/2025 10:15:38 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:38 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:38 PM - IDW:   ℹ No mapping for Column-2.iam
+9/30/2025 10:15:38 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:38 PM - ✓ SUCCESS: Column-2.iam
+9/30/2025 10:15:38 PM - ---
+9/30/2025 10:15:38 PM - ASSEMBLY: Column-3.iam
+9/30/2025 10:15:38 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-3
+9/30/2025 10:15:38 PM - IDW FOUND: MGY-100-SCR-01-52.idw
+9/30/2025 10:15:39 PM - IDW: Opening MGY-100-SCR-01-52.idw
+9/30/2025 10:15:41 PM - IDW: Found 6 referenced files
+9/30/2025 10:15:41 PM - IDW:   ℹ No mapping for Column-3.iam
+9/30/2025 10:15:41 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:15:41 PM - IDW:   ✓ Updated
+9/30/2025 10:15:41 PM - IDW:   Updating Part2 203 x 203 x 46 H.ipt → NCRH01-000-B1.ipt
+9/30/2025 10:15:41 PM - IDW:   ✓ Updated
+9/30/2025 10:15:41 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:15:41 PM - IDW:   ✓ Updated
+9/30/2025 10:15:41 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:15:41 PM - IDW:   ✓ Updated
+9/30/2025 10:15:41 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:15:41 PM - IDW:   ✓ Updated
+9/30/2025 10:15:41 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:15:41 PM - IDW FOUND: MGY-100-SCR-01-52.idw
+9/30/2025 10:15:42 PM - IDW: Opening MGY-100-SCR-01-52.idw
+9/30/2025 10:15:43 PM - IDW: Found 6 referenced files
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for Column-3.iam
+9/30/2025 10:15:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:15:45 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:45 PM - IDW FOUND: MGY-100-SCR-01-52.idw
+9/30/2025 10:15:46 PM - IDW: Opening MGY-100-SCR-01-52.idw
+9/30/2025 10:15:46 PM - IDW: Found 6 referenced files
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for Column-3.iam
+9/30/2025 10:15:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:15:46 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:46 PM - ✓ SUCCESS: Column-3.iam
+9/30/2025 10:15:46 PM - ---
+9/30/2025 10:15:46 PM - ASSEMBLY: Column-4.iam
+9/30/2025 10:15:46 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-4
+9/30/2025 10:15:46 PM - IDW FOUND: MGY-100-SCR-01-53.idw
+9/30/2025 10:15:47 PM - IDW: Opening MGY-100-SCR-01-53.idw
+9/30/2025 10:15:49 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:49 PM - IDW:   ℹ No mapping for Column-4.iam
+9/30/2025 10:15:49 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:15:49 PM - IDW:   ✓ Updated
+9/30/2025 10:15:49 PM - IDW:   Updating Part2 203 x 203 x 46 H.ipt → NCRH01-000-B1.ipt
+9/30/2025 10:15:49 PM - IDW:   ✓ Updated
+9/30/2025 10:15:49 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:15:49 PM - IDW:   ✓ Updated
+9/30/2025 10:15:49 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:15:49 PM - IDW:   ✓ Updated
+9/30/2025 10:15:50 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:15:50 PM - IDW FOUND: MGY-100-SCR-01-53.idw
+9/30/2025 10:15:51 PM - IDW: Opening MGY-100-SCR-01-53.idw
+9/30/2025 10:15:52 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:52 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:52 PM - IDW:   ℹ No mapping for Column-4.iam
+9/30/2025 10:15:53 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:54 PM - IDW FOUND: MGY-100-SCR-01-53.idw
+9/30/2025 10:15:55 PM - IDW: Opening MGY-100-SCR-01-53.idw
+9/30/2025 10:15:55 PM - IDW: Found 5 referenced files
+9/30/2025 10:15:55 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:15:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:15:55 PM - IDW:   ℹ No mapping for Column-4.iam
+9/30/2025 10:15:55 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:15:55 PM - ✓ SUCCESS: Column-4.iam
+9/30/2025 10:15:55 PM - ---
+9/30/2025 10:15:55 PM - ASSEMBLY: Column-5.iam
+9/30/2025 10:15:55 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-5
+9/30/2025 10:15:55 PM - IDW FOUND: MGY-100-SCR-01-54.idw
+9/30/2025 10:15:56 PM - IDW: Opening MGY-100-SCR-01-54.idw
+9/30/2025 10:15:57 PM - IDW: Found 4 referenced files
+9/30/2025 10:15:57 PM - IDW:   ℹ No mapping for Column-5.iam
+9/30/2025 10:15:57 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:15:57 PM - IDW:   ✓ Updated
+9/30/2025 10:15:57 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:15:57 PM - IDW:   ✓ Updated
+9/30/2025 10:15:57 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:15:57 PM - IDW:   ✓ Updated
+9/30/2025 10:15:58 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:15:58 PM - IDW FOUND: MGY-100-SCR-01-54.idw
+9/30/2025 10:15:59 PM - IDW: Opening MGY-100-SCR-01-54.idw
+9/30/2025 10:15:59 PM - IDW: Found 4 referenced files
+9/30/2025 10:15:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:15:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:15:59 PM - IDW:   ℹ No mapping for Column-5.iam
+9/30/2025 10:15:59 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:00 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:00 PM - IDW FOUND: MGY-100-SCR-01-54.idw
+9/30/2025 10:16:01 PM - IDW: Opening MGY-100-SCR-01-54.idw
+9/30/2025 10:16:01 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:01 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:01 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:01 PM - IDW:   ℹ No mapping for Column-5.iam
+9/30/2025 10:16:01 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:01 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:01 PM - ✓ SUCCESS: Column-5.iam
+9/30/2025 10:16:01 PM - ---
+9/30/2025 10:16:01 PM - ASSEMBLY: Column-6.iam
+9/30/2025 10:16:01 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-6
+9/30/2025 10:16:01 PM - IDW FOUND: MGY-100-SCR-01-55.idw
+9/30/2025 10:16:02 PM - IDW: Opening MGY-100-SCR-01-55.idw
+9/30/2025 10:16:03 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:03 PM - IDW:   ℹ No mapping for Column-6.iam
+9/30/2025 10:16:03 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:03 PM - IDW:   ✓ Updated
+9/30/2025 10:16:03 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:16:03 PM - IDW:   ✓ Updated
+9/30/2025 10:16:03 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:03 PM - IDW:   ✓ Updated
+9/30/2025 10:16:04 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:16:04 PM - IDW FOUND: MGY-100-SCR-01-55.idw
+9/30/2025 10:16:05 PM - IDW: Opening MGY-100-SCR-01-55.idw
+9/30/2025 10:16:05 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:05 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:05 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:05 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:05 PM - IDW:   ℹ No mapping for Column-6.iam
+9/30/2025 10:16:06 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:06 PM - IDW FOUND: MGY-100-SCR-01-55.idw
+9/30/2025 10:16:07 PM - IDW: Opening MGY-100-SCR-01-55.idw
+9/30/2025 10:16:07 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:07 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:07 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:07 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:07 PM - IDW:   ℹ No mapping for Column-6.iam
+9/30/2025 10:16:07 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:07 PM - ✓ SUCCESS: Column-6.iam
+9/30/2025 10:16:07 PM - ---
+9/30/2025 10:16:07 PM - ASSEMBLY: Column-7.iam
+9/30/2025 10:16:07 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-7
+9/30/2025 10:16:07 PM - IDW FOUND: MGY-100-SCR-01-56.idw
+9/30/2025 10:16:08 PM - IDW: Opening MGY-100-SCR-01-56.idw
+9/30/2025 10:16:09 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:09 PM - IDW:   ℹ No mapping for Column-7.iam
+9/30/2025 10:16:09 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:09 PM - IDW:   ✓ Updated
+9/30/2025 10:16:09 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:16:09 PM - IDW:   ✓ Updated
+9/30/2025 10:16:11 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:16:11 PM - IDW FOUND: MGY-100-SCR-01-56.idw
+9/30/2025 10:16:12 PM - IDW: Opening MGY-100-SCR-01-56.idw
+9/30/2025 10:16:12 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:12 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:12 PM - IDW:   ℹ No mapping for Column-7.iam
+9/30/2025 10:16:14 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:14 PM - IDW FOUND: MGY-100-SCR-01-56.idw
+9/30/2025 10:16:15 PM - IDW: Opening MGY-100-SCR-01-56.idw
+9/30/2025 10:16:15 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:15 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:15 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:15 PM - IDW:   ℹ No mapping for Column-7.iam
+9/30/2025 10:16:15 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:15 PM - ✓ SUCCESS: Column-7.iam
+9/30/2025 10:16:15 PM - ---
+9/30/2025 10:16:15 PM - ASSEMBLY: Column-8.iam
+9/30/2025 10:16:15 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-8
+9/30/2025 10:16:15 PM - IDW FOUND: MGY-100-SCR-01-57.idw
+9/30/2025 10:16:16 PM - IDW: Opening MGY-100-SCR-01-57.idw
+9/30/2025 10:16:17 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:17 PM - IDW:   ℹ No mapping for Column-8.iam
+9/30/2025 10:16:17 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:17 PM - IDW:   ✓ Updated
+9/30/2025 10:16:17 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:16:17 PM - IDW:   ✓ Updated
+9/30/2025 10:16:18 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:16:18 PM - IDW FOUND: MGY-100-SCR-01-57.idw
+9/30/2025 10:16:19 PM - IDW: Opening MGY-100-SCR-01-57.idw
+9/30/2025 10:16:19 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:19 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:19 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:19 PM - IDW:   ℹ No mapping for Column-8.iam
+9/30/2025 10:16:21 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:21 PM - IDW FOUND: MGY-100-SCR-01-57.idw
+9/30/2025 10:16:22 PM - IDW: Opening MGY-100-SCR-01-57.idw
+9/30/2025 10:16:22 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:22 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:22 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:16:22 PM - IDW:   ℹ No mapping for Column-8.iam
+9/30/2025 10:16:22 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:22 PM - ✓ SUCCESS: Column-8.iam
+9/30/2025 10:16:22 PM - ---
+9/30/2025 10:16:22 PM - ASSEMBLY: Channel-1.iam
+9/30/2025 10:16:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Channel-1
+9/30/2025 10:16:22 PM - IDW FOUND: MGY-100-SCR-01-58.idw
+9/30/2025 10:16:23 PM - IDW: Opening MGY-100-SCR-01-58.idw
+9/30/2025 10:16:23 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:23 PM - IDW:   ℹ No mapping for Channel-1.iam
+9/30/2025 10:16:23 PM - IDW:   Updating Part1 PFC 180 x 70.ipt → NCRH01-000-CH1.ipt
+9/30/2025 10:16:23 PM - IDW:   ✓ Updated
+9/30/2025 10:16:23 PM - IDW:   Updating Part2.ipt → NCRH01-000-PL20.ipt
+9/30/2025 10:16:23 PM - IDW:   ✓ Updated
+9/30/2025 10:16:24 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:16:24 PM - IDW FOUND: MGY-100-SCR-01-58.idw
+9/30/2025 10:16:25 PM - IDW: Opening MGY-100-SCR-01-58.idw
+9/30/2025 10:16:25 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:25 PM - IDW:   ℹ No mapping for Channel-1.iam
+9/30/2025 10:16:25 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:25 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:25 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:25 PM - ✓ SUCCESS: Channel-1.iam
+9/30/2025 10:16:25 PM - ---
+9/30/2025 10:16:25 PM - ASSEMBLY: Channel-1.iam
+9/30/2025 10:16:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Channel-1
+9/30/2025 10:16:25 PM - IDW FOUND: MGY-100-SCR-01-58.idw
+9/30/2025 10:16:26 PM - IDW: Opening MGY-100-SCR-01-58.idw
+9/30/2025 10:16:26 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:26 PM - IDW:   ℹ No mapping for Channel-1.iam
+9/30/2025 10:16:26 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:26 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:26 PM - ✓ SUCCESS: Channel-1.iam
+9/30/2025 10:16:26 PM - ---
+9/30/2025 10:16:26 PM - ASSEMBLY: Channel-2.iam
+9/30/2025 10:16:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Channel-2
+9/30/2025 10:16:26 PM - IDW FOUND: MGY-100-SCR-01-59.idw
+9/30/2025 10:16:27 PM - IDW: Opening MGY-100-SCR-01-59.idw
+9/30/2025 10:16:27 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:27 PM - IDW:   ℹ No mapping for Channel-2.iam
+9/30/2025 10:16:27 PM - IDW:   Updating Part1 PFC 180 x 70.ipt → NCRH01-000-CH1.ipt
+9/30/2025 10:16:27 PM - IDW:   ✓ Updated
+9/30/2025 10:16:27 PM - IDW:   Updating Part2.ipt → NCRH01-000-PL20.ipt
+9/30/2025 10:16:27 PM - IDW:   ✓ Updated
+9/30/2025 10:16:28 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:16:28 PM - IDW FOUND: MGY-100-SCR-01-59.idw
+9/30/2025 10:16:29 PM - IDW: Opening MGY-100-SCR-01-59.idw
+9/30/2025 10:16:29 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:29 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:29 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:29 PM - IDW:   ℹ No mapping for Channel-2.iam
+9/30/2025 10:16:30 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:30 PM - IDW FOUND: MGY-100-SCR-01-59.idw
+9/30/2025 10:16:31 PM - IDW: Opening MGY-100-SCR-01-59.idw
+9/30/2025 10:16:31 PM - IDW: Found 3 referenced files
+9/30/2025 10:16:31 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:31 PM - IDW:   ℹ No mapping for Channel-2.iam
+9/30/2025 10:16:31 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:31 PM - ✓ SUCCESS: Channel-2.iam
+9/30/2025 10:16:32 PM - ---
+9/30/2025 10:16:32 PM - ASSEMBLY: Channel-3.iam
+9/30/2025 10:16:32 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Channel-3
+9/30/2025 10:16:32 PM - IDW FOUND: MGY-100-SCR-01-60.idw
+9/30/2025 10:16:32 PM - IDW: Opening MGY-100-SCR-01-60.idw
+9/30/2025 10:16:33 PM - IDW: Found 5 referenced files
+9/30/2025 10:16:33 PM - IDW:   ℹ No mapping for Channel-3.iam
+9/30/2025 10:16:33 PM - IDW:   Updating Part1 PFC 180 x 70.ipt → NCRH01-000-CH1.ipt
+9/30/2025 10:16:33 PM - IDW:   ✓ Updated
+9/30/2025 10:16:33 PM - IDW:   Updating Part2.ipt → NCRH01-000-PL20.ipt
+9/30/2025 10:16:33 PM - IDW:   ✓ Updated
+9/30/2025 10:16:33 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:33 PM - IDW:   ✓ Updated
+9/30/2025 10:16:33 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:16:33 PM - IDW:   ✓ Updated
+9/30/2025 10:16:35 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:16:35 PM - IDW FOUND: MGY-100-SCR-01-60.idw
+9/30/2025 10:16:36 PM - IDW: Opening MGY-100-SCR-01-60.idw
+9/30/2025 10:16:36 PM - IDW: Found 5 referenced files
+9/30/2025 10:16:36 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:36 PM - IDW:   ℹ No mapping for Channel-3.iam
+9/30/2025 10:16:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:16:36 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:36 PM - ✓ SUCCESS: Channel-3.iam
+9/30/2025 10:16:36 PM - ---
+9/30/2025 10:16:36 PM - ASSEMBLY: Channel-4.iam
+9/30/2025 10:16:36 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Channel-4
+9/30/2025 10:16:36 PM - IDW FOUND: MGY-100-SCR-01-61.idw
+9/30/2025 10:16:37 PM - IDW: Opening MGY-100-SCR-01-61.idw
+9/30/2025 10:16:38 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:38 PM - IDW:   ℹ No mapping for Channel-4.iam
+9/30/2025 10:16:38 PM - IDW:   Updating Part1 PFC 180 x 70.ipt → NCRH01-000-CH1.ipt
+9/30/2025 10:16:38 PM - IDW:   ✓ Updated
+9/30/2025 10:16:38 PM - IDW:   Updating Part2.ipt → NCRH01-000-PL20.ipt
+9/30/2025 10:16:38 PM - IDW:   ✓ Updated
+9/30/2025 10:16:38 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:38 PM - IDW:   ✓ Updated
+9/30/2025 10:16:40 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:16:40 PM - IDW FOUND: MGY-100-SCR-01-61.idw
+9/30/2025 10:16:41 PM - IDW: Opening MGY-100-SCR-01-61.idw
+9/30/2025 10:16:41 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:41 PM - IDW:   ℹ No mapping for NCRH01-000-CH1.ipt
+9/30/2025 10:16:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL20.ipt
+9/30/2025 10:16:41 PM - IDW:   ℹ No mapping for Channel-4.iam
+9/30/2025 10:16:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:41 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:41 PM - ✓ SUCCESS: Channel-4.iam
+9/30/2025 10:16:41 PM - ---
+9/30/2025 10:16:41 PM - ASSEMBLY: Beam-1.iam
+9/30/2025 10:16:41 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-1
+9/30/2025 10:16:41 PM - IDW FOUND: MGY-100-SCR-01-01.idw
+9/30/2025 10:16:42 PM - IDW: Opening MGY-100-SCR-01-01.idw
+9/30/2025 10:16:43 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:43 PM - IDW:   ℹ No mapping for Beam-1.iam
+9/30/2025 10:16:43 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:43 PM - IDW:   ✓ Updated
+9/30/2025 10:16:43 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:16:43 PM - IDW:   ✓ Updated
+9/30/2025 10:16:43 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:43 PM - IDW:   ✓ Updated
+9/30/2025 10:16:45 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:16:45 PM - IDW FOUND: MGY-100-SCR-01-01.idw
+9/30/2025 10:16:46 PM - IDW: Opening MGY-100-SCR-01-01.idw
+9/30/2025 10:16:46 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:46 PM - IDW:   ℹ No mapping for Beam-1.iam
+9/30/2025 10:16:46 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:16:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:46 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:46 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:46 PM - ✓ SUCCESS: Beam-1.iam
+9/30/2025 10:16:46 PM - ---
+9/30/2025 10:16:46 PM - ASSEMBLY: Beam-2.iam
+9/30/2025 10:16:46 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-2
+9/30/2025 10:16:46 PM - IDW FOUND: MGY-100-SCR-01-02.idw
+9/30/2025 10:16:47 PM - IDW: Opening MGY-100-SCR-01-02.idw
+9/30/2025 10:16:48 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:48 PM - IDW:   ℹ No mapping for Beam-2.iam
+9/30/2025 10:16:48 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:48 PM - IDW:   ✓ Updated
+9/30/2025 10:16:48 PM - IDW:   Updating Part2 305x165x41.ipt → NCRH01-000-B10.ipt
+9/30/2025 10:16:48 PM - IDW:   ✓ Updated
+9/30/2025 10:16:48 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:48 PM - IDW:   ✓ Updated
+9/30/2025 10:16:49 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:16:49 PM - IDW FOUND: MGY-100-SCR-01-02.idw
+9/30/2025 10:16:50 PM - IDW: Opening MGY-100-SCR-01-02.idw
+9/30/2025 10:16:50 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:50 PM - IDW:   ℹ No mapping for Beam-2.iam
+9/30/2025 10:16:50 PM - IDW:   ℹ No mapping for NCRH01-000-B10.ipt
+9/30/2025 10:16:50 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:50 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:51 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:51 PM - IDW FOUND: MGY-100-SCR-01-02.idw
+9/30/2025 10:16:52 PM - IDW: Opening MGY-100-SCR-01-02.idw
+9/30/2025 10:16:52 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:52 PM - IDW:   ℹ No mapping for Beam-2.iam
+9/30/2025 10:16:52 PM - IDW:   ℹ No mapping for NCRH01-000-B10.ipt
+9/30/2025 10:16:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:52 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:52 PM - ✓ SUCCESS: Beam-2.iam
+9/30/2025 10:16:52 PM - ---
+9/30/2025 10:16:52 PM - ASSEMBLY: Beam-3.iam
+9/30/2025 10:16:52 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-3
+9/30/2025 10:16:52 PM - IDW FOUND: MGY-100-SCR-01-03.idw
+9/30/2025 10:16:53 PM - IDW: Opening MGY-100-SCR-01-03.idw
+9/30/2025 10:16:53 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:53 PM - IDW:   ℹ No mapping for Beam-3.iam
+9/30/2025 10:16:53 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:53 PM - IDW:   ✓ Updated
+9/30/2025 10:16:53 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:16:53 PM - IDW:   ✓ Updated
+9/30/2025 10:16:53 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:16:53 PM - IDW:   ✓ Updated
+9/30/2025 10:16:54 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:16:54 PM - IDW FOUND: MGY-100-SCR-01-03.idw
+9/30/2025 10:16:55 PM - IDW: Opening MGY-100-SCR-01-03.idw
+9/30/2025 10:16:55 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:55 PM - IDW:   ℹ No mapping for Beam-3.iam
+9/30/2025 10:16:55 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:16:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:56 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:56 PM - IDW FOUND: MGY-100-SCR-01-03.idw
+9/30/2025 10:16:58 PM - IDW: Opening MGY-100-SCR-01-03.idw
+9/30/2025 10:16:58 PM - IDW: Found 4 referenced files
+9/30/2025 10:16:58 PM - IDW:   ℹ No mapping for Beam-3.iam
+9/30/2025 10:16:58 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:16:58 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:16:58 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:16:58 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:16:58 PM - ✓ SUCCESS: Beam-3.iam
+9/30/2025 10:16:58 PM - ---
+9/30/2025 10:16:58 PM - ASSEMBLY: Beam-4.iam
+9/30/2025 10:16:58 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-4
+9/30/2025 10:16:58 PM - IDW FOUND: MGY-100-SCR-01-04.idw
+9/30/2025 10:16:59 PM - IDW: Opening MGY-100-SCR-01-04.idw
+9/30/2025 10:16:59 PM - IDW: Found 5 referenced files
+9/30/2025 10:16:59 PM - IDW:   ℹ No mapping for Beam-4.iam
+9/30/2025 10:16:59 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:16:59 PM - IDW:   ✓ Updated
+9/30/2025 10:16:59 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:16:59 PM - IDW:   ✓ Updated
+9/30/2025 10:16:59 PM - IDW:   Updating Part3 Stairway Connecting Plate.ipt → NCRH01-000-PL34.ipt
+9/30/2025 10:16:59 PM - IDW:   ✓ Updated
+9/30/2025 10:16:59 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:16:59 PM - IDW:   ✓ Updated
+9/30/2025 10:17:00 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:17:00 PM - IDW FOUND: MGY-100-SCR-01-04.idw
+9/30/2025 10:17:01 PM - IDW: Opening MGY-100-SCR-01-04.idw
+9/30/2025 10:17:02 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:02 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:02 PM - IDW:   ℹ No mapping for Beam-4.iam
+9/30/2025 10:17:02 PM - IDW:   ℹ No mapping for NCRH01-000-PL34.ipt
+9/30/2025 10:17:02 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:02 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:03 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:03 PM - IDW FOUND: MGY-100-SCR-01-04.idw
+9/30/2025 10:17:04 PM - IDW: Opening MGY-100-SCR-01-04.idw
+9/30/2025 10:17:04 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:04 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:04 PM - IDW:   ℹ No mapping for Beam-4.iam
+9/30/2025 10:17:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL34.ipt
+9/30/2025 10:17:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:04 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:04 PM - ✓ SUCCESS: Beam-4.iam
+9/30/2025 10:17:04 PM - ---
+9/30/2025 10:17:04 PM - ASSEMBLY: Beam-5.iam
+9/30/2025 10:17:04 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-5
+9/30/2025 10:17:04 PM - IDW FOUND: MGY-100-SCR-01-05.idw
+9/30/2025 10:17:05 PM - IDW: Opening MGY-100-SCR-01-05.idw
+9/30/2025 10:17:06 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:06 PM - IDW:   ℹ No mapping for Beam-5.iam
+9/30/2025 10:17:06 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:06 PM - IDW:   ✓ Updated
+9/30/2025 10:17:06 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:17:06 PM - IDW:   ✓ Updated
+9/30/2025 10:17:06 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:06 PM - IDW:   ✓ Updated
+9/30/2025 10:17:06 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:06 PM - IDW:   ✓ Updated
+9/30/2025 10:17:06 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:17:06 PM - IDW:   ✓ Updated
+9/30/2025 10:17:06 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:17:06 PM - IDW FOUND: MGY-100-SCR-01-05.idw
+9/30/2025 10:17:07 PM - IDW: Opening MGY-100-SCR-01-05.idw
+9/30/2025 10:17:08 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for Beam-5.iam
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:08 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:08 PM - IDW FOUND: MGY-100-SCR-01-05.idw
+9/30/2025 10:17:09 PM - IDW: Opening MGY-100-SCR-01-05.idw
+9/30/2025 10:17:10 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for Beam-5.iam
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:10 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:10 PM - ✓ SUCCESS: Beam-5.iam
+9/30/2025 10:17:10 PM - ---
+9/30/2025 10:17:10 PM - ASSEMBLY: Beam-6.iam
+9/30/2025 10:17:10 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-6
+9/30/2025 10:17:10 PM - IDW FOUND: MGY-100-SCR-01-06.idw
+9/30/2025 10:17:11 PM - IDW: Opening MGY-100-SCR-01-06.idw
+9/30/2025 10:17:12 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:12 PM - IDW:   ℹ No mapping for Beam-6.iam
+9/30/2025 10:17:12 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:12 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:12 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:12 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:12 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:12 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:17:12 PM - IDW:   ✓ Updated
+9/30/2025 10:17:13 PM - IDW: Saved with 6 reference updates
+9/30/2025 10:17:13 PM - IDW FOUND: MGY-100-SCR-01-06.idw
+9/30/2025 10:17:14 PM - IDW: Opening MGY-100-SCR-01-06.idw
+9/30/2025 10:17:14 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for Beam-6.iam
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:15 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:15 PM - IDW FOUND: MGY-100-SCR-01-06.idw
+9/30/2025 10:17:16 PM - IDW: Opening MGY-100-SCR-01-06.idw
+9/30/2025 10:17:16 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for Beam-6.iam
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:16 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:16 PM - ✓ SUCCESS: Beam-6.iam
+9/30/2025 10:17:16 PM - ---
+9/30/2025 10:17:16 PM - ASSEMBLY: Beam-7.iam
+9/30/2025 10:17:16 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-7
+9/30/2025 10:17:16 PM - IDW FOUND: MGY-100-SCR-01-07.idw
+9/30/2025 10:17:17 PM - IDW: Opening MGY-100-SCR-01-07.idw
+9/30/2025 10:17:19 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:19 PM - IDW:   ℹ No mapping for Beam-7.iam
+9/30/2025 10:17:19 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:19 PM - IDW:   ✓ Updated
+9/30/2025 10:17:19 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:17:19 PM - IDW:   ✓ Updated
+9/30/2025 10:17:19 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:19 PM - IDW:   ✓ Updated
+9/30/2025 10:17:19 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:19 PM - IDW:   ✓ Updated
+9/30/2025 10:17:20 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:17:20 PM - IDW FOUND: MGY-100-SCR-01-07.idw
+9/30/2025 10:17:21 PM - IDW: Opening MGY-100-SCR-01-07.idw
+9/30/2025 10:17:21 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:21 PM - IDW:   ℹ No mapping for Beam-7.iam
+9/30/2025 10:17:21 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:21 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:21 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:21 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:22 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:22 PM - ✓ SUCCESS: Beam-7.iam
+9/30/2025 10:17:22 PM - ---
+9/30/2025 10:17:22 PM - ASSEMBLY: Beam-8.iam
+9/30/2025 10:17:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-8
+9/30/2025 10:17:22 PM - IDW FOUND: MGY-100-SCR-01-08.idw
+9/30/2025 10:17:23 PM - IDW: Opening MGY-100-SCR-01-08.idw
+9/30/2025 10:17:23 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:23 PM - IDW:   ℹ No mapping for Beam-8.iam
+9/30/2025 10:17:23 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:23 PM - IDW:   ✓ Updated
+9/30/2025 10:17:23 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:17:23 PM - IDW:   ✓ Updated
+9/30/2025 10:17:23 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:23 PM - IDW:   ✓ Updated
+9/30/2025 10:17:23 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:23 PM - IDW:   ✓ Updated
+9/30/2025 10:17:24 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:17:24 PM - IDW FOUND: MGY-100-SCR-01-08.idw
+9/30/2025 10:17:25 PM - IDW: Opening MGY-100-SCR-01-08.idw
+9/30/2025 10:17:25 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:25 PM - IDW:   ℹ No mapping for Beam-8.iam
+9/30/2025 10:17:25 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:25 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:25 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:25 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:26 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:26 PM - IDW FOUND: MGY-100-SCR-01-08.idw
+9/30/2025 10:17:27 PM - IDW: Opening MGY-100-SCR-01-08.idw
+9/30/2025 10:17:27 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:27 PM - IDW:   ℹ No mapping for Beam-8.iam
+9/30/2025 10:17:27 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:27 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:27 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:27 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:27 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:27 PM - ✓ SUCCESS: Beam-8.iam
+9/30/2025 10:17:27 PM - ---
+9/30/2025 10:17:27 PM - ASSEMBLY: Beam-8.iam
+9/30/2025 10:17:27 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-8
+9/30/2025 10:17:27 PM - IDW FOUND: MGY-100-SCR-01-08.idw
+9/30/2025 10:17:28 PM - IDW: Opening MGY-100-SCR-01-08.idw
+9/30/2025 10:17:28 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:28 PM - IDW:   ℹ No mapping for Beam-8.iam
+9/30/2025 10:17:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:28 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:28 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:28 PM - ✓ SUCCESS: Beam-8.iam
+9/30/2025 10:17:28 PM - ---
+9/30/2025 10:17:28 PM - ASSEMBLY: Beam-9.iam
+9/30/2025 10:17:28 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-9
+9/30/2025 10:17:29 PM - IDW FOUND: MGY-100-SCR-01-09.idw
+9/30/2025 10:17:29 PM - IDW: Opening MGY-100-SCR-01-09.idw
+9/30/2025 10:17:31 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:31 PM - IDW:   ℹ No mapping for Beam-9.iam
+9/30/2025 10:17:31 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:31 PM - IDW:   ✓ Updated
+9/30/2025 10:17:31 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:17:31 PM - IDW:   ✓ Updated
+9/30/2025 10:17:31 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:31 PM - IDW:   ✓ Updated
+9/30/2025 10:17:31 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:31 PM - IDW:   ✓ Updated
+9/30/2025 10:17:33 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:17:33 PM - IDW FOUND: MGY-100-SCR-01-09.idw
+9/30/2025 10:17:34 PM - IDW: Opening MGY-100-SCR-01-09.idw
+9/30/2025 10:17:35 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:35 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:17:35 PM - IDW:   ℹ No mapping for Beam-9.iam
+9/30/2025 10:17:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:35 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:35 PM - ✓ SUCCESS: Beam-9.iam
+9/30/2025 10:17:35 PM - ---
+9/30/2025 10:17:35 PM - ASSEMBLY: Beam-10.iam
+9/30/2025 10:17:35 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-10
+9/30/2025 10:17:35 PM - IDW FOUND: MGY-100-SCR-01-10.idw
+9/30/2025 10:17:35 PM - IDW: Opening MGY-100-SCR-01-10.idw
+9/30/2025 10:17:36 PM - IDW: Found 4 referenced files
+9/30/2025 10:17:36 PM - IDW:   ℹ No mapping for Beam-10.iam
+9/30/2025 10:17:36 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:36 PM - IDW:   ✓ Updated
+9/30/2025 10:17:36 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:17:36 PM - IDW:   ✓ Updated
+9/30/2025 10:17:36 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:36 PM - IDW:   ✓ Updated
+9/30/2025 10:17:37 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:17:37 PM - IDW FOUND: MGY-100-SCR-01-10.idw
+9/30/2025 10:17:38 PM - IDW: Opening MGY-100-SCR-01-10.idw
+9/30/2025 10:17:38 PM - IDW: Found 4 referenced files
+9/30/2025 10:17:38 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:17:38 PM - IDW:   ℹ No mapping for Beam-10.iam
+9/30/2025 10:17:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:40 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:40 PM - IDW FOUND: MGY-100-SCR-01-10.idw
+9/30/2025 10:17:41 PM - IDW: Opening MGY-100-SCR-01-10.idw
+9/30/2025 10:17:41 PM - IDW: Found 4 referenced files
+9/30/2025 10:17:41 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:17:41 PM - IDW:   ℹ No mapping for Beam-10.iam
+9/30/2025 10:17:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:41 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:41 PM - ✓ SUCCESS: Beam-10.iam
+9/30/2025 10:17:41 PM - ---
+9/30/2025 10:17:41 PM - ASSEMBLY: Beam-11.iam
+9/30/2025 10:17:41 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-11
+9/30/2025 10:17:41 PM - IDW FOUND: MGY-100-SCR-01-11.idw
+9/30/2025 10:17:42 PM - IDW: Opening MGY-100-SCR-01-11.idw
+9/30/2025 10:17:43 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:43 PM - IDW:   ℹ No mapping for Beam-11.iam
+9/30/2025 10:17:43 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:43 PM - IDW:   ✓ Updated
+9/30/2025 10:17:43 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:17:43 PM - IDW:   ✓ Updated
+9/30/2025 10:17:43 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:43 PM - IDW:   ✓ Updated
+9/30/2025 10:17:43 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:43 PM - IDW:   ✓ Updated
+9/30/2025 10:17:44 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:17:44 PM - IDW FOUND: MGY-100-SCR-01-11.idw
+9/30/2025 10:17:45 PM - IDW: Opening MGY-100-SCR-01-11.idw
+9/30/2025 10:17:45 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:45 PM - IDW:   ℹ No mapping for Beam-11.iam
+9/30/2025 10:17:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:45 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:45 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:46 PM - IDW FOUND: MGY-100-SCR-01-11.idw
+9/30/2025 10:17:47 PM - IDW: Opening MGY-100-SCR-01-11.idw
+9/30/2025 10:17:47 PM - IDW: Found 5 referenced files
+9/30/2025 10:17:47 PM - IDW:   ℹ No mapping for Beam-11.iam
+9/30/2025 10:17:47 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:47 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:47 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:47 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:47 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:47 PM - ✓ SUCCESS: Beam-11.iam
+9/30/2025 10:17:47 PM - ---
+9/30/2025 10:17:47 PM - ASSEMBLY: Beam-12.iam
+9/30/2025 10:17:47 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-12
+9/30/2025 10:17:47 PM - IDW FOUND: MGY-100-SCR-01-12.idw
+9/30/2025 10:17:48 PM - IDW: Opening MGY-100-SCR-01-12.idw
+9/30/2025 10:17:48 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:48 PM - IDW:   ℹ No mapping for Beam-12.iam
+9/30/2025 10:17:48 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:48 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:48 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:48 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:48 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:48 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:17:48 PM - IDW:   ✓ Updated
+9/30/2025 10:17:49 PM - IDW: Saved with 6 reference updates
+9/30/2025 10:17:49 PM - IDW FOUND: MGY-100-SCR-01-12.idw
+9/30/2025 10:17:50 PM - IDW: Opening MGY-100-SCR-01-12.idw
+9/30/2025 10:17:51 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for Beam-12.iam
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:51 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:51 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:51 PM - IDW FOUND: MGY-100-SCR-01-12.idw
+9/30/2025 10:17:52 PM - IDW: Opening MGY-100-SCR-01-12.idw
+9/30/2025 10:17:53 PM - IDW: Found 7 referenced files
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for Beam-12.iam
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:53 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:53 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:53 PM - ✓ SUCCESS: Beam-12.iam
+9/30/2025 10:17:53 PM - ---
+9/30/2025 10:17:53 PM - ASSEMBLY: Beam-13.iam
+9/30/2025 10:17:53 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-13
+9/30/2025 10:17:53 PM - IDW FOUND: MGY-100-SCR-01-13.idw
+9/30/2025 10:17:54 PM - IDW: Opening MGY-100-SCR-01-13.idw
+9/30/2025 10:17:54 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:54 PM - IDW:   ℹ No mapping for Beam-13.iam
+9/30/2025 10:17:54 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:17:54 PM - IDW:   ✓ Updated
+9/30/2025 10:17:54 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:17:54 PM - IDW:   ✓ Updated
+9/30/2025 10:17:54 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:17:54 PM - IDW:   ✓ Updated
+9/30/2025 10:17:54 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:17:54 PM - IDW:   ✓ Updated
+9/30/2025 10:17:54 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:17:54 PM - IDW:   ✓ Updated
+9/30/2025 10:17:55 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:17:55 PM - IDW FOUND: MGY-100-SCR-01-13.idw
+9/30/2025 10:17:56 PM - IDW: Opening MGY-100-SCR-01-13.idw
+9/30/2025 10:17:56 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:56 PM - IDW:   ℹ No mapping for Beam-13.iam
+9/30/2025 10:17:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:57 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:57 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:57 PM - IDW FOUND: MGY-100-SCR-01-13.idw
+9/30/2025 10:17:58 PM - IDW: Opening MGY-100-SCR-01-13.idw
+9/30/2025 10:17:58 PM - IDW: Found 6 referenced files
+9/30/2025 10:17:58 PM - IDW:   ℹ No mapping for Beam-13.iam
+9/30/2025 10:17:58 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:17:58 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:17:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:17:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:17:59 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:17:59 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:17:59 PM - ✓ SUCCESS: Beam-13.iam
+9/30/2025 10:17:59 PM - ---
+9/30/2025 10:17:59 PM - ASSEMBLY: Beam-14.iam
+9/30/2025 10:17:59 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-14
+9/30/2025 10:17:59 PM - IDW FOUND: MGY-100-SCR-01-14.idw
+9/30/2025 10:18:00 PM - IDW: Opening MGY-100-SCR-01-14.idw
+9/30/2025 10:18:01 PM - IDW: Found 7 referenced files
+9/30/2025 10:18:01 PM - IDW:   ℹ No mapping for Beam-14.iam
+9/30/2025 10:18:01 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:01 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:01 PM - IDW:   Updating Part3 Stairway Connecting Plate.ipt → NCRH01-000-PL34.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:01 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:01 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:01 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:18:01 PM - IDW:   ✓ Updated
+9/30/2025 10:18:03 PM - IDW: Saved with 6 reference updates
+9/30/2025 10:18:03 PM - IDW FOUND: MGY-100-SCR-01-14.idw
+9/30/2025 10:18:04 PM - IDW: Opening MGY-100-SCR-01-14.idw
+9/30/2025 10:18:04 PM - IDW: Found 7 referenced files
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for Beam-14.iam
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL34.ipt
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:04 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:04 PM - ✓ SUCCESS: Beam-14.iam
+9/30/2025 10:18:04 PM - ---
+9/30/2025 10:18:04 PM - ASSEMBLY: Beam-15.iam
+9/30/2025 10:18:04 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-15
+9/30/2025 10:18:04 PM - IDW FOUND: MGY-100-SCR-01-15.idw
+9/30/2025 10:18:05 PM - IDW: Opening MGY-100-SCR-01-15.idw
+9/30/2025 10:18:06 PM - IDW: Found 4 referenced files
+9/30/2025 10:18:06 PM - IDW:   ℹ No mapping for Beam-15.iam
+9/30/2025 10:18:06 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:06 PM - IDW:   ✓ Updated
+9/30/2025 10:18:06 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:18:06 PM - IDW:   ✓ Updated
+9/30/2025 10:18:06 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:06 PM - IDW:   ✓ Updated
+9/30/2025 10:18:07 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:18:07 PM - IDW FOUND: MGY-100-SCR-01-15.idw
+9/30/2025 10:18:08 PM - IDW: Opening MGY-100-SCR-01-15.idw
+9/30/2025 10:18:08 PM - IDW: Found 4 referenced files
+9/30/2025 10:18:08 PM - IDW:   ℹ No mapping for Beam-15.iam
+9/30/2025 10:18:08 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:18:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:08 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:08 PM - ✓ SUCCESS: Beam-15.iam
+9/30/2025 10:18:08 PM - ---
+9/30/2025 10:18:08 PM - ASSEMBLY: Beam-16.iam
+9/30/2025 10:18:08 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-16
+9/30/2025 10:18:08 PM - IDW FOUND: MGY-100-SCR-01-16.idw
+9/30/2025 10:18:09 PM - IDW: Opening MGY-100-SCR-01-16.idw
+9/30/2025 10:18:09 PM - IDW: Found 6 referenced files
+9/30/2025 10:18:09 PM - IDW:   ℹ No mapping for Beam-16.iam
+9/30/2025 10:18:09 PM - IDW:   Updating Part1 Stairway Connecting Plate.ipt → NCRH01-000-PL78.ipt
+9/30/2025 10:18:09 PM - IDW:   ✓ Updated
+9/30/2025 10:18:09 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:18:09 PM - IDW:   ✓ Updated
+9/30/2025 10:18:09 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:09 PM - IDW:   ✓ Updated
+9/30/2025 10:18:09 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:09 PM - IDW:   ✓ Updated
+9/30/2025 10:18:09 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:09 PM - IDW:   ✓ Updated
+9/30/2025 10:18:10 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:18:10 PM - IDW FOUND: MGY-100-SCR-01-16.idw
+9/30/2025 10:18:11 PM - IDW: Opening MGY-100-SCR-01-16.idw
+9/30/2025 10:18:12 PM - IDW: Found 6 referenced files
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for Beam-16.iam
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL78.ipt
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:13 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:13 PM - IDW FOUND: MGY-100-SCR-01-16.idw
+9/30/2025 10:18:14 PM - IDW: Opening MGY-100-SCR-01-16.idw
+9/30/2025 10:18:14 PM - IDW: Found 6 referenced files
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for Beam-16.iam
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL78.ipt
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:14 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:14 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:14 PM - ✓ SUCCESS: Beam-16.iam
+9/30/2025 10:18:14 PM - ---
+9/30/2025 10:18:14 PM - ASSEMBLY: Beam-17.iam
+9/30/2025 10:18:14 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-17
+9/30/2025 10:18:14 PM - IDW FOUND: MGY-100-SCR-01-17.idw
+9/30/2025 10:18:15 PM - IDW: Opening MGY-100-SCR-01-17.idw
+9/30/2025 10:18:15 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:15 PM - IDW:   ℹ No mapping for Beam-17.iam
+9/30/2025 10:18:15 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:15 PM - IDW:   ✓ Updated
+9/30/2025 10:18:15 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:18:15 PM - IDW:   ✓ Updated
+9/30/2025 10:18:15 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:15 PM - IDW:   ✓ Updated
+9/30/2025 10:18:15 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:15 PM - IDW:   ✓ Updated
+9/30/2025 10:18:16 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:18:16 PM - IDW FOUND: MGY-100-SCR-01-17.idw
+9/30/2025 10:18:17 PM - IDW: Opening MGY-100-SCR-01-17.idw
+9/30/2025 10:18:18 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:18 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:18 PM - IDW:   ℹ No mapping for Beam-17.iam
+9/30/2025 10:18:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:19 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:19 PM - IDW FOUND: MGY-100-SCR-01-17.idw
+9/30/2025 10:18:20 PM - IDW: Opening MGY-100-SCR-01-17.idw
+9/30/2025 10:18:20 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:20 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:20 PM - IDW:   ℹ No mapping for Beam-17.iam
+9/30/2025 10:18:20 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:20 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:20 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:20 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:21 PM - ✓ SUCCESS: Beam-17.iam
+9/30/2025 10:18:21 PM - ---
+9/30/2025 10:18:21 PM - ASSEMBLY: Beam-18.iam
+9/30/2025 10:18:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-18
+9/30/2025 10:18:21 PM - IDW FOUND: MGY-100-SCR-01-18.idw
+9/30/2025 10:18:21 PM - IDW: Opening MGY-100-SCR-01-18.idw
+9/30/2025 10:18:22 PM - IDW: Found 7 referenced files
+9/30/2025 10:18:22 PM - IDW:   ℹ No mapping for Beam-18.iam
+9/30/2025 10:18:22 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW:   Updating Part2 254x146x31.ipt → NCRH01-000-B19.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:18:22 PM - IDW:   ✓ Updated
+9/30/2025 10:18:22 PM - IDW: Saved with 6 reference updates
+9/30/2025 10:18:22 PM - IDW FOUND: MGY-100-SCR-01-18.idw
+9/30/2025 10:18:24 PM - IDW: Opening MGY-100-SCR-01-18.idw
+9/30/2025 10:18:24 PM - IDW: Found 7 referenced files
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for Beam-18.iam
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-B19.ipt
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:24 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:25 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:25 PM - IDW FOUND: MGY-100-SCR-01-18.idw
+9/30/2025 10:18:26 PM - IDW: Opening MGY-100-SCR-01-18.idw
+9/30/2025 10:18:26 PM - IDW: Found 7 referenced files
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for Beam-18.iam
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-B19.ipt
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:26 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:27 PM - ✓ SUCCESS: Beam-18.iam
+9/30/2025 10:18:27 PM - ---
+9/30/2025 10:18:27 PM - ASSEMBLY: Beam-19.iam
+9/30/2025 10:18:27 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-19
+9/30/2025 10:18:27 PM - IDW FOUND: MGY-100-SCR-01-19.idw
+9/30/2025 10:18:27 PM - IDW: Opening MGY-100-SCR-01-19.idw
+9/30/2025 10:18:29 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:29 PM - IDW:   ℹ No mapping for Beam-19.iam
+9/30/2025 10:18:29 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:29 PM - IDW:   ✓ Updated
+9/30/2025 10:18:29 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:18:29 PM - IDW:   ✓ Updated
+9/30/2025 10:18:29 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:29 PM - IDW:   ✓ Updated
+9/30/2025 10:18:29 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:29 PM - IDW:   ✓ Updated
+9/30/2025 10:18:29 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:18:29 PM - IDW FOUND: MGY-100-SCR-01-19.idw
+9/30/2025 10:18:30 PM - IDW: Opening MGY-100-SCR-01-19.idw
+9/30/2025 10:18:31 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:31 PM - IDW:   ℹ No mapping for Beam-19.iam
+9/30/2025 10:18:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:31 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:18:32 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:32 PM - IDW FOUND: MGY-100-SCR-01-19.idw
+9/30/2025 10:18:33 PM - IDW: Opening MGY-100-SCR-01-19.idw
+9/30/2025 10:18:33 PM - IDW: Found 5 referenced files
+9/30/2025 10:18:33 PM - IDW:   ℹ No mapping for Beam-19.iam
+9/30/2025 10:18:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:33 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:18:33 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:33 PM - ✓ SUCCESS: Beam-19.iam
+9/30/2025 10:18:33 PM - ---
+9/30/2025 10:18:33 PM - ASSEMBLY: Beam-20.iam
+9/30/2025 10:18:33 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-20
+9/30/2025 10:18:33 PM - IDW FOUND: MGY-100-SCR-01-20.idw
+9/30/2025 10:18:34 PM - IDW: Opening MGY-100-SCR-01-20.idw
+9/30/2025 10:18:35 PM - IDW: Found 6 referenced files
+9/30/2025 10:18:35 PM - IDW:   ℹ No mapping for Beam-20.iam
+9/30/2025 10:18:35 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:35 PM - IDW:   ✓ Updated
+9/30/2025 10:18:35 PM - IDW:   Updating Part2 356x171x45.ipt → NCRH01-000-B21.ipt
+9/30/2025 10:18:35 PM - IDW:   ✓ Updated
+9/30/2025 10:18:35 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:35 PM - IDW:   ✓ Updated
+9/30/2025 10:18:35 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:35 PM - IDW:   ✓ Updated
+9/30/2025 10:18:35 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:35 PM - IDW:   ✓ Updated
+9/30/2025 10:18:38 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:18:38 PM - IDW FOUND: MGY-100-SCR-01-20.idw
+9/30/2025 10:18:39 PM - IDW: Opening MGY-100-SCR-01-20.idw
+9/30/2025 10:18:39 PM - IDW: Found 6 referenced files
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for Beam-20.iam
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for NCRH01-000-B21.ipt
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:39 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:39 PM - ✓ SUCCESS: Beam-20.iam
+9/30/2025 10:18:39 PM - ---
+9/30/2025 10:18:39 PM - ASSEMBLY: Beam-21.iam
+9/30/2025 10:18:39 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-21
+9/30/2025 10:18:39 PM - IDW FOUND: MGY-100-SCR-01-21.idw
+9/30/2025 10:18:40 PM - IDW: Opening MGY-100-SCR-01-21.idw
+9/30/2025 10:18:41 PM - IDW: Found 8 referenced files
+9/30/2025 10:18:41 PM - IDW:   ℹ No mapping for Beam-21.iam
+9/30/2025 10:18:41 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part2 356x171x45.ipt → NCRH01-000-B21.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW:   Updating Part7.ipt → NCRH01-000-PL95.ipt
+9/30/2025 10:18:41 PM - IDW:   ✓ Updated
+9/30/2025 10:18:41 PM - IDW: Saved with 7 reference updates
+9/30/2025 10:18:41 PM - IDW FOUND: MGY-100-SCR-01-21.idw
+9/30/2025 10:18:42 PM - IDW: Opening MGY-100-SCR-01-21.idw
+9/30/2025 10:18:43 PM - IDW: Found 8 referenced files
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-B21.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for Beam-21.iam
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL95.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:43 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:44 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:44 PM - IDW FOUND: MGY-100-SCR-01-21.idw
+9/30/2025 10:18:45 PM - IDW: Opening MGY-100-SCR-01-21.idw
+9/30/2025 10:18:45 PM - IDW: Found 8 referenced files
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-B21.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for Beam-21.iam
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL95.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:45 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:45 PM - ✓ SUCCESS: Beam-21.iam
+9/30/2025 10:18:45 PM - ---
+9/30/2025 10:18:45 PM - ASSEMBLY: Beam-22.iam
+9/30/2025 10:18:45 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-22
+9/30/2025 10:18:45 PM - IDW FOUND: MGY-100-SCR-01-22.idw
+9/30/2025 10:18:46 PM - IDW: Opening MGY-100-SCR-01-22.idw
+9/30/2025 10:18:47 PM - IDW: Found 9 referenced files
+9/30/2025 10:18:47 PM - IDW:   ℹ No mapping for Beam-22.iam
+9/30/2025 10:18:47 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part7.ipt → NCRH01-000-PL95.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:47 PM - IDW:   Updating Part8.ipt → NCRH01-000-PL102.ipt
+9/30/2025 10:18:47 PM - IDW:   ✓ Updated
+9/30/2025 10:18:48 PM - IDW: Saved with 8 reference updates
+9/30/2025 10:18:48 PM - IDW FOUND: MGY-100-SCR-01-22.idw
+9/30/2025 10:18:49 PM - IDW: Opening MGY-100-SCR-01-22.idw
+9/30/2025 10:18:49 PM - IDW: Found 9 referenced files
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL95.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for Beam-22.iam
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL102.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:50 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:50 PM - IDW FOUND: MGY-100-SCR-01-22.idw
+9/30/2025 10:18:51 PM - IDW: Opening MGY-100-SCR-01-22.idw
+9/30/2025 10:18:51 PM - IDW: Found 9 referenced files
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL95.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for Beam-22.iam
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL102.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:51 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:51 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:51 PM - ✓ SUCCESS: Beam-22.iam
+9/30/2025 10:18:51 PM - ---
+9/30/2025 10:18:51 PM - ASSEMBLY: Beam-23.iam
+9/30/2025 10:18:51 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-23
+9/30/2025 10:18:51 PM - IDW FOUND: MGY-100-SCR-01-23.idw
+9/30/2025 10:18:52 PM - IDW: Opening MGY-100-SCR-01-23.idw
+9/30/2025 10:18:53 PM - IDW: Found 9 referenced files
+9/30/2025 10:18:53 PM - IDW:   ℹ No mapping for Beam-23.iam
+9/30/2025 10:18:54 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part2 254x146x37.ipt → NCRH01-000-B9.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part7.ipt → NCRH01-000-PL95.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:54 PM - IDW:   Updating Part8.ipt → NCRH01-000-PL102.ipt
+9/30/2025 10:18:54 PM - IDW:   ✓ Updated
+9/30/2025 10:18:55 PM - IDW: Saved with 8 reference updates
+9/30/2025 10:18:55 PM - IDW FOUND: MGY-100-SCR-01-23.idw
+9/30/2025 10:18:55 PM - IDW: Opening MGY-100-SCR-01-23.idw
+9/30/2025 10:18:56 PM - IDW: Found 9 referenced files
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-B9.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL95.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL102.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for Beam-23.iam
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:18:56 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:18:56 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:18:56 PM - ✓ SUCCESS: Beam-23.iam
+9/30/2025 10:18:56 PM - ---
+9/30/2025 10:18:56 PM - ASSEMBLY: Beam-24.iam
+9/30/2025 10:18:56 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-24
+9/30/2025 10:18:56 PM - IDW FOUND: MGY-100-SCR-01-24.idw
+9/30/2025 10:18:57 PM - IDW: Opening MGY-100-SCR-01-24.idw
+9/30/2025 10:18:58 PM - IDW: Found 4 referenced files
+9/30/2025 10:18:58 PM - IDW:   ℹ No mapping for Beam-24.iam
+9/30/2025 10:18:58 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:18:58 PM - IDW:   ✓ Updated
+9/30/2025 10:18:58 PM - IDW:   Updating Part2 305x165x41.ipt → NCRH01-000-B10.ipt
+9/30/2025 10:18:58 PM - IDW:   ✓ Updated
+9/30/2025 10:18:58 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:18:58 PM - IDW:   ✓ Updated
+9/30/2025 10:19:01 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:01 PM - IDW FOUND: MGY-100-SCR-01-24.idw
+9/30/2025 10:19:02 PM - IDW: Opening MGY-100-SCR-01-24.idw
+9/30/2025 10:19:02 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:02 PM - IDW:   ℹ No mapping for NCRH01-000-B10.ipt
+9/30/2025 10:19:02 PM - IDW:   ℹ No mapping for Beam-24.iam
+9/30/2025 10:19:02 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:02 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:02 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:02 PM - ✓ SUCCESS: Beam-24.iam
+9/30/2025 10:19:02 PM - ---
+9/30/2025 10:19:02 PM - ASSEMBLY: Beam-25.iam
+9/30/2025 10:19:02 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-25
+9/30/2025 10:19:02 PM - IDW FOUND: MGY-100-SCR-01-25.idw
+9/30/2025 10:19:03 PM - IDW: Opening MGY-100-SCR-01-25.idw
+9/30/2025 10:19:04 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:04 PM - IDW:   ℹ No mapping for Beam-25.iam
+9/30/2025 10:19:04 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:04 PM - IDW:   ✓ Updated
+9/30/2025 10:19:04 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:19:04 PM - IDW:   ✓ Updated
+9/30/2025 10:19:04 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:04 PM - IDW:   ✓ Updated
+9/30/2025 10:19:04 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:19:04 PM - IDW:   ✓ Updated
+9/30/2025 10:19:05 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:19:05 PM - IDW FOUND: MGY-100-SCR-01-25.idw
+9/30/2025 10:19:06 PM - IDW: Opening MGY-100-SCR-01-25.idw
+9/30/2025 10:19:06 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:06 PM - IDW:   ℹ No mapping for Beam-25.iam
+9/30/2025 10:19:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:06 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:19:06 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:06 PM - ✓ SUCCESS: Beam-25.iam
+9/30/2025 10:19:06 PM - ---
+9/30/2025 10:19:06 PM - ASSEMBLY: Beam-26.iam
+9/30/2025 10:19:06 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-26
+9/30/2025 10:19:06 PM - IDW FOUND: MGY-100-SCR-01-26.idw
+9/30/2025 10:19:07 PM - IDW: Opening MGY-100-SCR-01-26.idw
+9/30/2025 10:19:07 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:07 PM - IDW:   ℹ No mapping for Beam-26.iam
+9/30/2025 10:19:07 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:07 PM - IDW:   ✓ Updated
+9/30/2025 10:19:07 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:07 PM - IDW:   ✓ Updated
+9/30/2025 10:19:07 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:07 PM - IDW:   ✓ Updated
+9/30/2025 10:19:08 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:08 PM - IDW FOUND: MGY-100-SCR-01-26.idw
+9/30/2025 10:19:09 PM - IDW: Opening MGY-100-SCR-01-26.idw
+9/30/2025 10:19:09 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:09 PM - IDW:   ℹ No mapping for Beam-26.iam
+9/30/2025 10:19:09 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:09 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:09 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:11 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:11 PM - IDW FOUND: MGY-100-SCR-01-26.idw
+9/30/2025 10:19:12 PM - IDW: Opening MGY-100-SCR-01-26.idw
+9/30/2025 10:19:12 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:12 PM - IDW:   ℹ No mapping for Beam-26.iam
+9/30/2025 10:19:12 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:12 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:12 PM - ✓ SUCCESS: Beam-26.iam
+9/30/2025 10:19:12 PM - ---
+9/30/2025 10:19:12 PM - ASSEMBLY: Beam-26.iam
+9/30/2025 10:19:12 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-26
+9/30/2025 10:19:12 PM - IDW FOUND: MGY-100-SCR-01-26.idw
+9/30/2025 10:19:13 PM - IDW: Opening MGY-100-SCR-01-26.idw
+9/30/2025 10:19:13 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:13 PM - IDW:   ℹ No mapping for Beam-26.iam
+9/30/2025 10:19:13 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:13 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:13 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:13 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:13 PM - ✓ SUCCESS: Beam-26.iam
+9/30/2025 10:19:13 PM - ---
+9/30/2025 10:19:13 PM - ASSEMBLY: Beam-27.iam
+9/30/2025 10:19:13 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-27
+9/30/2025 10:19:13 PM - IDW FOUND: MGY-100-SCR-01-27.idw
+9/30/2025 10:19:14 PM - IDW: Opening MGY-100-SCR-01-27.idw
+9/30/2025 10:19:14 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:14 PM - IDW:   ℹ No mapping for Beam-27.iam
+9/30/2025 10:19:14 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:14 PM - IDW:   ✓ Updated
+9/30/2025 10:19:14 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:14 PM - IDW:   ✓ Updated
+9/30/2025 10:19:14 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:14 PM - IDW:   ✓ Updated
+9/30/2025 10:19:15 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:15 PM - IDW FOUND: MGY-100-SCR-01-27.idw
+9/30/2025 10:19:16 PM - IDW: Opening MGY-100-SCR-01-27.idw
+9/30/2025 10:19:16 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:16 PM - IDW:   ℹ No mapping for Beam-27.iam
+9/30/2025 10:19:16 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:17 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:17 PM - IDW FOUND: MGY-100-SCR-01-27.idw
+9/30/2025 10:19:18 PM - IDW: Opening MGY-100-SCR-01-27.idw
+9/30/2025 10:19:18 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:18 PM - IDW:   ℹ No mapping for Beam-27.iam
+9/30/2025 10:19:18 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:18 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:18 PM - ✓ SUCCESS: Beam-27.iam
+9/30/2025 10:19:18 PM - ---
+9/30/2025 10:19:18 PM - ASSEMBLY: Beam-28.iam
+9/30/2025 10:19:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-28
+9/30/2025 10:19:18 PM - IDW FOUND: MGY-100-SCR-01-28.idw
+9/30/2025 10:19:19 PM - IDW: Opening MGY-100-SCR-01-28.idw
+9/30/2025 10:19:20 PM - IDW: Found 6 referenced files
+9/30/2025 10:19:20 PM - IDW:   ℹ No mapping for Beam-28.iam
+9/30/2025 10:19:20 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:20 PM - IDW:   ✓ Updated
+9/30/2025 10:19:20 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:20 PM - IDW:   ✓ Updated
+9/30/2025 10:19:20 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:20 PM - IDW:   ✓ Updated
+9/30/2025 10:19:20 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:19:20 PM - IDW:   ✓ Updated
+9/30/2025 10:19:20 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:19:20 PM - IDW:   ✓ Updated
+9/30/2025 10:19:22 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:19:22 PM - IDW FOUND: MGY-100-SCR-01-28.idw
+9/30/2025 10:19:23 PM - IDW: Opening MGY-100-SCR-01-28.idw
+9/30/2025 10:19:23 PM - IDW: Found 6 referenced files
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for Beam-28.iam
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:23 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:19:23 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:23 PM - ✓ SUCCESS: Beam-28.iam
+9/30/2025 10:19:23 PM - ---
+9/30/2025 10:19:23 PM - ASSEMBLY: Beam-29.iam
+9/30/2025 10:19:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-29
+9/30/2025 10:19:23 PM - IDW FOUND: MGY-100-SCR-01-29.idw
+9/30/2025 10:19:24 PM - IDW: Opening MGY-100-SCR-01-29.idw
+9/30/2025 10:19:25 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:25 PM - IDW:   ℹ No mapping for Beam-29.iam
+9/30/2025 10:19:25 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:25 PM - IDW:   ✓ Updated
+9/30/2025 10:19:25 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:25 PM - IDW:   ✓ Updated
+9/30/2025 10:19:25 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:25 PM - IDW:   ✓ Updated
+9/30/2025 10:19:26 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:26 PM - IDW FOUND: MGY-100-SCR-01-29.idw
+9/30/2025 10:19:27 PM - IDW: Opening MGY-100-SCR-01-29.idw
+9/30/2025 10:19:27 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:27 PM - IDW:   ℹ No mapping for Beam-29.iam
+9/30/2025 10:19:27 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:27 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:27 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:27 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:27 PM - ✓ SUCCESS: Beam-29.iam
+9/30/2025 10:19:27 PM - ---
+9/30/2025 10:19:27 PM - ASSEMBLY: Beam-30.iam
+9/30/2025 10:19:27 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-30
+9/30/2025 10:19:27 PM - IDW FOUND: MGY-100-SCR-01-30.idw
+9/30/2025 10:19:28 PM - IDW: Opening MGY-100-SCR-01-30.idw
+9/30/2025 10:19:30 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:30 PM - IDW:   ℹ No mapping for Beam-30.iam
+9/30/2025 10:19:30 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:30 PM - IDW:   ✓ Updated
+9/30/2025 10:19:30 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:30 PM - IDW:   ✓ Updated
+9/30/2025 10:19:30 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:30 PM - IDW:   ✓ Updated
+9/30/2025 10:19:30 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:19:30 PM - IDW:   ✓ Updated
+9/30/2025 10:19:30 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:19:30 PM - IDW FOUND: MGY-100-SCR-01-30.idw
+9/30/2025 10:19:31 PM - IDW: Opening MGY-100-SCR-01-30.idw
+9/30/2025 10:19:31 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:31 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:31 PM - IDW:   ℹ No mapping for Beam-30.iam
+9/30/2025 10:19:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:31 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:32 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:32 PM - ✓ SUCCESS: Beam-30.iam
+9/30/2025 10:19:32 PM - ---
+9/30/2025 10:19:32 PM - ASSEMBLY: Beam-30.iam
+9/30/2025 10:19:32 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-30
+9/30/2025 10:19:32 PM - IDW FOUND: MGY-100-SCR-01-30.idw
+9/30/2025 10:19:32 PM - IDW: Opening MGY-100-SCR-01-30.idw
+9/30/2025 10:19:32 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:32 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:33 PM - IDW:   ℹ No mapping for Beam-30.iam
+9/30/2025 10:19:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:33 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:33 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:33 PM - ✓ SUCCESS: Beam-30.iam
+9/30/2025 10:19:33 PM - ---
+9/30/2025 10:19:33 PM - ASSEMBLY: Beam-31.iam
+9/30/2025 10:19:33 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-31
+9/30/2025 10:19:33 PM - IDW FOUND: MGY-100-SCR-01-31.idw
+9/30/2025 10:19:34 PM - IDW: Opening MGY-100-SCR-01-31.idw
+9/30/2025 10:19:34 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:34 PM - IDW:   ℹ No mapping for Beam-31.iam
+9/30/2025 10:19:34 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:34 PM - IDW:   ✓ Updated
+9/30/2025 10:19:34 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:34 PM - IDW:   ✓ Updated
+9/30/2025 10:19:34 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:34 PM - IDW:   ✓ Updated
+9/30/2025 10:19:35 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:35 PM - IDW FOUND: MGY-100-SCR-01-31.idw
+9/30/2025 10:19:36 PM - IDW: Opening MGY-100-SCR-01-31.idw
+9/30/2025 10:19:36 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:36 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:36 PM - IDW:   ℹ No mapping for Beam-31.iam
+9/30/2025 10:19:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:37 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:37 PM - IDW FOUND: MGY-100-SCR-01-31.idw
+9/30/2025 10:19:38 PM - IDW: Opening MGY-100-SCR-01-31.idw
+9/30/2025 10:19:38 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:38 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:38 PM - IDW:   ℹ No mapping for Beam-31.iam
+9/30/2025 10:19:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:38 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:38 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:38 PM - ✓ SUCCESS: Beam-31.iam
+9/30/2025 10:19:38 PM - ---
+9/30/2025 10:19:38 PM - ASSEMBLY: Beam-32.iam
+9/30/2025 10:19:38 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-32
+9/30/2025 10:19:38 PM - IDW FOUND: MGY-100-SCR-01-32.idw
+9/30/2025 10:19:39 PM - IDW: Opening MGY-100-SCR-01-32.idw
+9/30/2025 10:19:39 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:39 PM - IDW:   ℹ No mapping for Beam-32.iam
+9/30/2025 10:19:39 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:39 PM - IDW:   ✓ Updated
+9/30/2025 10:19:39 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:19:39 PM - IDW:   ✓ Updated
+9/30/2025 10:19:39 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:39 PM - IDW:   ✓ Updated
+9/30/2025 10:19:40 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:19:40 PM - IDW FOUND: MGY-100-SCR-01-32.idw
+9/30/2025 10:19:41 PM - IDW: Opening MGY-100-SCR-01-32.idw
+9/30/2025 10:19:42 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:42 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:42 PM - IDW:   ℹ No mapping for Beam-32.iam
+9/30/2025 10:19:42 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:42 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:43 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:43 PM - IDW FOUND: MGY-100-SCR-01-32.idw
+9/30/2025 10:19:44 PM - IDW: Opening MGY-100-SCR-01-32.idw
+9/30/2025 10:19:44 PM - IDW: Found 4 referenced files
+9/30/2025 10:19:44 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:19:44 PM - IDW:   ℹ No mapping for Beam-32.iam
+9/30/2025 10:19:44 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:44 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:44 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:44 PM - ✓ SUCCESS: Beam-32.iam
+9/30/2025 10:19:44 PM - ---
+9/30/2025 10:19:44 PM - ASSEMBLY: Beam-33.iam
+9/30/2025 10:19:44 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-33
+9/30/2025 10:19:44 PM - IDW FOUND: MGY-100-SCR-01-33.idw
+9/30/2025 10:19:45 PM - IDW: Opening MGY-100-SCR-01-33.idw
+9/30/2025 10:19:46 PM - IDW: Found 3 referenced files
+9/30/2025 10:19:46 PM - IDW:   ℹ No mapping for Beam-33.iam
+9/30/2025 10:19:46 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:46 PM - IDW:   ✓ Updated
+9/30/2025 10:19:46 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:19:46 PM - IDW:   ✓ Updated
+9/30/2025 10:19:46 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:19:46 PM - IDW FOUND: MGY-100-SCR-01-33.idw
+9/30/2025 10:19:48 PM - IDW: Opening MGY-100-SCR-01-33.idw
+9/30/2025 10:19:49 PM - IDW: Found 3 referenced files
+9/30/2025 10:19:49 PM - IDW:   ℹ No mapping for Beam-33.iam
+9/30/2025 10:19:49 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:49 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:19:50 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:50 PM - IDW FOUND: MGY-100-SCR-01-33.idw
+9/30/2025 10:19:51 PM - IDW: Opening MGY-100-SCR-01-33.idw
+9/30/2025 10:19:51 PM - IDW: Found 3 referenced files
+9/30/2025 10:19:51 PM - IDW:   ℹ No mapping for Beam-33.iam
+9/30/2025 10:19:52 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:52 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:19:52 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:52 PM - ✓ SUCCESS: Beam-33.iam
+9/30/2025 10:19:52 PM - ---
+9/30/2025 10:19:52 PM - ASSEMBLY: Beam-34.iam
+9/30/2025 10:19:52 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-34
+9/30/2025 10:19:52 PM - IDW FOUND: MGY-100-SCR-01-34.idw
+9/30/2025 10:19:53 PM - IDW: Opening MGY-100-SCR-01-34.idw
+9/30/2025 10:19:54 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:54 PM - IDW:   ℹ No mapping for Beam-34.iam
+9/30/2025 10:19:54 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:19:54 PM - IDW:   ✓ Updated
+9/30/2025 10:19:54 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:19:54 PM - IDW:   ✓ Updated
+9/30/2025 10:19:54 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:19:54 PM - IDW:   ✓ Updated
+9/30/2025 10:19:54 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:19:54 PM - IDW:   ✓ Updated
+9/30/2025 10:19:54 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:19:54 PM - IDW FOUND: MGY-100-SCR-01-34.idw
+9/30/2025 10:19:56 PM - IDW: Opening MGY-100-SCR-01-34.idw
+9/30/2025 10:19:57 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:57 PM - IDW:   ℹ No mapping for Beam-34.iam
+9/30/2025 10:19:57 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:57 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:57 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:57 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:19:58 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:19:58 PM - IDW FOUND: MGY-100-SCR-01-34.idw
+9/30/2025 10:19:59 PM - IDW: Opening MGY-100-SCR-01-34.idw
+9/30/2025 10:19:59 PM - IDW: Found 5 referenced files
+9/30/2025 10:19:59 PM - IDW:   ℹ No mapping for Beam-34.iam
+9/30/2025 10:19:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:19:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:19:59 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:19:59 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:19:59 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:00 PM - ✓ SUCCESS: Beam-34.iam
+9/30/2025 10:20:00 PM - ---
+9/30/2025 10:20:00 PM - ASSEMBLY: Beam-35.iam
+9/30/2025 10:20:00 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-35
+9/30/2025 10:20:00 PM - IDW FOUND: MGY-100-SCR-01-35.idw
+9/30/2025 10:20:01 PM - IDW: Opening MGY-100-SCR-01-35.idw
+9/30/2025 10:20:01 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:01 PM - IDW:   ℹ No mapping for Beam-35.iam
+9/30/2025 10:20:01 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:01 PM - IDW:   ✓ Updated
+9/30/2025 10:20:01 PM - IDW:   Updating Part2 203x133x25.ipt → NCRH01-000-B5.ipt
+9/30/2025 10:20:01 PM - IDW:   ✓ Updated
+9/30/2025 10:20:01 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:01 PM - IDW:   ✓ Updated
+9/30/2025 10:20:01 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:01 PM - IDW:   ✓ Updated
+9/30/2025 10:20:02 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:20:02 PM - IDW FOUND: MGY-100-SCR-01-35.idw
+9/30/2025 10:20:03 PM - IDW: Opening MGY-100-SCR-01-35.idw
+9/30/2025 10:20:03 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:03 PM - IDW:   ℹ No mapping for Beam-35.iam
+9/30/2025 10:20:03 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:03 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:03 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:03 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:20:05 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:05 PM - IDW FOUND: MGY-100-SCR-01-35.idw
+9/30/2025 10:20:06 PM - IDW: Opening MGY-100-SCR-01-35.idw
+9/30/2025 10:20:06 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:06 PM - IDW:   ℹ No mapping for Beam-35.iam
+9/30/2025 10:20:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:06 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:06 PM - IDW:   ℹ No mapping for NCRH01-000-B5.ipt
+9/30/2025 10:20:06 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:06 PM - ✓ SUCCESS: Beam-35.iam
+9/30/2025 10:20:06 PM - ---
+9/30/2025 10:20:06 PM - ASSEMBLY: Beam-36.iam
+9/30/2025 10:20:06 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-36
+9/30/2025 10:20:06 PM - IDW FOUND: MGY-100-SCR-01-36.idw
+9/30/2025 10:20:07 PM - IDW: Opening MGY-100-SCR-01-36.idw
+9/30/2025 10:20:08 PM - IDW: Found 7 referenced files
+9/30/2025 10:20:08 PM - IDW:   ℹ No mapping for Beam-36.iam
+9/30/2025 10:20:08 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW:   Updating Part6.ipt → NCRH01-000-PL44.ipt
+9/30/2025 10:20:08 PM - IDW:   ✓ Updated
+9/30/2025 10:20:08 PM - IDW: Saved with 6 reference updates
+9/30/2025 10:20:08 PM - IDW FOUND: MGY-100-SCR-01-36.idw
+9/30/2025 10:20:09 PM - IDW: Opening MGY-100-SCR-01-36.idw
+9/30/2025 10:20:10 PM - IDW: Found 7 referenced files
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for Beam-36.iam
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:10 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:10 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:10 PM - IDW FOUND: MGY-100-SCR-01-36.idw
+9/30/2025 10:20:11 PM - IDW: Opening MGY-100-SCR-01-36.idw
+9/30/2025 10:20:11 PM - IDW: Found 7 referenced files
+9/30/2025 10:20:11 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:11 PM - IDW:   ℹ No mapping for Beam-36.iam
+9/30/2025 10:20:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL44.ipt
+9/30/2025 10:20:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:12 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:12 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:12 PM - ✓ SUCCESS: Beam-36.iam
+9/30/2025 10:20:12 PM - ---
+9/30/2025 10:20:12 PM - ASSEMBLY: Beam-37.iam
+9/30/2025 10:20:12 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-37
+9/30/2025 10:20:12 PM - IDW FOUND: MGY-100-SCR-01-37.idw
+9/30/2025 10:20:13 PM - IDW: Opening MGY-100-SCR-01-37.idw
+9/30/2025 10:20:14 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:14 PM - IDW:   ℹ No mapping for Beam-37.iam
+9/30/2025 10:20:14 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:14 PM - IDW:   ✓ Updated
+9/30/2025 10:20:14 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:14 PM - IDW:   ✓ Updated
+9/30/2025 10:20:14 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:14 PM - IDW:   ✓ Updated
+9/30/2025 10:20:14 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:14 PM - IDW:   ✓ Updated
+9/30/2025 10:20:14 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:20:15 PM - IDW FOUND: MGY-100-SCR-01-37.idw
+9/30/2025 10:20:15 PM - IDW: Opening MGY-100-SCR-01-37.idw
+9/30/2025 10:20:16 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:16 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:16 PM - IDW:   ℹ No mapping for Beam-37.iam
+9/30/2025 10:20:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:16 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:17 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:17 PM - IDW FOUND: MGY-100-SCR-01-37.idw
+9/30/2025 10:20:18 PM - IDW: Opening MGY-100-SCR-01-37.idw
+9/30/2025 10:20:18 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:18 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:18 PM - IDW:   ℹ No mapping for Beam-37.iam
+9/30/2025 10:20:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:18 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:18 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:18 PM - ✓ SUCCESS: Beam-37.iam
+9/30/2025 10:20:18 PM - ---
+9/30/2025 10:20:18 PM - ASSEMBLY: Beam-38.iam
+9/30/2025 10:20:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-38
+9/30/2025 10:20:18 PM - IDW FOUND: MGY-100-SCR-01-38.idw
+9/30/2025 10:20:19 PM - IDW: Opening MGY-100-SCR-01-38.idw
+9/30/2025 10:20:20 PM - IDW: Found 3 referenced files
+9/30/2025 10:20:20 PM - IDW:   ℹ No mapping for Beam-38.iam
+9/30/2025 10:20:20 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:20 PM - IDW:   ✓ Updated
+9/30/2025 10:20:20 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:20 PM - IDW:   ✓ Updated
+9/30/2025 10:20:21 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:20:21 PM - IDW FOUND: MGY-100-SCR-01-38.idw
+9/30/2025 10:20:22 PM - IDW: Opening MGY-100-SCR-01-38.idw
+9/30/2025 10:20:22 PM - IDW: Found 3 referenced files
+9/30/2025 10:20:22 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:22 PM - IDW:   ℹ No mapping for Beam-38.iam
+9/30/2025 10:20:22 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:22 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:22 PM - ✓ SUCCESS: Beam-38.iam
+9/30/2025 10:20:22 PM - ---
+9/30/2025 10:20:22 PM - ASSEMBLY: Beam-39.iam
+9/30/2025 10:20:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-39
+9/30/2025 10:20:22 PM - IDW FOUND: MGY-100-SCR-01-39.idw
+9/30/2025 10:20:23 PM - IDW: Opening MGY-100-SCR-01-39.idw
+9/30/2025 10:20:24 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:24 PM - IDW:   ℹ No mapping for Beam-39.iam
+9/30/2025 10:20:24 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:24 PM - IDW:   ✓ Updated
+9/30/2025 10:20:24 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:24 PM - IDW:   ✓ Updated
+9/30/2025 10:20:24 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:24 PM - IDW:   ✓ Updated
+9/30/2025 10:20:24 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:24 PM - IDW:   ✓ Updated
+9/30/2025 10:20:24 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:20:24 PM - IDW FOUND: MGY-100-SCR-01-39.idw
+9/30/2025 10:20:25 PM - IDW: Opening MGY-100-SCR-01-39.idw
+9/30/2025 10:20:25 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:25 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:26 PM - IDW:   ℹ No mapping for Beam-39.iam
+9/30/2025 10:20:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:26 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:27 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:27 PM - IDW FOUND: MGY-100-SCR-01-39.idw
+9/30/2025 10:20:28 PM - IDW: Opening MGY-100-SCR-01-39.idw
+9/30/2025 10:20:28 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:28 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:28 PM - IDW:   ℹ No mapping for Beam-39.iam
+9/30/2025 10:20:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:28 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:28 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:28 PM - ✓ SUCCESS: Beam-39.iam
+9/30/2025 10:20:28 PM - ---
+9/30/2025 10:20:28 PM - ASSEMBLY: Beam-39.iam
+9/30/2025 10:20:28 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-39
+9/30/2025 10:20:28 PM - IDW FOUND: MGY-100-SCR-01-39.idw
+9/30/2025 10:20:29 PM - IDW: Opening MGY-100-SCR-01-39.idw
+9/30/2025 10:20:29 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:29 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:29 PM - IDW:   ℹ No mapping for Beam-39.iam
+9/30/2025 10:20:29 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:29 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:29 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:29 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:30 PM - ✓ SUCCESS: Beam-39.iam
+9/30/2025 10:20:30 PM - ---
+9/30/2025 10:20:30 PM - ASSEMBLY: Beam-40.iam
+9/30/2025 10:20:30 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-40
+9/30/2025 10:20:30 PM - IDW FOUND: MGY-100-SCR-01-40.idw
+9/30/2025 10:20:30 PM - IDW: Opening MGY-100-SCR-01-40.idw
+9/30/2025 10:20:31 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:31 PM - IDW:   ℹ No mapping for Beam-40.iam
+9/30/2025 10:20:31 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:31 PM - IDW:   ✓ Updated
+9/30/2025 10:20:31 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:31 PM - IDW:   ✓ Updated
+9/30/2025 10:20:31 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:31 PM - IDW:   ✓ Updated
+9/30/2025 10:20:31 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:31 PM - IDW:   ✓ Updated
+9/30/2025 10:20:31 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:20:31 PM - IDW:   ✓ Updated
+9/30/2025 10:20:33 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:20:33 PM - IDW FOUND: MGY-100-SCR-01-40.idw
+9/30/2025 10:20:34 PM - IDW: Opening MGY-100-SCR-01-40.idw
+9/30/2025 10:20:34 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for Beam-40.iam
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:34 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:34 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:34 PM - ✓ SUCCESS: Beam-40.iam
+9/30/2025 10:20:34 PM - ---
+9/30/2025 10:20:34 PM - ASSEMBLY: Beam-40.iam
+9/30/2025 10:20:34 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-40
+9/30/2025 10:20:34 PM - IDW FOUND: MGY-100-SCR-01-40.idw
+9/30/2025 10:20:35 PM - IDW: Opening MGY-100-SCR-01-40.idw
+9/30/2025 10:20:35 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for Beam-40.iam
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:35 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:35 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:35 PM - ✓ SUCCESS: Beam-40.iam
+9/30/2025 10:20:35 PM - ---
+9/30/2025 10:20:35 PM - ASSEMBLY: Beam-41.iam
+9/30/2025 10:20:35 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-41
+9/30/2025 10:20:35 PM - IDW FOUND: MGY-100-SCR-01-41.idw
+9/30/2025 10:20:36 PM - IDW: Opening MGY-100-SCR-01-41.idw
+9/30/2025 10:20:37 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:37 PM - IDW:   ℹ No mapping for Beam-41.iam
+9/30/2025 10:20:37 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:37 PM - IDW:   ✓ Updated
+9/30/2025 10:20:37 PM - IDW:   Updating Part2 305x165x41.ipt → NCRH01-000-B10.ipt
+9/30/2025 10:20:37 PM - IDW:   ✓ Updated
+9/30/2025 10:20:37 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:37 PM - IDW:   ✓ Updated
+9/30/2025 10:20:37 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:37 PM - IDW:   ✓ Updated
+9/30/2025 10:20:37 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:20:37 PM - IDW:   ✓ Updated
+9/30/2025 10:20:38 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:20:38 PM - IDW FOUND: MGY-100-SCR-01-41.idw
+9/30/2025 10:20:39 PM - IDW: Opening MGY-100-SCR-01-41.idw
+9/30/2025 10:20:39 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for NCRH01-000-B10.ipt
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for Beam-41.iam
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:39 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:40 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:40 PM - IDW FOUND: MGY-100-SCR-01-41.idw
+9/30/2025 10:20:41 PM - IDW: Opening MGY-100-SCR-01-41.idw
+9/30/2025 10:20:41 PM - IDW: Found 6 referenced files
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for NCRH01-000-B10.ipt
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for Beam-41.iam
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:41 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:20:41 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:41 PM - ✓ SUCCESS: Beam-41.iam
+9/30/2025 10:20:41 PM - ---
+9/30/2025 10:20:41 PM - ASSEMBLY: Beam-42.iam
+9/30/2025 10:20:41 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-42
+9/30/2025 10:20:41 PM - IDW FOUND: MGY-100-SCR-01-42.idw
+9/30/2025 10:20:42 PM - IDW: Opening MGY-100-SCR-01-42.idw
+9/30/2025 10:20:42 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:42 PM - IDW:   ℹ No mapping for Beam-42.iam
+9/30/2025 10:20:42 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:42 PM - IDW:   ✓ Updated
+9/30/2025 10:20:42 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:42 PM - IDW:   ✓ Updated
+9/30/2025 10:20:43 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:43 PM - IDW:   ✓ Updated
+9/30/2025 10:20:43 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:43 PM - IDW:   ✓ Updated
+9/30/2025 10:20:44 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:20:44 PM - IDW FOUND: MGY-100-SCR-01-42.idw
+9/30/2025 10:20:45 PM - IDW: Opening MGY-100-SCR-01-42.idw
+9/30/2025 10:20:45 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:45 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:45 PM - IDW:   ℹ No mapping for Beam-42.iam
+9/30/2025 10:20:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:45 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:45 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:45 PM - ✓ SUCCESS: Beam-42.iam
+9/30/2025 10:20:45 PM - ---
+9/30/2025 10:20:45 PM - ASSEMBLY: Beam-43.iam
+9/30/2025 10:20:45 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-43
+9/30/2025 10:20:45 PM - IDW FOUND: MGY-100-SCR-01-43.idw
+9/30/2025 10:20:46 PM - IDW: Opening MGY-100-SCR-01-43.idw
+9/30/2025 10:20:47 PM - IDW: Found 3 referenced files
+9/30/2025 10:20:47 PM - IDW:   ℹ No mapping for Beam-43.iam
+9/30/2025 10:20:47 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:47 PM - IDW:   ✓ Updated
+9/30/2025 10:20:47 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:47 PM - IDW:   ✓ Updated
+9/30/2025 10:20:49 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:20:49 PM - IDW FOUND: MGY-100-SCR-01-43.idw
+9/30/2025 10:20:50 PM - IDW: Opening MGY-100-SCR-01-43.idw
+9/30/2025 10:20:50 PM - IDW: Found 3 referenced files
+9/30/2025 10:20:50 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:50 PM - IDW:   ℹ No mapping for Beam-43.iam
+9/30/2025 10:20:50 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:50 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:50 PM - ✓ SUCCESS: Beam-43.iam
+9/30/2025 10:20:50 PM - ---
+9/30/2025 10:20:50 PM - ASSEMBLY: Beam-44.iam
+9/30/2025 10:20:50 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-44
+9/30/2025 10:20:50 PM - IDW FOUND: MGY-100-SCR-01-44.idw
+9/30/2025 10:20:51 PM - IDW: Opening MGY-100-SCR-01-44.idw
+9/30/2025 10:20:52 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:52 PM - IDW:   ℹ No mapping for Beam-44.iam
+9/30/2025 10:20:52 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:52 PM - IDW:   ✓ Updated
+9/30/2025 10:20:52 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:53 PM - IDW:   ✓ Updated
+9/30/2025 10:20:53 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:20:53 PM - IDW:   ✓ Updated
+9/30/2025 10:20:53 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:20:53 PM - IDW:   ✓ Updated
+9/30/2025 10:20:54 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:20:54 PM - IDW FOUND: MGY-100-SCR-01-44.idw
+9/30/2025 10:20:55 PM - IDW: Opening MGY-100-SCR-01-44.idw
+9/30/2025 10:20:55 PM - IDW: Found 5 referenced files
+9/30/2025 10:20:55 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:20:55 PM - IDW:   ℹ No mapping for Beam-44.iam
+9/30/2025 10:20:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:20:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:20:55 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:20:55 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:20:55 PM - ✓ SUCCESS: Beam-44.iam
+9/30/2025 10:20:55 PM - ---
+9/30/2025 10:20:55 PM - ASSEMBLY: Beam-45.iam
+9/30/2025 10:20:55 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-45
+9/30/2025 10:20:55 PM - IDW FOUND: MGY-100-SCR-01-45.idw
+9/30/2025 10:20:56 PM - IDW: Opening MGY-100-SCR-01-45.idw
+9/30/2025 10:20:56 PM - IDW: Found 3 referenced files
+9/30/2025 10:20:56 PM - IDW:   ℹ No mapping for Beam-45.iam
+9/30/2025 10:20:56 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:20:56 PM - IDW:   ✓ Updated
+9/30/2025 10:20:57 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:20:57 PM - IDW:   ✓ Updated
+9/30/2025 10:20:59 PM - IDW: Saved with 2 reference updates
+9/30/2025 10:20:59 PM - IDW FOUND: MGY-100-SCR-01-45.idw
+9/30/2025 10:21:00 PM - IDW: Opening MGY-100-SCR-01-45.idw
+9/30/2025 10:21:00 PM - IDW: Found 3 referenced files
+9/30/2025 10:21:00 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:21:00 PM - IDW:   ℹ No mapping for Beam-45.iam
+9/30/2025 10:21:00 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:21:00 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:21:00 PM - ✓ SUCCESS: Beam-45.iam
+9/30/2025 10:21:00 PM - ---
+9/30/2025 10:21:00 PM - ASSEMBLY: Beam-46.iam
+9/30/2025 10:21:00 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-46
+9/30/2025 10:21:00 PM - IDW FOUND: MGY-100-SCR-01-46.idw
+9/30/2025 10:21:02 PM - IDW: Opening MGY-100-SCR-01-46.idw
+9/30/2025 10:21:02 PM - IDW: Found 5 referenced files
+9/30/2025 10:21:02 PM - IDW:   ℹ No mapping for Beam-46.iam
+9/30/2025 10:21:02 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:21:02 PM - IDW:   ✓ Updated
+9/30/2025 10:21:02 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:21:02 PM - IDW:   ✓ Updated
+9/30/2025 10:21:02 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:21:02 PM - IDW:   ✓ Updated
+9/30/2025 10:21:02 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:21:02 PM - IDW:   ✓ Updated
+9/30/2025 10:21:03 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:21:03 PM - IDW FOUND: MGY-100-SCR-01-46.idw
+9/30/2025 10:21:04 PM - IDW: Opening MGY-100-SCR-01-46.idw
+9/30/2025 10:21:04 PM - IDW: Found 5 referenced files
+9/30/2025 10:21:04 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:21:04 PM - IDW:   ℹ No mapping for Beam-46.iam
+9/30/2025 10:21:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:21:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:21:04 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:21:04 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:21:04 PM - ✓ SUCCESS: Beam-46.iam
+9/30/2025 10:21:04 PM - ---
+9/30/2025 10:21:04 PM - ASSEMBLY: Beam-47.iam
+9/30/2025 10:21:04 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-47
+9/30/2025 10:21:04 PM - IDW FOUND: MGY-100-SCR-01-47.idw
+9/30/2025 10:21:05 PM - IDW: Opening MGY-100-SCR-01-47.idw
+9/30/2025 10:21:06 PM - IDW: Found 4 referenced files
+9/30/2025 10:21:06 PM - IDW:   ℹ No mapping for Beam-47.iam
+9/30/2025 10:21:06 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:21:06 PM - IDW:   ✓ Updated
+9/30/2025 10:21:06 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:21:06 PM - IDW:   ✓ Updated
+9/30/2025 10:21:06 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:21:06 PM - IDW:   ✓ Updated
+9/30/2025 10:21:07 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:21:07 PM - IDW FOUND: MGY-100-SCR-01-47.idw
+9/30/2025 10:21:08 PM - IDW: Opening MGY-100-SCR-01-47.idw
+9/30/2025 10:21:08 PM - IDW: Found 4 referenced files
+9/30/2025 10:21:08 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:21:08 PM - IDW:   ℹ No mapping for Beam-47.iam
+9/30/2025 10:21:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:21:08 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:21:08 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:21:08 PM - ✓ SUCCESS: Beam-47.iam
+9/30/2025 10:21:08 PM - ---
+9/30/2025 10:21:08 PM - ASSEMBLY: Beam-48.iam
+9/30/2025 10:21:08 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-48
+9/30/2025 10:21:08 PM - IDW FOUND: MGY-100-SCR-01-48.idw
+9/30/2025 10:21:09 PM - IDW: Opening MGY-100-SCR-01-48.idw
+9/30/2025 10:21:10 PM - IDW: Found 4 referenced files
+9/30/2025 10:21:10 PM - IDW:   ℹ No mapping for Beam-48.iam
+9/30/2025 10:21:10 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:21:10 PM - IDW:   ✓ Updated
+9/30/2025 10:21:10 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:21:10 PM - IDW:   ✓ Updated
+9/30/2025 10:21:10 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:21:10 PM - IDW:   ✓ Updated
+9/30/2025 10:21:12 PM - IDW: Saved with 3 reference updates
+9/30/2025 10:21:12 PM - IDW FOUND: MGY-100-SCR-01-48.idw
+9/30/2025 10:21:12 PM - IDW: Opening MGY-100-SCR-01-48.idw
+9/30/2025 10:21:13 PM - IDW: Found 4 referenced files
+9/30/2025 10:21:13 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:21:13 PM - IDW:   ℹ No mapping for Beam-48.iam
+9/30/2025 10:21:13 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:21:13 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:21:13 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:21:13 PM - ✓ SUCCESS: Beam-48.iam
+9/30/2025 10:21:13 PM - ---
+9/30/2025 10:21:13 PM - ASSEMBLY: Beam-49.iam
+9/30/2025 10:21:13 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Beam-49
+9/30/2025 10:21:13 PM - IDW FOUND: MGY-100-SCR-01-49.idw
+9/30/2025 10:21:14 PM - IDW: Opening MGY-100-SCR-01-49.idw
+9/30/2025 10:21:15 PM - IDW: Found 6 referenced files
+9/30/2025 10:21:15 PM - IDW:   ℹ No mapping for Beam-49.iam
+9/30/2025 10:21:15 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:21:15 PM - IDW:   ✓ Updated
+9/30/2025 10:21:15 PM - IDW:   Updating Part2 IPE 180.ipt → NCRH01-000-IPE1.ipt
+9/30/2025 10:21:15 PM - IDW:   ✓ Updated
+9/30/2025 10:21:15 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:21:15 PM - IDW:   ✓ Updated
+9/30/2025 10:21:15 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:21:15 PM - IDW:   ✓ Updated
+9/30/2025 10:21:15 PM - IDW:   Updating Part5.ipt → NCRH01-000-PL10.ipt
+9/30/2025 10:21:15 PM - IDW:   ✓ Updated
+9/30/2025 10:21:16 PM - IDW: Saved with 5 reference updates
+9/30/2025 10:21:16 PM - IDW FOUND: MGY-100-SCR-01-49.idw
+9/30/2025 10:21:17 PM - IDW: Opening MGY-100-SCR-01-49.idw
+9/30/2025 10:21:17 PM - IDW: Found 6 referenced files
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for NCRH01-000-IPE1.ipt
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for Beam-49.iam
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:21:17 PM - IDW:   ℹ No mapping for NCRH01-000-PL10.ipt
+9/30/2025 10:21:17 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:21:17 PM - ✓ SUCCESS: Beam-49.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection1.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection1.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection2.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection2.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection3.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection3.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection4.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection4.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection5.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection5.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection6.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection6.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection7.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection7.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection8.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection8.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection9.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection9.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection10.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection10.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection11.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection11.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection12.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:18 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:18 PM - ✓ SUCCESS: Bolted Connection12.iam
+9/30/2025 10:21:18 PM - ---
+9/30/2025 10:21:18 PM - ASSEMBLY: Bolted Connection13.iam
+9/30/2025 10:21:18 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection13.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection14.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection14.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection15.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection15.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection16.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection16.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection17.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection17.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection18.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection18.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection19.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection19.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection20.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection20.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection21.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection21.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection22.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection22.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection23.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection23.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection24.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection24.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection25.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection25.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection26.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection26.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection27.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection27.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection28.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection28.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection29.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection29.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection30.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection30.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection31.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:19 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:19 PM - ✓ SUCCESS: Bolted Connection31.iam
+9/30/2025 10:21:19 PM - ---
+9/30/2025 10:21:19 PM - ASSEMBLY: Bolted Connection32.iam
+9/30/2025 10:21:19 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection32.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection33.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection33.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection34.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection34.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection35.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection35.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection36.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection36.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection37.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection37.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection38.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection38.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection39.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection39.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection40.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection40.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection41.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection41.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection42.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection42.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection43.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection43.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection44.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection44.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection45.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection45.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection46.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection46.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection47.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection47.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection48.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection48.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection49.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:20 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:20 PM - ✓ SUCCESS: Bolted Connection49.iam
+9/30/2025 10:21:20 PM - ---
+9/30/2025 10:21:20 PM - ASSEMBLY: Bolted Connection50.iam
+9/30/2025 10:21:20 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection50.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection51.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection51.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection52.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection52.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection53.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection53.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection54.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection54.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection55.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection55.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection56.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection56.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection57.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection57.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection58.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection58.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection59.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection59.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection60.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection60.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection61.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection61.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection62.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection62.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection63.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection63.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection64.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection64.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection65.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection65.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection66.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection66.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection67.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection67.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection68.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection68.iam
+9/30/2025 10:21:21 PM - ---
+9/30/2025 10:21:21 PM - ASSEMBLY: Bolted Connection69.iam
+9/30/2025 10:21:21 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:21 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:21 PM - ✓ SUCCESS: Bolted Connection69.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection70.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection70.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection71.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection71.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection72.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection72.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection73.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection73.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection74.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection74.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection75.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection75.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection76.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection76.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection77.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection77.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection78.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection78.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection79.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection79.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection80.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection80.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection81.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection81.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection82.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection82.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection83.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection83.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection84.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection84.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection85.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection85.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection86.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection86.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection87.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:22 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:22 PM - ✓ SUCCESS: Bolted Connection87.iam
+9/30/2025 10:21:22 PM - ---
+9/30/2025 10:21:22 PM - ASSEMBLY: Bolted Connection88.iam
+9/30/2025 10:21:22 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection88.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection89.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection89.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection90.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection90.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection91.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection91.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection92.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection92.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection93.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection93.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection94.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection94.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection95.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection95.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection96.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection96.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection97.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection97.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection98.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection98.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection99.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection99.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection100.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection100.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection101.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection101.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection102.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection102.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection103.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection103.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection104.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection104.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection105.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection105.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection106.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:23 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:23 PM - ✓ SUCCESS: Bolted Connection106.iam
+9/30/2025 10:21:23 PM - ---
+9/30/2025 10:21:23 PM - ASSEMBLY: Bolted Connection107.iam
+9/30/2025 10:21:23 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection107.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection108.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection108.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection109.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection109.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection110.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection110.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection111.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection111.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection112.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection112.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection113.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection113.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection114.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection114.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection115.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection115.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection116.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection116.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection117.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection117.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection118.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection118.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection119.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection119.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection120.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection120.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection121.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection121.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection122.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection122.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection123.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection123.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection124.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:24 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:24 PM - ✓ SUCCESS: Bolted Connection124.iam
+9/30/2025 10:21:24 PM - ---
+9/30/2025 10:21:24 PM - ASSEMBLY: Bolted Connection125.iam
+9/30/2025 10:21:24 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection125.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection126.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection126.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection127.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection127.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection128.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection128.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection129.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection129.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection130.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection130.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection131.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection131.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection132.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection132.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection133.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection133.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection134.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection134.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection135.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection135.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection136.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection136.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection137.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection137.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection138.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection138.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection139.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection139.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection140.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection140.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection141.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection141.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection142.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection142.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection143.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:25 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:25 PM - ✓ SUCCESS: Bolted Connection143.iam
+9/30/2025 10:21:25 PM - ---
+9/30/2025 10:21:25 PM - ASSEMBLY: Bolted Connection144.iam
+9/30/2025 10:21:25 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection144.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection145.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection145.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection146.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection146.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection147.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection147.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection148.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection148.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection149.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection149.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection150.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection150.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection151.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection151.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection152.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection152.iam
+9/30/2025 10:21:26 PM - ---
+9/30/2025 10:21:26 PM - ASSEMBLY: Bolted Connection153.iam
+9/30/2025 10:21:26 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure\Design Accelerator
+9/30/2025 10:21:26 PM - SKIP: No IDW found for this assembly
+9/30/2025 10:21:26 PM - ✓ SUCCESS: Bolted Connection153.iam
+9/30/2025 10:21:26 PM - 
+9/30/2025 10:21:26 PM - === STEP 2 COMPLETE ===
+9/30/2025 10:21:26 PM - Total assemblies processed: 220
+9/30/2025 10:21:26 PM - Successful: 220
+9/30/2025 10:21:26 PM - Failed/Skipped: 153
+9/30/2025 10:21:26 PM - 

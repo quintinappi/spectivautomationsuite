@@ -1,0 +1,345 @@
+2026-01-15 22:08:30 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-15 22:08:30 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-15 22:08:34 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 22:08:34 | STEP 1: Detecting open assembly and analyzing components
+2026-01-15 22:08:34 | DETECTED: Document type: 12291
+2026-01-15 22:08:34 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-15 22:08:34 | DETECTED: Active assembly - Staircase-4.iam
+2026-01-15 22:08:34 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Staircase-4.iam
+2026-01-15 22:08:35 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-15 22:08:35 | CONFIRMED: 52 occurrences to process
+2026-01-15 22:08:35 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-01-15 22:08:35 | AUDIT: === START AUDIT LOG CREATION ===
+2026-01-15 22:08:35 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-01-15 22:08:35 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4
+2026-01-15 22:08:35 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STEP_0_AUDIT.txt
+2026-01-15 22:08:35 | AUDIT: ERROR - Could not connect to iLogic Add-in: 
+2026-01-15 22:08:35 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STEP_0_AUDIT.txt
+2026-01-15 22:08:35 | AUDIT: === END AUDIT LOG CREATION ===
+2026-01-15 22:08:35 | STEP 2: Flattening hierarchy and grouping components
+2026-01-15 22:08:35 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-15 22:08:35 | ANALYZE: Processing assembly - Staircase-4.iam (Level: ROOT)
+2026-01-15 22:08:35 | ANALYZE: Found 52 occurrences in Staircase-4.iam
+2026-01-15 22:08:35 | ANALYZE: PART - Part1 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: Created new group - CH
+2026-01-15 22:08:35 | ANALYZE: PART - Part2 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: PART - Part5 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: PART - Part6 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: PART - Part8 Stair Stanchion Plate S-2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: Created new group - PL
+2026-01-15 22:08:35 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:35 | ANALYZE: PART - Part9 Stair End Plate S-2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2026-01-15 22:08:35 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair End Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: PART - Step S-2.ipt -> Description: STD VITAGRID 750 WIDE STEP -> Group: OTHER (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: Created new group - OTHER
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Step S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stair Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: PART - Part10 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part10 TFC S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: PART - Part14 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: PART - Part16 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part16 TFC S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: PART - Part11 Stanchion Plate S-2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: PART - Part3 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: PART - Part4 TFC  S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: PART - Part16 TFC S-2_2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part16 TFC S-2_2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: PART - Part7 Stair End Plate S-2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: PART - Part12 TFC S-2.ipt -> Description: TFC 178x54x15 -> Group: CH (from Staircase-4.iam)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Stair End Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part12 TFC S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stanchion Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair End Plate S-2.ipt (already processed)
+2026-01-15 22:08:36 | ANALYZE: Recursive processing completed - Total unique parts processed: 16
+2026-01-15 22:08:36 | ANALYZE: Created 3 component groups
+2026-01-15 22:08:36 | DEBUG GROUP: 'CH' contains 11 components:
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part1 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part2 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part5 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part6 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part10 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part14 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part16 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part3 TFC S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part4 TFC  S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part16 TFC S-2_2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part12 TFC S-2.ipt
+2026-01-15 22:08:36 | DEBUG GROUP: 'PL' contains 4 components:
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part8 Stair Stanchion Plate S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part9 Stair End Plate S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part11 Stanchion Plate S-2.ipt
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part7 Stair End Plate S-2.ipt
+2026-01-15 22:08:36 | DEBUG GROUP: 'OTHER' contains 1 components:
+2026-01-15 22:08:36 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Step S-2.ipt
+2026-01-15 22:08:36 | STEP 3: Getting plant section naming convention
+2026-01-15 22:08:36 | PLANT: Getting plant section naming convention from user
+2026-01-15 22:08:46 | PLANT: Using custom naming convention: STAIRCASE-4-01-
+2026-01-15 22:08:46 | REGISTRY: Prefix does not exist, starting fresh
+2026-01-15 22:08:48 | STEP 4: Showing component groups summary
+2026-01-15 22:08:48 | SUMMARY: Showing component groups to user
+2026-01-15 22:08:49 | SUMMARY: User approved component groups
+2026-01-15 22:08:49 | STEP 5: Getting user naming schemes for component groups
+2026-01-15 22:08:49 | INPUT: Getting user naming schemes for 3 groups
+2026-01-15 22:08:52 | INPUT: Group 'CH' -> Scheme: STAIRCASE-4-01-CH{N}
+2026-01-15 22:08:53 | INPUT: Group 'PL' -> Scheme: STAIRCASE-4-01-PL{N}
+2026-01-15 22:08:53 | INPUT: Group 'OTHER' -> Scheme: STAIRCASE-4-01-PART{N}
+2026-01-15 22:08:53 | STEP 6: Creating heritage-based copies with user naming
+2026-01-15 22:08:53 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-15 22:08:53 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-15 22:08:53 | HERITAGE: Starting fresh - not loading existing counters
+2026-01-15 22:08:53 | EXTRACT: Processing naming scheme: STAIRCASE-4-01-CH{N}
+2026-01-15 22:08:53 | EXTRACT: Extracted prefix: 'STAIRCASE-4-01-'
+2026-01-15 22:08:53 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-01-CH'
+2026-01-15 22:08:53 | HERITAGE: Group 'CH' starting from number 1 (new prefix or group - key 'STAIRCASE-4-01-CH' not found)
+2026-01-15 22:08:53 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 22:08:53 | HERITAGE: Processing group 'CH' with scheme: STAIRCASE-4-01-CH{N}
+2026-01-15 22:08:53 | HERITAGE: Part1 TFC S-2.ipt -> STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:08:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part1 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:08:53 | HERITAGE: Creating new file: STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:08:53 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:08:53 | HERITAGE: Part2 TFC S-2.ipt -> STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:08:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part2 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:08:53 | HERITAGE: Creating new file: STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:08:54 | HERITAGE: Part5 TFC S-2.ipt -> STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part5 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:08:54 | HERITAGE: Part6 TFC S-2.ipt -> STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part6 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:08:54 | HERITAGE: Part10 TFC S-2.ipt -> STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part10 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:08:54 | HERITAGE: Part14 TFC S-2.ipt -> STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part14 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:08:54 | HERITAGE: Part16 TFC S-2.ipt -> STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part16 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:08:54 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:08:54 | HERITAGE: Part3 TFC S-2.ipt -> STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:08:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part3 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:08:54 | HERITAGE: Creating new file: STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:08:55 | HERITAGE: Part4 TFC  S-2.ipt -> STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part4 TFC  S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:08:55 | HERITAGE: Part16 TFC S-2_2.ipt -> STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part16 TFC S-2_2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:08:55 | HERITAGE: Part12 TFC S-2.ipt -> STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part12 TFC S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:08:55 | REGISTRY: Saved STAIRCASE-4-01-CH = 11
+2026-01-15 22:08:55 | EXTRACT: Processing naming scheme: STAIRCASE-4-01-PL{N}
+2026-01-15 22:08:55 | EXTRACT: Extracted prefix: 'STAIRCASE-4-01-'
+2026-01-15 22:08:55 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-01-PL'
+2026-01-15 22:08:55 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'STAIRCASE-4-01-PL' not found)
+2026-01-15 22:08:55 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 22:08:55 | HERITAGE: Processing group 'PL' with scheme: STAIRCASE-4-01-PL{N}
+2026-01-15 22:08:55 | HERITAGE: Part8 Stair Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part8 Stair Stanchion Plate S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:08:55 | HERITAGE: Part9 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part9 Stair End Plate S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:08:55 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:08:55 | HERITAGE: Part11 Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:08:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part11 Stanchion Plate S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:08:55 | HERITAGE: Creating new file: STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:08:56 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:08:56 | HERITAGE: Part7 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:08:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part7 Stair End Plate S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:08:56 | HERITAGE: Creating new file: STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:08:56 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:08:56 | REGISTRY: Saved STAIRCASE-4-01-PL = 4
+2026-01-15 22:08:56 | EXTRACT: Processing naming scheme: STAIRCASE-4-01-PART{N}
+2026-01-15 22:08:56 | EXTRACT: Extracted prefix: 'STAIRCASE-4-01-'
+2026-01-15 22:08:56 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-01-OTHER'
+2026-01-15 22:08:56 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'STAIRCASE-4-01-OTHER' not found)
+2026-01-15 22:08:56 | HERITAGE: DEBUG - No existing counters found
+2026-01-15 22:08:56 | HERITAGE: Processing group 'OTHER' with scheme: STAIRCASE-4-01-PART{N}
+2026-01-15 22:08:56 | HERITAGE: Step S-2.ipt -> STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:08:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Step S-2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:08:56 | HERITAGE: Creating new file: STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:08:56 | HERITAGE: SUCCESS - Created STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:08:56 | REGISTRY: Saved STAIRCASE-4-01-OTHER = 1
+2026-01-15 22:08:56 | STEP 7: Updating assembly references
+2026-01-15 22:08:56 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-15 22:08:56 | ASSEMBLY: Updating references in - Staircase-4.iam (Level: ROOT)
+2026-01-15 22:08:56 | ASSEMBLY: Replacing Part1 TFC S-2.ipt -> STAIRCASE-4-01-CH1.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:56 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:08:56 | ASSEMBLY: Replacing Part2 TFC S-2.ipt -> STAIRCASE-4-01-CH2.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:56 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:08:56 | ASSEMBLY: Replacing Part5 TFC S-2.ipt -> STAIRCASE-4-01-CH3.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:57 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:08:57 | ASSEMBLY: Replacing Part6 TFC S-2.ipt -> STAIRCASE-4-01-CH4.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:57 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:08:57 | ASSEMBLY: Replacing Part8 Stair Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL1.ipt [PL] (in Staircase-4.iam)
+2026-01-15 22:08:57 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:08:57 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:57 | ASSEMBLY: Replacing Part9 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL2.ipt [PL] (in Staircase-4.iam)
+2026-01-15 22:08:57 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:08:57 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL2.ipt (not renamed)
+2026-01-15 22:08:57 | ASSEMBLY: Replacing Step S-2.ipt -> STAIRCASE-4-01-PART1.ipt [OTHER] (in Staircase-4.iam)
+2026-01-15 22:08:57 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PART1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL1.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: Replacing Part10 TFC S-2.ipt -> STAIRCASE-4-01-CH5.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-CH5.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: Replacing Part14 TFC S-2.ipt -> STAIRCASE-4-01-CH6.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:08:58 | ASSEMBLY: Replacing Part16 TFC S-2.ipt -> STAIRCASE-4-01-CH7.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-CH7.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: Replacing Part11 Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL3.ipt [PL] (in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:08:58 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:58 | ASSEMBLY: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:58 | ASSEMBLY: SKIPPING (suppressed occurrence in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: Replacing Part3 TFC S-2.ipt -> STAIRCASE-4-01-CH8.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:08:59 | ASSEMBLY: Replacing Part4 TFC  S-2.ipt -> STAIRCASE-4-01-CH9.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:08:59 | ASSEMBLY: Replacing Part16 TFC S-2_2.ipt -> STAIRCASE-4-01-CH10.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-CH10.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: Replacing Part7 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL4.ipt [PL] (in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:08:59 | ASSEMBLY: Replacing Part12 TFC S-2.ipt -> STAIRCASE-4-01-CH11.ipt [CH] (in Staircase-4.iam)
+2026-01-15 22:08:59 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL4.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-CH11.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL3.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-01-PL2.ipt (not renamed)
+2026-01-15 22:08:59 | ASSEMBLY: Saving assembly with updated references...
+2026-01-15 22:09:00 | ASSEMBLY: Successfully saved assembly
+2026-01-15 22:09:00 | STEP 8: Auto-detecting and updating IDW files
+2026-01-15 22:09:00 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-15 22:09:00 | IDW: Found drawing file - MGY-300-SP-01-05.idw
+2026-01-15 22:09:00 | IDW: Processing MGY-300-SP-01-05.idw
+2026-01-15 22:09:01 | IDW: Opening MGY-300-SP-01-05.idw
+2026-01-15 22:09:03 | IDW: Found 17 referenced files
+2026-01-15 22:09:03 | IDW: Updating reference Part1 TFC S-2.ipt -> STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part10 TFC S-2.ipt -> STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part11 Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part12 TFC S-2.ipt -> STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: INFO - No mapping found for Part13 TFC S-2.ipt
+2026-01-15 22:09:03 | IDW: Updating reference Part14 TFC S-2.ipt -> STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: INFO - No mapping found for Part15 TFC S-2.ipt
+2026-01-15 22:09:03 | IDW: Updating reference Part16 TFC S-2.ipt -> STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part2 TFC S-2.ipt -> STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part3 TFC S-2.ipt -> STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part4 TFC  S-2.ipt -> STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part5 TFC S-2.ipt -> STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part6 TFC S-2.ipt -> STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part7 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part8 Stair Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: Updating reference Part9 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:09:03 | IDW: SUCCESS - Reference updated
+2026-01-15 22:09:03 | IDW: INFO - No mapping found for Staircase-4.iam
+2026-01-15 22:09:22 | IDW: Saved MGY-300-SP-01-05.idw
+2026-01-15 22:09:22 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-15 22:09:22 | MAPPING: === START SAVE MAPPING FILE ===
+2026-01-15 22:09:22 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-15 22:09:22 | MAPPING: Comprehensive mapping count = 16
+2026-01-15 22:09:22 | MAPPING: Extracted directory from first mapping key: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part1 TFC S-2.ipt
+2026-01-15 22:09:22 | MAPPING: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4
+2026-01-15 22:09:22 | MAPPING: Full mapping file path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STEP_1_MAPPING.txt
+2026-01-15 22:09:22 | MAPPING: Assembly directory exists
+2026-01-15 22:09:22 | MAPPING: Mapping file exists? False
+2026-01-15 22:09:22 | MAPPING: Creating new mapping file...
+2026-01-15 22:09:22 | MAPPING: Created new mapping file with header
+2026-01-15 22:09:22 | MAPPING: Writing 16 mappings to file...
+2026-01-15 22:09:22 | MAPPING: Written: Part1 TFC S-2.ipt -> STAIRCASE-4-01-CH1.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part2 TFC S-2.ipt -> STAIRCASE-4-01-CH2.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part5 TFC S-2.ipt -> STAIRCASE-4-01-CH3.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part6 TFC S-2.ipt -> STAIRCASE-4-01-CH4.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part10 TFC S-2.ipt -> STAIRCASE-4-01-CH5.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part14 TFC S-2.ipt -> STAIRCASE-4-01-CH6.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part16 TFC S-2.ipt -> STAIRCASE-4-01-CH7.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part3 TFC S-2.ipt -> STAIRCASE-4-01-CH8.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part4 TFC  S-2.ipt -> STAIRCASE-4-01-CH9.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part16 TFC S-2_2.ipt -> STAIRCASE-4-01-CH10.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part12 TFC S-2.ipt -> STAIRCASE-4-01-CH11.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part8 Stair Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL1.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part9 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL2.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part11 Stanchion Plate S-2.ipt -> STAIRCASE-4-01-PL3.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Part7 Stair End Plate S-2.ipt -> STAIRCASE-4-01-PL4.ipt
+2026-01-15 22:09:22 | MAPPING: Written: Step S-2.ipt -> STAIRCASE-4-01-PART1.ipt
+2026-01-15 22:09:22 | MAPPING: File closed
+2026-01-15 22:09:22 | MAPPING: VERIFICATION - File exists! Size: 6444 bytes
+2026-01-15 22:09:22 | MAPPING: Save complete. Wrote 16 mappings
+2026-01-15 22:09:22 | MAPPING: Saved comprehensive mapping to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STEP_1_MAPPING.txt
+2026-01-15 22:09:22 | MAPPING: === END SAVE MAPPING FILE ===
+2026-01-15 22:09:22 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-15 22:09:22 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

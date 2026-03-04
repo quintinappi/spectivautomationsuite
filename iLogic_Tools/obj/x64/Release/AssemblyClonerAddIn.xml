@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AssemblyClonerAddIn
+</name>
+</assembly>
+<members>
+<member name="T:AssemblyClonerAddIn.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AssemblyClonerAddIn.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AssemblyClonerAddIn.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyCloner.UpdateAssemblyReferencesInOpenDoc(Inventor.AssemblyDocument)">
+ <summary>
+ Update assembly references while the document is OPEN in Inventor.
+ This matches Option 1 (Assembly_Renamer.vbs) flow - no "where is file?" dialogs.
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.AssemblyCloner.ProcessIDWFilesFromSource(System.String,System.String,System.String)">
+ <summary>
+ Process IDW files: Open from SOURCE, update references, SaveAs to DESTINATION.
+ This matches Option 9 (Assembly_Cloner.vbs) flow - avoids "non-unique project file names" dialog.
+ </summary>
+</member>
+<member name="T:AssemblyClonerAddIn.PartRenamer">
+ <summary>
+ Part Renamer - Renames parts in place using heritage method.
+ Matches Option 1 (Assembly_Renamer.vbs) flow but uses plugin's silent replacement.
+ NO COPYING - just rename and replace in same location.
+ </summary>
+</member>
+<member name="M:AssemblyClonerAddIn.PartRenamer.IsHeritageRenamed(System.String)">
+ <summary>
+ Check if filename is already a heritage-renamed file.
+ Heritage pattern: starts with PREFIX-###-GROUP (e.g., NCRH01-000-PL1.ipt, PLANT1-000-B23.ipt)
+ NOT heritage: Support Beam-2_Clone_PLANT1-000-PL1.ipt (contains prefix but doesn't start with it)
+ </summary>
+</member>
+</members>
+</doc>

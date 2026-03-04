@@ -1,0 +1,220 @@
+Microsoft (R) Windows Script Host Version 10.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+BASE VIEW TITLE UPDATER
+=======================
+Updating titles in: MGY-200-DRD-05.idw
+
+WARNING: Cannot find main assembly - quantities will show as 1
+
+SHEET 1: Sheet:1
+--------------------
+  [DEBUG] Total views on this sheet: 8
+  [DEBUG] View #1: ELEVATION - IsBase: True
+  ASSEMBLY: ELEVATION -> DM UNDERPAN (Qty: 1)
+    SUCCESS: Title updated
+  [DEBUG] View #2: SIDE VIEW - IsBase: False
+  NON-BASE (ASSEMBLY): SIDE VIEW -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #3: PLAN - IsBase: False
+  NON-BASE (ASSEMBLY): PLAN -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #4: A - IsBase: False
+  NON-BASE (ASSEMBLY): A -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #5: B - IsBase: False
+  NON-BASE (ASSEMBLY): B -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #6: C - IsBase: False
+  NON-BASE (ASSEMBLY): C -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #7: D - IsBase: False
+  NON-BASE (ASSEMBLY): D -> DM UNDERPAN
+    SUCCESS: Title updated
+  [DEBUG] View #8: F - IsBase: False
+  NON-BASE (ASSEMBLY): F -> DM UNDERPAN
+    SUCCESS: Title updated
+
+SHEET 2: Sheet:2
+--------------------
+  [DEBUG] Total views on this sheet: 4
+  [DEBUG] View #1: ISO VIEW - IsBase: True
+  ASSEMBLY: ISO VIEW -> DM UNDERPAN (Qty: 1)
+    SUCCESS: Title updated
+  [DEBUG] View #2: ISO VIEW - IsBase: True
+  ASSEMBLY: ISO VIEW -> DM UNDERPAN (Qty: 1)
+    SUCCESS: Title updated
+  [DEBUG] View #3: ISO VIEW BOTTOM - IsBase: True
+  ASSEMBLY: ISO VIEW BOTTOM -> DM UNDERPAN (Qty: 1)
+    SUCCESS: Title updated
+  [DEBUG] View #4: ISO VIEW BOTTOM - IsBase: True
+  ASSEMBLY: ISO VIEW BOTTOM -> DM UNDERPAN (Qty: 1)
+    SUCCESS: Title updated
+
+SHEET 3: Sheet:3
+--------------------
+  [DEBUG] Total views on this sheet: 22
+  [DEBUG] View #1: 5 - IsBase: True
+  PART: 5 -> NSCR05-780-PL1
+    SUCCESS: Title updated
+  [DEBUG] View #2: 6 - IsBase: True
+  PART: 6 -> NSCR05-780-PL2
+    SUCCESS: Title updated
+  [DEBUG] View #3: 7 - IsBase: True
+  PART: 7 -> NSCR05-780-PL3
+    SUCCESS: Title updated
+  [DEBUG] View #4: 8 - IsBase: True
+  PART: 8 -> NSCR05-780-PL4
+    SUCCESS: Title updated
+  [DEBUG] View #5: 9 - IsBase: True
+  PART: 9 -> NSCR05-780-PL5
+    SUCCESS: Title updated
+  [DEBUG] View #6: 10 - IsBase: True
+  PART: 10 -> NSCR05-780-PL6
+    SUCCESS: Title updated
+  [DEBUG] View #7: 11 - IsBase: True
+  PART: 11 -> NSCR05-780-PL7
+    SUCCESS: Title updated
+  [DEBUG] View #8: 12 - IsBase: True
+  PART: 12 -> NSCR05-780-PL8
+    SUCCESS: Title updated
+  [DEBUG] View #9: 13 - IsBase: True
+  PART: 13 -> NSCR05-780-PL9
+    SUCCESS: Title updated
+  [DEBUG] View #10: 14 - IsBase: True
+  PART: 14 -> NSCR05-780-PL10
+    SUCCESS: Title updated
+  [DEBUG] View #11: 15 - IsBase: True
+  PART: 15 -> NSCR05-780-A4
+    SUCCESS: Title updated
+  [DEBUG] View #12: 16 - IsBase: False
+  NON-BASE (PART): 16 -> NSCR05-780-A4
+    SUCCESS: Title updated
+  [DEBUG] View #13: 17 - IsBase: True
+  PART: 17 -> NSCR05-780-A1
+    SUCCESS: Title updated
+  [DEBUG] View #14: 18 - IsBase: False
+  NON-BASE (PART): 18 -> NSCR05-780-A1
+    SUCCESS: Title updated
+  [DEBUG] View #15: 19 - IsBase: True
+  PART: 19 -> NSCR05-780-A2
+    SUCCESS: Title updated
+  [DEBUG] View #16: 20 - IsBase: False
+  NON-BASE (PART): 20 -> NSCR05-780-A2
+    SUCCESS: Title updated
+  [DEBUG] View #17: 21 - IsBase: True
+  PART: 21 -> NSCR05-780-A3
+    SUCCESS: Title updated
+  [DEBUG] View #18: 22 - IsBase: False
+  NON-BASE (PART): 22 -> NSCR05-780-A3
+    SUCCESS: Title updated
+  [DEBUG] View #19: 23 - IsBase: True
+  PART: 23 -> NSCR05-780-PL11
+    SUCCESS: Title updated
+  [DEBUG] View #20: 24 - IsBase: True
+  PART: 24 -> NSCR05-780-PL12
+    SUCCESS: Title updated
+  [DEBUG] View #21: 25 - IsBase: True
+  PART: 25 -> NSCR05-780-PL13
+    SUCCESS: Title updated
+  [DEBUG] View #22: 26 - IsBase: True
+  PART: 26 -> NSCR05-780-PL14
+    SUCCESS: Title updated
+
+SHEET 4: Sheet:4
+--------------------
+  [DEBUG] Total views on this sheet: 30
+  [DEBUG] View #1: 27 - IsBase: True
+  PART: 27 -> NSCR05-780-FL1
+    SUCCESS: Title updated
+  [DEBUG] View #2: 28 - IsBase: True
+  PART: 28 -> NSCR05-780-FL2
+    SUCCESS: Title updated
+  [DEBUG] View #3: 29 - IsBase: True
+  PART: 29 -> NSCR05-780-FL3
+    SUCCESS: Title updated
+  [DEBUG] View #4: 30 - IsBase: True
+  PART: 30 -> NSCR05-780-FL4
+    SUCCESS: Title updated
+  [DEBUG] View #5: 32 - IsBase: True
+  PART: 32 -> NSCR05-780-FL5
+    SUCCESS: Title updated
+  [DEBUG] View #6: 33 - IsBase: True
+  PART: 33 -> NSCR05-780-FL59
+    SUCCESS: Title updated
+  [DEBUG] View #7: 34 - IsBase: True
+  PART: 34 -> NSCR05-780-FL6
+    SUCCESS: Title updated
+  [DEBUG] View #8: 35 - IsBase: True
+  PART: 35 -> NSCR05-780-FL7
+    SUCCESS: Title updated
+  [DEBUG] View #9: 36 - IsBase: True
+  PART: 36 -> NSCR05-780-FL8
+    SUCCESS: Title updated
+  [DEBUG] View #10: 37 - IsBase: True
+  PART: 37 -> NSCR05-780-FL9
+    SUCCESS: Title updated
+  [DEBUG] View #11: 38 - IsBase: True
+  PART: 38 -> NSCR05-780-FL10
+    SUCCESS: Title updated
+  [DEBUG] View #12: 39 - IsBase: True
+  PART: 39 -> NSCR05-780-FL11
+    SUCCESS: Title updated
+  [DEBUG] View #13: 40 - IsBase: True
+  PART: 40 -> NSCR05-780-FL12
+    SUCCESS: Title updated
+  [DEBUG] View #14: 42 - IsBase: True
+  PART: 42 -> NSCR05-780-FL36
+    SUCCESS: Title updated
+  [DEBUG] View #15: 47 - IsBase: True
+  PART: 47 -> NSCR05-780-FL13
+    SUCCESS: Title updated
+  [DEBUG] View #16: 50 - IsBase: True
+  PART: 50 -> NSCR05-780-FL14
+    SUCCESS: Title updated
+  [DEBUG] View #17: 51 - IsBase: True
+  PART: 51 -> NSCR05-780-FL15
+    SUCCESS: Title updated
+  [DEBUG] View #18: 52 - IsBase: True
+  PART: 52 -> NSCR05-780-FL16
+    SUCCESS: Title updated
+  [DEBUG] View #19: 53 - IsBase: True
+  PART: 53 -> NSCR05-780-FL17
+    SUCCESS: Title updated
+  [DEBUG] View #20: 54 - IsBase: True
+  PART: 54 -> NSCR05-780-FL18
+    SUCCESS: Title updated
+  [DEBUG] View #21: 55 - IsBase: True
+  PART: 55 -> NSCR05-780-FL56
+    SUCCESS: Title updated
+  [DEBUG] View #22: 59 - IsBase: True
+  PART: 59 -> NSCR05-780-FL19
+    SUCCESS: Title updated
+  [DEBUG] View #23: 60 - IsBase: True
+  PART: 60 -> NSCR05-780-FL20
+    SUCCESS: Title updated
+  [DEBUG] View #24: 61 - IsBase: True
+  PART: 61 -> NSCR05-780-FL55
+    SUCCESS: Title updated
+  [DEBUG] View #25: 62 - IsBase: True
+  PART: 62 -> NSCR05-780-FL21
+    SUCCESS: Title updated
+  [DEBUG] View #26: 63 - IsBase: True
+  PART: 63 -> NSCR05-780-FL22
+    SUCCESS: Title updated
+  [DEBUG] View #27: 64 - IsBase: True
+  PART: 64 -> NSCR05-780-PL16
+    SUCCESS: Title updated
+  [DEBUG] View #28: 65 - IsBase: True
+  PART: 65 -> NSCR05-780-PL17
+    SUCCESS: Title updated
+  [DEBUG] View #29: 66 - IsBase: True
+  PART: 66 -> NSCR05-780-PL15
+    SUCCESS: Title updated
+  [DEBUG] View #30: G - IsBase: False
+  NON-BASE (PART): G -> NSCR05-780-FL1
+    SUCCESS: Title updated
+
+===========================
+SUMMARY: Updated 64 view titles (base + non-base)
+===========================

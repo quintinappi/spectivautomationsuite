@@ -1,0 +1,43 @@
+9/30/2025 10:13:17 PM - === STEP 2: IDW REFERENCE UPDATES - ASSEMBLY-BY-ASSEMBLY METHOD (OPTION B) ===
+9/30/2025 10:13:17 PM - Processing: Structure.iam → Sub-assemblies → IDW Updates
+9/30/2025 10:13:31 PM - SUCCESS: Connected to existing Inventor instance
+9/30/2025 10:13:31 PM - MAPPING: Loading from C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt
+9/30/2025 10:13:31 PM - MAPPING: Loaded 329 entries
+9/30/2025 10:13:31 PM - STRUCTURE: Processing Structure.iam [Primary]
+9/30/2025 10:13:31 PM - STRUCTURE: Path - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Structure.iam
+9/30/2025 10:13:31 PM - STRUCTURE: Found 433 occurrences
+9/30/2025 10:13:31 PM - 
+9/30/2025 10:13:31 PM - === PROCESSING SUB-ASSEMBLIES ===
+9/30/2025 10:13:31 PM - 
+9/30/2025 10:13:31 PM - ---
+9/30/2025 10:13:31 PM - ASSEMBLY: Column-1.iam
+9/30/2025 10:13:31 PM - FOLDER: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1
+9/30/2025 10:13:31 PM - IDW FOUND: MGY-100-SCR-01-50.idw
+9/30/2025 10:13:34 PM - IDW: Opening MGY-100-SCR-01-50.idw
+9/30/2025 10:13:35 PM - IDW: Found 5 referenced files
+9/30/2025 10:13:35 PM - IDW:   ℹ No mapping for Column-1.iam
+9/30/2025 10:13:35 PM - IDW:   Updating Part1.ipt → NCRH01-000-PL1.ipt
+9/30/2025 10:13:35 PM - IDW:   ✓ Updated
+9/30/2025 10:13:35 PM - IDW:   Updating Part2 203 x 203 x 46 H.ipt → NCRH01-000-B1.ipt
+9/30/2025 10:13:35 PM - IDW:   ✓ Updated
+9/30/2025 10:13:35 PM - IDW:   Updating Part3.ipt → NCRH01-000-PL2.ipt
+9/30/2025 10:13:35 PM - IDW:   ✓ Updated
+9/30/2025 10:13:35 PM - IDW:   Updating Part4.ipt → NCRH01-000-PL3.ipt
+9/30/2025 10:13:35 PM - IDW:   ✓ Updated
+9/30/2025 10:13:36 PM - IDW: Saved with 4 reference updates
+9/30/2025 10:13:36 PM - IDW FOUND: MGY-100-SCR-01-50.idw
+9/30/2025 10:13:36 PM - IDW: Opening MGY-100-SCR-01-50.idw
+9/30/2025 10:13:36 PM - IDW: Found 5 referenced files
+9/30/2025 10:13:36 PM - IDW:   ℹ No mapping for Column-1.iam
+9/30/2025 10:13:36 PM - IDW:   ℹ No mapping for NCRH01-000-B1.ipt
+9/30/2025 10:13:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL1.ipt
+9/30/2025 10:13:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL2.ipt
+9/30/2025 10:13:36 PM - IDW:   ℹ No mapping for NCRH01-000-PL3.ipt
+9/30/2025 10:13:36 PM - IDW: Saved with 0 reference updates
+9/30/2025 10:13:36 PM - ✓ SUCCESS: Column-1.iam
+9/30/2025 10:13:37 PM - 
+9/30/2025 10:13:37 PM - === STEP 2 COMPLETE ===
+9/30/2025 10:13:37 PM - Total assemblies processed: 1
+9/30/2025 10:13:37 PM - Successful: 1
+9/30/2025 10:13:37 PM - Failed/Skipped: 0
+9/30/2025 10:13:37 PM - 

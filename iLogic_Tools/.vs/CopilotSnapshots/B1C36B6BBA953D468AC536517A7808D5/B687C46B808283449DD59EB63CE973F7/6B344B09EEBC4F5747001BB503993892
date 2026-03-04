@@ -1,0 +1,274 @@
+﻿' PlateDocumentSettings.vb
+' Automatically applies Document Settings to plate parts to eliminate decimal precision
+' Runs inside Inventor's process with full event access for proper BOM refresh
+' Author: Quintin de Bruin © 2026
+
+Imports Inventor
+Imports System
+Imports System.Runtime.InteropServices
+Imports System.Windows.Forms
+
+Public Class PlateDocumentSettings
+    Private m_InventorApp As Inventor.Application
+    Private WithEvents m_ApplicationEvents As ApplicationEvents
+    Private WithEvents m_UserInterfaceEvents As UserInterfaceEvents
+    
+    ' Constants for Document Settings
+    Private Const DISPLAY_AS_VALUE As Integer = 34821
+    Private Const kSheetMetalSubType As String = "{9C464203-9BAE-11D3-8BAD-0060B0CE6BB4}"
+    
+    Public Sub New(ByVal inventorApp As Inventor.Application)
+        m_InventorApp = inventorApp
+        
+        ' Hook into application events
+        m_ApplicationEvents = m_InventorApp.ApplicationEvents
+        m_UserInterfaceEvents = m_InventorApp.UserInterfaceManager.UserInterfaceEvents
+        
+        AddHandler m_ApplicationEvents.OnSaveDocument, AddressOf OnSaveDocument
+        AddHandler m_ApplicationEvents.OnCloseDocument, AddressOf OnCloseDocument
+    End Sub
+    
+    Private Sub OnSaveDocument(ByVal documentObject As _Document, 
+                               ByVal beforeOrAfter As EventTimingEnum, 
+                               ByVal context As NameValueMap, 
+                               ByRef handlingCode As HandlingCodeEnum) Handles m_ApplicationEvents.OnSaveDocument
+        
+        ' Only process BEFORE save events
+        If beforeOrAfter <> EventTimingEnum.kBefore Then
+            Exit Sub
+        End If
+        
+        Try
+            ' Check if this is a part document
+            If documentObject.DocumentType <> DocumentTypeEnum.kPartDocumentObject Then
+                Exit Sub
+            End If
+            
+            Dim partDoc As PartDocument = CType(documentObject, PartDocument)
+            
+            ' Check if this is a sheet metal part
+            If partDoc.SubType <> kSheetMetalSubType Then
+                Exit Sub
+            End If
+            
+            ' Check if this is a plate part (contains "PL" in Part Number or Description)
+            If Not IsPlatePart(partDoc) Then
+                Exit Sub
+            End If
+            
+            ' Apply the Document Settings fix
+            ApplyDocumentSettingsForZeroDecimals(partDoc)
+            
+            ' Force BOM refresh in parent assemblies
+            ForceBOMRefreshInParentAssemblies(partDoc)
+            
+        Catch ex As Exception
+            ' Log error but don't block save
+            System.Diagnostics.Debug.WriteLine("PlateDocumentSettings.OnSaveDocument Error: " & ex.Message)
+        End Try
+    End Sub
+    
+    Private Sub OnCloseDocument(ByVal documentObject As _Document, 
+                                ByVal fullFileName As String, 
+                                ByVal beforeOrAfter As EventTimingEnum, 
+                                ByVal context As NameValueMap, 
+                                ByRef handlingCode As HandlingCodeEnum) Handles m_ApplicationEvents.OnCloseDocument
+        ' Future: Could add cleanup logic here if needed
+    End Sub
+    
+    Private Function IsPlatePart(ByVal partDoc As PartDocument) As Boolean
+        Try
+            ' Check Part Number
+            Dim partNumber As String = ""
+            Try
+                Dim propSet As PropertySet = partDoc.PropertySets.Item("Design Tracking Properties")
+                partNumber = propSet.Item("Part Number").Value.ToString()
+            Catch
+                ' Part Number not found, try Description
+            End Try
+            
+            If partNumber.ToUpper().Contains("PL") OrElse partNumber.ToUpper().Contains("S355JR") Then
+                Return True
+            End If
+            
+            ' Check Description
+            Dim description As String = ""
+            Try
+                Dim propSet As PropertySet = partDoc.PropertySets.Item("Design Tracking Properties")
+                description = propSet.Item("Description").Value.ToString()
+            Catch
+                ' Description not found
+            End Try
+            
+            If description.ToUpper().Contains("PL") OrElse description.ToUpper().Contains("S355JR") Then
+                Return True
+            End If
+            
+            ' Check if has PLATE LENGTH or PLATE WIDTH custom properties (already processed)
+            Try
+                Dim customProps As PropertySet = partDoc.PropertySets.Item("Inventor User Defined Properties")
+                
+                For Each prop As [Property] In customProps
+                    If prop.Name = "PLATE LENGTH" OrElse prop.Name = "PLATE WIDTH" Then
+                        Return True
+                    End If
+                Next
+            Catch
+                ' No custom properties
+            End Try
+            
+            Return False
+            
+        Catch ex As Exception
+            System.Diagnostics.Debug.WriteLine("IsPlatePart Error: " & ex.Message)
+            Return False
+        End Try
+    End Function
+    
+    Private Sub ApplyDocumentSettingsForZeroDecimals(ByVal partDoc As PartDocument)
+        Try
+            System.Diagnostics.Debug.WriteLine("PlateDocumentSettings: Applying zero-decimal fix to " & partDoc.DisplayName)
+            
+            Dim params As Parameters = partDoc.ComponentDefinition.Parameters
+            
+            ' Setting 1: Linear Dimension Precision = 0 decimals
+            Try
+                params.LinearDimensionPrecision = 0
+                System.Diagnostics.Debug.WriteLine("Set LinearDimensionPrecision = 0 for " & partDoc.DisplayName)
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Failed to set LinearDimensionPrecision: " & ex.Message)
+            End Try
+            
+            ' Setting 2: Modeling Dimension Display = "Display as value" (34821)
+            Try
+                params.DimensionDisplayType = CType(DISPLAY_AS_VALUE, DimensionDisplayTypeEnum)
+                System.Diagnostics.Debug.WriteLine("Set DimensionDisplayType = 34821 for " & partDoc.DisplayName)
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Failed to set DimensionDisplayType: " & ex.Message)
+            End Try
+            
+            ' Setting 3: Default Parameter Input Display = "Display as expression" (True)
+            Try
+                params.DisplayParameterAsExpression = True
+                System.Diagnostics.Debug.WriteLine("Set DisplayParameterAsExpression = True for " & partDoc.DisplayName)
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Failed to set DisplayParameterAsExpression: " & ex.Message)
+            End Try
+            
+            System.Diagnostics.Debug.WriteLine("Document Settings applied successfully to " & partDoc.DisplayName)
+            
+        Catch ex As Exception
+            System.Diagnostics.Debug.WriteLine("ApplyDocumentSettingsForZeroDecimals Error: " & ex.Message)
+        End Try
+    End Sub
+    
+    Private Sub ForceBOMRefreshInParentAssemblies(ByVal partDoc As PartDocument)
+        Try
+            ' Find all open assemblies that reference this part
+            Dim docs As Documents = m_InventorApp.Documents
+            
+            For Each doc As Document In docs
+                If doc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                    Dim asmDoc As AssemblyDocument = CType(doc, AssemblyDocument)
+                    
+                    ' Check if this assembly references the part
+                    If AssemblyReferencesPart(asmDoc, partDoc.FullFileName) Then
+                        RefreshAssemblyBOM(asmDoc)
+                    End If
+                End If
+            Next
+            
+        Catch ex As Exception
+            System.Diagnostics.Debug.WriteLine("ForceBOMRefreshInParentAssemblies Error: " & ex.Message)
+        End Try
+    End Sub
+    
+    Private Function AssemblyReferencesPart(ByVal asmDoc As AssemblyDocument, ByVal partPath As String) As Boolean
+        Try
+            Dim occurrences As ComponentOccurrences = asmDoc.ComponentDefinition.Occurrences
+            
+            For Each occ As ComponentOccurrence In occurrences
+                If Not occ.Suppressed Then
+                    Dim doc As Document = occ.Definition.Document
+                    
+                    If doc.FullFileName.Equals(partPath, StringComparison.OrdinalIgnoreCase) Then
+                        Return True
+                    End If
+                End If
+            Next
+            
+            Return False
+            
+        Catch ex As Exception
+            System.Diagnostics.Debug.WriteLine("AssemblyReferencesPart Error: " & ex.Message)
+            Return False
+        End Try
+    End Function
+    
+    Private Sub RefreshAssemblyBOM(ByVal asmDoc As AssemblyDocument)
+        Try
+            System.Diagnostics.Debug.WriteLine("Forcing BOM refresh for assembly: " & asmDoc.DisplayName)
+            
+            Dim compDef As AssemblyComponentDefinition = asmDoc.ComponentDefinition
+            
+            ' Method 1: Deep rebuild
+            Try
+                asmDoc.Rebuild2(True)
+                System.Diagnostics.Debug.WriteLine("  Rebuild2 complete")
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("  Rebuild2 failed: " & ex.Message)
+            End Try
+            
+            ' Method 2: Toggle BOM views to force cache refresh
+            Try
+                Dim bom As BOM = compDef.BOM
+                
+                If Not bom Is Nothing Then
+                    ' Toggle StructuredView
+                    If bom.StructuredViewEnabled Then
+                        Dim wasEnabled As Boolean = bom.StructuredViewEnabled
+                        bom.StructuredViewEnabled = False
+                        bom.StructuredViewEnabled = wasEnabled
+                        System.Diagnostics.Debug.WriteLine("  Toggled StructuredView")
+                    End If
+                    
+                    ' Toggle PartsOnlyView
+                    If bom.PartsOnlyViewEnabled Then
+                        Dim wasEnabled As Boolean = bom.PartsOnlyViewEnabled
+                        bom.PartsOnlyViewEnabled = False
+                        bom.PartsOnlyViewEnabled = wasEnabled
+                        System.Diagnostics.Debug.WriteLine("  Toggled PartsOnlyView")
+                    End If
+                End If
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("  BOM toggle failed: " & ex.Message)
+            End Try
+            
+            ' Method 3: Force update on assembly
+            Try
+                asmDoc.Update2(True)
+                System.Diagnostics.Debug.WriteLine("  Update2 complete")
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("  Update2 failed: " & ex.Message)
+            End Try
+            
+            System.Diagnostics.Debug.WriteLine("BOM refresh complete for " & asmDoc.DisplayName)
+            
+        Catch ex As Exception
+            System.Diagnostics.Debug.WriteLine("RefreshAssemblyBOM Error: " & ex.Message)
+        End Try
+    End Sub
+    
+    Public Sub Cleanup()
+        ' Remove event handlers
+        If Not m_ApplicationEvents Is Nothing Then
+            RemoveHandler m_ApplicationEvents.OnSaveDocument, AddressOf OnSaveDocument
+            RemoveHandler m_ApplicationEvents.OnCloseDocument, AddressOf OnCloseDocument
+        End If
+        
+        m_ApplicationEvents = Nothing
+        m_UserInterfaceEvents = Nothing
+        m_InventorApp = Nothing
+    End Sub
+    
+End Class

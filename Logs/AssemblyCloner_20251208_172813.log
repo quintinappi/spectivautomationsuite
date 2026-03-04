@@ -1,0 +1,52 @@
+2025-12-08 17:28:13 | === ASSEMBLY CLONER ===
+2025-12-08 17:28:13 | Copy assembly with all parts to new isolated location
+2025-12-08 17:28:36 | SUCCESS: Connected to existing Inventor instance
+2025-12-08 17:28:36 | STEP 1: Detecting open assembly
+2025-12-08 17:28:36 | DETECTED: Access Walkway-2.iam
+2025-12-08 17:28:36 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\Access Walkway-2.iam
+2025-12-08 17:28:39 | STEP 2: Getting destination folder from user
+2025-12-08 17:28:53 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-3
+2025-12-08 17:28:53 | New assembly name will be: Access Walkway-3.iam
+2025-12-08 17:28:53 | STEP 3: Asking about heritage renaming
+2025-12-08 17:28:54 | PLANT: Getting plant section naming convention from user
+2025-12-08 17:29:00 | PLANT: Using prefix: WALKWAY-3-
+2025-12-08 17:29:00 | STEP 4: Analyzing assembly structure
+2025-12-08 17:29:00 | COLLECT: Scanning assembly for all referenced parts...
+2025-12-08 17:29:00 | COLLECT: Part1 TFC.ipt (TFC178x54x15)
+2025-12-08 17:29:00 | COLLECT: Part7 TFC.ipt (TFC178x54x15)
+2025-12-08 17:29:00 | COLLECT: Part2 Stair End Plate.ipt (PL 10mm S355JR)
+2025-12-08 17:29:00 | COLLECT: Part3 TFC.ipt (TFC178x54x15)
+2025-12-08 17:29:00 | COLLECT: Part4 Stanchion Plate.ipt (PL 10mm S355JR)
+2025-12-08 17:29:00 | COLLECT: Found 5 unique parts
+2025-12-08 17:29:00 | ANALYZE: Found 5 unique parts to copy
+2025-12-08 17:29:00 | STEP 5: Grouping components for heritage naming
+2025-12-08 17:29:00 | GROUP: Grouping parts for heritage naming...
+2025-12-08 17:29:00 | GROUP: Created 2 groups
+2025-12-08 17:29:00 | SCHEME: CH -> WALKWAY-3-CH{N}
+2025-12-08 17:29:00 | SCHEME: PL -> WALKWAY-3-PL{N}
+2025-12-08 17:29:00 | STEP 6: Copying assembly to destination
+2025-12-08 17:29:00 | Closing source assembly for safe copy...
+2025-12-08 17:29:00 | COPIED: Assembly Access Walkway-2.iam -> Access Walkway-3.iam
+2025-12-08 17:29:00 | STEP 7: Copying parts to destination
+2025-12-08 17:29:00 | COPIED: Part1 TFC.ipt -> WALKWAY-3-CH1.ipt
+2025-12-08 17:29:00 | COPIED: Part7 TFC.ipt -> WALKWAY-3-CH2.ipt
+2025-12-08 17:29:00 | COPIED: Part2 Stair End Plate.ipt -> WALKWAY-3-PL1.ipt
+2025-12-08 17:29:00 | COPIED: Part3 TFC.ipt -> WALKWAY-3-CH3.ipt
+2025-12-08 17:29:00 | COPIED: Part4 Stanchion Plate.ipt -> WALKWAY-3-PL2.ipt
+2025-12-08 17:29:00 | STEP 8: Copying IDW files
+2025-12-08 17:29:02 | COPIED IDW: MGY-200-DRD-01-11.idw -> MGY-200-DRD-01-12.idw
+2025-12-08 17:29:02 | STEP 9: Updating references in copied assembly
+2025-12-08 17:29:02 | UPDATE: Updating assembly references to local copies...
+2025-12-08 17:29:02 | UPDATE: Part1 TFC.ipt -> WALKWAY-3-CH1.ipt
+2025-12-08 17:29:03 | UPDATE: Part7 TFC.ipt -> WALKWAY-3-CH2.ipt
+2025-12-08 17:29:03 | UPDATE: Part2 Stair End Plate.ipt -> WALKWAY-3-PL1.ipt
+2025-12-08 17:29:03 | UPDATE: No mapping for WALKWAY-3-PL1.ipt
+2025-12-08 17:29:03 | UPDATE: Part3 TFC.ipt -> WALKWAY-3-CH3.ipt
+2025-12-08 17:29:03 | UPDATE: No mapping for WALKWAY-3-CH3.ipt
+2025-12-08 17:29:03 | UPDATE: Part4 Stanchion Plate.ipt -> WALKWAY-3-PL2.ipt
+2025-12-08 17:29:03 | UPDATE: No mapping for WALKWAY-3-PL1.ipt
+2025-12-08 17:29:03 | SUCCESS: Saved updated assembly
+2025-12-08 17:29:03 | STEP 10: Updating IDW references
+2025-12-08 17:29:03 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2025-12-08 17:29:03 | IDW UPDATE: Error: Object required
+2025-12-08 17:29:03 | IDW UPDATE (Inventor): Processing MGY-200-DRD-01-12.idw

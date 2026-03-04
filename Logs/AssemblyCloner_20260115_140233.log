@@ -1,0 +1,56 @@
+2026-01-15 14:02:33 | === ASSEMBLY CLONER ===
+2026-01-15 14:02:33 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 14:02:34 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 14:02:34 | STEP 1: Detecting open assembly
+2026-01-15 14:02:34 | DETECTED: Flood Box.iam
+2026-01-15 14:02:34 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 14:02:36 | STEP 2: Getting destination folder from user
+2026-01-15 14:02:38 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 14:02:38 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_140238.log
+2026-01-15 14:02:38 | New assembly name will be: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 14:02:38 | STEP 3: Asking about heritage renaming
+2026-01-15 14:02:39 | PLANT: Getting plant section naming convention from user
+2026-01-15 14:02:51 | PLANT: Using prefix: FLOODBOX-TEST-1-
+2026-01-15 14:02:51 | STEP 4: Analyzing assembly structure
+2026-01-15 14:02:51 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Support Frame.iam at ROOT
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Support Column.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: PART Part1 FB-C1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 14:02:52 | COLLECT: PART Part2 203x133x25 FB-C1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: PART Part1 FB-B1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 14:02:52 | COLLECT: PART Part2 203x133x25 FB-B1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Support Beam-3.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: PART Part2 203x133x25 FB-B3.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-3.iam
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Support Beam-2.iam at ROOT>Support Frame.iam
+2026-01-15 14:02:52 | COLLECT: PART Part1 FB-B2.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 14:02:52 | COLLECT: PART Part2 203x133x25 FB-B2.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 14:02:52 | COLLECT: Skipping suppressed occurrence Flood Chute Development:1 at ROOT
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-15 14:02:52 | COLLECT: SUB-ASSEMBLY Flood Chute.iam at ROOT
+2026-01-15 14:02:52 | COLLECT: PART Part1 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part2 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part3 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part4 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part5 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part6 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part7 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part8 (Part7 Angle MIR) FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part9 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part10 FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: PART Lug FB-C.ipt (PL 20mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 14:02:52 | COLLECT: Found 28 unique files
+2026-01-15 14:02:52 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-00.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-02.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-01-00.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-01-03.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 14:02:52 | COLLECT: DRAWING MGY-200-DRD-09-01-01.idw
+2026-01-15 14:02:52 | ANALYZE: Found 35 unique files to copy (parts + sub-assemblies + drawings)
+2026-01-15 14:02:52 | STEP 5: Grouping components for heritage naming
+2026-01-15 14:02:52 | GROUP: Grouping parts for heritage naming...

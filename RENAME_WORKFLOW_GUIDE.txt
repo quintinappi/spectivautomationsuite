@@ -1,0 +1,111 @@
+=============================================================================================================================
+           INVENTOR PART RENAMING WORKFLOW GUIDE
+=============================================================================================================================
+
+This guide shows you exactly when to use each tool for renaming assembly parts.
+
+=============================================================================================================================
+                           STANDARD RENAME WORKFLOW
+=============================================================================================================================
+
+STEP 1: Assembly Renamer (ALWAYS REQUIRED)
+  - WHAT: Renames all parts using heritage naming convention
+  - OUTPUT: Creates STEP_1_MAPPING.txt automatically in assembly folder
+  - ACTION: Run this FIRST on your renamed assembly
+  - REQUIRED: YES
+
+STEP 2: Update Same-Folder Derived Parts (OPTIONAL)
+  - WHAT: Fixes derived parts that are in the same folder
+  - WHEN TO USE: ONLY if you have derived parts
+  - ACTION: Run if your assembly has derived components
+  - REQUIRED: NO (only if needed)
+
+STEP 3: iLogic Patcher (OPTIONAL)
+  - WHAT: Updates component names in iLogic rules
+  - WHEN TO USE: ONLY if assembly has iLogic rules
+  - ACTION: Run if assembly uses iLogic rules
+  - REQUIRED: NO (only if needed)
+
+STEP 4: IDW Updates (ALWAYS REQUIRED)
+  - WHAT: Updates ALL IDW drawings to reference new part names
+  - METHOD: Uses STEP_1_MAPPING.txt created in Step 1
+  - ACTION: Run this to fix all drawings
+  - REQUIRED: YES
+
+STEP 5: Title Automation (OPTIONAL)
+  - WHAT: Updates IDW drawing sheet titles
+  - ACTION: Run after IDW updates complete
+  - REQUIRED: NO
+
+
+=============================================================================================================================
+                        TROUBLESHOOTING TOOLS
+=============================================================================================================================
+
+Smart Prefix Scanner
+  - WHAT: Scans model to detect duplicate part numbers
+  - WHEN TO USE: BEFORE renaming (prevention)
+  - ACTION: Run before Assembly Renamer to check for duplicates
+
+Emergency IDW Fixer
+  - WHAT: Fixes specific IDW folders missed by Step 4
+  - WHEN TO USE: If IDW Updates didn't catch all your drawings
+  - ACTION: Run after Step 4 if some IDWs still show broken references
+
+IDW-Assembly Synchronizer
+  - WHAT: Syncs IDWs when they reference renamed assembly name
+  - WHEN TO USE: If IDWs reference old assembly name (not parts)
+  - ACTION: Run when IDWs show "assembly not found" errors
+
+
+=============================================================================================================================
+                           EXAMPLE WORKFLOW
+=============================================================================================================================
+
+Scenario 1: Simple rename (no iLogic, no derived parts)
+  1. Assembly Renamer
+  4. IDW Updates
+
+Scenario 2: Rename with iLogic rules
+  1. Assembly Renamer
+  3. iLogic Patcher
+  4. IDW Updates
+
+Scenario 3: Rename with derived parts
+  1. Assembly Renamer
+  2. Update Same-Folder Derived Parts
+  4. IDW Updates
+
+Scenario 4: Full rename (iLogic + derived parts)
+  1. Assembly Renamer
+  2. Update Same-Folder Derived Parts
+  3. iLogic Patcher
+  4. IDW Updates
+
+
+=============================================================================================================================
+                              TIPS
+=============================================================================================================================
+
+1. ALWAYS run Assembly Renamer first - it creates the mapping file
+
+2. ALWAYS run IDW Updates last - it needs the use the mapping file
+
+3. The mapping file (STEP_1_MAPPING.txt) is saved automatically in assembly folder
+
+4. If IDW Updates misses some drawings, use Emergency IDW Fixer
+
+5. If assembly file was renamed but IDWs show "assembly not found", use IDW-Assembly Synchronizer
+
+
+=============================================================================================================================
+                        CRITICAL BUG FIXES
+=============================================================================================================================
+
+The SaveMappingFile function has been fixed:
+- Assembly directory is now captured EARLY in the script
+- Mapping file saves automatically to correct location
+- No more manual extraction needed!
+
+
+=============================================================================================================================

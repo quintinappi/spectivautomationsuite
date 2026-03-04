@@ -1,0 +1,1162 @@
+2026-02-16 13:16:06 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-16 13:16:06 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-16 13:16:07 | SUCCESS: Connected to existing Inventor instance
+2026-02-16 13:16:07 | STEP 1: Detecting open assembly and analyzing components
+2026-02-16 13:16:07 | DETECTED: Document type: 12291
+2026-02-16 13:16:07 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-16 13:16:07 | DETECTED: Active assembly - N1SCR03-700.iam
+2026-02-16 13:16:07 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\N1SCR03-700.iam
+2026-02-16 13:16:08 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-16 13:16:08 | CONFIRMED: 13 occurrences to process
+2026-02-16 13:16:08 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute
+2026-02-16 13:16:08 | STEP 0: Selecting mapping file location FIRST
+2026-02-16 13:16:08 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-16 13:16:20 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\20. N1SCR03 - Deslime Screen Station\700 Head Chute\STEP_1_MAPPING.txt
+2026-02-16 13:16:20 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-16 13:16:21 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\20. N1SCR03 - Deslime Screen Station\700 Head Chute\STEP_1_MAPPING.txt
+2026-02-16 13:16:21 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-16 13:16:21 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-16 13:16:21 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-16 13:16:21 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute
+2026-02-16 13:16:21 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\STEP_0_AUDIT.txt
+2026-02-16 13:16:22 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-16 13:16:22 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\STEP_0_AUDIT.txt
+2026-02-16 13:16:22 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-16 13:16:22 | STEP 2: Flattening hierarchy and grouping components
+2026-02-16 13:16:22 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-16 13:16:22 | ANALYZE: Processing assembly - N1SCR03-700.iam (Level: ROOT)
+2026-02-16 13:16:22 | ANALYZE: Found 13 occurrences in N1SCR03-700.iam
+2026-02-16 13:16:22 | ANALYZE: RECURSING into sub-assembly - Top.iam
+2026-02-16 13:16:22 | ANALYZE: Processing assembly - Top.iam (Level: ROOT>Top.iam)
+2026-02-16 13:16:22 | ANALYZE: Found 28 occurrences in Top.iam
+2026-02-16 13:16:22 | ANALYZE: PART - Part1 HC-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: Created new group - PL
+2026-02-16 13:16:22 | ANALYZE: PART - Part2 HC-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part2 HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: PART - Part3 HC-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part4 HC-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part5 HC-T.ipt -> Description: PL 6mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part6 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: Created new group - A
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Angle HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Angle HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: PART - Part7 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: PART - Part8 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part9 (Part8 Angle HC-T MIR).ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part10 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part11 (Part10 Angle HC-T MIR).ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part12 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part13 (Part12 Angle HC-T MIR).ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part14 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part15 (Part14 Angle HC-T MIR).ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part16 Angle HC-T.ipt -> Description: L60x60x6 -> Group: A (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part17 HC-T.ipt -> Description: PL 10mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part18 Corner Gusset HC-T.ipt -> Description: PL 8mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part17 HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part18 Corner Gusset HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: PART - Lug HC-T.ipt -> Description: PL 20mm S355JR -> Group: PL (from Top.iam)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-T.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: RECURSING into sub-assembly - Middle.iam
+2026-02-16 13:16:22 | ANALYZE: Processing assembly - Middle.iam (Level: ROOT>Middle.iam)
+2026-02-16 13:16:22 | ANALYZE: Found 35 occurrences in Middle.iam
+2026-02-16 13:16:22 | ANALYZE: PART - Part1 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:22 | ANALYZE: DUPLICATE PART SKIPPED - Part1 HC-M.ipt (already processed)
+2026-02-16 13:16:22 | ANALYZE: PART - Part2 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part3 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:22 | ANALYZE: PART - Part4 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part5 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part6 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part7 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part8 HC-M.ipt -> Description: PL 6mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part9 Angle HC-M.ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part10 Angle HC-M.ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part11 (Part10 Angle HC-M MIR).ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part12 Angle HC-M.ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part13 Angle HC-M.ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Angle HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part14 Angle HC-M.ipt -> Description: L60x60x6 -> Group: A (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part15 HC-M.ipt -> Description: PL 10mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part16 Corner Gusset HC-M.ipt -> Description: PL 8mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part15 HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Corner Gusset HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Lug HC-M.ipt -> Description: PL 20mm S355JR -> Group: PL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part17 Stiffener HC-M.ipt -> Description: FL50x8 -> Group: FL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: Created new group - FL
+2026-02-16 13:16:23 | ANALYZE: PART - Part18 Stiffener HC-M.ipt -> Description: FL50x8 -> Group: FL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part19 Stiffener HC-M.ipt -> Description: FL50x8 -> Group: FL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part20 Stiffener HC-M.ipt -> Description: FL50x8 -> Group: FL (from Middle.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part18 Stiffener HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener HC-M.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: RECURSING into sub-assembly - Launder.iam
+2026-02-16 13:16:23 | ANALYZE: Processing assembly - Launder.iam (Level: ROOT>Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: Found 45 occurrences in Launder.iam
+2026-02-16 13:16:23 | ANALYZE: PART - Part1 HC-L.ipt -> Description: PL 6mm S355JR -> Group: PL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part1 HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part2 HC-L.ipt -> Description: PL 6mm S355JR -> Group: PL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part2 HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part3 HC-L.ipt -> Description: PL 6mm S355JR -> Group: PL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part4 Angle HC-L.ipt -> Description: L60x60x6 -> Group: A (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: PART - Part5 Angle HC-L.ipt -> Description: L60x60x6 -> Group: A (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Angle HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part5 Angle HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part6 Pipe HC-L.ipt -> Description: PIPE - 150NB S.A.B.S.62 - HEAVY -> Group: P (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: Created new group - P
+2026-02-16 13:16:23 | ANALYZE: PART - Part7 Flange HC-L.ipt -> Description: FLANGE - 150NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: Created new group - FLG
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Pipe HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Flange HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part9 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part8 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: PART - Part10 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:23 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part11 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part12 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part13 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part14 Stiffener HC-L.ipt -> Description: FL50x8 -> Group: FL (from Launder.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-L.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: RECURSING into sub-assembly - Bottom.iam
+2026-02-16 13:16:24 | ANALYZE: Processing assembly - Bottom.iam (Level: ROOT>Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: Found 51 occurrences in Bottom.iam
+2026-02-16 13:16:24 | ANALYZE: PART - Part1 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part2 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part3 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part4 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part5 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part5 HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part6 HC-B.ipt -> Description: PL 6mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part7 Angle HC-B.ipt -> Description: L60x60x6 -> Group: A (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part8 Angle HC-B.ipt -> Description: L60x60x6 -> Group: A (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part9 Angle HC-B.ipt -> Description: L60x60x6 -> Group: A (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part10 Stiffener HC-B.ipt -> Description: FL50x8 -> Group: FL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part11 Stiffener HC-B.ipt -> Description: FL50x8 -> Group: FL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part12 Stiffener HC-B.ipt -> Description: FL50x8 -> Group: FL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part13 Stiffener HC-B.ipt -> Description: FL50x8 -> Group: FL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part14 Stiffener HC-B.ipt -> Description: FL50x8 -> Group: FL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part13 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Lug HC-B.ipt -> Description: PL 20mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Lug HC-B.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: PART - Part15.ipt -> Description: PL 10mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: PART - Part16 Corner Gusset.ipt -> Description: PL 10mm S355JR -> Group: PL (from Bottom.iam)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part15.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Corner Gusset.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part15.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Corner Gusset.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part15.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Corner Gusset.ipt (already processed)
+2026-02-16 13:16:24 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-02-16 13:16:24 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 5 occurrences in Lid-1.iam
+2026-02-16 13:16:25 | ANALYZE: PART - Part1 HC-L1.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-1.iam)
+2026-02-16 13:16:25 | ANALYZE: PART - Part2 Pipe HC-L1.ipt -> Description: PIPE - 150NB S.A.B.S.62 - HEAVY -> Group: P (from Lid-1.iam)
+2026-02-16 13:16:25 | ANALYZE: PART - Part3 Flange HC-L1.ipt -> Description: FLANGE - 150NB S.A.B.S.1123 1000/3 12 TH'K -> Group: FLG (from Lid-1.iam)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part2 Pipe HC-L1.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Flange HC-L1.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-02-16 13:16:25 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 20 occurrences in Lid-2.iam
+2026-02-16 13:16:25 | ANALYZE: PART - Part1 HC-L2.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-2.iam)
+2026-02-16 13:16:25 | ANALYZE: PART - Part2 Stiffener HC-L2.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-02-16 13:16:25 | ANALYZE: PART - Part3 Stiffener HC-L2.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Stiffener HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: PART - Part4 Handle HC-L2.ipt -> Description: R16 -> Group: R (from Lid-2.iam)
+2026-02-16 13:16:25 | ANALYZE: Created new group - R
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Handle HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Handle HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Handle HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Handle HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Handle HC-L2.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: SKIPPING NCVR06-701-Bolted Connection1.iam (bolted connection assembly)
+2026-02-16 13:16:25 | ANALYZE: SKIPPING NCVR06-701-Bolted Connection2.iam (bolted connection assembly)
+2026-02-16 13:16:25 | ANALYZE: SKIPPING NCVR06-701-Bolted Connection3.iam (bolted connection assembly)
+2026-02-16 13:16:25 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: PART - Part1 Beam.ipt -> Description: UB203 x 133 x 25 -> Group: B (from Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Created new group - B
+2026-02-16 13:16:25 | ANALYZE: PART - Part2 End Plate.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: PART - Part3 End Plate.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part1 Beam.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part2 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part1 Beam.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part2 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: Processing assembly - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:16:25 | ANALYZE: Found 3 occurrences in Support Beam-1.iam
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part1 Beam.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part2 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: DUPLICATE PART SKIPPED - Part3 End Plate.ipt (already processed)
+2026-02-16 13:16:25 | ANALYZE: Recursive processing completed - Total unique parts processed: 81
+2026-02-16 13:16:25 | ANALYZE: Created 7 component groups
+2026-02-16 13:16:25 | DEBUG GROUP: 'PL' contains 35 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part1 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part2 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part3 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part4 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part5 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part17 HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part18 Corner Gusset HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Lug HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part1 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part2 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part3 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part4 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part5 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part6 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part7 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part8 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part15 HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part16 Corner Gusset HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Lug HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part1 HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part2 HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part3 HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part1 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part2 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part3 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part4 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part5 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part6 HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Lug HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part15.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part16 Corner Gusset.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part1 HC-L1.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part1 HC-L2.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part2 End Plate.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part3 End Plate.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'A' contains 22 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part6 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part7 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part8 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part9 (Part8 Angle HC-T MIR).ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part10 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part11 (Part10 Angle HC-T MIR).ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part12 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part13 (Part12 Angle HC-T MIR).ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part14 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part15 (Part14 Angle HC-T MIR).ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part16 Angle HC-T.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part9 Angle HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part10 Angle HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part11 (Part10 Angle HC-M MIR).ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part12 Angle HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part13 Angle HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part14 Angle HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part4 Angle HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part5 Angle HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part7 Angle HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part8 Angle HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part9 Angle HC-B.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'FL' contains 18 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part17 Stiffener HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part18 Stiffener HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part19 Stiffener HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part20 Stiffener HC-M.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part9 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part8 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part10 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part11 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part12 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part13 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part14 Stiffener HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part10 Stiffener HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part11 Stiffener HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part12 Stiffener HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part13 Stiffener HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part14 Stiffener HC-B.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part2 Stiffener HC-L2.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part3 Stiffener HC-L2.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'P' contains 2 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part6 Pipe HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part2 Pipe HC-L1.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'FLG' contains 2 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part7 Flange HC-L.ipt
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part3 Flange HC-L1.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'R' contains 1 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part4 Handle HC-L2.ipt
+2026-02-16 13:16:25 | DEBUG GROUP: 'B' contains 1 components:
+2026-02-16 13:16:25 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part1 Beam.ipt
+2026-02-16 13:16:25 | STEP 3: Getting plant section naming convention
+2026-02-16 13:16:25 | PLANT: Getting plant section naming convention from user
+2026-02-16 13:16:28 | PLANT: Using custom naming convention: N1SCR03-700-
+2026-02-16 13:16:29 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-16 13:16:30 | STEP 4: Showing component groups summary
+2026-02-16 13:16:30 | SUMMARY: Showing component groups to user
+2026-02-16 13:16:31 | SUMMARY: User approved component groups
+2026-02-16 13:16:31 | STEP 5: Getting user naming schemes for component groups
+2026-02-16 13:16:31 | INPUT: Getting user naming schemes for 7 groups
+2026-02-16 13:16:33 | INPUT: Group 'PL' -> Scheme: N1SCR03-700-PL{N}
+2026-02-16 13:16:34 | INPUT: Group 'A' -> Scheme: N1SCR03-700-A{N}
+2026-02-16 13:16:35 | INPUT: Group 'FL' -> Scheme: N1SCR03-700-FL{N}
+2026-02-16 13:16:36 | INPUT: Group 'P' -> Scheme: N1SCR03-700-P{N}
+2026-02-16 13:16:38 | INPUT: Group 'FLG' -> Scheme: N1SCR03-700-FLG{N}
+2026-02-16 13:16:39 | INPUT: Group 'R' -> Scheme: N1SCR03-700-R{N}
+2026-02-16 13:16:41 | INPUT: Group 'B' -> Scheme: N1SCR03-700-B{N}
+2026-02-16 13:16:41 | STEP 6: Creating heritage-based copies with user naming
+2026-02-16 13:16:41 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-16 13:16:41 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-16 13:16:41 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-16 13:16:41 | EXTRACT: Processing naming scheme: N1SCR03-700-PL{N}
+2026-02-16 13:16:41 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:41 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-PL'
+2026-02-16 13:16:41 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR03-700-PL' not found)
+2026-02-16 13:16:41 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:41 | HERITAGE: Processing group 'PL' with scheme: N1SCR03-700-PL{N}
+2026-02-16 13:16:41 | HERITAGE: Part1 HC-T.ipt -> N1SCR03-700-PL1.ipt
+2026-02-16 13:16:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part1 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL1.ipt
+2026-02-16 13:16:41 | HERITAGE: Creating new file: N1SCR03-700-PL1.ipt
+2026-02-16 13:16:41 | HERITAGE: SUCCESS - Created N1SCR03-700-PL1.ipt
+2026-02-16 13:16:41 | HERITAGE: Part2 HC-T.ipt -> N1SCR03-700-PL2.ipt
+2026-02-16 13:16:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part2 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL2.ipt
+2026-02-16 13:16:41 | HERITAGE: Creating new file: N1SCR03-700-PL2.ipt
+2026-02-16 13:16:41 | HERITAGE: SUCCESS - Created N1SCR03-700-PL2.ipt
+2026-02-16 13:16:41 | HERITAGE: Part3 HC-T.ipt -> N1SCR03-700-PL3.ipt
+2026-02-16 13:16:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part3 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL3.ipt
+2026-02-16 13:16:41 | HERITAGE: Creating new file: N1SCR03-700-PL3.ipt
+2026-02-16 13:16:41 | HERITAGE: SUCCESS - Created N1SCR03-700-PL3.ipt
+2026-02-16 13:16:41 | HERITAGE: Part4 HC-T.ipt -> N1SCR03-700-PL4.ipt
+2026-02-16 13:16:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part4 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL4.ipt
+2026-02-16 13:16:41 | HERITAGE: Creating new file: N1SCR03-700-PL4.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL4.ipt
+2026-02-16 13:16:42 | HERITAGE: Part5 HC-T.ipt -> N1SCR03-700-PL5.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part5 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL5.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL5.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL5.ipt
+2026-02-16 13:16:42 | HERITAGE: Part17 HC-T.ipt -> N1SCR03-700-PL6.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part17 HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL6.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL6.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL6.ipt
+2026-02-16 13:16:42 | HERITAGE: Part18 Corner Gusset HC-T.ipt -> N1SCR03-700-PL7.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part18 Corner Gusset HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL7.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL7.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL7.ipt
+2026-02-16 13:16:42 | HERITAGE: Lug HC-T.ipt -> N1SCR03-700-PL8.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Lug HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-PL8.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL8.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL8.ipt
+2026-02-16 13:16:42 | HERITAGE: Part1 HC-M.ipt -> N1SCR03-700-PL9.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part1 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL9.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL9.ipt
+2026-02-16 13:16:42 | HERITAGE: SUCCESS - Created N1SCR03-700-PL9.ipt
+2026-02-16 13:16:42 | HERITAGE: Part2 HC-M.ipt -> N1SCR03-700-PL10.ipt
+2026-02-16 13:16:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part2 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL10.ipt
+2026-02-16 13:16:42 | HERITAGE: Creating new file: N1SCR03-700-PL10.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL10.ipt
+2026-02-16 13:16:43 | HERITAGE: Part3 HC-M.ipt -> N1SCR03-700-PL11.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part3 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL11.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL11.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL11.ipt
+2026-02-16 13:16:43 | HERITAGE: Part4 HC-M.ipt -> N1SCR03-700-PL12.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part4 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL12.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL12.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL12.ipt
+2026-02-16 13:16:43 | HERITAGE: Part5 HC-M.ipt -> N1SCR03-700-PL13.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part5 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL13.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL13.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL13.ipt
+2026-02-16 13:16:43 | HERITAGE: Part6 HC-M.ipt -> N1SCR03-700-PL14.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part6 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL14.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL14.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL14.ipt
+2026-02-16 13:16:43 | HERITAGE: Part7 HC-M.ipt -> N1SCR03-700-PL15.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part7 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL15.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL15.ipt
+2026-02-16 13:16:43 | HERITAGE: SUCCESS - Created N1SCR03-700-PL15.ipt
+2026-02-16 13:16:43 | HERITAGE: Part8 HC-M.ipt -> N1SCR03-700-PL16.ipt
+2026-02-16 13:16:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part8 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL16.ipt
+2026-02-16 13:16:43 | HERITAGE: Creating new file: N1SCR03-700-PL16.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL16.ipt
+2026-02-16 13:16:44 | HERITAGE: Part15 HC-M.ipt -> N1SCR03-700-PL17.ipt
+2026-02-16 13:16:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part15 HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL17.ipt
+2026-02-16 13:16:44 | HERITAGE: Creating new file: N1SCR03-700-PL17.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL17.ipt
+2026-02-16 13:16:44 | HERITAGE: Part16 Corner Gusset HC-M.ipt -> N1SCR03-700-PL18.ipt
+2026-02-16 13:16:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part16 Corner Gusset HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL18.ipt
+2026-02-16 13:16:44 | HERITAGE: Creating new file: N1SCR03-700-PL18.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL18.ipt
+2026-02-16 13:16:44 | HERITAGE: Lug HC-M.ipt -> N1SCR03-700-PL19.ipt
+2026-02-16 13:16:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Lug HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-PL19.ipt
+2026-02-16 13:16:44 | HERITAGE: Creating new file: N1SCR03-700-PL19.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL19.ipt
+2026-02-16 13:16:44 | HERITAGE: Part1 HC-L.ipt -> N1SCR03-700-PL20.ipt
+2026-02-16 13:16:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part1 HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-PL20.ipt
+2026-02-16 13:16:44 | HERITAGE: Creating new file: N1SCR03-700-PL20.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL20.ipt
+2026-02-16 13:16:44 | HERITAGE: Part2 HC-L.ipt -> N1SCR03-700-PL21.ipt
+2026-02-16 13:16:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part2 HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-PL21.ipt
+2026-02-16 13:16:44 | HERITAGE: Creating new file: N1SCR03-700-PL21.ipt
+2026-02-16 13:16:44 | HERITAGE: SUCCESS - Created N1SCR03-700-PL21.ipt
+2026-02-16 13:16:45 | HERITAGE: Part3 HC-L.ipt -> N1SCR03-700-PL22.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part3 HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-PL22.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL22.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL22.ipt
+2026-02-16 13:16:45 | HERITAGE: Part1 HC-B.ipt -> N1SCR03-700-PL23.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part1 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL23.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL23.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL23.ipt
+2026-02-16 13:16:45 | HERITAGE: Part2 HC-B.ipt -> N1SCR03-700-PL24.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part2 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL24.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL24.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL24.ipt
+2026-02-16 13:16:45 | HERITAGE: Part3 HC-B.ipt -> N1SCR03-700-PL25.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part3 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL25.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL25.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL25.ipt
+2026-02-16 13:16:45 | HERITAGE: Part4 HC-B.ipt -> N1SCR03-700-PL26.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part4 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL26.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL26.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL26.ipt
+2026-02-16 13:16:45 | HERITAGE: Part5 HC-B.ipt -> N1SCR03-700-PL27.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part5 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL27.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL27.ipt
+2026-02-16 13:16:45 | HERITAGE: SUCCESS - Created N1SCR03-700-PL27.ipt
+2026-02-16 13:16:45 | HERITAGE: Part6 HC-B.ipt -> N1SCR03-700-PL28.ipt
+2026-02-16 13:16:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part6 HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL28.ipt
+2026-02-16 13:16:45 | HERITAGE: Creating new file: N1SCR03-700-PL28.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL28.ipt
+2026-02-16 13:16:46 | HERITAGE: Lug HC-B.ipt -> N1SCR03-700-PL29.ipt
+2026-02-16 13:16:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Lug HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL29.ipt
+2026-02-16 13:16:46 | HERITAGE: Creating new file: N1SCR03-700-PL29.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL29.ipt
+2026-02-16 13:16:46 | HERITAGE: Part15.ipt -> N1SCR03-700-PL30.ipt
+2026-02-16 13:16:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL30.ipt
+2026-02-16 13:16:46 | HERITAGE: Creating new file: N1SCR03-700-PL30.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL30.ipt
+2026-02-16 13:16:46 | HERITAGE: Part16 Corner Gusset.ipt -> N1SCR03-700-PL31.ipt
+2026-02-16 13:16:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part16 Corner Gusset.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-PL31.ipt
+2026-02-16 13:16:46 | HERITAGE: Creating new file: N1SCR03-700-PL31.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL31.ipt
+2026-02-16 13:16:46 | HERITAGE: Part1 HC-L1.ipt -> N1SCR03-700-PL32.ipt
+2026-02-16 13:16:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part1 HC-L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\N1SCR03-700-PL32.ipt
+2026-02-16 13:16:46 | HERITAGE: Creating new file: N1SCR03-700-PL32.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL32.ipt
+2026-02-16 13:16:46 | HERITAGE: Part1 HC-L2.ipt -> N1SCR03-700-PL33.ipt
+2026-02-16 13:16:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part1 HC-L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\N1SCR03-700-PL33.ipt
+2026-02-16 13:16:46 | HERITAGE: Creating new file: N1SCR03-700-PL33.ipt
+2026-02-16 13:16:46 | HERITAGE: SUCCESS - Created N1SCR03-700-PL33.ipt
+2026-02-16 13:16:47 | HERITAGE: Part2 End Plate.ipt -> N1SCR03-700-PL34.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part2 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\N1SCR03-700-PL34.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-PL34.ipt
+2026-02-16 13:16:47 | HERITAGE: SUCCESS - Created N1SCR03-700-PL34.ipt
+2026-02-16 13:16:47 | HERITAGE: Part3 End Plate.ipt -> N1SCR03-700-PL35.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part3 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\N1SCR03-700-PL35.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-PL35.ipt
+2026-02-16 13:16:47 | HERITAGE: SUCCESS - Created N1SCR03-700-PL35.ipt
+2026-02-16 13:16:47 | REGISTRY: Saved N1SCR03-700-PL = 35
+2026-02-16 13:16:47 | EXTRACT: Processing naming scheme: N1SCR03-700-A{N}
+2026-02-16 13:16:47 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:47 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-A'
+2026-02-16 13:16:47 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR03-700-A' not found)
+2026-02-16 13:16:47 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:47 | HERITAGE: Processing group 'A' with scheme: N1SCR03-700-A{N}
+2026-02-16 13:16:47 | HERITAGE: Part6 Angle HC-T.ipt -> N1SCR03-700-A1.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part6 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A1.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-A1.ipt
+2026-02-16 13:16:47 | HERITAGE: SUCCESS - Created N1SCR03-700-A1.ipt
+2026-02-16 13:16:47 | HERITAGE: Part7 Angle HC-T.ipt -> N1SCR03-700-A2.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part7 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A2.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-A2.ipt
+2026-02-16 13:16:47 | HERITAGE: SUCCESS - Created N1SCR03-700-A2.ipt
+2026-02-16 13:16:47 | HERITAGE: Part8 Angle HC-T.ipt -> N1SCR03-700-A3.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part8 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A3.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-A3.ipt
+2026-02-16 13:16:47 | HERITAGE: SUCCESS - Created N1SCR03-700-A3.ipt
+2026-02-16 13:16:47 | HERITAGE: Part9 (Part8 Angle HC-T MIR).ipt -> N1SCR03-700-A4.ipt
+2026-02-16 13:16:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part9 (Part8 Angle HC-T MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A4.ipt
+2026-02-16 13:16:47 | HERITAGE: Creating new file: N1SCR03-700-A4.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A4.ipt
+2026-02-16 13:16:48 | HERITAGE: Part10 Angle HC-T.ipt -> N1SCR03-700-A5.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part10 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A5.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A5.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A5.ipt
+2026-02-16 13:16:48 | HERITAGE: Part11 (Part10 Angle HC-T MIR).ipt -> N1SCR03-700-A6.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part11 (Part10 Angle HC-T MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A6.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A6.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A6.ipt
+2026-02-16 13:16:48 | HERITAGE: Part12 Angle HC-T.ipt -> N1SCR03-700-A7.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part12 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A7.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A7.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A7.ipt
+2026-02-16 13:16:48 | HERITAGE: Part13 (Part12 Angle HC-T MIR).ipt -> N1SCR03-700-A8.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part13 (Part12 Angle HC-T MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A8.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A8.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A8.ipt
+2026-02-16 13:16:48 | HERITAGE: Part14 Angle HC-T.ipt -> N1SCR03-700-A9.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part14 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A9.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A9.ipt
+2026-02-16 13:16:48 | HERITAGE: SUCCESS - Created N1SCR03-700-A9.ipt
+2026-02-16 13:16:48 | HERITAGE: Part15 (Part14 Angle HC-T MIR).ipt -> N1SCR03-700-A10.ipt
+2026-02-16 13:16:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part15 (Part14 Angle HC-T MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A10.ipt
+2026-02-16 13:16:48 | HERITAGE: Creating new file: N1SCR03-700-A10.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A10.ipt
+2026-02-16 13:16:49 | HERITAGE: Part16 Angle HC-T.ipt -> N1SCR03-700-A11.ipt
+2026-02-16 13:16:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\Part16 Angle HC-T.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Top\N1SCR03-700-A11.ipt
+2026-02-16 13:16:49 | HERITAGE: Creating new file: N1SCR03-700-A11.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A11.ipt
+2026-02-16 13:16:49 | HERITAGE: Part9 Angle HC-M.ipt -> N1SCR03-700-A12.ipt
+2026-02-16 13:16:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part9 Angle HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A12.ipt
+2026-02-16 13:16:49 | HERITAGE: Creating new file: N1SCR03-700-A12.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A12.ipt
+2026-02-16 13:16:49 | HERITAGE: Part10 Angle HC-M.ipt -> N1SCR03-700-A13.ipt
+2026-02-16 13:16:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part10 Angle HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A13.ipt
+2026-02-16 13:16:49 | HERITAGE: Creating new file: N1SCR03-700-A13.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A13.ipt
+2026-02-16 13:16:49 | HERITAGE: Part11 (Part10 Angle HC-M MIR).ipt -> N1SCR03-700-A14.ipt
+2026-02-16 13:16:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part11 (Part10 Angle HC-M MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A14.ipt
+2026-02-16 13:16:49 | HERITAGE: Creating new file: N1SCR03-700-A14.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A14.ipt
+2026-02-16 13:16:49 | HERITAGE: Part12 Angle HC-M.ipt -> N1SCR03-700-A15.ipt
+2026-02-16 13:16:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part12 Angle HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A15.ipt
+2026-02-16 13:16:49 | HERITAGE: Creating new file: N1SCR03-700-A15.ipt
+2026-02-16 13:16:49 | HERITAGE: SUCCESS - Created N1SCR03-700-A15.ipt
+2026-02-16 13:16:49 | HERITAGE: Part13 Angle HC-M.ipt -> N1SCR03-700-A16.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part13 Angle HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A16.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A16.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A16.ipt
+2026-02-16 13:16:50 | HERITAGE: Part14 Angle HC-M.ipt -> N1SCR03-700-A17.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part14 Angle HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-A17.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A17.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A17.ipt
+2026-02-16 13:16:50 | HERITAGE: Part4 Angle HC-L.ipt -> N1SCR03-700-A18.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part4 Angle HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-A18.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A18.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A18.ipt
+2026-02-16 13:16:50 | HERITAGE: Part5 Angle HC-L.ipt -> N1SCR03-700-A19.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part5 Angle HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-A19.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A19.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A19.ipt
+2026-02-16 13:16:50 | HERITAGE: Part7 Angle HC-B.ipt -> N1SCR03-700-A20.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part7 Angle HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-A20.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A20.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A20.ipt
+2026-02-16 13:16:50 | HERITAGE: Part8 Angle HC-B.ipt -> N1SCR03-700-A21.ipt
+2026-02-16 13:16:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part8 Angle HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-A21.ipt
+2026-02-16 13:16:50 | HERITAGE: Creating new file: N1SCR03-700-A21.ipt
+2026-02-16 13:16:50 | HERITAGE: SUCCESS - Created N1SCR03-700-A21.ipt
+2026-02-16 13:16:51 | HERITAGE: Part9 Angle HC-B.ipt -> N1SCR03-700-A22.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part9 Angle HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-A22.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-A22.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-A22.ipt
+2026-02-16 13:16:51 | REGISTRY: Saved N1SCR03-700-A = 22
+2026-02-16 13:16:51 | EXTRACT: Processing naming scheme: N1SCR03-700-FL{N}
+2026-02-16 13:16:51 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:51 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-FL'
+2026-02-16 13:16:51 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR03-700-FL' not found)
+2026-02-16 13:16:51 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:51 | HERITAGE: Processing group 'FL' with scheme: N1SCR03-700-FL{N}
+2026-02-16 13:16:51 | HERITAGE: Part17 Stiffener HC-M.ipt -> N1SCR03-700-FL1.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part17 Stiffener HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-FL1.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL1.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-FL1.ipt
+2026-02-16 13:16:51 | HERITAGE: Part18 Stiffener HC-M.ipt -> N1SCR03-700-FL2.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part18 Stiffener HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-FL2.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL2.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-FL2.ipt
+2026-02-16 13:16:51 | HERITAGE: Part19 Stiffener HC-M.ipt -> N1SCR03-700-FL3.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part19 Stiffener HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-FL3.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL3.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-FL3.ipt
+2026-02-16 13:16:51 | HERITAGE: Part20 Stiffener HC-M.ipt -> N1SCR03-700-FL4.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\Part20 Stiffener HC-M.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Middle\N1SCR03-700-FL4.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL4.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-FL4.ipt
+2026-02-16 13:16:51 | HERITAGE: Part9 Stiffener HC-L.ipt -> N1SCR03-700-FL5.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part9 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL5.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL5.ipt
+2026-02-16 13:16:51 | HERITAGE: SUCCESS - Created N1SCR03-700-FL5.ipt
+2026-02-16 13:16:51 | HERITAGE: Part8 Stiffener HC-L.ipt -> N1SCR03-700-FL6.ipt
+2026-02-16 13:16:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part8 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL6.ipt
+2026-02-16 13:16:51 | HERITAGE: Creating new file: N1SCR03-700-FL6.ipt
+2026-02-16 13:16:52 | HERITAGE: SUCCESS - Created N1SCR03-700-FL6.ipt
+2026-02-16 13:16:52 | HERITAGE: Part10 Stiffener HC-L.ipt -> N1SCR03-700-FL7.ipt
+2026-02-16 13:16:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part10 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL7.ipt
+2026-02-16 13:16:52 | HERITAGE: Creating new file: N1SCR03-700-FL7.ipt
+2026-02-16 13:16:52 | HERITAGE: SUCCESS - Created N1SCR03-700-FL7.ipt
+2026-02-16 13:16:52 | HERITAGE: Part11 Stiffener HC-L.ipt -> N1SCR03-700-FL8.ipt
+2026-02-16 13:16:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part11 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL8.ipt
+2026-02-16 13:16:52 | HERITAGE: Creating new file: N1SCR03-700-FL8.ipt
+2026-02-16 13:16:52 | HERITAGE: SUCCESS - Created N1SCR03-700-FL8.ipt
+2026-02-16 13:16:52 | HERITAGE: Part12 Stiffener HC-L.ipt -> N1SCR03-700-FL9.ipt
+2026-02-16 13:16:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part12 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL9.ipt
+2026-02-16 13:16:52 | HERITAGE: Creating new file: N1SCR03-700-FL9.ipt
+2026-02-16 13:16:52 | HERITAGE: SUCCESS - Created N1SCR03-700-FL9.ipt
+2026-02-16 13:16:52 | HERITAGE: Part13 Stiffener HC-L.ipt -> N1SCR03-700-FL10.ipt
+2026-02-16 13:16:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part13 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL10.ipt
+2026-02-16 13:16:52 | HERITAGE: Creating new file: N1SCR03-700-FL10.ipt
+2026-02-16 13:16:52 | HERITAGE: SUCCESS - Created N1SCR03-700-FL10.ipt
+2026-02-16 13:16:52 | HERITAGE: Part14 Stiffener HC-L.ipt -> N1SCR03-700-FL11.ipt
+2026-02-16 13:16:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part14 Stiffener HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FL11.ipt
+2026-02-16 13:16:52 | HERITAGE: Creating new file: N1SCR03-700-FL11.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL11.ipt
+2026-02-16 13:16:53 | HERITAGE: Part10 Stiffener HC-B.ipt -> N1SCR03-700-FL12.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part10 Stiffener HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-FL12.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL12.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL12.ipt
+2026-02-16 13:16:53 | HERITAGE: Part11 Stiffener HC-B.ipt -> N1SCR03-700-FL13.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part11 Stiffener HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-FL13.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL13.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL13.ipt
+2026-02-16 13:16:53 | HERITAGE: Part12 Stiffener HC-B.ipt -> N1SCR03-700-FL14.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part12 Stiffener HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-FL14.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL14.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL14.ipt
+2026-02-16 13:16:53 | HERITAGE: Part13 Stiffener HC-B.ipt -> N1SCR03-700-FL15.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part13 Stiffener HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-FL15.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL15.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL15.ipt
+2026-02-16 13:16:53 | HERITAGE: Part14 Stiffener HC-B.ipt -> N1SCR03-700-FL16.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\Part14 Stiffener HC-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Bottom\N1SCR03-700-FL16.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL16.ipt
+2026-02-16 13:16:53 | HERITAGE: SUCCESS - Created N1SCR03-700-FL16.ipt
+2026-02-16 13:16:53 | HERITAGE: Part2 Stiffener HC-L2.ipt -> N1SCR03-700-FL17.ipt
+2026-02-16 13:16:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part2 Stiffener HC-L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\N1SCR03-700-FL17.ipt
+2026-02-16 13:16:53 | HERITAGE: Creating new file: N1SCR03-700-FL17.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-FL17.ipt
+2026-02-16 13:16:54 | HERITAGE: Part3 Stiffener HC-L2.ipt -> N1SCR03-700-FL18.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part3 Stiffener HC-L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\N1SCR03-700-FL18.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-FL18.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-FL18.ipt
+2026-02-16 13:16:54 | REGISTRY: Saved N1SCR03-700-FL = 18
+2026-02-16 13:16:54 | EXTRACT: Processing naming scheme: N1SCR03-700-P{N}
+2026-02-16 13:16:54 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:54 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-P'
+2026-02-16 13:16:54 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR03-700-P' not found)
+2026-02-16 13:16:54 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:54 | HERITAGE: Processing group 'P' with scheme: N1SCR03-700-P{N}
+2026-02-16 13:16:54 | HERITAGE: Part6 Pipe HC-L.ipt -> N1SCR03-700-P1.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part6 Pipe HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-P1.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-P1.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-P1.ipt
+2026-02-16 13:16:54 | HERITAGE: Part2 Pipe HC-L1.ipt -> N1SCR03-700-P2.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part2 Pipe HC-L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\N1SCR03-700-P2.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-P2.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-P2.ipt
+2026-02-16 13:16:54 | REGISTRY: Saved N1SCR03-700-P = 2
+2026-02-16 13:16:54 | EXTRACT: Processing naming scheme: N1SCR03-700-FLG{N}
+2026-02-16 13:16:54 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:54 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-FLG'
+2026-02-16 13:16:54 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR03-700-FLG' not found)
+2026-02-16 13:16:54 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:54 | HERITAGE: Processing group 'FLG' with scheme: N1SCR03-700-FLG{N}
+2026-02-16 13:16:54 | HERITAGE: Part7 Flange HC-L.ipt -> N1SCR03-700-FLG1.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\Part7 Flange HC-L.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Launder\N1SCR03-700-FLG1.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-FLG1.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-FLG1.ipt
+2026-02-16 13:16:54 | HERITAGE: Part3 Flange HC-L1.ipt -> N1SCR03-700-FLG2.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\Part3 Flange HC-L1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-1\N1SCR03-700-FLG2.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-FLG2.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-FLG2.ipt
+2026-02-16 13:16:54 | REGISTRY: Saved N1SCR03-700-FLG = 2
+2026-02-16 13:16:54 | EXTRACT: Processing naming scheme: N1SCR03-700-R{N}
+2026-02-16 13:16:54 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:54 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-R'
+2026-02-16 13:16:54 | HERITAGE: Group 'R' starting from number 1 (new prefix or group - key 'N1SCR03-700-R' not found)
+2026-02-16 13:16:54 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:54 | HERITAGE: Processing group 'R' with scheme: N1SCR03-700-R{N}
+2026-02-16 13:16:54 | HERITAGE: Part4 Handle HC-L2.ipt -> N1SCR03-700-R1.ipt
+2026-02-16 13:16:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\Part4 Handle HC-L2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Lid-2\N1SCR03-700-R1.ipt
+2026-02-16 13:16:54 | HERITAGE: Creating new file: N1SCR03-700-R1.ipt
+2026-02-16 13:16:54 | HERITAGE: SUCCESS - Created N1SCR03-700-R1.ipt
+2026-02-16 13:16:55 | REGISTRY: Saved N1SCR03-700-R = 1
+2026-02-16 13:16:55 | EXTRACT: Processing naming scheme: N1SCR03-700-B{N}
+2026-02-16 13:16:55 | EXTRACT: Extracted prefix: 'N1SCR03-700-'
+2026-02-16 13:16:55 | HERITAGE: Checking for existing counter with key: 'N1SCR03-700-B'
+2026-02-16 13:16:55 | HERITAGE: Group 'B' starting from number 1 (new prefix or group - key 'N1SCR03-700-B' not found)
+2026-02-16 13:16:55 | HERITAGE: DEBUG - No existing counters found
+2026-02-16 13:16:55 | HERITAGE: Processing group 'B' with scheme: N1SCR03-700-B{N}
+2026-02-16 13:16:55 | HERITAGE: Part1 Beam.ipt -> N1SCR03-700-B1.ipt
+2026-02-16 13:16:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\Part1 Beam.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\700 Head Chute\Support Beam-1\N1SCR03-700-B1.ipt
+2026-02-16 13:16:55 | HERITAGE: Creating new file: N1SCR03-700-B1.ipt
+2026-02-16 13:16:55 | HERITAGE: SUCCESS - Created N1SCR03-700-B1.ipt
+2026-02-16 13:16:55 | REGISTRY: Saved N1SCR03-700-B = 1
+2026-02-16 13:16:55 | STEP 7: Updating assembly references
+2026-02-16 13:16:55 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-16 13:16:55 | ASSEMBLY: Updating references in - N1SCR03-700.iam (Level: ROOT)
+2026-02-16 13:16:55 | ASSEMBLY: RECURSING into sub-assembly - Top.iam
+2026-02-16 13:16:55 | ASSEMBLY: Updating references in - Top.iam (Level: ROOT>Top.iam)
+2026-02-16 13:16:55 | ASSEMBLY: Replacing Part1 HC-T.ipt -> N1SCR03-700-PL1.ipt [PL] (in Top.iam)
+2026-02-16 13:16:55 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL1.ipt
+2026-02-16 13:16:55 | ASSEMBLY: Replacing Part2 HC-T.ipt -> N1SCR03-700-PL2.ipt [PL] (in Top.iam)
+2026-02-16 13:16:55 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL2.ipt
+2026-02-16 13:16:55 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL2.ipt (not renamed)
+2026-02-16 13:16:56 | ASSEMBLY: Replacing Part3 HC-T.ipt -> N1SCR03-700-PL3.ipt [PL] (in Top.iam)
+2026-02-16 13:16:56 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL3.ipt
+2026-02-16 13:16:56 | ASSEMBLY: Replacing Part4 HC-T.ipt -> N1SCR03-700-PL4.ipt [PL] (in Top.iam)
+2026-02-16 13:16:56 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL4.ipt
+2026-02-16 13:16:56 | ASSEMBLY: Replacing Part5 HC-T.ipt -> N1SCR03-700-PL5.ipt [PL] (in Top.iam)
+2026-02-16 13:16:56 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL5.ipt
+2026-02-16 13:16:56 | ASSEMBLY: Replacing Part6 Angle HC-T.ipt -> N1SCR03-700-A1.ipt [A] (in Top.iam)
+2026-02-16 13:16:56 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A1.ipt
+2026-02-16 13:16:56 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A1.ipt (not renamed)
+2026-02-16 13:16:56 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A1.ipt (not renamed)
+2026-02-16 13:16:56 | ASSEMBLY: Replacing Part7 Angle HC-T.ipt -> N1SCR03-700-A2.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A2.ipt
+2026-02-16 13:16:57 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A2.ipt (not renamed)
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part8 Angle HC-T.ipt -> N1SCR03-700-A3.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A3.ipt
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part9 (Part8 Angle HC-T MIR).ipt -> N1SCR03-700-A4.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A4.ipt
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part10 Angle HC-T.ipt -> N1SCR03-700-A5.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A5.ipt
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part11 (Part10 Angle HC-T MIR).ipt -> N1SCR03-700-A6.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A6.ipt
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part12 Angle HC-T.ipt -> N1SCR03-700-A7.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A7.ipt
+2026-02-16 13:16:57 | ASSEMBLY: Replacing Part13 (Part12 Angle HC-T MIR).ipt -> N1SCR03-700-A8.ipt [A] (in Top.iam)
+2026-02-16 13:16:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A8.ipt
+2026-02-16 13:16:58 | ASSEMBLY: Replacing Part14 Angle HC-T.ipt -> N1SCR03-700-A9.ipt [A] (in Top.iam)
+2026-02-16 13:16:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A9.ipt
+2026-02-16 13:16:58 | ASSEMBLY: Replacing Part15 (Part14 Angle HC-T MIR).ipt -> N1SCR03-700-A10.ipt [A] (in Top.iam)
+2026-02-16 13:16:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A10.ipt
+2026-02-16 13:16:58 | ASSEMBLY: Replacing Part16 Angle HC-T.ipt -> N1SCR03-700-A11.ipt [A] (in Top.iam)
+2026-02-16 13:16:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A11.ipt
+2026-02-16 13:16:58 | ASSEMBLY: Replacing Part17 HC-T.ipt -> N1SCR03-700-PL6.ipt [PL] (in Top.iam)
+2026-02-16 13:16:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL6.ipt
+2026-02-16 13:16:58 | ASSEMBLY: Replacing Part18 Corner Gusset HC-T.ipt -> N1SCR03-700-PL7.ipt [PL] (in Top.iam)
+2026-02-16 13:16:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL7.ipt
+2026-02-16 13:16:58 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL6.ipt (not renamed)
+2026-02-16 13:16:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL7.ipt (not renamed)
+2026-02-16 13:16:59 | ASSEMBLY: Replacing Lug HC-T.ipt -> N1SCR03-700-PL8.ipt [PL] (in Top.iam)
+2026-02-16 13:16:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL8.ipt
+2026-02-16 13:16:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL8.ipt (not renamed)
+2026-02-16 13:16:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL8.ipt (not renamed)
+2026-02-16 13:16:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL8.ipt (not renamed)
+2026-02-16 13:17:30 | ASSEMBLY: Saved sub-assembly - Top.iam
+2026-02-16 13:17:30 | ASSEMBLY: RECURSING into sub-assembly - Middle.iam
+2026-02-16 13:17:30 | ASSEMBLY: Updating references in - Middle.iam (Level: ROOT>Middle.iam)
+2026-02-16 13:17:30 | ASSEMBLY: Replacing Part1 HC-M.ipt -> N1SCR03-700-PL9.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL9.ipt
+2026-02-16 13:17:30 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL9.ipt (not renamed)
+2026-02-16 13:17:30 | ASSEMBLY: Replacing Part2 HC-M.ipt -> N1SCR03-700-PL10.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:30 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL10.ipt
+2026-02-16 13:17:30 | ASSEMBLY: Replacing Part3 HC-M.ipt -> N1SCR03-700-PL11.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL11.ipt
+2026-02-16 13:17:31 | ASSEMBLY: Replacing Part4 HC-M.ipt -> N1SCR03-700-PL12.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL12.ipt
+2026-02-16 13:17:31 | ASSEMBLY: Replacing Part5 HC-M.ipt -> N1SCR03-700-PL13.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL13.ipt
+2026-02-16 13:17:31 | ASSEMBLY: Replacing Part6 HC-M.ipt -> N1SCR03-700-PL14.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL14.ipt
+2026-02-16 13:17:31 | ASSEMBLY: Replacing Part7 HC-M.ipt -> N1SCR03-700-PL15.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:31 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL15.ipt
+2026-02-16 13:17:32 | ASSEMBLY: Replacing Part8 HC-M.ipt -> N1SCR03-700-PL16.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL16.ipt
+2026-02-16 13:17:32 | ASSEMBLY: Replacing Part9 Angle HC-M.ipt -> N1SCR03-700-A12.ipt [A] (in Middle.iam)
+2026-02-16 13:17:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A12.ipt
+2026-02-16 13:17:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A12.ipt (not renamed)
+2026-02-16 13:17:32 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A12.ipt (not renamed)
+2026-02-16 13:17:32 | ASSEMBLY: Replacing Part10 Angle HC-M.ipt -> N1SCR03-700-A13.ipt [A] (in Middle.iam)
+2026-02-16 13:17:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A13.ipt
+2026-02-16 13:17:32 | ASSEMBLY: Replacing Part11 (Part10 Angle HC-M MIR).ipt -> N1SCR03-700-A14.ipt [A] (in Middle.iam)
+2026-02-16 13:17:32 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A14.ipt
+2026-02-16 13:17:32 | ASSEMBLY: Replacing Part12 Angle HC-M.ipt -> N1SCR03-700-A15.ipt [A] (in Middle.iam)
+2026-02-16 13:17:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A15.ipt
+2026-02-16 13:17:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A15.ipt (not renamed)
+2026-02-16 13:17:33 | ASSEMBLY: Replacing Part13 Angle HC-M.ipt -> N1SCR03-700-A16.ipt [A] (in Middle.iam)
+2026-02-16 13:17:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A16.ipt
+2026-02-16 13:17:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A16.ipt (not renamed)
+2026-02-16 13:17:33 | ASSEMBLY: Replacing Part14 Angle HC-M.ipt -> N1SCR03-700-A17.ipt [A] (in Middle.iam)
+2026-02-16 13:17:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A17.ipt
+2026-02-16 13:17:33 | ASSEMBLY: Replacing Part15 HC-M.ipt -> N1SCR03-700-PL17.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL17.ipt
+2026-02-16 13:17:33 | ASSEMBLY: Replacing Part16 Corner Gusset HC-M.ipt -> N1SCR03-700-PL18.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:33 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL18.ipt
+2026-02-16 13:17:33 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL17.ipt (not renamed)
+2026-02-16 13:17:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL18.ipt (not renamed)
+2026-02-16 13:17:34 | ASSEMBLY: Replacing Lug HC-M.ipt -> N1SCR03-700-PL19.ipt [PL] (in Middle.iam)
+2026-02-16 13:17:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL19.ipt
+2026-02-16 13:17:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL19.ipt (not renamed)
+2026-02-16 13:17:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL19.ipt (not renamed)
+2026-02-16 13:17:34 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL19.ipt (not renamed)
+2026-02-16 13:17:34 | ASSEMBLY: Replacing Part17 Stiffener HC-M.ipt -> N1SCR03-700-FL1.ipt [FL] (in Middle.iam)
+2026-02-16 13:17:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL1.ipt
+2026-02-16 13:17:34 | ASSEMBLY: Replacing Part18 Stiffener HC-M.ipt -> N1SCR03-700-FL2.ipt [FL] (in Middle.iam)
+2026-02-16 13:17:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL2.ipt
+2026-02-16 13:17:34 | ASSEMBLY: Replacing Part19 Stiffener HC-M.ipt -> N1SCR03-700-FL3.ipt [FL] (in Middle.iam)
+2026-02-16 13:17:34 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL3.ipt
+2026-02-16 13:17:34 | ASSEMBLY: Replacing Part20 Stiffener HC-M.ipt -> N1SCR03-700-FL4.ipt [FL] (in Middle.iam)
+2026-02-16 13:17:35 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL4.ipt
+2026-02-16 13:17:35 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL1.ipt (not renamed)
+2026-02-16 13:17:35 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL2.ipt (not renamed)
+2026-02-16 13:17:35 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL3.ipt (not renamed)
+2026-02-16 13:17:35 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL4.ipt (not renamed)
+2026-02-16 13:17:36 | ASSEMBLY: Saved sub-assembly - Middle.iam
+2026-02-16 13:17:36 | ASSEMBLY: RECURSING into sub-assembly - Launder.iam
+2026-02-16 13:17:36 | ASSEMBLY: Updating references in - Launder.iam (Level: ROOT>Launder.iam)
+2026-02-16 13:17:37 | ASSEMBLY: Replacing Part1 HC-L.ipt -> N1SCR03-700-PL20.ipt [PL] (in Launder.iam)
+2026-02-16 13:17:37 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL20.ipt
+2026-02-16 13:17:37 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL20.ipt (not renamed)
+2026-02-16 13:17:37 | ASSEMBLY: Replacing Part2 HC-L.ipt -> N1SCR03-700-PL21.ipt [PL] (in Launder.iam)
+2026-02-16 13:17:37 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL21.ipt
+2026-02-16 13:17:37 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL21.ipt (not renamed)
+2026-02-16 13:17:37 | ASSEMBLY: Replacing Part3 HC-L.ipt -> N1SCR03-700-PL22.ipt [PL] (in Launder.iam)
+2026-02-16 13:17:37 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL22.ipt
+2026-02-16 13:17:37 | ASSEMBLY: Replacing Part4 Angle HC-L.ipt -> N1SCR03-700-A18.ipt [A] (in Launder.iam)
+2026-02-16 13:17:37 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A18.ipt
+2026-02-16 13:17:37 | ASSEMBLY: Replacing Part5 Angle HC-L.ipt -> N1SCR03-700-A19.ipt [A] (in Launder.iam)
+2026-02-16 13:17:38 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A19.ipt
+2026-02-16 13:17:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A18.ipt (not renamed)
+2026-02-16 13:17:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A19.ipt (not renamed)
+2026-02-16 13:17:38 | ASSEMBLY: Replacing Part6 Pipe HC-L.ipt -> N1SCR03-700-P1.ipt [P] (in Launder.iam)
+2026-02-16 13:17:38 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-P1.ipt
+2026-02-16 13:17:38 | ASSEMBLY: Replacing Part7 Flange HC-L.ipt -> N1SCR03-700-FLG1.ipt [FLG] (in Launder.iam)
+2026-02-16 13:17:38 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FLG1.ipt
+2026-02-16 13:17:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-P1.ipt (not renamed)
+2026-02-16 13:17:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FLG1.ipt (not renamed)
+2026-02-16 13:17:38 | ASSEMBLY: Replacing Part9 Stiffener HC-L.ipt -> N1SCR03-700-FL5.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:38 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL5.ipt
+2026-02-16 13:17:38 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL5.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: Replacing Part8 Stiffener HC-L.ipt -> N1SCR03-700-FL6.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:39 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL6.ipt
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL5.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: Replacing Part10 Stiffener HC-L.ipt -> N1SCR03-700-FL7.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:39 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL7.ipt
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL6.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL5.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL7.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: Replacing Part11 Stiffener HC-L.ipt -> N1SCR03-700-FL8.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:39 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL8.ipt
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL8.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL8.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL8.ipt (not renamed)
+2026-02-16 13:17:39 | ASSEMBLY: Replacing Part12 Stiffener HC-L.ipt -> N1SCR03-700-FL9.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:39 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL9.ipt
+2026-02-16 13:17:39 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL9.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: Replacing Part13 Stiffener HC-L.ipt -> N1SCR03-700-FL10.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:40 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL10.ipt
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL10.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL10.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL10.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL10.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL10.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: Replacing Part14 Stiffener HC-L.ipt -> N1SCR03-700-FL11.ipt [FL] (in Launder.iam)
+2026-02-16 13:17:40 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL11.ipt
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:40 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL11.ipt (not renamed)
+2026-02-16 13:17:41 | ASSEMBLY: Saved sub-assembly - Launder.iam
+2026-02-16 13:17:41 | ASSEMBLY: RECURSING into sub-assembly - Bottom.iam
+2026-02-16 13:17:41 | ASSEMBLY: Updating references in - Bottom.iam (Level: ROOT>Bottom.iam)
+2026-02-16 13:17:41 | ASSEMBLY: Replacing Part1 HC-B.ipt -> N1SCR03-700-PL23.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL23.ipt
+2026-02-16 13:17:42 | ASSEMBLY: Replacing Part2 HC-B.ipt -> N1SCR03-700-PL24.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL24.ipt
+2026-02-16 13:17:42 | ASSEMBLY: Replacing Part3 HC-B.ipt -> N1SCR03-700-PL25.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL25.ipt
+2026-02-16 13:17:42 | ASSEMBLY: Replacing Part4 HC-B.ipt -> N1SCR03-700-PL26.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL26.ipt
+2026-02-16 13:17:42 | ASSEMBLY: Replacing Part5 HC-B.ipt -> N1SCR03-700-PL27.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:42 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL27.ipt
+2026-02-16 13:17:42 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL27.ipt (not renamed)
+2026-02-16 13:17:42 | ASSEMBLY: Replacing Part6 HC-B.ipt -> N1SCR03-700-PL28.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:43 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL28.ipt
+2026-02-16 13:17:43 | ASSEMBLY: Replacing Part7 Angle HC-B.ipt -> N1SCR03-700-A20.ipt [A] (in Bottom.iam)
+2026-02-16 13:17:43 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A20.ipt
+2026-02-16 13:17:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A20.ipt (not renamed)
+2026-02-16 13:17:43 | ASSEMBLY: Replacing Part8 Angle HC-B.ipt -> N1SCR03-700-A21.ipt [A] (in Bottom.iam)
+2026-02-16 13:17:43 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A21.ipt
+2026-02-16 13:17:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A21.ipt (not renamed)
+2026-02-16 13:17:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A21.ipt (not renamed)
+2026-02-16 13:17:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A21.ipt (not renamed)
+2026-02-16 13:17:43 | ASSEMBLY: Replacing Part9 Angle HC-B.ipt -> N1SCR03-700-A22.ipt [A] (in Bottom.iam)
+2026-02-16 13:17:43 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-A22.ipt
+2026-02-16 13:17:43 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-A22.ipt (not renamed)
+2026-02-16 13:17:43 | ASSEMBLY: Replacing Part10 Stiffener HC-B.ipt -> N1SCR03-700-FL12.ipt [FL] (in Bottom.iam)
+2026-02-16 13:17:44 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL12.ipt
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: Replacing Part11 Stiffener HC-B.ipt -> N1SCR03-700-FL13.ipt [FL] (in Bottom.iam)
+2026-02-16 13:17:44 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL13.ipt
+2026-02-16 13:17:44 | ASSEMBLY: Replacing Part12 Stiffener HC-B.ipt -> N1SCR03-700-FL14.ipt [FL] (in Bottom.iam)
+2026-02-16 13:17:44 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL14.ipt
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL13.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL14.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL13.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL14.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL13.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL14.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL13.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL14.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL12.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL13.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL14.ipt (not renamed)
+2026-02-16 13:17:44 | ASSEMBLY: Replacing Part13 Stiffener HC-B.ipt -> N1SCR03-700-FL15.ipt [FL] (in Bottom.iam)
+2026-02-16 13:17:44 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL15.ipt
+2026-02-16 13:17:44 | ASSEMBLY: Replacing Part14 Stiffener HC-B.ipt -> N1SCR03-700-FL16.ipt [FL] (in Bottom.iam)
+2026-02-16 13:17:45 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL16.ipt
+2026-02-16 13:17:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL15.ipt (not renamed)
+2026-02-16 13:17:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL16.ipt (not renamed)
+2026-02-16 13:17:45 | ASSEMBLY: Replacing Lug HC-B.ipt -> N1SCR03-700-PL29.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:45 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL29.ipt
+2026-02-16 13:17:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL29.ipt (not renamed)
+2026-02-16 13:17:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL29.ipt (not renamed)
+2026-02-16 13:17:45 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL29.ipt (not renamed)
+2026-02-16 13:17:45 | ASSEMBLY: Replacing Part15.ipt -> N1SCR03-700-PL30.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:45 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL30.ipt
+2026-02-16 13:17:45 | ASSEMBLY: Replacing Part16 Corner Gusset.ipt -> N1SCR03-700-PL31.ipt [PL] (in Bottom.iam)
+2026-02-16 13:17:45 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL31.ipt
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL30.ipt (not renamed)
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL31.ipt (not renamed)
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL30.ipt (not renamed)
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL31.ipt (not renamed)
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL30.ipt (not renamed)
+2026-02-16 13:17:46 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL31.ipt (not renamed)
+2026-02-16 13:17:47 | ASSEMBLY: Saved sub-assembly - Bottom.iam
+2026-02-16 13:17:47 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-02-16 13:17:47 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-02-16 13:17:47 | ASSEMBLY: Replacing Part1 HC-L1.ipt -> N1SCR03-700-PL32.ipt [PL] (in Lid-1.iam)
+2026-02-16 13:17:47 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL32.ipt
+2026-02-16 13:17:47 | ASSEMBLY: Replacing Part2 Pipe HC-L1.ipt -> N1SCR03-700-P2.ipt [P] (in Lid-1.iam)
+2026-02-16 13:17:47 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-P2.ipt
+2026-02-16 13:17:47 | ASSEMBLY: Replacing Part3 Flange HC-L1.ipt -> N1SCR03-700-FLG2.ipt [FLG] (in Lid-1.iam)
+2026-02-16 13:17:47 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FLG2.ipt
+2026-02-16 13:17:47 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-P2.ipt (not renamed)
+2026-02-16 13:17:47 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FLG2.ipt (not renamed)
+2026-02-16 13:17:48 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-02-16 13:17:48 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-02-16 13:17:48 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-16 13:17:48 | ASSEMBLY: Replacing Part1 HC-L2.ipt -> N1SCR03-700-PL33.ipt [PL] (in Lid-2.iam)
+2026-02-16 13:17:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL33.ipt
+2026-02-16 13:17:48 | ASSEMBLY: Replacing Part2 Stiffener HC-L2.ipt -> N1SCR03-700-FL17.ipt [FL] (in Lid-2.iam)
+2026-02-16 13:17:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL17.ipt
+2026-02-16 13:17:48 | ASSEMBLY: Replacing Part3 Stiffener HC-L2.ipt -> N1SCR03-700-FL18.ipt [FL] (in Lid-2.iam)
+2026-02-16 13:17:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-FL18.ipt
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-FL18.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: Replacing Part4 Handle HC-L2.ipt -> N1SCR03-700-R1.ipt [R] (in Lid-2.iam)
+2026-02-16 13:17:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-R1.ipt
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-R1.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-R1.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-R1.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-R1.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-R1.ipt (not renamed)
+2026-02-16 13:17:49 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-02-16 13:17:50 | ASSEMBLY: SKIPPING NCVR06-701-Bolted Connection1.iam (bolted connection assembly)
+2026-02-16 13:17:50 | ASSEMBLY: SKIPPING NCVR06-701-Bolted Connection2.iam (bolted connection assembly)
+2026-02-16 13:17:50 | ASSEMBLY: SKIPPING NCVR06-701-Bolted Connection3.iam (bolted connection assembly)
+2026-02-16 13:17:50 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:50 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:17:50 | ASSEMBLY: Replacing Part1 Beam.ipt -> N1SCR03-700-B1.ipt [B] (in Support Beam-1.iam)
+2026-02-16 13:17:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-B1.ipt
+2026-02-16 13:17:50 | ASSEMBLY: Replacing Part2 End Plate.ipt -> N1SCR03-700-PL34.ipt [PL] (in Support Beam-1.iam)
+2026-02-16 13:17:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL34.ipt
+2026-02-16 13:17:50 | ASSEMBLY: Replacing Part3 End Plate.ipt -> N1SCR03-700-PL35.ipt [PL] (in Support Beam-1.iam)
+2026-02-16 13:17:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-700-PL35.ipt
+2026-02-16 13:17:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-B1.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL34.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL35.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-B1.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL34.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL35.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: RECURSING into sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: Updating references in - Support Beam-1.iam (Level: ROOT>Support Beam-1.iam)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-B1.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL34.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-700-PL35.ipt (not renamed)
+2026-02-16 13:17:51 | ASSEMBLY: Saved sub-assembly - Support Beam-1.iam
+2026-02-16 13:17:51 | ASSEMBLY: Saving assembly with updated references...
+2026-02-16 13:17:53 | ASSEMBLY: Successfully saved assembly
+2026-02-16 13:17:53 | STEP 8: Auto-detecting and updating IDW files
+2026-02-16 13:17:53 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-16 13:17:53 | IDW: Found drawing file - MGY-200-DSL-09-00.idw
+2026-02-16 13:17:53 | IDW: Processing MGY-200-DSL-09-00.idw
+2026-02-16 13:17:54 | IDW: Opening MGY-200-DSL-09-00.idw
+2026-02-16 13:18:03 | IDW: Found 1 referenced files
+2026-02-16 13:18:03 | IDW: INFO - No mapping found for Head Chute.iam
+2026-02-16 13:18:03 | IDW: Saved MGY-200-DSL-09-00.idw
+2026-02-16 13:18:03 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-16 13:18:03 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-16 13:18:03 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\20. N1SCR03 - Deslime Screen Station\700 Head Chute\STEP_1_MAPPING.txt
+2026-02-16 13:18:03 | MAPPING: Comprehensive mapping count = 81
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-T.ipt -> N1SCR03-700-PL1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 HC-T.ipt -> N1SCR03-700-PL2.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 HC-T.ipt -> N1SCR03-700-PL3.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part4 HC-T.ipt -> N1SCR03-700-PL4.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part5 HC-T.ipt -> N1SCR03-700-PL5.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part17 HC-T.ipt -> N1SCR03-700-PL6.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part18 Corner Gusset HC-T.ipt -> N1SCR03-700-PL7.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Lug HC-T.ipt -> N1SCR03-700-PL8.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-M.ipt -> N1SCR03-700-PL9.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 HC-M.ipt -> N1SCR03-700-PL10.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 HC-M.ipt -> N1SCR03-700-PL11.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part4 HC-M.ipt -> N1SCR03-700-PL12.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part5 HC-M.ipt -> N1SCR03-700-PL13.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part6 HC-M.ipt -> N1SCR03-700-PL14.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part7 HC-M.ipt -> N1SCR03-700-PL15.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part8 HC-M.ipt -> N1SCR03-700-PL16.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part15 HC-M.ipt -> N1SCR03-700-PL17.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part16 Corner Gusset HC-M.ipt -> N1SCR03-700-PL18.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Lug HC-M.ipt -> N1SCR03-700-PL19.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-L.ipt -> N1SCR03-700-PL20.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 HC-L.ipt -> N1SCR03-700-PL21.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 HC-L.ipt -> N1SCR03-700-PL22.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-B.ipt -> N1SCR03-700-PL23.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 HC-B.ipt -> N1SCR03-700-PL24.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 HC-B.ipt -> N1SCR03-700-PL25.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part4 HC-B.ipt -> N1SCR03-700-PL26.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part5 HC-B.ipt -> N1SCR03-700-PL27.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part6 HC-B.ipt -> N1SCR03-700-PL28.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Lug HC-B.ipt -> N1SCR03-700-PL29.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part15.ipt -> N1SCR03-700-PL30.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part16 Corner Gusset.ipt -> N1SCR03-700-PL31.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-L1.ipt -> N1SCR03-700-PL32.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 HC-L2.ipt -> N1SCR03-700-PL33.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 End Plate.ipt -> N1SCR03-700-PL34.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 End Plate.ipt -> N1SCR03-700-PL35.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part6 Angle HC-T.ipt -> N1SCR03-700-A1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part7 Angle HC-T.ipt -> N1SCR03-700-A2.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part8 Angle HC-T.ipt -> N1SCR03-700-A3.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part9 (Part8 Angle HC-T MIR).ipt -> N1SCR03-700-A4.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part10 Angle HC-T.ipt -> N1SCR03-700-A5.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part11 (Part10 Angle HC-T MIR).ipt -> N1SCR03-700-A6.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part12 Angle HC-T.ipt -> N1SCR03-700-A7.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part13 (Part12 Angle HC-T MIR).ipt -> N1SCR03-700-A8.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part14 Angle HC-T.ipt -> N1SCR03-700-A9.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part15 (Part14 Angle HC-T MIR).ipt -> N1SCR03-700-A10.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part16 Angle HC-T.ipt -> N1SCR03-700-A11.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part9 Angle HC-M.ipt -> N1SCR03-700-A12.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part10 Angle HC-M.ipt -> N1SCR03-700-A13.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part11 (Part10 Angle HC-M MIR).ipt -> N1SCR03-700-A14.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part12 Angle HC-M.ipt -> N1SCR03-700-A15.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part13 Angle HC-M.ipt -> N1SCR03-700-A16.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part14 Angle HC-M.ipt -> N1SCR03-700-A17.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part4 Angle HC-L.ipt -> N1SCR03-700-A18.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part5 Angle HC-L.ipt -> N1SCR03-700-A19.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part7 Angle HC-B.ipt -> N1SCR03-700-A20.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part8 Angle HC-B.ipt -> N1SCR03-700-A21.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part9 Angle HC-B.ipt -> N1SCR03-700-A22.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part17 Stiffener HC-M.ipt -> N1SCR03-700-FL1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part18 Stiffener HC-M.ipt -> N1SCR03-700-FL2.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part19 Stiffener HC-M.ipt -> N1SCR03-700-FL3.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part20 Stiffener HC-M.ipt -> N1SCR03-700-FL4.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part9 Stiffener HC-L.ipt -> N1SCR03-700-FL5.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part8 Stiffener HC-L.ipt -> N1SCR03-700-FL6.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part10 Stiffener HC-L.ipt -> N1SCR03-700-FL7.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part11 Stiffener HC-L.ipt -> N1SCR03-700-FL8.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part12 Stiffener HC-L.ipt -> N1SCR03-700-FL9.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part13 Stiffener HC-L.ipt -> N1SCR03-700-FL10.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part14 Stiffener HC-L.ipt -> N1SCR03-700-FL11.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part10 Stiffener HC-B.ipt -> N1SCR03-700-FL12.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part11 Stiffener HC-B.ipt -> N1SCR03-700-FL13.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part12 Stiffener HC-B.ipt -> N1SCR03-700-FL14.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part13 Stiffener HC-B.ipt -> N1SCR03-700-FL15.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part14 Stiffener HC-B.ipt -> N1SCR03-700-FL16.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 Stiffener HC-L2.ipt -> N1SCR03-700-FL17.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 Stiffener HC-L2.ipt -> N1SCR03-700-FL18.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part6 Pipe HC-L.ipt -> N1SCR03-700-P1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part2 Pipe HC-L1.ipt -> N1SCR03-700-P2.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part7 Flange HC-L.ipt -> N1SCR03-700-FLG1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part3 Flange HC-L1.ipt -> N1SCR03-700-FLG2.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part4 Handle HC-L2.ipt -> N1SCR03-700-R1.ipt
+2026-02-16 13:18:03 | MAPPING: Prepared: Part1 Beam.ipt -> N1SCR03-700-B1.ipt
+2026-02-16 13:18:03 | MAPPING: Write attempt 1 of 3
+2026-02-16 13:18:03 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-16 13:18:03 | MAPPING: VERIFICATION - File exists! Size: 28049 bytes
+2026-02-16 13:18:03 | MAPPING: SUCCESS - Mapping file saved with 81 mappings
+2026-02-16 13:18:04 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-16 13:18:04 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-16 13:18:04 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

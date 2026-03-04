@@ -1,0 +1,16 @@
+﻿2025-12-10 18:51:55 | === ASSEMBLY CLONER STARTED ===
+2025-12-10 18:51:55 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-1 - LH\Staircase-1.iam
+2025-12-10 18:51:55 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-1 - LH
+2025-12-10 18:51:57 | User confirmed clone operation
+2025-12-10 18:51:57 | Opening folder browser dialog...
+2025-12-10 18:52:27 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest
+2025-12-10 18:52:28 | Rename parts: True
+2025-12-10 18:52:28 | Prompting for plant section prefix...
+2025-12-10 18:52:36 | Plant section prefix: staircasetest
+2025-12-10 18:52:36 | ERROR: Unspecified error (0x80004005 (E_FAIL))
+Stack:    at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Object[] aArgs, Boolean[] aArgsIsByRef, Int32[] aArgsWrapperTypes, Type[] aArgsTypes, Type retType)
+   at Inventor.Document.get_DocumentType()
+   at AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.GetPartSuffix(Document doc)
+   at AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CopyAllParts(Dictionary`2 allParts, Dictionary`2 occurrenceNames, String destFolder)
+   at AssemblyClonerAddIn.AssemblyClonerAddIn.AssemblyCloner.CloneAssembly()

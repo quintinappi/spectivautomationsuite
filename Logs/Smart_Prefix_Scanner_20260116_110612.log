@@ -1,0 +1,1010 @@
+2026-01-16 11:06:12 | === SMART PREFIX SCANNER ===
+2026-01-16 11:06:12 | Prevent duplicate numbering by scanning existing model
+2026-01-16 11:06:15 | SUCCESS: Connected to Inventor
+2026-01-16 11:06:15 | ASSEMBLY: Detected - Structure & Walkway Asm.iam
+2026-01-16 11:06:15 | STEP 1: Recursively scanning assembly for heritage part numbers
+2026-01-16 11:06:15 | SCAN: Recursively scanning - Structure & Walkway Asm.iam
+2026-01-16 11:06:15 | SCAN: Processing 122 occurrences in Structure & Walkway Asm.iam
+2026-01-16 11:06:15 | SCAN: Recursing into sub-assembly - Structure.iam
+2026-01-16 11:06:15 | SCAN: Processing 246 occurrences in Structure.iam
+2026-01-16 11:06:15 | SCAN: Recursing into sub-assembly - Panel-1.iam
+2026-01-16 11:06:15 | SCAN: Processing 15 occurrences in Panel-1.iam
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part4 203 x 203 x 46 H.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part6.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part6 203 x 203 x 46 H.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Panel4-Part6.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H-2.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:15 | SCAN: Recursing into sub-assembly - Panel-3.iam
+2026-01-16 11:06:15 | SCAN: Processing 24 occurrences in Panel-3.iam
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part4 203 x 203 x 46 H.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:15 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:15 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Pedestal Support Bracket 1 Plate 1.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Pedestal Support Bracket 1 Plate 2.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Pedestal Support Bracket 1 Plate 3.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Pedestal Support Bracket 1 Plate 4.ipt
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Pedestal Support Bracket 1 Plate 5.ipt
+2026-01-16 11:06:15 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:15 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:15 | ORIGINAL: Skipping - Panel-3-Skeleton.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part5 203 x 203 x 46 H.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Panel-4.iam
+2026-01-16 11:06:16 | SCAN: Processing 22 occurrences in Panel-4.iam
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part4 203 x 203 x 46 H.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part5 203 x 203 x 46 H.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Processing 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 11:06:16 | SCAN: Recursing into sub-assembly - Panel-7.iam
+2026-01-16 11:06:16 | SCAN: Processing 12 occurrences in Panel-7.iam
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part4 203x133x25.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part5.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:16 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 90x90x8.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 203 x 203 x 46 H.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-8.iam
+2026-01-16 11:06:17 | SCAN: Processing 15 occurrences in Panel-8.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 203 x 203 x 46 H.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part4 IPE 180.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part5.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 90x90x8.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part9 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part10 Corner Gusset.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-9.iam
+2026-01-16 11:06:17 | SCAN: Processing 13 occurrences in Panel-9.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part5 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7 Angle.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-10.iam
+2026-01-16 11:06:17 | SCAN: Processing 13 occurrences in Panel-10.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part5 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7 Angle.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-11.iam
+2026-01-16 11:06:17 | SCAN: Processing 11 occurrences in Panel-11.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part5 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7 Angle.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-12.iam
+2026-01-16 11:06:17 | SCAN: Processing 11 occurrences in Panel-12.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part5 Centre Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part6 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part7 Angle.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part8 Corner Gusset.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:17 | SCAN: Recursing into sub-assembly - Panel-14.iam
+2026-01-16 11:06:17 | SCAN: Processing 12 occurrences in Panel-14.iam
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:17 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part5 Centre Gusset.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part6 Corner Gusset.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part7 Angle.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part8 Stair Connection Plate.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part9 Stair Connection Plate.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-1.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-1.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-2.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-2.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam49.iam
+2026-01-16 11:06:18 | SCAN: Processing 5 occurrences in Beam49.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Beam49-PL1.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Beam49-B2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Beam49-PL3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-4.iam
+2026-01-16 11:06:18 | SCAN: Processing 6 occurrences in Beam-4.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2 203x133x25.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part4.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-5.iam
+2026-01-16 11:06:18 | SCAN: Processing 4 occurrences in Beam-5.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2 203x133x25.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-5.iam
+2026-01-16 11:06:18 | SCAN: Processing 4 occurrences in Beam-5.iam
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-6.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-6.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203 x 203 x 46 H.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-7.iam
+2026-01-16 11:06:18 | SCAN: Processing 5 occurrences in Beam-7.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203 x 203 x 46 H.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-8.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-8.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203 x 203 x 46 H.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-9.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-9.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203 x 203 x 46 H.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-10.iam
+2026-01-16 11:06:18 | SCAN: Processing 5 occurrences in Beam-10.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-11.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-11.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 254x146x31.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-12.iam
+2026-01-16 11:06:18 | SCAN: Processing 3 occurrences in Beam-12.iam
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part1 254x146x31.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:18 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:18 | SCAN: Recursing into sub-assembly - Beam-13.iam
+2026-01-16 11:06:19 | SCAN: Processing 3 occurrences in Beam-13.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-48.iam
+2026-01-16 11:06:19 | SCAN: Processing 3 occurrences in Beam-48.iam
+2026-01-16 11:06:19 | HERITAGE: Found - Beam-48_BEAM-21-OTHER1.ipt
+2026-01-16 11:06:19 | EXTRACT: Analyzing - Beam-48_BEAM-21-OTHER1.ipt
+2026-01-16 11:06:19 | EXTRACT: Prefix='Beam-48_BEAM-21-', CodeNumber='OTHER1'
+2026-01-16 11:06:19 | EXTRACT: Group='OTHER', Number=1
+2026-01-16 11:06:19 | PREFIX: Detected prefix: Beam-48_BEAM-21-
+2026-01-16 11:06:19 | COUNTER: Added Beam-48_BEAM-21-OTHER = 1
+2026-01-16 11:06:19 | HERITAGE: Found - Beam-48_BEAM-21-PL1.ipt
+2026-01-16 11:06:19 | EXTRACT: Analyzing - Beam-48_BEAM-21-PL1.ipt
+2026-01-16 11:06:19 | EXTRACT: Prefix='Beam-48_BEAM-21-', CodeNumber='PL1'
+2026-01-16 11:06:19 | EXTRACT: Group='PL', Number=1
+2026-01-16 11:06:19 | COUNTER: Added Beam-48_BEAM-21-PL = 1
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-16.iam
+2026-01-16 11:06:19 | SCAN: Processing 6 occurrences in Beam-16.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part4.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-17.iam
+2026-01-16 11:06:19 | SCAN: Processing 3 occurrences in Beam-17.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-20.iam
+2026-01-16 11:06:19 | SCAN: Processing 2 occurrences in Beam-20.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 406x178x54.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-25.iam
+2026-01-16 11:06:19 | SCAN: Processing 4 occurrences in Beam-25.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-26.iam
+2026-01-16 11:06:19 | SCAN: Processing 3 occurrences in Beam-26.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-27.iam
+2026-01-16 11:06:19 | SCAN: Processing 4 occurrences in Beam-27.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-28.iam
+2026-01-16 11:06:19 | SCAN: Processing 4 occurrences in Beam-28.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-29.iam
+2026-01-16 11:06:19 | SCAN: Processing 4 occurrences in Beam-29.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-30.iam
+2026-01-16 11:06:19 | SCAN: Processing 4 occurrences in Beam-30.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-32.iam
+2026-01-16 11:06:19 | SCAN: Processing 3 occurrences in Beam-32.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-33.iam
+2026-01-16 11:06:19 | SCAN: Processing 5 occurrences in Beam-33.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:19 | SCAN: Recursing into sub-assembly - Beam-34.iam
+2026-01-16 11:06:19 | SCAN: Processing 5 occurrences in Beam-34.iam
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:19 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-34.iam
+2026-01-16 11:06:20 | SCAN: Processing 5 occurrences in Beam-34.iam
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-35.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-35.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-36.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-36.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-37.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-37.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-37.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-37.iam
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-38.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-38.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-38.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-38.iam
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-39.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-39.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-39.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Beam-39.iam
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-42.iam
+2026-01-16 11:06:20 | SCAN: Processing 6 occurrences in Beam-42.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part4 Centre Gusset.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Beam-45.iam
+2026-01-16 11:06:20 | SCAN: Processing 5 occurrences in Beam-45.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Column-1.iam
+2026-01-16 11:06:20 | SCAN: Processing 2 occurrences in Column-1.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 203x133x25.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Column-2.iam
+2026-01-16 11:06:20 | SCAN: Processing 3 occurrences in Column-2.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 203x133x25.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Column-3.iam
+2026-01-16 11:06:20 | SCAN: Processing 2 occurrences in Column-3.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Column-4.iam
+2026-01-16 11:06:20 | SCAN: Processing 2 occurrences in Column-4.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | SCAN: Recursing into sub-assembly - Channel-10.iam
+2026-01-16 11:06:20 | SCAN: Processing 5 occurrences in Channel-10.iam
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:20 | ORIGINAL: Skipping - Part5 Corner Gusset.ipt
+2026-01-16 11:06:21 | SCAN: Recursing into sub-assembly - Channel-11.iam
+2026-01-16 11:06:21 | SCAN: Processing 5 occurrences in Channel-11.iam
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part5 Corner Gusset.ipt
+2026-01-16 11:06:21 | SCAN: Recursing into sub-assembly - Channel-12.iam
+2026-01-16 11:06:21 | SCAN: Processing 4 occurrences in Channel-12.iam
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:21 | SCAN: Recursing into sub-assembly - Channel-13.iam
+2026-01-16 11:06:21 | SCAN: Processing 4 occurrences in Channel-13.iam
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartVB3 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartVB4 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartVB5 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartVB7 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartVB8 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartFB9 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartFB13 Angle.ipt
+2026-01-16 11:06:21 | ORIGINAL: Skipping - PartFB14 Angle.ipt
+2026-01-16 11:06:22 | SCAN: Recursing into sub-assembly - Beam-19.iam
+2026-01-16 11:06:22 | SCAN: Processing 4 occurrences in Beam-19.iam
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:22 | SCAN: Recursing into sub-assembly - Beam-18.iam
+2026-01-16 11:06:22 | SCAN: Processing 3 occurrences in Beam-18.iam
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part1 203x133x25.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part2.ipt
+2026-01-16 11:06:22 | SCAN: Recursing into sub-assembly - Channel-2.iam
+2026-01-16 11:06:22 | SCAN: Processing 5 occurrences in Channel-2.iam
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - PartFB6 Angle.ipt
+2026-01-16 11:06:22 | SCAN: Recursing into sub-assembly - Channel-1.iam
+2026-01-16 11:06:22 | SCAN: Processing 5 occurrences in Channel-1.iam
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - PartFB7 Angle.ipt
+2026-01-16 11:06:22 | SCAN: Recursing into sub-assembly - Beam-15.iam
+2026-01-16 11:06:22 | SCAN: Processing 4 occurrences in Beam-15.iam
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:22 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Centre Gusset.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Channel-4.iam
+2026-01-16 11:06:23 | SCAN: Processing 5 occurrences in Channel-4.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB1 Angle.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB2 Angle.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Channel-5.iam
+2026-01-16 11:06:23 | SCAN: Processing 5 occurrences in Channel-5.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Channel-6.iam
+2026-01-16 11:06:23 | SCAN: Processing 5 occurrences in Channel-6.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Channel-7.iam
+2026-01-16 11:06:23 | SCAN: Processing 5 occurrences in Channel-7.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB3 Angle.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB4 Angle.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Channel-8.iam
+2026-01-16 11:06:23 | SCAN: Processing 4 occurrences in Channel-8.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 PFC.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Corner Gusset.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam-24.iam
+2026-01-16 11:06:23 | SCAN: Processing 6 occurrences in Beam-24.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part3 Centre Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part4 Centre Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part5 Corner Gusset.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB10 Angle.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - PartFB12 Angle.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Main-Skeleton.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam-31.iam
+2026-01-16 11:06:23 | SCAN: Processing 4 occurrences in Beam-31.iam
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:23 | HERITAGE: Found - B31-PC200x75-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Analyzing - B31-PC200x75-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Prefix='B31-PC200x75-', CodeNumber='1'
+2026-01-16 11:06:23 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:23 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: B31-PC200x75-
+2026-01-16 11:06:23 | COUNTER: Added B31-PC200x75- = 1
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam-20.iam
+2026-01-16 11:06:23 | SCAN: Processing 2 occurrences in Beam-20.iam
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam46.iam
+2026-01-16 11:06:23 | SCAN: Processing 3 occurrences in Beam46.iam
+2026-01-16 11:06:23 | HERITAGE: Found - B46-406x178x54I-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Analyzing - B46-406x178x54I-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Prefix='B46-406x178x54I-', CodeNumber='1'
+2026-01-16 11:06:23 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:23 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: B46-406x178x54I-
+2026-01-16 11:06:23 | COUNTER: Added B46-406x178x54I- = 1
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam46.iam
+2026-01-16 11:06:23 | SCAN: Processing 3 occurrences in Beam46.iam
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam47.iam
+2026-01-16 11:06:23 | SCAN: Processing 3 occurrences in Beam47.iam
+2026-01-16 11:06:23 | HERITAGE: Found - Beam47-203x133x25I-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Analyzing - Beam47-203x133x25I-1.ipt
+2026-01-16 11:06:23 | EXTRACT: Prefix='Beam47-203x133x25I-', CodeNumber='1'
+2026-01-16 11:06:23 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:23 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Beam47-203x133x25I-
+2026-01-16 11:06:23 | COUNTER: Added Beam47-203x133x25I- = 1
+2026-01-16 11:06:23 | ORIGINAL: Skipping - Beam47-Plate1.ipt
+2026-01-16 11:06:23 | SCAN: Recursing into sub-assembly - Beam47.iam
+2026-01-16 11:06:23 | SCAN: Processing 3 occurrences in Beam47.iam
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Beam-23.iam
+2026-01-16 11:06:24 | SCAN: Processing 3 occurrences in Beam-23.iam
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Beam-23.iam
+2026-01-16 11:06:24 | SCAN: Processing 3 occurrences in Beam-23.iam
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Beam-14.iam
+2026-01-16 11:06:24 | SCAN: Processing 4 occurrences in Beam-14.iam
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part4 Centre Gusset.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - PartVB1 Angle.ipt
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Panel-2.iam
+2026-01-16 11:06:24 | SCAN: Processing 17 occurrences in Panel-2.iam
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part3.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part4 203 x 203 x 46 H.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part2 203 x 203 x 46 H-2.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part6.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - PartVB2 Angle.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - PartFB15 Angle.ipt
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Channel-14.iam
+2026-01-16 11:06:24 | SCAN: Processing 3 occurrences in Channel-14.iam
+2026-01-16 11:06:24 | HERITAGE: Found - Channel-14-CH1.ipt
+2026-01-16 11:06:24 | EXTRACT: Analyzing - Channel-14-CH1.ipt
+2026-01-16 11:06:24 | EXTRACT: Prefix='Channel-14-', CodeNumber='CH1'
+2026-01-16 11:06:24 | EXTRACT: Group='CH', Number=1
+2026-01-16 11:06:24 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Channel-14-
+2026-01-16 11:06:24 | COUNTER: Added Channel-14-CH = 1
+2026-01-16 11:06:24 | HERITAGE: Found - Channel-14-PL2.ipt
+2026-01-16 11:06:24 | EXTRACT: Analyzing - Channel-14-PL2.ipt
+2026-01-16 11:06:24 | EXTRACT: Prefix='Channel-14-', CodeNumber='PL2'
+2026-01-16 11:06:24 | EXTRACT: Group='PL', Number=2
+2026-01-16 11:06:24 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Channel-14-
+2026-01-16 11:06:24 | COUNTER: Added Channel-14-PL = 2
+2026-01-16 11:06:24 | SCAN: Recursing into sub-assembly - Walkway-1.iam
+2026-01-16 11:06:24 | SCAN: Processing 37 occurrences in Walkway-1.iam
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part3 PFC 200 x 75.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part1 IPE 180.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part2 IPE 180.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part4 PFC 200 x 75.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part5 PFC 200 x 75.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part6 PFC 180 x 70.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part7 PFC 180 x 70.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part8 70x70x6.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part12.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part13.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part14 Centre Gusset.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part15 PFC.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part11.ipt
+2026-01-16 11:06:24 | ORIGINAL: Skipping - Part9 70x70x6.ipt
+2026-01-16 11:06:25 | HERITAGE: Found - WW1-IPE200-2.ipt
+2026-01-16 11:06:25 | EXTRACT: Analyzing - WW1-IPE200-2.ipt
+2026-01-16 11:06:25 | EXTRACT: Prefix='WW1-IPE200-', CodeNumber='2'
+2026-01-16 11:06:25 | EXTRACT: Group='', Number=2
+2026-01-16 11:06:25 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW1-IPE200-
+2026-01-16 11:06:25 | COUNTER: Added WW1-IPE200- = 2
+2026-01-16 11:06:25 | HERITAGE: Found - WW1-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Analyzing - WW1-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Prefix='WW1-IPE200-', CodeNumber='1'
+2026-01-16 11:06:25 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:25 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW1-IPE200-
+2026-01-16 11:06:25 | COUNTER: Kept WW1-IPE200- at 2 (current 1 is lower)
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part10.ipt
+2026-01-16 11:06:25 | SCAN: Recursing into sub-assembly - Walkway-2.iam
+2026-01-16 11:06:25 | SCAN: Processing 38 occurrences in Walkway-2.iam
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part3 PFC 200 x 75.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part10.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part1 IPE 180.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part2 IPE 180.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part4 PFC 200 x 75.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part5 PFC 200 x 75.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part6 PFC 180 x 70.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part7 PFC 180 x 70.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part8 70x70x6.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part12.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part13.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part14 Centre Gusset.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part15 PFC.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part11.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part9 70x70x6.ipt
+2026-01-16 11:06:25 | HERITAGE: Found - WW2-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Analyzing - WW2-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Prefix='WW2-IPE200-', CodeNumber='1'
+2026-01-16 11:06:25 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:25 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW2-IPE200-
+2026-01-16 11:06:25 | COUNTER: Added WW2-IPE200- = 1
+2026-01-16 11:06:25 | HERITAGE: Found - WW2-IPE200-3.ipt
+2026-01-16 11:06:25 | EXTRACT: Analyzing - WW2-IPE200-3.ipt
+2026-01-16 11:06:25 | EXTRACT: Prefix='WW2-IPE200-', CodeNumber='3'
+2026-01-16 11:06:25 | EXTRACT: Group='', Number=3
+2026-01-16 11:06:25 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW2-IPE200-
+2026-01-16 11:06:25 | COUNTER: Updated WW2-IPE200- from 1 to 3
+2026-01-16 11:06:25 | SCAN: Recursing into sub-assembly - Walkway-3.iam
+2026-01-16 11:06:25 | SCAN: Processing 34 occurrences in Walkway-3.iam
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part5 PFC.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part6 PFC.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part7 End Plate.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part8 End Plate.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part10 Corner Gusset.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part11 Centre Gusset.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part12 Angle.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part13 Angle.ipt
+2026-01-16 11:06:25 | ORIGINAL: Skipping - Part14 Angle.ipt
+2026-01-16 11:06:25 | HERITAGE: Found - WW6-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Analyzing - WW6-IPE200-1.ipt
+2026-01-16 11:06:25 | EXTRACT: Prefix='WW6-IPE200-', CodeNumber='1'
+2026-01-16 11:06:25 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:25 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6-IPE200-
+2026-01-16 11:06:25 | COUNTER: Added WW6-IPE200- = 1
+2026-01-16 11:06:26 | HERITAGE: Found - WW6-IPE200-2.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW6-IPE200-2.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW6-IPE200-', CodeNumber='2'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=2
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6-IPE200-
+2026-01-16 11:06:26 | COUNTER: Updated WW6-IPE200- from 1 to 2
+2026-01-16 11:06:26 | HERITAGE: Found - WW6-IPE200-3.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW6-IPE200-3.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW6-IPE200-', CodeNumber='3'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=3
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6-IPE200-
+2026-01-16 11:06:26 | COUNTER: Updated WW6-IPE200- from 2 to 3
+2026-01-16 11:06:26 | HERITAGE: Found - WW6-IPE200-4.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW6-IPE200-4.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW6-IPE200-', CodeNumber='4'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=4
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6-IPE200-
+2026-01-16 11:06:26 | COUNTER: Updated WW6-IPE200- from 3 to 4
+2026-01-16 11:06:26 | HERITAGE: Found - WW6-IPE200-5.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW6-IPE200-5.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW6-IPE200-', CodeNumber='5'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=5
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6-IPE200-
+2026-01-16 11:06:26 | COUNTER: Updated WW6-IPE200- from 4 to 5
+2026-01-16 11:06:26 | SCAN: Recursing into sub-assembly - Walkway-4.iam
+2026-01-16 11:06:26 | SCAN: Processing 34 occurrences in Walkway-4.iam
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part5 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part6 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part7 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part8 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part10 Corner Gusset.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part11 Centre Gusset.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part12 Angle.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part13 Angle.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part14 Angle.ipt
+2026-01-16 11:06:26 | HERITAGE: Found - WW4-IPE200-1.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW4-IPE200-1.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW4-IPE200-', CodeNumber='1'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW4-IPE200-
+2026-01-16 11:06:26 | COUNTER: Added WW4-IPE200- = 1
+2026-01-16 11:06:26 | ORIGINAL: Skipping - WW4-IPE200-23ipt.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - WW4-IPE200-3ipt.ipt
+2026-01-16 11:06:26 | HERITAGE: Found - WW4-IPE200-4.ipt
+2026-01-16 11:06:26 | EXTRACT: Analyzing - WW4-IPE200-4.ipt
+2026-01-16 11:06:26 | EXTRACT: Prefix='WW4-IPE200-', CodeNumber='4'
+2026-01-16 11:06:26 | EXTRACT: Group='', Number=4
+2026-01-16 11:06:26 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW4-IPE200-
+2026-01-16 11:06:26 | COUNTER: Updated WW4-IPE200- from 1 to 4
+2026-01-16 11:06:26 | SCAN: Recursing into sub-assembly - Walkway-5.iam
+2026-01-16 11:06:26 | SCAN: Processing 31 occurrences in Walkway-5.iam
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part5 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part8 PFC.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part11 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part12 Corner Gusset.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part13 Centre Gusset.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part15 Angle.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part16 Angle.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part4 PFC-2.ipt
+2026-01-16 11:06:26 | SCAN: Recursing into sub-assembly - Walkway-6.iam
+2026-01-16 11:06:26 | SCAN: Processing 46 occurrences in Walkway-6.iam
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:26 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part6 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part7 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part8 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part11 End Plate.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part12 Corner Gusset.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part13 Centre Gusset.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part15 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part14 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part16 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part17 Stair Connection Plate.ipt
+2026-01-16 11:06:27 | HERITAGE: Found - WW6a-IPE200-1.ipt
+2026-01-16 11:06:27 | EXTRACT: Analyzing - WW6a-IPE200-1.ipt
+2026-01-16 11:06:27 | EXTRACT: Prefix='WW6a-IPE200-', CodeNumber='1'
+2026-01-16 11:06:27 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:27 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6a-IPE200-
+2026-01-16 11:06:27 | COUNTER: Added WW6a-IPE200- = 1
+2026-01-16 11:06:27 | HERITAGE: Found - WW6a-IPE200-3.ipt
+2026-01-16 11:06:27 | EXTRACT: Analyzing - WW6a-IPE200-3.ipt
+2026-01-16 11:06:27 | EXTRACT: Prefix='WW6a-IPE200-', CodeNumber='3'
+2026-01-16 11:06:27 | EXTRACT: Group='', Number=3
+2026-01-16 11:06:27 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6a-IPE200-
+2026-01-16 11:06:27 | COUNTER: Updated WW6a-IPE200- from 1 to 3
+2026-01-16 11:06:27 | HERITAGE: Found - WW6a-IPE200-2.ipt
+2026-01-16 11:06:27 | EXTRACT: Analyzing - WW6a-IPE200-2.ipt
+2026-01-16 11:06:27 | EXTRACT: Prefix='WW6a-IPE200-', CodeNumber='2'
+2026-01-16 11:06:27 | EXTRACT: Group='', Number=2
+2026-01-16 11:06:27 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6a-IPE200-
+2026-01-16 11:06:27 | COUNTER: Kept WW6a-IPE200- at 3 (current 2 is lower)
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part18 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part20 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part22 End Plate.ipt
+2026-01-16 11:06:27 | HERITAGE: Found - WW6a-IPE200-5.ipt
+2026-01-16 11:06:27 | EXTRACT: Analyzing - WW6a-IPE200-5.ipt
+2026-01-16 11:06:27 | EXTRACT: Prefix='WW6a-IPE200-', CodeNumber='5'
+2026-01-16 11:06:27 | EXTRACT: Group='', Number=5
+2026-01-16 11:06:27 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW6a-IPE200-
+2026-01-16 11:06:27 | COUNTER: Updated WW6a-IPE200- from 3 to 5
+2026-01-16 11:06:27 | SCAN: Recursing into sub-assembly - Walkway-8.iam
+2026-01-16 11:06:27 | SCAN: Processing 32 occurrences in Walkway-8.iam
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part3 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part5 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part7 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part8 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part11 Corner Gusset.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part12 Centre Gusset.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part13 Centre Gusset.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part9 End Plate.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part14 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part15 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part16 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part17 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part19 Angle.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:27 | ORIGINAL: Skipping - Part20 PFC.ipt
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Walkway-9.iam
+2026-01-16 11:06:28 | SCAN: Processing 15 occurrences in Walkway-9.iam
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part2 PFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part7 Corner Gusset.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part8 Centre Gusset.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part9 Angle.ipt
+2026-01-16 11:06:28 | HERITAGE: Found - WW9-IPE200-1.ipt
+2026-01-16 11:06:28 | EXTRACT: Analyzing - WW9-IPE200-1.ipt
+2026-01-16 11:06:28 | EXTRACT: Prefix='WW9-IPE200-', CodeNumber='1'
+2026-01-16 11:06:28 | EXTRACT: Group='', Number=1
+2026-01-16 11:06:28 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: WW9-IPE200-
+2026-01-16 11:06:28 | COUNTER: Added WW9-IPE200- = 1
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part12 PFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part10 End Plate.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part3 PFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part5 End Plate.ipt
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Walkway-10.iam
+2026-01-16 11:06:28 | SCAN: Processing 16 occurrences in Walkway-10.iam
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part8 Centre Gusset.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part2 PFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part4 End Plate.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part6 End Plate.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part7 Corner Gusset.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part9 Angle.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part3 PFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part5 End Plate.ipt
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part1 TFC.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:28 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:28 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-1.iam
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-2.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-2.iam
+2026-01-16 11:06:29 | ORIGINAL: Skipping - Part1 TFC.ipt
+2026-01-16 11:06:29 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Knee Brace-4.iam
+2026-01-16 11:06:29 | SCAN: Processing 3 occurrences in Knee Brace-4.iam
+2026-01-16 11:06:29 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:29 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:29 | SCAN: Recursing into sub-assembly - Walkway-13.iam
+2026-01-16 11:06:29 | SCAN: Processing 20 occurrences in Walkway-13.iam
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-CH5.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-CH5.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='CH5'
+2026-01-16 11:06:29 | EXTRACT: Group='CH', Number=5
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Added Walkway-13-CH = 5
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-PL10.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-PL10.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='PL10'
+2026-01-16 11:06:29 | EXTRACT: Group='PL', Number=10
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Added Walkway-13-PL = 10
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-PL11.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-PL11.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='PL11'
+2026-01-16 11:06:29 | EXTRACT: Group='PL', Number=11
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Updated Walkway-13-PL from 10 to 11
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-A12.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-A12.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='A12'
+2026-01-16 11:06:29 | EXTRACT: Group='A', Number=12
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Added Walkway-13-A = 12
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-CH6.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-CH6.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='CH6'
+2026-01-16 11:06:29 | EXTRACT: Group='CH', Number=6
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Updated Walkway-13-CH from 5 to 6
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-PL7.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-PL7.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='PL7'
+2026-01-16 11:06:29 | EXTRACT: Group='PL', Number=7
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Kept Walkway-13-PL at 11 (current 7 is lower)
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-IPE15.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-IPE15.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='IPE15'
+2026-01-16 11:06:29 | EXTRACT: Group='IPE', Number=15
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Added Walkway-13-IPE = 15
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-IPE19.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-IPE19.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='IPE19'
+2026-01-16 11:06:29 | EXTRACT: Group='IPE', Number=19
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Updated Walkway-13-IPE from 15 to 19
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-PL9.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-PL9.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='PL9'
+2026-01-16 11:06:29 | EXTRACT: Group='PL', Number=9
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Kept Walkway-13-PL at 11 (current 9 is lower)
+2026-01-16 11:06:29 | HERITAGE: Found - Walkway-13-PL113.ipt
+2026-01-16 11:06:29 | EXTRACT: Analyzing - Walkway-13-PL113.ipt
+2026-01-16 11:06:29 | EXTRACT: Prefix='Walkway-13-', CodeNumber='PL113'
+2026-01-16 11:06:29 | EXTRACT: Group='PL', Number=113
+2026-01-16 11:06:29 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-13-
+2026-01-16 11:06:29 | COUNTER: Updated Walkway-13-PL from 11 to 113
+2026-01-16 11:06:30 | SCAN: Recursing into sub-assembly - Centrifuge Frame.iam
+2026-01-16 11:06:30 | SCAN: Processing 40 occurrences in Centrifuge Frame.iam
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B1.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B2.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B3.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B4.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B5.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B6.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B7.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B8.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B9.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B10.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B11.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - B12.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - A1.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - A2.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - A3.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - A4.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - PL1.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - PL2.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - A5.ipt
+2026-01-16 11:06:30 | ORIGINAL: Skipping - Centrifuge Frame - PL3.ipt
+2026-01-16 11:06:30 | SCAN: Recursing into sub-assembly - Walkway-16.iam
+2026-01-16 11:06:30 | SCAN: Processing 11 occurrences in Walkway-16.iam
+2026-01-16 11:06:30 | HERITAGE: Found - Walkway-16-CH1.ipt
+2026-01-16 11:06:30 | EXTRACT: Analyzing - Walkway-16-CH1.ipt
+2026-01-16 11:06:30 | EXTRACT: Prefix='Walkway-16-', CodeNumber='CH1'
+2026-01-16 11:06:30 | EXTRACT: Group='CH', Number=1
+2026-01-16 11:06:30 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-16-
+2026-01-16 11:06:30 | COUNTER: Added Walkway-16-CH = 1
+2026-01-16 11:06:30 | HERITAGE: Found - Walkway-16-PL6.ipt
+2026-01-16 11:06:30 | EXTRACT: Analyzing - Walkway-16-PL6.ipt
+2026-01-16 11:06:30 | EXTRACT: Prefix='Walkway-16-', CodeNumber='PL6'
+2026-01-16 11:06:30 | EXTRACT: Group='PL', Number=6
+2026-01-16 11:06:30 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-16-
+2026-01-16 11:06:30 | COUNTER: Added Walkway-16-PL = 6
+2026-01-16 11:06:30 | HERITAGE: Found - Walkway-16-IPE7.ipt
+2026-01-16 11:06:30 | EXTRACT: Analyzing - Walkway-16-IPE7.ipt
+2026-01-16 11:06:30 | EXTRACT: Prefix='Walkway-16-', CodeNumber='IPE7'
+2026-01-16 11:06:30 | EXTRACT: Group='IPE', Number=7
+2026-01-16 11:06:30 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-16-
+2026-01-16 11:06:30 | COUNTER: Added Walkway-16-IPE = 7
+2026-01-16 11:06:30 | HERITAGE: Found - Walkway-16-IPE8.ipt
+2026-01-16 11:06:30 | EXTRACT: Analyzing - Walkway-16-IPE8.ipt
+2026-01-16 11:06:30 | EXTRACT: Prefix='Walkway-16-', CodeNumber='IPE8'
+2026-01-16 11:06:30 | EXTRACT: Group='IPE', Number=8
+2026-01-16 11:06:30 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-16-
+2026-01-16 11:06:30 | COUNTER: Updated Walkway-16-IPE from 7 to 8
+2026-01-16 11:06:30 | HERITAGE: Found - Walkway-16-PL10.ipt
+2026-01-16 11:06:30 | EXTRACT: Analyzing - Walkway-16-PL10.ipt
+2026-01-16 11:06:30 | EXTRACT: Prefix='Walkway-16-', CodeNumber='PL10'
+2026-01-16 11:06:30 | EXTRACT: Group='PL', Number=10
+2026-01-16 11:06:30 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: Walkway-16-
+2026-01-16 11:06:30 | COUNTER: Updated Walkway-16-PL from 6 to 10
+2026-01-16 11:06:31 | SCAN: Recursing into sub-assembly - Beam-48.iam
+2026-01-16 11:06:31 | SCAN: Processing 3 occurrences in Beam-48.iam
+2026-01-16 11:06:32 | SCAN: Recursing into sub-assembly - Walkway-7.iam
+2026-01-16 11:06:32 | SCAN: Processing 42 occurrences in Walkway-7.iam
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part16 Centre Gusset.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part2 Beam.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part4 PFC.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part5 PFC.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part9 PFC.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part10 PFC.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part11 End Plate.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part13 End Plate.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part14 Centre Gusset.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part15 Corner Gusset.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part25 Angle.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part26 Angle.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part28 Angle.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part22 PFC.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part24 Angle.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part27 Angle.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part3 Beam.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part12 End Plate.ipt
+2026-01-16 11:06:32 | SCAN: Recursing into sub-assembly - Knee Brace-3.iam
+2026-01-16 11:06:32 | SCAN: Processing 3 occurrences in Knee Brace-3.iam
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part1 Beam.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part2 End Plate.ipt
+2026-01-16 11:06:32 | ORIGINAL: Skipping - Part3 End Plate.ipt
+2026-01-16 11:06:32 | SCAN: Recursing into sub-assembly - Knee Brace-3.iam
+2026-01-16 11:06:32 | SCAN: Processing 3 occurrences in Knee Brace-3.iam
+2026-01-16 11:06:32 | SCAN: Recursing into sub-assembly - Staircase-3.iam
+2026-01-16 11:06:32 | SCAN: Processing 36 occurrences in Staircase-3.iam
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH1.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH1.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH1'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=1
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Added STAIRCASE-3-CH = 1
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH2.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH2.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH2'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=2
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Updated STAIRCASE-3-CH from 1 to 2
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH3.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH3.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH3'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=3
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Updated STAIRCASE-3-CH from 2 to 3
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH4.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH4.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH4'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=4
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Updated STAIRCASE-3-CH from 3 to 4
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH5.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH5.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH5'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=5
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Updated STAIRCASE-3-CH from 4 to 5
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-CH6.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-CH6.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='CH6'
+2026-01-16 11:06:32 | EXTRACT: Group='CH', Number=6
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Updated STAIRCASE-3-CH from 5 to 6
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-PL3.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-PL3.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='PL3'
+2026-01-16 11:06:32 | EXTRACT: Group='PL', Number=3
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Added STAIRCASE-3-PL = 3
+2026-01-16 11:06:32 | HERITAGE: Found - STAIRCASE-3-OTHER1.ipt
+2026-01-16 11:06:32 | EXTRACT: Analyzing - STAIRCASE-3-OTHER1.ipt
+2026-01-16 11:06:32 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='OTHER1'
+2026-01-16 11:06:32 | EXTRACT: Group='OTHER', Number=1
+2026-01-16 11:06:32 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:32 | COUNTER: Added STAIRCASE-3-OTHER = 1
+2026-01-16 11:06:33 | HERITAGE: Found - STAIRCASE-3-PL5.ipt
+2026-01-16 11:06:33 | EXTRACT: Analyzing - STAIRCASE-3-PL5.ipt
+2026-01-16 11:06:33 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='PL5'
+2026-01-16 11:06:33 | EXTRACT: Group='PL', Number=5
+2026-01-16 11:06:33 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:33 | COUNTER: Updated STAIRCASE-3-PL from 3 to 5
+2026-01-16 11:06:33 | HERITAGE: Found - STAIRCASE-3-PL6.ipt
+2026-01-16 11:06:33 | EXTRACT: Analyzing - STAIRCASE-3-PL6.ipt
+2026-01-16 11:06:33 | EXTRACT: Prefix='STAIRCASE-3-', CodeNumber='PL6'
+2026-01-16 11:06:33 | EXTRACT: Group='PL', Number=6
+2026-01-16 11:06:33 | PREFIX: WARNING - Multiple prefixes detected! Previous: Beam-48_BEAM-21-, Current: STAIRCASE-3-
+2026-01-16 11:06:33 | COUNTER: Updated STAIRCASE-3-PL from 5 to 6
+2026-01-16 11:06:33 | SCAN: Completed - Processed 495 unique parts
+2026-01-16 11:06:33 | STEP 2: Showing detected prefix and highest numbers
+2026-01-16 11:06:40 | STEP 3: Saving counters to Registry
+2026-01-16 11:06:40 | REGISTRY: Saving counters to Windows Registry
+2026-01-16 11:06:40 | REGISTRY: Saved Beam-48_BEAM-21-OTHER = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Beam-48_BEAM-21-PL = 1
+2026-01-16 11:06:40 | REGISTRY: Saved B31-PC200x75- = 1
+2026-01-16 11:06:40 | REGISTRY: Saved B46-406x178x54I- = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Beam47-203x133x25I- = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Channel-14-CH = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Channel-14-PL = 2
+2026-01-16 11:06:40 | REGISTRY: Saved WW1-IPE200- = 2
+2026-01-16 11:06:40 | REGISTRY: Saved WW2-IPE200- = 3
+2026-01-16 11:06:40 | REGISTRY: Saved WW6-IPE200- = 5
+2026-01-16 11:06:40 | REGISTRY: Saved WW4-IPE200- = 4
+2026-01-16 11:06:40 | REGISTRY: Saved WW6a-IPE200- = 5
+2026-01-16 11:06:40 | REGISTRY: Saved WW9-IPE200- = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-13-CH = 6
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-13-PL = 113
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-13-A = 12
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-13-IPE = 19
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-16-CH = 1
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-16-PL = 10
+2026-01-16 11:06:40 | REGISTRY: Saved Walkway-16-IPE = 8
+2026-01-16 11:06:40 | REGISTRY: Saved STAIRCASE-3-CH = 6
+2026-01-16 11:06:40 | REGISTRY: Saved STAIRCASE-3-PL = 6
+2026-01-16 11:06:40 | REGISTRY: Saved STAIRCASE-3-OTHER = 1
+2026-01-16 11:06:40 | REGISTRY: Save complete - Success: 23, Errors: 0
+2026-01-16 11:06:40 | === SMART PREFIX SCANNER COMPLETED ===

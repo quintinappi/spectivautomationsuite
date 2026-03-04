@@ -1,0 +1,14 @@
+﻿STATUS=ERROR
+ERROR=Access to the path 'C:\ProgramData\Autodesk\Inventor 2026\Addins\AssemblyClonerAddIn.dll' is denied.
+DETAIL=Copy-Item : Access to the path 'C:\ProgramData\Autodesk\Inventor 
+2026\Addins\AssemblyClonerAddIn.dll' is denied.
+At C:\Users\Quintin\Documents\Spectiv\3. Working\INVENTOR_AUTOMATION_SUITE_2026
+\InventorAddIn\Deploy_ProgramData_Elevated.ps1:19 char:5
++     Copy-Item -Path $srcDll -Destination $dstDll -Force
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Quinti...ClonerAddIn 
+   .dll:FileInfo) [Copy-Item], UnauthorizedAccessException
+    + FullyQualifiedErrorId : CopyFileInfoItemUnauthorizedAccessError,Microsof 
+   t.PowerShell.Commands.CopyItemCommand
+ 
+

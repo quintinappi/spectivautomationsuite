@@ -1,0 +1,188 @@
+2026-01-16 13:39:02 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-16 13:39:02 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-16 13:39:03 | SUCCESS: Connected to existing Inventor instance
+2026-01-16 13:39:03 | STEP 1: Detecting open assembly and analyzing components
+2026-01-16 13:39:03 | No active document found
+2026-01-16 13:39:03 | Using open assembly document: Structure & Walkway Asm.iam
+2026-01-16 13:39:03 | DETECTED: Document type: 12291
+2026-01-16 13:39:03 | DETECTED: Assembly document type - proceeding
+2026-01-16 13:39:03 | DETECTED: Active assembly - Structure & Walkway Asm.iam
+2026-01-16 13:39:03 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\Structure & Walkway Asm.iam
+2026-01-16 13:39:04 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-16 13:39:04 | CONFIRMED: 117 occurrences to process
+2026-01-16 13:39:04 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway
+2026-01-16 13:39:04 | EARLY STEP: Setting up mapping file location
+2026-01-16 13:39:16 | MAPPING SETUP: User selected directory: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway
+2026-01-16 13:39:16 | MAPPING SETUP: Creating empty mapping file: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\STEP_1_MAPPING.txt
+2026-01-16 13:39:16 | MAPPING SETUP: Empty mapping file created successfully
+2026-01-16 13:39:19 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-01-16 13:39:19 | AUDIT: === START AUDIT LOG CREATION ===
+2026-01-16 13:39:19 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-01-16 13:39:19 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway
+2026-01-16 13:39:19 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\STEP_0_AUDIT.txt
+2026-01-16 13:39:19 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-01-16 13:39:20 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\STEP_0_AUDIT.txt
+2026-01-16 13:39:20 | AUDIT: === END AUDIT LOG CREATION ===
+2026-01-16 13:39:20 | STEP 2: Flattening hierarchy and grouping components
+2026-01-16 13:39:20 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Structure & Walkway Asm.iam (Level: ROOT)
+2026-01-16 13:39:20 | ANALYZE: Found 117 occurrences in Structure & Walkway Asm.iam
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Structure.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Structure.iam (Level: ROOT>Structure.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 246 occurrences in Structure.iam
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Panel-1.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Panel-1.iam (Level: ROOT>Structure.iam>Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 15 occurrences in Panel-1.iam
+2026-01-16 13:39:20 | ANALYZE: PART - Part2 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: Created new group - B
+2026-01-16 13:39:20 | ANALYZE: PART - Part4 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Part6.ipt -> Description: PL 8mm S355JR -> Group: PL (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: Created new group - PL
+2026-01-16 13:39:20 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-16 13:39:20 | ANALYZE: PART - Part6 203 x 203 x 46 H.ipt -> Description: UB203x133x25 -> Group: B (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Panel4-Part6.ipt -> Description: PL 12mm S355JR -> Group: PL (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: PART - Part2 203 x 203 x 46 H-2.ipt -> Description: UC203x203x46 -> Group: B (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Part10 End Plate.ipt -> Description: PL 10mm S355JR -> Group: PL (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: PART - Part3.ipt -> Description: PL 10mm S355JR -> Group: PL (from Panel-1.iam)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Part3.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Panel-3.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Panel-3.iam (Level: ROOT>Structure.iam>Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 24 occurrences in Panel-3.iam
+2026-01-16 13:39:20 | ANALYZE: PART - Part4 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Part2 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: PART - Pedestal Support Bracket 1 Plate 1.ipt -> Description: PL 12mm S355JR -> Group: PL (from Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Pedestal Support Bracket 1 Plate 2.ipt -> Description: PL 12mm S355JR -> Group: PL (from Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Pedestal Support Bracket 1 Plate 3.ipt -> Description: PL 12mm S355JR -> Group: PL (from Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Pedestal Support Bracket 1 Plate 4.ipt -> Description: PL 12mm S355JR -> Group: PL (from Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Pedestal Support Bracket 1 Plate 5.ipt -> Description: PL 12mm S355JR -> Group: PL (from Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: PART - Panel-3-Skeleton.ipt -> Description: Panel-3-Skeleton -> Group: OTHER (from Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: Created new group - OTHER
+2026-01-16 13:39:20 | ANALYZE: PART - Part5 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: PART - Part1.ipt -> Description: PL 10mm S355JR -> Group: PL (from Panel-3.iam)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Part6 203 x 203 x 46 H.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Part6 203 x 203 x 46 H.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:20 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:20 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Panel-4.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Panel-4.iam (Level: ROOT>Structure.iam>Panel-4.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 22 occurrences in Panel-4.iam
+2026-01-16 13:39:21 | ANALYZE: PART - Part4 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-4.iam)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: PART - Part2 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-4.iam)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-4.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-4.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: PART - Part5 203 x 203 x 46 H.ipt -> Description: UC203x203x46 -> Group: B (from Panel-4.iam)
+2026-01-16 13:39:21 | ANALYZE: PART - Part1.ipt -> Description: PL 10mm S355JR -> Group: PL (from Panel-4.iam)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Part6 203 x 203 x 46 H.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Part6 203 x 203 x 46 H.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-4.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Pedestal Support Bracket 1.iam (Level: ROOT>Structure.iam>Panel-4.iam>Pedestal Support Bracket 1.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 5 occurrences in Pedestal Support Bracket 1.iam
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 1.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 2.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 3.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 4.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Pedestal Support Bracket 1 Plate 5.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: DUPLICATE PART SKIPPED - Panel4-Part6.ipt (already processed)
+2026-01-16 13:39:21 | ANALYZE: RECURSING into sub-assembly - Panel-7.iam
+2026-01-16 13:39:21 | ANALYZE: Processing assembly - Panel-7.iam (Level: ROOT>Structure.iam>Panel-7.iam)
+2026-01-16 13:39:21 | ANALYZE: Found 12 occurrences in Panel-7.iam
+2026-01-16 13:39:29 | STEP 3: Getting plant section naming convention
+2026-01-16 13:39:29 | PLANT: Getting plant section naming convention from user
+2026-01-16 13:39:57 | PLANT: Using custom naming convention: FLOATS-002-
+2026-01-16 13:39:57 | STEP 4: Showing component groups summary
+2026-01-16 13:39:57 | SUMMARY: Showing component groups to user
+2026-01-16 13:40:06 | SUMMARY: User approved component groups
+2026-01-16 13:40:06 | STEP 5: Getting user naming schemes for component groups
+2026-01-16 13:40:06 | INPUT: Getting user naming schemes for 3 groups
+2026-01-16 13:40:08 | INPUT: Group 'B' -> Scheme: FLOATS-002-B{N}
+2026-01-16 13:40:08 | INPUT: Group 'PL' -> Scheme: FLOATS-002-PL{N}
+2026-01-16 13:40:09 | INPUT: Group 'OTHER' -> Scheme: FLOATS-002-PART{N}
+2026-01-16 13:40:09 | STEP 6: Creating heritage-based copies with user naming
+2026-01-16 13:40:09 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-16 13:40:09 | STEP 7: Updating assembly references
+2026-01-16 13:40:09 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-16 13:40:09 | STEP 8: Auto-detecting and updating IDW files
+2026-01-16 13:40:09 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-16 13:40:09 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-16 13:40:09 | MAPPING: === START SAVE MAPPING FILE ===
+2026-01-16 13:40:09 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-16 13:40:09 | MAPPING: Comprehensive mapping count = 0
+2026-01-16 13:40:09 | MAPPING: WARNING - No mappings to save!
+2026-01-16 13:40:09 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-16 13:40:09 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

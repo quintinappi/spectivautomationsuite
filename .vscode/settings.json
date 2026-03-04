@@ -1,0 +1,40 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/coverage/**": true,
+    "**/tmp/**": true,
+    "**/logs/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "search.followSymlinks": false,
+  "github.copilot.advanced": {
+    "ignoredFiles": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/*.min.*"
+    ]
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "chat.tools.terminal.autoApprove": {
+    "dir": true,
+    "type": true,
+    "cscript": true,
+    "Move-Item": true,
+    ".\\Launch_Recursive_IDW_Updater.bat": true,
+    "ForEach-Object": true
+  }
+}

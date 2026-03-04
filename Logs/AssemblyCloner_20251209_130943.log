@@ -1,0 +1,64 @@
+2025-12-09 13:09:43 | === ASSEMBLY CLONER ===
+2025-12-09 13:09:43 | Copy assembly with all parts to new isolated location
+2025-12-09 13:09:45 | SUCCESS: Connected to existing Inventor instance
+2025-12-09 13:09:45 | STEP 1: Detecting open assembly
+2025-12-09 13:09:45 | DETECTED: Beam-5.iam
+2025-12-09 13:09:45 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-5\Beam-5.iam
+2025-12-09 13:09:47 | STEP 2: Getting destination folder from user
+2025-12-09 13:10:00 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-20
+2025-12-09 13:10:00 | New assembly name will be: Beam-20.iam
+2025-12-09 13:10:00 | STEP 3: Asking about heritage renaming
+2025-12-09 13:10:01 | PLANT: Getting plant section naming convention from user
+2025-12-09 13:10:09 | PLANT: Using prefix: BEAM-20-
+2025-12-09 13:10:09 | STEP 4: Analyzing assembly structure
+2025-12-09 13:10:09 | COLLECT: Scanning assembly for all referenced parts...
+2025-12-09 13:10:09 | COLLECT: Part1 S-B5.ipt (PL 10mm S355JR)
+2025-12-09 13:10:09 | COLLECT: Part2 203x133x25 S-B5.ipt (UB203x133x25)
+2025-12-09 13:10:10 | COLLECT: Part3 S-B5.ipt (PL 8mm S355JR)
+2025-12-09 13:10:10 | COLLECT: Part4 S-B5.ipt (PL 8mm S355JR)
+2025-12-09 13:10:10 | COLLECT: Found 4 unique parts
+2025-12-09 13:10:10 | ANALYZE: Found 4 unique parts to copy
+2025-12-09 13:10:10 | STEP 5: Grouping components for heritage naming
+2025-12-09 13:10:10 | GROUP: Grouping parts for heritage naming...
+2025-12-09 13:10:10 | GROUP: Created 2 groups
+2025-12-09 13:10:10 | SCHEME: PL -> BEAM-20-PL{N}
+2025-12-09 13:10:10 | SCHEME: B -> BEAM-20-B{N}
+2025-12-09 13:10:10 | STEP 6: Copying assembly to destination
+2025-12-09 13:10:10 | Closing source assembly for safe copy...
+2025-12-09 13:10:10 | COPIED: Assembly Beam-5.iam -> Beam-20.iam
+2025-12-09 13:10:10 | STEP 7: Copying parts to destination
+2025-12-09 13:10:10 | COPIED: Part1 S-B5.ipt -> BEAM-20-PL1.ipt
+2025-12-09 13:10:10 | COPIED: Part2 203x133x25 S-B5.ipt -> BEAM-20-B1.ipt
+2025-12-09 13:10:10 | COPIED: Part3 S-B5.ipt -> BEAM-20-PL2.ipt
+2025-12-09 13:10:10 | COPIED: Part4 S-B5.ipt -> BEAM-20-PL3.ipt
+2025-12-09 13:10:10 | STEP 8: Updating references in copied assembly using ApprenticeServer
+2025-12-09 13:10:10 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2025-12-09 13:10:10 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2025-12-09 13:10:10 | ASSEMBLY UPDATE (Inventor): Opened Beam-20.iam
+2025-12-09 13:10:10 | UPDATE: Updating assembly references to local copies...
+2025-12-09 13:10:10 | UPDATE: Part1 S-B5.ipt -> BEAM-20-PL1.ipt
+2025-12-09 13:10:10 | UPDATE: No mapping for BEAM-20-PL1.ipt
+2025-12-09 13:10:10 | UPDATE: Part2 203x133x25 S-B5.ipt -> BEAM-20-B1.ipt
+2025-12-09 13:10:11 | UPDATE: Part3 S-B5.ipt -> BEAM-20-PL2.ipt
+2025-12-09 13:10:11 | UPDATE: Part4 S-B5.ipt -> BEAM-20-PL3.ipt
+2025-12-09 13:10:11 | UPDATE: No mapping for BEAM-20-PL3.ipt
+2025-12-09 13:10:11 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2025-12-09 13:10:11 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2025-12-09 13:10:11 | STEP 9: Processing IDW files (update references, then save to new location)
+2025-12-09 13:10:11 | IDW PROCESS: Found MGY-200-DRD-01-01-17.idw
+2025-12-09 13:10:26 | IDW PROCESS: Opening original IDW from source location...
+2025-12-09 13:10:26 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-09 13:10:26 | IDW PROCESS: Found 5 references
+2025-12-09 13:10:27 | IDW PROCESS: Updating Beam-5.iam -> Beam-20.iam
+2025-12-09 13:10:27 | IDW PROCESS: SUCCESS
+2025-12-09 13:10:27 | IDW PROCESS: Updating Part1 S-B5.ipt -> BEAM-20-PL1.ipt
+2025-12-09 13:10:27 | IDW PROCESS: SUCCESS
+2025-12-09 13:10:27 | IDW PROCESS: Updating Part2 203x133x25 S-B5.ipt -> BEAM-20-B1.ipt
+2025-12-09 13:10:27 | IDW PROCESS: SUCCESS
+2025-12-09 13:10:27 | IDW PROCESS: Updating Part3 S-B5.ipt -> BEAM-20-PL2.ipt
+2025-12-09 13:10:27 | IDW PROCESS: SUCCESS
+2025-12-09 13:10:27 | IDW PROCESS: Updating Part4 S-B5.ipt -> BEAM-20-PL3.ipt
+2025-12-09 13:10:27 | IDW PROCESS: SUCCESS
+2025-12-09 13:10:27 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Beam-20\MGY-200-DRD-01-01-20.idw
+2025-12-09 13:10:27 | IDW PROCESS: Successfully saved MGY-200-DRD-01-01-20.idw (5 references updated)
+2025-12-09 13:10:27 | === ASSEMBLY CLONER COMPLETED ===

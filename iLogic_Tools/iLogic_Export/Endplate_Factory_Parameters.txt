@@ -1,0 +1,102 @@
+==============================================
+PARAMETERS EXTRACTION
+==============================================
+Source File: Endplate_Factory
+Exported: 12/15/2025 7:16:35 AM
+==============================================
+
+USER PARAMETERS:
+-------------------------------------------
+  Width = 150 mm [mm]
+  Length = 200 mm [mm]
+  THK = 10 mm [mm]
+  Width_HL_CRS = 100 mm [mm]
+  Length_HL_CRS = 100 mm [mm]
+  HL_DIA = 22 mm [mm]
+
+MODEL PARAMETERS:
+-------------------------------------------
+  d0 = Width
+  d1 = Length
+  d2 = Width_HL_CRS
+  d3 = Length_HL_CRS
+  d4 = THK
+  d5 = 0.00 deg
+  d6 = HL_DIA
+
+iPROPERTIES:
+-------------------------------------------
+
+[Summary Information]
+  Title = 
+  Subject = 
+  Author = H.H.
+  Keywords = 
+  Comments = 
+  Last Saved By = 
+  Revision Number = 
+
+[Document Summary Information]
+  Category = 
+  Manager = 
+  Company = 
+
+[Design Tracking Properties]
+  Creation Date = 8/29/2021
+  Part Number = Endplate_Factory
+  Project = 
+  Cost Center = 
+  Checked By = 
+  Checked Date = 1/1/1601
+  Eng. Approved By = 
+  Eng. Approved Date = 1/1/1601
+  Status = 
+  Material = Steel, Mild
+  Part Revision = {506990B2-49C9-4F72-8789-9ACEED9BE1A4}
+  Web Link = 
+  Description = PL 10mm S355JR
+  Vendor = 
+  Part Type = {4D29B490-49B2-11D0-93C3-7E0706000000}
+  Part Type name = Modeling
+  Date proxy refreshed = 1/1/1601
+  Mfg. Approved By = 
+  Mfg. Approved Date = 1/1/1601
+  Estimated Cost = 0
+  Standard = 
+  Design State = 1
+  Designer = H.H.
+  Engineer = 
+  Authority = 
+  Parameterized Template = False
+  Template Row = 
+  External Part Revision = {4D29B490-49B2-11D0-93C3-7E0706000000}
+  Standard Revision = 
+  Manufacturer = 
+  Standards Organization = 
+  Language = 
+  Defer Updates = False
+  Size Designation = 
+  Categories = 
+  Stock Number = 2d
+  Weld Material = 
+  Mass = 2235.6383287195
+  Area = 667.235398464841
+  Volume = 284.794691556625
+  Density = 7.85
+  Valid MassProps = 31
+  Flat Pattern Extents Width = 0
+  FlatPatternExtentsLength = 0
+  Flat PatternExtents Area = 0
+  SheetMetalRule = 
+  Last Update with = 2026 (Build 300175050, 175E)
+  Sheet Metal Width = 
+  Sheet Metal Length = 
+  Sheet Metal Area = 
+  Material Identifier = C:\Users\Public\Documents\Autodesk\Inventor 2020\Design Data\Materials\InventorMaterialLibrary.adsklib#1:Steel, Mild
+#MaterialInv_029
+  Appearance = Steel
+  Flat Pattern Defer Update = False
+  Revit Category = 0
+
+[User Defined Properties]
+  THK = 10

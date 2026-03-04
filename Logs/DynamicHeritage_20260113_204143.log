@@ -1,0 +1,955 @@
+2026-01-13 20:41:43 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-13 20:41:43 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-13 20:41:44 | SUCCESS: Connected to existing Inventor instance
+2026-01-13 20:41:44 | STEP 1: Detecting open assembly and analyzing components
+2026-01-13 20:41:44 | DETECTED: Document type: 12291
+2026-01-13 20:41:44 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-13 20:41:44 | DETECTED: Active assembly - N1SCR04-730.iam
+2026-01-13 20:41:44 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\N1SCR04-730.iam
+2026-01-13 20:41:45 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-13 20:41:45 | CONFIRMED: 42 occurrences to process
+2026-01-13 20:41:45 | STEP 2: Flattening hierarchy and grouping components
+2026-01-13 20:41:45 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-13 20:41:45 | ANALYZE: Processing assembly - N1SCR04-730.iam (Level: ROOT)
+2026-01-13 20:41:45 | ANALYZE: Found 42 occurrences in N1SCR04-730.iam
+2026-01-13 20:41:45 | ANALYZE: RECURSING into sub-assembly - Head Box.iam
+2026-01-13 20:41:45 | ANALYZE: Processing assembly - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: Found 86 occurrences in Head Box.iam
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL1.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: Created new group - PL
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL2.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL3.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL4.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL5.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL6.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL7.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL8.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL8.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL8.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL9.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-PL10.ipt -> Description: PL 6mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL10.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG1.ipt -> Description: PIPE - 800NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: Created new group - P
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG2.ipt -> Description: FLANGE - 600NB S.A.B.S.1123 1000/3 25 TH'K -> Group: FLG (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: Created new group - FLG
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG3.ipt -> Description: PIPE - 500NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG4.ipt -> Description: FLANGE - 500NB S.A.B.S.1123 1000/3 25 TH'K -> Group: FLG (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FLG3.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FLG4.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG5.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: P (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-FLG6.ipt -> Description: FLANGE - 200NB S.A.B.S.1123 1000/3 18 TH'K -> Group: FLG (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A1.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: Created new group - A
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A2.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A3.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A4.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A5.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A6.ipt -> Description: L60x60x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A7.ipt -> Description: L50x50x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: PART - N1SCR04-730-A8.ipt -> Description: L50x50x6 -> Group: A (from Head Box.iam)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-13 20:41:45 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A7.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-A8.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL11.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL12.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL13.ipt -> Description: PL 10mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-FL1.ipt -> Description: FL50x8 -> Group: FL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: Created new group - FL
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL12.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL13.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-FL1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL14.ipt -> Description: PL 25mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL15.ipt -> Description: PL 20mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL14.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL15.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - N1SCR04-730-PL16.ipt -> Description: PL 8mm S355JR -> Group: PL (from Head Box.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL16.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-13 20:41:46 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-PL17.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-A9.ipt -> Description: L60x60x6 -> Group: A (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-FL2.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL2.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL2.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-FL3.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-FL4.ipt -> Description: FL50x8 -> Group: FL (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: PART - TEST01-PART1.ipt -> Description: HANDLE - Ø16 ROUND BAR -> Group: OTHER (from Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: Created new group - OTHER
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-13 20:41:46 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-13 20:41:46 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PL17.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-A9.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL2.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL2.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL2.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL3.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL4.ipt (already processed)
+2026-01-13 20:41:46 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART1.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-01-13 20:41:47 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: Found 18 occurrences in Lid-2.iam
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-PL18.ipt -> Description: PL 6mm S355JR -> Group: PL (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-A10.ipt -> Description: L60x60x6 -> Group: A (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-FL5.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL5.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL5.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-A10.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-FL6.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL6.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-FL7.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL7.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL6.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL6.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL7.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-FL7.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: PART - TEST01-PART2.ipt -> Description: HANDLE - Ø16 ROUND BAR -> Group: OTHER (from Lid-2.iam)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART2.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART2.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - TEST01-PART2.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-13 20:41:47 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-13 20:41:47 | ANALYZE: PART - N1SCR04-730-PL19.ipt -> Description: PL 6mm S355JR -> Group: PL (from N1SCR04-730.iam)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PL19.ipt (already processed)
+2026-01-13 20:41:47 | ANALYZE: Recursive processing completed - Total unique parts processed: 44
+2026-01-13 20:41:47 | ANALYZE: Created 6 component groups
+2026-01-13 20:41:47 | DEBUG GROUP: 'PL' contains 19 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL1.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL2.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL3.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL4.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL5.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL6.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL7.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL8.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL9.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL10.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL11.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL12.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL13.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL14.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL15.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL16.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PL17.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PL18.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL19.ipt
+2026-01-13 20:41:47 | DEBUG GROUP: 'P' contains 3 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG1.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG3.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG5.ipt
+2026-01-13 20:41:47 | DEBUG GROUP: 'FLG' contains 3 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG2.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG4.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG6.ipt
+2026-01-13 20:41:47 | DEBUG GROUP: 'A' contains 10 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A1.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A2.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A3.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A4.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A5.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A6.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A7.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A8.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-A9.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-A10.ipt
+2026-01-13 20:41:47 | DEBUG GROUP: 'FL' contains 7 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL1.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL2.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL3.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL4.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL5.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL6.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL7.ipt
+2026-01-13 20:41:47 | DEBUG GROUP: 'OTHER' contains 2 components:
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PART1.ipt
+2026-01-13 20:41:47 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PART2.ipt
+2026-01-13 20:41:47 | STEP 3: Getting plant section naming convention
+2026-01-13 20:41:47 | PLANT: Getting plant section naming convention from user
+2026-01-13 20:41:51 | PLANT: Using custom naming convention: N1SCR04-730-
+2026-01-13 20:41:52 | STEP 4: Showing component groups summary
+2026-01-13 20:41:52 | SUMMARY: Showing component groups to user
+2026-01-13 20:42:14 | SUMMARY: User approved component groups
+2026-01-13 20:42:14 | STEP 5: Getting user naming schemes for component groups
+2026-01-13 20:42:14 | INPUT: Getting user naming schemes for 6 groups
+2026-01-13 20:42:25 | INPUT: Group 'PL' -> Scheme: N1SCR04-730-PL{N}
+2026-01-13 20:42:34 | INPUT: Group 'P' -> Scheme: N1SCR04-730-P{N}
+2026-01-13 20:42:40 | INPUT: Group 'FLG' -> Scheme: N1SCR04-730-FLG{N}
+2026-01-13 20:42:49 | INPUT: Group 'A' -> Scheme: N1SCR04-730-A{N}
+2026-01-13 20:42:58 | INPUT: Group 'FL' -> Scheme: N1SCR04-730-FL{N}
+2026-01-13 20:43:25 | INPUT: Group 'OTHER' -> Scheme: N1SCR04-730-PART{N}
+2026-01-13 20:43:25 | STEP 6: Creating heritage-based copies with user naming
+2026-01-13 20:43:25 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-13 20:43:25 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-13 20:43:25 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: N1SCR04-730-
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-CH (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-PL (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-B (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-A (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-P (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-SQ (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-FL (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-LPL (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-IPE (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counter for: N1SCR04-730-OTHER (will start from 1)
+2026-01-13 20:43:26 | SCAN: No existing counters found in Registry - starting fresh
+2026-01-13 20:43:26 | EXTRACT: Processing naming scheme: N1SCR04-730-PL{N}
+2026-01-13 20:43:26 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:26 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-PL'
+2026-01-13 20:43:26 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR04-730-PL' not found)
+2026-01-13 20:43:26 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:26 | HERITAGE: Processing group 'PL' with scheme: N1SCR04-730-PL{N}
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL1.ipt -> N1SCR04-730-PL1.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL1.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL1.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL2.ipt -> N1SCR04-730-PL2.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL2.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL2.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL3.ipt -> N1SCR04-730-PL3.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL3.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL3.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL4.ipt -> N1SCR04-730-PL4.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL4.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL4.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL5.ipt -> N1SCR04-730-PL5.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL5.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL5.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL6.ipt -> N1SCR04-730-PL6.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL6.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL6.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL7.ipt -> N1SCR04-730-PL7.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL7.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL7.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL8.ipt -> N1SCR04-730-PL8.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL8.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL8.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL9.ipt -> N1SCR04-730-PL9.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL9.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL9.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL10.ipt -> N1SCR04-730-PL10.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL10.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL10.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL11.ipt -> N1SCR04-730-PL11.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL11.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL11.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL12.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL12.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL13.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL13.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL14.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL14.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL15.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL15.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL16.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL16.ipt (mapping still recorded)
+2026-01-13 20:43:26 | HERITAGE: TEST01-PL17.ipt -> N1SCR04-730-PL17.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL17.ipt
+2026-01-13 20:43:26 | HERITAGE: Creating new file: N1SCR04-730-PL17.ipt
+2026-01-13 20:43:26 | HERITAGE: SUCCESS - Created N1SCR04-730-PL17.ipt
+2026-01-13 20:43:26 | HERITAGE: TEST01-PL18.ipt -> N1SCR04-730-PL18.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL18.ipt
+2026-01-13 20:43:26 | HERITAGE: Creating new file: N1SCR04-730-PL18.ipt
+2026-01-13 20:43:26 | HERITAGE: SUCCESS - Created N1SCR04-730-PL18.ipt
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PL19.ipt
+2026-01-13 20:43:26 | HERITAGE: File already exists: N1SCR04-730-PL19.ipt (mapping still recorded)
+2026-01-13 20:43:26 | REGISTRY: Saved N1SCR04-730-PL = 19
+2026-01-13 20:43:26 | EXTRACT: Processing naming scheme: N1SCR04-730-P{N}
+2026-01-13 20:43:26 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:26 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-P'
+2026-01-13 20:43:26 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR04-730-P' not found)
+2026-01-13 20:43:26 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:26 | HERITAGE: Processing group 'P' with scheme: N1SCR04-730-P{N}
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-FLG1.ipt -> N1SCR04-730-P1.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-P1.ipt
+2026-01-13 20:43:26 | HERITAGE: Creating new file: N1SCR04-730-P1.ipt
+2026-01-13 20:43:26 | HERITAGE: SUCCESS - Created N1SCR04-730-P1.ipt
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-FLG3.ipt -> N1SCR04-730-P2.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-P2.ipt
+2026-01-13 20:43:26 | HERITAGE: Creating new file: N1SCR04-730-P2.ipt
+2026-01-13 20:43:26 | HERITAGE: SUCCESS - Created N1SCR04-730-P2.ipt
+2026-01-13 20:43:26 | HERITAGE: N1SCR04-730-FLG5.ipt -> N1SCR04-730-P3.ipt
+2026-01-13 20:43:26 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-P3.ipt
+2026-01-13 20:43:26 | HERITAGE: Creating new file: N1SCR04-730-P3.ipt
+2026-01-13 20:43:27 | HERITAGE: SUCCESS - Created N1SCR04-730-P3.ipt
+2026-01-13 20:43:27 | REGISTRY: Saved N1SCR04-730-P = 3
+2026-01-13 20:43:27 | EXTRACT: Processing naming scheme: N1SCR04-730-FLG{N}
+2026-01-13 20:43:27 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:27 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-FLG'
+2026-01-13 20:43:27 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR04-730-FLG' not found)
+2026-01-13 20:43:27 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:27 | HERITAGE: Processing group 'FLG' with scheme: N1SCR04-730-FLG{N}
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-FLG2.ipt -> N1SCR04-730-FLG1.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG1.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-FLG1.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-FLG4.ipt -> N1SCR04-730-FLG2.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG2.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-FLG2.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-FLG6.ipt -> N1SCR04-730-FLG3.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FLG3.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-FLG3.ipt (mapping still recorded)
+2026-01-13 20:43:27 | REGISTRY: Saved N1SCR04-730-FLG = 3
+2026-01-13 20:43:27 | EXTRACT: Processing naming scheme: N1SCR04-730-A{N}
+2026-01-13 20:43:27 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:27 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-A'
+2026-01-13 20:43:27 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR04-730-A' not found)
+2026-01-13 20:43:27 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:27 | HERITAGE: Processing group 'A' with scheme: N1SCR04-730-A{N}
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A1.ipt -> N1SCR04-730-A1.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A1.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A1.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A2.ipt -> N1SCR04-730-A2.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A2.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A2.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A3.ipt -> N1SCR04-730-A3.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A3.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A3.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A4.ipt -> N1SCR04-730-A4.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A4.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A4.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A5.ipt -> N1SCR04-730-A5.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A5.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A5.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A6.ipt -> N1SCR04-730-A6.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A6.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A6.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A7.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A7.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A8.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-A8.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: TEST01-A9.ipt -> N1SCR04-730-A9.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-A9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A9.ipt
+2026-01-13 20:43:27 | HERITAGE: Creating new file: N1SCR04-730-A9.ipt
+2026-01-13 20:43:27 | HERITAGE: SUCCESS - Created N1SCR04-730-A9.ipt
+2026-01-13 20:43:27 | HERITAGE: TEST01-A10.ipt -> N1SCR04-730-A10.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-A10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-A10.ipt
+2026-01-13 20:43:27 | HERITAGE: Creating new file: N1SCR04-730-A10.ipt
+2026-01-13 20:43:27 | HERITAGE: SUCCESS - Created N1SCR04-730-A10.ipt
+2026-01-13 20:43:27 | REGISTRY: Saved N1SCR04-730-A = 10
+2026-01-13 20:43:27 | EXTRACT: Processing naming scheme: N1SCR04-730-FL{N}
+2026-01-13 20:43:27 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:27 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-FL'
+2026-01-13 20:43:27 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR04-730-FL' not found)
+2026-01-13 20:43:27 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:27 | HERITAGE: Processing group 'FL' with scheme: N1SCR04-730-FL{N}
+2026-01-13 20:43:27 | HERITAGE: N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL1.ipt
+2026-01-13 20:43:27 | HERITAGE: File already exists: N1SCR04-730-FL1.ipt (mapping still recorded)
+2026-01-13 20:43:27 | HERITAGE: TEST01-FL2.ipt -> N1SCR04-730-FL2.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL2.ipt
+2026-01-13 20:43:27 | HERITAGE: Creating new file: N1SCR04-730-FL2.ipt
+2026-01-13 20:43:27 | HERITAGE: SUCCESS - Created N1SCR04-730-FL2.ipt
+2026-01-13 20:43:27 | HERITAGE: TEST01-FL3.ipt -> N1SCR04-730-FL3.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL3.ipt
+2026-01-13 20:43:27 | HERITAGE: Creating new file: N1SCR04-730-FL3.ipt
+2026-01-13 20:43:27 | HERITAGE: SUCCESS - Created N1SCR04-730-FL3.ipt
+2026-01-13 20:43:27 | HERITAGE: TEST01-FL4.ipt -> N1SCR04-730-FL4.ipt
+2026-01-13 20:43:27 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL4.ipt
+2026-01-13 20:43:27 | HERITAGE: Creating new file: N1SCR04-730-FL4.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-FL4.ipt
+2026-01-13 20:43:28 | HERITAGE: TEST01-FL5.ipt -> N1SCR04-730-FL5.ipt
+2026-01-13 20:43:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL5.ipt
+2026-01-13 20:43:28 | HERITAGE: Creating new file: N1SCR04-730-FL5.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-FL5.ipt
+2026-01-13 20:43:28 | HERITAGE: TEST01-FL6.ipt -> N1SCR04-730-FL6.ipt
+2026-01-13 20:43:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL6.ipt
+2026-01-13 20:43:28 | HERITAGE: Creating new file: N1SCR04-730-FL6.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-FL6.ipt
+2026-01-13 20:43:28 | HERITAGE: TEST01-FL7.ipt -> N1SCR04-730-FL7.ipt
+2026-01-13 20:43:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-FL7.ipt
+2026-01-13 20:43:28 | HERITAGE: Creating new file: N1SCR04-730-FL7.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-FL7.ipt
+2026-01-13 20:43:28 | REGISTRY: Saved N1SCR04-730-FL = 7
+2026-01-13 20:43:28 | EXTRACT: Processing naming scheme: N1SCR04-730-PART{N}
+2026-01-13 20:43:28 | EXTRACT: Extracted prefix: 'N1SCR04-730-'
+2026-01-13 20:43:28 | HERITAGE: Checking for existing counter with key: 'N1SCR04-730-OTHER'
+2026-01-13 20:43:28 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'N1SCR04-730-OTHER' not found)
+2026-01-13 20:43:28 | HERITAGE: DEBUG - No existing counters found
+2026-01-13 20:43:28 | HERITAGE: Processing group 'OTHER' with scheme: N1SCR04-730-PART{N}
+2026-01-13 20:43:28 | HERITAGE: TEST01-PART1.ipt -> N1SCR04-730-PART1.ipt
+2026-01-13 20:43:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PART1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PART1.ipt
+2026-01-13 20:43:28 | HERITAGE: Creating new file: N1SCR04-730-PART1.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-PART1.ipt
+2026-01-13 20:43:28 | HERITAGE: TEST01-PART2.ipt -> N1SCR04-730-PART2.ipt
+2026-01-13 20:43:28 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\TEST01-PART2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unused\N1SCR04-730-PART2.ipt
+2026-01-13 20:43:28 | HERITAGE: Creating new file: N1SCR04-730-PART2.ipt
+2026-01-13 20:43:28 | HERITAGE: SUCCESS - Created N1SCR04-730-PART2.ipt
+2026-01-13 20:43:28 | REGISTRY: Saved N1SCR04-730-OTHER = 2
+2026-01-13 20:43:28 | STEP 7: Updating assembly references
+2026-01-13 20:43:28 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-13 20:43:28 | ASSEMBLY: Updating references in - N1SCR04-730.iam (Level: ROOT)
+2026-01-13 20:43:28 | ASSEMBLY: RECURSING into sub-assembly - Head Box.iam
+2026-01-13 20:43:28 | ASSEMBLY: Updating references in - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL1.ipt -> N1SCR04-730-PL1.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL1.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL2.ipt -> N1SCR04-730-PL2.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL2.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL3.ipt -> N1SCR04-730-PL3.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL3.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL4.ipt -> N1SCR04-730-PL4.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL4.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL5.ipt -> N1SCR04-730-PL5.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL5.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL6.ipt -> N1SCR04-730-PL6.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL6.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL7.ipt -> N1SCR04-730-PL7.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL7.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL8.ipt -> N1SCR04-730-PL8.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL8.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL8.ipt -> N1SCR04-730-PL8.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL8.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL8.ipt -> N1SCR04-730-PL8.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL8.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL9.ipt -> N1SCR04-730-PL9.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL9.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL10.ipt -> N1SCR04-730-PL10.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL10.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-PL10.ipt -> N1SCR04-730-PL10.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL10.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-FLG1.ipt -> N1SCR04-730-P1.ipt [P] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-P1.ipt
+2026-01-13 20:43:29 | ASSEMBLY: Replacing N1SCR04-730-FLG2.ipt -> N1SCR04-730-FLG1.ipt [FLG] (in Head Box.iam)
+2026-01-13 20:43:29 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FLG1.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-FLG3.ipt -> N1SCR04-730-P2.ipt [P] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-P2.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-FLG4.ipt -> N1SCR04-730-FLG2.ipt [FLG] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FLG2.ipt
+2026-01-13 20:43:30 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-P2.ipt (not renamed)
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-FLG2.ipt -> N1SCR04-730-FLG1.ipt [FLG] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FLG1.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-FLG5.ipt -> N1SCR04-730-P3.ipt [P] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-P3.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-FLG6.ipt -> N1SCR04-730-FLG3.ipt [FLG] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FLG3.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-A1.ipt -> N1SCR04-730-A1.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A1.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-A2.ipt -> N1SCR04-730-A2.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A2.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-A3.ipt -> N1SCR04-730-A3.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A3.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-A4.ipt -> N1SCR04-730-A4.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A4.ipt
+2026-01-13 20:43:30 | ASSEMBLY: Replacing N1SCR04-730-A5.ipt -> N1SCR04-730-A5.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:30 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A5.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A6.ipt -> N1SCR04-730-A6.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A6.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A7.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt [A] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A8.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-PL11.ipt -> N1SCR04-730-PL11.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL11.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:31 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:31 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:32 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:32 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL12.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL13.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt [FL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL1.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:33 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:33 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL14.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL15.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL16.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL16.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL16.ipt
+2026-01-13 20:43:34 | ASSEMBLY: Replacing N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt [PL] (in Head Box.iam)
+2026-01-13 20:43:34 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL16.ipt
+2026-01-13 20:43:36 | ASSEMBLY: Saved sub-assembly - Head Box.iam
+2026-01-13 20:43:36 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-13 20:43:36 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-13 20:43:36 | ASSEMBLY: Replacing TEST01-PL17.ipt -> N1SCR04-730-PL17.ipt [PL] (in Lid-1.iam)
+2026-01-13 20:43:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL17.ipt
+2026-01-13 20:43:36 | ASSEMBLY: Replacing TEST01-A9.ipt -> N1SCR04-730-A9.ipt [A] (in Lid-1.iam)
+2026-01-13 20:43:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A9.ipt
+2026-01-13 20:43:36 | ASSEMBLY: Replacing TEST01-FL2.ipt -> N1SCR04-730-FL2.ipt [FL] (in Lid-1.iam)
+2026-01-13 20:43:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL2.ipt
+2026-01-13 20:43:36 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-13 20:43:36 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-13 20:43:36 | ASSEMBLY: Replacing TEST01-FL3.ipt -> N1SCR04-730-FL3.ipt [FL] (in Lid-1.iam)
+2026-01-13 20:43:36 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL3.ipt
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: Replacing TEST01-FL4.ipt -> N1SCR04-730-FL4.ipt [FL] (in Lid-1.iam)
+2026-01-13 20:43:37 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL4.ipt
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: Replacing TEST01-PART1.ipt -> N1SCR04-730-PART1.ipt [OTHER] (in Lid-1.iam)
+2026-01-13 20:43:37 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PART1.ipt
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:37 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-13 20:43:37 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-13 20:43:37 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-13 20:43:37 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PL17.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A9.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL2.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL3.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL4.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART1.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-13 20:43:38 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-01-13 20:43:38 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-13 20:43:38 | ASSEMBLY: Replacing TEST01-PL18.ipt -> N1SCR04-730-PL18.ipt [PL] (in Lid-2.iam)
+2026-01-13 20:43:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL18.ipt
+2026-01-13 20:43:38 | ASSEMBLY: Replacing TEST01-A10.ipt -> N1SCR04-730-A10.ipt [A] (in Lid-2.iam)
+2026-01-13 20:43:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-A10.ipt
+2026-01-13 20:43:38 | ASSEMBLY: Replacing TEST01-FL5.ipt -> N1SCR04-730-FL5.ipt [FL] (in Lid-2.iam)
+2026-01-13 20:43:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL5.ipt
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL5.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-A10.ipt (not renamed)
+2026-01-13 20:43:38 | ASSEMBLY: Replacing TEST01-FL6.ipt -> N1SCR04-730-FL6.ipt [FL] (in Lid-2.iam)
+2026-01-13 20:43:38 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL6.ipt
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: Replacing TEST01-FL7.ipt -> N1SCR04-730-FL7.ipt [FL] (in Lid-2.iam)
+2026-01-13 20:43:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-FL7.ipt
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL6.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-FL7.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: Replacing TEST01-PART2.ipt -> N1SCR04-730-PART2.ipt [OTHER] (in Lid-2.iam)
+2026-01-13 20:43:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PART2.ipt
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: INFO - No mapping found for N1SCR04-730-PART2.ipt (not renamed)
+2026-01-13 20:43:39 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-01-13 20:43:39 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-13 20:43:39 | ASSEMBLY: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-13 20:43:39 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:39 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:39 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:40 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:40 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:41 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:41 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:42 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:42 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:43 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:43 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Replacing N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt [PL] (in N1SCR04-730.iam)
+2026-01-13 20:43:44 | ASSEMBLY: SUCCESS - Updated to N1SCR04-730-PL19.ipt
+2026-01-13 20:43:44 | ASSEMBLY: Saving assembly with updated references...
+2026-01-13 20:43:46 | ASSEMBLY: Successfully saved assembly
+2026-01-13 20:43:46 | STEP 8: Auto-detecting and updating IDW files
+2026-01-13 20:43:46 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-13 20:43:46 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PA.idw
+2026-01-13 20:43:46 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PD-PLA1.idw
+2026-01-13 20:43:46 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PD-PLA2.idw
+2026-01-13 20:43:46 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PD-PLA3.idw
+2026-01-13 20:43:46 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PD.idw
+2026-01-13 20:43:46 | IDW: Processing KNL-N1200-SCR04-0730-PA.idw
+2026-01-13 20:43:47 | IDW: Opening KNL-N1200-SCR04-0730-PA.idw
+2026-01-13 20:43:50 | IDW: Found 5 referenced files
+2026-01-13 20:43:50 | IDW: INFO - No mapping found for Head Box.iam
+2026-01-13 20:43:50 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-13 20:43:50 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-13 20:43:50 | IDW: INFO - No mapping found for N1SCR04-730.iam
+2026-01-13 20:43:50 | IDW: INFO - No mapping found for N1SCR04-730-EXPLODED.ipn
+2026-01-13 20:43:52 | IDW: Saved KNL-N1200-SCR04-0730-PA.idw
+2026-01-13 20:43:52 | IDW: Processing KNL-N1200-SCR04-0730-PD-PLA1.idw
+2026-01-13 20:43:52 | IDW: Opening KNL-N1200-SCR04-0730-PD-PLA1.idw
+2026-01-13 20:43:53 | IDW: Found 46 referenced files
+2026-01-13 20:43:53 | IDW: INFO - No mapping found for Head Box.iam
+2026-01-13 20:43:53 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-13 20:43:53 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A1.ipt -> N1SCR04-730-A1.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A2.ipt -> N1SCR04-730-A2.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A3.ipt -> N1SCR04-730-A3.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A4.ipt -> N1SCR04-730-A4.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A5.ipt -> N1SCR04-730-A5.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A6.ipt -> N1SCR04-730-A6.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A7.ipt -> N1SCR04-730-A7.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-A8.ipt -> N1SCR04-730-A8.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FL1.ipt -> N1SCR04-730-FL1.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG1.ipt -> N1SCR04-730-P1.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG2.ipt -> N1SCR04-730-FLG1.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG3.ipt -> N1SCR04-730-P2.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG4.ipt -> N1SCR04-730-FLG2.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG5.ipt -> N1SCR04-730-P3.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-FLG6.ipt -> N1SCR04-730-FLG3.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL1.ipt -> N1SCR04-730-PL1.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL10.ipt -> N1SCR04-730-PL10.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL11.ipt -> N1SCR04-730-PL11.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL12.ipt -> N1SCR04-730-PL12.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL13.ipt -> N1SCR04-730-PL13.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL14.ipt -> N1SCR04-730-PL14.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL15.ipt -> N1SCR04-730-PL15.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL16.ipt -> N1SCR04-730-PL16.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL2.ipt -> N1SCR04-730-PL2.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL3.ipt -> N1SCR04-730-PL3.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL4.ipt -> N1SCR04-730-PL4.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL5.ipt -> N1SCR04-730-PL5.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL6.ipt -> N1SCR04-730-PL6.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL7.ipt -> N1SCR04-730-PL7.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL8.ipt -> N1SCR04-730-PL8.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference N1SCR04-730-PL9.ipt -> N1SCR04-730-PL9.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-A10.ipt -> N1SCR04-730-A10.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-A9.ipt -> N1SCR04-730-A9.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-FL3.ipt -> N1SCR04-730-FL3.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-FL4.ipt -> N1SCR04-730-FL4.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-FL5.ipt -> N1SCR04-730-FL5.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-FL6.ipt -> N1SCR04-730-FL6.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-FL7.ipt -> N1SCR04-730-FL7.ipt
+2026-01-13 20:43:53 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:53 | IDW: Updating reference TEST01-PART1.ipt -> N1SCR04-730-PART1.ipt
+2026-01-13 20:43:54 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:54 | IDW: Updating reference TEST01-PART2.ipt -> N1SCR04-730-PART2.ipt
+2026-01-13 20:43:54 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:54 | IDW: Updating reference TEST01-PL17.ipt -> N1SCR04-730-PL17.ipt
+2026-01-13 20:43:54 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:54 | IDW: Updating reference TEST01-PL18.ipt -> N1SCR04-730-PL18.ipt
+2026-01-13 20:43:54 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:56 | IDW: Saved KNL-N1200-SCR04-0730-PD-PLA1.idw
+2026-01-13 20:43:56 | IDW: Processing KNL-N1200-SCR04-0730-PD-PLA2.idw
+2026-01-13 20:43:56 | IDW: Opening KNL-N1200-SCR04-0730-PD-PLA2.idw
+2026-01-13 20:43:56 | IDW: Found 6 referenced files
+2026-01-13 20:43:56 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-13 20:43:56 | IDW: Updating reference TEST01-A9.ipt -> N1SCR04-730-A9.ipt
+2026-01-13 20:43:56 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:56 | IDW: Updating reference TEST01-FL3.ipt -> N1SCR04-730-FL3.ipt
+2026-01-13 20:43:56 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:56 | IDW: Updating reference TEST01-FL4.ipt -> N1SCR04-730-FL4.ipt
+2026-01-13 20:43:56 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:56 | IDW: Updating reference TEST01-PART1.ipt -> N1SCR04-730-PART1.ipt
+2026-01-13 20:43:56 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:56 | IDW: Updating reference TEST01-PL17.ipt -> N1SCR04-730-PL17.ipt
+2026-01-13 20:43:56 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:57 | IDW: Saved KNL-N1200-SCR04-0730-PD-PLA2.idw
+2026-01-13 20:43:57 | IDW: Processing KNL-N1200-SCR04-0730-PD-PLA3.idw
+2026-01-13 20:43:57 | IDW: Opening KNL-N1200-SCR04-0730-PD-PLA3.idw
+2026-01-13 20:43:58 | IDW: Found 8 referenced files
+2026-01-13 20:43:58 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-13 20:43:58 | IDW: Updating reference N1SCR04-730-PL19.ipt -> N1SCR04-730-PL19.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-A10.ipt -> N1SCR04-730-A10.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-FL5.ipt -> N1SCR04-730-FL5.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-FL6.ipt -> N1SCR04-730-FL6.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-FL7.ipt -> N1SCR04-730-FL7.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-PART2.ipt -> N1SCR04-730-PART2.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Updating reference TEST01-PL18.ipt -> N1SCR04-730-PL18.ipt
+2026-01-13 20:43:58 | IDW: SUCCESS - Reference updated
+2026-01-13 20:43:58 | IDW: Saved KNL-N1200-SCR04-0730-PD-PLA3.idw
+2026-01-13 20:43:58 | IDW: Processing KNL-N1200-SCR04-0730-PD.idw
+2026-01-13 20:43:58 | IDW: Opening KNL-N1200-SCR04-0730-PD.idw
+2026-01-13 20:43:58 | IDW: Found 0 referenced files
+2026-01-13 20:43:58 | IDW: Saved KNL-N1200-SCR04-0730-PD.idw
+2026-01-13 20:43:58 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-13 20:43:58 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-13 20:43:58 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-13 20:43:58 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

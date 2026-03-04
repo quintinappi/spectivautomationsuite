@@ -1,0 +1,459 @@
+2026-02-02 17:29:40 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-02-02 17:29:40 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-02-02 17:29:40 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-02-02 17:29:42 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 17:29:42 | VERIFIED: Mapping file exists
+2026-02-02 17:29:42 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box
+2026-02-02 17:29:43 | SUCCESS: Connected to Inventor
+2026-02-02 17:29:43 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\STEP_1_MAPPING.txt
+2026-02-02 17:29:43 | Loaded 23 mappings from file
+2026-02-02 17:29:43 | LOADED: 23 mappings
+2026-02-02 17:29:43 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-02-02 17:29:43 | WILL SEARCH 5 DIRECTORIES FROM MAPPING
+2026-02-02 17:29:43 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DRD-09-01-01.idw
+2026-02-02 17:29:43 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:43 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DRD-09-01-03.idw
+2026-02-02 17:29:43 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DRD-09-02.idw
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DSL-06-02.idw
+2026-02-02 17:29:43 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3
+2026-02-02 17:29:43 | FOUND IDW: MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:43 | FOUND: 6 IDW files
+2026-02-02 17:29:43 | UPDATING IDW REFERENCES
+2026-02-02 17:29:43 | IDW: Processing 6 IDW files with Design Assistant method
+2026-02-02 17:29:43 | IDW: Processing [1/6] MGY-200-DRD-09-01-01.idw
+2026-02-02 17:29:43 | IDW: Opening MGY-200-DRD-09-01-01.idw
+2026-02-02 17:29:43 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:44 | IDW: Successfully opened IDW document
+2026-02-02 17:29:44 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:44 | IDW: Found 3 referenced files
+2026-02-02 17:29:44 | IDW: Found potential assembly: Support Column.iam
+2026-02-02 17:29:44 | IDW: Successfully opened assembly: Support Column.iam
+2026-02-02 17:29:44 | LIVE-REF: N1SCR04-734-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-PL1.ipt
+2026-02-02 17:29:44 | LIVE-REF: N1SCR04-734-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-PL1.ipt
+2026-02-02 17:29:44 | LIVE-REF: N1SCR04-734-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-B1.ipt
+2026-02-02 17:29:44 | LIVE-REF: N1SCR04-734-B1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-B1.ipt
+2026-02-02 17:29:44 | LIVE-REF: Built reference map with 4 entries
+2026-02-02 17:29:44 | IDW: Built live reference map with 4 entries from assembly
+2026-02-02 17:29:44 | IDW:   Processing reference: Part1 FB-C1.ipt
+2026-02-02 17:29:44 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part1 FB-C1.ipt
+2026-02-02 17:29:44 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:44 | IDW:     UPDATING: Part1 FB-C1.ipt -> N1SCR04-734-PL1.ipt
+2026-02-02 17:29:44 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-PL1.ipt
+2026-02-02 17:29:44 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:44 | IDW:   Processing reference: Part2 203x133x25 FB-C1.ipt
+2026-02-02 17:29:44 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Part2 203x133x25 FB-C1.ipt
+2026-02-02 17:29:44 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:44 | IDW:     UPDATING: Part2 203x133x25 FB-C1.ipt -> N1SCR04-734-B1.ipt
+2026-02-02 17:29:44 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\N1SCR04-734-B1.ipt
+2026-02-02 17:29:44 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:44 | IDW:   Processing reference: Support Column.iam
+2026-02-02 17:29:44 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Column\Support Column.iam
+2026-02-02 17:29:44 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:44 | IDW:   Method 2: Resolved to: Support Column.iam
+2026-02-02 17:29:44 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:44 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:44 | IDW:   Smart matching for: Support Column.iam
+2026-02-02 17:29:44 | IDW:   IDW relative structure: 734 Flood Box\Support\Support Column\Support Column.iam
+2026-02-02 17:29:44 | IDW:   No smart match found for: Support Column.iam
+2026-02-02 17:29:44 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:44 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-02 17:29:44 | IDW: SUCCESS - Saved with 2 updates
+2026-02-02 17:29:44 | IDW: Processing [2/6] MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:44 | IDW: Opening MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:44 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:45 | IDW: Successfully opened IDW document
+2026-02-02 17:29:45 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:45 | IDW: Found 3 referenced files
+2026-02-02 17:29:45 | IDW: Found potential assembly: Support Beam-1.iam
+2026-02-02 17:29:45 | IDW: Successfully opened assembly: Support Beam-1.iam
+2026-02-02 17:29:45 | LIVE-REF: N1SCR04-734-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:45 | LIVE-REF: N1SCR04-734-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:45 | LIVE-REF: N1SCR04-734-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-B2.ipt
+2026-02-02 17:29:45 | LIVE-REF: N1SCR04-734-B2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-B2.ipt
+2026-02-02 17:29:45 | LIVE-REF: Built reference map with 4 entries
+2026-02-02 17:29:45 | IDW: Built live reference map with 4 entries from assembly
+2026-02-02 17:29:45 | IDW:   Processing reference: Part1 FB-B1.ipt
+2026-02-02 17:29:45 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-02-02 17:29:45 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:45 | IDW:     UPDATING: Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt
+2026-02-02 17:29:45 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:45 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:45 | IDW:   Processing reference: Part2 203x133x25 FB-B1.ipt
+2026-02-02 17:29:45 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-02-02 17:29:45 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:45 | IDW:     UPDATING: Part2 203x133x25 FB-B1.ipt -> N1SCR04-734-B2.ipt
+2026-02-02 17:29:45 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-B2.ipt
+2026-02-02 17:29:45 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:45 | IDW:   Processing reference: Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:45 | IDW:   Method 2: Resolved to: Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:45 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:45 | IDW:   Smart matching for: Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:   IDW relative structure: 734 Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:   No smart match found for: Support Beam-1.iam
+2026-02-02 17:29:45 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:45 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-02 17:29:45 | IDW: SUCCESS - Saved with 2 updates
+2026-02-02 17:29:45 | IDW: Processing [3/6] MGY-200-DRD-09-01-03.idw
+2026-02-02 17:29:45 | IDW: Opening MGY-200-DRD-09-01-03.idw
+2026-02-02 17:29:46 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:46 | IDW: Successfully opened IDW document
+2026-02-02 17:29:46 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:46 | IDW: Found 3 referenced files
+2026-02-02 17:29:46 | IDW: Found potential assembly: Support Beam-2.iam
+2026-02-02 17:29:46 | IDW: Successfully opened assembly: Support Beam-2.iam
+2026-02-02 17:29:46 | LIVE-REF: N1SCR04-734-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-PL3.ipt
+2026-02-02 17:29:46 | LIVE-REF: N1SCR04-734-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-PL3.ipt
+2026-02-02 17:29:46 | LIVE-REF: N1SCR04-734-B4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-B4.ipt
+2026-02-02 17:29:46 | LIVE-REF: N1SCR04-734-B4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-B4.ipt
+2026-02-02 17:29:46 | LIVE-REF: Built reference map with 4 entries
+2026-02-02 17:29:46 | IDW: Built live reference map with 4 entries from assembly
+2026-02-02 17:29:46 | IDW:   Processing reference: Part1 FB-B2.ipt
+2026-02-02 17:29:46 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2026-02-02 17:29:46 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:46 | IDW:     UPDATING: Part1 FB-B2.ipt -> N1SCR04-734-PL3.ipt
+2026-02-02 17:29:46 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-PL3.ipt
+2026-02-02 17:29:46 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:46 | IDW:   Processing reference: Part2 203x133x25 FB-B2.ipt
+2026-02-02 17:29:46 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2026-02-02 17:29:46 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:46 | IDW:     UPDATING: Part2 203x133x25 FB-B2.ipt -> N1SCR04-734-B4.ipt
+2026-02-02 17:29:46 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\N1SCR04-734-B4.ipt
+2026-02-02 17:29:46 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:46 | IDW:   Processing reference: Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:46 | IDW:   Method 2: Resolved to: Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:46 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:46 | IDW:   Smart matching for: Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:   IDW relative structure: 734 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:   No smart match found for: Support Beam-2.iam
+2026-02-02 17:29:46 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:46 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-02 17:29:47 | IDW: SUCCESS - Saved with 2 updates
+2026-02-02 17:29:47 | IDW: Processing [4/6] MGY-200-DRD-09-02.idw
+2026-02-02 17:29:47 | IDW: Opening MGY-200-DRD-09-02.idw
+2026-02-02 17:29:47 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:47 | IDW: Successfully opened IDW document
+2026-02-02 17:29:47 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:47 | IDW: Found 13 referenced files
+2026-02-02 17:29:47 | IDW: Found potential assembly: Floats Flood Chute.iam
+2026-02-02 17:29:48 | IDW: Successfully opened assembly: Floats Flood Chute.iam
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL10.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL10.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL11.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL11.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL12.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL12.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-FLG1.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-FLG1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-FLG1.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL13.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL13.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-P1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-P1.ipt
+2026-02-02 17:29:48 | LIVE-REF: N1SCR04-734-P1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-P1.ipt
+2026-02-02 17:29:48 | LIVE-REF: Built reference map with 32 entries
+2026-02-02 17:29:48 | IDW: Built live reference map with 32 entries from assembly
+2026-02-02 17:29:48 | IDW:   Processing reference: Flood Chute.iam
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Flood Chute.iam
+2026-02-02 17:29:48 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:48 | IDW:   Method 2: Resolved to: Flood Chute.iam
+2026-02-02 17:29:48 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:48 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:48 | IDW:   Smart matching for: Flood Chute.iam
+2026-02-02 17:29:48 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Flood Chute.iam
+2026-02-02 17:29:48 | IDW:   No smart match found for: Flood Chute.iam
+2026-02-02 17:29:48 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:48 | IDW:   Processing reference: Lug FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Lug FB-C.ipt -> N1SCR04-734-PL9.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:48 | IDW:   Method 2: Resolved to: Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:48 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:48 | IDW:   Smart matching for: Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   No smart match found for: Part1 FB-C.ipt
+2026-02-02 17:29:48 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:48 | IDW:   Processing reference: Part10 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part10 FB-C.ipt -> N1SCR04-734-PL7.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part11 Corner Gusset FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part11 Corner Gusset FB-C.ipt -> N1SCR04-734-PL8.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:48 | IDW:   Method 2: Resolved to: Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:48 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:48 | IDW:   Smart matching for: Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   No smart match found for: Part2 FB-C.ipt
+2026-02-02 17:29:48 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:48 | IDW:   Processing reference: Part3 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part3 FB-C.ipt -> N1SCR04-734-PL4.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part4 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part4 FB-C.ipt -> N1SCR04-734-PL5.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part5 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part5 FB-C.ipt -> N1SCR04-734-PL6.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part6 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part6 Angle FB-C.ipt -> N1SCR04-734-A1.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part7 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part7 Angle FB-C.ipt -> N1SCR04-734-A2.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR04-734-A3.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW:   Processing reference: Part9 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-02-02 17:29:48 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:48 | IDW:     UPDATING: Part9 Angle FB-C.ipt -> N1SCR04-734-A4.ipt
+2026-02-02 17:29:48 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:48 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:48 | IDW: Saving with 10 updates using Design Assistant method...
+2026-02-02 17:29:49 | IDW: SUCCESS - Saved with 10 updates
+2026-02-02 17:29:49 | IDW: Processing [5/6] MGY-200-DSL-06-02.idw
+2026-02-02 17:29:49 | IDW: Opening MGY-200-DSL-06-02.idw
+2026-02-02 17:29:49 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:50 | IDW: Successfully opened IDW document
+2026-02-02 17:29:50 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:50 | IDW: Found 13 referenced files
+2026-02-02 17:29:50 | IDW: Found potential assembly: Floats Flood Chute.iam
+2026-02-02 17:29:50 | IDW: Successfully opened assembly: Floats Flood Chute.iam
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL10.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL10.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL11.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL11.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL12.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL12.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-FLG1.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-FLG1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-FLG1.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL13.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL13.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-P1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-P1.ipt
+2026-02-02 17:29:50 | LIVE-REF: N1SCR04-734-P1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-P1.ipt
+2026-02-02 17:29:50 | LIVE-REF: Built reference map with 32 entries
+2026-02-02 17:29:50 | IDW: Built live reference map with 32 entries from assembly
+2026-02-02 17:29:50 | IDW:   Processing reference: Flood Chute.iam
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Flood Chute.iam
+2026-02-02 17:29:50 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:50 | IDW:   Method 2: Resolved to: Flood Chute.iam
+2026-02-02 17:29:50 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:50 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:50 | IDW:   Smart matching for: Flood Chute.iam
+2026-02-02 17:29:50 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Flood Chute.iam
+2026-02-02 17:29:50 | IDW:   No smart match found for: Flood Chute.iam
+2026-02-02 17:29:50 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:50 | IDW:   Processing reference: Lug FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Lug FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Lug FB-C.ipt -> N1SCR04-734-PL9.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL9.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:50 | IDW:   Method 2: Resolved to: Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:50 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:50 | IDW:   Smart matching for: Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   No smart match found for: Part1 FB-C.ipt
+2026-02-02 17:29:50 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:50 | IDW:   Processing reference: Part10 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part10 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part10 FB-C.ipt -> N1SCR04-734-PL7.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL7.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part11 Corner Gusset FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part11 Corner Gusset FB-C.ipt -> N1SCR04-734-PL8.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL8.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:50 | IDW:   Method 2: Resolved to: Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:50 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:50 | IDW:   Smart matching for: Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   IDW relative structure: 21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   No smart match found for: Part2 FB-C.ipt
+2026-02-02 17:29:50 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:50 | IDW:   Processing reference: Part3 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part3 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part3 FB-C.ipt -> N1SCR04-734-PL4.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL4.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part4 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part4 FB-C.ipt -> N1SCR04-734-PL5.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL5.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part5 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part5 FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part5 FB-C.ipt -> N1SCR04-734-PL6.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-PL6.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part6 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part6 Angle FB-C.ipt -> N1SCR04-734-A1.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A1.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part7 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part7 Angle FB-C.ipt -> N1SCR04-734-A2.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A2.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR04-734-A3.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A3.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW:   Processing reference: Part9 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-02-02 17:29:50 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:50 | IDW:     UPDATING: Part9 Angle FB-C.ipt -> N1SCR04-734-A4.ipt
+2026-02-02 17:29:50 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Chute\N1SCR04-734-A4.ipt
+2026-02-02 17:29:50 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:50 | IDW: Saving with 10 updates using Design Assistant method...
+2026-02-02 17:29:51 | IDW: SUCCESS - Saved with 10 updates
+2026-02-02 17:29:51 | IDW: Processing [6/6] MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:51 | IDW: Opening MGY-200-DRD-09-01-02.idw
+2026-02-02 17:29:51 | IDW: Enabled SilentOperation mode
+2026-02-02 17:29:52 | IDW: Successfully opened IDW document
+2026-02-02 17:29:52 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-02 17:29:52 | IDW: Found 3 referenced files
+2026-02-02 17:29:52 | IDW: Found potential assembly: Support Beam-3.iam
+2026-02-02 17:29:52 | IDW: Successfully opened assembly: Support Beam-3.iam
+2026-02-02 17:29:52 | LIVE-REF: N1SCR04-734-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:52 | LIVE-REF: N1SCR04-734-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:52 | LIVE-REF: N1SCR04-734-B3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\N1SCR04-734-B3.ipt
+2026-02-02 17:29:52 | LIVE-REF: N1SCR04-734-B3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-3\N1SCR04-734-B3.ipt
+2026-02-02 17:29:52 | LIVE-REF: Built reference map with 4 entries
+2026-02-02 17:29:52 | IDW: Built live reference map with 4 entries from assembly
+2026-02-02 17:29:52 | IDW:   Processing reference: Part1 FB-B1.ipt
+2026-02-02 17:29:52 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-02-02 17:29:52 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:52 | IDW:     UPDATING: Part1 FB-B1.ipt -> N1SCR04-734-PL2.ipt
+2026-02-02 17:29:52 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-PL2.ipt
+2026-02-02 17:29:52 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:52 | IDW:   Processing reference: Part2 203x133x25 FB-B1.ipt
+2026-02-02 17:29:52 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-02-02 17:29:52 | IDW:   Method 1: Found exact path match in mapping
+2026-02-02 17:29:52 | IDW:     UPDATING: Part2 203x133x25 FB-B1.ipt -> N1SCR04-734-B2.ipt
+2026-02-02 17:29:52 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\21. N1SCR04 - Primary Floats D&R Screen Station\734 Flood Box\Support\Support Beam-1\N1SCR04-734-B2.ipt
+2026-02-02 17:29:52 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-02 17:29:52 | IDW:   Processing reference: Support Beam-1.iam
+2026-02-02 17:29:52 | IDW:   Full path from IDW: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-02 17:29:52 | IDW:   Method 2: Resolving actual file path
+2026-02-02 17:29:52 | RESOLVE: Looking for renamed version of: Support Beam-1.iam
+2026-02-02 17:29:52 | RESOLVE: Searching directory: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1
+2026-02-02 17:29:52 | RESOLVE: ERROR - Directory doesn't exist: F:\NL\06. Model\02. WBS\NP\20. Primary - DMS\22. NSCR04 - Primary Sinks D&R Screen Station\05. Model\Flood Box\Support\Support Beam-1
+2026-02-02 17:29:52 | IDW:   Method 2: Could not resolve actual file path
+2026-02-02 17:29:52 | IDW:   Method 3: Searching live assembly references
+2026-02-02 17:29:52 | IDW:   Method 4: Trying smart path structure matching
+2026-02-02 17:29:52 | IDW:   Smart matching for: Support Beam-1.iam
+2026-02-02 17:29:52 | IDW:   IDW relative structure: Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-02 17:29:52 | IDW:   No smart match found for: Support Beam-1.iam
+2026-02-02 17:29:52 | IDW:     (No mapping found - keeping current reference)
+2026-02-02 17:29:52 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-02 17:29:52 | IDW: SUCCESS - Saved with 2 updates
+2026-02-02 17:29:52 | 
+2026-02-02 17:29:52 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-02-02 17:29:52 | Total IDW files processed: 6
+2026-02-02 17:29:52 | Total reference updates: 28
+2026-02-02 17:29:52 | Total errors: 0
+2026-02-02 17:29:52 | === STEP 2 COMPLETE ===
+2026-02-02 17:29:52 | Mappings: 23
+2026-02-02 17:29:52 | IDW Files: 6
+2026-02-02 17:29:52 | Updates: 28
+2026-02-02 17:29:52 | Errors: 0

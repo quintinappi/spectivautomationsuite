@@ -1,0 +1,339 @@
+﻿' ==============================================================================
+' iLOGIC PATCHER - Access and Modify iLogic Rules
+' ==============================================================================
+' Author: Quintin de Bruin © 2025
+' 
+' This module handles:
+' 1. Connecting to the iLogic Add-In
+' 2. Reading iLogic rules from documents
+' 3. Displaying rule source code
+' 4. Patching rules (find/replace part references)
+' 5. Exporting rules to files
+' ==============================================================================
+
+Imports Inventor
+Imports System.IO
+
+Namespace AssemblyClonerAddIn
+
+    ''' <summary>
+    ''' Handles all iLogic-related operations
+    ''' </summary>
+    Public Class iLogicPatcher
+
+        Private Const ILOGIC_ADDIN_GUID As String = "{3BDD8D79-2179-4B11-8A5A-257B1C0263AC}"
+
+        Private m_InventorApp As Inventor.Application
+        Private m_iLogicAddIn As ApplicationAddIn
+        Private m_iLogicAuto As Object  ' IiLogicAutomation - use Object for late binding
+
+        ''' <summary>
+        ''' Constructor
+        ''' </summary>
+        Public Sub New(ByVal inventorApp As Inventor.Application)
+            m_InventorApp = inventorApp
+            InitializeiLogic()
+        End Sub
+
+        ''' <summary>
+        ''' Initialize connection to iLogic Add-In
+        ''' </summary>
+        Private Sub InitializeiLogic()
+            Try
+                m_iLogicAddIn = m_InventorApp.ApplicationAddIns.ItemById(ILOGIC_ADDIN_GUID)
+                If m_iLogicAddIn IsNot Nothing Then
+                    m_iLogicAddIn.Activate()
+                    m_iLogicAuto = m_iLogicAddIn.Automation
+                End If
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("iLogicPatcher: Could not initialize iLogic - " & ex.Message)
+            End Try
+        End Sub
+
+        ''' <summary>
+        ''' Check if iLogic is available
+        ''' </summary>
+        Public ReadOnly Property IsAvailable As Boolean
+            Get
+                Return m_iLogicAuto IsNot Nothing
+            End Get
+        End Property
+
+        ''' <summary>
+        ''' Scan a document and display all iLogic rules with source code
+        ''' </summary>
+        Public Sub ScanAndDisplayRules(ByVal doc As Document)
+            If Not IsAvailable Then
+                MsgBox("iLogic Add-In is not available.", MsgBoxStyle.Exclamation, "iLogic Scanner")
+                Return
+            End If
+
+            Try
+                ' Get rules collection from document
+                Dim rules As Object = m_iLogicAuto.Rules(doc)
+
+                If rules Is Nothing Then
+                    MsgBox("No iLogic rules found in this document.", MsgBoxStyle.Information, "iLogic Scanner")
+                    Return
+                End If
+
+                ' Build summary
+                Dim ruleCount As Integer = 0
+                Dim ruleList As New System.Text.StringBuilder()
+                ruleList.AppendLine("iLOGIC RULES IN: " & doc.DisplayName)
+                ruleList.AppendLine(New String("="c, 50))
+                ruleList.AppendLine()
+
+                For Each rule As Object In rules
+                    ruleCount += 1
+                    Dim ruleName As String = rule.Name
+                    Dim ruleText As String = rule.Text
+
+                    ruleList.AppendLine("RULE " & ruleCount & ": " & ruleName)
+                    ruleList.AppendLine(New String("-"c, 40))
+                    ruleList.AppendLine(ruleText)
+                    ruleList.AppendLine()
+                Next
+
+                If ruleCount = 0 Then
+                    MsgBox("No iLogic rules found in this document.", MsgBoxStyle.Information, "iLogic Scanner")
+                    Return
+                End If
+
+                ' Show in a scrollable dialog
+                Dim result As MsgBoxResult = MsgBox(
+                    "Found " & ruleCount & " iLogic rule(s) in " & doc.DisplayName & vbCrLf & vbCrLf &
+                    "Would you like to export them to text files?",
+                    MsgBoxStyle.YesNo + MsgBoxStyle.Question,
+                    "iLogic Scanner")
+
+                If result = MsgBoxResult.Yes Then
+                    ExportRulesToFiles(doc, rules)
+                End If
+
+                ' Also write to debug output
+                System.Diagnostics.Debug.WriteLine(ruleList.ToString())
+
+            Catch ex As Exception
+                MsgBox("Error scanning rules: " & ex.Message, MsgBoxStyle.Critical, "iLogic Scanner")
+            End Try
+        End Sub
+
+        ''' <summary>
+        ''' Export all rules from a document to text files
+        ''' </summary>
+        Public Sub ExportRulesToFiles(ByVal doc As Document, ByVal rules As Object)
+            Try
+                Dim docPath As String = System.IO.Path.GetDirectoryName(doc.FullFileName)
+                Dim docName As String = System.IO.Path.GetFileNameWithoutExtension(doc.FullFileName)
+                Dim exportFolder As String = System.IO.Path.Combine(docPath, "iLogic_Export")
+
+                If Not Directory.Exists(exportFolder) Then
+                    Directory.CreateDirectory(exportFolder)
+                End If
+
+                Dim exportCount As Integer = 0
+
+                For Each rule As Object In rules
+                    Dim ruleName As String = rule.Name
+                    Dim ruleText As String = rule.Text
+
+                    ' Clean filename
+                    Dim safeRuleName As String = CleanFileName(ruleName)
+                    Dim exportPath As String = System.IO.Path.Combine(exportFolder, docName & "_" & safeRuleName & ".vb")
+
+                    ' Write to file
+                    Using writer As New StreamWriter(exportPath)
+                        writer.WriteLine("' ==============================================")
+                        writer.WriteLine("' iLogic Rule Export")
+                        writer.WriteLine("' ==============================================")
+                        writer.WriteLine("' Source Document: " & doc.DisplayName)
+                        writer.WriteLine("' Rule Name: " & ruleName)
+                        writer.WriteLine("' Exported: " & DateTime.Now.ToString())
+                        writer.WriteLine("' ==============================================")
+                        writer.WriteLine()
+                        writer.WriteLine(ruleText)
+                    End Using
+
+                    exportCount += 1
+                Next
+
+                MsgBox("Exported " & exportCount & " rules to:" & vbCrLf & exportFolder,
+                       MsgBoxStyle.Information, "Export Complete")
+
+            Catch ex As Exception
+                MsgBox("Error exporting rules: " & ex.Message, MsgBoxStyle.Critical, "Export Error")
+            End Try
+        End Sub
+
+        ''' <summary>
+        ''' Get all rules from a document as a dictionary (name -> text)
+        ''' </summary>
+        Public Function GetRulesAsDictionary(ByVal doc As Document) As Dictionary(Of String, String)
+            Dim result As New Dictionary(Of String, String)
+
+            If Not IsAvailable Then Return result
+
+            Try
+                Dim rules As Object = m_iLogicAuto.Rules(doc)
+                If rules IsNot Nothing Then
+                    For Each rule As Object In rules
+                        Dim ruleName As String = rule.Name
+                        Dim ruleText As String = rule.Text
+                        If Not result.ContainsKey(ruleName) Then
+                            result.Add(ruleName, ruleText)
+                        End If
+                    Next
+                End If
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error getting rules: " & ex.Message)
+            End Try
+
+            Return result
+        End Function
+
+        ''' <summary>
+        ''' Patch all rules in a document - replace old part names with new ones
+        ''' </summary>
+        ''' <param name="doc">The document containing rules</param>
+        ''' <param name="replacements">Dictionary of old name -> new name</param>
+        ''' <returns>Number of rules modified</returns>
+        Public Function PatchRules(ByVal doc As Document, ByVal replacements As Dictionary(Of String, String)) As Integer
+            Dim patchedCount As Integer = 0
+
+            If Not IsAvailable Then Return 0
+            If replacements Is Nothing OrElse replacements.Count = 0 Then Return 0
+
+            Try
+                Dim rules As Object = m_iLogicAuto.Rules(doc)
+                If rules Is Nothing Then Return 0
+
+                For Each rule As Object In rules
+                    Dim ruleName As String = rule.Name
+                    Dim originalText As String = rule.Text
+                    Dim modifiedText As String = originalText
+
+                    ' Apply all replacements
+                    For Each kvp As KeyValuePair(Of String, String) In replacements
+                        If modifiedText.Contains(kvp.Key) Then
+                            modifiedText = modifiedText.Replace(kvp.Key, kvp.Value)
+                        End If
+                    Next
+
+                    ' If text changed, update the rule
+                    If modifiedText <> originalText Then
+                        rule.Text = modifiedText
+                        patchedCount += 1
+                        System.Diagnostics.Debug.WriteLine("Patched rule: " & ruleName)
+                    End If
+                Next
+
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error patching rules: " & ex.Message)
+            End Try
+
+            Return patchedCount
+        End Function
+
+        ''' <summary>
+        ''' Patch rules in a document and all its referenced documents (recursive)
+        ''' </summary>
+        Public Function PatchRulesRecursive(ByVal doc As Document, ByVal replacements As Dictionary(Of String, String)) As Integer
+            Dim totalPatched As Integer = 0
+
+            ' Patch this document
+            totalPatched += PatchRules(doc, replacements)
+
+            ' If assembly, recurse into parts
+            If doc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                Dim asmDoc As AssemblyDocument = CType(doc, AssemblyDocument)
+                Dim processedDocs As New HashSet(Of String)
+
+                For Each occ As ComponentOccurrence In asmDoc.ComponentDefinition.Occurrences
+                    totalPatched += PatchOccurrenceRecursive(occ, replacements, processedDocs)
+                Next
+            End If
+
+            Return totalPatched
+        End Function
+
+        ''' <summary>
+        ''' Recursively patch rules in component occurrences
+        ''' </summary>
+        Private Function PatchOccurrenceRecursive(ByVal occ As ComponentOccurrence, ByVal replacements As Dictionary(Of String, String), ByVal processedDocs As HashSet(Of String)) As Integer
+            Dim patched As Integer = 0
+
+            Try
+                Dim refDoc As Document = occ.Definition.Document
+                If refDoc IsNot Nothing AndAlso Not processedDocs.Contains(refDoc.FullFileName) Then
+                    processedDocs.Add(refDoc.FullFileName)
+
+                    ' Patch this document
+                    patched += PatchRules(refDoc, replacements)
+
+                    ' If sub-assembly, recurse
+                    If refDoc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                        For Each subOcc As ComponentOccurrence In occ.SubOccurrences
+                            patched += PatchOccurrenceRecursive(subOcc, replacements, processedDocs)
+                        Next
+                    End If
+                End If
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error in PatchOccurrenceRecursive: " & ex.Message)
+            End Try
+
+            Return patched
+        End Function
+
+        ''' <summary>
+        ''' Build replacements dictionary from occurrence rename mapping
+        ''' </summary>
+        ''' <param name="oldNames">Old occurrence names (e.g., "Part1 TFC S-2:1")</param>
+        ''' <param name="newNames">New occurrence names (e.g., "STAIRCASE-3-PL1:1")</param>
+        Public Function BuildReplacementsDictionary(ByVal oldNames As List(Of String), ByVal newNames As List(Of String)) As Dictionary(Of String, String)
+            Dim result As New Dictionary(Of String, String)
+
+            If oldNames.Count <> newNames.Count Then Return result
+
+            For i As Integer = 0 To oldNames.Count - 1
+                If Not result.ContainsKey(oldNames(i)) Then
+                    result.Add(oldNames(i), newNames(i))
+                End If
+
+                ' Also add without instance number for more flexible matching
+                Dim oldBase As String = RemoveInstanceNumber(oldNames(i))
+                Dim newBase As String = RemoveInstanceNumber(newNames(i))
+                If oldBase <> oldNames(i) AndAlso Not result.ContainsKey(oldBase) Then
+                    result.Add(oldBase, newBase)
+                End If
+            Next
+
+            Return result
+        End Function
+
+        ''' <summary>
+        ''' Remove instance number from occurrence name (e.g., "Part:1" -> "Part")
+        ''' </summary>
+        Private Function RemoveInstanceNumber(ByVal occName As String) As String
+            Dim colonPos As Integer = occName.LastIndexOf(":"c)
+            If colonPos > 0 Then
+                Return occName.Substring(0, colonPos)
+            End If
+            Return occName
+        End Function
+
+        ''' <summary>
+        ''' Clean a string for use as filename
+        ''' </summary>
+        Private Function CleanFileName(ByVal name As String) As String
+            Dim invalid As Char() = Path.GetInvalidFileNameChars()
+            Dim result As String = name
+            For Each c As Char In invalid
+                result = result.Replace(c, "_"c)
+            Next
+            Return result
+        End Function
+
+    End Class
+
+End Namespace

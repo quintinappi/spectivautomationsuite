@@ -1,0 +1,51 @@
+2026-01-20 08:17:52 | === RECURSIVE IDW UPDATER - AGGREGATED MAPPINGS ===
+2026-01-20 08:17:52 | Purpose: Fix scattered mapping issue by aggregating ALL mappings
+2026-01-20 08:17:55 | Connected to running Inventor instance
+2026-01-20 08:17:55 | ROOT: Found from active document: RENAME TEST - DELETE.iam
+2026-01-20 08:17:55 | ROOT: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | STEP 1: SCANNING FOR ALL MAPPING FILES
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE
+2026-01-20 08:17:55 | FOUND: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING.txt
+2026-01-20 08:17:55 | FOUND: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING_FILENAME.txt
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Bottom
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Head Chute
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Head Chute\Design Accelerator
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Launder
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-1
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-2
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Middle
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Support Beam-1
+2026-01-20 08:17:55 | SCANNING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Top
+2026-01-20 08:17:55 | FOUND 2_MAPPING FILES
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | STEP 2: AGGREGATING ALL MAPPINGS
+2026-01-20 08:17:55 | LOADING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING.txt
+2026-01-20 08:17:55 | LOADED 0 path mappings and 92 filename mappings from this file
+2026-01-20 08:17:55 | LOADING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\STEP_1_MAPPING_FILENAME.txt
+2026-01-20 08:17:55 | LOADED 0 path mappings and 0 filename mappings from this file
+2026-01-20 08:17:55 | TOTAL PATH MAPPINGS AGGREGATED: 0
+2026-01-20 08:17:55 | TOTAL FILENAME MAPPINGS AGGREGATED: 92
+2026-01-20 08:17:55 | AGGREGATED 0 PATH MAPPINGS AND 92 FILENAME MAPPINGS FROM ALL FILES
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | STEP 3: FINDING ALL IDW FILES
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\MGY-200-DSL-09-00.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Bottom\MGY-200-DSL-09-04.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Launder\MGY-200-DSL-09-03.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-1\MGY-200-DSL-09-05.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Lid-2\MGY-200-DSL-09-06.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Middle\MGY-200-DSL-09-02.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Support Beam-1\MGY-200-DSL-09-07.idw
+2026-01-20 08:17:55 | FOUND IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\700 Head Chute\RENAME TEST - DELETE\Top\MGY-200-DSL-09-01.idw
+2026-01-20 08:17:55 | FOUND 8 IDW FILES TO PROCESS
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | STEP 4: UPDATING ALL IDWs WITH AGGREGATED MAPPINGS
+2026-01-20 08:17:55 | About to call UpdateAllIDWFiles with 8 files
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | IDW [1/8]: MGY-200-DSL-09-00.idw
+2026-01-20 08:17:55 | UpdateAllIDWFiles completed - updates: 0, errors: 0
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | STEP 5: GENERATING DETAILED REPORT
+2026-01-20 08:17:55 | REPORT GENERATED: C:\Users\Quintin\Documents\Spectiv\3. Working\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\Recursive_IDW_Updater_Report_20260120_081755.txt
+2026-01-20 08:17:55 | 
+2026-01-20 08:17:55 | === RECURSIVE IDW UPDATER COMPLETED ===

@@ -1,0 +1,97 @@
+=== FIX BOM PLATE DIMENSIONS ===
+Date: 1/25/2026 7:40:18 PM
+
+Assembly: Static Screen Bottom Wider.iam
+
+=== SCANNING FOR PLATE PARTS ===
+Processing: N1SCR04-726-PL33.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - LENGTH = 3390 mm
+    - PLATE LENGTH = 3389.800 mm
+    - PLATE WIDTH = 246.674 mm
+    - HEIGHT = 3389.800 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL34.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - PLATE LENGTH = 816.542 mm
+    - PLATE WIDTH = 532.012 mm
+    - HEIGHT = 816.542 mm
+    - LENGTH = 816.542 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL35.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - LENGTH = 3390 mm
+    - PLATE LENGTH = 3389.800 mm
+    - PLATE WIDTH = 175.000 mm
+    - HEIGHT = 3389.800 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL36.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - LENGTH = 
+    - PLATE LENGTH = 3389.800 mm
+    - PLATE WIDTH = 396.417 mm
+    - HEIGHT = 3389.800 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL37.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - LENGTH = 3390 mm
+    - PLATE LENGTH = 3389.800 mm
+    - PLATE WIDTH = 408.633 mm
+    - HEIGHT = 3389.800 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL38.ipt (PL 6mm S355JR)
+  Existing custom properties:
+    - LENGTH = 3390 mm
+    - PLATE LENGTH = 3389.800 mm
+    - PLATE WIDTH = 600.000 mm
+    - HEIGHT = 3389.800 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+Processing: N1SCR04-726-PL39.ipt (PL 20mm S355JR)
+  Existing custom properties:
+    - LENGTH = 150 mm
+    - PLATE LENGTH = 150.000 mm
+    - PLATE WIDTH = 90.000 mm
+    - HEIGHT = 150.000 mm
+    - 0 = <sheet metal width>
+    - =<sheet metal length> = LENGTH
+    - =<sheet metal width> = WIDTH
+  ERROR creating LENGTH: Invalid procedure call or argument
+  ERROR creating WIDTH: Invalid procedure call or argument
+  Saved
+
+=== UPDATING ASSEMBLY ===
+Assembly updated
+
+=== COMPLETE ===
+Plates processed: 7
+

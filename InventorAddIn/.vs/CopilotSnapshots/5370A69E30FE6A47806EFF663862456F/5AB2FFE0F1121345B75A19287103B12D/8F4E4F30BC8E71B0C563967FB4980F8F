@@ -1,0 +1,347 @@
+﻿' ==============================================================================
+' ASSEMBLY CLONER - Clone Assembly with Parts and Patch iLogic
+' ==============================================================================
+' Author: Quintin de Bruin © 2025
+' 
+' This module handles:
+' 1. Detecting open assembly
+' 2. Getting destination folder
+' 3. Copying assembly and all parts
+' 4. Renaming with heritage naming (optional)
+' 5. Updating assembly references
+' 6. Patching iLogic rules with new part names
+' 7. Copying and updating IDW files
+' ==============================================================================
+
+Imports Inventor
+Imports System.IO
+
+Namespace AssemblyClonerAddIn
+
+    ''' <summary>
+    ''' Main assembly cloning logic
+    ''' </summary>
+    Public Class AssemblyCloner
+
+        Private m_InventorApp As Inventor.Application
+        Private m_Patcher As iLogicPatcher
+
+        ' Tracking dictionaries
+        Private m_CopiedFiles As New Dictionary(Of String, String)  ' originalPath -> newPath
+        Private m_OccurrenceRenames As New Dictionary(Of String, String)  ' oldOccName -> newOccName
+        Private m_DoRename As Boolean = False
+        Private m_PlantSection As String = ""
+
+        ''' <summary>
+        ''' Constructor
+        ''' </summary>
+        Public Sub New(ByVal inventorApp As Inventor.Application)
+            m_InventorApp = inventorApp
+            m_Patcher = New iLogicPatcher(inventorApp)
+        End Sub
+
+        ''' <summary>
+        ''' Main entry point - clone the active assembly
+        ''' </summary>
+        Public Sub CloneAssembly()
+            ' Reset tracking
+            m_CopiedFiles.Clear()
+            m_OccurrenceRenames.Clear()
+
+            ' Get source assembly
+            Dim sourceDoc As AssemblyDocument = CType(m_InventorApp.ActiveDocument, AssemblyDocument)
+            Dim sourceDir As String = System.IO.Path.GetDirectoryName(sourceDoc.FullFileName)
+            Dim sourceFileName As String = System.IO.Path.GetFileName(sourceDoc.FullFileName)
+
+            ' Confirm with user
+            Dim occCount As Integer = sourceDoc.ComponentDefinition.Occurrences.Count
+            Dim confirmResult As MsgBoxResult = MsgBox(
+                "ASSEMBLY CLONER" & vbCrLf & vbCrLf &
+                "Source: " & sourceDoc.DisplayName & vbCrLf &
+                "Parts: " & occCount & " occurrences" & vbCrLf &
+                "Location: " & sourceDir & vbCrLf & vbCrLf &
+                "This will:" & vbCrLf &
+                "• Copy assembly + all parts to new folder" & vbCrLf &
+                "• Update all references to local copies" & vbCrLf &
+                "• Patch iLogic rules with new part names" & vbCrLf &
+                "• Copy and update IDW drawings" & vbCrLf & vbCrLf &
+                "Continue?",
+                MsgBoxStyle.YesNo + MsgBoxStyle.Question,
+                "Clone Assembly")
+
+            If confirmResult = MsgBoxResult.No Then Return
+
+            ' Get destination folder
+            Dim destFolder As String = GetDestinationFolder(sourceDir)
+            If String.IsNullOrEmpty(destFolder) Then Return
+
+            ' Ask about heritage renaming
+            Dim renameResult As MsgBoxResult = MsgBox(
+                "HERITAGE RENAMING" & vbCrLf & vbCrLf &
+                "Do you want to rename parts with heritage naming?" & vbCrLf & vbCrLf &
+                "YES = Rename parts (e.g., PLANT-001-PL1, PLANT-001-CH1)" & vbCrLf &
+                "NO = Keep original part names" & vbCrLf & vbCrLf &
+                "Either way, parts will be copied to new folder.",
+                MsgBoxStyle.YesNo + MsgBoxStyle.Question,
+                "Rename Parts?")
+
+            m_DoRename = (renameResult = MsgBoxResult.Yes)
+
+            If m_DoRename Then
+                m_PlantSection = InputBox(
+                    "Enter the plant section prefix:" & vbCrLf & vbCrLf &
+                    "Example: DMS-SSCR05-STAIR" & vbCrLf & vbCrLf &
+                    "This will be used for heritage naming.",
+                    "Plant Section Prefix",
+                    System.IO.Path.GetFileNameWithoutExtension(destFolder))
+                If String.IsNullOrEmpty(m_PlantSection) Then Return
+            End If
+
+            ' Get new assembly name from folder
+            Dim destFolderName As String = System.IO.Path.GetFileName(destFolder)
+            Dim newAsmFileName As String = destFolderName & ".iam"
+            Dim newAsmPath As String = System.IO.Path.Combine(destFolder, newAsmFileName)
+
+            ' Collect all referenced parts
+            Dim allParts As New Dictionary(Of String, Document)
+            CollectAllReferencedParts(sourceDoc, allParts)
+
+            ' Close source document
+            Dim sourceFullPath As String = sourceDoc.FullFileName
+            sourceDoc.Close(True)  ' Save first
+
+            ' Copy assembly file
+            System.IO.File.Copy(sourceFullPath, newAsmPath, True)
+            m_CopiedFiles.Add(sourceFullPath, newAsmPath)
+
+            ' Copy all parts
+            CopyAllParts(allParts, destFolder)
+
+            ' Open the new assembly and update references
+            Dim newAsmDoc As AssemblyDocument = CType(m_InventorApp.Documents.Open(newAsmPath, False), AssemblyDocument)
+            UpdateAssemblyReferences(newAsmDoc)
+
+            ' Patch iLogic rules
+            If m_Patcher.IsAvailable AndAlso m_OccurrenceRenames.Count > 0 Then
+                Dim patchedCount As Integer = m_Patcher.PatchRulesRecursive(newAsmDoc, m_OccurrenceRenames)
+                System.Diagnostics.Debug.WriteLine("Patched " & patchedCount & " iLogic rules")
+            End If
+
+            ' Save the updated assembly
+            newAsmDoc.Save()
+
+            ' Process IDW files
+            ProcessIDWFiles(sourceDir, destFolder, sourceFullPath, newAsmPath)
+
+            ' Done!
+            MsgBox(
+                "ASSEMBLY CLONE COMPLETED!" & vbCrLf & vbCrLf &
+                "✓ Assembly copied to: " & destFolder & vbCrLf &
+                "✓ " & m_CopiedFiles.Count & " files copied" & vbCrLf &
+                "✓ References updated" & vbCrLf &
+                "✓ iLogic rules patched" & vbCrLf & vbCrLf &
+                "The new assembly is now completely isolated!",
+                MsgBoxStyle.Information,
+                "Success!")
+        End Sub
+
+        ''' <summary>
+        ''' Get destination folder from user
+        ''' </summary>
+        Private Function GetDestinationFolder(ByVal sourceDir As String) As String
+            Dim parentDir As String = System.IO.Path.GetDirectoryName(sourceDir)
+            Dim defaultDest As String = System.IO.Path.Combine(parentDir, "NewAssembly")
+
+            Dim destPath As String = InputBox(
+                "DESTINATION FOLDER" & vbCrLf & vbCrLf &
+                "Source: " & sourceDir & vbCrLf & vbCrLf &
+                "Enter the FULL PATH to destination folder:" & vbCrLf &
+                "(Folder will be created if it doesn't exist)",
+                "Destination Folder",
+                defaultDest)
+
+            If String.IsNullOrEmpty(destPath) Then Return Nothing
+
+            destPath = destPath.Trim()
+
+            ' Create if needed
+            If Not Directory.Exists(destPath) Then
+                Dim createResult As MsgBoxResult = MsgBox(
+                    "Folder does not exist:" & vbCrLf & destPath & vbCrLf & vbCrLf &
+                    "Create this folder?",
+                    MsgBoxStyle.YesNo + MsgBoxStyle.Question,
+                    "Create Folder?")
+
+                If createResult = MsgBoxResult.Yes Then
+                    Directory.CreateDirectory(destPath)
+                Else
+                    Return Nothing
+                End If
+            End If
+
+            Return destPath
+        End Function
+
+        ''' <summary>
+        ''' Collect all referenced parts from assembly (recursive)
+        ''' </summary>
+        Private Sub CollectAllReferencedParts(ByVal asmDoc As AssemblyDocument, ByVal partsDict As Dictionary(Of String, Document))
+            For Each occ As ComponentOccurrence In asmDoc.ComponentDefinition.Occurrences
+                CollectOccurrenceParts(occ, partsDict)
+            Next
+        End Sub
+
+        ''' <summary>
+        ''' Recursively collect parts from occurrence
+        ''' </summary>
+        Private Sub CollectOccurrenceParts(ByVal occ As ComponentOccurrence, ByVal partsDict As Dictionary(Of String, Document))
+            Try
+                Dim refDoc As Document = occ.Definition.Document
+                If refDoc IsNot Nothing AndAlso Not partsDict.ContainsKey(refDoc.FullFileName) Then
+                    partsDict.Add(refDoc.FullFileName, refDoc)
+
+                    ' If sub-assembly, recurse
+                    If refDoc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                        For Each subOcc As ComponentOccurrence In occ.SubOccurrences
+                            CollectOccurrenceParts(subOcc, partsDict)
+                        Next
+                    End If
+                End If
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error collecting part: " & ex.Message)
+            End Try
+        End Sub
+
+        ''' <summary>
+        ''' Copy all parts to destination folder
+        ''' </summary>
+        Private Sub CopyAllParts(ByVal allParts As Dictionary(Of String, Document), ByVal destFolder As String)
+            Dim counter As Integer = 0
+
+            For Each kvp As KeyValuePair(Of String, Document) In allParts
+                Dim sourcePath As String = kvp.Key
+                Dim sourceDoc As Document = kvp.Value
+                Dim sourceFileName As String = System.IO.Path.GetFileName(sourcePath)
+                Dim destPath As String
+
+                If m_DoRename Then
+                    ' Generate heritage name
+                    counter += 1
+                    Dim ext As String = System.IO.Path.GetExtension(sourcePath)
+                    Dim suffix As String = GetPartSuffix(sourceDoc)
+                    Dim newName As String = m_PlantSection & "-" & suffix & counter.ToString() & ext
+                    destPath = System.IO.Path.Combine(destFolder, newName)
+
+                    ' Track rename for iLogic patching
+                    m_OccurrenceRenames.Add(System.IO.Path.GetFileNameWithoutExtension(sourcePath), System.IO.Path.GetFileNameWithoutExtension(newName))
+                Else
+                    destPath = System.IO.Path.Combine(destFolder, sourceFileName)
+                End If
+
+                ' Copy file
+                If Not System.IO.File.Exists(destPath) Then
+                    System.IO.File.Copy(sourcePath, destPath, True)
+                End If
+
+                m_CopiedFiles.Add(sourcePath, destPath)
+            Next
+        End Sub
+
+        ''' <summary>
+        ''' Get suffix based on part type (PL=plate, CH=channel, etc.)
+        ''' </summary>
+        Private Function GetPartSuffix(ByVal doc As Document) As String
+            ' Simplified - you can expand this based on your naming conventions
+            If doc.DocumentType = DocumentTypeEnum.kPartDocumentObject Then
+                Return "PL"
+            ElseIf doc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                Return "ASM"
+            Else
+                Return "DOC"
+            End If
+        End Function
+
+        ''' <summary>
+        ''' Update assembly references to point to copied parts
+        ''' </summary>
+        Private Sub UpdateAssemblyReferences(ByVal asmDoc As AssemblyDocument)
+            For Each occ As ComponentOccurrence In asmDoc.ComponentDefinition.Occurrences
+                UpdateOccurrenceReference(occ)
+            Next
+        End Sub
+
+        ''' <summary>
+        ''' Update single occurrence reference
+        ''' </summary>
+        Private Sub UpdateOccurrenceReference(ByVal occ As ComponentOccurrence)
+            Try
+                Dim refDoc As Document = occ.Definition.Document
+                If refDoc IsNot Nothing AndAlso m_CopiedFiles.ContainsKey(refDoc.FullFileName) Then
+                    Dim newPath As String = m_CopiedFiles(refDoc.FullFileName)
+
+                    ' Replace the reference
+                    occ.Replace(newPath, True)
+                End If
+
+                ' Recurse into sub-assemblies
+                For Each subOcc As ComponentOccurrence In occ.SubOccurrences
+                    UpdateOccurrenceReference(subOcc)
+                Next
+
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error updating reference: " & ex.Message)
+            End Try
+        End Sub
+
+        ''' <summary>
+        ''' Process IDW files - copy and update references
+        ''' </summary>
+        Private Sub ProcessIDWFiles(ByVal sourceDir As String, ByVal destFolder As String, ByVal oldAsmPath As String, ByVal newAsmPath As String)
+            Try
+                ' Find all IDW files in source directory
+                Dim idwFiles As String() = Directory.GetFiles(sourceDir, "*.idw")
+
+                For Each idwPath As String In idwFiles
+                    Dim idwFileName As String = System.IO.Path.GetFileName(idwPath)
+                    Dim newIdwPath As String = System.IO.Path.Combine(destFolder, idwFileName)
+
+                    ' Copy IDW
+                    System.IO.File.Copy(idwPath, newIdwPath, True)
+
+                    ' Open and update references
+                    Dim idwDoc As DrawingDocument = CType(m_InventorApp.Documents.Open(newIdwPath, False), DrawingDocument)
+
+                    ' Update model reference
+                    For Each sheet As Sheet In idwDoc.Sheets
+                        For Each view As DrawingView In sheet.DrawingViews
+                            Try
+                                Dim refDescriptor As DocumentDescriptor = view.ReferencedDocumentDescriptor
+                                If refDescriptor IsNot Nothing Then
+                                    Dim refFullName As String = refDescriptor.FullDocumentName
+                                    If m_CopiedFiles.ContainsKey(refFullName) Then
+                                        refDescriptor.ReplaceReference(m_CopiedFiles(refFullName))
+                                    End If
+                                End If
+                            Catch ex As Exception
+                                ' View might not have a valid reference
+                            End Try
+                        Next
+                    Next
+
+                    ' Patch iLogic in IDW too
+                    If m_Patcher.IsAvailable AndAlso m_OccurrenceRenames.Count > 0 Then
+                        m_Patcher.PatchRules(idwDoc, m_OccurrenceRenames)
+                    End If
+
+                    idwDoc.Save()
+                    idwDoc.Close()
+                Next
+
+            Catch ex As Exception
+                System.Diagnostics.Debug.WriteLine("Error processing IDW: " & ex.Message)
+            End Try
+        End Sub
+
+    End Class
+
+End Namespace

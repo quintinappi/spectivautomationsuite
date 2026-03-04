@@ -1,0 +1,135 @@
+2025-12-10 20:33:27 | === ASSEMBLY CLONER ===
+2025-12-10 20:33:27 | Copy assembly with all parts to new isolated location
+2025-12-10 20:33:28 | SUCCESS: Connected to existing Inventor instance
+2025-12-10 20:33:28 | STEP 1: Detecting open assembly
+2025-12-10 20:33:28 | DETECTED: Staircase-1.iam
+2025-12-10 20:33:28 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-1 - LH\Staircase-1.iam
+2025-12-10 20:33:30 | STEP 2: Getting destination folder from user
+2025-12-10 20:33:44 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest
+2025-12-10 20:33:44 | New assembly name will be: staircasetest.iam
+2025-12-10 20:33:44 | STEP 3: Asking about heritage renaming
+2025-12-10 20:33:45 | PLANT: Getting plant section naming convention from user
+2025-12-10 20:33:49 | PLANT: Using prefix: CLONE-001-
+2025-12-10 20:33:49 | STEP 4: Analyzing assembly structure
+2025-12-10 20:33:49 | COLLECT: Scanning assembly for all referenced parts...
+2025-12-10 20:33:49 | COLLECT: Part1 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part2 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part3 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part4 TFC .ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part5 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part6 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part7 Stair End Plate.ipt (PL 10mm S355JR)
+2025-12-10 20:33:49 | COLLECT: Part14 Base Plate.ipt (PL 10mm S355JR)
+2025-12-10 20:33:49 | COLLECT: Part8 Stair Stanchion Plate.ipt (PL 10mm S355JR)
+2025-12-10 20:33:49 | COLLECT: Part9 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part10 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Part11 TFC.ipt (TFC 178x54x15)
+2025-12-10 20:33:49 | COLLECT: Step.ipt (STD VITAGRID 750 WIDE STEP)
+2025-12-10 20:33:49 | COLLECT: Part13 Stanchion Plate.ipt (PL 10mm S355JR)
+2025-12-10 20:33:49 | COLLECT: Found 14 unique parts
+2025-12-10 20:33:49 | ANALYZE: Found 14 unique parts to copy
+2025-12-10 20:33:49 | STEP 5: Grouping components for heritage naming
+2025-12-10 20:33:49 | GROUP: Grouping parts for heritage naming...
+2025-12-10 20:33:49 | GROUP: Created 3 groups
+2025-12-10 20:33:49 | SCHEME: CH -> CLONE-001-CH{N}
+2025-12-10 20:33:49 | SCHEME: PL -> CLONE-001-PL{N}
+2025-12-10 20:33:49 | SCHEME: OTHER -> CLONE-001-OTHER{N}
+2025-12-10 20:33:49 | STEP 6: Copying assembly to destination
+2025-12-10 20:33:49 | Closing source assembly for safe copy...
+2025-12-10 20:33:50 | COPIED: Assembly Staircase-1.iam -> staircasetest.iam
+2025-12-10 20:33:50 | STEP 7: Copying parts to destination
+2025-12-10 20:33:50 | COPIED: Part1 TFC.ipt -> CLONE-001-CH1.ipt
+2025-12-10 20:33:50 | COPIED: Part2 TFC.ipt -> CLONE-001-CH2.ipt
+2025-12-10 20:33:50 | COPIED: Part3 TFC.ipt -> CLONE-001-CH3.ipt
+2025-12-10 20:33:50 | COPIED: Part4 TFC .ipt -> CLONE-001-CH4.ipt
+2025-12-10 20:33:50 | COPIED: Part5 TFC.ipt -> CLONE-001-CH5.ipt
+2025-12-10 20:33:50 | COPIED: Part6 TFC.ipt -> CLONE-001-CH6.ipt
+2025-12-10 20:33:50 | COPIED: Part7 Stair End Plate.ipt -> CLONE-001-PL1.ipt
+2025-12-10 20:33:50 | COPIED: Part14 Base Plate.ipt -> CLONE-001-PL2.ipt
+2025-12-10 20:33:50 | COPIED: Part8 Stair Stanchion Plate.ipt -> CLONE-001-PL3.ipt
+2025-12-10 20:33:50 | COPIED: Part9 TFC.ipt -> CLONE-001-CH7.ipt
+2025-12-10 20:33:50 | COPIED: Part10 TFC.ipt -> CLONE-001-CH8.ipt
+2025-12-10 20:33:50 | COPIED: Part11 TFC.ipt -> CLONE-001-CH9.ipt
+2025-12-10 20:33:50 | COPIED: Step.ipt -> CLONE-001-OTHER1.ipt
+2025-12-10 20:33:50 | COPIED: Part13 Stanchion Plate.ipt -> CLONE-001-PL4.ipt
+2025-12-10 20:33:50 | STEP 8: Updating references in copied assembly using ApprenticeServer
+2025-12-10 20:33:50 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2025-12-10 20:33:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2025-12-10 20:33:50 | ASSEMBLY UPDATE (Inventor): Opened staircasetest.iam
+2025-12-10 20:33:50 | UPDATE: Updating assembly references to local copies...
+2025-12-10 20:33:50 | UPDATE: Part1 TFC.ipt -> CLONE-001-CH1.ipt
+2025-12-10 20:33:50 | UPDATE: Part2 TFC.ipt -> CLONE-001-CH2.ipt
+2025-12-10 20:33:51 | ERROR: Replace failed - 
+2025-12-10 20:33:51 | UPDATE: Part3 TFC.ipt -> CLONE-001-CH3.ipt
+2025-12-10 20:33:51 | UPDATE: Part4 TFC .ipt -> CLONE-001-CH4.ipt
+2025-12-10 20:33:51 | ERROR: Replace failed - 
+2025-12-10 20:33:51 | UPDATE: Part5 TFC.ipt -> CLONE-001-CH5.ipt
+2025-12-10 20:33:51 | UPDATE: Part6 TFC.ipt -> CLONE-001-CH6.ipt
+2025-12-10 20:33:51 | UPDATE: Part7 Stair End Plate.ipt -> CLONE-001-PL1.ipt
+2025-12-10 20:33:51 | UPDATE: Part14 Base Plate.ipt -> CLONE-001-PL2.ipt
+2025-12-10 20:33:51 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2025-12-10 20:33:51 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2025-12-10 20:33:51 | UPDATE: Part8 Stair Stanchion Plate.ipt -> CLONE-001-PL3.ipt
+2025-12-10 20:33:51 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2025-12-10 20:33:51 | UPDATE: Part9 TFC.ipt -> CLONE-001-CH7.ipt
+2025-12-10 20:33:51 | UPDATE: Part10 TFC.ipt -> CLONE-001-CH8.ipt
+2025-12-10 20:33:52 | UPDATE: Part11 TFC.ipt -> CLONE-001-CH9.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-CH9.ipt
+2025-12-10 20:33:52 | UPDATE: Step.ipt -> CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-OTHER1.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2025-12-10 20:33:52 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2025-12-10 20:33:52 | UPDATE: Part13 Stanchion Plate.ipt -> CLONE-001-PL4.ipt
+2025-12-10 20:33:53 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2025-12-10 20:33:53 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2025-12-10 20:33:53 | STEP 9: Processing IDW files (update references, then save to new location)
+2025-12-10 20:33:53 | IDW PROCESS: Found MGY-300-SP-01-02.idw
+2025-12-10 20:33:55 | IDW PROCESS: Opening original IDW from source location...
+2025-12-10 20:33:56 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-10 20:33:56 | IDW PROCESS: Found 15 references
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part1 TFC.ipt -> CLONE-001-CH1.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part10 TFC.ipt -> CLONE-001-CH8.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part11 TFC.ipt -> CLONE-001-CH9.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: No mapping for Part12 Angle.ipt
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part13 Stanchion Plate.ipt -> CLONE-001-PL4.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part14 Base Plate.ipt -> CLONE-001-PL2.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part2 TFC.ipt -> CLONE-001-CH2.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part3 TFC.ipt -> CLONE-001-CH3.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part4 TFC .ipt -> CLONE-001-CH4.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part5 TFC.ipt -> CLONE-001-CH5.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part6 TFC.ipt -> CLONE-001-CH6.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part7 Stair End Plate.ipt -> CLONE-001-PL1.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part8 Stair Stanchion Plate.ipt -> CLONE-001-PL3.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Part9 TFC.ipt -> CLONE-001-CH7.ipt
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Updating Staircase-1.iam -> staircasetest.iam
+2025-12-10 20:33:56 | IDW PROCESS: SUCCESS
+2025-12-10 20:33:56 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest\MGY-300-SP-01-03.idw
+2025-12-10 20:33:57 | IDW PROCESS: Successfully saved MGY-300-SP-01-03.idw (14 references updated)
+2025-12-10 20:33:57 | === ASSEMBLY CLONER COMPLETED ===

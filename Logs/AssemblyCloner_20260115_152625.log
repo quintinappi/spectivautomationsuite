@@ -1,0 +1,1399 @@
+2026-01-15 15:26:25 | === ASSEMBLY CLONER ===
+2026-01-15 15:26:25 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 15:26:28 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 15:26:28 | STEP 1: Detecting open assembly
+2026-01-15 15:26:28 | DETECTED: Flood Box.iam
+2026-01-15 15:26:28 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\735 Flood Box\Flood Box.iam
+2026-01-15 15:26:31 | STEP 2: Getting destination folder from user
+2026-01-15 15:26:34 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:26:34 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST\AssemblyCloner_20260115_152634.log
+2026-01-15 15:26:34 | New assembly name will be: TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:34 | STEP 3: Asking about heritage renaming
+2026-01-15 15:26:37 | PLANT: Getting plant section naming convention from user
+2026-01-15 15:26:39 | PLANT: Using prefix: CLONE-001-
+2026-01-15 15:26:39 | STEP 4: Analyzing assembly structure
+2026-01-15 15:26:39 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Support Frame.iam at ROOT
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Support Column.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: PART Part1 FB-C1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:26:39 | COLLECT: PART Part2 203x133x25 FB-C1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Column.iam
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Support Beam-1.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: PART Part1 FB-B1.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:26:39 | COLLECT: PART Part2 203x133x25 FB-B1.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-1.iam
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Support Beam-3.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: PART Part2 203x133x25 FB-B3.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-3.iam
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Support Beam-2.iam at ROOT>Support Frame.iam
+2026-01-15 15:26:39 | COLLECT: PART Part1 FB-B2.ipt (PL 10mm S355JR) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:26:39 | COLLECT: PART Part2 203x133x25 FB-B2.ipt (UB203x133x25) at ROOT>Support Frame.iam>Support Beam-2.iam
+2026-01-15 15:26:39 | COLLECT: Skipping suppressed occurrence Flood Chute Development:1 at ROOT
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-15 15:26:39 | COLLECT: SUB-ASSEMBLY Flood Chute.iam at ROOT
+2026-01-15 15:26:39 | COLLECT: PART Part1 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:39 | COLLECT: PART Part2 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:39 | COLLECT: PART Part3 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:39 | COLLECT: PART Part4 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:39 | COLLECT: PART Part5 FB-C.ipt (PL 6mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part6 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part7 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part8 (Part7 Angle MIR) FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part9 Angle FB-C.ipt (L60x60x6) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part10 FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Part11 Corner Gusset FB-C.ipt (PL 10mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: PART Lug FB-C.ipt (PL 20mm S355JR) at ROOT>Flood Chute.iam
+2026-01-15 15:26:40 | COLLECT: Found 28 unique files
+2026-01-15 15:26:40 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-00.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-02.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-01-00.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-01-03.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | COLLECT: DRAWING MGY-200-DRD-09-01-01.idw
+2026-01-15 15:26:40 | ANALYZE: Found 35 unique parts to copy
+2026-01-15 15:26:40 | STEP 5: Grouping components for heritage naming
+2026-01-15 15:26:40 | GROUP: Grouping parts for heritage naming...
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Support Frame.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Support Column.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Bolted Connection2.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Support Beam-1.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Support Beam-3.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Support Beam-2.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 15:26:40 | GROUP: Skipping sub-assembly Flood Chute.iam
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-00.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-02.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-01-00.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-01-03.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | GROUP: Skipping drawing MGY-200-DRD-09-01-01.idw
+2026-01-15 15:26:40 | GROUP: Created 3 groups
+2026-01-15 15:26:40 | SCHEME: PL -> CLONE-001-PL{N}
+2026-01-15 15:26:40 | SCHEME: B -> CLONE-001-B{N}
+2026-01-15 15:26:40 | SCHEME: A -> CLONE-001-A{N}
+2026-01-15 15:26:40 | STEP 6: Copying assembly to destination
+2026-01-15 15:26:40 | Closing source assembly for safe copy...
+2026-01-15 15:26:40 | COPIED: Assembly Flood Box.iam -> TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:40 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Support Frame.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Support Column.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:40 | COPIED: Part1 FB-C1.ipt -> CLONE-001-PL1.ipt
+2026-01-15 15:26:40 | COPIED: Part2 203x133x25 FB-C1.ipt -> CLONE-001-B1.ipt
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Bolted Connection2.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Support Beam-1.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:40 | COPIED: Part1 FB-B1.ipt -> CLONE-001-PL2.ipt
+2026-01-15 15:26:40 | COPIED: Part2 203x133x25 FB-B1.ipt -> CLONE-001-B2.ipt
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Support Beam-3.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:40 | COPIED: Part2 203x133x25 FB-B3.ipt -> CLONE-001-B3.ipt
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Support Beam-2.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:40 | COPIED: Part1 FB-B2.ipt -> CLONE-001-PL3.ipt
+2026-01-15 15:26:40 | COPIED: Part2 203x133x25 FB-B2.ipt -> CLONE-001-B4.ipt
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:40 | COPY: SUB-ASSEMBLY Flood Chute.iam (keeping original name)
+2026-01-15 15:26:40 | COPIED: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:40 | COPIED: Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:26:40 | COPIED: Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:26:40 | COPIED: Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:26:40 | COPIED: Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:26:40 | COPIED: Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:26:40 | COPIED: Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:26:40 | COPIED: Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:26:40 | COPIED: Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:26:40 | COPIED: Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:26:40 | COPIED: Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:26:40 | COPIED: Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:26:40 | COPIED: Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-00.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-00.idw -> MGY-200-DRD-09-00.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-02.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-02.idw -> MGY-200-DRD-09-02.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-01-00.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-01-00.idw -> MGY-200-DRD-09-01-00.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-01-03.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-01-03.idw -> MGY-200-DRD-09-01-03.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-01-02.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-01-02.idw -> MGY-200-DRD-09-01-02.idw
+2026-01-15 15:26:40 | COPY: DRAWING MGY-200-DRD-09-01-01.idw (keeping original name)
+2026-01-15 15:26:40 | COPIED: MGY-200-DRD-09-01-01.idw -> MGY-200-DRD-09-01-01.idw
+2026-01-15 15:26:40 | STEP 8: Updating references in ALL copied assemblies using ApprenticeServer
+2026-01-15 15:26:40 | STEP 8: Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:40 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:40 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:40 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:41 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:41 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:41 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:41 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:41 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:41 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:41 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:41 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:41 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:41 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:41 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:41 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:41 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:41 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:41 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:41 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:41 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:41 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:41 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:41 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:41 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:41 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:41 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:41 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:41 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:41 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:41 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:41 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:41 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:42 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:42 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:42 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:42 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:42 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:42 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:42 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:42 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:42 | UPDATE: Part7 Angle FB-C.ipt -> CLONE-001-A2.ipt
+2026-01-15 15:26:42 | UPDATE: Lug FB-C.ipt -> CLONE-001-PL11.ipt
+2026-01-15 15:26:42 | UPDATE: Part1 FB-C.ipt -> CLONE-001-PL4.ipt
+2026-01-15 15:26:42 | UPDATE: Part10 FB-C.ipt -> CLONE-001-PL9.ipt
+2026-01-15 15:26:42 | UPDATE: Part11 Corner Gusset FB-C.ipt -> CLONE-001-PL10.ipt
+2026-01-15 15:26:42 | UPDATE: Part2 FB-C.ipt -> CLONE-001-PL5.ipt
+2026-01-15 15:26:42 | UPDATE: Part3 FB-C.ipt -> CLONE-001-PL6.ipt
+2026-01-15 15:26:42 | UPDATE: Part4 FB-C.ipt -> CLONE-001-PL7.ipt
+2026-01-15 15:26:42 | UPDATE: Part5 FB-C.ipt -> CLONE-001-PL8.ipt
+2026-01-15 15:26:42 | UPDATE: Part6 Angle FB-C.ipt -> CLONE-001-A1.ipt
+2026-01-15 15:26:42 | UPDATE: Part8 (Part7 Angle MIR) FB-C.ipt -> CLONE-001-A3.ipt
+2026-01-15 15:26:42 | UPDATE: Part9 Angle FB-C.ipt -> CLONE-001-A4.ipt
+2026-01-15 15:26:42 | UPDATE: Updated 12 of 12 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | STEP 8: Updating references in Support Frame.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:43 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:43 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:43 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:43 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:43 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:43 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:43 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:43 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:43 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:43 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:43 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:43 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:43 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:43 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:43 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:43 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:44 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:44 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:44 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:44 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:44 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:44 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:44 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:44 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:44 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:44 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:44 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:44 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:44 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:44 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:44 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | STEP 8: Updating references in Support Column.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:45 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:45 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:45 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:45 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:45 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:45 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:45 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:45 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:45 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:45 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:45 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:45 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:45 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:45 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:45 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:45 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | STEP 8: Updating references in Bolted Connection2.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:46 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:46 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:46 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:46 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:46 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:46 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:46 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:46 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:46 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:46 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:46 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:46 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:46 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:46 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:46 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:46 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | STEP 8: Updating references in Support Beam-1.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:47 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:47 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:47 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:47 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:47 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:47 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:47 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:47 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:47 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:47 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:47 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:47 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:47 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:47 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:47 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:47 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | STEP 8: Updating references in Support Beam-3.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:48 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:48 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:48 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:48 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:48 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:48 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:48 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:48 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:48 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:48 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:48 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:48 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:48 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:48 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:48 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:48 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | STEP 8: Updating references in Support Beam-2.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:49 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:49 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:49 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:49 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:49 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:49 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:49 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:49 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:49 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:49 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:49 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:49 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:49 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:49 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:49 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:49 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | STEP 8: Updating references in Bolted Connection1.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:50 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:50 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:50 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:50 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:50 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:50 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:50 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:50 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:50 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:50 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:50 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:50 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:50 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:50 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:50 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | STEP 8: Updating references in Flood Chute.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened TO DELETE - FLOODBOX TEST.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 4 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:51 | UPDATE: No mapping for Flood Chute Development.ipt
+2026-01-15 15:26:51 | UPDATE: Flood Chute.iam -> Flood Chute.iam
+2026-01-15 15:26:51 | UPDATE: Support Frame.iam -> Support Frame.iam
+2026-01-15 15:26:51 | UPDATE: Updated 3 of 4 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Frame.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Frame.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 6 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 15:26:51 | UPDATE: Bolted Connection2.iam -> Bolted Connection2.iam
+2026-01-15 15:26:51 | UPDATE: Support Beam-1.iam -> Support Beam-1.iam
+2026-01-15 15:26:51 | UPDATE: Support Beam-2.iam -> Support Beam-2.iam
+2026-01-15 15:26:51 | UPDATE: Support Beam-3.iam -> Support Beam-3.iam
+2026-01-15 15:26:51 | UPDATE: Support Column.iam -> Support Column.iam
+2026-01-15 15:26:51 | UPDATE: Updated 6 of 6 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): ERROR saving - 
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Column.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Column.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-B1.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL1.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection2.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection2.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-1.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-1.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-B2.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-3.iam
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:51 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-3.iam
+2026-01-15 15:26:51 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:51 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:51 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-B3.ipt
+2026-01-15 15:26:51 | UPDATE: No mapping for CLONE-001-PL2.ipt
+2026-01-15 15:26:51 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Updating references in Support Beam-2.iam
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opened Support Beam-2.iam
+2026-01-15 15:26:52 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:52 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:52 | UPDATE: Using File.ReferencedFileDescriptors method - 2 references at level ROOT
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-B4.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL3.ipt
+2026-01-15 15:26:52 | UPDATE: Updated 0 of 2 references at level ROOT
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Updating references in Bolted Connection1.iam
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opened Bolted Connection1.iam
+2026-01-15 15:26:52 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:52 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:52 | UPDATE: Using File.ReferencedFileDescriptors method - 0 references at level ROOT
+2026-01-15 15:26:52 | UPDATE: Updated 0 of 0 references at level ROOT
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Updating references in Flood Chute.iam
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Opened Flood Chute.iam
+2026-01-15 15:26:52 | UPDATE: Updating assembly references to local copies...
+2026-01-15 15:26:52 | UPDATE: Built filename lookup with 34 entries
+2026-01-15 15:26:52 | UPDATE: Using File.ReferencedFileDescriptors method - 12 references at level ROOT
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-A1.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-A2.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-A3.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-A4.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL10.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL11.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL4.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL5.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL6.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL7.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL8.ipt
+2026-01-15 15:26:52 | UPDATE: No mapping for CLONE-001-PL9.ipt
+2026-01-15 15:26:52 | UPDATE: Updated 0 of 12 references at level ROOT
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 15:26:52 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 15:26:52 | STEP 9: Updating IDW drawing references
+2026-01-15 15:26:52 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2026-01-15 15:26:52 | IDW UPDATE: Error: Object required
+2026-01-15 15:26:52 | IDW UPDATE: Calling Inventor fallback method
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Starting fallback method for destFolder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - FLOODBOX TEST
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Set resolve mode to skip unresolved files globally
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Found 38 files in destination folder
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'AssemblyCloner_20260115_152634.log' (Right(4): '.log', LCase: '.log')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Bolted Connection1.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Bolted Connection2.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-A1.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-A2.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-A3.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-A4.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-B1.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-B2.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-B3.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-B4.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL1.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL10.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL11.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL2.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL3.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL4.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL5.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL6.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL7.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL8.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'CLONE-001-PL9.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Flood Chute Development for plates.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Flood Chute Development.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Flood Chute.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-00.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-01-00.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-01-01.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-01-02.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-01-03.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'MGY-200-DRD-09-02.idw' (Right(4): '.idw', LCase: '.idw')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Part7 Angle FB-C.ipt' (Right(4): '.ipt', LCase: '.ipt')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Support Beam-1.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Support Beam-2.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Support Beam-3.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Support Column.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'Support Frame.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Checking file: 'TO DELETE - FLOODBOX TEST.iam' (Right(4): '.iam', LCase: '.iam')
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRD-09-00.idw
+2026-01-15 15:26:52 | IDW UPDATE (Inventor): Processing MGY-200-DRD-09-00.idw

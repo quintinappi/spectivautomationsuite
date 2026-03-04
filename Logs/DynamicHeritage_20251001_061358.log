@@ -1,0 +1,123 @@
+2025-10-01 06:13:58 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-10-01 06:13:58 | Auto-detecting open model and creating dynamic renaming workflow
+2025-10-01 06:13:59 | SUCCESS: Connected to existing Inventor instance
+2025-10-01 06:13:59 | STEP 1: Detecting open assembly and analyzing components
+2025-10-01 06:13:59 | DETECTED: Document type: 12291
+2025-10-01 06:13:59 | DETECTED: Assembly by .iam extension - proceeding
+2025-10-01 06:13:59 | DETECTED: Active assembly - Column-1.iam
+2025-10-01 06:13:59 | DETECTED: Full path - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Column-1.iam
+2025-10-01 06:14:00 | USER CONFIRMED: Proceeding with assembly processing
+2025-10-01 06:14:00 | CONFIRMED: 4 occurrences to process
+2025-10-01 06:14:00 | STEP 2: Flattening hierarchy and grouping components
+2025-10-01 06:14:00 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-10-01 06:14:00 | ANALYZE: Processing assembly - Column-1.iam (Level: ROOT)
+2025-10-01 06:14:00 | ANALYZE: Found 4 occurrences in Column-1.iam
+2025-10-01 06:14:00 | ANALYZE: PART - Part1.ipt -> Description: PL 20mm S355JR -> Group: PL (from Column-1.iam)
+2025-10-01 06:14:00 | ANALYZE: Created new group - PL
+2025-10-01 06:14:00 | ANALYZE: PART - Part2 203 x 203 x 46 H.ipt -> Description: UC203 x 133 x 25 -> Group: B (from Column-1.iam)
+2025-10-01 06:14:00 | ANALYZE: Created new group - B
+2025-10-01 06:14:00 | ANALYZE: PART - Part3.ipt -> Description: PL 8mm S355JR -> Group: PL (from Column-1.iam)
+2025-10-01 06:14:00 | ANALYZE: PART - Part4.ipt -> Description: PL 8mm S355JR -> Group: PL (from Column-1.iam)
+2025-10-01 06:14:00 | ANALYZE: Recursive processing completed - Total unique parts processed: 4
+2025-10-01 06:14:00 | ANALYZE: Created 2 component groups
+2025-10-01 06:14:00 | DEBUG GROUP: 'PL' contains 3 components:
+2025-10-01 06:14:00 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part1.ipt
+2025-10-01 06:14:00 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part3.ipt
+2025-10-01 06:14:00 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part4.ipt
+2025-10-01 06:14:00 | DEBUG GROUP: 'B' contains 1 components:
+2025-10-01 06:14:00 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part2 203 x 203 x 46 H.ipt
+2025-10-01 06:14:00 | STEP 3: Getting plant section naming convention
+2025-10-01 06:14:00 | PLANT: Getting plant section naming convention from user
+2025-10-01 06:14:03 | PLANT: Using custom naming convention: NCRH01-000-
+2025-10-01 06:14:04 | STEP 4: Showing component groups summary
+2025-10-01 06:14:04 | SUMMARY: Showing component groups to user
+2025-10-01 06:14:04 | SUMMARY: User approved component groups
+2025-10-01 06:14:04 | STEP 5: Getting user naming schemes for component groups
+2025-10-01 06:14:04 | INPUT: Getting user naming schemes for 2 groups
+2025-10-01 06:14:05 | INPUT: Group 'PL' -> Scheme: NCRH01-000-PL{N}
+2025-10-01 06:14:06 | INPUT: Group 'B' -> Scheme: NCRH01-000-B{N}
+2025-10-01 06:14:06 | STEP 6: Creating heritage-based copies with user naming
+2025-10-01 06:14:06 | HERITAGE: Creating dynamic heritage-based copies
+2025-10-01 06:14:06 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2025-10-01 06:14:06 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: NCRH01-000-
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-CH (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-PL (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-B (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-A (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-P (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-SQ (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-FL (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-LPL (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-IPE (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counter for: NCRH01-000-OTHER (will start from 1)
+2025-10-01 06:14:06 | SCAN: No existing counters found in Registry - starting fresh
+2025-10-01 06:14:06 | EXTRACT: Processing naming scheme: NCRH01-000-PL{N}
+2025-10-01 06:14:06 | EXTRACT: Extracted prefix: 'NCRH01-000-'
+2025-10-01 06:14:06 | HERITAGE: Checking for existing counter with key: 'NCRH01-000-PL'
+2025-10-01 06:14:06 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'NCRH01-000-PL' not found)
+2025-10-01 06:14:06 | HERITAGE: DEBUG - No existing counters found
+2025-10-01 06:14:06 | HERITAGE: Processing group 'PL' with scheme: NCRH01-000-PL{N}
+2025-10-01 06:14:06 | HERITAGE: Part1.ipt -> NCRH01-000-PL1.ipt
+2025-10-01 06:14:06 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part1.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\NCRH01-000-PL1.ipt
+2025-10-01 06:14:06 | HERITAGE: Creating new file: NCRH01-000-PL1.ipt
+2025-10-01 06:14:07 | HERITAGE: SUCCESS - Created NCRH01-000-PL1.ipt
+2025-10-01 06:14:07 | HERITAGE: Part3.ipt -> NCRH01-000-PL2.ipt
+2025-10-01 06:14:07 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part3.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\NCRH01-000-PL2.ipt
+2025-10-01 06:14:07 | HERITAGE: Creating new file: NCRH01-000-PL2.ipt
+2025-10-01 06:14:09 | HERITAGE: SUCCESS - Created NCRH01-000-PL2.ipt
+2025-10-01 06:14:09 | HERITAGE: Part4.ipt -> NCRH01-000-PL3.ipt
+2025-10-01 06:14:09 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part4.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\NCRH01-000-PL3.ipt
+2025-10-01 06:14:09 | HERITAGE: Creating new file: NCRH01-000-PL3.ipt
+2025-10-01 06:14:09 | HERITAGE: SUCCESS - Created NCRH01-000-PL3.ipt
+2025-10-01 06:14:09 | REGISTRY: Saved NCRH01-000-PL = 3
+2025-10-01 06:14:09 | EXTRACT: Processing naming scheme: NCRH01-000-B{N}
+2025-10-01 06:14:09 | EXTRACT: Extracted prefix: 'NCRH01-000-'
+2025-10-01 06:14:09 | HERITAGE: Checking for existing counter with key: 'NCRH01-000-B'
+2025-10-01 06:14:09 | HERITAGE: Group 'B' starting from number 1 (new prefix or group - key 'NCRH01-000-B' not found)
+2025-10-01 06:14:09 | HERITAGE: DEBUG - No existing counters found
+2025-10-01 06:14:09 | HERITAGE: Processing group 'B' with scheme: NCRH01-000-B{N}
+2025-10-01 06:14:09 | HERITAGE: Part2 203 x 203 x 46 H.ipt -> NCRH01-000-B1.ipt
+2025-10-01 06:14:09 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\Part2 203 x 203 x 46 H.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Structure\Column-1\NCRH01-000-B1.ipt
+2025-10-01 06:14:09 | HERITAGE: Creating new file: NCRH01-000-B1.ipt
+2025-10-01 06:14:09 | HERITAGE: SUCCESS - Created NCRH01-000-B1.ipt
+2025-10-01 06:14:09 | REGISTRY: Saved NCRH01-000-B = 1
+2025-10-01 06:14:09 | STEP 7: Updating assembly references
+2025-10-01 06:14:09 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-10-01 06:14:09 | ASSEMBLY: Updating references in - Column-1.iam (Level: ROOT)
+2025-10-01 06:14:09 | ASSEMBLY: Replacing Part1.ipt -> NCRH01-000-PL1.ipt [PL] (in Column-1.iam)
+2025-10-01 06:14:10 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL1.ipt
+2025-10-01 06:14:10 | ASSEMBLY: Replacing Part2 203 x 203 x 46 H.ipt -> NCRH01-000-B1.ipt [B] (in Column-1.iam)
+2025-10-01 06:14:10 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-B1.ipt
+2025-10-01 06:14:10 | ASSEMBLY: Replacing Part3.ipt -> NCRH01-000-PL2.ipt [PL] (in Column-1.iam)
+2025-10-01 06:14:10 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL2.ipt
+2025-10-01 06:14:10 | ASSEMBLY: Replacing Part4.ipt -> NCRH01-000-PL3.ipt [PL] (in Column-1.iam)
+2025-10-01 06:14:10 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL3.ipt
+2025-10-01 06:14:10 | ASSEMBLY: Saving assembly with updated references...
+2025-10-01 06:14:11 | ASSEMBLY: Successfully saved assembly
+2025-10-01 06:14:11 | STEP 8: Auto-detecting and updating IDW files
+2025-10-01 06:14:11 | IDW: Auto-detecting IDW files in assembly directory
+2025-10-01 06:14:12 | IDW: Found drawing file - MGY-100-SCR-01-50.idw
+2025-10-01 06:14:12 | IDW: Processing MGY-100-SCR-01-50.idw
+2025-10-01 06:14:14 | IDW: Opening MGY-100-SCR-01-50.idw
+2025-10-01 06:14:17 | IDW: Found 5 referenced files
+2025-10-01 06:14:17 | IDW: INFO - No mapping found for Column-1.iam
+2025-10-01 06:14:17 | IDW: Updating reference Part1.ipt -> NCRH01-000-PL1.ipt
+2025-10-01 06:14:17 | IDW: SUCCESS - Reference updated
+2025-10-01 06:14:17 | IDW: Updating reference Part2 203 x 203 x 46 H.ipt -> NCRH01-000-B1.ipt
+2025-10-01 06:14:17 | IDW: SUCCESS - Reference updated
+2025-10-01 06:14:17 | IDW: Updating reference Part3.ipt -> NCRH01-000-PL2.ipt
+2025-10-01 06:14:17 | IDW: SUCCESS - Reference updated
+2025-10-01 06:14:17 | IDW: Updating reference Part4.ipt -> NCRH01-000-PL3.ipt
+2025-10-01 06:14:17 | IDW: SUCCESS - Reference updated
+2025-10-01 06:14:20 | IDW: Saved MGY-100-SCR-01-50.idw
+2025-10-01 06:14:20 | STEP 8.5: Saving mapping file for external IDW updater
+2025-10-01 06:14:20 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-10-01 06:14:20 | MAPPING: Saving mapping file to: C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt
+2025-10-01 06:14:20 | MAPPING: Creating new mapping file
+2025-10-01 06:14:20 | MAPPING: Part1.ipt -> NCRH01-000-PL1.ipt
+2025-10-01 06:14:20 | MAPPING: Part3.ipt -> NCRH01-000-PL2.ipt
+2025-10-01 06:14:20 | MAPPING: Part4.ipt -> NCRH01-000-PL3.ipt
+2025-10-01 06:14:20 | MAPPING: Part2 203 x 203 x 46 H.ipt -> NCRH01-000-B1.ipt
+2025-10-01 06:14:20 | MAPPING: Saved comprehensive mapping to C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt (4 mappings)
+2025-10-01 06:14:20 | STEP 9: Keeping original files for safety (skipping cleanup)
+2025-10-01 06:14:20 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

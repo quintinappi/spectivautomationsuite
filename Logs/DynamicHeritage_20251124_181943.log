@@ -1,0 +1,286 @@
+2025-11-24 18:19:43 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-11-24 18:19:43 | Auto-detecting open model and creating dynamic renaming workflow
+2025-11-24 18:19:44 | SUCCESS: Connected to existing Inventor instance
+2025-11-24 18:19:44 | STEP 1: Detecting open assembly and analyzing components
+2025-11-24 18:19:45 | DETECTED: Document type: 12291
+2025-11-24 18:19:45 | DETECTED: Assembly by .iam extension - proceeding
+2025-11-24 18:19:45 | DETECTED: Active assembly - Staircase-4.iam
+2025-11-24 18:19:45 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-4\Staircase-4.iam
+2025-11-24 18:19:47 | USER CONFIRMED: Proceeding with assembly processing
+2025-11-24 18:19:47 | CONFIRMED: 44 occurrences to process
+2025-11-24 18:19:47 | STEP 2: Flattening hierarchy and grouping components
+2025-11-24 18:19:47 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-11-24 18:19:47 | ANALYZE: Processing assembly - Staircase-4.iam (Level: ROOT)
+2025-11-24 18:19:47 | ANALYZE: Found 44 occurrences in Staircase-4.iam
+2025-11-24 18:19:47 | ANALYZE: PART - Part1 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: Created new group - CH
+2025-11-24 18:19:47 | ANALYZE: PART - Part2 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: PART - Part3 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: PART - Part4 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: PART - Part5 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: PART - Part6 TFC H-STAIR-B.ipt -> Description: TFC178x54x15 -> Group: CH (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: PART - Part7 Stair End Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2025-11-24 18:19:47 | ANALYZE: Created new group - PL
+2025-11-24 18:19:47 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Stair End Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:47 | ANALYZE: PART - Part8 Base Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Base Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: PART - Part9 Stair Stanchion Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: PART - Step H-STAIR-B.ipt -> Description: TREAD - STD 750 WIDE STEP -> Group: OTHER (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: Created new group - OTHER
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: SKIPPING NSCR03-000-SCA1Bolted Connection1.iam (bolted connection assembly)
+2025-11-24 18:19:48 | ANALYZE: PART - Closure Bend 40º.ipt -> Description: HR - CLOSURE BEND 40º -> Group: OTHER (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: PART - Handrailing-Std Straight H-STAIR-B.ipt -> Description: HANDRAILING-STRAIGHT -> Group: OTHER (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: PART - Stanchion-Side Mounted 40º -RH.ipt -> Description: HR - STANCHION-SIDE MOUNTED 40º - RH -> Group: OTHER (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: PART - Stanchion-Side Mounted 40º -LH.ipt -> Description: HR - STANCHION-SIDE MOUNTED 40º - LH -> Group: OTHER (from Staircase-4.iam)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -RH.ipt (already processed)
+2025-11-24 18:19:48 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -LH.ipt (already processed)
+2025-11-24 18:19:49 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -LH.ipt (already processed)
+2025-11-24 18:19:49 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -RH.ipt (already processed)
+2025-11-24 18:19:49 | ANALYZE: Recursive processing completed - Total unique parts processed: 14
+2025-11-24 18:19:49 | ANALYZE: Created 3 component groups
+2025-11-24 18:19:49 | DEBUG GROUP: 'CH' contains 6 components:
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part1 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part2 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part3 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part4 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part5 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part6 TFC H-STAIR-B.ipt
+2025-11-24 18:19:49 | DEBUG GROUP: 'PL' contains 3 components:
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part7 Stair End Plate H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part8 Base Plate H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part9 Stair Stanchion Plate H-STAIR-B.ipt
+2025-11-24 18:19:49 | DEBUG GROUP: 'OTHER' contains 5 components:
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Step H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Closure Bend 40º.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Handrailing-Std Straight H-STAIR-B.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Stanchion-Side Mounted 40º -RH.ipt
+2025-11-24 18:19:49 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Stanchion-Side Mounted 40º -LH.ipt
+2025-11-24 18:19:49 | STEP 3: Getting plant section naming convention
+2025-11-24 18:19:49 | PLANT: Getting plant section naming convention from user
+2025-11-24 18:20:01 | PLANT: Using custom naming convention: STAIRCASE-4-
+2025-11-24 18:20:03 | STEP 4: Showing component groups summary
+2025-11-24 18:20:03 | SUMMARY: Showing component groups to user
+2025-11-24 18:20:05 | SUMMARY: User approved component groups
+2025-11-24 18:20:05 | STEP 5: Getting user naming schemes for component groups
+2025-11-24 18:20:05 | INPUT: Getting user naming schemes for 3 groups
+2025-11-24 18:20:07 | INPUT: Group 'CH' -> Scheme: STAIRCASE-4-CH{N}
+2025-11-24 18:20:07 | INPUT: Group 'PL' -> Scheme: STAIRCASE-4-PL{N}
+2025-11-24 18:20:08 | INPUT: User cancelled - using default scheme: STAIRCASE-4-PART{N}
+2025-11-24 18:20:08 | INPUT: Group 'OTHER' -> Scheme: STAIRCASE-4-PART{N}
+2025-11-24 18:20:08 | STEP 6: Creating heritage-based copies with user naming
+2025-11-24 18:20:08 | HERITAGE: Creating dynamic heritage-based copies
+2025-11-24 18:20:08 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2025-11-24 18:20:08 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: STAIRCASE-4-
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-CH (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-PL (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-B (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-A (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-P (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-SQ (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-FL (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-LPL (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-IPE (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counter for: STAIRCASE-4-OTHER (will start from 1)
+2025-11-24 18:20:08 | SCAN: No existing counters found in Registry - starting fresh
+2025-11-24 18:20:08 | EXTRACT: Processing naming scheme: STAIRCASE-4-CH{N}
+2025-11-24 18:20:08 | EXTRACT: Extracted prefix: 'STAIRCASE-4-'
+2025-11-24 18:20:08 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-CH'
+2025-11-24 18:20:08 | HERITAGE: Group 'CH' starting from number 1 (new prefix or group - key 'STAIRCASE-4-CH' not found)
+2025-11-24 18:20:08 | HERITAGE: DEBUG - No existing counters found
+2025-11-24 18:20:08 | HERITAGE: Processing group 'CH' with scheme: STAIRCASE-4-CH{N}
+2025-11-24 18:20:08 | HERITAGE: Part1 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH1.ipt
+2025-11-24 18:20:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part1 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH1.ipt
+2025-11-24 18:20:08 | HERITAGE: Creating new file: STAIRCASE-4-CH1.ipt
+2025-11-24 18:20:08 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH1.ipt
+2025-11-24 18:20:08 | HERITAGE: Part2 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH2.ipt
+2025-11-24 18:20:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part2 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH2.ipt
+2025-11-24 18:20:08 | HERITAGE: Creating new file: STAIRCASE-4-CH2.ipt
+2025-11-24 18:20:08 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH2.ipt
+2025-11-24 18:20:08 | HERITAGE: Part3 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH3.ipt
+2025-11-24 18:20:08 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part3 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH3.ipt
+2025-11-24 18:20:08 | HERITAGE: Creating new file: STAIRCASE-4-CH3.ipt
+2025-11-24 18:20:09 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH3.ipt
+2025-11-24 18:20:09 | HERITAGE: Part4 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH4.ipt
+2025-11-24 18:20:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part4 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH4.ipt
+2025-11-24 18:20:09 | HERITAGE: Creating new file: STAIRCASE-4-CH4.ipt
+2025-11-24 18:20:09 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH4.ipt
+2025-11-24 18:20:09 | HERITAGE: Part5 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH5.ipt
+2025-11-24 18:20:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part5 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH5.ipt
+2025-11-24 18:20:09 | HERITAGE: Creating new file: STAIRCASE-4-CH5.ipt
+2025-11-24 18:20:09 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH5.ipt
+2025-11-24 18:20:09 | HERITAGE: Part6 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH6.ipt
+2025-11-24 18:20:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part6 TFC H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-CH6.ipt
+2025-11-24 18:20:09 | HERITAGE: Creating new file: STAIRCASE-4-CH6.ipt
+2025-11-24 18:20:09 | HERITAGE: SUCCESS - Created STAIRCASE-4-CH6.ipt
+2025-11-24 18:20:09 | REGISTRY: Saved STAIRCASE-4-CH = 6
+2025-11-24 18:20:09 | EXTRACT: Processing naming scheme: STAIRCASE-4-PL{N}
+2025-11-24 18:20:09 | EXTRACT: Extracted prefix: 'STAIRCASE-4-'
+2025-11-24 18:20:09 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-PL'
+2025-11-24 18:20:09 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'STAIRCASE-4-PL' not found)
+2025-11-24 18:20:09 | HERITAGE: DEBUG - No existing counters found
+2025-11-24 18:20:09 | HERITAGE: Processing group 'PL' with scheme: STAIRCASE-4-PL{N}
+2025-11-24 18:20:09 | HERITAGE: Part7 Stair End Plate H-STAIR-B.ipt -> STAIRCASE-4-PL1.ipt
+2025-11-24 18:20:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part7 Stair End Plate H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PL1.ipt
+2025-11-24 18:20:09 | HERITAGE: Creating new file: STAIRCASE-4-PL1.ipt
+2025-11-24 18:20:09 | HERITAGE: SUCCESS - Created STAIRCASE-4-PL1.ipt
+2025-11-24 18:20:09 | HERITAGE: Part8 Base Plate H-STAIR-B.ipt -> STAIRCASE-4-PL2.ipt
+2025-11-24 18:20:09 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part8 Base Plate H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PL2.ipt
+2025-11-24 18:20:09 | HERITAGE: Creating new file: STAIRCASE-4-PL2.ipt
+2025-11-24 18:20:10 | HERITAGE: SUCCESS - Created STAIRCASE-4-PL2.ipt
+2025-11-24 18:20:10 | HERITAGE: Part9 Stair Stanchion Plate H-STAIR-B.ipt -> STAIRCASE-4-PL3.ipt
+2025-11-24 18:20:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Part9 Stair Stanchion Plate H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PL3.ipt
+2025-11-24 18:20:10 | HERITAGE: Creating new file: STAIRCASE-4-PL3.ipt
+2025-11-24 18:20:10 | HERITAGE: SUCCESS - Created STAIRCASE-4-PL3.ipt
+2025-11-24 18:20:10 | REGISTRY: Saved STAIRCASE-4-PL = 3
+2025-11-24 18:20:10 | EXTRACT: Processing naming scheme: STAIRCASE-4-PART{N}
+2025-11-24 18:20:10 | EXTRACT: Extracted prefix: 'STAIRCASE-4-'
+2025-11-24 18:20:10 | HERITAGE: Checking for existing counter with key: 'STAIRCASE-4-OTHER'
+2025-11-24 18:20:10 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'STAIRCASE-4-OTHER' not found)
+2025-11-24 18:20:10 | HERITAGE: DEBUG - No existing counters found
+2025-11-24 18:20:10 | HERITAGE: Processing group 'OTHER' with scheme: STAIRCASE-4-PART{N}
+2025-11-24 18:20:10 | HERITAGE: Step H-STAIR-B.ipt -> STAIRCASE-4-PART1.ipt
+2025-11-24 18:20:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Step H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PART1.ipt
+2025-11-24 18:20:10 | HERITAGE: Creating new file: STAIRCASE-4-PART1.ipt
+2025-11-24 18:20:10 | HERITAGE: SUCCESS - Created STAIRCASE-4-PART1.ipt
+2025-11-24 18:20:10 | HERITAGE: Closure Bend 40º.ipt -> STAIRCASE-4-PART2.ipt
+2025-11-24 18:20:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Closure Bend 40º.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PART2.ipt
+2025-11-24 18:20:10 | HERITAGE: Creating new file: STAIRCASE-4-PART2.ipt
+2025-11-24 18:20:10 | HERITAGE: SUCCESS - Created STAIRCASE-4-PART2.ipt
+2025-11-24 18:20:10 | HERITAGE: Handrailing-Std Straight H-STAIR-B.ipt -> STAIRCASE-4-PART3.ipt
+2025-11-24 18:20:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Handrailing-Std Straight H-STAIR-B.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PART3.ipt
+2025-11-24 18:20:10 | HERITAGE: Creating new file: STAIRCASE-4-PART3.ipt
+2025-11-24 18:20:10 | HERITAGE: SUCCESS - Created STAIRCASE-4-PART3.ipt
+2025-11-24 18:20:10 | HERITAGE: Stanchion-Side Mounted 40º -RH.ipt -> STAIRCASE-4-PART4.ipt
+2025-11-24 18:20:10 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Stanchion-Side Mounted 40º -RH.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PART4.ipt
+2025-11-24 18:20:10 | HERITAGE: Creating new file: STAIRCASE-4-PART4.ipt
+2025-11-24 18:20:11 | HERITAGE: SUCCESS - Created STAIRCASE-4-PART4.ipt
+2025-11-24 18:20:11 | HERITAGE: Stanchion-Side Mounted 40º -LH.ipt -> STAIRCASE-4-PART5.ipt
+2025-11-24 18:20:11 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\Stanchion-Side Mounted 40º -LH.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\Structure & Walkway\Staircase-1 Ground\STAIRCASE-4-PART5.ipt
+2025-11-24 18:20:11 | HERITAGE: Creating new file: STAIRCASE-4-PART5.ipt
+2025-11-24 18:20:11 | HERITAGE: SUCCESS - Created STAIRCASE-4-PART5.ipt
+2025-11-24 18:20:11 | REGISTRY: Saved STAIRCASE-4-OTHER = 5
+2025-11-24 18:20:11 | STEP 7: Updating assembly references
+2025-11-24 18:20:11 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-11-24 18:20:11 | ASSEMBLY: Updating references in - Staircase-4.iam (Level: ROOT)
+2025-11-24 18:20:11 | ASSEMBLY: Replacing Part1 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH1.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:11 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH1.ipt
+2025-11-24 18:20:11 | ASSEMBLY: Replacing Part2 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH2.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH2.ipt
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part3 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH3.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH3.ipt
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part4 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH4.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH4.ipt
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part5 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH5.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH5.ipt
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part6 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH6.ipt [CH] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-CH6.ipt
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part7 Stair End Plate H-STAIR-B.ipt -> STAIRCASE-4-PL1.ipt [PL] (in Staircase-4.iam)
+2025-11-24 18:20:12 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PL1.ipt
+2025-11-24 18:20:12 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL1.ipt (not renamed)
+2025-11-24 18:20:12 | ASSEMBLY: Replacing Part8 Base Plate H-STAIR-B.ipt -> STAIRCASE-4-PL2.ipt [PL] (in Staircase-4.iam)
+2025-11-24 18:20:13 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PL2.ipt
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL2.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: Replacing Part9 Stair Stanchion Plate H-STAIR-B.ipt -> STAIRCASE-4-PL3.ipt [PL] (in Staircase-4.iam)
+2025-11-24 18:20:13 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PL3.ipt
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL3.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: Replacing Step H-STAIR-B.ipt -> STAIRCASE-4-PART1.ipt [OTHER] (in Staircase-4.iam)
+2025-11-24 18:20:13 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PART1.ipt
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART1.ipt (not renamed)
+2025-11-24 18:20:13 | ASSEMBLY: SKIPPING NSCR03-000-SCA1Bolted Connection1.iam (bolted connection assembly)
+2025-11-24 18:20:13 | ASSEMBLY: Replacing Closure Bend 40º.ipt -> STAIRCASE-4-PART2.ipt [OTHER] (in Staircase-4.iam)
+2025-11-24 18:20:14 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PART2.ipt
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART2.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART2.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART2.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: Replacing Handrailing-Std Straight H-STAIR-B.ipt -> STAIRCASE-4-PART3.ipt [OTHER] (in Staircase-4.iam)
+2025-11-24 18:20:14 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PART3.ipt
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: Replacing Stanchion-Side Mounted 40º -RH.ipt -> STAIRCASE-4-PART4.ipt [OTHER] (in Staircase-4.iam)
+2025-11-24 18:20:14 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PART4.ipt
+2025-11-24 18:20:14 | ASSEMBLY: Replacing Stanchion-Side Mounted 40º -LH.ipt -> STAIRCASE-4-PART5.ipt [OTHER] (in Staircase-4.iam)
+2025-11-24 18:20:14 | ASSEMBLY: SUCCESS - Updated to STAIRCASE-4-PART5.ipt
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PL3.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART4.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART5.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART5.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: INFO - No mapping found for STAIRCASE-4-PART4.ipt (not renamed)
+2025-11-24 18:20:14 | ASSEMBLY: Saving assembly with updated references...
+2025-11-24 18:20:15 | ASSEMBLY: Successfully saved assembly
+2025-11-24 18:20:15 | STEP 8: Auto-detecting and updating IDW files
+2025-11-24 18:20:15 | IDW: Auto-detecting IDW files in assembly directory
+2025-11-24 18:20:15 | IDW: Found drawing file - MGY-200-DSL-01-11.idw
+2025-11-24 18:20:15 | IDW: Processing MGY-200-DSL-01-11.idw
+2025-11-24 18:20:16 | IDW: Opening MGY-200-DSL-01-11.idw
+2025-11-24 18:20:57 | IDW: Found 11 referenced files
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part1 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part2 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part3 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part4 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part5 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part6 TFC H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part7 Stair End Plate H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part8 Base Plate H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Part9 Stair Stanchion Plate H-STAIR-B.ipt
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Staircase-4.iam
+2025-11-24 18:20:57 | IDW: INFO - No mapping found for Staircase-1-01.iam
+2025-11-24 18:21:01 | IDW: Saved MGY-200-DSL-01-11.idw
+2025-11-24 18:21:01 | STEP 8.5: Saving mapping file for external IDW updater
+2025-11-24 18:21:01 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-11-24 18:21:01 | MAPPING: Saving mapping file to: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\STEP_1_MAPPING.txt
+2025-11-24 18:21:01 | MAPPING: Appending to existing mapping file
+2025-11-24 18:21:01 | MAPPING: Part1 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH1.ipt
+2025-11-24 18:21:01 | MAPPING: Part2 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH2.ipt
+2025-11-24 18:21:01 | MAPPING: Part3 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH3.ipt
+2025-11-24 18:21:01 | MAPPING: Part4 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH4.ipt
+2025-11-24 18:21:01 | MAPPING: Part5 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH5.ipt
+2025-11-24 18:21:01 | MAPPING: Part6 TFC H-STAIR-B.ipt -> STAIRCASE-4-CH6.ipt
+2025-11-24 18:21:01 | MAPPING: Part7 Stair End Plate H-STAIR-B.ipt -> STAIRCASE-4-PL1.ipt
+2025-11-24 18:21:01 | MAPPING: Part8 Base Plate H-STAIR-B.ipt -> STAIRCASE-4-PL2.ipt
+2025-11-24 18:21:01 | MAPPING: Part9 Stair Stanchion Plate H-STAIR-B.ipt -> STAIRCASE-4-PL3.ipt
+2025-11-24 18:21:01 | MAPPING: Step H-STAIR-B.ipt -> STAIRCASE-4-PART1.ipt
+2025-11-24 18:21:01 | MAPPING: Closure Bend 40º.ipt -> STAIRCASE-4-PART2.ipt
+2025-11-24 18:21:01 | MAPPING: Handrailing-Std Straight H-STAIR-B.ipt -> STAIRCASE-4-PART3.ipt
+2025-11-24 18:21:01 | MAPPING: Stanchion-Side Mounted 40º -RH.ipt -> STAIRCASE-4-PART4.ipt
+2025-11-24 18:21:01 | MAPPING: Stanchion-Side Mounted 40º -LH.ipt -> STAIRCASE-4-PART5.ipt
+2025-11-24 18:21:01 | MAPPING: Saved comprehensive mapping to C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\20. NSCR03 - Deslime Screen Station\05. Model\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\STEP_1_MAPPING.txt (14 mappings)
+2025-11-24 18:21:01 | STEP 9: Keeping original files for safety (skipping cleanup)
+2025-11-24 18:21:01 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

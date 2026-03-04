@@ -1,0 +1,1779 @@
+2026-02-12 15:26:44 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-12 15:26:44 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-12 15:26:45 | SUCCESS: Connected to existing Inventor instance
+2026-02-12 15:26:45 | STEP 1: Detecting open assembly and analyzing components
+2026-02-12 15:26:45 | DETECTED: Document type: 12291
+2026-02-12 15:26:45 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-12 15:26:45 | DETECTED: Active assembly - N1SCR03-729.iam
+2026-02-12 15:26:45 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729.iam
+2026-02-12 15:26:46 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-12 15:26:46 | CONFIRMED: 53 occurrences to process
+2026-02-12 15:26:46 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box
+2026-02-12 15:26:46 | STEP 0: Selecting mapping file location FIRST
+2026-02-12 15:26:46 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-12 15:33:51 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_1_MAPPING.txt
+2026-02-12 15:33:51 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-12 15:33:52 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_1_MAPPING.txt
+2026-02-12 15:33:52 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-12 15:33:52 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-12 15:33:52 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-12 15:33:52 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box
+2026-02-12 15:33:52 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_0_AUDIT.txt
+2026-02-12 15:33:53 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-12 15:33:54 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_0_AUDIT.txt
+2026-02-12 15:33:54 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-12 15:33:54 | STEP 2: Flattening hierarchy and grouping components
+2026-02-12 15:33:54 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-12 15:33:54 | ANALYZE: Processing assembly - N1SCR03-729.iam (Level: ROOT)
+2026-02-12 15:33:54 | ANALYZE: Found 53 occurrences in N1SCR03-729.iam
+2026-02-12 15:33:54 | ANALYZE: RECURSING into sub-assembly - Top - Mixing Box.iam
+2026-02-12 15:33:54 | ANALYZE: Processing assembly - Top - Mixing Box.iam (Level: ROOT>Top - Mixing Box.iam)
+2026-02-12 15:33:54 | ANALYZE: Found 94 occurrences in Top - Mixing Box.iam
+2026-02-12 15:33:55 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 1770 mm x 1818 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: Created new group - PL
+2026-02-12 15:33:55 | ANALYZE: PART - Part2.ipt -> Description: PL6 mm S355JR - 900 mm x 1818 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part3.ipt -> Description: PL6 mm S355JR - 1770 mm x 1818 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part4.ipt -> Description: PL6 mm S355JR - 1824 mm x 5760 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part5.ipt -> Description: PL6 mm S355JR - 2111 mm x 5897 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part6.ipt -> Description: PL6 mm S355JR - 550 mm x 4314 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part7.ipt -> Description: PL6 mm S355JR - 264 mm x 859 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part8.ipt -> Description: PL6 mm S355JR - 379 mm x 3850 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part9.ipt -> Description: PL6 mm S355JR - 820 mm x 867 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part10.ipt -> Description: PL6 mm S355JR - 200 mm x 550 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part11.ipt -> Description: PL6 mm S355JR - 288 mm x 550 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part12.ipt -> Description: PL6 mm S355JR - 550 mm x 550 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part13.ipt -> Description: PL6 mm S355JR - 550 mm x 1615 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part14.ipt -> Description: PL6 mm S355JR - 130 mm x 3750 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part15.ipt -> Description: PL6 mm S355JR - 92 mm x 163 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: DUPLICATE PART SKIPPED - Part15.ipt (already processed)
+2026-02-12 15:33:55 | ANALYZE: PART - Part16.ipt -> Description: PL6 mm S355JR - 28 mm x 65 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: DUPLICATE PART SKIPPED - Part16.ipt (already processed)
+2026-02-12 15:33:55 | ANALYZE: PART - Part17 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: Created new group - A
+2026-02-12 15:33:55 | ANALYZE: PART - Part18 (Part17 Angle MIR).ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part19 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:55 | ANALYZE: PART - Part20 (Part19 Angle MIR).ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part21 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part22 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part23 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part24 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part25 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part26 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part27 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part28 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: PART - Part29 Angle.ipt -> Description: L60x60x6 -> Group: A (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part28 Angle.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part29 Angle.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: PART - Part30 Flat Bar.ipt -> Description: FL60x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: Created new group - FL
+2026-02-12 15:33:56 | ANALYZE: PART - Part34 PFC.ipt -> Description: PFC180x70 -> Group: CH (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: Created new group - CH
+2026-02-12 15:33:56 | ANALYZE: PART - Part35 End Plate.ipt -> Description: PL10 mm S355JR - 160 mm x 180 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part34 PFC.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part35 End Plate.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: PART - Part36 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part36 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: PART - Part37 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part37 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: PART - Part38 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener.ipt (already processed)
+2026-02-12 15:33:56 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part38 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: PART - Part39 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part40 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part41 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part42 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part43 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part44 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part45 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part46 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part47 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part48 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part49 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part50 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: PART - Part51 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Part51 Stiffener.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: PART - Lug.ipt -> Description: PL20 mm S355JR - 90 mm x 150 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:57 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: PART - Part32 Corner Gusset.ipt -> Description: PL10 mm S355JR - 210 mm x 289 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: PART - Part33.ipt -> Description: PL10 mm S355JR - 220 mm x 289 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Corner Gusset.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: PART - Part31 End Plate.ipt -> Description: PL10 mm S355JR - 220 mm x 220 mm -> Group: PL (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Corner Gusset.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part33.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part32 Corner Gusset.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part31 End Plate.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: PART - Part52 Stiffener.ipt -> Description: Ribs -> Group: OTHER (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: Created new group - OTHER
+2026-02-12 15:33:58 | ANALYZE: PART - Part54 Stiffener.ipt -> Description: Ribs -> Group: OTHER (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part54 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: PART - Part53 Stiffener.ipt -> Description: Ribs -> Group: OTHER (from Top - Mixing Box.iam)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part53 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part54 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part54 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part53 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part53 Stiffener.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: RECURSING into sub-assembly - Box-1 (Overflow).iam
+2026-02-12 15:33:58 | ANALYZE: Processing assembly - Box-1 (Overflow).iam (Level: ROOT>Box-1 (Overflow).iam)
+2026-02-12 15:33:58 | ANALYZE: Found 38 occurrences in Box-1 (Overflow).iam
+2026-02-12 15:33:58 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 788 mm x 1770 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:58 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:33:58 | ANALYZE: PART - Part2.ipt -> Description: PL6 mm S355JR - 788 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:58 | ANALYZE: PART - Part3.ipt -> Description: PL6 mm S355JR - 750 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:58 | ANALYZE: PART - Part4.ipt -> Description: PL6 mm S355JR - 194 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: PART - Part5.ipt -> Description: PL6 mm S355JR - 198 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: PART - Part7.ipt -> Description: PL6 mm S355JR - 800 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: PART - Part6.ipt -> Description: PL8 mm S355JR - 185 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: PART - Part8.ipt -> Description: PL6 mm S355JR - 30 mm x 540 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part8.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part8.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part8.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: PART - Part9 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: PART - Part10 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: PART - Part11 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part11 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: PART - Part12 Angle.ipt -> Description: L50x50x6 -> Group: A (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Part12 Angle.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: PART - Part13 Pipe.ipt -> Description: PIPE - 600NB S.A.B.S.719 - 6 W.T. -> Group: P (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: Created new group - P
+2026-02-12 15:33:59 | ANALYZE: PART - Part14 Flange.ipt -> Description: FLANGE - 600NB S.A.B.S.1123 1000/3 30 TH'K -> Group: FLG (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: Created new group - FLG
+2026-02-12 15:33:59 | ANALYZE: PART - Lug.ipt -> Description: PL20 mm S355JR - 90 mm x 150 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:33:59 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: PART - Part15.ipt -> Description: PL6 mm S355JR - 450 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part16.ipt -> Description: PL6 mm S355JR - 160 mm x 900 mm -> Group: PL (from Box-1 (Overflow).iam)
+2026-02-12 15:34:00 | ANALYZE: RECURSING into sub-assembly - Box-2 (Orifice).iam
+2026-02-12 15:34:00 | ANALYZE: Processing assembly - Box-2 (Orifice).iam (Level: ROOT>Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: Found 34 occurrences in Box-2 (Orifice).iam
+2026-02-12 15:34:00 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 638 mm x 1120 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part2.ipt -> Description: PL6 mm S355JR - 638 mm x 900 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part3.ipt -> Description: PL6 mm S355JR - 644 mm x 900 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part4.ipt -> Description: PL6 mm S355JR - 638 mm x 1120 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part5.ipt -> Description: PL6 mm S355JR - 638 mm x 900 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part6.ipt -> Description: PL6 mm S355JR - 564 mm x 900 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: PART - Part7 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: PART - Part8 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: PART - Part9 Angle.ipt -> Description: L50x50x6 -> Group: A (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: PART - Part10 Angle.ipt -> Description: L50x50x6 -> Group: A (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part10 Angle.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: PART - Part11.ipt -> Description: PL8 mm S355JR - 65 mm x 124 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:00 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part11.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: PART - Lug.ipt -> Description: PL20 mm S355JR - 90 mm x 150 mm -> Group: PL (from Box-2 (Orifice).iam)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: RECURSING into sub-assembly - Box-3.iam
+2026-02-12 15:34:01 | ANALYZE: Processing assembly - Box-3.iam (Level: ROOT>Box-3.iam)
+2026-02-12 15:34:01 | ANALYZE: Found 13 occurrences in Box-3.iam
+2026-02-12 15:34:01 | ANALYZE: RECURSING into sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:34:01 | ANALYZE: Processing assembly - Box-3 Panel-1.iam (Level: ROOT>Box-3.iam>Box-3 Panel-1.iam)
+2026-02-12 15:34:01 | ANALYZE: Found 5 occurrences in Box-3 Panel-1.iam
+2026-02-12 15:34:01 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 1252 mm x 1829 mm -> Group: PL (from Box-3 Panel-1.iam)
+2026-02-12 15:34:01 | ANALYZE: PART - Part3 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-3 Panel-1.iam)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Angle.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: PART - Lug.ipt -> Description: PL20 mm S355JR - 90 mm x 150 mm -> Group: PL (from Box-3 Panel-1.iam)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: RECURSING into sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:34:01 | ANALYZE: Processing assembly - Box-3 Panel-2.iam (Level: ROOT>Box-3.iam>Box-3 Panel-2.iam)
+2026-02-12 15:34:01 | ANALYZE: Found 5 occurrences in Box-3 Panel-2.iam
+2026-02-12 15:34:01 | ANALYZE: PART - Part2.ipt -> Description: PL6 mm S355JR - 888 mm x 1829 mm -> Group: PL (from Box-3 Panel-2.iam)
+2026-02-12 15:34:01 | ANALYZE: PART - Part4 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-3 Panel-2.iam)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Angle.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: PART - Part5 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-3 Panel-2.iam)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part5 Angle.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: RECURSING into sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:34:01 | ANALYZE: Processing assembly - Box-3 Panel-1.iam (Level: ROOT>Box-3.iam>Box-3 Panel-1.iam)
+2026-02-12 15:34:01 | ANALYZE: Found 5 occurrences in Box-3 Panel-1.iam
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Angle.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Part3 Angle.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:01 | ANALYZE: RECURSING into sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:34:01 | ANALYZE: Processing assembly - Box-3 Panel-2.iam (Level: ROOT>Box-3.iam>Box-3 Panel-2.iam)
+2026-02-12 15:34:01 | ANALYZE: Found 5 occurrences in Box-3 Panel-2.iam
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part4 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part5 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part5 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-12 15:34:02 | ANALYZE: PART - Part9 Corner Gusset.ipt -> Description: PL10 mm S355JR - 169 mm x 250 mm -> Group: PL (from Box-3.iam)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Corner Gusset.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: RECURSING into sub-assembly - Box-4 (Outlet).iam
+2026-02-12 15:34:02 | ANALYZE: Processing assembly - Box-4 (Outlet).iam (Level: ROOT>Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: Found 32 occurrences in Box-4 (Outlet).iam
+2026-02-12 15:34:02 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 1123 mm x 1560 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part2.ipt -> Description: PL6 mm S355JR - 1100 mm x 1497 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part3.ipt -> Description: PL6 mm S355JR - 125 mm x 1120 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part4.ipt -> Description: PL6 mm S355JR - 125 mm x 900 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part4.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: PART - Part5.ipt -> Description: PL6 mm S355JR - 900 mm x 1319 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part5.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: PART - Part6 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part6 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: PART - Part7 Angle.ipt -> Description: L60x60x6 -> Group: A (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Angle.ipt (already processed)
+2026-02-12 15:34:02 | ANALYZE: PART - Part8 End Plate.ipt -> Description: PL8 mm S355JR - 628 mm x 755 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part10 Pipe.ipt -> Description: PIPE - 500NB S.A.B.S.719 - 6 W.T. -> Group: P (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part12 Flange.ipt -> Description: FLANGE - 500NB S.A.B.S.1123 1000/3 25 TH'K -> Group: FLG (from Box-4 (Outlet).iam)
+2026-02-12 15:34:02 | ANALYZE: PART - Part14 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: PART - Part15 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: PART - Part16 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part14 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part15 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part16 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Part18 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part18 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Part17 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part17 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Part19 Stiffener.ipt -> Description: FL60x8 -> Group: FL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Lug.ipt -> Description: PL20 mm S355JR - 90 mm x 150 mm -> Group: PL (from Box-4 (Outlet).iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Lug.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: RECURSING into sub-assembly - Orifice Door.iam
+2026-02-12 15:34:03 | ANALYZE: Processing assembly - Orifice Door.iam (Level: ROOT>Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: Found 9 occurrences in Orifice Door.iam
+2026-02-12 15:34:03 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 500 mm x 580 mm -> Group: PL (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: PART - Part2.ipt -> Description: FL65x8 -> Group: FL (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Part3.ipt -> Description: PL6 mm S355JR - 395 mm x 465 mm -> Group: PL (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: PART - Part4.ipt -> Description: R16 -> Group: R (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: Created new group - R
+2026-02-12 15:34:03 | ANALYZE: PART - Part5.ipt -> Description: PL6 mm S355JR - 53 mm x 433 mm -> Group: PL (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part5.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: PART - Part6.ipt -> Description: PL6 mm S355JR - 53 mm x 363 mm -> Group: PL (from Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part6.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: RECURSING into sub-assembly - Orifice Door.iam
+2026-02-12 15:34:03 | ANALYZE: Processing assembly - Orifice Door.iam (Level: ROOT>Orifice Door.iam)
+2026-02-12 15:34:03 | ANALYZE: Found 9 occurrences in Orifice Door.iam
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part3.ipt (already processed)
+2026-02-12 15:34:03 | ANALYZE: DUPLICATE PART SKIPPED - Part4.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part5.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part5.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part6.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part6.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: RECURSING into sub-assembly - Lid.iam
+2026-02-12 15:34:04 | ANALYZE: Processing assembly - Lid.iam (Level: ROOT>Lid.iam)
+2026-02-12 15:34:04 | ANALYZE: Found 3 occurrences in Lid.iam
+2026-02-12 15:34:04 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 682 mm x 682 mm -> Group: PL (from Lid.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part2 Pipe.ipt -> Description: PIPE - 500NB S.A.B.S.719 - 6 W.T. -> Group: P (from Lid.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part3 Flange.ipt -> Description: FLANGE - 500NB S.A.B.S.1123 1000/3 20 TH'K -> Group: FLG (from Lid.iam)
+2026-02-12 15:34:04 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-02-12 15:34:04 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: Found 6 occurrences in Lid-2.iam
+2026-02-12 15:34:04 | ANALYZE: PART - Part1.ipt -> Description: PL6 mm S355JR - 628 mm x 755 mm -> Group: PL (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part2 Pipe.ipt -> Description: PIPE - 300NB S.A.B.S.719 - 6 W.T. -> Group: P (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part3 Flange.ipt -> Description: FLANGE - 300NB S.A.B.S.1123 1000/3 20 TH'K -> Group: FLG (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part4 Blank Flange.ipt -> Description: FLANGE (blank) - 300NB S.A.B.S.1123 1000/3 20 TH'K -> Group: FLG (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part5 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part6 Stiffener.ipt -> Description: FL50x8 -> Group: FL (from Lid-2.iam)
+2026-02-12 15:34:04 | ANALYZE: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: Processing assembly - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: Found 4 occurrences in Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: PART - Part1.ipt -> Description: PL10 mm S355JR - 144 mm x 260 mm -> Group: PL (from Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: PART - Part2.ipt -> Description: PL10 mm S355JR - 200 mm x 260 mm -> Group: PL (from Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: PART - Part3.ipt -> Description: PL10 mm S355JR - 136 mm x 195 mm -> Group: PL (from Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: Processing assembly - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: Found 4 occurrences in Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part3.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: Processing assembly - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:34:04 | ANALYZE: Found 4 occurrences in Bracket Asm.iam
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:04 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - Part3.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:34:05 | ANALYZE: Processing assembly - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:34:05 | ANALYZE: Found 4 occurrences in Bracket Asm.iam
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - Part1.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - Part2.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - Part3.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: PART - PLP-90-70-3mm.ipt -> Description: PL3 mm S355JR - 75 mm x 145 mm -> Group: PL (from N1SCR03-729.iam)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: PART - PLP-90-70-6mm.ipt -> Description: PL6 mm S355JR - 75 mm x 145 mm -> Group: PL (from N1SCR03-729.iam)
+2026-02-12 15:34:05 | ANALYZE: PART - PLP-90-70-8mm.ipt -> Description: PL8 mm S355JR - 75 mm x 145 mm -> Group: PL (from N1SCR03-729.iam)
+2026-02-12 15:34:05 | ANALYZE: PART - PLP-90-70-10mm.ipt -> Description: PL10 mm S355JR - 75 mm x 145 mm -> Group: PL (from N1SCR03-729.iam)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:05 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-3mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-6mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-8mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: DUPLICATE PART SKIPPED - PLP-90-70-10mm.ipt (already processed)
+2026-02-12 15:34:06 | ANALYZE: Recursive processing completed - Total unique parts processed: 130
+2026-02-12 15:34:06 | ANALYZE: Created 8 component groups
+2026-02-12 15:34:06 | DEBUG GROUP: 'PL' contains 64 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part4.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part5.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part6.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part7.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part8.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part9.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part10.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part11.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part12.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part13.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part14.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part15.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part16.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part35 End Plate.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Lug.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part32 Corner Gusset.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part33.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part31 End Plate.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part4.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part5.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part7.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part6.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part8.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Lug.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part15.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part16.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part4.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part5.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part6.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part11.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Lug.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Lug.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part9 Corner Gusset.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part4.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part5.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part8 End Plate.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Lug.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part5.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part6.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part1.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part3.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-3mm.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-6mm.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-8mm.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-10mm.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'A' contains 26 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part17 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part18 (Part17 Angle MIR).ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part19 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part20 (Part19 Angle MIR).ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part21 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part22 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part23 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part24 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part25 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part26 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part27 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part28 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part29 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part9 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part10 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part11 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part12 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part7 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part8 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part9 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part10 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part3 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part4 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part5 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part6 Angle.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part7 Angle.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'FL' contains 26 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part30 Flat Bar.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part36 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part37 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part38 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part39 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part40 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part41 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part42 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part43 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part44 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part45 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part46 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part47 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part48 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part49 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part50 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part51 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part14 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part15 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part16 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part18 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part17 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part19 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part2.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part5 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part6 Stiffener.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'CH' contains 1 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part34 PFC.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'OTHER' contains 3 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part52 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part54 Stiffener.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part53 Stiffener.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'P' contains 4 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part13 Pipe.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part10 Pipe.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part2 Pipe.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part2 Pipe.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'FLG' contains 5 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part14 Flange.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part12 Flange.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part3 Flange.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part3 Flange.ipt
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part4 Blank Flange.ipt
+2026-02-12 15:34:06 | DEBUG GROUP: 'R' contains 1 components:
+2026-02-12 15:34:06 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part4.ipt
+2026-02-12 15:34:06 | STEP 3: Getting plant section naming convention
+2026-02-12 15:34:06 | PLANT: Getting plant section naming convention from user
+2026-02-12 15:34:12 | PLANT: Using custom naming convention: N1SCR03-729-
+2026-02-12 15:34:12 | REGISTRY: Prefix does not exist, starting fresh
+2026-02-12 15:34:14 | STEP 4: Showing component groups summary
+2026-02-12 15:34:14 | SUMMARY: Showing component groups to user
+2026-02-12 15:34:17 | SUMMARY: User approved component groups
+2026-02-12 15:34:17 | STEP 5: Getting user naming schemes for component groups
+2026-02-12 15:34:17 | INPUT: Getting user naming schemes for 8 groups
+2026-02-12 15:34:19 | INPUT: Group 'PL' -> Scheme: N1SCR03-729-PL{N}
+2026-02-12 15:34:21 | INPUT: Group 'A' -> Scheme: N1SCR03-729-A{N}
+2026-02-12 15:34:22 | INPUT: Group 'FL' -> Scheme: N1SCR03-729-FL{N}
+2026-02-12 15:34:23 | INPUT: Group 'CH' -> Scheme: N1SCR03-729-CH{N}
+2026-02-12 15:34:26 | INPUT: Group 'OTHER' -> Scheme: N1SCR03-729-PART{N}
+2026-02-12 15:34:29 | INPUT: Group 'P' -> Scheme: N1SCR03-729-P{N}
+2026-02-12 15:34:31 | INPUT: Group 'FLG' -> Scheme: N1SCR03-729-FLG{N}
+2026-02-12 15:34:33 | INPUT: Group 'R' -> Scheme: N1SCR03-729-R{N}
+2026-02-12 15:34:33 | STEP 6: Creating heritage-based copies with user naming
+2026-02-12 15:34:33 | HERITAGE: Creating dynamic heritage-based copies
+2026-02-12 15:34:33 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-02-12 15:34:33 | HERITAGE: Starting fresh - not loading existing counters
+2026-02-12 15:34:33 | EXTRACT: Processing naming scheme: N1SCR03-729-PL{N}
+2026-02-12 15:34:33 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:33 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-PL'
+2026-02-12 15:34:33 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'N1SCR03-729-PL' not found)
+2026-02-12 15:34:33 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:33 | HERITAGE: Processing group 'PL' with scheme: N1SCR03-729-PL{N}
+2026-02-12 15:34:33 | HERITAGE: Part1.ipt -> N1SCR03-729-PL1.ipt
+2026-02-12 15:34:33 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL1.ipt
+2026-02-12 15:34:33 | HERITAGE: Creating new file: N1SCR03-729-PL1.ipt
+2026-02-12 15:34:33 | HERITAGE: SUCCESS - Created N1SCR03-729-PL1.ipt
+2026-02-12 15:34:33 | HERITAGE: Part2.ipt -> N1SCR03-729-PL2.ipt
+2026-02-12 15:34:33 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL2.ipt
+2026-02-12 15:34:33 | HERITAGE: Creating new file: N1SCR03-729-PL2.ipt
+2026-02-12 15:34:33 | HERITAGE: SUCCESS - Created N1SCR03-729-PL2.ipt
+2026-02-12 15:34:33 | HERITAGE: Part3.ipt -> N1SCR03-729-PL3.ipt
+2026-02-12 15:34:33 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL3.ipt
+2026-02-12 15:34:33 | HERITAGE: Creating new file: N1SCR03-729-PL3.ipt
+2026-02-12 15:34:33 | HERITAGE: SUCCESS - Created N1SCR03-729-PL3.ipt
+2026-02-12 15:34:34 | HERITAGE: Part4.ipt -> N1SCR03-729-PL4.ipt
+2026-02-12 15:34:34 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL4.ipt
+2026-02-12 15:34:34 | HERITAGE: Creating new file: N1SCR03-729-PL4.ipt
+2026-02-12 15:34:34 | HERITAGE: SUCCESS - Created N1SCR03-729-PL4.ipt
+2026-02-12 15:34:34 | HERITAGE: Part5.ipt -> N1SCR03-729-PL5.ipt
+2026-02-12 15:34:34 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL5.ipt
+2026-02-12 15:34:34 | HERITAGE: Creating new file: N1SCR03-729-PL5.ipt
+2026-02-12 15:34:34 | HERITAGE: SUCCESS - Created N1SCR03-729-PL5.ipt
+2026-02-12 15:34:34 | HERITAGE: Part6.ipt -> N1SCR03-729-PL6.ipt
+2026-02-12 15:34:34 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL6.ipt
+2026-02-12 15:34:34 | HERITAGE: Creating new file: N1SCR03-729-PL6.ipt
+2026-02-12 15:34:34 | HERITAGE: SUCCESS - Created N1SCR03-729-PL6.ipt
+2026-02-12 15:34:34 | HERITAGE: Part7.ipt -> N1SCR03-729-PL7.ipt
+2026-02-12 15:34:34 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL7.ipt
+2026-02-12 15:34:34 | HERITAGE: Creating new file: N1SCR03-729-PL7.ipt
+2026-02-12 15:34:34 | HERITAGE: SUCCESS - Created N1SCR03-729-PL7.ipt
+2026-02-12 15:34:35 | HERITAGE: Part8.ipt -> N1SCR03-729-PL8.ipt
+2026-02-12 15:34:35 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL8.ipt
+2026-02-12 15:34:35 | HERITAGE: Creating new file: N1SCR03-729-PL8.ipt
+2026-02-12 15:34:35 | HERITAGE: SUCCESS - Created N1SCR03-729-PL8.ipt
+2026-02-12 15:34:35 | HERITAGE: Part9.ipt -> N1SCR03-729-PL9.ipt
+2026-02-12 15:34:35 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL9.ipt
+2026-02-12 15:34:35 | HERITAGE: Creating new file: N1SCR03-729-PL9.ipt
+2026-02-12 15:34:36 | HERITAGE: SUCCESS - Created N1SCR03-729-PL9.ipt
+2026-02-12 15:34:36 | HERITAGE: Part10.ipt -> N1SCR03-729-PL10.ipt
+2026-02-12 15:34:36 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL10.ipt
+2026-02-12 15:34:36 | HERITAGE: Creating new file: N1SCR03-729-PL10.ipt
+2026-02-12 15:34:36 | HERITAGE: SUCCESS - Created N1SCR03-729-PL10.ipt
+2026-02-12 15:34:36 | HERITAGE: Part11.ipt -> N1SCR03-729-PL11.ipt
+2026-02-12 15:34:36 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL11.ipt
+2026-02-12 15:34:36 | HERITAGE: Creating new file: N1SCR03-729-PL11.ipt
+2026-02-12 15:34:36 | HERITAGE: SUCCESS - Created N1SCR03-729-PL11.ipt
+2026-02-12 15:34:36 | HERITAGE: Part12.ipt -> N1SCR03-729-PL12.ipt
+2026-02-12 15:34:36 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL12.ipt
+2026-02-12 15:34:36 | HERITAGE: Creating new file: N1SCR03-729-PL12.ipt
+2026-02-12 15:34:36 | HERITAGE: SUCCESS - Created N1SCR03-729-PL12.ipt
+2026-02-12 15:34:36 | HERITAGE: Part13.ipt -> N1SCR03-729-PL13.ipt
+2026-02-12 15:34:36 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL13.ipt
+2026-02-12 15:34:36 | HERITAGE: Creating new file: N1SCR03-729-PL13.ipt
+2026-02-12 15:34:36 | HERITAGE: SUCCESS - Created N1SCR03-729-PL13.ipt
+2026-02-12 15:34:36 | HERITAGE: Part14.ipt -> N1SCR03-729-PL14.ipt
+2026-02-12 15:34:36 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL14.ipt
+2026-02-12 15:34:36 | HERITAGE: Creating new file: N1SCR03-729-PL14.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL14.ipt
+2026-02-12 15:34:37 | HERITAGE: Part15.ipt -> N1SCR03-729-PL15.ipt
+2026-02-12 15:34:37 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL15.ipt
+2026-02-12 15:34:37 | HERITAGE: Creating new file: N1SCR03-729-PL15.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL15.ipt
+2026-02-12 15:34:37 | HERITAGE: Part16.ipt -> N1SCR03-729-PL16.ipt
+2026-02-12 15:34:37 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL16.ipt
+2026-02-12 15:34:37 | HERITAGE: Creating new file: N1SCR03-729-PL16.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL16.ipt
+2026-02-12 15:34:37 | HERITAGE: Part35 End Plate.ipt -> N1SCR03-729-PL17.ipt
+2026-02-12 15:34:37 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part35 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL17.ipt
+2026-02-12 15:34:37 | HERITAGE: Creating new file: N1SCR03-729-PL17.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL17.ipt
+2026-02-12 15:34:37 | HERITAGE: Lug.ipt -> N1SCR03-729-PL18.ipt
+2026-02-12 15:34:37 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Lug.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL18.ipt
+2026-02-12 15:34:37 | HERITAGE: Creating new file: N1SCR03-729-PL18.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL18.ipt
+2026-02-12 15:34:37 | HERITAGE: Part32 Corner Gusset.ipt -> N1SCR03-729-PL19.ipt
+2026-02-12 15:34:37 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part32 Corner Gusset.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL19.ipt
+2026-02-12 15:34:37 | HERITAGE: Creating new file: N1SCR03-729-PL19.ipt
+2026-02-12 15:34:37 | HERITAGE: SUCCESS - Created N1SCR03-729-PL19.ipt
+2026-02-12 15:34:38 | HERITAGE: Part33.ipt -> N1SCR03-729-PL20.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part33.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL20.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL20.ipt
+2026-02-12 15:34:38 | HERITAGE: SUCCESS - Created N1SCR03-729-PL20.ipt
+2026-02-12 15:34:38 | HERITAGE: Part31 End Plate.ipt -> N1SCR03-729-PL21.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part31 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PL21.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL21.ipt
+2026-02-12 15:34:38 | HERITAGE: SUCCESS - Created N1SCR03-729-PL21.ipt
+2026-02-12 15:34:38 | HERITAGE: Part1.ipt -> N1SCR03-729-PL22.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL22.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL22.ipt
+2026-02-12 15:34:38 | HERITAGE: SUCCESS - Created N1SCR03-729-PL22.ipt
+2026-02-12 15:34:38 | HERITAGE: Part2.ipt -> N1SCR03-729-PL23.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL23.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL23.ipt
+2026-02-12 15:34:38 | HERITAGE: SUCCESS - Created N1SCR03-729-PL23.ipt
+2026-02-12 15:34:38 | HERITAGE: Part3.ipt -> N1SCR03-729-PL24.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL24.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL24.ipt
+2026-02-12 15:34:38 | HERITAGE: SUCCESS - Created N1SCR03-729-PL24.ipt
+2026-02-12 15:34:38 | HERITAGE: Part4.ipt -> N1SCR03-729-PL25.ipt
+2026-02-12 15:34:38 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL25.ipt
+2026-02-12 15:34:38 | HERITAGE: Creating new file: N1SCR03-729-PL25.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL25.ipt
+2026-02-12 15:34:39 | HERITAGE: Part5.ipt -> N1SCR03-729-PL26.ipt
+2026-02-12 15:34:39 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL26.ipt
+2026-02-12 15:34:39 | HERITAGE: Creating new file: N1SCR03-729-PL26.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL26.ipt
+2026-02-12 15:34:39 | HERITAGE: Part7.ipt -> N1SCR03-729-PL27.ipt
+2026-02-12 15:34:39 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL27.ipt
+2026-02-12 15:34:39 | HERITAGE: Creating new file: N1SCR03-729-PL27.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL27.ipt
+2026-02-12 15:34:39 | HERITAGE: Part6.ipt -> N1SCR03-729-PL28.ipt
+2026-02-12 15:34:39 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL28.ipt
+2026-02-12 15:34:39 | HERITAGE: Creating new file: N1SCR03-729-PL28.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL28.ipt
+2026-02-12 15:34:39 | HERITAGE: Part8.ipt -> N1SCR03-729-PL29.ipt
+2026-02-12 15:34:39 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL29.ipt
+2026-02-12 15:34:39 | HERITAGE: Creating new file: N1SCR03-729-PL29.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL29.ipt
+2026-02-12 15:34:39 | HERITAGE: Lug.ipt -> N1SCR03-729-PL30.ipt
+2026-02-12 15:34:39 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Lug.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL30.ipt
+2026-02-12 15:34:39 | HERITAGE: Creating new file: N1SCR03-729-PL30.ipt
+2026-02-12 15:34:39 | HERITAGE: SUCCESS - Created N1SCR03-729-PL30.ipt
+2026-02-12 15:34:40 | HERITAGE: Part15.ipt -> N1SCR03-729-PL31.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL31.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL31.ipt
+2026-02-12 15:34:40 | HERITAGE: SUCCESS - Created N1SCR03-729-PL31.ipt
+2026-02-12 15:34:40 | HERITAGE: Part16.ipt -> N1SCR03-729-PL32.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-PL32.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL32.ipt
+2026-02-12 15:34:40 | HERITAGE: SUCCESS - Created N1SCR03-729-PL32.ipt
+2026-02-12 15:34:40 | HERITAGE: Part1.ipt -> N1SCR03-729-PL33.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL33.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL33.ipt
+2026-02-12 15:34:40 | HERITAGE: SUCCESS - Created N1SCR03-729-PL33.ipt
+2026-02-12 15:34:40 | HERITAGE: Part2.ipt -> N1SCR03-729-PL34.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL34.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL34.ipt
+2026-02-12 15:34:40 | HERITAGE: SUCCESS - Created N1SCR03-729-PL34.ipt
+2026-02-12 15:34:40 | HERITAGE: Part3.ipt -> N1SCR03-729-PL35.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL35.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL35.ipt
+2026-02-12 15:34:40 | HERITAGE: SUCCESS - Created N1SCR03-729-PL35.ipt
+2026-02-12 15:34:40 | HERITAGE: Part4.ipt -> N1SCR03-729-PL36.ipt
+2026-02-12 15:34:40 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL36.ipt
+2026-02-12 15:34:40 | HERITAGE: Creating new file: N1SCR03-729-PL36.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL36.ipt
+2026-02-12 15:34:41 | HERITAGE: Part5.ipt -> N1SCR03-729-PL37.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL37.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL37.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL37.ipt
+2026-02-12 15:34:41 | HERITAGE: Part6.ipt -> N1SCR03-729-PL38.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL38.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL38.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL38.ipt
+2026-02-12 15:34:41 | HERITAGE: Part11.ipt -> N1SCR03-729-PL39.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL39.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL39.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL39.ipt
+2026-02-12 15:34:41 | HERITAGE: Lug.ipt -> N1SCR03-729-PL40.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Lug.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-PL40.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL40.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL40.ipt
+2026-02-12 15:34:41 | HERITAGE: Part1.ipt -> N1SCR03-729-PL41.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL41.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL41.ipt
+2026-02-12 15:34:41 | HERITAGE: SUCCESS - Created N1SCR03-729-PL41.ipt
+2026-02-12 15:34:41 | HERITAGE: Lug.ipt -> N1SCR03-729-PL42.ipt
+2026-02-12 15:34:41 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Lug.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL42.ipt
+2026-02-12 15:34:41 | HERITAGE: Creating new file: N1SCR03-729-PL42.ipt
+2026-02-12 15:34:42 | HERITAGE: SUCCESS - Created N1SCR03-729-PL42.ipt
+2026-02-12 15:34:42 | HERITAGE: Part2.ipt -> N1SCR03-729-PL43.ipt
+2026-02-12 15:34:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-PL43.ipt
+2026-02-12 15:34:42 | HERITAGE: Creating new file: N1SCR03-729-PL43.ipt
+2026-02-12 15:34:42 | HERITAGE: SUCCESS - Created N1SCR03-729-PL43.ipt
+2026-02-12 15:34:42 | HERITAGE: Part9 Corner Gusset.ipt -> N1SCR03-729-PL44.ipt
+2026-02-12 15:34:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part9 Corner Gusset.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL44.ipt
+2026-02-12 15:34:42 | HERITAGE: Creating new file: N1SCR03-729-PL44.ipt
+2026-02-12 15:34:42 | HERITAGE: SUCCESS - Created N1SCR03-729-PL44.ipt
+2026-02-12 15:34:42 | HERITAGE: Part1.ipt -> N1SCR03-729-PL45.ipt
+2026-02-12 15:34:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL45.ipt
+2026-02-12 15:34:42 | HERITAGE: Creating new file: N1SCR03-729-PL45.ipt
+2026-02-12 15:34:42 | HERITAGE: SUCCESS - Created N1SCR03-729-PL45.ipt
+2026-02-12 15:34:42 | HERITAGE: Part2.ipt -> N1SCR03-729-PL46.ipt
+2026-02-12 15:34:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL46.ipt
+2026-02-12 15:34:42 | HERITAGE: Creating new file: N1SCR03-729-PL46.ipt
+2026-02-12 15:34:42 | HERITAGE: SUCCESS - Created N1SCR03-729-PL46.ipt
+2026-02-12 15:34:42 | HERITAGE: Part3.ipt -> N1SCR03-729-PL47.ipt
+2026-02-12 15:34:42 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL47.ipt
+2026-02-12 15:34:42 | HERITAGE: Creating new file: N1SCR03-729-PL47.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL47.ipt
+2026-02-12 15:34:43 | HERITAGE: Part4.ipt -> N1SCR03-729-PL48.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL48.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL48.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL48.ipt
+2026-02-12 15:34:43 | HERITAGE: Part5.ipt -> N1SCR03-729-PL49.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL49.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL49.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL49.ipt
+2026-02-12 15:34:43 | HERITAGE: Part8 End Plate.ipt -> N1SCR03-729-PL50.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part8 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL50.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL50.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL50.ipt
+2026-02-12 15:34:43 | HERITAGE: Lug.ipt -> N1SCR03-729-PL51.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Lug.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-PL51.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL51.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL51.ipt
+2026-02-12 15:34:43 | HERITAGE: Part1.ipt -> N1SCR03-729-PL52.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL52.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL52.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL52.ipt
+2026-02-12 15:34:43 | HERITAGE: Part3.ipt -> N1SCR03-729-PL53.ipt
+2026-02-12 15:34:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL53.ipt
+2026-02-12 15:34:43 | HERITAGE: Creating new file: N1SCR03-729-PL53.ipt
+2026-02-12 15:34:43 | HERITAGE: SUCCESS - Created N1SCR03-729-PL53.ipt
+2026-02-12 15:34:44 | HERITAGE: Part5.ipt -> N1SCR03-729-PL54.ipt
+2026-02-12 15:34:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL54.ipt
+2026-02-12 15:34:44 | HERITAGE: Creating new file: N1SCR03-729-PL54.ipt
+2026-02-12 15:34:44 | HERITAGE: SUCCESS - Created N1SCR03-729-PL54.ipt
+2026-02-12 15:34:44 | HERITAGE: Part6.ipt -> N1SCR03-729-PL55.ipt
+2026-02-12 15:34:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-PL55.ipt
+2026-02-12 15:34:44 | HERITAGE: Creating new file: N1SCR03-729-PL55.ipt
+2026-02-12 15:34:44 | HERITAGE: SUCCESS - Created N1SCR03-729-PL55.ipt
+2026-02-12 15:34:44 | HERITAGE: Part1.ipt -> N1SCR03-729-PL56.ipt
+2026-02-12 15:34:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-PL56.ipt
+2026-02-12 15:34:44 | HERITAGE: Creating new file: N1SCR03-729-PL56.ipt
+2026-02-12 15:34:44 | HERITAGE: SUCCESS - Created N1SCR03-729-PL56.ipt
+2026-02-12 15:34:44 | HERITAGE: Part1.ipt -> N1SCR03-729-PL57.ipt
+2026-02-12 15:34:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-PL57.ipt
+2026-02-12 15:34:44 | HERITAGE: Creating new file: N1SCR03-729-PL57.ipt
+2026-02-12 15:34:44 | HERITAGE: SUCCESS - Created N1SCR03-729-PL57.ipt
+2026-02-12 15:34:44 | HERITAGE: Part1.ipt -> N1SCR03-729-PL58.ipt
+2026-02-12 15:34:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL58.ipt
+2026-02-12 15:34:44 | HERITAGE: Creating new file: N1SCR03-729-PL58.ipt
+2026-02-12 15:34:44 | HERITAGE: SUCCESS - Created N1SCR03-729-PL58.ipt
+2026-02-12 15:34:45 | HERITAGE: Part2.ipt -> N1SCR03-729-PL59.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL59.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL59.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL59.ipt
+2026-02-12 15:34:45 | HERITAGE: Part3.ipt -> N1SCR03-729-PL60.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Bracket\N1SCR03-729-PL60.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL60.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL60.ipt
+2026-02-12 15:34:45 | HERITAGE: PLP-90-70-3mm.ipt -> N1SCR03-729-PL61.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-3mm.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL61.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL61.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL61.ipt
+2026-02-12 15:34:45 | HERITAGE: PLP-90-70-6mm.ipt -> N1SCR03-729-PL62.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-6mm.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL62.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL62.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL62.ipt
+2026-02-12 15:34:45 | HERITAGE: PLP-90-70-8mm.ipt -> N1SCR03-729-PL63.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-8mm.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL63.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL63.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL63.ipt
+2026-02-12 15:34:45 | HERITAGE: PLP-90-70-10mm.ipt -> N1SCR03-729-PL64.ipt
+2026-02-12 15:34:45 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\PLP-90-70-10mm.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\N1SCR03-729-PL64.ipt
+2026-02-12 15:34:45 | HERITAGE: Creating new file: N1SCR03-729-PL64.ipt
+2026-02-12 15:34:45 | HERITAGE: SUCCESS - Created N1SCR03-729-PL64.ipt
+2026-02-12 15:34:46 | REGISTRY: Saved N1SCR03-729-PL = 64
+2026-02-12 15:34:46 | EXTRACT: Processing naming scheme: N1SCR03-729-A{N}
+2026-02-12 15:34:46 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:46 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-A'
+2026-02-12 15:34:46 | HERITAGE: Group 'A' starting from number 1 (new prefix or group - key 'N1SCR03-729-A' not found)
+2026-02-12 15:34:46 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:46 | HERITAGE: Processing group 'A' with scheme: N1SCR03-729-A{N}
+2026-02-12 15:34:46 | HERITAGE: Part17 Angle.ipt -> N1SCR03-729-A1.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part17 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A1.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A1.ipt
+2026-02-12 15:34:46 | HERITAGE: SUCCESS - Created N1SCR03-729-A1.ipt
+2026-02-12 15:34:46 | HERITAGE: Part18 (Part17 Angle MIR).ipt -> N1SCR03-729-A2.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part18 (Part17 Angle MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A2.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A2.ipt
+2026-02-12 15:34:46 | HERITAGE: SUCCESS - Created N1SCR03-729-A2.ipt
+2026-02-12 15:34:46 | HERITAGE: Part19 Angle.ipt -> N1SCR03-729-A3.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part19 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A3.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A3.ipt
+2026-02-12 15:34:46 | HERITAGE: SUCCESS - Created N1SCR03-729-A3.ipt
+2026-02-12 15:34:46 | HERITAGE: Part20 (Part19 Angle MIR).ipt -> N1SCR03-729-A4.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part20 (Part19 Angle MIR).ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A4.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A4.ipt
+2026-02-12 15:34:46 | HERITAGE: SUCCESS - Created N1SCR03-729-A4.ipt
+2026-02-12 15:34:46 | HERITAGE: Part21 Angle.ipt -> N1SCR03-729-A5.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part21 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A5.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A5.ipt
+2026-02-12 15:34:46 | HERITAGE: SUCCESS - Created N1SCR03-729-A5.ipt
+2026-02-12 15:34:46 | HERITAGE: Part22 Angle.ipt -> N1SCR03-729-A6.ipt
+2026-02-12 15:34:46 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part22 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A6.ipt
+2026-02-12 15:34:46 | HERITAGE: Creating new file: N1SCR03-729-A6.ipt
+2026-02-12 15:34:47 | HERITAGE: SUCCESS - Created N1SCR03-729-A6.ipt
+2026-02-12 15:34:47 | HERITAGE: Part23 Angle.ipt -> N1SCR03-729-A7.ipt
+2026-02-12 15:34:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part23 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A7.ipt
+2026-02-12 15:34:47 | HERITAGE: Creating new file: N1SCR03-729-A7.ipt
+2026-02-12 15:34:47 | HERITAGE: SUCCESS - Created N1SCR03-729-A7.ipt
+2026-02-12 15:34:47 | HERITAGE: Part24 Angle.ipt -> N1SCR03-729-A8.ipt
+2026-02-12 15:34:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part24 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A8.ipt
+2026-02-12 15:34:47 | HERITAGE: Creating new file: N1SCR03-729-A8.ipt
+2026-02-12 15:34:47 | HERITAGE: SUCCESS - Created N1SCR03-729-A8.ipt
+2026-02-12 15:34:47 | HERITAGE: Part25 Angle.ipt -> N1SCR03-729-A9.ipt
+2026-02-12 15:34:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part25 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A9.ipt
+2026-02-12 15:34:47 | HERITAGE: Creating new file: N1SCR03-729-A9.ipt
+2026-02-12 15:34:47 | HERITAGE: SUCCESS - Created N1SCR03-729-A9.ipt
+2026-02-12 15:34:47 | HERITAGE: Part26 Angle.ipt -> N1SCR03-729-A10.ipt
+2026-02-12 15:34:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part26 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A10.ipt
+2026-02-12 15:34:47 | HERITAGE: Creating new file: N1SCR03-729-A10.ipt
+2026-02-12 15:34:47 | HERITAGE: SUCCESS - Created N1SCR03-729-A10.ipt
+2026-02-12 15:34:47 | HERITAGE: Part27 Angle.ipt -> N1SCR03-729-A11.ipt
+2026-02-12 15:34:47 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part27 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A11.ipt
+2026-02-12 15:34:47 | HERITAGE: Creating new file: N1SCR03-729-A11.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A11.ipt
+2026-02-12 15:34:48 | HERITAGE: Part28 Angle.ipt -> N1SCR03-729-A12.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part28 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A12.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A12.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A12.ipt
+2026-02-12 15:34:48 | HERITAGE: Part29 Angle.ipt -> N1SCR03-729-A13.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part29 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-A13.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A13.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A13.ipt
+2026-02-12 15:34:48 | HERITAGE: Part9 Angle.ipt -> N1SCR03-729-A14.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part9 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A14.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A14.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A14.ipt
+2026-02-12 15:34:48 | HERITAGE: Part10 Angle.ipt -> N1SCR03-729-A15.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part10 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A15.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A15.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A15.ipt
+2026-02-12 15:34:48 | HERITAGE: Part11 Angle.ipt -> N1SCR03-729-A16.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part11 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A16.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A16.ipt
+2026-02-12 15:34:48 | HERITAGE: SUCCESS - Created N1SCR03-729-A16.ipt
+2026-02-12 15:34:48 | HERITAGE: Part12 Angle.ipt -> N1SCR03-729-A17.ipt
+2026-02-12 15:34:48 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part12 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-A17.ipt
+2026-02-12 15:34:48 | HERITAGE: Creating new file: N1SCR03-729-A17.ipt
+2026-02-12 15:34:49 | HERITAGE: SUCCESS - Created N1SCR03-729-A17.ipt
+2026-02-12 15:34:49 | HERITAGE: Part7 Angle.ipt -> N1SCR03-729-A18.ipt
+2026-02-12 15:34:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part7 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A18.ipt
+2026-02-12 15:34:49 | HERITAGE: Creating new file: N1SCR03-729-A18.ipt
+2026-02-12 15:34:49 | HERITAGE: SUCCESS - Created N1SCR03-729-A18.ipt
+2026-02-12 15:34:49 | HERITAGE: Part8 Angle.ipt -> N1SCR03-729-A19.ipt
+2026-02-12 15:34:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part8 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A19.ipt
+2026-02-12 15:34:49 | HERITAGE: Creating new file: N1SCR03-729-A19.ipt
+2026-02-12 15:34:49 | HERITAGE: SUCCESS - Created N1SCR03-729-A19.ipt
+2026-02-12 15:34:49 | HERITAGE: Part9 Angle.ipt -> N1SCR03-729-A20.ipt
+2026-02-12 15:34:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part9 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A20.ipt
+2026-02-12 15:34:49 | HERITAGE: Creating new file: N1SCR03-729-A20.ipt
+2026-02-12 15:34:49 | HERITAGE: SUCCESS - Created N1SCR03-729-A20.ipt
+2026-02-12 15:34:49 | HERITAGE: Part10 Angle.ipt -> N1SCR03-729-A21.ipt
+2026-02-12 15:34:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\Part10 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-2 (Orifice)\N1SCR03-729-A21.ipt
+2026-02-12 15:34:49 | HERITAGE: Creating new file: N1SCR03-729-A21.ipt
+2026-02-12 15:34:49 | HERITAGE: SUCCESS - Created N1SCR03-729-A21.ipt
+2026-02-12 15:34:49 | HERITAGE: Part3 Angle.ipt -> N1SCR03-729-A22.ipt
+2026-02-12 15:34:49 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part3 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A22.ipt
+2026-02-12 15:34:49 | HERITAGE: Creating new file: N1SCR03-729-A22.ipt
+2026-02-12 15:34:50 | HERITAGE: SUCCESS - Created N1SCR03-729-A22.ipt
+2026-02-12 15:34:50 | HERITAGE: Part4 Angle.ipt -> N1SCR03-729-A23.ipt
+2026-02-12 15:34:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part4 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A23.ipt
+2026-02-12 15:34:50 | HERITAGE: Creating new file: N1SCR03-729-A23.ipt
+2026-02-12 15:34:50 | HERITAGE: SUCCESS - Created N1SCR03-729-A23.ipt
+2026-02-12 15:34:50 | HERITAGE: Part5 Angle.ipt -> N1SCR03-729-A24.ipt
+2026-02-12 15:34:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\Part5 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-3\N1SCR03-729-A24.ipt
+2026-02-12 15:34:50 | HERITAGE: Creating new file: N1SCR03-729-A24.ipt
+2026-02-12 15:34:50 | HERITAGE: SUCCESS - Created N1SCR03-729-A24.ipt
+2026-02-12 15:34:50 | HERITAGE: Part6 Angle.ipt -> N1SCR03-729-A25.ipt
+2026-02-12 15:34:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part6 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A25.ipt
+2026-02-12 15:34:50 | HERITAGE: Creating new file: N1SCR03-729-A25.ipt
+2026-02-12 15:34:50 | HERITAGE: SUCCESS - Created N1SCR03-729-A25.ipt
+2026-02-12 15:34:50 | HERITAGE: Part7 Angle.ipt -> N1SCR03-729-A26.ipt
+2026-02-12 15:34:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part7 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-A26.ipt
+2026-02-12 15:34:50 | HERITAGE: Creating new file: N1SCR03-729-A26.ipt
+2026-02-12 15:34:50 | HERITAGE: SUCCESS - Created N1SCR03-729-A26.ipt
+2026-02-12 15:34:50 | REGISTRY: Saved N1SCR03-729-A = 26
+2026-02-12 15:34:50 | EXTRACT: Processing naming scheme: N1SCR03-729-FL{N}
+2026-02-12 15:34:50 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:50 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-FL'
+2026-02-12 15:34:50 | HERITAGE: Group 'FL' starting from number 1 (new prefix or group - key 'N1SCR03-729-FL' not found)
+2026-02-12 15:34:50 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:50 | HERITAGE: Processing group 'FL' with scheme: N1SCR03-729-FL{N}
+2026-02-12 15:34:50 | HERITAGE: Part30 Flat Bar.ipt -> N1SCR03-729-FL1.ipt
+2026-02-12 15:34:50 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part30 Flat Bar.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL1.ipt
+2026-02-12 15:34:50 | HERITAGE: Creating new file: N1SCR03-729-FL1.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL1.ipt
+2026-02-12 15:34:51 | HERITAGE: Part36 Stiffener.ipt -> N1SCR03-729-FL2.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part36 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL2.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL2.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL2.ipt
+2026-02-12 15:34:51 | HERITAGE: Part37 Stiffener.ipt -> N1SCR03-729-FL3.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part37 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL3.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL3.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL3.ipt
+2026-02-12 15:34:51 | HERITAGE: Part38 Stiffener.ipt -> N1SCR03-729-FL4.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part38 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL4.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL4.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL4.ipt
+2026-02-12 15:34:51 | HERITAGE: Part39 Stiffener.ipt -> N1SCR03-729-FL5.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part39 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL5.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL5.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL5.ipt
+2026-02-12 15:34:51 | HERITAGE: Part40 Stiffener.ipt -> N1SCR03-729-FL6.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part40 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL6.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL6.ipt
+2026-02-12 15:34:51 | HERITAGE: SUCCESS - Created N1SCR03-729-FL6.ipt
+2026-02-12 15:34:51 | HERITAGE: Part41 Stiffener.ipt -> N1SCR03-729-FL7.ipt
+2026-02-12 15:34:51 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part41 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL7.ipt
+2026-02-12 15:34:51 | HERITAGE: Creating new file: N1SCR03-729-FL7.ipt
+2026-02-12 15:34:52 | HERITAGE: SUCCESS - Created N1SCR03-729-FL7.ipt
+2026-02-12 15:34:52 | HERITAGE: Part42 Stiffener.ipt -> N1SCR03-729-FL8.ipt
+2026-02-12 15:34:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part42 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL8.ipt
+2026-02-12 15:34:52 | HERITAGE: Creating new file: N1SCR03-729-FL8.ipt
+2026-02-12 15:34:52 | HERITAGE: SUCCESS - Created N1SCR03-729-FL8.ipt
+2026-02-12 15:34:52 | HERITAGE: Part43 Stiffener.ipt -> N1SCR03-729-FL9.ipt
+2026-02-12 15:34:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part43 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL9.ipt
+2026-02-12 15:34:52 | HERITAGE: Creating new file: N1SCR03-729-FL9.ipt
+2026-02-12 15:34:52 | HERITAGE: SUCCESS - Created N1SCR03-729-FL9.ipt
+2026-02-12 15:34:52 | HERITAGE: Part44 Stiffener.ipt -> N1SCR03-729-FL10.ipt
+2026-02-12 15:34:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part44 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL10.ipt
+2026-02-12 15:34:52 | HERITAGE: Creating new file: N1SCR03-729-FL10.ipt
+2026-02-12 15:34:52 | HERITAGE: SUCCESS - Created N1SCR03-729-FL10.ipt
+2026-02-12 15:34:52 | HERITAGE: Part45 Stiffener.ipt -> N1SCR03-729-FL11.ipt
+2026-02-12 15:34:52 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part45 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL11.ipt
+2026-02-12 15:34:52 | HERITAGE: Creating new file: N1SCR03-729-FL11.ipt
+2026-02-12 15:34:52 | HERITAGE: SUCCESS - Created N1SCR03-729-FL11.ipt
+2026-02-12 15:34:53 | HERITAGE: Part46 Stiffener.ipt -> N1SCR03-729-FL12.ipt
+2026-02-12 15:34:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part46 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL12.ipt
+2026-02-12 15:34:53 | HERITAGE: Creating new file: N1SCR03-729-FL12.ipt
+2026-02-12 15:34:53 | HERITAGE: SUCCESS - Created N1SCR03-729-FL12.ipt
+2026-02-12 15:34:53 | HERITAGE: Part47 Stiffener.ipt -> N1SCR03-729-FL13.ipt
+2026-02-12 15:34:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part47 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL13.ipt
+2026-02-12 15:34:53 | HERITAGE: Creating new file: N1SCR03-729-FL13.ipt
+2026-02-12 15:34:53 | HERITAGE: SUCCESS - Created N1SCR03-729-FL13.ipt
+2026-02-12 15:34:53 | HERITAGE: Part48 Stiffener.ipt -> N1SCR03-729-FL14.ipt
+2026-02-12 15:34:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part48 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL14.ipt
+2026-02-12 15:34:53 | HERITAGE: Creating new file: N1SCR03-729-FL14.ipt
+2026-02-12 15:34:53 | HERITAGE: SUCCESS - Created N1SCR03-729-FL14.ipt
+2026-02-12 15:34:53 | HERITAGE: Part49 Stiffener.ipt -> N1SCR03-729-FL15.ipt
+2026-02-12 15:34:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part49 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL15.ipt
+2026-02-12 15:34:53 | HERITAGE: Creating new file: N1SCR03-729-FL15.ipt
+2026-02-12 15:34:53 | HERITAGE: SUCCESS - Created N1SCR03-729-FL15.ipt
+2026-02-12 15:34:53 | HERITAGE: Part50 Stiffener.ipt -> N1SCR03-729-FL16.ipt
+2026-02-12 15:34:53 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part50 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL16.ipt
+2026-02-12 15:34:53 | HERITAGE: Creating new file: N1SCR03-729-FL16.ipt
+2026-02-12 15:34:54 | HERITAGE: SUCCESS - Created N1SCR03-729-FL16.ipt
+2026-02-12 15:34:54 | HERITAGE: Part51 Stiffener.ipt -> N1SCR03-729-FL17.ipt
+2026-02-12 15:34:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part51 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-FL17.ipt
+2026-02-12 15:34:54 | HERITAGE: Creating new file: N1SCR03-729-FL17.ipt
+2026-02-12 15:34:54 | HERITAGE: SUCCESS - Created N1SCR03-729-FL17.ipt
+2026-02-12 15:34:54 | HERITAGE: Part14 Stiffener.ipt -> N1SCR03-729-FL18.ipt
+2026-02-12 15:34:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part14 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL18.ipt
+2026-02-12 15:34:54 | HERITAGE: Creating new file: N1SCR03-729-FL18.ipt
+2026-02-12 15:34:54 | HERITAGE: SUCCESS - Created N1SCR03-729-FL18.ipt
+2026-02-12 15:34:54 | HERITAGE: Part15 Stiffener.ipt -> N1SCR03-729-FL19.ipt
+2026-02-12 15:34:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part15 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL19.ipt
+2026-02-12 15:34:54 | HERITAGE: Creating new file: N1SCR03-729-FL19.ipt
+2026-02-12 15:34:54 | HERITAGE: SUCCESS - Created N1SCR03-729-FL19.ipt
+2026-02-12 15:34:54 | HERITAGE: Part16 Stiffener.ipt -> N1SCR03-729-FL20.ipt
+2026-02-12 15:34:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part16 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL20.ipt
+2026-02-12 15:34:54 | HERITAGE: Creating new file: N1SCR03-729-FL20.ipt
+2026-02-12 15:34:54 | HERITAGE: SUCCESS - Created N1SCR03-729-FL20.ipt
+2026-02-12 15:34:54 | HERITAGE: Part18 Stiffener.ipt -> N1SCR03-729-FL21.ipt
+2026-02-12 15:34:54 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part18 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL21.ipt
+2026-02-12 15:34:54 | HERITAGE: Creating new file: N1SCR03-729-FL21.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL21.ipt
+2026-02-12 15:34:55 | HERITAGE: Part17 Stiffener.ipt -> N1SCR03-729-FL22.ipt
+2026-02-12 15:34:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part17 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL22.ipt
+2026-02-12 15:34:55 | HERITAGE: Creating new file: N1SCR03-729-FL22.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL22.ipt
+2026-02-12 15:34:55 | HERITAGE: Part19 Stiffener.ipt -> N1SCR03-729-FL23.ipt
+2026-02-12 15:34:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part19 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FL23.ipt
+2026-02-12 15:34:55 | HERITAGE: Creating new file: N1SCR03-729-FL23.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL23.ipt
+2026-02-12 15:34:55 | HERITAGE: Part2.ipt -> N1SCR03-729-FL24.ipt
+2026-02-12 15:34:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-FL24.ipt
+2026-02-12 15:34:55 | HERITAGE: Creating new file: N1SCR03-729-FL24.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL24.ipt
+2026-02-12 15:34:55 | HERITAGE: Part5 Stiffener.ipt -> N1SCR03-729-FL25.ipt
+2026-02-12 15:34:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part5 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL25.ipt
+2026-02-12 15:34:55 | HERITAGE: Creating new file: N1SCR03-729-FL25.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL25.ipt
+2026-02-12 15:34:55 | HERITAGE: Part6 Stiffener.ipt -> N1SCR03-729-FL26.ipt
+2026-02-12 15:34:55 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part6 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FL26.ipt
+2026-02-12 15:34:55 | HERITAGE: Creating new file: N1SCR03-729-FL26.ipt
+2026-02-12 15:34:55 | HERITAGE: SUCCESS - Created N1SCR03-729-FL26.ipt
+2026-02-12 15:34:56 | REGISTRY: Saved N1SCR03-729-FL = 26
+2026-02-12 15:34:56 | EXTRACT: Processing naming scheme: N1SCR03-729-CH{N}
+2026-02-12 15:34:56 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:56 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-CH'
+2026-02-12 15:34:56 | HERITAGE: Group 'CH' starting from number 1 (new prefix or group - key 'N1SCR03-729-CH' not found)
+2026-02-12 15:34:56 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:56 | HERITAGE: Processing group 'CH' with scheme: N1SCR03-729-CH{N}
+2026-02-12 15:34:56 | HERITAGE: Part34 PFC.ipt -> N1SCR03-729-CH1.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part34 PFC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-CH1.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-CH1.ipt
+2026-02-12 15:34:56 | HERITAGE: SUCCESS - Created N1SCR03-729-CH1.ipt
+2026-02-12 15:34:56 | REGISTRY: Saved N1SCR03-729-CH = 1
+2026-02-12 15:34:56 | EXTRACT: Processing naming scheme: N1SCR03-729-PART{N}
+2026-02-12 15:34:56 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:56 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-OTHER'
+2026-02-12 15:34:56 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'N1SCR03-729-OTHER' not found)
+2026-02-12 15:34:56 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:56 | HERITAGE: Processing group 'OTHER' with scheme: N1SCR03-729-PART{N}
+2026-02-12 15:34:56 | HERITAGE: Part52 Stiffener.ipt -> N1SCR03-729-PART1.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part52 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART1.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-PART1.ipt
+2026-02-12 15:34:56 | HERITAGE: SUCCESS - Created N1SCR03-729-PART1.ipt
+2026-02-12 15:34:56 | HERITAGE: Part54 Stiffener.ipt -> N1SCR03-729-PART2.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part54 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART2.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-PART2.ipt
+2026-02-12 15:34:56 | HERITAGE: SUCCESS - Created N1SCR03-729-PART2.ipt
+2026-02-12 15:34:56 | HERITAGE: Part53 Stiffener.ipt -> N1SCR03-729-PART3.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\Part53 Stiffener.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Top\N1SCR03-729-PART3.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-PART3.ipt
+2026-02-12 15:34:56 | HERITAGE: SUCCESS - Created N1SCR03-729-PART3.ipt
+2026-02-12 15:34:56 | REGISTRY: Saved N1SCR03-729-OTHER = 3
+2026-02-12 15:34:56 | EXTRACT: Processing naming scheme: N1SCR03-729-P{N}
+2026-02-12 15:34:56 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:56 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-P'
+2026-02-12 15:34:56 | HERITAGE: Group 'P' starting from number 1 (new prefix or group - key 'N1SCR03-729-P' not found)
+2026-02-12 15:34:56 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:56 | HERITAGE: Processing group 'P' with scheme: N1SCR03-729-P{N}
+2026-02-12 15:34:56 | HERITAGE: Part13 Pipe.ipt -> N1SCR03-729-P1.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part13 Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-P1.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-P1.ipt
+2026-02-12 15:34:56 | HERITAGE: SUCCESS - Created N1SCR03-729-P1.ipt
+2026-02-12 15:34:56 | HERITAGE: Part10 Pipe.ipt -> N1SCR03-729-P2.ipt
+2026-02-12 15:34:56 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part10 Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-P2.ipt
+2026-02-12 15:34:56 | HERITAGE: Creating new file: N1SCR03-729-P2.ipt
+2026-02-12 15:34:57 | HERITAGE: SUCCESS - Created N1SCR03-729-P2.ipt
+2026-02-12 15:34:57 | HERITAGE: Part2 Pipe.ipt -> N1SCR03-729-P3.ipt
+2026-02-12 15:34:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part2 Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-P3.ipt
+2026-02-12 15:34:57 | HERITAGE: Creating new file: N1SCR03-729-P3.ipt
+2026-02-12 15:34:57 | HERITAGE: SUCCESS - Created N1SCR03-729-P3.ipt
+2026-02-12 15:34:57 | HERITAGE: Part2 Pipe.ipt -> N1SCR03-729-P4.ipt
+2026-02-12 15:34:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part2 Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-P4.ipt
+2026-02-12 15:34:57 | HERITAGE: Creating new file: N1SCR03-729-P4.ipt
+2026-02-12 15:34:57 | HERITAGE: SUCCESS - Created N1SCR03-729-P4.ipt
+2026-02-12 15:34:57 | REGISTRY: Saved N1SCR03-729-P = 4
+2026-02-12 15:34:57 | EXTRACT: Processing naming scheme: N1SCR03-729-FLG{N}
+2026-02-12 15:34:57 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:57 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-FLG'
+2026-02-12 15:34:57 | HERITAGE: Group 'FLG' starting from number 1 (new prefix or group - key 'N1SCR03-729-FLG' not found)
+2026-02-12 15:34:57 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:57 | HERITAGE: Processing group 'FLG' with scheme: N1SCR03-729-FLG{N}
+2026-02-12 15:34:57 | HERITAGE: Part14 Flange.ipt -> N1SCR03-729-FLG1.ipt
+2026-02-12 15:34:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\Part14 Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-1 (Overflow)\N1SCR03-729-FLG1.ipt
+2026-02-12 15:34:57 | HERITAGE: Creating new file: N1SCR03-729-FLG1.ipt
+2026-02-12 15:34:57 | HERITAGE: SUCCESS - Created N1SCR03-729-FLG1.ipt
+2026-02-12 15:34:57 | HERITAGE: Part12 Flange.ipt -> N1SCR03-729-FLG2.ipt
+2026-02-12 15:34:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\Part12 Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Box-4 (Outlet)\N1SCR03-729-FLG2.ipt
+2026-02-12 15:34:57 | HERITAGE: Creating new file: N1SCR03-729-FLG2.ipt
+2026-02-12 15:34:57 | HERITAGE: SUCCESS - Created N1SCR03-729-FLG2.ipt
+2026-02-12 15:34:57 | HERITAGE: Part3 Flange.ipt -> N1SCR03-729-FLG3.ipt
+2026-02-12 15:34:57 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\Part3 Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid\N1SCR03-729-FLG3.ipt
+2026-02-12 15:34:57 | HERITAGE: Creating new file: N1SCR03-729-FLG3.ipt
+2026-02-12 15:34:58 | HERITAGE: SUCCESS - Created N1SCR03-729-FLG3.ipt
+2026-02-12 15:34:58 | HERITAGE: Part3 Flange.ipt -> N1SCR03-729-FLG4.ipt
+2026-02-12 15:34:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part3 Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG4.ipt
+2026-02-12 15:34:58 | HERITAGE: Creating new file: N1SCR03-729-FLG4.ipt
+2026-02-12 15:34:58 | HERITAGE: SUCCESS - Created N1SCR03-729-FLG4.ipt
+2026-02-12 15:34:58 | HERITAGE: Part4 Blank Flange.ipt -> N1SCR03-729-FLG5.ipt
+2026-02-12 15:34:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\Part4 Blank Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Lid-2\N1SCR03-729-FLG5.ipt
+2026-02-12 15:34:58 | HERITAGE: Creating new file: N1SCR03-729-FLG5.ipt
+2026-02-12 15:34:58 | HERITAGE: SUCCESS - Created N1SCR03-729-FLG5.ipt
+2026-02-12 15:34:58 | REGISTRY: Saved N1SCR03-729-FLG = 5
+2026-02-12 15:34:58 | EXTRACT: Processing naming scheme: N1SCR03-729-R{N}
+2026-02-12 15:34:58 | EXTRACT: Extracted prefix: 'N1SCR03-729-'
+2026-02-12 15:34:58 | HERITAGE: Checking for existing counter with key: 'N1SCR03-729-R'
+2026-02-12 15:34:58 | HERITAGE: Group 'R' starting from number 1 (new prefix or group - key 'N1SCR03-729-R' not found)
+2026-02-12 15:34:58 | HERITAGE: DEBUG - No existing counters found
+2026-02-12 15:34:58 | HERITAGE: Processing group 'R' with scheme: N1SCR03-729-R{N}
+2026-02-12 15:34:58 | HERITAGE: Part4.ipt -> N1SCR03-729-R1.ipt
+2026-02-12 15:34:58 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\Orifice Door\N1SCR03-729-R1.ipt
+2026-02-12 15:34:58 | HERITAGE: Creating new file: N1SCR03-729-R1.ipt
+2026-02-12 15:34:58 | HERITAGE: SUCCESS - Created N1SCR03-729-R1.ipt
+2026-02-12 15:34:58 | REGISTRY: Saved N1SCR03-729-R = 1
+2026-02-12 15:34:58 | STEP 7: Updating assembly references
+2026-02-12 15:34:58 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-02-12 15:34:58 | ASSEMBLY: Updating references in - N1SCR03-729.iam (Level: ROOT)
+2026-02-12 15:34:58 | ASSEMBLY: RECURSING into sub-assembly - Top - Mixing Box.iam
+2026-02-12 15:34:58 | ASSEMBLY: Updating references in - Top - Mixing Box.iam (Level: ROOT>Top - Mixing Box.iam)
+2026-02-12 15:34:58 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL1.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:34:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL1.ipt
+2026-02-12 15:34:59 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL2.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:34:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL2.ipt
+2026-02-12 15:34:59 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL3.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:34:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL3.ipt
+2026-02-12 15:34:59 | ASSEMBLY: Replacing Part4.ipt -> N1SCR03-729-PL4.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:34:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL4.ipt
+2026-02-12 15:34:59 | ASSEMBLY: Replacing Part5.ipt -> N1SCR03-729-PL5.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL5.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part6.ipt -> N1SCR03-729-PL6.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL6.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part7.ipt -> N1SCR03-729-PL7.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL7.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part8.ipt -> N1SCR03-729-PL8.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL8.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part9.ipt -> N1SCR03-729-PL9.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL9.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part10.ipt -> N1SCR03-729-PL10.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL10.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part11.ipt -> N1SCR03-729-PL11.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:00 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL11.ipt
+2026-02-12 15:35:00 | ASSEMBLY: Replacing Part12.ipt -> N1SCR03-729-PL12.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:01 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL12.ipt
+2026-02-12 15:35:01 | ASSEMBLY: Replacing Part13.ipt -> N1SCR03-729-PL13.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:01 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL13.ipt
+2026-02-12 15:35:01 | ASSEMBLY: Replacing Part14.ipt -> N1SCR03-729-PL14.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:01 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL14.ipt
+2026-02-12 15:35:01 | ASSEMBLY: Replacing Part15.ipt -> N1SCR03-729-PL15.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:01 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL15.ipt
+2026-02-12 15:35:02 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL15.ipt (not renamed)
+2026-02-12 15:35:02 | ASSEMBLY: Replacing Part16.ipt -> N1SCR03-729-PL16.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL16.ipt
+2026-02-12 15:35:02 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL16.ipt (not renamed)
+2026-02-12 15:35:02 | ASSEMBLY: Replacing Part17 Angle.ipt -> N1SCR03-729-A1.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A1.ipt
+2026-02-12 15:35:02 | ASSEMBLY: Replacing Part18 (Part17 Angle MIR).ipt -> N1SCR03-729-A2.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A2.ipt
+2026-02-12 15:35:02 | ASSEMBLY: Replacing Part19 Angle.ipt -> N1SCR03-729-A3.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A3.ipt
+2026-02-12 15:35:02 | ASSEMBLY: Replacing Part20 (Part19 Angle MIR).ipt -> N1SCR03-729-A4.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A4.ipt
+2026-02-12 15:35:03 | ASSEMBLY: Replacing Part21 Angle.ipt -> N1SCR03-729-A5.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A5.ipt
+2026-02-12 15:35:03 | ASSEMBLY: Replacing Part22 Angle.ipt -> N1SCR03-729-A6.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A6.ipt
+2026-02-12 15:35:03 | ASSEMBLY: Replacing Part23 Angle.ipt -> N1SCR03-729-A7.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A7.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part24 Angle.ipt -> N1SCR03-729-A8.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A8.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part25 Angle.ipt -> N1SCR03-729-A9.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A9.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part26 Angle.ipt -> N1SCR03-729-A10.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A10.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part27 Angle.ipt -> N1SCR03-729-A11.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A11.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part28 Angle.ipt -> N1SCR03-729-A12.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A12.ipt
+2026-02-12 15:35:04 | ASSEMBLY: Replacing Part29 Angle.ipt -> N1SCR03-729-A13.ipt [A] (in Top - Mixing Box.iam)
+2026-02-12 15:35:05 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A13.ipt
+2026-02-12 15:35:05 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A12.ipt (not renamed)
+2026-02-12 15:35:05 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A13.ipt (not renamed)
+2026-02-12 15:35:05 | ASSEMBLY: Replacing Part30 Flat Bar.ipt -> N1SCR03-729-FL1.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:05 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL1.ipt
+2026-02-12 15:35:05 | ASSEMBLY: Replacing Part34 PFC.ipt -> N1SCR03-729-CH1.ipt [CH] (in Top - Mixing Box.iam)
+2026-02-12 15:35:05 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-CH1.ipt
+2026-02-12 15:35:05 | ASSEMBLY: Replacing Part35 End Plate.ipt -> N1SCR03-729-PL17.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:05 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL17.ipt
+2026-02-12 15:35:05 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-CH1.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL17.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: Replacing Part36 Stiffener.ipt -> N1SCR03-729-FL2.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL2.ipt
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL2.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: Replacing Part37 Stiffener.ipt -> N1SCR03-729-FL3.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL3.ipt
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL3.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL3.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL3.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL3.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL3.ipt (not renamed)
+2026-02-12 15:35:06 | ASSEMBLY: Replacing Part38 Stiffener.ipt -> N1SCR03-729-FL4.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL4.ipt
+2026-02-12 15:35:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL4.ipt (not renamed)
+2026-02-12 15:35:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL4.ipt (not renamed)
+2026-02-12 15:35:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL4.ipt (not renamed)
+2026-02-12 15:35:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL4.ipt (not renamed)
+2026-02-12 15:35:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL4.ipt (not renamed)
+2026-02-12 15:35:07 | ASSEMBLY: Replacing Part39 Stiffener.ipt -> N1SCR03-729-FL5.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL5.ipt
+2026-02-12 15:35:07 | ASSEMBLY: Replacing Part40 Stiffener.ipt -> N1SCR03-729-FL6.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL6.ipt
+2026-02-12 15:35:07 | ASSEMBLY: Replacing Part41 Stiffener.ipt -> N1SCR03-729-FL7.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL7.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part42 Stiffener.ipt -> N1SCR03-729-FL8.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL8.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part43 Stiffener.ipt -> N1SCR03-729-FL9.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL9.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part44 Stiffener.ipt -> N1SCR03-729-FL10.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL10.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part45 Stiffener.ipt -> N1SCR03-729-FL11.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL11.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part46 Stiffener.ipt -> N1SCR03-729-FL12.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL12.ipt
+2026-02-12 15:35:08 | ASSEMBLY: Replacing Part47 Stiffener.ipt -> N1SCR03-729-FL13.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL13.ipt
+2026-02-12 15:35:09 | ASSEMBLY: Replacing Part48 Stiffener.ipt -> N1SCR03-729-FL14.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL14.ipt
+2026-02-12 15:35:09 | ASSEMBLY: Replacing Part49 Stiffener.ipt -> N1SCR03-729-FL15.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL15.ipt
+2026-02-12 15:35:09 | ASSEMBLY: Replacing Part50 Stiffener.ipt -> N1SCR03-729-FL16.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:09 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL16.ipt
+2026-02-12 15:35:10 | ASSEMBLY: Replacing Part51 Stiffener.ipt -> N1SCR03-729-FL17.ipt [FL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL17.ipt
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL17.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL17.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL17.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL17.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: Replacing Lug.ipt -> N1SCR03-729-PL18.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL18.ipt
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL18.ipt (not renamed)
+2026-02-12 15:35:10 | ASSEMBLY: Replacing Part32 Corner Gusset.ipt -> N1SCR03-729-PL19.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL19.ipt
+2026-02-12 15:35:11 | ASSEMBLY: Replacing Part33.ipt -> N1SCR03-729-PL20.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL20.ipt
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL19.ipt (not renamed)
+2026-02-12 15:35:11 | ASSEMBLY: Replacing Part31 End Plate.ipt -> N1SCR03-729-PL21.ipt [PL] (in Top - Mixing Box.iam)
+2026-02-12 15:35:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL21.ipt
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL19.ipt (not renamed)
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL20.ipt (not renamed)
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL19.ipt (not renamed)
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL21.ipt (not renamed)
+2026-02-12 15:35:11 | ASSEMBLY: Replacing Part52 Stiffener.ipt -> N1SCR03-729-PART1.ipt [OTHER] (in Top - Mixing Box.iam)
+2026-02-12 15:35:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PART1.ipt
+2026-02-12 15:35:11 | ASSEMBLY: Replacing Part54 Stiffener.ipt -> N1SCR03-729-PART2.ipt [OTHER] (in Top - Mixing Box.iam)
+2026-02-12 15:35:11 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PART2.ipt
+2026-02-12 15:35:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART2.ipt (not renamed)
+2026-02-12 15:35:12 | ASSEMBLY: Replacing Part53 Stiffener.ipt -> N1SCR03-729-PART3.ipt [OTHER] (in Top - Mixing Box.iam)
+2026-02-12 15:35:12 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PART3.ipt
+2026-02-12 15:35:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART3.ipt (not renamed)
+2026-02-12 15:35:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART2.ipt (not renamed)
+2026-02-12 15:35:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART2.ipt (not renamed)
+2026-02-12 15:35:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART3.ipt (not renamed)
+2026-02-12 15:35:12 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PART3.ipt (not renamed)
+2026-02-12 15:35:48 | ASSEMBLY: Saved sub-assembly - Top - Mixing Box.iam
+2026-02-12 15:35:48 | ASSEMBLY: RECURSING into sub-assembly - Box-1 (Overflow).iam
+2026-02-12 15:35:48 | ASSEMBLY: Updating references in - Box-1 (Overflow).iam (Level: ROOT>Box-1 (Overflow).iam)
+2026-02-12 15:35:48 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL22.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL22.ipt
+2026-02-12 15:35:48 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL22.ipt (not renamed)
+2026-02-12 15:35:48 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL23.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL23.ipt
+2026-02-12 15:35:48 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL24.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:48 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL24.ipt
+2026-02-12 15:35:48 | ASSEMBLY: Replacing Part4.ipt -> N1SCR03-729-PL25.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL25.ipt
+2026-02-12 15:35:49 | ASSEMBLY: Replacing Part5.ipt -> N1SCR03-729-PL26.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL26.ipt
+2026-02-12 15:35:49 | ASSEMBLY: Replacing Part7.ipt -> N1SCR03-729-PL27.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL27.ipt
+2026-02-12 15:35:49 | ASSEMBLY: Replacing Part6.ipt -> N1SCR03-729-PL28.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL28.ipt
+2026-02-12 15:35:49 | ASSEMBLY: Replacing Part8.ipt -> N1SCR03-729-PL29.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:49 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL29.ipt
+2026-02-12 15:35:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL29.ipt (not renamed)
+2026-02-12 15:35:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL29.ipt (not renamed)
+2026-02-12 15:35:49 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL29.ipt (not renamed)
+2026-02-12 15:35:49 | ASSEMBLY: Replacing Part9 Angle.ipt -> N1SCR03-729-A14.ipt [A] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A14.ipt
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A14.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: Replacing Part10 Angle.ipt -> N1SCR03-729-A15.ipt [A] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A15.ipt
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A15.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A15.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A15.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: Replacing Part11 Angle.ipt -> N1SCR03-729-A16.ipt [A] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A16.ipt
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A16.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: Replacing Part12 Angle.ipt -> N1SCR03-729-A17.ipt [A] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A17.ipt
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A17.ipt (not renamed)
+2026-02-12 15:35:50 | ASSEMBLY: Replacing Part13 Pipe.ipt -> N1SCR03-729-P1.ipt [P] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:50 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-P1.ipt
+2026-02-12 15:35:50 | ASSEMBLY: Replacing Part14 Flange.ipt -> N1SCR03-729-FLG1.ipt [FLG] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:51 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FLG1.ipt
+2026-02-12 15:35:51 | ASSEMBLY: Replacing Lug.ipt -> N1SCR03-729-PL30.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:51 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL30.ipt
+2026-02-12 15:35:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL30.ipt (not renamed)
+2026-02-12 15:35:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL30.ipt (not renamed)
+2026-02-12 15:35:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL30.ipt (not renamed)
+2026-02-12 15:35:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL30.ipt (not renamed)
+2026-02-12 15:35:51 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL30.ipt (not renamed)
+2026-02-12 15:35:51 | ASSEMBLY: Replacing Part15.ipt -> N1SCR03-729-PL31.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:51 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL31.ipt
+2026-02-12 15:35:51 | ASSEMBLY: Replacing Part16.ipt -> N1SCR03-729-PL32.ipt [PL] (in Box-1 (Overflow).iam)
+2026-02-12 15:35:51 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL32.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Saved sub-assembly - Box-1 (Overflow).iam
+2026-02-12 15:35:53 | ASSEMBLY: RECURSING into sub-assembly - Box-2 (Orifice).iam
+2026-02-12 15:35:53 | ASSEMBLY: Updating references in - Box-2 (Orifice).iam (Level: ROOT>Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL33.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL33.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL34.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL34.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL35.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL35.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part4.ipt -> N1SCR03-729-PL36.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL36.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part5.ipt -> N1SCR03-729-PL37.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL37.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part6.ipt -> N1SCR03-729-PL38.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:53 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL38.ipt
+2026-02-12 15:35:53 | ASSEMBLY: Replacing Part7 Angle.ipt -> N1SCR03-729-A18.ipt [A] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:54 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A18.ipt
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A18.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A18.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A18.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: Replacing Part8 Angle.ipt -> N1SCR03-729-A19.ipt [A] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:54 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A19.ipt
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A19.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A19.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A19.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: Replacing Part9 Angle.ipt -> N1SCR03-729-A20.ipt [A] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:54 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A20.ipt
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A20.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: Replacing Part10 Angle.ipt -> N1SCR03-729-A21.ipt [A] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:54 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A21.ipt
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A21.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A20.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A21.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A20.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A21.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: Replacing Part11.ipt -> N1SCR03-729-PL39.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:54 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL39.ipt
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL39.ipt (not renamed)
+2026-02-12 15:35:54 | ASSEMBLY: Replacing Lug.ipt -> N1SCR03-729-PL40.ipt [PL] (in Box-2 (Orifice).iam)
+2026-02-12 15:35:55 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL40.ipt
+2026-02-12 15:35:55 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL40.ipt (not renamed)
+2026-02-12 15:35:55 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL40.ipt (not renamed)
+2026-02-12 15:35:55 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL40.ipt (not renamed)
+2026-02-12 15:35:57 | ASSEMBLY: Saved sub-assembly - Box-2 (Orifice).iam
+2026-02-12 15:35:57 | ASSEMBLY: RECURSING into sub-assembly - Box-3.iam
+2026-02-12 15:35:57 | ASSEMBLY: Updating references in - Box-3.iam (Level: ROOT>Box-3.iam)
+2026-02-12 15:35:57 | ASSEMBLY: RECURSING into sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:35:57 | ASSEMBLY: Updating references in - Box-3 Panel-1.iam (Level: ROOT>Box-3.iam>Box-3 Panel-1.iam)
+2026-02-12 15:35:57 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL41.ipt [PL] (in Box-3 Panel-1.iam)
+2026-02-12 15:35:57 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL41.ipt
+2026-02-12 15:35:58 | ASSEMBLY: Replacing Part3 Angle.ipt -> N1SCR03-729-A22.ipt [A] (in Box-3 Panel-1.iam)
+2026-02-12 15:35:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A22.ipt
+2026-02-12 15:35:58 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A22.ipt (not renamed)
+2026-02-12 15:35:58 | ASSEMBLY: Replacing Lug.ipt -> N1SCR03-729-PL42.ipt [PL] (in Box-3 Panel-1.iam)
+2026-02-12 15:35:58 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL42.ipt
+2026-02-12 15:35:58 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL42.ipt (not renamed)
+2026-02-12 15:35:59 | ASSEMBLY: Saved sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:35:59 | ASSEMBLY: RECURSING into sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:35:59 | ASSEMBLY: Updating references in - Box-3 Panel-2.iam (Level: ROOT>Box-3.iam>Box-3 Panel-2.iam)
+2026-02-12 15:35:59 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL43.ipt [PL] (in Box-3 Panel-2.iam)
+2026-02-12 15:35:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL43.ipt
+2026-02-12 15:35:59 | ASSEMBLY: Replacing Part4 Angle.ipt -> N1SCR03-729-A23.ipt [A] (in Box-3 Panel-2.iam)
+2026-02-12 15:35:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A23.ipt
+2026-02-12 15:35:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A23.ipt (not renamed)
+2026-02-12 15:35:59 | ASSEMBLY: Replacing Part5 Angle.ipt -> N1SCR03-729-A24.ipt [A] (in Box-3 Panel-2.iam)
+2026-02-12 15:35:59 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A24.ipt
+2026-02-12 15:35:59 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A24.ipt (not renamed)
+2026-02-12 15:36:00 | ASSEMBLY: Saved sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:36:00 | ASSEMBLY: RECURSING into sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:36:00 | ASSEMBLY: Updating references in - Box-3 Panel-1.iam (Level: ROOT>Box-3.iam>Box-3 Panel-1.iam)
+2026-02-12 15:36:00 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL41.ipt (not renamed)
+2026-02-12 15:36:00 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A22.ipt (not renamed)
+2026-02-12 15:36:00 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A22.ipt (not renamed)
+2026-02-12 15:36:00 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL42.ipt (not renamed)
+2026-02-12 15:36:00 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL42.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: Saved sub-assembly - Box-3 Panel-1.iam
+2026-02-12 15:36:01 | ASSEMBLY: RECURSING into sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:36:01 | ASSEMBLY: Updating references in - Box-3 Panel-2.iam (Level: ROOT>Box-3.iam>Box-3 Panel-2.iam)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL43.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A23.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A23.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A24.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A24.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: Saved sub-assembly - Box-3 Panel-2.iam
+2026-02-12 15:36:01 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-12 15:36:01 | ASSEMBLY: Replacing Part9 Corner Gusset.ipt -> N1SCR03-729-PL44.ipt [PL] (in Box-3.iam)
+2026-02-12 15:36:01 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL44.ipt
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:01 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL44.ipt (not renamed)
+2026-02-12 15:36:02 | ASSEMBLY: Saved sub-assembly - Box-3.iam
+2026-02-12 15:36:02 | ASSEMBLY: RECURSING into sub-assembly - Box-4 (Outlet).iam
+2026-02-12 15:36:02 | ASSEMBLY: Updating references in - Box-4 (Outlet).iam (Level: ROOT>Box-4 (Outlet).iam)
+2026-02-12 15:36:02 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL45.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL45.ipt
+2026-02-12 15:36:02 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL46.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL46.ipt
+2026-02-12 15:36:02 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL47.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:02 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL47.ipt
+2026-02-12 15:36:02 | ASSEMBLY: Replacing Part4.ipt -> N1SCR03-729-PL48.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL48.ipt
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL48.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part5.ipt -> N1SCR03-729-PL49.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL49.ipt
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL49.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part6 Angle.ipt -> N1SCR03-729-A25.ipt [A] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A25.ipt
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A25.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part7 Angle.ipt -> N1SCR03-729-A26.ipt [A] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-A26.ipt
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-A26.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part8 End Plate.ipt -> N1SCR03-729-PL50.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL50.ipt
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part10 Pipe.ipt -> N1SCR03-729-P2.ipt [P] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-P2.ipt
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part12 Flange.ipt -> N1SCR03-729-FLG2.ipt [FLG] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FLG2.ipt
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part14 Stiffener.ipt -> N1SCR03-729-FL18.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL18.ipt
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part15 Stiffener.ipt -> N1SCR03-729-FL19.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL19.ipt
+2026-02-12 15:36:03 | ASSEMBLY: Replacing Part16 Stiffener.ipt -> N1SCR03-729-FL20.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:03 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL20.ipt
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL18.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL19.ipt (not renamed)
+2026-02-12 15:36:03 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL20.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: Replacing Part18 Stiffener.ipt -> N1SCR03-729-FL21.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL21.ipt
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL21.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: Replacing Part17 Stiffener.ipt -> N1SCR03-729-FL22.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL22.ipt
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL22.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL22.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL22.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: Replacing Part19 Stiffener.ipt -> N1SCR03-729-FL23.ipt [FL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL23.ipt
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL23.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: Replacing Lug.ipt -> N1SCR03-729-PL51.ipt [PL] (in Box-4 (Outlet).iam)
+2026-02-12 15:36:04 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL51.ipt
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL51.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL51.ipt (not renamed)
+2026-02-12 15:36:04 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL51.ipt (not renamed)
+2026-02-12 15:36:05 | ASSEMBLY: Saved sub-assembly - Box-4 (Outlet).iam
+2026-02-12 15:36:05 | ASSEMBLY: RECURSING into sub-assembly - Orifice Door.iam
+2026-02-12 15:36:05 | ASSEMBLY: Updating references in - Orifice Door.iam (Level: ROOT>Orifice Door.iam)
+2026-02-12 15:36:05 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL52.ipt [PL] (in Orifice Door.iam)
+2026-02-12 15:36:05 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL52.ipt
+2026-02-12 15:36:06 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-FL24.ipt [FL] (in Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL24.ipt
+2026-02-12 15:36:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL24.ipt (not renamed)
+2026-02-12 15:36:06 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL53.ipt [PL] (in Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL53.ipt
+2026-02-12 15:36:06 | ASSEMBLY: Replacing Part4.ipt -> N1SCR03-729-R1.ipt [R] (in Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-R1.ipt
+2026-02-12 15:36:06 | ASSEMBLY: Replacing Part5.ipt -> N1SCR03-729-PL54.ipt [PL] (in Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL54.ipt
+2026-02-12 15:36:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL54.ipt (not renamed)
+2026-02-12 15:36:06 | ASSEMBLY: Replacing Part6.ipt -> N1SCR03-729-PL55.ipt [PL] (in Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL55.ipt
+2026-02-12 15:36:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL55.ipt (not renamed)
+2026-02-12 15:36:06 | ASSEMBLY: Saved sub-assembly - Orifice Door.iam
+2026-02-12 15:36:06 | ASSEMBLY: RECURSING into sub-assembly - Orifice Door.iam
+2026-02-12 15:36:06 | ASSEMBLY: Updating references in - Orifice Door.iam (Level: ROOT>Orifice Door.iam)
+2026-02-12 15:36:06 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL52.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL24.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-FL24.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL53.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-R1.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL54.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL54.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL55.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL55.ipt (not renamed)
+2026-02-12 15:36:07 | ASSEMBLY: Saved sub-assembly - Orifice Door.iam
+2026-02-12 15:36:07 | ASSEMBLY: RECURSING into sub-assembly - Lid.iam
+2026-02-12 15:36:07 | ASSEMBLY: Updating references in - Lid.iam (Level: ROOT>Lid.iam)
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL56.ipt [PL] (in Lid.iam)
+2026-02-12 15:36:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL56.ipt
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part2 Pipe.ipt -> N1SCR03-729-P3.ipt [P] (in Lid.iam)
+2026-02-12 15:36:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-P3.ipt
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part3 Flange.ipt -> N1SCR03-729-FLG3.ipt [FLG] (in Lid.iam)
+2026-02-12 15:36:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FLG3.ipt
+2026-02-12 15:36:07 | ASSEMBLY: Saved sub-assembly - Lid.iam
+2026-02-12 15:36:07 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-02-12 15:36:07 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL57.ipt [PL] (in Lid-2.iam)
+2026-02-12 15:36:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL57.ipt
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part2 Pipe.ipt -> N1SCR03-729-P4.ipt [P] (in Lid-2.iam)
+2026-02-12 15:36:07 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-P4.ipt
+2026-02-12 15:36:07 | ASSEMBLY: Replacing Part3 Flange.ipt -> N1SCR03-729-FLG4.ipt [FLG] (in Lid-2.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FLG4.ipt
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part4 Blank Flange.ipt -> N1SCR03-729-FLG5.ipt [FLG] (in Lid-2.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FLG5.ipt
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part5 Stiffener.ipt -> N1SCR03-729-FL25.ipt [FL] (in Lid-2.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL25.ipt
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part6 Stiffener.ipt -> N1SCR03-729-FL26.ipt [FL] (in Lid-2.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-FL26.ipt
+2026-02-12 15:36:08 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-02-12 15:36:08 | ASSEMBLY: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:08 | ASSEMBLY: Updating references in - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part1.ipt -> N1SCR03-729-PL58.ipt [PL] (in Bracket Asm.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL58.ipt
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part2.ipt -> N1SCR03-729-PL59.ipt [PL] (in Bracket Asm.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL59.ipt
+2026-02-12 15:36:08 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:08 | ASSEMBLY: Replacing Part3.ipt -> N1SCR03-729-PL60.ipt [PL] (in Bracket Asm.iam)
+2026-02-12 15:36:08 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL60.ipt
+2026-02-12 15:36:09 | ASSEMBLY: Saved sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: Updating references in - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL58.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL60.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: Saved sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: Updating references in - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL58.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL60.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: Saved sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: RECURSING into sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: Updating references in - Bracket Asm.iam (Level: ROOT>Bracket Asm.iam)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL58.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL59.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL60.ipt (not renamed)
+2026-02-12 15:36:09 | ASSEMBLY: Saved sub-assembly - Bracket Asm.iam
+2026-02-12 15:36:09 | ASSEMBLY: Replacing PLP-90-70-3mm.ipt -> N1SCR03-729-PL61.ipt [PL] (in N1SCR03-729.iam)
+2026-02-12 15:36:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL61.ipt
+2026-02-12 15:36:10 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:10 | ASSEMBLY: Replacing PLP-90-70-6mm.ipt -> N1SCR03-729-PL62.ipt [PL] (in N1SCR03-729.iam)
+2026-02-12 15:36:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL62.ipt
+2026-02-12 15:36:10 | ASSEMBLY: Replacing PLP-90-70-8mm.ipt -> N1SCR03-729-PL63.ipt [PL] (in N1SCR03-729.iam)
+2026-02-12 15:36:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL63.ipt
+2026-02-12 15:36:10 | ASSEMBLY: Replacing PLP-90-70-10mm.ipt -> N1SCR03-729-PL64.ipt [PL] (in N1SCR03-729.iam)
+2026-02-12 15:36:10 | ASSEMBLY: SUCCESS - Updated to N1SCR03-729-PL64.ipt
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL61.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL62.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL63.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: INFO - No mapping found for N1SCR03-729-PL64.ipt (not renamed)
+2026-02-12 15:36:11 | ASSEMBLY: Saving assembly with updated references...
+2026-02-12 15:36:13 | ASSEMBLY: Successfully saved assembly
+2026-02-12 15:36:13 | STEP 8: Auto-detecting and updating IDW files
+2026-02-12 15:36:13 | IDW: Auto-detecting IDW files in assembly directory
+2026-02-12 15:36:13 | IDW: Found drawing file - MGY-200-DSL-05-00.idw
+2026-02-12 15:36:13 | IDW: Processing MGY-200-DSL-05-00.idw
+2026-02-12 15:36:15 | IDW: Opening MGY-200-DSL-05-00.idw
+2026-02-12 15:36:18 | IDW: Found 1 referenced files
+2026-02-12 15:36:19 | IDW: INFO - No mapping found for N1SCR03-729.iam
+2026-02-12 15:36:22 | IDW: Saved MGY-200-DSL-05-00.idw
+2026-02-12 15:36:22 | STEP 8.5: Saving mapping file for external IDW updater
+2026-02-12 15:36:22 | MAPPING: === START SAVE MAPPING FILE ===
+2026-02-12 15:36:22 | MAPPING: Using pre-selected path: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\729 Mixing Box\STEP_1_MAPPING.txt
+2026-02-12 15:36:22 | MAPPING: Comprehensive mapping count = 130
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4.ipt -> N1SCR03-729-PL4.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5.ipt -> N1SCR03-729-PL5.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6.ipt -> N1SCR03-729-PL6.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part7.ipt -> N1SCR03-729-PL7.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part8.ipt -> N1SCR03-729-PL8.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part9.ipt -> N1SCR03-729-PL9.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part10.ipt -> N1SCR03-729-PL10.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part11.ipt -> N1SCR03-729-PL11.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part12.ipt -> N1SCR03-729-PL12.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part13.ipt -> N1SCR03-729-PL13.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part14.ipt -> N1SCR03-729-PL14.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part15.ipt -> N1SCR03-729-PL15.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part16.ipt -> N1SCR03-729-PL16.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part35 End Plate.ipt -> N1SCR03-729-PL17.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Lug.ipt -> N1SCR03-729-PL18.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part32 Corner Gusset.ipt -> N1SCR03-729-PL19.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part33.ipt -> N1SCR03-729-PL20.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part31 End Plate.ipt -> N1SCR03-729-PL21.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL22.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL23.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL24.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4.ipt -> N1SCR03-729-PL25.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5.ipt -> N1SCR03-729-PL26.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part7.ipt -> N1SCR03-729-PL27.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6.ipt -> N1SCR03-729-PL28.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part8.ipt -> N1SCR03-729-PL29.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Lug.ipt -> N1SCR03-729-PL30.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part15.ipt -> N1SCR03-729-PL31.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part16.ipt -> N1SCR03-729-PL32.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL33.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL34.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL35.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4.ipt -> N1SCR03-729-PL36.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5.ipt -> N1SCR03-729-PL37.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6.ipt -> N1SCR03-729-PL38.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part11.ipt -> N1SCR03-729-PL39.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Lug.ipt -> N1SCR03-729-PL40.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL41.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Lug.ipt -> N1SCR03-729-PL42.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL43.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part9 Corner Gusset.ipt -> N1SCR03-729-PL44.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL45.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL46.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL47.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4.ipt -> N1SCR03-729-PL48.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5.ipt -> N1SCR03-729-PL49.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part8 End Plate.ipt -> N1SCR03-729-PL50.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Lug.ipt -> N1SCR03-729-PL51.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL52.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL53.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5.ipt -> N1SCR03-729-PL54.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6.ipt -> N1SCR03-729-PL55.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL56.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL57.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part1.ipt -> N1SCR03-729-PL58.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-PL59.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3.ipt -> N1SCR03-729-PL60.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: PLP-90-70-3mm.ipt -> N1SCR03-729-PL61.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: PLP-90-70-6mm.ipt -> N1SCR03-729-PL62.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: PLP-90-70-8mm.ipt -> N1SCR03-729-PL63.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: PLP-90-70-10mm.ipt -> N1SCR03-729-PL64.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part17 Angle.ipt -> N1SCR03-729-A1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part18 (Part17 Angle MIR).ipt -> N1SCR03-729-A2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part19 Angle.ipt -> N1SCR03-729-A3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part20 (Part19 Angle MIR).ipt -> N1SCR03-729-A4.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part21 Angle.ipt -> N1SCR03-729-A5.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part22 Angle.ipt -> N1SCR03-729-A6.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part23 Angle.ipt -> N1SCR03-729-A7.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part24 Angle.ipt -> N1SCR03-729-A8.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part25 Angle.ipt -> N1SCR03-729-A9.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part26 Angle.ipt -> N1SCR03-729-A10.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part27 Angle.ipt -> N1SCR03-729-A11.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part28 Angle.ipt -> N1SCR03-729-A12.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part29 Angle.ipt -> N1SCR03-729-A13.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part9 Angle.ipt -> N1SCR03-729-A14.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part10 Angle.ipt -> N1SCR03-729-A15.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part11 Angle.ipt -> N1SCR03-729-A16.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part12 Angle.ipt -> N1SCR03-729-A17.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part7 Angle.ipt -> N1SCR03-729-A18.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part8 Angle.ipt -> N1SCR03-729-A19.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part9 Angle.ipt -> N1SCR03-729-A20.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part10 Angle.ipt -> N1SCR03-729-A21.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3 Angle.ipt -> N1SCR03-729-A22.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4 Angle.ipt -> N1SCR03-729-A23.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5 Angle.ipt -> N1SCR03-729-A24.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6 Angle.ipt -> N1SCR03-729-A25.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part7 Angle.ipt -> N1SCR03-729-A26.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part30 Flat Bar.ipt -> N1SCR03-729-FL1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part36 Stiffener.ipt -> N1SCR03-729-FL2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part37 Stiffener.ipt -> N1SCR03-729-FL3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part38 Stiffener.ipt -> N1SCR03-729-FL4.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part39 Stiffener.ipt -> N1SCR03-729-FL5.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part40 Stiffener.ipt -> N1SCR03-729-FL6.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part41 Stiffener.ipt -> N1SCR03-729-FL7.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part42 Stiffener.ipt -> N1SCR03-729-FL8.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part43 Stiffener.ipt -> N1SCR03-729-FL9.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part44 Stiffener.ipt -> N1SCR03-729-FL10.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part45 Stiffener.ipt -> N1SCR03-729-FL11.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part46 Stiffener.ipt -> N1SCR03-729-FL12.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part47 Stiffener.ipt -> N1SCR03-729-FL13.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part48 Stiffener.ipt -> N1SCR03-729-FL14.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part49 Stiffener.ipt -> N1SCR03-729-FL15.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part50 Stiffener.ipt -> N1SCR03-729-FL16.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part51 Stiffener.ipt -> N1SCR03-729-FL17.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part14 Stiffener.ipt -> N1SCR03-729-FL18.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part15 Stiffener.ipt -> N1SCR03-729-FL19.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part16 Stiffener.ipt -> N1SCR03-729-FL20.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part18 Stiffener.ipt -> N1SCR03-729-FL21.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part17 Stiffener.ipt -> N1SCR03-729-FL22.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part19 Stiffener.ipt -> N1SCR03-729-FL23.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2.ipt -> N1SCR03-729-FL24.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part5 Stiffener.ipt -> N1SCR03-729-FL25.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part6 Stiffener.ipt -> N1SCR03-729-FL26.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part34 PFC.ipt -> N1SCR03-729-CH1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part52 Stiffener.ipt -> N1SCR03-729-PART1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part54 Stiffener.ipt -> N1SCR03-729-PART2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part53 Stiffener.ipt -> N1SCR03-729-PART3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part13 Pipe.ipt -> N1SCR03-729-P1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part10 Pipe.ipt -> N1SCR03-729-P2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2 Pipe.ipt -> N1SCR03-729-P3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part2 Pipe.ipt -> N1SCR03-729-P4.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part14 Flange.ipt -> N1SCR03-729-FLG1.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part12 Flange.ipt -> N1SCR03-729-FLG2.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3 Flange.ipt -> N1SCR03-729-FLG3.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part3 Flange.ipt -> N1SCR03-729-FLG4.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4 Blank Flange.ipt -> N1SCR03-729-FLG5.ipt
+2026-02-12 15:36:22 | MAPPING: Prepared: Part4.ipt -> N1SCR03-729-R1.ipt
+2026-02-12 15:36:22 | MAPPING: Write attempt 1 of 3
+2026-02-12 15:36:22 | MAPPING: Write attempt 1 SUCCEEDED
+2026-02-12 15:36:22 | MAPPING: VERIFICATION - File exists! Size: 45329 bytes
+2026-02-12 15:36:22 | MAPPING: SUCCESS - Mapping file saved with 130 mappings
+2026-02-12 15:36:24 | MAPPING: === END SAVE MAPPING FILE ===
+2026-02-12 15:36:24 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-02-12 15:36:24 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

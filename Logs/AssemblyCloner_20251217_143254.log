@@ -1,0 +1,70 @@
+﻿2025-12-17 14:32:54 | === ASSEMBLY CLONER STARTED ===
+2025-12-17 14:32:54 | Using EXACT methodology from VBScript Option 9
+2025-12-17 14:32:54 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Knee Brace-3\Knee Brace-3.iam
+2025-12-17 14:32:54 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Knee Brace-3
+2025-12-17 14:32:55 | User confirmed clone operation
+2025-12-17 14:32:55 | Opening folder browser dialog...
+2025-12-17 14:33:11 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Knee Brace-6
+2025-12-17 14:33:12 | Rename parts: True
+2025-12-17 14:33:12 | Prompting for plant section prefix...
+2025-12-17 14:33:13 | Plant section prefix: Knee Brace-6
+2025-12-17 14:33:14 | New assembly name: Knee Brace-6
+2025-12-17 14:33:14 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Knee Brace-6\Knee Brace-6.iam
+2025-12-17 14:33:14 | COLLECT: Part1 Beam.ipt (IPE180)
+2025-12-17 14:33:14 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-17 14:33:14 | COLLECT: Part3 End Plate.ipt (PL 10mm S355JR)
+2025-12-17 14:33:14 | Collected 3 parts
+2025-12-17 14:33:14 | Closing source assembly for safe copy...
+2025-12-17 14:33:14 | Copying assembly file...
+2025-12-17 14:33:14 | COPIED: Knee Brace-3.iam -> Knee Brace-6.iam
+2025-12-17 14:33:14 | Copying 3 parts...
+2025-12-17 14:33:14 | COPIED: Part1 Beam.ipt -> Knee Brace-6-IPE1.ipt
+2025-12-17 14:33:14 | COPIED: Part2 End Plate.ipt -> Knee Brace-6-PL2.ipt
+2025-12-17 14:33:14 | COPIED: Part3 End Plate.ipt -> Knee Brace-6-PL3.ipt
+2025-12-17 14:33:14 | Updating assembly references and patching iLogic...
+2025-12-17 14:33:14 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Opened Knee Brace-6.iam
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Found 3 file references
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: No mapping for Part1 Beam.ipt
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: No mapping for Part2 End Plate.ipt
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: No mapping for Part3 End Plate.ipt
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Updated 0 references
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-17 14:33:15 | Patching iLogic rules (in same session)...
+2025-12-17 14:33:15 | Patched 0 iLogic rules
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-17 14:33:15 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-17 14:33:15 | Processing IDW files...
+2025-12-17 14:33:15 | IDW PROCESS: Found 1 IDW files
+2025-12-17 14:33:22 | IDW PROCESS: Processing MGY-200-DRP-01-14.idw -> MGY-200-DRP-01-14.idw
+2025-12-17 14:33:33 | IDW PROCESS: Opening original IDW from source location...
+2025-12-17 14:33:34 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-17 14:33:34 | IDW PROCESS: Found 4 references
+2025-12-17 14:33:34 | IDW PROCESS: Updating Knee Brace-3.iam -> Knee Brace-6.iam
+2025-12-17 14:33:34 | IDW PROCESS: SUCCESS
+2025-12-17 14:33:34 | IDW PROCESS: Updating Part1 Beam.ipt -> Knee Brace-6-IPE1.ipt
+2025-12-17 14:33:34 | IDW PROCESS: SUCCESS
+2025-12-17 14:33:34 | IDW PROCESS: Updating Part2 End Plate.ipt -> Knee Brace-6-PL2.ipt
+2025-12-17 14:33:34 | IDW PROCESS: SUCCESS
+2025-12-17 14:33:34 | IDW PROCESS: Updating Part3 End Plate.ipt -> Knee Brace-6-PL3.ipt
+2025-12-17 14:33:34 | IDW PROCESS: SUCCESS
+2025-12-17 14:33:34 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-17 14:33:34 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-17 14:33:34 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-14.idw
+2025-12-17 14:33:34 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-14'
+2025-12-17 14:33:34 | IDW PROCESS: Updated Description to 'Knee Brace-6'
+2025-12-17 14:33:34 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-14.idw
+2025-12-17 14:33:34 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Knee Brace-6\MGY-200-DRP-01-14.idw
+2025-12-17 14:33:36 | IDW PROCESS: Successfully saved MGY-200-DRP-01-14.idw as MGY-200-DRP-01-14.idw (4 references updated)
+2025-12-17 14:33:36 | IDW PROCESS: All IDW files processed successfully
+2025-12-17 14:33:36 | Updating iProperties for copied documents...
+2025-12-17 14:33:44 | Updated iProperties for Knee Brace-6.iam
+2025-12-17 14:33:44 | Updated iProperties for Knee Brace-6-IPE1.ipt
+2025-12-17 14:33:44 | Updated iProperties for Knee Brace-6-PL2.ipt
+2025-12-17 14:33:44 | Updated iProperties for Knee Brace-6-PL3.ipt
+2025-12-17 14:33:44 | Saving iLogic patch log...
+2025-12-17 14:33:44 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-17 14:33:44 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251217_143254.log

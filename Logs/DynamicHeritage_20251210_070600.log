@@ -1,0 +1,100 @@
+2025-12-10 07:06:00 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-12-10 07:06:00 | Auto-detecting open model and creating dynamic renaming workflow
+2025-12-10 07:06:01 | SUCCESS: Connected to existing Inventor instance
+2025-12-10 07:06:01 | STEP 1: Detecting open assembly and analyzing components
+2025-12-10 07:06:01 | DETECTED: Document type: 12291
+2025-12-10 07:06:01 | DETECTED: Assembly by .iam extension - proceeding
+2025-12-10 07:06:01 | DETECTED: Active assembly - Support Beam-2.iam
+2025-12-10 07:06:01 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2025-12-10 07:06:04 | USER CONFIRMED: Proceeding with assembly processing
+2025-12-10 07:06:04 | CONFIRMED: 3 occurrences to process
+2025-12-10 07:06:04 | STEP 2: Flattening hierarchy and grouping components
+2025-12-10 07:06:04 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-12-10 07:06:04 | ANALYZE: Processing assembly - Support Beam-2.iam (Level: ROOT)
+2025-12-10 07:06:04 | ANALYZE: Found 3 occurrences in Support Beam-2.iam
+2025-12-10 07:06:04 | ANALYZE: PART - Part1 FB-B2.ipt -> Description: PL 10mm S355JR -> Group: PL (from Support Beam-2.iam)
+2025-12-10 07:06:04 | ANALYZE: Created new group - PL
+2025-12-10 07:06:04 | ANALYZE: PART - Part2 203x133x25 FB-B2.ipt -> Description: UB203x133x25 -> Group: B (from Support Beam-2.iam)
+2025-12-10 07:06:04 | ANALYZE: Created new group - B
+2025-12-10 07:06:04 | ANALYZE: DUPLICATE PART SKIPPED - Part1 FB-B2.ipt (already processed)
+2025-12-10 07:06:04 | ANALYZE: Recursive processing completed - Total unique parts processed: 2
+2025-12-10 07:06:04 | ANALYZE: Created 2 component groups
+2025-12-10 07:06:04 | DEBUG GROUP: 'PL' contains 1 components:
+2025-12-10 07:06:04 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2025-12-10 07:06:04 | DEBUG GROUP: 'B' contains 1 components:
+2025-12-10 07:06:04 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2025-12-10 07:06:04 | STEP 3: Getting plant section naming convention
+2025-12-10 07:06:04 | PLANT: Getting plant section naming convention from user
+2025-12-10 07:06:07 | PLANT: Using custom naming convention: PLANT1-000-
+2025-12-10 07:06:08 | STEP 4: Showing component groups summary
+2025-12-10 07:06:08 | SUMMARY: Showing component groups to user
+2025-12-10 07:06:10 | SUMMARY: User approved component groups
+2025-12-10 07:06:10 | STEP 5: Getting user naming schemes for component groups
+2025-12-10 07:06:10 | INPUT: Getting user naming schemes for 2 groups
+2025-12-10 07:06:12 | INPUT: User cancelled - using default scheme: PLANT1-000-PL{N}
+2025-12-10 07:06:12 | INPUT: Group 'PL' -> Scheme: PLANT1-000-PL{N}
+2025-12-10 07:06:13 | INPUT: User cancelled - using default scheme: PLANT1-000-B{N}
+2025-12-10 07:06:13 | INPUT: Group 'B' -> Scheme: PLANT1-000-B{N}
+2025-12-10 07:06:13 | STEP 6: Creating heritage-based copies with user naming
+2025-12-10 07:06:13 | HERITAGE: Creating dynamic heritage-based copies
+2025-12-10 07:06:13 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2025-12-10 07:06:13 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: PLANT1-000-
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-CH (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-PL (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-B (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-A (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-P (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-SQ (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-FL (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-LPL (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-IPE (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counter for: PLANT1-000-OTHER (will start from 1)
+2025-12-10 07:06:13 | SCAN: No existing counters found in Registry - starting fresh
+2025-12-10 07:06:13 | EXTRACT: Processing naming scheme: PLANT1-000-PL{N}
+2025-12-10 07:06:13 | EXTRACT: Extracted prefix: 'PLANT1-000-'
+2025-12-10 07:06:13 | HERITAGE: Checking for existing counter with key: 'PLANT1-000-PL'
+2025-12-10 07:06:13 | HERITAGE: Group 'PL' starting from number 1 (new prefix or group - key 'PLANT1-000-PL' not found)
+2025-12-10 07:06:13 | HERITAGE: DEBUG - No existing counters found
+2025-12-10 07:06:13 | HERITAGE: Processing group 'PL' with scheme: PLANT1-000-PL{N}
+2025-12-10 07:06:13 | HERITAGE: Part1 FB-B2.ipt -> PLANT1-000-PL1.ipt
+2025-12-10 07:06:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\PLANT1-000-PL1.ipt
+2025-12-10 07:06:13 | HERITAGE: Creating new file: PLANT1-000-PL1.ipt
+2025-12-10 07:06:13 | HERITAGE: SUCCESS - Created PLANT1-000-PL1.ipt
+2025-12-10 07:06:13 | REGISTRY: Saved PLANT1-000-PL = 1
+2025-12-10 07:06:13 | EXTRACT: Processing naming scheme: PLANT1-000-B{N}
+2025-12-10 07:06:13 | EXTRACT: Extracted prefix: 'PLANT1-000-'
+2025-12-10 07:06:13 | HERITAGE: Checking for existing counter with key: 'PLANT1-000-B'
+2025-12-10 07:06:13 | HERITAGE: Group 'B' starting from number 1 (new prefix or group - key 'PLANT1-000-B' not found)
+2025-12-10 07:06:13 | HERITAGE: DEBUG - No existing counters found
+2025-12-10 07:06:13 | HERITAGE: Processing group 'B' with scheme: PLANT1-000-B{N}
+2025-12-10 07:06:13 | HERITAGE: Part2 203x133x25 FB-B2.ipt -> PLANT1-000-B1.ipt
+2025-12-10 07:06:13 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\20. SSCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\PLANT1-000-B1.ipt
+2025-12-10 07:06:13 | HERITAGE: Creating new file: PLANT1-000-B1.ipt
+2025-12-10 07:06:13 | HERITAGE: SUCCESS - Created PLANT1-000-B1.ipt
+2025-12-10 07:06:14 | REGISTRY: Saved PLANT1-000-B = 1
+2025-12-10 07:06:14 | STEP 7: Updating assembly references
+2025-12-10 07:06:14 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-12-10 07:06:14 | ASSEMBLY: Updating references in - Support Beam-2.iam (Level: ROOT)
+2025-12-10 07:06:14 | ASSEMBLY: Replacing Part1 FB-B2.ipt -> PLANT1-000-PL1.ipt [PL] (in Support Beam-2.iam)
+2025-12-10 07:06:14 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-PL1.ipt
+2025-12-10 07:06:14 | ASSEMBLY: Replacing Part2 203x133x25 FB-B2.ipt -> PLANT1-000-B1.ipt [B] (in Support Beam-2.iam)
+2025-12-10 07:06:14 | ASSEMBLY: SUCCESS - Updated to PLANT1-000-B1.ipt
+2025-12-10 07:06:14 | ASSEMBLY: INFO - No mapping found for PLANT1-000-PL1.ipt (not renamed)
+2025-12-10 07:06:14 | ASSEMBLY: Saving assembly with updated references...
+2025-12-10 07:06:14 | ASSEMBLY: Successfully saved assembly
+2025-12-10 07:06:14 | STEP 8: Auto-detecting and updating IDW files
+2025-12-10 07:06:14 | IDW: Auto-detecting IDW files in assembly directory
+2025-12-10 07:06:14 | IDW: Found drawing file - MGY-200-DSL-06-01-02.idw
+2025-12-10 07:06:14 | IDW: Processing MGY-200-DSL-06-01-02.idw
+2025-12-10 07:06:14 | IDW: Opening MGY-200-DSL-06-01-02.idw
+2025-12-10 07:06:15 | IDW: Found 3 referenced files
+2025-12-10 07:06:15 | IDW: Updating reference Part1 FB-B2.ipt -> PLANT1-000-PL1.ipt
+2025-12-10 07:06:15 | IDW: SUCCESS - Reference updated
+2025-12-10 07:06:15 | IDW: Updating reference Part2 203x133x25 FB-B2.ipt -> PLANT1-000-B1.ipt
+2025-12-10 07:06:15 | IDW: SUCCESS - Reference updated
+2025-12-10 07:06:15 | IDW: INFO - No mapping found for Support Beam-2.iam
+2025-12-10 07:06:15 | IDW: Saved MGY-200-DSL-06-01-02.idw
+2025-12-10 07:06:15 | STEP 8.5: Saving mapping file for external IDW updater
+2025-12-10 07:06:15 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-12-10 07:06:15 | STEP 9: Keeping original files for safety (skipping cleanup)
+2025-12-10 07:06:15 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

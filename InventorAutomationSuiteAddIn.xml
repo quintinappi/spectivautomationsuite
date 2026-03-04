@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================================
+     INVENTOR AUTOMATION SUITE - ADD-IN MANIFEST
+     ============================================================================
+     Description: XML manifest for Inventor Add-in registration
+     Author: Spectiv Solutions
+     Version: 1.0.0
+     Date: 2025-01-20
+     ============================================================================ -->
+
+<Addin xmlns="http://schemas.autodesk.com/inventor/addin"
+       Application="Inventor"
+       Type="Standard"
+       Author="Spectiv Solutions"
+       Description="Professional automation tools for Autodesk Inventor"
+       DisplayName="Inventor Automation Suite"
+       HelpUrl="https://www.spectivsolutions.com"
+       SupportedLocales="en"
+       Version="1.0.0"
+       VendorId=""
+      >
+
+  <!-- ============================================================================
+       CLASS IDENTIFICATION
+       ============================================================================ -->
+  <ClassId>
+    YOUR-GUID-HERE-0000-000000000000
+  </ClassId>
+
+  <ClientId>
+    YOUR-GUID-HERE-0000-000000000000
+  </ClientId>
+
+  <!-- ============================================================================
+       ASSEMBLY INFORMATION
+       ============================================================================ -->
+  <Assembly>
+    InventorAutomationSuiteAddIn.dll
+  </Assembly>
+
+  <FullClassName>
+    InventorAutomationSuiteAddIn.StandardAddInServer
+  </FullClassName>
+
+  <!-- ============================================================================
+       VERSION COMPATIBILITY
+       ============================================================================ -->
+  <Versions>
+    <!-- Inventor 2025 -->
+    <Version>
+      <Software>Inventor</Software>
+      <Min>24.0</Min>
+      <Max>25.0</Max>
+    </Version>
+
+    <!-- Inventor 2024 -->
+    <Version>
+      <Software>Inventor</Software>
+      <Min>23.0</Min>
+      <Max>24.0</Max>
+    </Version>
+
+    <!-- Inventor 2023 -->
+    <Version>
+      <Software>Inventor</Software>
+      <Min>22.0</Min>
+      <Max>23.0</Max>
+    </Version>
+  </Versions>
+
+  <!-- ============================================================================
+       LOAD BEHAVIOR
+       ============================================================================ -->
+  <LoadOnStart>
+    1
+  </LoadOnStart>
+
+  <LoadOnFileAccess>
+    0
+  </LoadOnFileAccess>
+
+  <!-- ============================================================================
+       USER INTERFACE
+       ============================================================================ -->
+  <UserInterface>
+    <!-- Add button to Assembly tab -->
+    <RibbonTab>id_AssemblyTab</RibbonTab>
+    <RibbonPanel>Automation Suite</RibbonPanel>
+    <Button>ShowAutomationSuite</Button>
+  </UserInterface>
+
+  <!-- ============================================================================
+       SUPPORT INFORMATION
+       ============================================================================ -->
+  <SupportEmail>
+    support@spectivsolutions.com
+  </SupportEmail>
+
+  <SupportUrl>
+    https://www.spectivsolutions.com/support
+  </SupportUrl>
+
+  <!-- ============================================================================
+       ADD-IN OPTIONS
+       ============================================================================ -->
+  <Options>
+    <!-- Allow the add-in to be loaded automatically -->
+    <LoadAutomatically>true</LoadAutomatically>
+
+    <!-- Show the add-in in the Add-ins Manager -->
+    <VisibleInAddInManager>true</VisibleInAddInManager>
+
+    <!-- Allow user to load/unload the add-in -->
+    <UserUnloadable>true</UserUnloadable>
+  </Options>
+
+</Addin>

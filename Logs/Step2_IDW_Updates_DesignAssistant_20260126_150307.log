@@ -1,0 +1,1088 @@
+2026-01-26 15:03:07 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-01-26 15:03:07 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-01-26 15:03:07 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-01-26 15:03:17 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\STEP_1_MAPPING.txt
+2026-01-26 15:03:17 | VERIFIED: Mapping file exists
+2026-01-26 15:03:17 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan
+2026-01-26 15:03:19 | SUCCESS: Connected to Inventor
+2026-01-26 15:03:19 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\STEP_1_MAPPING.txt
+2026-01-26 15:03:19 | Loaded 80 mappings from file
+2026-01-26 15:03:19 | LOADED: 80 mappings
+2026-01-26 15:03:19 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-01-26 15:03:19 | WILL SEARCH 1 DIRECTORIES FROM MAPPING
+2026-01-26 15:03:19 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan
+2026-01-26 15:03:19 | FOUND IDW: KNL-N1200-SCR04-0780-PAandPD.idw
+2026-01-26 15:03:19 | FOUND: 1 IDW files
+2026-01-26 15:03:19 | UPDATING IDW REFERENCES
+2026-01-26 15:03:19 | IDW: Processing 1 IDW files with Design Assistant method
+2026-01-26 15:03:19 | IDW: Processing [1/1] KNL-N1200-SCR04-0780-PAandPD.idw
+2026-01-26 15:03:19 | IDW: Opening KNL-N1200-SCR04-0780-PAandPD.idw
+2026-01-26 15:03:19 | IDW: Enabled SilentOperation mode
+2026-01-26 15:03:19 | IDW: Successfully opened IDW document
+2026-01-26 15:03:19 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-01-26 15:03:19 | IDW: Found 81 referenced files
+2026-01-26 15:03:19 | IDW: Found potential assembly: DM Underpan.iam
+2026-01-26 15:03:19 | IDW: Successfully opened assembly: DM Underpan.iam
+2026-01-26 15:03:19 | LIVE-REF: N1SCR05-780-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL2.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL2.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL3.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL3.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL4.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL4.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL5.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL5.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL6.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL6.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL7.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL7.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL8.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL8.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL9.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL9.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL10.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL10.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-FL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-FL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A1.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A2.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A2.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL11.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL11.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL12.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL12.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL13.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL13.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL14.ipt
+2026-01-26 15:03:20 | LIVE-REF: N1SCR05-780-PL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL14.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL2.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL2.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL3.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL3.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL4.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL4.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL5.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL5.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL6.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL6.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL7.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL7.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL8.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL8 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL8.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL9.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL9 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL9.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL10.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL10.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL10 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL10.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL11.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL11.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL11 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL11.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL12.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL12.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL12 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL12.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL13.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL13.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL13 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL13.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL14.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL14.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL14 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL14.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL15.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL15.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL16.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL16.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL17.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL17.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL18.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL18.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL18 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL18.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL19.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL19.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL19 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL19.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL20.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL20.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL20 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL20.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL21.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL21.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL21 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL21.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL22.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL22.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL22 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL22.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL23.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL23.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-FL23 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL23.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-PL15.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL15.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-PL15 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL15.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-PL16.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL16.ipt
+2026-01-26 15:03:21 | LIVE-REF: N1SCR05-780-PL16 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL16.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-PL17.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL17.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-PL17 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL17.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL24.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL24.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL24 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL24.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL25.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL25.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL25 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL25.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL26.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL26.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL26 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL26.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL27.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL27.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL27 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL27.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL28.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL28.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL28 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL28.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL29.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL29.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL29 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL29.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL30.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL30.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL30 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL30.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL31.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL31.ipt
+2026-01-26 15:03:22 | LIVE-REF: N1SCR05-780-FL31 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL31.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL32.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL32.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL32 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL32.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL33.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL33.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL33 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL33.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL34.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL34.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL34 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL34.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL35.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL35.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL35 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL35.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL36.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL36.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL36 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL36.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL37.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL37.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL37 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL37.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL38.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL38.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL38 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL38.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL39.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL39.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL39 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL39.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL40.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL40.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL40 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL40.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL41.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL41.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL41 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL41.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL42.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL42.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL42 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL42.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL43.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL43.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL43 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL43.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL44.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL44.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL44 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL44.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL45.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL45.ipt
+2026-01-26 15:03:23 | LIVE-REF: N1SCR05-780-FL45 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL45.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL46.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL46.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL46 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL46.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL47.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL47.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL47 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL47.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL48.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL48.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL48 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL48.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL49.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL49.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL49 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL49.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL50.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL50.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL50 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL50.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL51.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL51.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL51 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL51.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL52.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL52.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL52 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL52.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL53.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL53.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL53 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL53.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL54.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL54.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL54 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL54.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL55.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL55.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL55 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL55.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL56.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL56.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL56 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL56.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL57.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL57.ipt
+2026-01-26 15:03:24 | LIVE-REF: N1SCR05-780-FL57 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL58.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL58 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL59.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL59 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL60.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-FL60 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | LIVE-REF: N1SCR05-780-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | LIVE-REF: Built reference map with 160 entries
+2026-01-26 15:03:25 | IDW: Built live reference map with 160 entries from assembly
+2026-01-26 15:03:25 | IDW:   Processing reference: DM Underpan.iam
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\DM Underpan.iam
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: DM Underpan.iam
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: DM Underpan.iam
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\DM Underpan.iam
+2026-01-26 15:03:25 | IDW:   No smart match found for: DM Underpan.iam
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-A1.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-A2.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-A3.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL1.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL10.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL11.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL12.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL13.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL14.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL15.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL16.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL17.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL18.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL19.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL2.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL20.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL21.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL22.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL23.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL24.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL25.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL26.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL27.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL28.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL29.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL3.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL30.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL31.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL32.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL33.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL34.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL35.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL36.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL37.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL38.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL39.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL4.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL40.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL41.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL42.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL43.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL44.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL45.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL46.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL47.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL48.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL49.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL5.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL50.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL51.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL52.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL53.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL54.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL55.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL56.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL57.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL58.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL59.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL6.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL60.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL7.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL8.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-FL9.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL1.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL10.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL11.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL12.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL13.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL14.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL15.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL16.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:25 | IDW:   Method 2: Resolved to: N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:25 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:25 | IDW:   Smart matching for: N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:   No smart match found for: N1SCR05-780-PL17.ipt
+2026-01-26 15:03:25 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:25 | IDW:   Processing reference: N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL2.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL3.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL4.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL5.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL6.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL7.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL8.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW:   Processing reference: N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   Method 2: Resolving actual file path
+2026-01-26 15:03:26 | IDW:   Method 2: Resolved to: N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   Method 3: Searching live assembly references
+2026-01-26 15:03:26 | IDW:   Method 3: Found in assembly at: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   Method 4: Trying smart path structure matching
+2026-01-26 15:03:26 | IDW:   Smart matching for: N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   IDW relative structure: 22. SSCR05 - Primary Sinks D&R Screen Station\779 780 Underpans\780 - DM Underpan\N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:   No smart match found for: N1SCR05-780-PL9.ipt
+2026-01-26 15:03:26 | IDW:     (No mapping found - keeping current reference)
+2026-01-26 15:03:26 | IDW: No updates made
+2026-01-26 15:03:26 | 
+2026-01-26 15:03:26 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-01-26 15:03:26 | Total IDW files processed: 1
+2026-01-26 15:03:26 | Total reference updates: 0
+2026-01-26 15:03:26 | Total errors: 0
+2026-01-26 15:03:26 | === STEP 2 COMPLETE ===
+2026-01-26 15:03:26 | Mappings: 80
+2026-01-26 15:03:26 | IDW Files: 1
+2026-01-26 15:03:26 | Updates: 0
+2026-01-26 15:03:26 | Errors: 0

@@ -1,0 +1,246 @@
+2026-02-22 12:16:24 | === STEP 2: IDW REFERENCE UPDATES - DESIGN ASSISTANT METHOD ===
+2026-02-22 12:16:24 | NO AUTO-DETECTION - USER MUST SELECT MAPPING FILE
+2026-02-22 12:16:24 | STEP 0: ASKING USER FOR MAPPING FILE (MANDATORY)
+2026-02-22 12:16:26 | USER PROVIDED PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\STEP_1_MAPPING.txt
+2026-02-22 12:16:26 | VERIFIED: Mapping file exists
+2026-02-22 12:16:26 | PROJECT DIRECTORY: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box
+2026-02-22 12:16:27 | SUCCESS: Connected to Inventor
+2026-02-22 12:16:27 | LOADING MAPPING FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\STEP_1_MAPPING.txt
+2026-02-22 12:16:27 | Loaded 19 mappings from file
+2026-02-22 12:16:27 | LOADED: 19 mappings
+2026-02-22 12:16:27 | FINDING IDW FILES - ONLY FROM MAPPING DIRECTORIES
+2026-02-22 12:16:27 | WILL SEARCH 3 DIRECTORIES FROM MAPPING
+2026-02-22 12:16:27 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1
+2026-02-22 12:16:27 | FOUND IDW: MGY-200-DSL-06-01-01.idw
+2026-02-22 12:16:27 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2
+2026-02-22 12:16:27 | FOUND IDW: MGY-200-DSL-06-01-02.idw
+2026-02-22 12:16:27 | SEARCHING: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute
+2026-02-22 12:16:27 | FOUND IDW: MGY-200-DSL-06-02.idw
+2026-02-22 12:16:27 | FOUND: 3 IDW files
+2026-02-22 12:16:27 | UPDATING IDW REFERENCES
+2026-02-22 12:16:27 | IDW: Processing 3 IDW files with Design Assistant method
+2026-02-22 12:16:27 | IDW: Processing [1/3] MGY-200-DSL-06-01-01.idw
+2026-02-22 12:16:27 | IDW: Opening MGY-200-DSL-06-01-01.idw
+2026-02-22 12:16:27 | IDW: Enabled SilentOperation mode
+2026-02-22 12:16:27 | IDW: Successfully opened IDW document
+2026-02-22 12:16:27 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 12:16:27 | IDW: Found 3 referenced files
+2026-02-22 12:16:27 | IDW: Found potential assembly: Support Beam-1.iam
+2026-02-22 12:16:27 | IDW: Successfully opened assembly: Support Beam-1.iam
+2026-02-22 12:16:27 | LIVE-REF: N1SCR03-768-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-PL1.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-PL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-PL1.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-B1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-B1.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-B1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-B1.ipt
+2026-02-22 12:16:28 | LIVE-REF: Built reference map with 4 entries
+2026-02-22 12:16:28 | IDW: Built live reference map with 4 entries from assembly
+2026-02-22 12:16:28 | IDW:   Processing reference: Part1 FB-B1.ipt
+2026-02-22 12:16:28 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\Part1 FB-B1.ipt
+2026-02-22 12:16:28 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:28 | IDW:     UPDATING: Part1 FB-B1.ipt -> N1SCR03-768-PL1.ipt
+2026-02-22 12:16:28 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-PL1.ipt
+2026-02-22 12:16:28 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:28 | IDW:   Processing reference: Part2 203x133x25 FB-B1.ipt
+2026-02-22 12:16:28 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\Part2 203x133x25 FB-B1.ipt
+2026-02-22 12:16:28 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:28 | IDW:     UPDATING: Part2 203x133x25 FB-B1.ipt -> N1SCR03-768-B1.ipt
+2026-02-22 12:16:28 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\N1SCR03-768-B1.ipt
+2026-02-22 12:16:28 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:28 | IDW:   Processing reference: Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:28 | IDW:   Method 2: Resolved to: Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:28 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:28 | IDW:   Smart matching for: Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:   IDW relative structure: 768 Flood Box\Support\Support Beam-1\Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:   No smart match found for: Support Beam-1.iam
+2026-02-22 12:16:28 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:28 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-22 12:16:28 | IDW: SUCCESS - Saved with 2 updates
+2026-02-22 12:16:28 | IDW: Processing [2/3] MGY-200-DSL-06-01-02.idw
+2026-02-22 12:16:28 | IDW: Opening MGY-200-DSL-06-01-02.idw
+2026-02-22 12:16:28 | IDW: Enabled SilentOperation mode
+2026-02-22 12:16:28 | IDW: Successfully opened IDW document
+2026-02-22 12:16:28 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 12:16:28 | IDW: Found 3 referenced files
+2026-02-22 12:16:28 | IDW: Found potential assembly: Support Beam-2.iam
+2026-02-22 12:16:28 | IDW: Successfully opened assembly: Support Beam-2.iam
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-PL2.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-PL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-PL2.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-B2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-B2.ipt
+2026-02-22 12:16:28 | LIVE-REF: N1SCR03-768-B2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-B2.ipt
+2026-02-22 12:16:28 | LIVE-REF: Built reference map with 4 entries
+2026-02-22 12:16:28 | IDW: Built live reference map with 4 entries from assembly
+2026-02-22 12:16:28 | IDW:   Processing reference: Part1 FB-B2.ipt
+2026-02-22 12:16:28 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part1 FB-B2.ipt
+2026-02-22 12:16:28 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:28 | IDW:     UPDATING: Part1 FB-B2.ipt -> N1SCR03-768-PL2.ipt
+2026-02-22 12:16:28 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-PL2.ipt
+2026-02-22 12:16:28 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:28 | IDW:   Processing reference: Part2 203x133x25 FB-B2.ipt
+2026-02-22 12:16:28 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Part2 203x133x25 FB-B2.ipt
+2026-02-22 12:16:28 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:28 | IDW:     UPDATING: Part2 203x133x25 FB-B2.ipt -> N1SCR03-768-B2.ipt
+2026-02-22 12:16:28 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\N1SCR03-768-B2.ipt
+2026-02-22 12:16:28 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:29 | IDW:   Processing reference: Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:29 | IDW:   Method 2: Resolved to: Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:29 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:29 | IDW:   Smart matching for: Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:   IDW relative structure: 768 Flood Box\Support\Support Beam-2\Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:   No smart match found for: Support Beam-2.iam
+2026-02-22 12:16:29 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:29 | IDW: Saving with 2 updates using Design Assistant method...
+2026-02-22 12:16:29 | IDW: SUCCESS - Saved with 2 updates
+2026-02-22 12:16:29 | IDW: Processing [3/3] MGY-200-DSL-06-02.idw
+2026-02-22 12:16:29 | IDW: Opening MGY-200-DSL-06-02.idw
+2026-02-22 12:16:29 | IDW: Enabled SilentOperation mode
+2026-02-22 12:16:29 | IDW: Successfully opened IDW document
+2026-02-22 12:16:29 | IDW: Using Design Assistant method - accessing ReferencedFileDescriptors
+2026-02-22 12:16:29 | IDW: Found 13 referenced files
+2026-02-22 12:16:29 | IDW: Found potential assembly: Deslime Flood Chute.iam
+2026-02-22 12:16:29 | IDW: Successfully opened assembly: Deslime Flood Chute.iam
+2026-02-22 12:16:29 | LIVE-REF: N1SCR03-768-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL3.ipt
+2026-02-22 12:16:29 | LIVE-REF: N1SCR03-768-PL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL3.ipt
+2026-02-22 12:16:29 | LIVE-REF: N1SCR03-768-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A2.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A2.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A3.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A3.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-A4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL5.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL5 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL5.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL6.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL6 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL6.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL7.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-PL7 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL7.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL2.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL2 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL2.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL3.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL3 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL3.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-LPL4 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-LPL4.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-P1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-P1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-P1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-P1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-FLG1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-FLG1.ipt
+2026-02-22 12:16:30 | LIVE-REF: N1SCR03-768-FLG1 [from iProperty] -> C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-FLG1.ipt
+2026-02-22 12:16:30 | LIVE-REF: Built reference map with 30 entries
+2026-02-22 12:16:30 | IDW: Built live reference map with 30 entries from assembly
+2026-02-22 12:16:30 | IDW:   Processing reference: Lug FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Lug FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Lug FB-C.ipt -> N1SCR03-768-PL7.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL7.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:30 | IDW:   Method 2: Resolved to: Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:30 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:30 | IDW:   Smart matching for: Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   No smart match found for: Part1 FB-C.ipt
+2026-02-22 12:16:30 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:30 | IDW:   Processing reference: Part10 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part10 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part10 FB-C.ipt -> N1SCR03-768-PL5.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL5.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part11 Corner Gusset FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part11 Corner Gusset FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part11 Corner Gusset FB-C.ipt -> N1SCR03-768-PL6.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL6.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:30 | IDW:   Method 2: Resolved to: Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:30 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:30 | IDW:   Smart matching for: Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   No smart match found for: Part2 FB-C.ipt
+2026-02-22 12:16:30 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:30 | IDW:   Processing reference: Part3 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part3 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part3 FB-C.ipt -> N1SCR03-768-PL3.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL3.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:30 | IDW:   Method 2: Resolved to: Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:30 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:30 | IDW:   Smart matching for: Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   IDW relative structure: 20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   No smart match found for: Part4 FB-C.ipt
+2026-02-22 12:16:30 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:30 | IDW:   Processing reference: Part5 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part5 FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part5 FB-C.ipt -> N1SCR03-768-PL4.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-PL4.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part6 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part6 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part6 Angle FB-C.ipt -> N1SCR03-768-A1.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A1.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part7 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part7 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part7 Angle FB-C.ipt -> N1SCR03-768-A2.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A2.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part8 (Part7 Angle MIR) FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part8 (Part7 Angle MIR) FB-C.ipt -> N1SCR03-768-A3.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A3.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Part9 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Full path from IDW: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\Part9 Angle FB-C.ipt
+2026-02-22 12:16:30 | IDW:   Method 1: Found exact path match in mapping
+2026-02-22 12:16:30 | IDW:     UPDATING: Part9 Angle FB-C.ipt -> N1SCR03-768-A4.ipt
+2026-02-22 12:16:30 | IDW:     NEW PATH: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\20. N1SCR03 - Deslime Screen Station\768 Flood Box\Chute\N1SCR03-768-A4.ipt
+2026-02-22 12:16:30 | IDW:     ✓ SUCCESS - Reference updated using Design Assistant method
+2026-02-22 12:16:30 | IDW:   Processing reference: Flood Chute.iam
+2026-02-22 12:16:30 | IDW:   Full path from IDW: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\21. NSCR03 - Deslime Screen Station\05. Model\Flood Box\Chute\Flood Chute.iam
+2026-02-22 12:16:30 | IDW:   Method 2: Resolving actual file path
+2026-02-22 12:16:30 | RESOLVE: Looking for renamed version of: Flood Chute.iam
+2026-02-22 12:16:30 | RESOLVE: Searching directory: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\21. NSCR03 - Deslime Screen Station\05. Model\Flood Box\Chute
+2026-02-22 12:16:30 | RESOLVE: ERROR - Directory doesn't exist: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\21. NSCR03 - Deslime Screen Station\05. Model\Flood Box\Chute
+2026-02-22 12:16:30 | IDW:   Method 2: Could not resolve actual file path
+2026-02-22 12:16:30 | IDW:   Method 3: Searching live assembly references
+2026-02-22 12:16:30 | IDW:   Method 4: Trying smart path structure matching
+2026-02-22 12:16:30 | IDW:   Smart matching for: Flood Chute.iam
+2026-02-22 12:16:30 | IDW:   IDW relative structure: 05. Model\Flood Box\Chute\Flood Chute.iam
+2026-02-22 12:16:30 | IDW:   No smart match found for: Flood Chute.iam
+2026-02-22 12:16:30 | IDW:     (No mapping found - keeping current reference)
+2026-02-22 12:16:30 | IDW: Saving with 9 updates using Design Assistant method...
+2026-02-22 12:16:31 | IDW: SUCCESS - Saved with 9 updates
+2026-02-22 12:16:31 | 
+2026-02-22 12:16:31 | === DESIGN ASSISTANT METHOD SUMMARY ===
+2026-02-22 12:16:31 | Total IDW files processed: 3
+2026-02-22 12:16:31 | Total reference updates: 13
+2026-02-22 12:16:31 | Total errors: 0
+2026-02-22 12:16:31 | === STEP 2 COMPLETE ===
+2026-02-22 12:16:31 | Mappings: 19
+2026-02-22 12:16:31 | IDW Files: 3
+2026-02-22 12:16:31 | Updates: 13
+2026-02-22 12:16:31 | Errors: 0

@@ -1,0 +1,11 @@
+2026-01-24 14:59:20 | === ASSEMBLY CLONER ===
+2026-01-24 14:59:20 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-24 14:59:22 | SUCCESS: Connected to existing Inventor instance
+2026-01-24 14:59:22 | STEP 1: Detecting open assembly
+2026-01-24 14:59:22 | DETECTED: Structure & Walkway.iam
+2026-01-24 14:59:22 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Structure & Walkway.iam
+2026-01-24 14:59:23 | STEP 2: Getting destination folder from user
+2026-01-24 14:59:58 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\23. SSCR07 - Secondary Sinks D&R Screen Station
+2026-01-24 14:59:58 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\23. SSCR07 - Secondary Sinks D&R Screen Station\AssemblyCloner_20260124_145958.log
+2026-01-24 14:59:58 | New assembly name will be: 23. SSCR07 - Secondary Sinks D&R Screen Station.iam
+2026-01-24 14:59:58 | STEP 3: Asking about heritage renaming

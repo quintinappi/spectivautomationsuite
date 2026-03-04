@@ -1,0 +1,56 @@
+﻿2025-12-10 20:32:19 | === ASSEMBLY CLONER STARTED ===
+2025-12-10 20:32:19 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-1 - LH\Staircase-1.iam
+2025-12-10 20:32:19 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-1 - LH
+2025-12-10 20:32:20 | User confirmed clone operation
+2025-12-10 20:32:20 | Opening folder browser dialog...
+2025-12-10 20:32:26 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest
+2025-12-10 20:32:27 | Rename parts: True
+2025-12-10 20:32:27 | Prompting for plant section prefix...
+2025-12-10 20:32:28 | Plant section prefix: staircasetest
+2025-12-10 20:32:28 | Collected 15 parts with occurrence names
+2025-12-10 20:32:28 | Creating heritage copy of assembly using SaveAs...
+2025-12-10 20:32:29 |   SUCCESS: Assembly heritage copy created at C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest\staircasetest.iam
+2025-12-10 20:32:29 | Creating heritage copies of 15 parts...
+2025-12-10 20:32:29 | Creating heritage copy: Part1 TFC.ipt -> staircasetest-PL1.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part2 TFC.ipt -> staircasetest-PL2.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part3 TFC.ipt -> staircasetest-PL3.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part4 TFC .ipt -> staircasetest-PL4.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part5 TFC.ipt -> staircasetest-PL5.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part6 TFC.ipt -> staircasetest-PL6.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part7 Stair End Plate.ipt -> staircasetest-PL7.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part14 Base Plate.ipt -> staircasetest-PL8.ipt
+2025-12-10 20:32:29 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:29 | Creating heritage copy: Part8 Stair Stanchion Plate.ipt -> staircasetest-PL9.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Part9 TFC.ipt -> staircasetest-PL10.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Part10 TFC.ipt -> staircasetest-PL11.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Part11 TFC.ipt -> staircasetest-PL12.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Step.ipt -> staircasetest-PL13.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Bolted Connection1.iam -> staircasetest-ASM14.iam
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Creating heritage copy: Part13 Stanchion Plate.ipt -> staircasetest-PL15.ipt
+2025-12-10 20:32:30 |   SUCCESS: Heritage copy created
+2025-12-10 20:32:30 | Opening new assembly invisibly...
+2025-12-10 20:32:30 | Updating assembly references...
+2025-12-10 20:32:31 | Saving new assembly...
+2025-12-10 20:32:32 | Closing new assembly...
+2025-12-10 20:32:32 | Processing IDW files...
+2025-12-10 20:32:32 | Found 1 IDW files to process
+2025-12-10 20:32:32 | Processing IDW: MGY-300-SP-01-02.idw
+2025-12-10 20:32:32 |   Copied to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\staircasetest\MGY-300-SP-01-02.idw
+2025-12-10 20:32:32 |   Opening IDW invisibly...
+2025-12-10 20:32:49 | ERROR processing IDW: Unspecified error (0x80004005 (E_FAIL))
+2025-12-10 20:32:49 | Saving iLogic patch log...
+2025-12-10 20:32:49 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-10 20:32:49 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251210_203219.log

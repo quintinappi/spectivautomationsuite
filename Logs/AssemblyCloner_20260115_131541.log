@@ -1,0 +1,255 @@
+2026-01-15 13:15:41 | === ASSEMBLY CLONER ===
+2026-01-15 13:15:41 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 13:15:42 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 13:15:42 | STEP 1: Detecting open assembly
+2026-01-15 13:15:42 | DETECTED: Staircase-1.iam
+2026-01-15 13:15:42 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Staircase-1.iam
+2026-01-15 13:15:43 | STEP 2: Getting destination folder from user
+2026-01-15 13:15:47 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3
+2026-01-15 13:15:47 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\AssemblyCloner_20260115_131547.log
+2026-01-15 13:15:47 | New assembly name will be: Staircase-3.iam
+2026-01-15 13:15:47 | STEP 3: Asking about heritage renaming
+2026-01-15 13:15:48 | PLANT: Getting plant section naming convention from user
+2026-01-15 13:15:49 | PLANT: Using prefix: CLONE-001-
+2026-01-15 13:15:49 | STEP 4: Analyzing assembly structure
+2026-01-15 13:15:49 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 13:15:49 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-A1.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH1.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH2.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH3.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH4.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH5.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH6.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH7.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH8.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-CH9.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PART1.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PL1.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PL2.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PL3.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PL4.ipt ()
+2026-01-15 13:15:49 | COLLECT: PART STAIRCASE-1-PL5.ipt ()
+2026-01-15 13:15:49 | COLLECT: Found 17 unique files to copy
+2026-01-15 13:15:49 | ANALYZE: Found 17 unique parts to copy
+2026-01-15 13:15:49 | STEP 5: Grouping components for heritage naming
+2026-01-15 13:15:49 | GROUP: Grouping parts for heritage naming...
+2026-01-15 13:15:49 | GROUP: Skipping sub-assembly Bolted Connection1.iam
+2026-01-15 13:15:49 | GROUP: Created 1 groups
+2026-01-15 13:15:49 | SCHEME: OTHER -> CLONE-001-OTHER{N}
+2026-01-15 13:15:49 | STEP 6: Copying assembly to destination
+2026-01-15 13:15:49 | Closing source assembly for safe copy...
+2026-01-15 13:15:50 | COPIED: Assembly Staircase-1.iam -> Staircase-3.iam
+2026-01-15 13:15:50 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 13:15:50 | COPY: SUB-ASSEMBLY Bolted Connection1.iam (keeping original name)
+2026-01-15 13:15:50 | COPIED: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-A1.ipt -> CLONE-001-OTHER1.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH1.ipt -> CLONE-001-OTHER2.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH2.ipt -> CLONE-001-OTHER3.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH3.ipt -> CLONE-001-OTHER4.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH4.ipt -> CLONE-001-OTHER5.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH5.ipt -> CLONE-001-OTHER6.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH6.ipt -> CLONE-001-OTHER7.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH7.ipt -> CLONE-001-OTHER8.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH8.ipt -> CLONE-001-OTHER9.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-CH9.ipt -> CLONE-001-OTHER10.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PART1.ipt -> CLONE-001-OTHER11.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PL1.ipt -> CLONE-001-OTHER12.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PL2.ipt -> CLONE-001-OTHER13.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PL3.ipt -> CLONE-001-OTHER14.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PL4.ipt -> CLONE-001-OTHER15.ipt
+2026-01-15 13:15:50 | COPIED: STAIRCASE-1-PL5.ipt -> CLONE-001-OTHER16.ipt
+2026-01-15 13:15:50 | STEP 8: Updating references in copied assembly using ApprenticeServer
+2026-01-15 13:15:50 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2026-01-15 13:15:50 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2026-01-15 13:15:50 | ASSEMBLY UPDATE (Inventor): Opened Staircase-3.iam
+2026-01-15 13:15:50 | UPDATE: Updating assembly references to local copies...
+2026-01-15 13:15:50 | UPDATE: Built filename lookup with 18 entries
+2026-01-15 13:15:50 | UPDATE: Using File.ReferencedFileDescriptors method - 17 references at level ROOT
+2026-01-15 13:15:50 | UPDATE: Bolted Connection1.iam -> Bolted Connection1.iam
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-A1.ipt -> CLONE-001-OTHER1.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH1.ipt -> CLONE-001-OTHER2.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH2.ipt -> CLONE-001-OTHER3.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH3.ipt -> CLONE-001-OTHER4.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH4.ipt -> CLONE-001-OTHER5.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH5.ipt -> CLONE-001-OTHER6.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH6.ipt -> CLONE-001-OTHER7.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH7.ipt -> CLONE-001-OTHER8.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH8.ipt -> CLONE-001-OTHER9.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-CH9.ipt -> CLONE-001-OTHER10.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-PART1.ipt -> CLONE-001-OTHER11.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-PL1.ipt -> CLONE-001-OTHER12.ipt
+2026-01-15 13:15:50 | UPDATE: STAIRCASE-1-PL2.ipt -> CLONE-001-OTHER13.ipt
+2026-01-15 13:15:51 | UPDATE: STAIRCASE-1-PL3.ipt -> CLONE-001-OTHER14.ipt
+2026-01-15 13:15:51 | UPDATE: STAIRCASE-1-PL4.ipt -> CLONE-001-OTHER15.ipt
+2026-01-15 13:15:51 | UPDATE: STAIRCASE-1-PL5.ipt -> CLONE-001-OTHER16.ipt
+2026-01-15 13:15:51 | UPDATE: Updated 17 of 17 references at level ROOT
+2026-01-15 13:15:51 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2026-01-15 13:15:51 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2026-01-15 13:15:51 | STEP 10: Updating iProperties for copied documents
+2026-01-15 13:15:51 | IPROP: Starting iProperties update for 18 copied files
+2026-01-15 13:15:52 | IPROP: Updated iProperties for Staircase-3.iam
+2026-01-15 13:15:52 | IPROP: ERROR saving Staircase-3.iam: Object required
+2026-01-15 13:15:53 | IPROP: Updated iProperties for Bolted Connection1.iam
+2026-01-15 13:15:53 | IPROP: ERROR saving Bolted Connection1.iam: Object required
+2026-01-15 13:15:53 | IPROP: Updated iProperties for CLONE-001-OTHER1.ipt
+2026-01-15 13:15:53 | IPROP: ERROR saving CLONE-001-OTHER1.ipt: Object required
+2026-01-15 13:15:54 | IPROP: Updated iProperties for CLONE-001-OTHER2.ipt
+2026-01-15 13:15:54 | IPROP: ERROR saving CLONE-001-OTHER2.ipt: Object required
+2026-01-15 13:15:54 | IPROP: Updated iProperties for CLONE-001-OTHER3.ipt
+2026-01-15 13:15:54 | IPROP: ERROR saving CLONE-001-OTHER3.ipt: Object required
+2026-01-15 13:15:55 | IPROP: Updated iProperties for CLONE-001-OTHER4.ipt
+2026-01-15 13:15:55 | IPROP: ERROR saving CLONE-001-OTHER4.ipt: Object required
+2026-01-15 13:15:56 | IPROP: Updated iProperties for CLONE-001-OTHER5.ipt
+2026-01-15 13:15:56 | IPROP: ERROR saving CLONE-001-OTHER5.ipt: Object required
+2026-01-15 13:15:56 | IPROP: Updated iProperties for CLONE-001-OTHER6.ipt
+2026-01-15 13:15:56 | IPROP: ERROR saving CLONE-001-OTHER6.ipt: Object required
+2026-01-15 13:15:57 | IPROP: Updated iProperties for CLONE-001-OTHER7.ipt
+2026-01-15 13:15:57 | IPROP: ERROR saving CLONE-001-OTHER7.ipt: Object required
+2026-01-15 13:15:57 | IPROP: Updated iProperties for CLONE-001-OTHER8.ipt
+2026-01-15 13:15:58 | IPROP: ERROR saving CLONE-001-OTHER8.ipt: Object required
+2026-01-15 13:15:58 | IPROP: Updated iProperties for CLONE-001-OTHER9.ipt
+2026-01-15 13:15:59 | IPROP: ERROR saving CLONE-001-OTHER9.ipt: Object required
+2026-01-15 13:15:59 | IPROP: Updated iProperties for CLONE-001-OTHER10.ipt
+2026-01-15 13:15:59 | IPROP: ERROR saving CLONE-001-OTHER10.ipt: Object required
+2026-01-15 13:16:00 | IPROP: Updated iProperties for CLONE-001-OTHER11.ipt
+2026-01-15 13:16:00 | IPROP: ERROR saving CLONE-001-OTHER11.ipt: Object required
+2026-01-15 13:16:01 | IPROP: Updated iProperties for CLONE-001-OTHER12.ipt
+2026-01-15 13:16:01 | IPROP: ERROR saving CLONE-001-OTHER12.ipt: Object required
+2026-01-15 13:16:01 | IPROP: Updated iProperties for CLONE-001-OTHER13.ipt
+2026-01-15 13:16:01 | IPROP: ERROR saving CLONE-001-OTHER13.ipt: Object required
+2026-01-15 13:16:02 | IPROP: Updated iProperties for CLONE-001-OTHER14.ipt
+2026-01-15 13:16:02 | IPROP: ERROR saving CLONE-001-OTHER14.ipt: Object required
+2026-01-15 13:16:03 | IPROP: Updated iProperties for CLONE-001-OTHER15.ipt
+2026-01-15 13:16:03 | IPROP: ERROR saving CLONE-001-OTHER15.ipt: Object required
+2026-01-15 13:16:03 | IPROP: Updated iProperties for CLONE-001-OTHER16.ipt
+2026-01-15 13:16:03 | IPROP: ERROR saving CLONE-001-OTHER16.ipt: Object required
+2026-01-15 13:16:03 | IPROP: Completed - updated 18 documents
+2026-01-15 13:16:03 | STEP 11: Validation scan and destination logging
+2026-01-15 13:16:03 | VALIDATE: Writing source and destination inventories...
+2026-01-15 13:16:04 | VALIDATE: Source file count = 66
+2026-01-15 13:16:04 | VALIDATE: Destination file count = 37
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\90deg Long Radius Corner Bend.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Closure Bend 40º.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Handrailing-Std Straight1.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Handrailing-Std Straight2.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Handrailing-Std Straight3.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\MGY-200-DRP-01-18.idw
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part1 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part10 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part11 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part12 Angle.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part13 Stanchion Plate.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part14 Base Plate.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part15 Stair End Plate.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part2 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part3 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part4 TFC .ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part5 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part6 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part7 Stair End Plate.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part8 Stair Stanchion Plate.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Part9 TFC.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-A1.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH1.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH2.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH3.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH4.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH5.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH6.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH7.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH8.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH9.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PART1.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL1.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL2.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL3.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL4.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL5.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Staircase-1.iam
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Stairway Bend 40º.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Stanchion - Side Mounted New.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Stanchion-Side Mounted 40º -LH.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Stanchion-Side Mounted 40º -RH.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Step.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Straight Closure Bend.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Ground Staircase\Design Accelerator\Bolted Connection1.iam
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\MGY-200-DRP-01-18.0049.idw
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-A1.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH1.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH2.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH3.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH4.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH5.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH6.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH7.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH8.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-CH9.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PART1.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PL1.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PL2.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PL3.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PL4.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\STAIRCASE-1-PL5.0001.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\Staircase-1.0161.iam
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\Stanchion - Side Mounted New.0010.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\Stanchion-Side Mounted 40º -LH.0007.ipt
+2026-01-15 13:16:04 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\OldVersions\Stanchion-Side Mounted 40º -RH.0008.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\AssemblyCloner_20260115_131547.log
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\Bolted Connection1.iam
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER1.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER10.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER11.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER12.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER13.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER14.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER15.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER16.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER2.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER3.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER4.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER5.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER6.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER7.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER8.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER9.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\Staircase-3.iam
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\Bolted Connection1.0019.iam
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER1.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER10.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER11.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER12.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER13.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER14.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER15.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER16.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER2.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER3.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER4.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER5.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER6.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER7.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER8.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\CLONE-001-OTHER9.0002.ipt
+2026-01-15 13:16:04 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\OldVersions\Staircase-3.0163.iam
+2026-01-15 13:16:04 | VALIDATE: Checking copied mappings...
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Staircase-1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\Staircase-3.iam
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\Ground Staircase\Design Accelerator\Bolted Connection1.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\Bolted Connection1.iam
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-A1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER1.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER2.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER3.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER4.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER5.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER6.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER7.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER8.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH8.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER9.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-CH9.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER10.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PART1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER11.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER12.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER13.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER14.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER15.ipt
+2026-01-15 13:16:04 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-1 Ground - RH\STAIRCASE-1-PL5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Staircase-3\CLONE-001-OTHER16.ipt
+2026-01-15 13:16:04 | VALIDATE: Missing mapped files = 0
+2026-01-15 13:16:04 | === ASSEMBLY CLONER COMPLETED ===

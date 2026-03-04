@@ -1,0 +1,1037 @@
+2026-01-16 16:51:06 | === PREFIX CLONER ===
+2026-01-16 16:51:06 | Clone assembly with prefix replacement only (keep part suffixes intact)
+2026-01-16 16:51:09 | SUCCESS: Connected to existing Inventor instance
+2026-01-16 16:51:09 | STEP 1: Detecting open assembly
+2026-01-16 16:51:09 | DETECTED: Structure & Walkway Asm.iam
+2026-01-16 16:51:09 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\TEMP - RENAME TEST\000 Structure & Walkway before renaming\000 Structure & Walkway\Structure & Walkway Asm.iam
+2026-01-16 16:51:12 | STEP 2: Analyzing assembly structure
+2026-01-16 16:51:12 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-16 16:51:12 | COLLECT: SUB-ASSEMBLY Structure.iam at ROOT
+2026-01-16 16:51:12 | COLLECT: SUB-ASSEMBLY Panel-1.iam at ROOT>Structure.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B1.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B2.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL1.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B3.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL2.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B4.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL3.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL4.ipt at ROOT>Structure.iam>Panel-1.iam
+2026-01-16 16:51:12 | COLLECT: SUB-ASSEMBLY Panel-3.iam at ROOT>Structure.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B5.ipt at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B6.ipt at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:12 | COLLECT: SUB-ASSEMBLY Pedestal Support Bracket 1.iam at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL5.ipt at ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL6.ipt at ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL7.ipt at ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL8.ipt at ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL9.ipt at ROOT>Structure.iam>Panel-3.iam>Pedestal Support Bracket 1.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PART1.ipt at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-B7.ipt at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:12 | COLLECT: PART FLOATS-003-PL10.ipt at ROOT>Structure.iam>Panel-3.iam
+2026-01-16 16:51:13 | COLLECT: SUB-ASSEMBLY Panel-4.iam at ROOT>Structure.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B8.ipt at ROOT>Structure.iam>Panel-4.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B9.ipt at ROOT>Structure.iam>Panel-4.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B10.ipt at ROOT>Structure.iam>Panel-4.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL11.ipt at ROOT>Structure.iam>Panel-4.iam
+2026-01-16 16:51:13 | COLLECT: SUB-ASSEMBLY Panel-7.iam at ROOT>Structure.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B11.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL12.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL13.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B12.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL14.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-A1.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL15.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B13.ipt at ROOT>Structure.iam>Panel-7.iam
+2026-01-16 16:51:13 | COLLECT: SUB-ASSEMBLY Panel-8.iam at ROOT>Structure.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B14.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-B15.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL16.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-IPE1.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL17.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-A2.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL18.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL19.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL20.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: PART FLOATS-003-PL21.ipt at ROOT>Structure.iam>Panel-8.iam
+2026-01-16 16:51:13 | COLLECT: SUB-ASSEMBLY Panel-9.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B16.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B17.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B18.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL22.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL23.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL24.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-A3.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL25.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL26.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL27.ipt at ROOT>Structure.iam>Panel-9.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Panel-10.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B19.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B20.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B21.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL28.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL29.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL30.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-A4.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL31.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL32.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL33.ipt at ROOT>Structure.iam>Panel-10.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Panel-11.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B22.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B23.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B24.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL34.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL35.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL36.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-A5.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL37.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL38.ipt at ROOT>Structure.iam>Panel-11.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Panel-12.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B25.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B26.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B27.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL39.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL40.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL41.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-A6.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL42.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL43.ipt at ROOT>Structure.iam>Panel-12.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Panel-14.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B28.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B29.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B30.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL44.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL45.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL46.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-A7.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL47.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL48.ipt at ROOT>Structure.iam>Panel-14.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Beam-1.iam at ROOT>Structure.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-B31.ipt at ROOT>Structure.iam>Beam-1.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL49.ipt at ROOT>Structure.iam>Beam-1.iam
+2026-01-16 16:51:14 | COLLECT: PART FLOATS-003-PL50.ipt at ROOT>Structure.iam>Beam-1.iam
+2026-01-16 16:51:14 | COLLECT: SUB-ASSEMBLY Beam-2.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B32.ipt at ROOT>Structure.iam>Beam-2.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL51.ipt at ROOT>Structure.iam>Beam-2.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL52.ipt at ROOT>Structure.iam>Beam-2.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam49.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL53.ipt at ROOT>Structure.iam>Beam49.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B33.ipt at ROOT>Structure.iam>Beam49.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL54.ipt at ROOT>Structure.iam>Beam49.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-4.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL55.ipt at ROOT>Structure.iam>Beam-4.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B34.ipt at ROOT>Structure.iam>Beam-4.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL56.ipt at ROOT>Structure.iam>Beam-4.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL57.ipt at ROOT>Structure.iam>Beam-4.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-5.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL58.ipt at ROOT>Structure.iam>Beam-5.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B35.ipt at ROOT>Structure.iam>Beam-5.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL59.ipt at ROOT>Structure.iam>Beam-5.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-6.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B36.ipt at ROOT>Structure.iam>Beam-6.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL60.ipt at ROOT>Structure.iam>Beam-6.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-7.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B37.ipt at ROOT>Structure.iam>Beam-7.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL61.ipt at ROOT>Structure.iam>Beam-7.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-8.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B38.ipt at ROOT>Structure.iam>Beam-8.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL62.ipt at ROOT>Structure.iam>Beam-8.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-9.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B39.ipt at ROOT>Structure.iam>Beam-9.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL63.ipt at ROOT>Structure.iam>Beam-9.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-10.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B40.ipt at ROOT>Structure.iam>Beam-10.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL64.ipt at ROOT>Structure.iam>Beam-10.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL65.ipt at ROOT>Structure.iam>Beam-10.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-11.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B41.ipt at ROOT>Structure.iam>Beam-11.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL66.ipt at ROOT>Structure.iam>Beam-11.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL67.ipt at ROOT>Structure.iam>Beam-11.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-12.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B42.ipt at ROOT>Structure.iam>Beam-12.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL68.ipt at ROOT>Structure.iam>Beam-12.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL69.ipt at ROOT>Structure.iam>Beam-12.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-13.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B43.ipt at ROOT>Structure.iam>Beam-13.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL70.ipt at ROOT>Structure.iam>Beam-13.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-48.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B44.ipt at ROOT>Structure.iam>Beam-48.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL71.ipt at ROOT>Structure.iam>Beam-48.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-16.iam at ROOT>Structure.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-B45.ipt at ROOT>Structure.iam>Beam-16.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL72.ipt at ROOT>Structure.iam>Beam-16.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL73.ipt at ROOT>Structure.iam>Beam-16.iam
+2026-01-16 16:51:15 | COLLECT: PART FLOATS-003-PL74.ipt at ROOT>Structure.iam>Beam-16.iam
+2026-01-16 16:51:15 | COLLECT: SUB-ASSEMBLY Beam-17.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B46.ipt at ROOT>Structure.iam>Beam-17.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL75.ipt at ROOT>Structure.iam>Beam-17.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-20.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B47.ipt at ROOT>Structure.iam>Beam-20.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL76.ipt at ROOT>Structure.iam>Beam-20.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-25.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B48.ipt at ROOT>Structure.iam>Beam-25.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL77.ipt at ROOT>Structure.iam>Beam-25.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL78.ipt at ROOT>Structure.iam>Beam-25.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-26.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B49.ipt at ROOT>Structure.iam>Beam-26.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL79.ipt at ROOT>Structure.iam>Beam-26.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-27.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B50.ipt at ROOT>Structure.iam>Beam-27.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL80.ipt at ROOT>Structure.iam>Beam-27.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL81.ipt at ROOT>Structure.iam>Beam-27.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-28.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B51.ipt at ROOT>Structure.iam>Beam-28.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL82.ipt at ROOT>Structure.iam>Beam-28.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL83.ipt at ROOT>Structure.iam>Beam-28.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-29.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B52.ipt at ROOT>Structure.iam>Beam-29.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL84.ipt at ROOT>Structure.iam>Beam-29.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL85.ipt at ROOT>Structure.iam>Beam-29.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-30.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B53.ipt at ROOT>Structure.iam>Beam-30.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL86.ipt at ROOT>Structure.iam>Beam-30.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL87.ipt at ROOT>Structure.iam>Beam-30.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-32.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B54.ipt at ROOT>Structure.iam>Beam-32.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL88.ipt at ROOT>Structure.iam>Beam-32.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-33.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B55.ipt at ROOT>Structure.iam>Beam-33.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL89.ipt at ROOT>Structure.iam>Beam-33.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL90.ipt at ROOT>Structure.iam>Beam-33.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-34.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B56.ipt at ROOT>Structure.iam>Beam-34.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL91.ipt at ROOT>Structure.iam>Beam-34.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL92.ipt at ROOT>Structure.iam>Beam-34.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-35.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B57.ipt at ROOT>Structure.iam>Beam-35.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL93.ipt at ROOT>Structure.iam>Beam-35.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-36.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B58.ipt at ROOT>Structure.iam>Beam-36.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL94.ipt at ROOT>Structure.iam>Beam-36.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-37.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B59.ipt at ROOT>Structure.iam>Beam-37.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL95.ipt at ROOT>Structure.iam>Beam-37.iam
+2026-01-16 16:51:16 | COLLECT: SUB-ASSEMBLY Beam-38.iam at ROOT>Structure.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-B60.ipt at ROOT>Structure.iam>Beam-38.iam
+2026-01-16 16:51:16 | COLLECT: PART FLOATS-003-PL96.ipt at ROOT>Structure.iam>Beam-38.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL97.ipt at ROOT>Structure.iam>Beam-38.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Beam-39.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B61.ipt at ROOT>Structure.iam>Beam-39.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL98.ipt at ROOT>Structure.iam>Beam-39.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL99.ipt at ROOT>Structure.iam>Beam-39.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Beam-42.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-IPE2.ipt at ROOT>Structure.iam>Beam-42.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL100.ipt at ROOT>Structure.iam>Beam-42.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL101.ipt at ROOT>Structure.iam>Beam-42.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL102.ipt at ROOT>Structure.iam>Beam-42.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Beam-45.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B62.ipt at ROOT>Structure.iam>Beam-45.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL103.ipt at ROOT>Structure.iam>Beam-45.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL104.ipt at ROOT>Structure.iam>Beam-45.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Column-1.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL105.ipt at ROOT>Structure.iam>Column-1.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B63.ipt at ROOT>Structure.iam>Column-1.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Column-2.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL106.ipt at ROOT>Structure.iam>Column-2.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B64.ipt at ROOT>Structure.iam>Column-2.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL107.ipt at ROOT>Structure.iam>Column-2.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Column-3.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B65.ipt at ROOT>Structure.iam>Column-3.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL108.ipt at ROOT>Structure.iam>Column-3.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Column-4.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-B66.ipt at ROOT>Structure.iam>Column-4.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL109.ipt at ROOT>Structure.iam>Column-4.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Channel-10.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-CH1.ipt at ROOT>Structure.iam>Channel-10.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL110.ipt at ROOT>Structure.iam>Channel-10.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL111.ipt at ROOT>Structure.iam>Channel-10.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL112.ipt at ROOT>Structure.iam>Channel-10.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL113.ipt at ROOT>Structure.iam>Channel-10.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Channel-11.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-CH2.ipt at ROOT>Structure.iam>Channel-11.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL114.ipt at ROOT>Structure.iam>Channel-11.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL115.ipt at ROOT>Structure.iam>Channel-11.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL116.ipt at ROOT>Structure.iam>Channel-11.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL117.ipt at ROOT>Structure.iam>Channel-11.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Channel-12.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-CH3.ipt at ROOT>Structure.iam>Channel-12.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL118.ipt at ROOT>Structure.iam>Channel-12.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL119.ipt at ROOT>Structure.iam>Channel-12.iam
+2026-01-16 16:51:17 | COLLECT: SUB-ASSEMBLY Channel-13.iam at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-CH4.ipt at ROOT>Structure.iam>Channel-13.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL120.ipt at ROOT>Structure.iam>Channel-13.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-PL121.ipt at ROOT>Structure.iam>Channel-13.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A8.ipt at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A9.ipt at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A10.ipt at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A11.ipt at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A12.ipt at ROOT>Structure.iam
+2026-01-16 16:51:17 | COLLECT: PART FLOATS-003-A13.ipt at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: PART FLOATS-003-A14.ipt at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: PART FLOATS-003-A15.ipt at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection5.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection3.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection4.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection6.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection7.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection95.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection8.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection96.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection9.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection10.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection11.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection12.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection13.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection14.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection15.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection16.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection17.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection104.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection105.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection106.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection18.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection19.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection20.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection21.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection22.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection23.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection24.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection25.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection26.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection27.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection28.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection29.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection30.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection31.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection32.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection33.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection34.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection35.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection36.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection37.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection38.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection39.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection40.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection41.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection42.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection43.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection44.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection45.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection46.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection47.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection48.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection49.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection50.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection51.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection52.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection53.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection56.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection57.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection58.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection59.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection60.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection61.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection62.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection63.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection64.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection65.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection66.iam at ROOT>Structure.iam
+2026-01-16 16:51:18 | COLLECT: SUB-ASSEMBLY Bolted Connection67.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection68.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection69.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection70.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection71.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection72.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection73.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection74.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection75.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection76.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection77.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection78.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection79.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection80.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection81.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection82.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection83.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection84.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection85.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection86.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection87.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection88.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection89.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection90.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection91.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection92.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection93.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection94.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection97.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection98.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection99.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection100.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection101.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection102.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection103.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection107.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection108.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection109.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection110.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection128.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection111.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection112.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection113.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection114.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection115.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection116.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection117.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection118.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection119.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection120.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection121.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection122.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection123.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection124.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection125.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection126.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Bolted Connection127.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Beam-19.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-B67.ipt at ROOT>Structure.iam>Beam-19.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-PL122.ipt at ROOT>Structure.iam>Beam-19.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-PL123.ipt at ROOT>Structure.iam>Beam-19.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Beam-18.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-B68.ipt at ROOT>Structure.iam>Beam-18.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-PL124.ipt at ROOT>Structure.iam>Beam-18.iam
+2026-01-16 16:51:19 | COLLECT: SUB-ASSEMBLY Channel-2.iam at ROOT>Structure.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-CH5.ipt at ROOT>Structure.iam>Channel-2.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-PL125.ipt at ROOT>Structure.iam>Channel-2.iam
+2026-01-16 16:51:19 | COLLECT: PART FLOATS-003-PL126.ipt at ROOT>Structure.iam>Channel-2.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A16.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-1.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH6.ipt at ROOT>Structure.iam>Channel-1.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL127.ipt at ROOT>Structure.iam>Channel-1.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL128.ipt at ROOT>Structure.iam>Channel-1.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A17.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Beam-15.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-B69.ipt at ROOT>Structure.iam>Beam-15.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL129.ipt at ROOT>Structure.iam>Beam-15.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL130.ipt at ROOT>Structure.iam>Beam-15.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL131.ipt at ROOT>Structure.iam>Beam-15.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-4.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH7.ipt at ROOT>Structure.iam>Channel-4.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL132.ipt at ROOT>Structure.iam>Channel-4.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL133.ipt at ROOT>Structure.iam>Channel-4.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL134.ipt at ROOT>Structure.iam>Channel-4.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A18.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A19.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-5.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH8.ipt at ROOT>Structure.iam>Channel-5.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL135.ipt at ROOT>Structure.iam>Channel-5.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL136.ipt at ROOT>Structure.iam>Channel-5.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL137.ipt at ROOT>Structure.iam>Channel-5.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-6.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH9.ipt at ROOT>Structure.iam>Channel-6.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL138.ipt at ROOT>Structure.iam>Channel-6.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL139.ipt at ROOT>Structure.iam>Channel-6.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL140.ipt at ROOT>Structure.iam>Channel-6.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-7.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH10.ipt at ROOT>Structure.iam>Channel-7.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL141.ipt at ROOT>Structure.iam>Channel-7.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL142.ipt at ROOT>Structure.iam>Channel-7.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL143.ipt at ROOT>Structure.iam>Channel-7.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A20.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A21.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Channel-8.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-CH11.ipt at ROOT>Structure.iam>Channel-8.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL144.ipt at ROOT>Structure.iam>Channel-8.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL145.ipt at ROOT>Structure.iam>Channel-8.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Beam-24.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-B70.ipt at ROOT>Structure.iam>Beam-24.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL146.ipt at ROOT>Structure.iam>Beam-24.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL147.ipt at ROOT>Structure.iam>Beam-24.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL148.ipt at ROOT>Structure.iam>Beam-24.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL149.ipt at ROOT>Structure.iam>Beam-24.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A22.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-A23.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PART2.ipt at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Beam-31.iam at ROOT>Structure.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-B71.ipt at ROOT>Structure.iam>Beam-31.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PL150.ipt at ROOT>Structure.iam>Beam-31.iam
+2026-01-16 16:51:20 | COLLECT: PART FLOATS-003-PART3.ipt at ROOT>Structure.iam>Beam-31.iam
+2026-01-16 16:51:20 | COLLECT: SUB-ASSEMBLY Beam46.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B72.ipt at ROOT>Structure.iam>Beam46.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Beam47.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B73.ipt at ROOT>Structure.iam>Beam47.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL151.ipt at ROOT>Structure.iam>Beam47.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Beam-23.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B74.ipt at ROOT>Structure.iam>Beam-23.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL152.ipt at ROOT>Structure.iam>Beam-23.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Beam-14.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B75.ipt at ROOT>Structure.iam>Beam-14.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL153.ipt at ROOT>Structure.iam>Beam-14.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL154.ipt at ROOT>Structure.iam>Beam-14.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL155.ipt at ROOT>Structure.iam>Beam-14.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-A24.ipt at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Panel-2.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B76.ipt at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL156.ipt at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B77.ipt at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-B78.ipt at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL157.ipt at ROOT>Structure.iam>Panel-2.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-A25.ipt at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-A26.ipt at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Channel-14.iam at ROOT>Structure.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH12.ipt at ROOT>Structure.iam>Channel-14.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-PL158.ipt at ROOT>Structure.iam>Channel-14.iam
+2026-01-16 16:51:21 | COLLECT: SUB-ASSEMBLY Walkway-1.iam at ROOT
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH13.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-IPE3.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-IPE4.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH14.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH15.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH16.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-CH17.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:21 | COLLECT: PART FLOATS-003-A27.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL159.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL160.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL161.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH18.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL162.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-A28.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE5.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE6.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL163.ipt at ROOT>Walkway-1.iam
+2026-01-16 16:51:22 | COLLECT: SUB-ASSEMBLY Walkway-2.iam at ROOT
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH19.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL164.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE7.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE8.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH20.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH21.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH22.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH23.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-A29.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL165.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL166.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL167.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH24.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-PL168.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-A30.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE9.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE10.ipt at ROOT>Walkway-2.iam
+2026-01-16 16:51:22 | COLLECT: SUB-ASSEMBLY Walkway-3.iam at ROOT
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE11.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE12.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-IPE13.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH25.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH26.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:22 | COLLECT: PART FLOATS-003-CH27.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL169.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL170.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL171.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL172.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL173.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A31.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A32.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A33.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE14.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE15.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE16.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-FLG1.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE17.ipt at ROOT>Walkway-3.iam
+2026-01-16 16:51:23 | COLLECT: SUB-ASSEMBLY Walkway-4.iam at ROOT
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE18.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE19.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE20.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH28.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH29.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH30.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL174.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL175.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL176.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL177.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL178.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A34.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A35.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-A36.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE21.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE22.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE23.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE24.ipt at ROOT>Walkway-4.iam
+2026-01-16 16:51:23 | COLLECT: SUB-ASSEMBLY Walkway-5.iam at ROOT
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-IPE25.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH31.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH32.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: Skipping suppressed occurrence Part6 PFC:2 at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: Skipping suppressed occurrence Part7 PFC:2 at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-CH33.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL179.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:23 | COLLECT: PART FLOATS-003-PL180.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL181.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL182.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-A37.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-A38.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH34.ipt at ROOT>Walkway-5.iam
+2026-01-16 16:51:24 | COLLECT: SUB-ASSEMBLY Walkway-6.iam at ROOT
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL183.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE26.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE27.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE28.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH35.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH36.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH37.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH38.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL184.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL185.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL186.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL187.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-A39.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-A40.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH39.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL188.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE29.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE30.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE31.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-A41.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH40.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL189.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE32.ipt at ROOT>Walkway-6.iam
+2026-01-16 16:51:24 | COLLECT: SUB-ASSEMBLY Walkway-8.iam at ROOT
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-IPE33.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH41.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH42.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH43.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-CH44.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:24 | COLLECT: PART FLOATS-003-PL190.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL191.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL192.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL193.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL194.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A42.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A43.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A44.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A45.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A46.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH45.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-IPE34.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH46.ipt at ROOT>Walkway-8.iam
+2026-01-16 16:51:25 | COLLECT: SUB-ASSEMBLY Walkway-9.iam at ROOT
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-IPE35.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH47.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL195.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL196.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL197.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A47.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-IPE36.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH48.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL198.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH49.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL199.ipt at ROOT>Walkway-9.iam
+2026-01-16 16:51:25 | COLLECT: SUB-ASSEMBLY Walkway-10.iam at ROOT
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL200.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-IPE37.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH50.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL201.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL202.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL203.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-A48.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH51.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL204.ipt at ROOT>Walkway-10.iam
+2026-01-16 16:51:25 | COLLECT: SUB-ASSEMBLY Knee Brace-1.iam at ROOT
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-CH52.ipt at ROOT>Knee Brace-1.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL205.ipt at ROOT>Knee Brace-1.iam
+2026-01-16 16:51:25 | COLLECT: PART FLOATS-003-PL206.ipt at ROOT>Knee Brace-1.iam
+2026-01-16 16:51:26 | COLLECT: SUB-ASSEMBLY Knee Brace-2.iam at ROOT
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-CH53.ipt at ROOT>Knee Brace-2.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL207.ipt at ROOT>Knee Brace-2.iam
+2026-01-16 16:51:26 | COLLECT: SUB-ASSEMBLY Knee Brace-4.iam at ROOT
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-IPE38.ipt at ROOT>Knee Brace-4.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL208.ipt at ROOT>Knee Brace-4.iam
+2026-01-16 16:51:26 | COLLECT: SUB-ASSEMBLY Walkway-13.iam at ROOT
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-CH54.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL209.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL210.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-A49.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-CH55.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL211.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-IPE39.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-IPE40.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL212.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-PL213.ipt at ROOT>Walkway-13.iam
+2026-01-16 16:51:26 | COLLECT: SUB-ASSEMBLY Centrifuge Frame.iam at ROOT
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-B79.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-B80.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-B81.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-B82.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:26 | COLLECT: PART FLOATS-003-B83.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B84.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B85.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B86.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B87.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B88.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B89.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-B90.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-A50.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-A51.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-A52.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-A53.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL214.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL215.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL216.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL217.ipt at ROOT>Centrifuge Frame.iam
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Walkway-16.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-CH56.ipt at ROOT>Walkway-16.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL218.ipt at ROOT>Walkway-16.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-IPE41.ipt at ROOT>Walkway-16.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-IPE42.ipt at ROOT>Walkway-16.iam
+2026-01-16 16:51:27 | COLLECT: PART FLOATS-003-PL219.ipt at ROOT>Walkway-16.iam
+2026-01-16 16:51:27 | COLLECT: Skipping suppressed occurrence Knee Brace-5:1 at ROOT
+2026-01-16 16:51:27 | COLLECT: Skipping suppressed occurrence Knee Brace-6:1 at ROOT
+2026-01-16 16:51:27 | COLLECT: Skipping suppressed occurrence Knee Brace-6:2 at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection2.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection3.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection4.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection5.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection6.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection7.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection8.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection9.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection10.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection11.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection14.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection15.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection16.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection17.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection18.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection19.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection20.iam at ROOT
+2026-01-16 16:51:27 | COLLECT: SUB-ASSEMBLY Bolted Connection21.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection22.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection23.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection24.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection28.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection29.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection30.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection31.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection32.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection33.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection34.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection35.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection36.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection40.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection41.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection42.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection43.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection44.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection45.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection46.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection47.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection50.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection51.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection52.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection53.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection54.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection55.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection57.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection58.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection59.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection60.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection61.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection62.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection63.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection64.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection67.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection68.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection69.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection70.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection71.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection72.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection38.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection73.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection74.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection75.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection76.iam at ROOT
+2026-01-16 16:51:28 | COLLECT: SUB-ASSEMBLY Bolted Connection77.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection78.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection79.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection80.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection81.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection82.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection83.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection65.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: Skipping suppressed occurrence Staircase-2:1 at ROOT
+2026-01-16 16:51:29 | COLLECT: Skipping suppressed occurrence Staircase-1:1 at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection12.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection13.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection25.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection39.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection48.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection26.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection27.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection37.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection49.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Bolted Connection56.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: SUB-ASSEMBLY Walkway-7.iam at ROOT
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-PL220.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-IPE43.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-CH57.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-CH58.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-CH59.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-CH60.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-PL221.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-PL222.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-PL223.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-PL224.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-A54.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-A55.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-A56.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-CH61.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:29 | COLLECT: PART FLOATS-003-A57.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-A58.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-IPE44.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL225.ipt at ROOT>Walkway-7.iam
+2026-01-16 16:51:30 | COLLECT: SUB-ASSEMBLY Knee Brace-3.iam at ROOT
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-IPE45.ipt at ROOT>Knee Brace-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL226.ipt at ROOT>Knee Brace-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL227.ipt at ROOT>Knee Brace-3.iam
+2026-01-16 16:51:30 | COLLECT: SUB-ASSEMBLY Bolted Connection91.iam at ROOT
+2026-01-16 16:51:30 | COLLECT: SUB-ASSEMBLY Staircase-3.iam at ROOT
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH62.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH63.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH64.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH65.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH66.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-CH67.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL228.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PART4.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: SUB-ASSEMBLY Bolted Connection1.iam at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL229.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: PART FLOATS-003-PL230.ipt at ROOT>Staircase-3.iam
+2026-01-16 16:51:30 | COLLECT: Found 796 unique files
+2026-01-16 16:51:30 | COLLECT: Scanning for IDW drawing files...
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-00.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-00.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-77.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-77.0015.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-01.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-01.0015.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-10.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-10.0013.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-11.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-11.0013.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-12.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-12.0010.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-13.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-13.0010.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-14.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-14.0013.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-15.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-15.0016.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-16.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-16.0019.idw
+2026-01-16 16:51:30 | COLLECT: DRAWING MGY-200-DRP-01-01-17.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-17.0020.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-18.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-18.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-19.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-19.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-02.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-02.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-20.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-20.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-21.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-22.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-23.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-23.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-24.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-24.0017.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-25.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-25.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-26.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-26.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-27.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-27.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-28.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-28.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-29.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-29.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-03.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-30.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-30.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-31.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-31.0011.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-32.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-32.0011.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-33.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-33.0011.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-34.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-34.0015.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-35.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-35.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-36.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-36.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-37.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-37.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-38.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-38.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-39.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-39.0012.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-04.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-04.0010.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-04.0011.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-40.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-40.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-41.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-41.0013.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-42.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-42.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-43.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-43.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-44.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-44.0015.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-45.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-45.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING Beam-48_Beam-21_MGY-200-DRP-01-01-14.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING Beam-48_Beam-21_MGY-200-DRP-01-01-14.0001.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-04.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-04.0001.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-05.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-05.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-06.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-06.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-07.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-07.0017.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-08.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-08.0011.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-09.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-09.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-64.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-64.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-73.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-73.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-74.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-74.0017.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-75.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-75.0020.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-76.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-76.0021.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-75.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-75.0001.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-65.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-65.0018.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-66.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-66.0014.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-67.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-67.0015.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-68.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-68.0015.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-69.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-69.0017.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-70.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-70.0017.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-71.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-71.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-72.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-60.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-60.0015.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-61.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-61.0016.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-62.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-62.0018.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-63.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-63.0018.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-00.0019.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-46.idw
+2026-01-16 16:51:31 | COLLECT: DRAWING MGY-200-DRP-01-01-46.0014.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-55.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-55.0017.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-56.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-56.0015.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-57.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-57.0015.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-58.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-58.0011.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-59 - Copy.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-59.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-59 - Copy.0014.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-59.0014.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-47.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-47.0014.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-48.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-48.0015.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-49.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-49.0019.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-50.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-51.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-52.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-52.0020.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-53.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-53.0018.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-53.0019.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-54.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-01-54.0019.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-10-00.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-10-01.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-12.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-12.0014.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-13.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-13.0015.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-14.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-14.0015.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-15.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-15.0016.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-16.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-16.0013.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-17.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-17.0016.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-00.0007.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-09.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRD-02.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-02.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-02.0017.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-18.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-18.0049.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-19.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-19.0049.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-18.0049.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-18.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-18.0051.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-02.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-02.0050.idw
+2026-01-16 16:51:32 | COLLECT: DRAWING MGY-200-DRP-01-11.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-11.0019.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-08.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-08.0001.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-300-SP-01-02.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-05.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-05.0001.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-13.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-15.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-16.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-16.0001.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-03.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-03.0052.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-04.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-04.0018.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-05.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-05.0021.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-06.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-06.0014.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-07.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-07.0019.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-08.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-08.0023.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-09.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-09.0016.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-10.idw
+2026-01-16 16:51:33 | COLLECT: DRAWING MGY-200-DRP-01-10.0016.idw
+2026-01-16 16:51:33 | ANALYZE: Found 1012 unique files to process
+2026-01-16 16:51:33 | STEP 3: Detecting common prefix from filenames
+2026-01-16 16:51:33 | PREFIX DETECT: Analyzing 1012 files for common prefix...
+2026-01-16 16:51:33 | PREFIX DETECT: Collected 920 unique filenames
+2026-01-16 16:51:33 | STEP 4: Getting prefix information from user
+2026-01-16 16:52:10 | PREFIX: Old prefix confirmed: FLOATS-003-
+2026-01-16 16:52:18 | PREFIX: New prefix: N2SCR04-000
+2026-01-16 16:52:28 | User cancelled prefix input

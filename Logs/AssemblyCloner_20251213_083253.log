@@ -1,0 +1,87 @@
+﻿2025-12-13 08:32:53 | === ASSEMBLY CLONER STARTED ===
+2025-12-13 08:32:53 | Using EXACT methodology from VBScript Option 9
+2025-12-13 08:32:53 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam24\Beam-24.iam
+2025-12-13 08:32:53 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam24
+2025-12-13 08:32:55 | User confirmed clone operation
+2025-12-13 08:32:55 | Opening folder browser dialog...
+2025-12-13 08:33:01 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test
+2025-12-13 08:33:02 | Rename parts: True
+2025-12-13 08:33:02 | Prompting for plant section prefix...
+2025-12-13 08:33:04 | Plant section prefix: test
+2025-12-13 08:33:05 | New assembly name: test
+2025-12-13 08:33:05 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\test.iam
+2025-12-13 08:33:05 | COLLECT: Part1 Beam.ipt (UB254x146x31)
+2025-12-13 08:33:05 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-13 08:33:05 | COLLECT: Part3 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-13 08:33:05 | COLLECT: Part4 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-13 08:33:05 | COLLECT: Part5 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-13 08:33:05 | Collected 5 parts
+2025-12-13 08:33:05 | Closing source assembly for safe copy...
+2025-12-13 08:33:06 | Copying assembly file...
+2025-12-13 08:33:06 | COPIED: Beam-24.iam -> test.iam
+2025-12-13 08:33:06 | Copying 5 parts...
+2025-12-13 08:33:06 | COPIED: Part1 Beam.ipt -> test-B1.ipt
+2025-12-13 08:33:06 | COPIED: Part2 End Plate.ipt -> test-PL2.ipt
+2025-12-13 08:33:06 | COPIED: Part3 Centre Gusset.ipt -> test-PL3.ipt
+2025-12-13 08:33:06 | COPIED: Part4 Centre Gusset.ipt -> test-PL4.ipt
+2025-12-13 08:33:06 | COPIED: Part5 Corner Gusset.ipt -> test-PL5.ipt
+2025-12-13 08:33:06 | Updating assembly references and patching iLogic...
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Opened test.iam
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Found 5 file references
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Replacing Part1 Beam.ipt -> test-B1.ipt
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Replacing Part2 End Plate.ipt -> test-PL2.ipt
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Replacing Part3 Centre Gusset.ipt -> test-PL3.ipt
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Replacing Part4 Centre Gusset.ipt -> test-PL4.ipt
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Replacing Part5 Corner Gusset.ipt -> test-PL5.ipt
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: SUCCESS
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Updated 5 references
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-13 08:33:06 | Patching iLogic rules (in same session)...
+2025-12-13 08:33:06 | Patched 0 iLogic rules
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-13 08:33:06 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-13 08:33:06 | Processing IDW files...
+2025-12-13 08:33:06 | IDW PROCESS: Found 1 IDW files
+2025-12-13 08:33:11 | IDW PROCESS: Processing MGY-200-DRP-01-01-24.idw -> MGY-200-DRP-01-01-99.idw
+2025-12-13 08:33:17 | IDW PROCESS: Opening original IDW from source location...
+2025-12-13 08:33:20 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-13 08:33:20 | IDW PROCESS: Found 6 references
+2025-12-13 08:33:20 | IDW PROCESS: Updating Beam-24.iam -> test.iam
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Updating Part1 Beam.ipt -> test-B1.ipt
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Updating Part2 End Plate.ipt -> test-PL2.ipt
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Updating Part3 Centre Gusset.ipt -> test-PL3.ipt
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Updating Part4 Centre Gusset.ipt -> test-PL4.ipt
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Updating Part5 Corner Gusset.ipt -> test-PL5.ipt
+2025-12-13 08:33:20 | IDW PROCESS: SUCCESS
+2025-12-13 08:33:20 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-13 08:33:20 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-13 08:33:20 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-24.idw
+2025-12-13 08:33:20 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-99'
+2025-12-13 08:33:20 | IDW PROCESS: Updated Description to 'test'
+2025-12-13 08:33:20 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-24.idw
+2025-12-13 08:33:20 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\MGY-200-DRP-01-01-99.idw
+2025-12-13 08:33:21 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-24.idw as MGY-200-DRP-01-01-99.idw (6 references updated)
+2025-12-13 08:33:21 | IDW PROCESS: All IDW files processed successfully
+2025-12-13 08:33:21 | Updating iProperties for copied documents...
+2025-12-13 08:33:22 | Updated iProperties for test.iam
+2025-12-13 08:33:22 | Updated iProperties for test-B1.ipt
+2025-12-13 08:33:22 | Updated iProperties for test-PL2.ipt
+2025-12-13 08:33:22 | Updated iProperties for test-PL3.ipt
+2025-12-13 08:33:23 | Updated iProperties for test-PL4.ipt
+2025-12-13 08:33:23 | Updated iProperties for test-PL5.ipt
+2025-12-13 08:33:23 | Saving iLogic patch log...
+2025-12-13 08:33:23 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-13 08:33:23 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251213_083253.log

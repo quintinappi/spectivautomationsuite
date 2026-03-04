@@ -1,0 +1,641 @@
+2026-01-14 13:42:55 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-14 13:42:55 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-14 13:42:56 | SUCCESS: Connected to existing Inventor instance
+2026-01-14 13:42:56 | STEP 1: Detecting open assembly and analyzing components
+2026-01-14 13:42:56 | DETECTED: Document type: 12291
+2026-01-14 13:42:56 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-14 13:42:56 | DETECTED: Active assembly - N1SCR04-730.iam
+2026-01-14 13:42:56 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\730 CM Head Box Rename Test\730 CM Head Box Rename Test\Workspaces\Workspace\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\N1SCR04-730.iam
+2026-01-14 13:42:58 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-14 13:42:58 | CONFIRMED: 42 occurrences to process
+2026-01-14 13:42:58 | STEP 2: Flattening hierarchy and grouping components
+2026-01-14 13:42:58 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-14 13:42:58 | ANALYZE: Processing assembly - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 13:42:58 | ANALYZE: Found 42 occurrences in N1SCR04-730.iam
+2026-01-14 13:42:58 | ANALYZE: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 13:42:58 | ANALYZE: Processing assembly - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 13:42:58 | ANALYZE: Found 86 occurrences in Head Box.iam
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL3.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL4.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL5.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL6.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL9.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL10.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL10.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-P1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FLG1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-P2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FLG2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-P2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FLG2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-P3.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FLG3.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A2.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A3.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A4.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A5.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A6.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A7.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A8.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL11.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:58 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL12.ipt
+2026-01-14 13:42:58 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL13.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL14.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL15.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL16.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL16.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL16.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL16.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:42:59 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:42:59 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL17.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A9.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:42:59 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:42:59 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL17.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A9.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL3.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL4.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R1.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 13:42:59 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 13:42:59 | ANALYZE: Found 18 occurrences in Lid-2.iam
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL18.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A10.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL5.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL5.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL5.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-A10.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL6.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL6.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL7.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL7.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL6.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL6.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL7.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-FL7.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-R2.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 13:42:59 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:42:59 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:42:59 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - TEST-000-PL19.ipt
+2026-01-14 13:43:00 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 13:43:00 | ANALYZE: Recursive processing completed - Total unique parts processed: 0
+2026-01-14 13:43:00 | ANALYZE: Created 0 component groups
+2026-01-14 13:43:00 | STEP 3: Getting plant section naming convention
+2026-01-14 13:43:00 | PLANT: Getting plant section naming convention from user
+2026-01-14 13:43:04 | PLANT: Using custom naming convention: N1SCR04-730-
+2026-01-14 13:43:06 | STEP 4: Showing component groups summary
+2026-01-14 13:43:06 | SUMMARY: Showing component groups to user
+2026-01-14 13:43:09 | STEP 5: Getting user naming schemes for component groups
+2026-01-14 13:43:09 | INPUT: Getting user naming schemes for 0 groups
+2026-01-14 13:43:09 | STEP 6: Creating heritage-based copies with user naming
+2026-01-14 13:43:09 | HERITAGE: Creating dynamic heritage-based copies
+2026-01-14 13:43:09 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2026-01-14 13:43:09 | HERITAGE: Starting fresh - not loading existing counters
+2026-01-14 13:43:09 | STEP 7: Updating assembly references
+2026-01-14 13:43:09 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2026-01-14 13:43:09 | ASSEMBLY: Updating references in - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 13:43:09 | ASSEMBLY: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 13:43:09 | ASSEMBLY: Updating references in - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL1.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL3.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL4.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL5.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL6.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL7.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL8.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL8.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL8.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL9.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL10.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-PL10.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-P1.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-FLG1.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-P2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-FLG2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-P2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-FLG2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-P3.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-FLG3.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A1.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A2.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A3.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A4.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A5.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A6.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:09 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A7.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A8.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL11.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL12.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL13.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL14.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL15.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL16.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL16.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL16.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL16.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: Saved sub-assembly - Head Box.iam
+2026-01-14 13:43:10 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:43:10 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-PL17.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-A9.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:10 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 13:43:11 | ASSEMBLY: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 13:43:11 | ASSEMBLY: Updating references in - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL17.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-A9.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL3.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL4.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R1.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: Saved sub-assembly - Lid-1.iam
+2026-01-14 13:43:11 | ASSEMBLY: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 13:43:11 | ASSEMBLY: Updating references in - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL18.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-A10.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL5.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL5.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL5.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-A10.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL6.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL6.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL7.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL7.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL6.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL6.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL7.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-FL7.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-R2.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: Saved sub-assembly - Lid-2.iam
+2026-01-14 13:43:11 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 13:43:11 | ASSEMBLY: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: INFO - No mapping found for TEST-000-PL19.ipt (not renamed)
+2026-01-14 13:43:11 | ASSEMBLY: Saving assembly with updated references...
+2026-01-14 13:43:11 | ASSEMBLY: Successfully saved assembly
+2026-01-14 13:43:11 | STEP 8: Auto-detecting and updating IDW files
+2026-01-14 13:43:11 | IDW: Auto-detecting IDW files in assembly directory
+2026-01-14 13:43:12 | IDW: Found drawing file - KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:43:12 | IDW: Processing KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:43:12 | IDW: Opening KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:43:43 | IDW: Found 48 referenced files
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for Head Box.iam
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for N1SCR04-730-FL1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A10.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A2.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A3.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A4.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A5.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A6.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A7.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A8.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-A9.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL3.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL4.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL5.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL6.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FL7.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FLG2.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-FLG3.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-P1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-P2.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-P3.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL10.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL11.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL12.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL13.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL14.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL15.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL16.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL17.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL18.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL19.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL2.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL3.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL4.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL5.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL6.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL7.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL8.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-PL9.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-R1.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for TEST-000-R2.ipt
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for Lid-1.iam
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for Lid-2.iam
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for N1SCR04-730.iam
+2026-01-14 13:43:43 | IDW: INFO - No mapping found for N1SCR04-730-EXPLODED.ipn
+2026-01-14 13:43:43 | IDW: Saved KNL-N1200-SCR04-0730-PA.idw
+2026-01-14 13:43:43 | STEP 8.5: Saving mapping file for external IDW updater
+2026-01-14 13:43:43 | MAPPING: Saving comprehensive mapping file for STEP 2
+2026-01-14 13:43:43 | STEP 9: Keeping original files for safety (skipping cleanup)
+2026-01-14 13:43:43 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

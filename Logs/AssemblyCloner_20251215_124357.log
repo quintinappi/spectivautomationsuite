@@ -1,0 +1,100 @@
+﻿2025-12-15 12:43:57 | === ASSEMBLY CLONER STARTED ===
+2025-12-15 12:43:57 | Using EXACT methodology from VBScript Option 9
+2025-12-15 12:43:57 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\TempAssy.iam
+2025-12-15 12:43:57 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure
+2025-12-15 12:43:59 | User confirmed clone operation
+2025-12-15 12:43:59 | Opening folder browser dialog...
+2025-12-15 12:44:11 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure
+2025-12-15 12:44:13 | Rename parts: True
+2025-12-15 12:44:13 | Prompting for plant section prefix...
+2025-12-15 12:44:24 | Plant section prefix: TempBracing
+2025-12-15 12:44:31 | New assembly name: TempBracing
+2025-12-15 12:44:31 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\TempBracing.iam
+2025-12-15 12:44:31 | COLLECT: Part1 Beam.ipt (UB203x133x25)
+2025-12-15 12:44:31 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part3 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part4 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part1 PFC.ipt (PFC180x70)
+2025-12-15 12:44:31 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part3 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part4 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part1 PFC.ipt (PFC180x70)
+2025-12-15 12:44:31 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part3 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: Part4 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-15 12:44:31 | COLLECT: PartFB15 Angle.ipt (L70x70x6)
+2025-12-15 12:44:31 | COLLECT: PartFB16 Angle.ipt (L70x70x6)
+2025-12-15 12:44:31 | Collected 14 parts
+2025-12-15 12:44:31 | Closing source assembly for safe copy...
+2025-12-15 12:44:35 | Copying assembly file...
+2025-12-15 12:44:35 | COPIED: TempAssy.iam -> TempBracing.iam
+2025-12-15 12:44:35 | Copying 14 parts...
+2025-12-15 12:44:35 | COPIED: Part1 Beam.ipt -> TempBracing-B1.ipt
+2025-12-15 12:44:35 | COPIED: Part2 End Plate.ipt -> TempBracing-PL2.ipt
+2025-12-15 12:44:35 | COPIED: Part3 Centre Gusset.ipt -> TempBracing-PL3.ipt
+2025-12-15 12:44:35 | COPIED: Part4 Corner Gusset.ipt -> TempBracing-PL4.ipt
+2025-12-15 12:44:35 | COPIED: Part1 PFC.ipt -> TempBracing-CH5.ipt
+2025-12-15 12:44:35 | COPIED: Part2 End Plate.ipt -> TempBracing-PL6.ipt
+2025-12-15 12:44:35 | COPIED: Part3 Corner Gusset.ipt -> TempBracing-PL7.ipt
+2025-12-15 12:44:35 | COPIED: Part4 Corner Gusset.ipt -> TempBracing-PL8.ipt
+2025-12-15 12:44:35 | COPIED: Part1 PFC.ipt -> TempBracing-CH9.ipt
+2025-12-15 12:44:35 | COPIED: Part2 End Plate.ipt -> TempBracing-PL10.ipt
+2025-12-15 12:44:35 | COPIED: Part3 Corner Gusset.ipt -> TempBracing-PL11.ipt
+2025-12-15 12:44:35 | COPIED: Part4 Corner Gusset.ipt -> TempBracing-PL12.ipt
+2025-12-15 12:44:35 | COPIED: PartFB15 Angle.ipt -> TempBracing-A13.ipt
+2025-12-15 12:44:35 | COPIED: PartFB16 Angle.ipt -> TempBracing-A14.ipt
+2025-12-15 12:44:35 | Updating assembly references and patching iLogic...
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Opened TempBracing.iam
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Found 5 file references
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Replacing PartFB15 Angle.ipt -> TempBracing-A13.ipt
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Replacing PartFB16 Angle.ipt -> TempBracing-A14.ipt
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: SUCCESS
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: No mapping for Beam-45.iam
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: No mapping for Channel-12.iam
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: No mapping for Channel-13.iam
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Updated 2 references
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-15 12:44:35 | Patching iLogic rules (in same session)...
+2025-12-15 12:44:35 | Patched 0 iLogic rules
+2025-12-15 12:44:35 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-15 12:44:36 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-15 12:44:36 | Processing IDW files...
+2025-12-15 12:44:36 | IDW PROCESS: Found 1 IDW files
+2025-12-15 12:44:41 | IDW PROCESS: Processing MGY-200-DRP-01-01-00.idw -> MGY-200-DRP-01-01-00.idw
+2025-12-15 12:44:59 | IDW PROCESS: Opening original IDW from source location...
+2025-12-15 12:45:16 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-15 12:45:16 | IDW PROCESS: Found 1 references
+2025-12-15 12:45:16 | IDW PROCESS: No mapping for Structure.iam
+2025-12-15 12:45:16 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-15 12:45:16 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-15 12:45:16 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-00.idw
+2025-12-15 12:45:16 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-00'
+2025-12-15 12:45:16 | IDW PROCESS: Updated Description to 'TempBracing'
+2025-12-15 12:45:16 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-00.idw
+2025-12-15 12:45:16 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\MGY-200-DRP-01-01-00.idw
+2025-12-15 12:45:20 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-00.idw as MGY-200-DRP-01-01-00.idw (0 references updated)
+2025-12-15 12:45:23 | IDW PROCESS: All IDW files processed successfully
+2025-12-15 12:45:23 | Updating iProperties for copied documents...
+2025-12-15 12:45:23 | Updated iProperties for TempBracing.iam
+2025-12-15 12:45:28 | Updated iProperties for TempBracing-B1.ipt
+2025-12-15 12:45:28 | Updated iProperties for TempBracing-PL2.ipt
+2025-12-15 12:45:29 | Updated iProperties for TempBracing-PL3.ipt
+2025-12-15 12:45:29 | Updated iProperties for TempBracing-PL4.ipt
+2025-12-15 12:45:29 | Updated iProperties for TempBracing-CH5.ipt
+2025-12-15 12:45:29 | Updated iProperties for TempBracing-PL6.ipt
+2025-12-15 12:45:29 | Updated iProperties for TempBracing-PL7.ipt
+2025-12-15 12:45:30 | Updated iProperties for TempBracing-PL8.ipt
+2025-12-15 12:45:30 | Updated iProperties for TempBracing-CH9.ipt
+2025-12-15 12:45:30 | Updated iProperties for TempBracing-PL10.ipt
+2025-12-15 12:45:30 | Updated iProperties for TempBracing-PL11.ipt
+2025-12-15 12:45:30 | Updated iProperties for TempBracing-PL12.ipt
+2025-12-15 12:45:31 | Updated iProperties for TempBracing-A13.ipt
+2025-12-15 12:45:31 | Updated iProperties for TempBracing-A14.ipt
+2025-12-15 12:45:31 | Saving iLogic patch log...
+2025-12-15 12:45:31 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-15 12:45:31 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251215_124357.log

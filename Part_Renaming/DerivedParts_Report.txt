@@ -1,0 +1,54 @@
+==========================================
+ DERIVED PARTS DETECTION REPORT
+==========================================
+
+Assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Staircase-4.iam
+Scan Time: 1/15/2026 10:16:35 PM
+
+------------------------------------------
+Total Referenced Documents: 20
+------------------------------------------
+
+DERIVED PART FOUND: STAIRCASE-4-01-CH9.ipt
+  Part Location: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH9.ipt
+  Derived Component Count: 1
+
+  [Derived #1]
+    Name: Part3 TFC S-2.ipt
+    Linked: YES
+    Base Component Path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part3 TFC S-2.ipt
+    Base File Exists: YES
+    Relative Location: SAME FOLDER
+
+------------------------------------------
+DERIVED PART FOUND: STAIRCASE-4-01-CH4.ipt
+  Part Location: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH4.ipt
+  Derived Component Count: 1
+
+  [Derived #1]
+    Name: Part5 TFC S-2.ipt
+    Linked: YES
+    Base Component Path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part5 TFC S-2.ipt
+    Base File Exists: YES
+    Relative Location: SAME FOLDER
+
+------------------------------------------
+DERIVED PART FOUND: STAIRCASE-4-01-CH2.ipt
+  Part Location: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\STAIRCASE-4-01-CH2.ipt
+  Derived Component Count: 1
+
+  [Derived #1]
+    Name: Part1 TFC S-2.ipt
+    Linked: YES
+    Base Component Path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Staircase-4\Part1 TFC S-2.ipt
+    Base File Exists: YES
+    Relative Location: SAME FOLDER
+
+------------------------------------------
+
+==========================================
+ SUMMARY
+==========================================
+Parts Scanned: 19
+Derived Parts Found: 3
+==========================================

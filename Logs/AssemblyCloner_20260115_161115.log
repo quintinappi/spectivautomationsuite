@@ -1,0 +1,494 @@
+2026-01-15 16:11:15 | === ASSEMBLY CLONER ===
+2026-01-15 16:11:15 | Copy assembly with all sub-assemblies and parts to new isolated location
+2026-01-15 16:11:15 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 16:11:16 | STEP 1: Detecting open assembly
+2026-01-15 16:11:16 | DETECTED: Splitter Box.iam
+2026-01-15 16:11:16 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box.iam
+2026-01-15 16:11:17 | STEP 2: Getting destination folder from user
+2026-01-15 16:11:20 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST
+2026-01-15 16:11:20 | DEST LOG: Writing destination log to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\AssemblyCloner_20260115_161120.log
+2026-01-15 16:11:20 | New assembly name will be: TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:20 | STEP 3: Asking about heritage renaming
+2026-01-15 16:11:21 | PLANT: Getting plant section naming convention from user
+2026-01-15 16:11:26 | PLANT: Using prefix: CLONE-002-
+2026-01-15 16:11:26 | STEP 4: Analyzing assembly structure
+2026-01-15 16:11:26 | COLLECT: Scanning assembly for all referenced parts and sub-assemblies...
+2026-01-15 16:11:26 | COLLECT: PART Part1.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:26 | COLLECT: PART Part2.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:26 | COLLECT: PART Part3.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:26 | COLLECT: PART Part4.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part5.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part6.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part7.ipt (PL 6mm S355jR) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part8 Pipe.ipt (PIPE - 200NB S.A.B.S.719 - 6 W.T.) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part9 Flange.ipt (FLANGE - 200NB S.A.B.S.1123 1000/3 12 TH'K) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part10 Angle.ipt (L60x60x6) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part11 Angle.ipt (L60x60x6) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part12 Angle.ipt (L60x60x6) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part13 PFC.ipt (TFC120x55) at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part14 End Plate.ipt (PL 10mm S355JR) at ROOT
+2026-01-15 16:11:27 | COLLECT: SUB-ASSEMBLY Spout.iam at ROOT
+2026-01-15 16:11:27 | COLLECT: PART Part1.1.ipt (PL 6mm S355jR) at ROOT>Spout.iam
+2026-01-15 16:11:27 | COLLECT: PART Part1.2.ipt (PIPE - 125NB S.A.B.S.62 - MEDIUM) at ROOT>Spout.iam
+2026-01-15 16:11:27 | COLLECT: PART Part1.3.ipt (4.3 W.T. FEED SPOUT) at ROOT>Spout.iam
+2026-01-15 16:11:27 | COLLECT: PART Part1.4.ipt (DIA.16 LOCATING ROD) at ROOT>Spout.iam
+2026-01-15 16:11:27 | COLLECT: Found 19 unique files
+2026-01-15 16:11:27 | COLLECT: Scanning for IDW drawing files...
+2026-01-15 16:11:27 | COLLECT: DRAWING MGY-200-DRP-07.idw
+2026-01-15 16:11:27 | COLLECT: DRAWING MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:27 | ANALYZE: Found 21 unique parts to copy
+2026-01-15 16:11:27 | STEP 5: Grouping components for heritage naming
+2026-01-15 16:11:27 | GROUP: Grouping parts for heritage naming...
+2026-01-15 16:11:27 | GROUP: Skipping sub-assembly Spout.iam
+2026-01-15 16:11:27 | GROUP: Skipping drawing MGY-200-DRP-07.idw
+2026-01-15 16:11:27 | GROUP: Skipping drawing MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:27 | GROUP: Created 6 groups
+2026-01-15 16:11:27 | SCHEME: PL -> CLONE-002-PL{N}
+2026-01-15 16:11:27 | SCHEME: P -> CLONE-002-P{N}
+2026-01-15 16:11:27 | SCHEME: FLG -> CLONE-002-FLG{N}
+2026-01-15 16:11:27 | SCHEME: A -> CLONE-002-A{N}
+2026-01-15 16:11:27 | SCHEME: CH -> CLONE-002-CH{N}
+2026-01-15 16:11:27 | SCHEME: OTHER -> CLONE-002-OTHER{N}
+2026-01-15 16:11:27 | STEP 6: Copying assembly to destination
+2026-01-15 16:11:27 | Closing source assembly for safe copy...
+2026-01-15 16:11:27 | COPIED: Assembly Splitter Box.iam -> TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:27 | STEP 7: Copying parts and sub-assemblies to destination
+2026-01-15 16:11:27 | COPIED: Part1.ipt -> CLONE-002-PL1.ipt
+2026-01-15 16:11:27 | COPIED: Part2.ipt -> CLONE-002-PL2.ipt
+2026-01-15 16:11:27 | COPIED: Part3.ipt -> CLONE-002-PL3.ipt
+2026-01-15 16:11:27 | COPIED: Part4.ipt -> CLONE-002-PL4.ipt
+2026-01-15 16:11:27 | COPIED: Part5.ipt -> CLONE-002-PL5.ipt
+2026-01-15 16:11:27 | COPIED: Part6.ipt -> CLONE-002-PL6.ipt
+2026-01-15 16:11:27 | COPIED: Part7.ipt -> CLONE-002-PL7.ipt
+2026-01-15 16:11:27 | COPIED: Part8 Pipe.ipt -> CLONE-002-P1.ipt
+2026-01-15 16:11:27 | COPIED: Part9 Flange.ipt -> CLONE-002-FLG1.ipt
+2026-01-15 16:11:27 | COPIED: Part10 Angle.ipt -> CLONE-002-A1.ipt
+2026-01-15 16:11:27 | COPIED: Part11 Angle.ipt -> CLONE-002-A2.ipt
+2026-01-15 16:11:27 | COPIED: Part12 Angle.ipt -> CLONE-002-A3.ipt
+2026-01-15 16:11:27 | COPIED: Part13 PFC.ipt -> CLONE-002-CH1.ipt
+2026-01-15 16:11:27 | COPIED: Part14 End Plate.ipt -> CLONE-002-PL8.ipt
+2026-01-15 16:11:27 | COPY: SUB-ASSEMBLY Spout.iam (keeping original name)
+2026-01-15 16:11:27 | COPIED: Spout.iam -> Spout.iam
+2026-01-15 16:11:27 | COPIED: Part1.1.ipt -> CLONE-002-PL9.ipt
+2026-01-15 16:11:27 | COPIED: Part1.2.ipt -> CLONE-002-P2.ipt
+2026-01-15 16:11:27 | COPIED: Part1.3.ipt -> CLONE-002-OTHER1.ipt
+2026-01-15 16:11:27 | COPIED: Part1.4.ipt -> CLONE-002-OTHER2.ipt
+2026-01-15 16:11:27 | COPY: DRAWING MGY-200-DRP-07.idw (keeping original name)
+2026-01-15 16:11:27 | COPIED: MGY-200-DRP-07.idw -> MGY-200-DRP-07.idw
+2026-01-15 16:11:27 | COPY: DRAWING MGY-200-DRP-07.0009.idw (keeping original name)
+2026-01-15 16:11:27 | COPIED: MGY-200-DRP-07.0009.idw -> MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:27 | STEP 8: Updating references in ALL copied assemblies
+2026-01-15 16:11:27 | STEP 8a: Pre-loading all copied PARTS into memory...
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL2.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL3.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL4.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL5.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL6.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL7.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-P1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-FLG1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-A1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-A2.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-A3.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-CH1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL8.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-PL9.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-P2.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-OTHER1.ipt
+2026-01-15 16:11:28 | PRELOAD: CLONE-002-OTHER2.ipt
+2026-01-15 16:11:28 | STEP 8b: Pre-loading all copied SUB-ASSEMBLIES...
+2026-01-15 16:11:28 | PRELOAD: Spout.iam
+2026-01-15 16:11:28 | STEP 8c: Opening main assembly with all components in memory...
+2026-01-15 16:11:28 | STEP 8c: Main assembly opened successfully
+2026-01-15 16:11:28 | STEP 8d: Updating file references in all assemblies...
+2026-01-15 16:11:28 | STEP 8d: Found 2 assemblies to update
+2026-01-15 16:11:28 | STEP 8d: [1/2] Updating references in TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found TO DELETE - CLONER TEST.iam in memory
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Built lookup with 22 filenames, 22 paths
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found 15 references
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part13 pfc.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part13 PFC.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part13 pfc.ipt -> CLONE-002-CH1.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part14 end plate.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part14 End Plate.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part14 end plate.ipt -> CLONE-002-PL8.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part8 pipe.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part8 Pipe.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part8 pipe.ipt -> CLONE-002-P1.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part9 flange.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part9 Flange.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part9 flange.ipt -> CLONE-002-FLG1.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: spout.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part1.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part1.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part1.ipt -> CLONE-002-PL1.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part10 angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part10 Angle.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part10 angle.ipt -> CLONE-002-A1.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part11 angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part11 Angle.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part11 angle.ipt -> CLONE-002-A2.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part12 angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part12 Angle.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part12 angle.ipt -> CLONE-002-A3.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part2.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part2.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part2.ipt -> CLONE-002-PL2.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part3.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part3.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part3.ipt -> CLONE-002-PL3.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part4.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part4.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part4.ipt -> CLONE-002-PL4.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part5.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part5.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part5.ipt -> CLONE-002-PL5.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part6.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part6.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part6.ipt -> CLONE-002-PL6.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part7.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats Drain and Rinse Screen Station\05. Model\Splitter Box\Part7.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part7.ipt -> CLONE-002-PL7.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Updated 14 references in TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:28 | STEP 8d: [2/2] Updating references in Spout.iam
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found Spout.iam in memory
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Built lookup with 22 filenames, 22 paths
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found 4 references
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part1.1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.1.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part1.1.ipt -> CLONE-002-PL9.ipt
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Checking ref: part1.2.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.2.ipt)
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:28 | IN-MEMORY UPDATE: REPLACING part1.2.ipt -> CLONE-002-P2.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: part1.3.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.3.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: REPLACING part1.3.ipt -> CLONE-002-OTHER1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: part1.4.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.4.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Found by EXACT PATH match
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: REPLACING part1.4.ipt -> CLONE-002-OTHER2.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Updated 4 references in Spout.iam
+2026-01-15 16:11:29 | STEP 8d: Explicitly updating MAIN assembly: TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Found TO DELETE - CLONER TEST.iam in memory
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Built lookup with 22 filenames, 22 paths
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Found 15 references
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-a1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A1.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-a1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-a2.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A2.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-a2.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-a3.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A3.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-a3.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-ch1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-CH1.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-ch1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-flg1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-FLG1.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-flg1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-p1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-P1.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-p1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL1.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl1.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl2.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL2.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl2.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl3.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL3.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl3.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl4.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL4.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl4.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl5.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL5.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl5.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl6.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL6.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl6.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl7.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL7.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl7.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: clone-002-pl8.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL8.ipt)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: NO MAPPING for clone-002-pl8.ipt
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Checking ref: spout.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Found by FILENAME match
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: SKIP (already correct path)
+2026-01-15 16:11:29 | IN-MEMORY UPDATE: Updated 0 references in TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:29 | STEP 8e: Saving all documents...
+2026-01-15 16:11:29 | SAVED: Spout.iam
+2026-01-15 16:11:30 | SAVED: TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:30 | STEP 8: Complete
+2026-01-15 16:11:30 | STEP 9: Updating IDW drawing references
+2026-01-15 16:11:30 | IDW UPDATE: Could not create ApprenticeServer, falling back to Inventor
+2026-01-15 16:11:30 | IDW UPDATE: Error: Object required
+2026-01-15 16:11:30 | IDW UPDATE: Calling Inventor fallback method
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Starting IDW update for destFolder: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Enabled SilentOperation mode
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Set resolve mode to skip unresolved files
+2026-01-15 16:11:30 | IDW UPDATE: Opening main assembly to load all parts: TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:30 | IDW UPDATE: WARNING - Could not open main assembly: Object doesn't support this property or method
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Found 26 files in destination folder
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:30 | IDW UPDATE (Inventor): Processing MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:31 | IDW UPDATE: Found 20 references
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part1.1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.1.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part1.1.ipt -> CLONE-002-PL9.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part1.2.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.2.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part1.2.ipt -> CLONE-002-P2.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part1.3.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.3.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part1.3.ipt -> CLONE-002-OTHER1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part1.4.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.4.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part1.4.ipt -> CLONE-002-OTHER2.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part13 PFC.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part13 PFC.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part13 PFC.ipt -> CLONE-002-CH1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part14 End Plate.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part14 End Plate.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part14 End Plate.ipt -> CLONE-002-PL8.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part8 Pipe.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part8 Pipe.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part8 Pipe.ipt -> CLONE-002-P1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part9 Flange.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part9 Flange.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part9 Flange.ipt -> CLONE-002-FLG1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Splitter Box.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box.iam)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Splitter Box.iam -> TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Spout.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Spout.iam -> Spout.iam
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part1.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part1.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part1.ipt -> CLONE-002-PL1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part10 Angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part10 Angle.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part10 Angle.ipt -> CLONE-002-A1.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part11 Angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part11 Angle.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part11 Angle.ipt -> CLONE-002-A2.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part12 Angle.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part12 Angle.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part12 Angle.ipt -> CLONE-002-A3.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part2.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part2.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part2.ipt -> CLONE-002-PL2.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part3.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part3.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part3.ipt -> CLONE-002-PL3.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part4.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part4.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part4.ipt -> CLONE-002-PL4.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part5.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part5.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part5.ipt -> CLONE-002-PL5.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part6.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part6.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part6.ipt -> CLONE-002-PL6.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:31 | IDW UPDATE: Checking reference: Part7.ipt (path: D:\01 DWG Office\New Largo\06. Model\02. WBS\NP\21. Primary - DMS\22. NSCR04 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part7.ipt)
+2026-01-15 16:11:31 | IDW UPDATE: FOUND mapping - Part7.ipt -> CLONE-002-PL7.ipt
+2026-01-15 16:11:31 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Saved MGY-200-DRP-07.0009.idw (20 updated)
+2026-01-15 16:11:32 | IDW UPDATE (Inventor): Found IDW file: MGY-200-DRP-07.idw
+2026-01-15 16:11:32 | IDW UPDATE (Inventor): Processing MGY-200-DRP-07.idw
+2026-01-15 16:11:32 | IDW UPDATE: Found 20 references
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part1.1.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.1.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part1.1.ipt -> CLONE-002-PL9.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part1.2.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.2.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part1.2.ipt -> CLONE-002-P2.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part1.3.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.3.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part1.3.ipt -> CLONE-002-OTHER1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part1.4.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.4.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part1.4.ipt -> CLONE-002-OTHER2.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part13 PFC.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part13 PFC.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part13 PFC.ipt -> CLONE-002-CH1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part14 End Plate.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part14 End Plate.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part14 End Plate.ipt -> CLONE-002-PL8.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part8 Pipe.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part8 Pipe.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part8 Pipe.ipt -> CLONE-002-P1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part9 Flange.ipt (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part9 Flange.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part9 Flange.ipt -> CLONE-002-FLG1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Splitter Box.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box.iam)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Splitter Box.iam -> TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Spout.iam (path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Spout.iam -> Spout.iam
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part1.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part1.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part1.ipt -> CLONE-002-PL1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part10 Angle.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part10 Angle.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part10 Angle.ipt -> CLONE-002-A1.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part11 Angle.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part11 Angle.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part11 Angle.ipt -> CLONE-002-A2.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part12 Angle.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part12 Angle.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part12 Angle.ipt -> CLONE-002-A3.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:32 | IDW UPDATE: Checking reference: Part2.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part2.ipt)
+2026-01-15 16:11:32 | IDW UPDATE: FOUND mapping - Part2.ipt -> CLONE-002-PL2.ipt
+2026-01-15 16:11:32 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Checking reference: Part3.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part3.ipt)
+2026-01-15 16:11:33 | IDW UPDATE: FOUND mapping - Part3.ipt -> CLONE-002-PL3.ipt
+2026-01-15 16:11:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Checking reference: Part4.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part4.ipt)
+2026-01-15 16:11:33 | IDW UPDATE: FOUND mapping - Part4.ipt -> CLONE-002-PL4.ipt
+2026-01-15 16:11:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Checking reference: Part5.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part5.ipt)
+2026-01-15 16:11:33 | IDW UPDATE: FOUND mapping - Part5.ipt -> CLONE-002-PL5.ipt
+2026-01-15 16:11:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Checking reference: Part6.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part6.ipt)
+2026-01-15 16:11:33 | IDW UPDATE: FOUND mapping - Part6.ipt -> CLONE-002-PL6.ipt
+2026-01-15 16:11:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Checking reference: Part7.ipt (path: F:\NL\06. Model\02. WBS\NP\21. NSCR03 - Primary Floats D&R Screen Station\05. Model\Splitter Box\Part7.ipt)
+2026-01-15 16:11:33 | IDW UPDATE: FOUND mapping - Part7.ipt -> CLONE-002-PL7.ipt
+2026-01-15 16:11:33 | IDW UPDATE: SUCCESS - Updated reference
+2026-01-15 16:11:33 | IDW UPDATE: Saved MGY-200-DRP-07.idw (20 updated)
+2026-01-15 16:11:33 | IDW UPDATE (Inventor): Restored original settings
+2026-01-15 16:11:33 | STEP 10: Updating iProperties for copied documents
+2026-01-15 16:11:33 | IPROP: Starting iProperties update for 22 copied files
+2026-01-15 16:11:34 | IPROP: Updated iProperties for TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:37 | IPROP: ERROR saving TO DELETE - CLONER TEST.iam: Object required
+2026-01-15 16:11:38 | IPROP: Updated iProperties for CLONE-002-PL1.ipt
+2026-01-15 16:11:39 | IPROP: ERROR saving CLONE-002-PL1.ipt: Object required
+2026-01-15 16:11:39 | IPROP: Updated iProperties for CLONE-002-PL2.ipt
+2026-01-15 16:11:40 | IPROP: ERROR saving CLONE-002-PL2.ipt: Object required
+2026-01-15 16:11:40 | IPROP: Updated iProperties for CLONE-002-PL3.ipt
+2026-01-15 16:11:42 | IPROP: ERROR saving CLONE-002-PL3.ipt: Object required
+2026-01-15 16:11:42 | IPROP: Updated iProperties for CLONE-002-PL4.ipt
+2026-01-15 16:11:43 | IPROP: ERROR saving CLONE-002-PL4.ipt: Object required
+2026-01-15 16:11:43 | IPROP: Updated iProperties for CLONE-002-PL5.ipt
+2026-01-15 16:11:44 | IPROP: ERROR saving CLONE-002-PL5.ipt: Object required
+2026-01-15 16:11:44 | IPROP: Updated iProperties for CLONE-002-PL6.ipt
+2026-01-15 16:11:45 | IPROP: ERROR saving CLONE-002-PL6.ipt: Object required
+2026-01-15 16:11:46 | IPROP: Updated iProperties for CLONE-002-PL7.ipt
+2026-01-15 16:11:46 | IPROP: ERROR saving CLONE-002-PL7.ipt: Object required
+2026-01-15 16:11:47 | IPROP: Updated iProperties for CLONE-002-P1.ipt
+2026-01-15 16:11:47 | IPROP: ERROR saving CLONE-002-P1.ipt: Object required
+2026-01-15 16:11:47 | IPROP: Updated iProperties for CLONE-002-FLG1.ipt
+2026-01-15 16:11:47 | IPROP: ERROR saving CLONE-002-FLG1.ipt: Object required
+2026-01-15 16:11:48 | IPROP: Updated iProperties for CLONE-002-A1.ipt
+2026-01-15 16:11:48 | IPROP: ERROR saving CLONE-002-A1.ipt: Object required
+2026-01-15 16:11:49 | IPROP: Updated iProperties for CLONE-002-A2.ipt
+2026-01-15 16:11:49 | IPROP: ERROR saving CLONE-002-A2.ipt: Object required
+2026-01-15 16:11:50 | IPROP: Updated iProperties for CLONE-002-A3.ipt
+2026-01-15 16:11:50 | IPROP: ERROR saving CLONE-002-A3.ipt: Object required
+2026-01-15 16:11:50 | IPROP: Updated iProperties for CLONE-002-CH1.ipt
+2026-01-15 16:11:50 | IPROP: ERROR saving CLONE-002-CH1.ipt: Object required
+2026-01-15 16:11:51 | IPROP: Updated iProperties for CLONE-002-PL8.ipt
+2026-01-15 16:11:51 | IPROP: ERROR saving CLONE-002-PL8.ipt: Object required
+2026-01-15 16:11:52 | IPROP: Updated iProperties for Spout.iam
+2026-01-15 16:11:52 | IPROP: ERROR saving Spout.iam: Object required
+2026-01-15 16:11:53 | IPROP: Updated iProperties for CLONE-002-PL9.ipt
+2026-01-15 16:11:55 | IPROP: ERROR saving CLONE-002-PL9.ipt: Object required
+2026-01-15 16:11:55 | IPROP: Updated iProperties for CLONE-002-P2.ipt
+2026-01-15 16:11:55 | IPROP: ERROR saving CLONE-002-P2.ipt: Object required
+2026-01-15 16:11:56 | IPROP: Updated iProperties for CLONE-002-OTHER1.ipt
+2026-01-15 16:11:56 | IPROP: ERROR saving CLONE-002-OTHER1.ipt: Object required
+2026-01-15 16:11:57 | IPROP: Updated iProperties for CLONE-002-OTHER2.ipt
+2026-01-15 16:11:57 | IPROP: ERROR saving CLONE-002-OTHER2.ipt: Object required
+2026-01-15 16:11:57 | IPROP: Completed - updated 20 documents
+2026-01-15 16:11:57 | STEP 11: Validation scan and destination logging
+2026-01-15 16:11:57 | VALIDATE: Writing source and destination inventories...
+2026-01-15 16:11:57 | VALIDATE: Source file count = 24
+2026-01-15 16:11:57 | VALIDATE: Destination file count = 47
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\MGY-200-DRP-07.idw
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part1.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part10 Angle.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part11 Angle.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part12 Angle.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part13 PFC.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part14 End Plate.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part2.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part3.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part4.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part5.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part6.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part7.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part8 Pipe.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part9 Flange.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box Development for plates.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box Development.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box.iam
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.1.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.2.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.3.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.4.ipt
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Spout.iam
+2026-01-15 16:11:57 | SOURCE FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\OldVersions\MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\AssemblyCloner_20260115_161120.log
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A2.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A3.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-CH1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-FLG1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-OTHER1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-OTHER2.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-P1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-P2.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL1.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL2.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL3.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL4.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL5.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL6.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL7.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL8.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL9.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Flood Chute Development for plates.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Flood Chute Development.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\MGY-200-DRP-07.idw
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Part7 Angle FB-C.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-A1.0012.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-A2.0012.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-A3.0012.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-CH1.0024.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-FLG1.0020.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-OTHER1.0017.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-OTHER2.0016.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-P1.0017.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-P2.0015.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL1.0006.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL2.0007.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL3.0007.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL4.0007.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL5.0007.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL6.0010.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL7.0008.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL8.0010.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\CLONE-002-PL9.0017.ipt
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\MGY-200-DRP-07.0010.idw
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\Spout.0029.iam
+2026-01-15 16:11:57 | DEST FILE: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\OldVersions\TO DELETE - CLONER TEST.0016.iam
+2026-01-15 16:11:57 | VALIDATE: Checking copied mappings...
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Splitter Box.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\TO DELETE - CLONER TEST.iam
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL2.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL3.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL4.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL5.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL6.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part7.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL7.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part8 Pipe.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-P1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part9 Flange.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-FLG1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part10 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part11 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A2.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part12 Angle.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-A3.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part13 PFC.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-CH1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Part14 End Plate.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL8.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Spout.iam -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\Spout.iam
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.1.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-PL9.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.2.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-P2.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-OTHER1.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\Movable Spout\Part1.4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\CLONE-002-OTHER2.ipt
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\MGY-200-DRP-07.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\MGY-200-DRP-07.idw
+2026-01-15 16:11:57 | MAP OK: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\733 Splitter Box\OldVersions\MGY-200-DRP-07.0009.idw -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\TO DELETE - CLONER TEST\MGY-200-DRP-07.0009.idw
+2026-01-15 16:11:57 | VALIDATE: Missing mapped files = 0
+2026-01-15 16:11:57 | === ASSEMBLY CLONER COMPLETED ===

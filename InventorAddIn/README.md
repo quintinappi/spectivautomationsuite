@@ -1,0 +1,199 @@
+# Assembly Cloner Add-In for Inventor
+
+**Author:** Quintin de Bruin © 2025  
+**Platform:** Autodesk Inventor 2026  
+**Framework:** .NET Framework 4.8
+
+## What This Add-In Does
+
+This is a native Inventor Add-In that provides the same functionality as the VBScript Assembly Cloner, **plus** the ability to read and patch iLogic rules.
+
+### Features:
+- ✅ Clone assembly with all parts to new folder
+- ✅ Heritage renaming (PLANT-001-PL1, etc.)
+- ✅ Update all assembly references
+- ✅ **Read iLogic rule source code**
+- ✅ **Patch iLogic rules** - automatically update part references in VB code
+- ✅ Copy and update IDW drawings
+- ✅ Ribbon button integration
+
+---
+
+## Building the Add-In
+
+### Prerequisites:
+1. Visual Studio 2022 with ".NET desktop development" workload
+2. Inventor 2026 installed
+3. .NET Framework 4.8 (you have this)
+
+### Steps:
+
+1. **Open the Solution**
+   ```
+   Open: InventorAddIn\AssemblyClonerAddIn.sln
+   ```
+
+2. **Check References** (should be auto-resolved)
+   - `Autodesk.Inventor.Interop.dll` - from Inventor's Public Assemblies
+   - `Autodesk.iLogic.Interfaces.dll` - from Inventor's Bin folder
+
+3. **Build**
+   - Set configuration to **Release**
+   - Build → Build Solution (Ctrl+Shift+B)
+   - Output: `bin\Release\AssemblyClonerAddIn.dll`
+
+---
+
+## Deploying the Add-In
+
+### Option A: User Add-Ins Folder (Recommended)
+
+1. **Create folder:**
+   ```
+   %APPDATA%\Autodesk\Inventor 2026\Addins\AssemblyClonerAddIn
+   ```
+
+2. **Copy files:**
+   - `AssemblyClonerAddIn.dll`
+   - `AssemblyClonerAddIn.addin`
+
+3. **Restart Inventor**
+
+### Option B: All Users (requires admin)
+
+1. **Copy to:**
+   ```
+   C:\ProgramData\Autodesk\Inventor 2026\Addins\AssemblyClonerAddIn
+   ```
+
+2. **Restart Inventor**
+
+---
+
+## Using the Add-In
+
+After deployment, you'll find new buttons in the **Tools** tab:
+
+| Button | Description |
+|--------|-------------|
+| **Clone Assembly** | Clone the open assembly with iLogic patching |
+| **Scan iLogic** | View and export iLogic rules from current document |
+
+### Clone Assembly Workflow:
+
+1. Open your source assembly in Inventor
+2. Click **Clone Assembly** button
+3. Confirm the source assembly
+4. Enter destination folder path
+5. Choose whether to apply heritage renaming
+6. Wait for completion
+
+The add-in will:
+- Copy all parts to the new folder
+- Update all assembly references
+- Find/replace part names in iLogic rules
+- Copy and update IDW files
+
+### Create Sheet Parts List (IDW)
+
+The `Create Sheet Parts List` ribbon command is implemented to mirror the working legacy scripts exactly.
+
+Behavior:
+- Scans the active sheet and builds a **leaf part number set**:
+   - `.ipt` views add their base filename (lowercase)
+   - `.iam` views are recursively expanded through Structured BOM rows to leaf `.ipt` parts
+- Scans drawing sheets for assembly views and prompts a dropdown when multiple candidates exist.
+- Creates the parts list from the **selected assembly drawing view anchor** (`sheet.PartsLists.Add(assemblyView, point)`).
+- Hides rows whose part number (column 2, fallback column 1) is not in the active-sheet leaf set.
+- Renumbers visible rows as `01, 02, ...`.
+
+Important constraints:
+- This command uses a **single deterministic path** (script-equivalent), with **no alternate/fallback list-generation path**.
+- If no assembly view is found in the drawing, the command stops and reports that condition.
+
+---
+
+## Project Structure
+
+```
+InventorAddIn/
+├── AssemblyClonerAddIn.sln          # Solution file
+├── AssemblyClonerAddIn/
+│   ├── AssemblyClonerAddIn.vbproj   # Project file
+│   ├── AssemblyClonerAddIn.addin    # Add-In manifest (XML)
+│   ├── StandardAddInServer.vb       # Entry point, UI buttons
+│   ├── AssemblyCloner.vb            # Main cloning logic
+│   ├── iLogicPatcher.vb             # iLogic API access
+│   └── My Project/
+│       └── AssemblyInfo.vb          # Assembly metadata
+```
+
+---
+
+## Troubleshooting
+
+### Add-In not appearing in Inventor:
+1. Check Add-In Manager (Tools → Add-Ins)
+2. Look for "Assembly Cloner with iLogic Patcher"
+3. Make sure it's not blocked - click "Load" if needed
+
+### Build errors:
+- If references are broken, re-add from:
+  - `C:\Program Files\Autodesk\Inventor 2026\Bin\Public Assemblies\Autodesk.Inventor.Interop.dll`
+  - `C:\Program Files\Autodesk\Inventor 2026\Bin\Autodesk.iLogic.Interfaces.dll`
+
+### iLogic patching not working:
+- Make sure the iLogic Add-In is enabled in Inventor
+- Check if rules are internal (embedded) vs external (.vb files)
+
+---
+
+## Key API Reference
+
+### Accessing iLogic from .NET:
+
+```vb
+' Get iLogic Add-In
+Dim iLogicAddIn As ApplicationAddIn = m_InventorApp.ApplicationAddIns.ItemById("{3BDD8D79-2179-4B11-8A5A-257B1C0263AC}")
+
+' Get automation interface
+Dim iLogicAuto As Object = iLogicAddIn.Automation
+
+' Get rules from document
+Dim rules As Object = iLogicAuto.Rules(doc)
+
+' Read/write rule text
+For Each rule As Object In rules
+    Dim ruleText As String = rule.Text      ' READ source code
+    rule.Text = modifiedText                 ' WRITE source code
+Next
+```
+
+This is what VBScript **cannot** do but the .NET Add-In **can**.
+
+---
+
+## Future Enhancements
+
+- [ ] Better heritage naming with component type detection
+- [ ] Preview dialog showing what will be changed
+- [ ] Undo/backup functionality
+- [ ] Batch processing multiple assemblies
+- [ ] Integration with registry management
+
+# Installation
+
+1. **Build the Add-In**:
+   - Open `AssemblyClonerAddIn.sln` in Visual Studio 2022 or later
+   - Ensure references to `Autodesk.Inventor.Interop.dll` are correct (update path if Inventor is installed in a non-default location)
+   - Build in **Release** mode
+
+2. **Deploy the Add-In**:
+   - Copy `AssemblyClonerAddIn.dll` and `AssemblyClonerAddIn.addin` to your Inventor AddIns folder
+   - Default location: `%APPDATA%\Autodesk\Inventor 2026\AddIns\` (create folder if needed)
+   - For all users: `C:\ProgramData\Autodesk\Inventor 2026\AddIns\`
+
+3. **Load the Add-In**:
+   - Start Inventor
+   - Go to **Manage** > **Add-Ins**
+   - Find "Assembly Cloner with iLogic Patching" and check the **Loaded** box

@@ -1,0 +1,80 @@
+﻿2025-12-12 14:52:16 | === ASSEMBLY CLONER STARTED ===
+2025-12-12 14:52:16 | Using EXACT methodology from VBScript Option 9
+2025-12-12 14:52:16 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam4\Beam-4.iam
+2025-12-12 14:52:16 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Beam4
+2025-12-12 14:52:17 | User confirmed clone operation
+2025-12-12 14:52:17 | Opening folder browser dialog...
+2025-12-12 14:52:24 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test
+2025-12-12 14:52:25 | Rename parts: True
+2025-12-12 14:52:25 | Prompting for plant section prefix...
+2025-12-12 14:52:34 | Plant section prefix: Beam-99
+2025-12-12 14:52:38 | New assembly name: Beam-99
+2025-12-12 14:52:38 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\Beam-99.iam
+2025-12-12 14:52:38 | COLLECT: Part1.ipt (PL 10mm S355JR)
+2025-12-12 14:52:38 | COLLECT: Part2 203x133x25.ipt (UB203x133x25)
+2025-12-12 14:52:38 | COLLECT: Part4.ipt (PL 8mm S355JR)
+2025-12-12 14:52:38 | COLLECT: Part3.ipt (PL 8mm S355JR)
+2025-12-12 14:52:38 | Collected 4 parts
+2025-12-12 14:52:38 | Closing source assembly for safe copy...
+2025-12-12 14:52:39 | Copying assembly file...
+2025-12-12 14:52:39 | COPIED: Beam-4.iam -> Beam-99.iam
+2025-12-12 14:52:39 | Copying 4 parts...
+2025-12-12 14:52:39 | COPIED: Part1.ipt -> Beam-99-PL1.ipt
+2025-12-12 14:52:39 | COPIED: Part2 203x133x25.ipt -> Beam-99-B2.ipt
+2025-12-12 14:52:39 | COPIED: Part4.ipt -> Beam-99-PL3.ipt
+2025-12-12 14:52:39 | COPIED: Part3.ipt -> Beam-99-PL4.ipt
+2025-12-12 14:52:39 | Updating assembly references and patching iLogic...
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Opened Beam-99.iam
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Found 4 file references
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Replacing Part1.ipt -> Beam-99-PL1.ipt
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: SUCCESS
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Replacing Part2 203x133x25.ipt -> Beam-99-B2.ipt
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: SUCCESS
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Replacing Part3.ipt -> Beam-99-PL4.ipt
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: SUCCESS
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Replacing Part4.ipt -> Beam-99-PL3.ipt
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: SUCCESS
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Updated 4 references
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-12 14:52:39 | Patching iLogic rules (in same session)...
+2025-12-12 14:52:39 | Patched 0 iLogic rules
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-12 14:52:39 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-12 14:52:39 | Processing IDW files...
+2025-12-12 14:52:39 | IDW PROCESS: Found 1 IDW files
+2025-12-12 14:52:43 | IDW PROCESS: Processing MGY-200-DRP-01-01-04.idw -> MGY-200-DRP-01-01-99.idw
+2025-12-12 14:52:43 | IDW PROCESS: Opening original IDW from source location...
+2025-12-12 14:52:44 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-12 14:52:44 | IDW PROCESS: Found 5 references
+2025-12-12 14:52:44 | IDW PROCESS: Updating Beam-4.iam -> Beam-99.iam
+2025-12-12 14:52:44 | IDW PROCESS: SUCCESS
+2025-12-12 14:52:44 | IDW PROCESS: Updating Part1.ipt -> Beam-99-PL1.ipt
+2025-12-12 14:52:44 | IDW PROCESS: SUCCESS
+2025-12-12 14:52:44 | IDW PROCESS: Updating Part2 203x133x25.ipt -> Beam-99-B2.ipt
+2025-12-12 14:52:44 | IDW PROCESS: SUCCESS
+2025-12-12 14:52:44 | IDW PROCESS: Updating Part3.ipt -> Beam-99-PL4.ipt
+2025-12-12 14:52:44 | IDW PROCESS: SUCCESS
+2025-12-12 14:52:44 | IDW PROCESS: Updating Part4.ipt -> Beam-99-PL3.ipt
+2025-12-12 14:52:44 | IDW PROCESS: SUCCESS
+2025-12-12 14:52:44 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-12 14:52:44 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-12 14:52:44 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-04.idw
+2025-12-12 14:52:44 | IDW PROCESS: Updated Part Number to 'Beam-99'
+2025-12-12 14:52:44 | IDW PROCESS: Updated Description to 'Beam-99'
+2025-12-12 14:52:44 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-04.idw
+2025-12-12 14:52:44 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\Civils 2025-11-12\test\MGY-200-DRP-01-01-99.idw
+2025-12-12 14:52:44 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-04.idw as MGY-200-DRP-01-01-99.idw (5 references updated)
+2025-12-12 14:52:45 | IDW PROCESS: All IDW files processed successfully
+2025-12-12 14:52:45 | Updating iProperties for copied documents...
+2025-12-12 14:52:45 | Updated iProperties for Beam-99.iam
+2025-12-12 14:52:45 | Updated iProperties for Beam-99-PL1.ipt
+2025-12-12 14:52:45 | Updated iProperties for Beam-99-B2.ipt
+2025-12-12 14:52:46 | Updated iProperties for Beam-99-PL3.ipt
+2025-12-12 14:52:46 | Updated iProperties for Beam-99-PL4.ipt
+2025-12-12 14:52:46 | Saving iLogic patch log...
+2025-12-12 14:52:46 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-12 14:52:46 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251212_145216.log

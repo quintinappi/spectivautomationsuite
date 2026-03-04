@@ -1,0 +1,107 @@
+﻿2025-12-16 09:57:15 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 09:57:15 | Using EXACT methodology from VBScript Option 9
+2025-12-16 09:57:15 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Panel3\Panel-3.iam
+2025-12-16 09:57:15 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\1.Structure\Panel3
+2025-12-16 09:57:16 | User confirmed clone operation
+2025-12-16 09:57:16 | Opening folder browser dialog...
+2025-12-16 09:57:40 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Panel-5
+2025-12-16 09:57:41 | Rename parts: True
+2025-12-16 09:57:41 | Prompting for plant section prefix...
+2025-12-16 09:57:42 | Plant section prefix: Panel-5
+2025-12-16 09:57:43 | New assembly name: Panel-5
+2025-12-16 09:57:43 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Panel-5\Panel-5.iam
+2025-12-16 09:57:43 | COLLECT: Part4 203 x 203 x 46 H.ipt (UC203x203x46)
+2025-12-16 09:57:43 | COLLECT: Part2 203 x 203 x 46 H.ipt (UC203x203x46)
+2025-12-16 09:57:43 | COLLECT: Pedestal Support Bracket 1 Plate 1.ipt (PL 12mm S355JR)
+2025-12-16 09:57:43 | COLLECT: Pedestal Support Bracket 1 Plate 2.ipt ()
+2025-12-16 09:57:43 | COLLECT: Pedestal Support Bracket 1 Plate 3.ipt ()
+2025-12-16 09:57:43 | COLLECT: Pedestal Support Bracket 1 Plate 4.ipt ()
+2025-12-16 09:57:43 | COLLECT: Pedestal Support Bracket 1 Plate 5.ipt ()
+2025-12-16 09:57:43 | COLLECT: Panel-3-Skeleton.ipt (Panel-3-Skeleton)
+2025-12-16 09:57:43 | COLLECT: Part5 203 x 203 x 46 H.ipt (UC203x203x46)
+2025-12-16 09:57:43 | COLLECT: Part1.ipt (PL 10mm S355JR)
+2025-12-16 09:57:43 | COLLECT: Part6 203 x 203 x 46 H.ipt (I Section Parallel Flange - Universal Beams)
+2025-12-16 09:57:43 | COLLECT: Panel4-Part6.ipt (PL 12mm S355JR)
+2025-12-16 09:57:43 | Collected 12 parts
+2025-12-16 09:57:43 | Closing source assembly for safe copy...
+2025-12-16 09:57:44 | Copying assembly file...
+2025-12-16 09:57:44 | COPIED: Panel-3.iam -> Panel-5.iam
+2025-12-16 09:57:44 | Copying 12 parts...
+2025-12-16 09:57:44 | COPIED: Part4 203 x 203 x 46 H.ipt -> Panel-5-B1.ipt
+2025-12-16 09:57:44 | COPIED: Part2 203 x 203 x 46 H.ipt -> Panel-5-B2.ipt
+2025-12-16 09:57:44 | COPIED: Pedestal Support Bracket 1 Plate 1.ipt -> Panel-5-PL3.ipt
+2025-12-16 09:57:44 | COPIED: Pedestal Support Bracket 1 Plate 2.ipt -> Panel-5-OTHER4.ipt
+2025-12-16 09:57:44 | COPIED: Pedestal Support Bracket 1 Plate 3.ipt -> Panel-5-OTHER5.ipt
+2025-12-16 09:57:44 | COPIED: Pedestal Support Bracket 1 Plate 4.ipt -> Panel-5-OTHER6.ipt
+2025-12-16 09:57:44 | COPIED: Pedestal Support Bracket 1 Plate 5.ipt -> Panel-5-OTHER7.ipt
+2025-12-16 09:57:44 | COPIED: Panel-3-Skeleton.ipt -> Panel-5-OTHER8.ipt
+2025-12-16 09:57:44 | COPIED: Part5 203 x 203 x 46 H.ipt -> Panel-5-B9.ipt
+2025-12-16 09:57:44 | COPIED: Part1.ipt -> Panel-5-PL10.ipt
+2025-12-16 09:57:44 | COPIED: Part6 203 x 203 x 46 H.ipt -> Panel-5-OTHER11.ipt
+2025-12-16 09:57:44 | COPIED: Panel4-Part6.ipt -> Panel-5-PL12.ipt
+2025-12-16 09:57:44 | Updating assembly references and patching iLogic...
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Opened Panel-5.iam
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Found 8 file references
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Panel-3-Skeleton.ipt -> Panel-5-OTHER8.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Part1.ipt -> Panel-5-PL10.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Part2 203 x 203 x 46 H.ipt -> Panel-5-B2.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Part4 203 x 203 x 46 H.ipt -> Panel-5-B1.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Part5 203 x 203 x 46 H.ipt -> Panel-5-B9.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Part6 203 x 203 x 46 H.ipt -> Panel-5-OTHER11.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Replacing Panel4-Part6.ipt -> Panel-5-PL12.ipt
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: No mapping for Pedestal Support Bracket 1.iam
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Updated 7 references
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 09:57:44 | Patching iLogic rules (in same session)...
+2025-12-16 09:57:44 | Patched 0 iLogic rules
+2025-12-16 09:57:44 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 09:57:45 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 09:57:45 | Processing IDW files...
+2025-12-16 09:57:45 | IDW PROCESS: Found 1 IDW files
+2025-12-16 09:57:47 | IDW PROCESS: Processing MGY-200-DRP-01-01-48.idw -> MGY-200-DRP-01-01-48.idw
+2025-12-16 09:58:00 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 09:58:01 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 09:58:01 | IDW PROCESS: Found 5 references
+2025-12-16 09:58:01 | IDW PROCESS: Updating Panel-3.iam -> Panel-5.iam
+2025-12-16 09:58:01 | IDW PROCESS: SUCCESS
+2025-12-16 09:58:01 | IDW PROCESS: Updating Part1.ipt -> Panel-5-PL10.ipt
+2025-12-16 09:58:01 | IDW PROCESS: SUCCESS
+2025-12-16 09:58:01 | IDW PROCESS: Updating Part2 203 x 203 x 46 H.ipt -> Panel-5-B2.ipt
+2025-12-16 09:58:01 | IDW PROCESS: SUCCESS
+2025-12-16 09:58:01 | IDW PROCESS: No mapping for Part3 Beam.ipt
+2025-12-16 09:58:01 | IDW PROCESS: Updating Part4 203 x 203 x 46 H.ipt -> Panel-5-B1.ipt
+2025-12-16 09:58:01 | IDW PROCESS: SUCCESS
+2025-12-16 09:58:01 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 09:58:01 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 09:58:01 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-48.idw
+2025-12-16 09:58:01 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-01-48'
+2025-12-16 09:58:01 | IDW PROCESS: Updated Description to 'Panel-5'
+2025-12-16 09:58:01 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-48.idw
+2025-12-16 09:58:01 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\1.Structure\Panel-5\MGY-200-DRP-01-01-48.idw
+2025-12-16 09:58:02 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-48.idw as MGY-200-DRP-01-01-48.idw (4 references updated)
+2025-12-16 09:58:02 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 09:58:02 | Updating iProperties for copied documents...
+2025-12-16 09:58:02 | Updated iProperties for Panel-5.iam
+2025-12-16 09:58:05 | Updated iProperties for Panel-5-B1.ipt
+2025-12-16 09:58:06 | Updated iProperties for Panel-5-B2.ipt
+2025-12-16 09:58:13 | Updated iProperties for Panel-5-OTHER4.ipt
+2025-12-16 09:58:16 | Updated iProperties for Panel-5-OTHER5.ipt
+2025-12-16 09:58:18 | Updated iProperties for Panel-5-OTHER6.ipt
+2025-12-16 09:58:21 | Updated iProperties for Panel-5-OTHER7.ipt
+2025-12-16 09:58:22 | Updated iProperties for Panel-5-OTHER8.ipt
+2025-12-16 09:58:22 | Updated iProperties for Panel-5-PL10.ipt
+2025-12-16 09:58:22 | Updated iProperties for Panel-5-PL12.ipt
+2025-12-16 09:58:22 | Saving iLogic patch log...
+2025-12-16 09:58:22 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 09:58:22 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_095715.log

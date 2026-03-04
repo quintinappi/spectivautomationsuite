@@ -1,0 +1,256 @@
+2026-01-15 18:37:22 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-15 18:37:22 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-15 18:37:23 | SUCCESS: Connected to existing Inventor instance
+2026-01-15 18:37:23 | STEP 1: Detecting open assembly and analyzing components
+2026-01-15 18:37:23 | DETECTED: Document type: 12291
+2026-01-15 18:37:23 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-15 18:37:23 | DETECTED: Active assembly - DM Underpan Cloned.iam
+2026-01-15 18:37:23 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DM Underpan Cloned.iam
+2026-01-15 18:37:25 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-15 18:37:25 | CONFIRMED: 168 occurrences to process
+2026-01-15 18:37:25 | STEP 2: Flattening hierarchy and grouping components
+2026-01-15 18:37:25 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-15 18:37:25 | ANALYZE: Processing assembly - DM Underpan Cloned.iam (Level: ROOT)
+2026-01-15 18:37:25 | ANALYZE: Found 168 occurrences in DM Underpan Cloned.iam
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL1.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: Created new group - PL
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL2.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL3.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL4.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL5.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL6.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL7.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL8.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL9.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL10.ipt -> Description: PL 6mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-A1.ipt -> Description: L60x60x6 -> Group: A (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: Created new group - A
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-A2.ipt -> Description: L60x60x6 -> Group: A (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-A3.ipt -> Description: L60x60x6 -> Group: A (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-A4.ipt -> Description: L60x60x6 -> Group: A (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-A4.ipt (already processed)
+2026-01-15 18:37:25 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-A4.ipt (already processed)
+2026-01-15 18:37:25 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-A4.ipt (already processed)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL11.ipt -> Description: PL 10mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:25 | ANALYZE: PART - DMU-002-PL12.ipt -> Description: PL 10mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL12.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL12.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-PL13.ipt -> Description: PL 10mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-PL14.ipt -> Description: PL 10mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL13.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL13.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL13.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL14.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL1.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: Created new group - FL
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL2.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL3.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL4.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL5.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL6.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL7.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL8.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL9.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL10.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL11.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL12.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL13.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL14.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL15.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL16.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL17.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL18.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL18.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL18.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL19.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL20.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL21.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-FL22.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-PL15.ipt -> Description: PL 25mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-PL16.ipt -> Description: PL 20mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL15.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL16.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL15.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL16.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL15.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL16.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: PART - DMU-002-PL17.ipt -> Description: PL 10mm S355JR -> Group: PL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-PL17.ipt (already processed)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER1.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER2.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER3.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER4.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER5.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER6.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:26 | ANALYZE: WARNING - No description found for DMU-002-OTHER7.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER7.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER7.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER7.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER7.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER8.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER9.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER10.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER11.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER12.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER13.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER13.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER8.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL23.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL23.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL23.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL23.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL23.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL23.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL24.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL25.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL26.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER14.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER15.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER16.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER17.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER17.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER17.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER18.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER18.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER18.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER18.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER18.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER18.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER19.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-OTHER19.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: WARNING - No description found for DMU-002-OTHER20.ipt (in DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL27.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL28.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL29.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL30.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL4.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL31.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL32.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL33.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL34.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: PART - DMU-002-FL35.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:27 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL35.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: PART - DMU-002-FL36.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL36.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL36.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: PART - DMU-002-FL37.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:28 | ANALYZE: PART - DMU-002-FL38.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:28 | ANALYZE: PART - DMU-002-FL39.ipt -> Description: FL50x8 -> Group: FL (from DM Underpan Cloned.iam)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: DUPLICATE PART SKIPPED - DMU-002-FL39.ipt (already processed)
+2026-01-15 18:37:28 | ANALYZE: Recursive processing completed - Total unique parts processed: 80
+2026-01-15 18:37:28 | ANALYZE: Created 3 component groups
+2026-01-15 18:37:28 | DEBUG GROUP: 'PL' contains 17 components:
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL1.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL2.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL3.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL4.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL5.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL6.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL7.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL8.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL9.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL10.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL11.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL12.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL13.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL14.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL15.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL16.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-PL17.ipt
+2026-01-15 18:37:28 | DEBUG GROUP: 'A' contains 4 components:
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-A1.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-A2.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-A3.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-A4.ipt
+2026-01-15 18:37:28 | DEBUG GROUP: 'FL' contains 39 components:
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL1.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL2.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL3.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL4.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL5.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL6.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL7.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL8.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL9.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL10.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL11.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL12.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL13.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL14.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL15.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL16.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL17.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL18.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL19.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL20.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL21.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL22.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL23.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL24.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL25.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL26.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL27.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL28.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL29.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL30.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL31.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL32.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL33.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL34.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL35.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL36.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL37.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL38.ipt
+2026-01-15 18:37:28 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\722 Underpan\DM Underpan Cloned\DMU-002-FL39.ipt
+2026-01-15 18:37:28 | STEP 3: Getting plant section naming convention
+2026-01-15 18:37:28 | PLANT: Getting plant section naming convention from user
+2026-01-15 18:37:46 | ERROR: User did not provide required project prefix
+2026-01-15 18:37:46 | STEP 4: Showing component groups summary
+2026-01-15 18:37:46 | SUMMARY: Showing component groups to user
+2026-01-15 18:37:48 | SUMMARY: User cancelled after reviewing groups

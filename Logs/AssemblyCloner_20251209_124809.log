@@ -1,0 +1,139 @@
+2025-12-09 12:48:09 | === ASSEMBLY CLONER ===
+2025-12-09 12:48:09 | Copy assembly with all parts to new isolated location
+2025-12-09 12:48:41 | SUCCESS: Connected to existing Inventor instance
+2025-12-09 12:48:41 | STEP 1: Detecting open assembly
+2025-12-09 12:48:41 | DETECTED: Walkway-1.iam
+2025-12-09 12:48:41 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-1\Walkway-1.iam
+2025-12-09 12:48:45 | STEP 2: Getting destination folder from user
+2025-12-09 12:48:58 | DESTINATION: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\walkway1 test
+2025-12-09 12:48:58 | New assembly name will be: walkway1 test.iam
+2025-12-09 12:48:58 | STEP 3: Asking about heritage renaming
+2025-12-09 12:49:07 | PLANT: Getting plant section naming convention from user
+2025-12-09 12:49:16 | PLANT: Using prefix: WALKWAY-1-TEST-
+2025-12-09 12:49:16 | STEP 4: Analyzing assembly structure
+2025-12-09 12:49:16 | COLLECT: Scanning assembly for all referenced parts...
+2025-12-09 12:49:16 | COLLECT: Part1 Beam S-WW1.ipt (IPE180)
+2025-12-09 12:49:16 | COLLECT: Part2 Beam S-WW1.ipt (IPE180)
+2025-12-09 12:49:16 | COLLECT: Part3 Beam S-WW1.ipt (IPE180)
+2025-12-09 12:49:16 | COLLECT: Part4 PFC S-WW1.ipt (PFC180x70)
+2025-12-09 12:49:16 | COLLECT: Part5 PFC S-WW1.ipt (PFC180x70)
+2025-12-09 12:49:16 | COLLECT: Part6 PFC S-WW1.ipt (PFC180x70)
+2025-12-09 12:49:16 | COLLECT: Part7 PFC S-WW1.ipt (PFC180x70)
+2025-12-09 12:49:16 | COLLECT: Part8 PFC S-WW1.ipt (PFC180x70)
+2025-12-09 12:49:16 | COLLECT: Part9 End Plate S-WW1.ipt (PL 10mm S355JR)
+2025-12-09 12:49:16 | COLLECT: Part10 End Plate S-WW1.ipt (PL 10mm S355JR)
+2025-12-09 12:49:16 | COLLECT: Part11 End Plate S-WW1.ipt (PL 10mm S355JR)
+2025-12-09 12:49:16 | COLLECT: Part12 Corner Gusset S-WW1.ipt (PL 8mm S355JR)
+2025-12-09 12:49:16 | COLLECT: Part13 Centre Gusset S-WW1.ipt (PL 8mm S355JR)
+2025-12-09 12:49:16 | COLLECT: Part14 Angle S-WW1.ipt (L70x70x6)
+2025-12-09 12:49:16 | COLLECT: Part15 Angle S-WW1.ipt (L70x70x6)
+2025-12-09 12:49:16 | COLLECT: Found 15 unique parts
+2025-12-09 12:49:16 | ANALYZE: Found 15 unique parts to copy
+2025-12-09 12:49:16 | STEP 5: Grouping components for heritage naming
+2025-12-09 12:49:16 | GROUP: Grouping parts for heritage naming...
+2025-12-09 12:49:16 | GROUP: Created 4 groups
+2025-12-09 12:49:16 | SCHEME: IPE -> WALKWAY-1-TEST-IPE{N}
+2025-12-09 12:49:16 | SCHEME: CH -> WALKWAY-1-TEST-CH{N}
+2025-12-09 12:49:16 | SCHEME: PL -> WALKWAY-1-TEST-PL{N}
+2025-12-09 12:49:16 | SCHEME: A -> WALKWAY-1-TEST-A{N}
+2025-12-09 12:49:17 | STEP 6: Copying assembly to destination
+2025-12-09 12:49:17 | Closing source assembly for safe copy...
+2025-12-09 12:49:17 | COPIED: Assembly Walkway-1.iam -> walkway1 test.iam
+2025-12-09 12:49:17 | STEP 7: Copying parts to destination
+2025-12-09 12:49:17 | COPIED: Part1 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE1.ipt
+2025-12-09 12:49:17 | COPIED: Part2 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE2.ipt
+2025-12-09 12:49:17 | COPIED: Part3 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE3.ipt
+2025-12-09 12:49:17 | COPIED: Part4 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH1.ipt
+2025-12-09 12:49:17 | COPIED: Part5 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH2.ipt
+2025-12-09 12:49:17 | COPIED: Part6 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH3.ipt
+2025-12-09 12:49:17 | COPIED: Part7 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH4.ipt
+2025-12-09 12:49:17 | COPIED: Part8 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH5.ipt
+2025-12-09 12:49:17 | COPIED: Part9 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL1.ipt
+2025-12-09 12:49:17 | COPIED: Part10 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:17 | COPIED: Part11 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL3.ipt
+2025-12-09 12:49:17 | COPIED: Part12 Corner Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:17 | COPIED: Part13 Centre Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:17 | COPIED: Part14 Angle S-WW1.ipt -> WALKWAY-1-TEST-A1.ipt
+2025-12-09 12:49:17 | COPIED: Part15 Angle S-WW1.ipt -> WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:17 | STEP 8: Updating references in copied assembly using ApprenticeServer
+2025-12-09 12:49:17 | ASSEMBLY UPDATE: ApprenticeServer not available, using Inventor method
+2025-12-09 12:49:17 | ASSEMBLY UPDATE (Inventor): Opening assembly...
+2025-12-09 12:49:18 | ASSEMBLY UPDATE (Inventor): Opened walkway1 test.iam
+2025-12-09 12:49:18 | UPDATE: Updating assembly references to local copies...
+2025-12-09 12:49:18 | UPDATE: Part1 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE1.ipt
+2025-12-09 12:49:18 | UPDATE: Part2 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE2.ipt
+2025-12-09 12:49:18 | UPDATE: Part3 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE3.ipt
+2025-12-09 12:49:18 | UPDATE: Part4 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH1.ipt
+2025-12-09 12:49:18 | UPDATE: Part5 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH2.ipt
+2025-12-09 12:49:19 | UPDATE: Part6 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH3.ipt
+2025-12-09 12:49:19 | UPDATE: Part7 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH4.ipt
+2025-12-09 12:49:19 | UPDATE: Part8 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH5.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-CH5.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-CH5.ipt
+2025-12-09 12:49:19 | UPDATE: Part9 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL1.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-PL1.ipt
+2025-12-09 12:49:19 | UPDATE: Part10 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:19 | UPDATE: No mapping for WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:19 | UPDATE: Part11 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL3.ipt
+2025-12-09 12:49:19 | UPDATE: Part12 Corner Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:20 | UPDATE: Part13 Centre Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:20 | UPDATE: Part14 Angle S-WW1.ipt -> WALKWAY-1-TEST-A1.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-A1.ipt
+2025-12-09 12:49:20 | UPDATE: Part15 Angle S-WW1.ipt -> WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:20 | UPDATE: No mapping for WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:21 | ASSEMBLY UPDATE (Inventor): Saved successfully
+2025-12-09 12:49:21 | ASSEMBLY UPDATE (Inventor): Complete - assembly left open for verification
+2025-12-09 12:49:21 | STEP 9: Processing IDW files (update references, then save to new location)
+2025-12-09 12:49:21 | IDW PROCESS: Found MGY-200-DRD-01-02.idw
+2025-12-09 12:49:33 | IDW PROCESS: Opening original IDW from source location...
+2025-12-09 12:49:34 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-09 12:49:34 | IDW PROCESS: Found 16 references
+2025-12-09 12:49:34 | IDW PROCESS: Updating Part1 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE1.ipt
+2025-12-09 12:49:34 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:34 | IDW PROCESS: Updating Part10 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL2.ipt
+2025-12-09 12:49:34 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:34 | IDW PROCESS: Updating Part11 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL3.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part12 Corner Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL4.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part13 Centre Gusset S-WW1.ipt -> WALKWAY-1-TEST-PL5.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part14 Angle S-WW1.ipt -> WALKWAY-1-TEST-A1.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part15 Angle S-WW1.ipt -> WALKWAY-1-TEST-A2.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part2 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE2.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part3 Beam S-WW1.ipt -> WALKWAY-1-TEST-IPE3.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part4 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH1.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part5 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH2.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part6 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH3.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part7 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH4.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part8 PFC S-WW1.ipt -> WALKWAY-1-TEST-CH5.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Part9 End Plate S-WW1.ipt -> WALKWAY-1-TEST-PL1.ipt
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Updating Walkway-1.iam -> walkway1 test.iam
+2025-12-09 12:49:35 | IDW PROCESS: SUCCESS
+2025-12-09 12:49:35 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\walkway1 test\MGY-200-DRD-01-03.idw
+2025-12-09 12:49:36 | IDW PROCESS: Successfully saved MGY-200-DRD-01-03.idw (16 references updated)
+2025-12-09 12:49:36 | === ASSEMBLY CLONER COMPLETED ===

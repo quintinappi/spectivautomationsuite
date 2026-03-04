@@ -1,0 +1,485 @@
+2026-02-02 06:22:38 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-02-02 06:22:38 | Auto-detecting open model and creating dynamic renaming workflow
+2026-02-02 06:22:44 | SUCCESS: Connected to existing Inventor instance
+2026-02-02 06:22:44 | STEP 1: Detecting open assembly and analyzing components
+2026-02-02 06:22:44 | DETECTED: Document type: 12291
+2026-02-02 06:22:44 | DETECTED: Assembly by .iam extension - proceeding
+2026-02-02 06:22:44 | DETECTED: Active assembly - N1SCR05-727.iam
+2026-02-02 06:22:44 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\N1SCR05-727.iam
+2026-02-02 06:22:49 | USER CONFIRMED: Proceeding with assembly processing
+2026-02-02 06:22:49 | CONFIRMED: 6 occurrences to process
+2026-02-02 06:22:49 | ASSEMBLY: Captured directory path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen
+2026-02-02 06:22:49 | STEP 0: Selecting mapping file location FIRST
+2026-02-02 06:22:49 | MAPPING_SELECT: Prompting user for mapping file location
+2026-02-02 06:23:07 | MAPPING_SELECT: Path set to: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\22. N1SCR05 - Primary Sinks D&R Screen Station\727 Static Screen\STEP_1_MAPPING.txt
+2026-02-02 06:23:07 | MAPPING_SELECT: SUCCESS - Placeholder file created and verified
+2026-02-02 06:23:08 | STEP 0: Mapping file location confirmed: C:\Users\Quintin\Documents\Spectiv\3. Working\24. Primary - DMS\22. N1SCR05 - Primary Sinks D&R Screen Station\727 Static Screen\STEP_1_MAPPING.txt
+2026-02-02 06:23:08 | STEP 1.5: Creating audit log - capturing current state BEFORE renaming
+2026-02-02 06:23:08 | AUDIT: === START AUDIT LOG CREATION ===
+2026-02-02 06:23:08 | AUDIT: Capturing assembly state BEFORE any renaming
+2026-02-02 06:23:08 | AUDIT: Assembly directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen
+2026-02-02 06:23:08 | AUDIT: Audit file path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\STEP_0_AUDIT.txt
+2026-02-02 06:23:09 | AUDIT: Scanning for iLogic rules using AttributeSet method
+2026-02-02 06:23:09 | AUDIT: Audit log created successfully: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\STEP_0_AUDIT.txt
+2026-02-02 06:23:09 | AUDIT: === END AUDIT LOG CREATION ===
+2026-02-02 06:23:09 | STEP 2: Flattening hierarchy and grouping components
+2026-02-02 06:23:09 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-02-02 06:23:09 | ANALYZE: Processing assembly - N1SCR05-727.iam (Level: ROOT)
+2026-02-02 06:23:09 | ANALYZE: Found 6 occurrences in N1SCR05-727.iam
+2026-02-02 06:23:09 | ANALYZE: RECURSING into sub-assembly - Static Screen Top.iam
+2026-02-02 06:23:09 | ANALYZE: Processing assembly - Static Screen Top.iam (Level: ROOT>Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: Found 64 occurrences in Static Screen Top.iam
+2026-02-02 06:23:09 | ANALYZE: PART - Part1 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: Created new group - PL
+2026-02-02 06:23:09 | ANALYZE: PART - Part2 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part3 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part4 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part4 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part5 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part6 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part7 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part8 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part9 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part10 SS-TOP.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part11 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: Created new group - A
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part11 60X60X6 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part12 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part13 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part13 60X60X6 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part14 60X60X6 SS-TOP.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part14 60X60X6 SS-TOP.ipt (already processed)
+2026-02-02 06:23:09 | ANALYZE: PART - Part15 SS-TOP.ipt -> Description: PL 8mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part19 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: Created new group - FL
+2026-02-02 06:23:09 | ANALYZE: PART - Part23 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: PART - Part24 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:09 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part15 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part19 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part23 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part24 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Part16 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part17 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part18 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part20 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part20 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Part21 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part22 Stiffener SS-TOP.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part21 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part22 Stiffener SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Lug SS-TOP.ipt -> Description: PL 20mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Part25 SS-TOP.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part26 SS-TOP.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Top.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part26 SS-TOP.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: RECURSING into sub-assembly - Static Screen Middle.iam
+2026-02-02 06:23:10 | ANALYZE: Processing assembly - Static Screen Middle.iam (Level: ROOT>Static Screen Middle.iam)
+2026-02-02 06:23:10 | ANALYZE: Found 105 occurrences in Static Screen Middle.iam
+2026-02-02 06:23:10 | ANALYZE: PART - Part1 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-MID.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Part2 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:10 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-MID.ipt (already processed)
+2026-02-02 06:23:10 | ANALYZE: PART - Part3 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:10 | ANALYZE: PART - Part4 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part5 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part6 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part6 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part7 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part8 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part8 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part9 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part10 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part11 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part12 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part12 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part13 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part14 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part15 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part16 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part17 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part18 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part19 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part19 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part20 60X60X6 SS-MID.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part20 60X60X6 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: PART - Part25 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part26 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part28 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: PART - Part27 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part26 SS-MID.ipt (already processed)
+2026-02-02 06:23:11 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part26 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part26 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part25 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part26 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part28 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part27 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part29 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: PART - Part30 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: SKIPPING (suppressed occurrence in Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part29 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part30 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part31 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part31 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part31 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part31 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part31 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part31 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part22 SS-MID.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: PART - Part21 SS-MID.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part21 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part22 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part23 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part23 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part24 SS-MID.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: PART - Lug SS-MID.ipt -> Description: PL 20mm S355JR -> Group: PL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part32 SS-MID.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part32 SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: PART - Part33 Liner SS-MID.ipt -> Description: PL 10mm VRN400 -> Group: LPL (from Static Screen Middle.iam)
+2026-02-02 06:23:12 | ANALYZE: Created new group - LPL
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Liner SS-MID.ipt (already processed)
+2026-02-02 06:23:12 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Liner SS-MID.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Liner SS-MID.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Liner SS-MID.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part33 Liner SS-MID.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 06:23:13 | ANALYZE: RECURSING into sub-assembly - Static Screen Bottom.iam
+2026-02-02 06:23:13 | ANALYZE: Processing assembly - Static Screen Bottom.iam (Level: ROOT>Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: Found 46 occurrences in Static Screen Bottom.iam
+2026-02-02 06:23:13 | ANALYZE: PART - Part1 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part2 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part2 SS-BOT.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: PART - Part3 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part4 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part5 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part6 SS-BOT.ipt -> Description: PL 6mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part7 60X60X6 SS-BOT.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part7 60X60X6 SS-BOT.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: PART - Part8 60X60X6 SS-BOT.ipt -> Description: L60x60x6 -> Group: A (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: DUPLICATE PART SKIPPED - Part8 60X60X6 SS-BOT.ipt (already processed)
+2026-02-02 06:23:13 | ANALYZE: PART - Part9 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part10 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part11 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom.iam)
+2026-02-02 06:23:13 | ANALYZE: PART - Part12 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom.iam)
+2026-02-02 06:23:14 | ANALYZE: PART - Part13 SS-BOT.ipt -> Description: FL50x8 -> Group: FL (from Static Screen Bottom.iam)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part9 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part10 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part11 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part12 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part13 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: PART - Lug SS-BOT.ipt -> Description: PL 20mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Lug SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: PART - Part14 SS-BOT.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:14 | ANALYZE: PART - Part15 Corner Gusset SS-BOT.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Bottom.iam)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part15 Corner Gusset SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part14 SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part15 Corner Gusset SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part15 Corner Gusset SS-BOT.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: RECURSING into sub-assembly - Screen Deck Frame.iam
+2026-02-02 06:23:14 | ANALYZE: Processing assembly - Screen Deck Frame.iam (Level: ROOT>Screen Deck Frame.iam)
+2026-02-02 06:23:14 | ANALYZE: Found 101 occurrences in Screen Deck Frame.iam
+2026-02-02 06:23:14 | ANALYZE: PART - Part1 70x70x8 SS-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part1 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:14 | ANALYZE: PART - Part2 70x70x8 SS-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-02 06:23:14 | ANALYZE: DUPLICATE PART SKIPPED - Part2 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: PART - Part3 70x70x8 SS-SDF.ipt -> Description: L70x70x8 -> Group: A (from Screen Deck Frame.iam)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part3 70x70x8 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: PART - Part4 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part4 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: PART - Part5 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Part5 SS-SDF.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: PART - Screen Panel 305x305.ipt -> Description: SCREEN PANEL 305x305 - POLY WEDGE SWF -> Group: OTHER (from Screen Deck Frame.iam)
+2026-02-02 06:23:15 | ANALYZE: Created new group - OTHER
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:15 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Screen Panel 305x305.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: PART - Part6 SS-SDF.ipt -> Description: PL 6mm S355JR -> Group: PL (from Screen Deck Frame.iam)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: PART - Part7 50X50X6 SS-SDF.ipt -> Description: L50x50x6 -> Group: A (from Screen Deck Frame.iam)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:16 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: DUPLICATE PART SKIPPED - Part7 50X50X6 SS-SDF.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: RECURSING into sub-assembly - Static Screen Support Frame.iam
+2026-02-02 06:23:17 | ANALYZE: Processing assembly - Static Screen Support Frame.iam (Level: ROOT>Static Screen Support Frame.iam)
+2026-02-02 06:23:17 | ANALYZE: Found 4 occurrences in Static Screen Support Frame.iam
+2026-02-02 06:23:17 | ANALYZE: RECURSING into sub-assembly - Static Screen Support Column.iam
+2026-02-02 06:23:17 | ANALYZE: Processing assembly - Static Screen Support Column.iam (Level: ROOT>Static Screen Support Frame.iam>Static Screen Support Column.iam)
+2026-02-02 06:23:17 | ANALYZE: Found 2 occurrences in Static Screen Support Column.iam
+2026-02-02 06:23:17 | ANALYZE: PART - Part1 SS-SC.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Support Column.iam)
+2026-02-02 06:23:17 | ANALYZE: PART - Part2 203x133x25 SS-SC.ipt -> Description: UB203x133x25 -> Group: B (from Static Screen Support Column.iam)
+2026-02-02 06:23:17 | ANALYZE: Created new group - B
+2026-02-02 06:23:17 | ANALYZE: RECURSING into sub-assembly - Static Screen Support Column.iam
+2026-02-02 06:23:17 | ANALYZE: Processing assembly - Static Screen Support Column.iam (Level: ROOT>Static Screen Support Frame.iam>Static Screen Support Column.iam)
+2026-02-02 06:23:17 | ANALYZE: Found 2 occurrences in Static Screen Support Column.iam
+2026-02-02 06:23:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-SC.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: DUPLICATE PART SKIPPED - Part2 203x133x25 SS-SC.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: RECURSING into sub-assembly - Static Screen Support Beam.iam
+2026-02-02 06:23:17 | ANALYZE: Processing assembly - Static Screen Support Beam.iam (Level: ROOT>Static Screen Support Frame.iam>Static Screen Support Beam.iam)
+2026-02-02 06:23:17 | ANALYZE: Found 3 occurrences in Static Screen Support Beam.iam
+2026-02-02 06:23:17 | ANALYZE: PART - Part1 SS-SB.ipt -> Description: PL 10mm S355JR -> Group: PL (from Static Screen Support Beam.iam)
+2026-02-02 06:23:17 | ANALYZE: PART - Part2 203x133x25 SS-SB.ipt -> Description: UB203x133x25 -> Group: B (from Static Screen Support Beam.iam)
+2026-02-02 06:23:17 | ANALYZE: DUPLICATE PART SKIPPED - Part1 SS-SB.ipt (already processed)
+2026-02-02 06:23:17 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 06:23:17 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-02-02 06:23:17 | ANALYZE: Recursive processing completed - Total unique parts processed: 89
+2026-02-02 06:23:17 | ANALYZE: Created 6 component groups
+2026-02-02 06:23:17 | DEBUG GROUP: 'PL' contains 41 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part1 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part2 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part3 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part4 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part5 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part6 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part7 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part8 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part9 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part10 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part15 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Lug SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part25 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part26 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part1 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part2 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part3 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part4 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part5 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part9 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part10 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part11 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part22 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part21 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part23 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part24 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Lug SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part1 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part2 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part3 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part4 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part5 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part6 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Lug SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part14 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part15 Corner Gusset SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part4 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part5 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part6 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Support Frame\Support Column\Part1 SS-SC.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Support Frame\Support Beam\Part1 SS-SB.ipt
+2026-02-02 06:23:17 | DEBUG GROUP: 'A' contains 22 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part11 60X60X6 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part12 60X60X6 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part13 60X60X6 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part14 60X60X6 SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part6 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part7 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part8 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part12 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part13 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part14 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part15 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part16 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part17 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part18 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part19 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part20 60X60X6 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part7 60X60X6 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part8 60X60X6 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part1 70x70x8 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part2 70x70x8 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part3 70x70x8 SS-SDF.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Part7 50X50X6 SS-SDF.ipt
+2026-02-02 06:23:17 | DEBUG GROUP: 'FL' contains 22 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part19 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part23 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part24 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part16 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part17 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part18 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part20 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part21 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Top\Part22 Stiffener SS-TOP.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part25 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part26 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part28 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part27 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part29 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part30 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part31 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part32 SS-MID.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part9 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part10 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part11 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part12 SS-BOT.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Bottom\Part13 SS-BOT.ipt
+2026-02-02 06:23:17 | DEBUG GROUP: 'LPL' contains 1 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Middle\Part33 Liner SS-MID.ipt
+2026-02-02 06:23:17 | DEBUG GROUP: 'OTHER' contains 1 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Screen Deck Frame\Screen Panel 305x305.ipt
+2026-02-02 06:23:17 | DEBUG GROUP: 'B' contains 2 components:
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Support Frame\Support Column\Part2 203x133x25 SS-SC.ipt
+2026-02-02 06:23:17 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant - Q Latest\22. SSCR05 - Primary Sinks D&R Screen Station\727 Static Screen\Support Frame\Support Beam\Part2 203x133x25 SS-SB.ipt
+2026-02-02 06:23:17 | STEP 3: Getting plant section naming convention
+2026-02-02 06:23:17 | PLANT: Getting plant section naming convention from user
+2026-02-02 06:23:35 | ERROR: User did not provide required project prefix
+2026-02-02 06:23:35 | STEP 4: Showing component groups summary
+2026-02-02 06:23:35 | SUMMARY: Showing component groups to user

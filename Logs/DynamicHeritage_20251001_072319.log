@@ -1,0 +1,295 @@
+2025-10-01 07:23:19 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-10-01 07:23:19 | Auto-detecting open model and creating dynamic renaming workflow
+2025-10-01 07:23:20 | SUCCESS: Connected to existing Inventor instance
+2025-10-01 07:23:20 | STEP 1: Detecting open assembly and analyzing components
+2025-10-01 07:23:20 | DETECTED: Document type: 12291
+2025-10-01 07:23:20 | DETECTED: Assembly by .iam extension - proceeding
+2025-10-01 07:23:20 | DETECTED: Active assembly - Staircase-1.iam
+2025-10-01 07:23:20 | DETECTED: Full path - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Staircase-1.iam
+2025-10-01 07:23:21 | USER CONFIRMED: Proceeding with assembly processing
+2025-10-01 07:23:21 | CONFIRMED: 43 occurrences to process
+2025-10-01 07:23:21 | STEP 2: Flattening hierarchy and grouping components
+2025-10-01 07:23:21 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-10-01 07:23:21 | ANALYZE: Processing assembly - Staircase-1.iam (Level: ROOT)
+2025-10-01 07:23:21 | ANALYZE: Found 43 occurrences in Staircase-1.iam
+2025-10-01 07:23:21 | ANALYZE: PART - Part1 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: Created new group - CH
+2025-10-01 07:23:21 | ANALYZE: PART - Part2 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: PART - Part3 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: PART - Part4 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: PART - Part5 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: PART - Part6 TFC H-STAIR-B.ipt -> Description: TFC178 x 54 x 15 -> Group: CH (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: PART - Part7 Stair End Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: Created new group - PL
+2025-10-01 07:23:21 | ANALYZE: DUPLICATE PART SKIPPED - Part7 Stair End Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:21 | ANALYZE: PART - Part8 Base Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: DUPLICATE PART SKIPPED - Part8 Base Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:21 | ANALYZE: PART - Part9 Stair Stanchion Plate H-STAIR-B.ipt -> Description: PL 10mm S355JR -> Group: PL (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:21 | ANALYZE: PART - Step H-STAIR-B.ipt -> Description: STD VITAGRID 750 WIDE STEP -> Group: OTHER (from Staircase-1.iam)
+2025-10-01 07:23:21 | ANALYZE: Created new group - OTHER
+2025-10-01 07:23:21 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Step H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2025-10-01 07:23:22 | ANALYZE: PART - Closure Bend 40º.ipt -> Description: CLOSURE BEND 40º -> Group: OTHER (from Staircase-1.iam)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Closure Bend 40º.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: PART - Handrailing-Std Straight H-STAIR-B.ipt -> Description: HANDRAILING-STRAIGHT -> Group: OTHER (from Staircase-1.iam)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Handrailing-Std Straight H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: PART - Stanchion-Side Mounted 40º -RH.ipt -> Description: STANCHION-SIDE MOUNTED 40º - RH -> Group: OTHER (from Staircase-1.iam)
+2025-10-01 07:23:22 | ANALYZE: PART - Stanchion-Side Mounted 40º -LH.ipt -> Description: STANCHION-SIDE MOUNTED 40º - LH -> Group: OTHER (from Staircase-1.iam)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Part9 Stair Stanchion Plate H-STAIR-B.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -RH.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -LH.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -LH.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: DUPLICATE PART SKIPPED - Stanchion-Side Mounted 40º -RH.ipt (already processed)
+2025-10-01 07:23:22 | ANALYZE: Recursive processing completed - Total unique parts processed: 14
+2025-10-01 07:23:22 | ANALYZE: Created 3 component groups
+2025-10-01 07:23:22 | DEBUG GROUP: 'CH' contains 6 components:
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part1 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part2 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part3 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part4 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part5 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part6 TFC H-STAIR-B.ipt
+2025-10-01 07:23:22 | DEBUG GROUP: 'PL' contains 3 components:
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part7 Stair End Plate H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part8 Base Plate H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part9 Stair Stanchion Plate H-STAIR-B.ipt
+2025-10-01 07:23:22 | DEBUG GROUP: 'OTHER' contains 5 components:
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Step H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Closure Bend 40º.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Handrailing-Std Straight H-STAIR-B.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Stanchion-Side Mounted 40º -RH.ipt
+2025-10-01 07:23:22 |   - D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Stanchion-Side Mounted 40º -LH.ipt
+2025-10-01 07:23:22 | STEP 3: Getting plant section naming convention
+2025-10-01 07:23:22 | PLANT: Getting plant section naming convention from user
+2025-10-01 07:25:04 | PLANT: Using custom naming convention: NCRH01-000-
+2025-10-01 07:25:06 | STEP 4: Showing component groups summary
+2025-10-01 07:25:06 | SUMMARY: Showing component groups to user
+2025-10-01 07:25:07 | SUMMARY: User approved component groups
+2025-10-01 07:25:07 | STEP 5: Getting user naming schemes for component groups
+2025-10-01 07:25:07 | INPUT: Getting user naming schemes for 3 groups
+2025-10-01 07:25:08 | INPUT: Group 'CH' -> Scheme: NCRH01-000-CH{N}
+2025-10-01 07:25:09 | INPUT: Group 'PL' -> Scheme: NCRH01-000-PL{N}
+2025-10-01 07:25:09 | INPUT: Group 'OTHER' -> Scheme: NCRH01-000-PART{N}
+2025-10-01 07:25:09 | STEP 6: Creating heritage-based copies with user naming
+2025-10-01 07:25:09 | HERITAGE: Creating dynamic heritage-based copies
+2025-10-01 07:25:09 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2025-10-01 07:25:09 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: NCRH01-000-
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-CH = 4
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-PL = 173
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-B = 30
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-A = 35
+2025-10-01 07:25:09 | SCAN: No existing counter for: NCRH01-000-P (will start from 1)
+2025-10-01 07:25:09 | SCAN: No existing counter for: NCRH01-000-SQ (will start from 1)
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-FL = 8
+2025-10-01 07:25:09 | SCAN: No existing counter for: NCRH01-000-LPL (will start from 1)
+2025-10-01 07:25:09 | SCAN: Found existing counter: NCRH01-000-IPE = 27
+2025-10-01 07:25:09 | SCAN: No existing counter for: NCRH01-000-OTHER (will start from 1)
+2025-10-01 07:25:09 | SCAN: Loaded 6 existing counters from Registry
+2025-10-01 07:25:09 | EXTRACT: Processing naming scheme: NCRH01-000-CH{N}
+2025-10-01 07:25:09 | EXTRACT: Extracted prefix: 'NCRH01-000-'
+2025-10-01 07:25:09 | HERITAGE: Checking for existing counter with key: 'NCRH01-000-CH'
+2025-10-01 07:25:09 | HERITAGE: Group 'CH' continuing from number 5 (found existing files with highest number 4)
+2025-10-01 07:25:09 | HERITAGE: Processing group 'CH' with scheme: NCRH01-000-CH{N}
+2025-10-01 07:25:09 | HERITAGE: Part1 TFC H-STAIR-B.ipt -> NCRH01-000-CH5.ipt
+2025-10-01 07:25:09 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part1 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH5.ipt
+2025-10-01 07:25:09 | HERITAGE: Creating new file: NCRH01-000-CH5.ipt
+2025-10-01 07:25:11 | HERITAGE: SUCCESS - Created NCRH01-000-CH5.ipt
+2025-10-01 07:25:11 | HERITAGE: Part2 TFC H-STAIR-B.ipt -> NCRH01-000-CH6.ipt
+2025-10-01 07:25:11 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part2 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH6.ipt
+2025-10-01 07:25:11 | HERITAGE: Creating new file: NCRH01-000-CH6.ipt
+2025-10-01 07:25:11 | HERITAGE: SUCCESS - Created NCRH01-000-CH6.ipt
+2025-10-01 07:25:11 | HERITAGE: Part3 TFC H-STAIR-B.ipt -> NCRH01-000-CH7.ipt
+2025-10-01 07:25:11 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part3 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH7.ipt
+2025-10-01 07:25:11 | HERITAGE: Creating new file: NCRH01-000-CH7.ipt
+2025-10-01 07:25:12 | HERITAGE: SUCCESS - Created NCRH01-000-CH7.ipt
+2025-10-01 07:25:12 | HERITAGE: Part4 TFC H-STAIR-B.ipt -> NCRH01-000-CH8.ipt
+2025-10-01 07:25:12 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part4 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH8.ipt
+2025-10-01 07:25:12 | HERITAGE: Creating new file: NCRH01-000-CH8.ipt
+2025-10-01 07:25:12 | HERITAGE: SUCCESS - Created NCRH01-000-CH8.ipt
+2025-10-01 07:25:12 | HERITAGE: Part5 TFC H-STAIR-B.ipt -> NCRH01-000-CH9.ipt
+2025-10-01 07:25:12 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part5 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH9.ipt
+2025-10-01 07:25:12 | HERITAGE: Creating new file: NCRH01-000-CH9.ipt
+2025-10-01 07:25:12 | HERITAGE: SUCCESS - Created NCRH01-000-CH9.ipt
+2025-10-01 07:25:12 | HERITAGE: Part6 TFC H-STAIR-B.ipt -> NCRH01-000-CH10.ipt
+2025-10-01 07:25:12 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part6 TFC H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-CH10.ipt
+2025-10-01 07:25:12 | HERITAGE: Creating new file: NCRH01-000-CH10.ipt
+2025-10-01 07:25:13 | HERITAGE: SUCCESS - Created NCRH01-000-CH10.ipt
+2025-10-01 07:25:13 | REGISTRY: Saved NCRH01-000-CH = 10
+2025-10-01 07:25:13 | EXTRACT: Processing naming scheme: NCRH01-000-PL{N}
+2025-10-01 07:25:13 | EXTRACT: Extracted prefix: 'NCRH01-000-'
+2025-10-01 07:25:13 | HERITAGE: Checking for existing counter with key: 'NCRH01-000-PL'
+2025-10-01 07:25:13 | HERITAGE: Group 'PL' continuing from number 174 (found existing files with highest number 173)
+2025-10-01 07:25:13 | HERITAGE: Processing group 'PL' with scheme: NCRH01-000-PL{N}
+2025-10-01 07:25:13 | HERITAGE: Part7 Stair End Plate H-STAIR-B.ipt -> NCRH01-000-PL174.ipt
+2025-10-01 07:25:13 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part7 Stair End Plate H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PL174.ipt
+2025-10-01 07:25:13 | HERITAGE: Creating new file: NCRH01-000-PL174.ipt
+2025-10-01 07:25:13 | HERITAGE: SUCCESS - Created NCRH01-000-PL174.ipt
+2025-10-01 07:25:13 | HERITAGE: Part8 Base Plate H-STAIR-B.ipt -> NCRH01-000-PL175.ipt
+2025-10-01 07:25:13 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part8 Base Plate H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PL175.ipt
+2025-10-01 07:25:13 | HERITAGE: Creating new file: NCRH01-000-PL175.ipt
+2025-10-01 07:25:13 | HERITAGE: SUCCESS - Created NCRH01-000-PL175.ipt
+2025-10-01 07:25:13 | HERITAGE: Part9 Stair Stanchion Plate H-STAIR-B.ipt -> NCRH01-000-PL176.ipt
+2025-10-01 07:25:13 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Part9 Stair Stanchion Plate H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PL176.ipt
+2025-10-01 07:25:13 | HERITAGE: Creating new file: NCRH01-000-PL176.ipt
+2025-10-01 07:25:14 | HERITAGE: SUCCESS - Created NCRH01-000-PL176.ipt
+2025-10-01 07:25:14 | REGISTRY: Saved NCRH01-000-PL = 176
+2025-10-01 07:25:14 | EXTRACT: Processing naming scheme: NCRH01-000-PART{N}
+2025-10-01 07:25:14 | EXTRACT: Extracted prefix: 'NCRH01-000-'
+2025-10-01 07:25:14 | HERITAGE: Checking for existing counter with key: 'NCRH01-000-OTHER'
+2025-10-01 07:25:14 | HERITAGE: Group 'OTHER' starting from number 1 (new prefix or group - key 'NCRH01-000-OTHER' not found)
+2025-10-01 07:25:14 | HERITAGE: DEBUG - Existing counter keys:
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-CH' = 4
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-PL' = 173
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-B' = 30
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-A' = 35
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-FL' = 8
+2025-10-01 07:25:14 | HERITAGE: DEBUG -   'NCRH01-000-IPE' = 27
+2025-10-01 07:25:14 | HERITAGE: Processing group 'OTHER' with scheme: NCRH01-000-PART{N}
+2025-10-01 07:25:14 | HERITAGE: Step H-STAIR-B.ipt -> NCRH01-000-PART1.ipt
+2025-10-01 07:25:14 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Step H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PART1.ipt
+2025-10-01 07:25:14 | HERITAGE: Creating new file: NCRH01-000-PART1.ipt
+2025-10-01 07:25:14 | HERITAGE: SUCCESS - Created NCRH01-000-PART1.ipt
+2025-10-01 07:25:14 | HERITAGE: Closure Bend 40º.ipt -> NCRH01-000-PART2.ipt
+2025-10-01 07:25:14 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Closure Bend 40º.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PART2.ipt
+2025-10-01 07:25:14 | HERITAGE: Creating new file: NCRH01-000-PART2.ipt
+2025-10-01 07:25:14 | HERITAGE: SUCCESS - Created NCRH01-000-PART2.ipt
+2025-10-01 07:25:14 | HERITAGE: Handrailing-Std Straight H-STAIR-B.ipt -> NCRH01-000-PART3.ipt
+2025-10-01 07:25:14 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Handrailing-Std Straight H-STAIR-B.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PART3.ipt
+2025-10-01 07:25:14 | HERITAGE: Creating new file: NCRH01-000-PART3.ipt
+2025-10-01 07:25:15 | HERITAGE: SUCCESS - Created NCRH01-000-PART3.ipt
+2025-10-01 07:25:15 | HERITAGE: Stanchion-Side Mounted 40º -RH.ipt -> NCRH01-000-PART4.ipt
+2025-10-01 07:25:15 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Stanchion-Side Mounted 40º -RH.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PART4.ipt
+2025-10-01 07:25:15 | HERITAGE: Creating new file: NCRH01-000-PART4.ipt
+2025-10-01 07:25:15 | HERITAGE: SUCCESS - Created NCRH01-000-PART4.ipt
+2025-10-01 07:25:15 | HERITAGE: Stanchion-Side Mounted 40º -LH.ipt -> NCRH01-000-PART5.ipt
+2025-10-01 07:25:15 | MAPPING: D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\Stanchion-Side Mounted 40º -LH.ipt -> D:\Pentalin\3. Working\19. NCRH01 - Secondary Crushing Station\05. Model\Staircase-1 Ground\NCRH01-000-PART5.ipt
+2025-10-01 07:25:15 | HERITAGE: Creating new file: NCRH01-000-PART5.ipt
+2025-10-01 07:25:15 | HERITAGE: SUCCESS - Created NCRH01-000-PART5.ipt
+2025-10-01 07:25:15 | REGISTRY: Saved NCRH01-000-OTHER = 5
+2025-10-01 07:25:15 | STEP 7: Updating assembly references
+2025-10-01 07:25:15 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-10-01 07:25:15 | ASSEMBLY: Updating references in - Staircase-1.iam (Level: ROOT)
+2025-10-01 07:25:15 | ASSEMBLY: Replacing Part1 TFC H-STAIR-B.ipt -> NCRH01-000-CH5.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH5.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part2 TFC H-STAIR-B.ipt -> NCRH01-000-CH6.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH6.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part3 TFC H-STAIR-B.ipt -> NCRH01-000-CH7.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH7.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part4 TFC H-STAIR-B.ipt -> NCRH01-000-CH8.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH8.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part5 TFC H-STAIR-B.ipt -> NCRH01-000-CH9.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH9.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part6 TFC H-STAIR-B.ipt -> NCRH01-000-CH10.ipt [CH] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-CH10.ipt
+2025-10-01 07:25:16 | ASSEMBLY: Replacing Part7 Stair End Plate H-STAIR-B.ipt -> NCRH01-000-PL174.ipt [PL] (in Staircase-1.iam)
+2025-10-01 07:25:16 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL174.ipt
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL174.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: Replacing Part8 Base Plate H-STAIR-B.ipt -> NCRH01-000-PL175.ipt [PL] (in Staircase-1.iam)
+2025-10-01 07:25:17 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL175.ipt
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL175.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: Replacing Part9 Stair Stanchion Plate H-STAIR-B.ipt -> NCRH01-000-PL176.ipt [PL] (in Staircase-1.iam)
+2025-10-01 07:25:17 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PL176.ipt
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL176.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: Replacing Step H-STAIR-B.ipt -> NCRH01-000-PART1.ipt [OTHER] (in Staircase-1.iam)
+2025-10-01 07:25:17 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PART1.ipt
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART1.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2025-10-01 07:25:17 | ASSEMBLY: Replacing Closure Bend 40º.ipt -> NCRH01-000-PART2.ipt [OTHER] (in Staircase-1.iam)
+2025-10-01 07:25:17 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PART2.ipt
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART2.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART2.ipt (not renamed)
+2025-10-01 07:25:17 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART2.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: Replacing Handrailing-Std Straight H-STAIR-B.ipt -> NCRH01-000-PART3.ipt [OTHER] (in Staircase-1.iam)
+2025-10-01 07:25:18 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PART3.ipt
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART3.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART3.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART3.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL176.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL176.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: Replacing Stanchion-Side Mounted 40º -RH.ipt -> NCRH01-000-PART4.ipt [OTHER] (in Staircase-1.iam)
+2025-10-01 07:25:18 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PART4.ipt
+2025-10-01 07:25:18 | ASSEMBLY: Replacing Stanchion-Side Mounted 40º -LH.ipt -> NCRH01-000-PART5.ipt [OTHER] (in Staircase-1.iam)
+2025-10-01 07:25:18 | ASSEMBLY: SUCCESS - Updated to NCRH01-000-PART5.ipt
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL176.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PL176.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART4.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART5.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART5.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: INFO - No mapping found for NCRH01-000-PART4.ipt (not renamed)
+2025-10-01 07:25:18 | ASSEMBLY: Saving assembly with updated references...
+2025-10-01 07:25:19 | ASSEMBLY: Successfully saved assembly
+2025-10-01 07:25:19 | STEP 8: Auto-detecting and updating IDW files
+2025-10-01 07:25:19 | IDW: Auto-detecting IDW files in assembly directory
+2025-10-01 07:25:19 | IDW: Found drawing file - MGY-100-SCR-08.idw
+2025-10-01 07:25:19 | IDW: Processing MGY-100-SCR-08.idw
+2025-10-01 07:25:20 | IDW: Opening MGY-100-SCR-08.idw
+2025-10-01 07:25:21 | IDW: Found 10 referenced files
+2025-10-01 07:25:21 | IDW: Updating reference Part1 TFC H-STAIR-B.ipt -> NCRH01-000-CH5.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part2 TFC H-STAIR-B.ipt -> NCRH01-000-CH6.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part3 TFC H-STAIR-B.ipt -> NCRH01-000-CH7.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part4 TFC H-STAIR-B.ipt -> NCRH01-000-CH8.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part5 TFC H-STAIR-B.ipt -> NCRH01-000-CH9.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part6 TFC H-STAIR-B.ipt -> NCRH01-000-CH10.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part7 Stair End Plate H-STAIR-B.ipt -> NCRH01-000-PL174.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part8 Base Plate H-STAIR-B.ipt -> NCRH01-000-PL175.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: Updating reference Part9 Stair Stanchion Plate H-STAIR-B.ipt -> NCRH01-000-PL176.ipt
+2025-10-01 07:25:21 | IDW: SUCCESS - Reference updated
+2025-10-01 07:25:21 | IDW: INFO - No mapping found for Staircase-1.iam
+2025-10-01 07:25:23 | IDW: Saved MGY-100-SCR-08.idw
+2025-10-01 07:25:23 | STEP 8.5: Saving mapping file for external IDW updater
+2025-10-01 07:25:23 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-10-01 07:25:23 | MAPPING: Saving mapping file to: C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt
+2025-10-01 07:25:23 | MAPPING: Appending to existing mapping file
+2025-10-01 07:25:23 | MAPPING: Part1 TFC H-STAIR-B.ipt -> NCRH01-000-CH5.ipt
+2025-10-01 07:25:23 | MAPPING: Part2 TFC H-STAIR-B.ipt -> NCRH01-000-CH6.ipt
+2025-10-01 07:25:23 | MAPPING: Part3 TFC H-STAIR-B.ipt -> NCRH01-000-CH7.ipt
+2025-10-01 07:25:23 | MAPPING: Part4 TFC H-STAIR-B.ipt -> NCRH01-000-CH8.ipt
+2025-10-01 07:25:23 | MAPPING: Part5 TFC H-STAIR-B.ipt -> NCRH01-000-CH9.ipt
+2025-10-01 07:25:23 | MAPPING: Part6 TFC H-STAIR-B.ipt -> NCRH01-000-CH10.ipt
+2025-10-01 07:25:23 | MAPPING: Part7 Stair End Plate H-STAIR-B.ipt -> NCRH01-000-PL174.ipt
+2025-10-01 07:25:23 | MAPPING: Part8 Base Plate H-STAIR-B.ipt -> NCRH01-000-PL175.ipt
+2025-10-01 07:25:23 | MAPPING: Part9 Stair Stanchion Plate H-STAIR-B.ipt -> NCRH01-000-PL176.ipt
+2025-10-01 07:25:23 | MAPPING: Step H-STAIR-B.ipt -> NCRH01-000-PART1.ipt
+2025-10-01 07:25:23 | MAPPING: Closure Bend 40º.ipt -> NCRH01-000-PART2.ipt
+2025-10-01 07:25:23 | MAPPING: Handrailing-Std Straight H-STAIR-B.ipt -> NCRH01-000-PART3.ipt
+2025-10-01 07:25:23 | MAPPING: Stanchion-Side Mounted 40º -RH.ipt -> NCRH01-000-PART4.ipt
+2025-10-01 07:25:23 | MAPPING: Stanchion-Side Mounted 40º -LH.ipt -> NCRH01-000-PART5.ipt
+2025-10-01 07:25:23 | MAPPING: Saved comprehensive mapping to C:\Users\Quintin\inventor renamer basic\FINAL_PRODUCTION_SCRIPTS\STEP_1_MAPPING.txt (14 mappings)
+2025-10-01 07:25:23 | STEP 9: Keeping original files for safety (skipping cleanup)
+2025-10-01 07:25:23 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

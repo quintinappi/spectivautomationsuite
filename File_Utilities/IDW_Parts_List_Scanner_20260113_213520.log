@@ -1,0 +1,386 @@
+2026-01-13 21:35:20 | SUCCESS: Connected to Inventor
+2026-01-13 21:35:20 | SUCCESS: Drawing document found: KNL-N1200-SCR04-0730-PA.idw
+2026-01-13 21:35:20 | STEP 1: Extracting parts from drawing references
+2026-01-13 21:35:20 | BOM: Checking sheet parts lists...
+2026-01-13 21:35:20 | BOM: Sheet 1 - Sheet:1
+2026-01-13 21:35:20 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:20 | BOM:     Processing parts list 1
+2026-01-13 21:35:20 | BOM:       Added: N1SCR04-730-PL19.ipt
+2026-01-13 21:35:20 | BOM: Sheet 2 - Sheet:2
+2026-01-13 21:35:20 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:20 | BOM:     Processing parts list 1
+2026-01-13 21:35:20 | BOM: Sheet 3 - Sheet:3
+2026-01-13 21:35:21 | BOM: Sheet 4 - Sheet:4
+2026-01-13 21:35:21 | BOM: Sheet 5 - Sheet:5
+2026-01-13 21:35:21 | BOM: Sheet 6 - Sheet:6
+2026-01-13 21:35:21 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:21 | BOM:     Processing parts list 1
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A1.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A2.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A3.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A4.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A5.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A6.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A7.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-A8.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FL1.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG1.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG2.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG3.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG4.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG5.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-FLG6.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL1.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL10.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL11.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL12.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL13.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL14.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL15.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL16.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL2.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL3.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL4.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL5.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL6.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL7.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL8.ipt
+2026-01-13 21:35:21 | BOM:       Added: N1SCR04-730-PL9.ipt
+2026-01-13 21:35:21 | BOM: Sheet 7 - Sheet:7
+2026-01-13 21:35:21 | BOM: Sheet 8 - Sheet:8
+2026-01-13 21:35:21 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:21 | BOM:     Processing parts list 1
+2026-01-13 21:35:21 | BOM: Sheet 9 - Sheet:9
+2026-01-13 21:35:21 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:21 | BOM:     Processing parts list 1
+2026-01-13 21:35:21 | BOM: Sheet 10 - Sheet:10
+2026-01-13 21:35:21 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:21 | BOM:     Processing parts list 1
+2026-01-13 21:35:21 | BOM: Sheet 11 - Sheet:11
+2026-01-13 21:35:21 | BOM: Sheet 12 - Sheet:12
+2026-01-13 21:35:21 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:21 | BOM:     Processing parts list 1
+2026-01-13 21:35:21 | BOM:       Added: TEST01-A9.ipt
+2026-01-13 21:35:22 | BOM:       Added: TEST01-FL2.ipt
+2026-01-13 21:35:22 | BOM:       Added: TEST01-FL3.ipt
+2026-01-13 21:35:22 | BOM:       Added: TEST01-FL4.ipt
+2026-01-13 21:35:22 | BOM:       Added: TEST01-PART1.ipt
+2026-01-13 21:35:22 | BOM:       Added: Part1.ipt
+2026-01-13 21:35:22 | BOM: Sheet 13 - Sheet:13
+2026-01-13 21:35:22 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:22 | BOM:     Processing parts list 1
+2026-01-13 21:35:22 | BOM: Sheet 14 - Sheet:14
+2026-01-13 21:35:22 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:22 | BOM:     Processing parts list 1
+2026-01-13 21:35:22 | BOM: Sheet 15 - Sheet:15
+2026-01-13 21:35:22 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:22 | BOM:     Processing parts list 1
+2026-01-13 21:35:22 | BOM: Sheet 16 - Sheet:16
+2026-01-13 21:35:22 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:22 | BOM:     Processing parts list 1
+2026-01-13 21:35:22 | BOM: Sheet 17 - Sheet:17
+2026-01-13 21:35:22 | BOM:   Found 1 parts list(s)
+2026-01-13 21:35:22 | BOM:     Processing parts list 1
+2026-01-13 21:35:22 | REFS: Checking all referenced file descriptors...
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A1.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A2.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A3.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A4.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A5.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A6.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A7.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-A8.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FL1.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG1.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG2.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG3.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG4.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG5.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-FLG6.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL1.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL10.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL11.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL12.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL13.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL14.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL15.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL16.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL2.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL3.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL4.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL5.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL6.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL7.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL8.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: N1SCR04-730-PL9.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: TEST01-A9.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: TEST01-FL3.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: TEST01-FL4.ipt
+2026-01-13 21:35:22 | REFS:   Already exists: TEST01-PART1.ipt
+2026-01-13 21:35:22 | REFS:   Added: TEST01-PL17.ipt
+2026-01-13 21:35:22 | EXTRACT: Total unique parts found: 39
+2026-01-13 21:35:22 | SUCCESS: Found 39 parts in drawing
+2026-01-13 21:35:22 | 
+2026-01-13 21:35:22 | === PARTS LIST SUMMARY ===
+2026-01-13 21:35:22 | Total parts referenced in drawing: 39
+2026-01-13 21:35:22 | 
+2026-01-13 21:35:22 |   1. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL19.ipt
+2026-01-13 21:35:22 |   2. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A1.ipt
+2026-01-13 21:35:22 |   3. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A2.ipt
+2026-01-13 21:35:22 |   4. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A3.ipt
+2026-01-13 21:35:22 |   5. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A4.ipt
+2026-01-13 21:35:22 |   6. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A5.ipt
+2026-01-13 21:35:22 |   7. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A6.ipt
+2026-01-13 21:35:22 |   8. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A7.ipt
+2026-01-13 21:35:22 |   9. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-A8.ipt
+2026-01-13 21:35:22 |   10. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FL1.ipt
+2026-01-13 21:35:22 |   11. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG1.ipt
+2026-01-13 21:35:22 |   12. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG2.ipt
+2026-01-13 21:35:22 |   13. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG3.ipt
+2026-01-13 21:35:22 |   14. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG4.ipt
+2026-01-13 21:35:22 |   15. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG5.ipt
+2026-01-13 21:35:22 |   16. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-FLG6.ipt
+2026-01-13 21:35:22 |   17. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL1.ipt
+2026-01-13 21:35:22 |   18. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL10.ipt
+2026-01-13 21:35:22 |   19. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL11.ipt
+2026-01-13 21:35:22 |   20. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL12.ipt
+2026-01-13 21:35:22 |   21. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL13.ipt
+2026-01-13 21:35:22 |   22. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL14.ipt
+2026-01-13 21:35:22 |   23. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL15.ipt
+2026-01-13 21:35:22 |   24. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL16.ipt
+2026-01-13 21:35:22 |   25. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL2.ipt
+2026-01-13 21:35:22 |   26. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL3.ipt
+2026-01-13 21:35:22 |   27. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL4.ipt
+2026-01-13 21:35:22 |   28. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL5.ipt
+2026-01-13 21:35:22 |   29. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL6.ipt
+2026-01-13 21:35:22 |   30. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL7.ipt
+2026-01-13 21:35:22 |   31. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL8.ipt
+2026-01-13 21:35:22 |   32. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\N1SCR04-730-PL9.ipt
+2026-01-13 21:35:22 |   33. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\TEST01-A9.ipt
+2026-01-13 21:35:22 |   34. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\TEST01-FL2.ipt
+2026-01-13 21:35:22 |   35. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\TEST01-FL3.ipt
+2026-01-13 21:35:22 |   36. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\TEST01-FL4.ipt
+2026-01-13 21:35:22 |   37. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\TEST01-PART1.ipt
+2026-01-13 21:35:22 |   38. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Lid-1\Part1.ipt
+2026-01-13 21:35:22 |   39. C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\TEST01-PL17.ipt
+2026-01-13 21:35:22 | 
+2026-01-13 21:35:22 | STEP 2: Scanning folder for all IPT files
+2026-01-13 21:35:22 | FOLDER: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A1.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A2.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A3.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A4.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A5.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A6.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A7.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-A8.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FL1.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG1.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG2.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG3.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG4.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG5.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-FLG6.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL1.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL10.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL11.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL12.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL13.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL14.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL15.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL16.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL19.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL2.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL3.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL4.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL5.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL6.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL7.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL8.ipt
+2026-01-13 21:35:22 | IPT: Found N1SCR04-730-PL9.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A1.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A10.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A2.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A3.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A4.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A5.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A6.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A7.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A8.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-A9.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL1.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL2.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL3.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL4.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL5.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL6.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FL7.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG1.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG2.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG3.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG4.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG5.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-FLG6.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PART1.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PART2.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL1.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL10.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL11.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL12.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL13.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL14.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL15.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL16.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL17.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL18.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL19.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL2.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL3.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL4.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL5.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL6.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL7.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL8.ipt
+2026-01-13 21:35:22 | IPT: Found TEST01-PL9.ipt
+2026-01-13 21:35:22 | SKIP: Development file - CM Head Box Development For Plates.ipt
+2026-01-13 21:35:22 | SKIP: Development file - CM HeadBox Development.ipt
+2026-01-13 21:35:22 | IPT: Found Part1.ipt
+2026-01-13 21:35:22 | IPT: Found Part1.ipt
+2026-01-13 21:35:22 | IPT: Found Part2 Angle.ipt
+2026-01-13 21:35:22 | IPT: Found Part3 Stiffener.ipt
+2026-01-13 21:35:22 | IPT: Found Part4 Stiffener.ipt
+2026-01-13 21:35:22 | IPT: Found Part5 Stiffener.ipt
+2026-01-13 21:35:22 | IPT: Found Part6 Handle.ipt
+2026-01-13 21:35:22 | FOUND: 83 IPT files in folder
+2026-01-13 21:35:22 | STEP 3: Identifying unreferenced IPT files
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A1.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A2.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A3.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A4.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A5.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A6.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A7.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-A8.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FL1.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG1.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG2.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG3.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG4.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG5.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-FLG6.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL1.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL10.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL11.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL12.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL13.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL14.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL15.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL16.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL19.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL2.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL3.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL4.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL5.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL6.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL7.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL8.ipt
+2026-01-13 21:35:22 | REFERENCED:   N1SCR04-730-PL9.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A1.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A10.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A2.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A3.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A4.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A5.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A6.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A7.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-A8.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-A9.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FL1.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-FL2.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-FL3.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-FL4.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FL5.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FL6.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FL7.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG1.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG2.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG3.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG4.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG5.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-FLG6.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-PART1.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PART2.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL1.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL10.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL11.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL12.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL13.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL14.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL15.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL16.ipt
+2026-01-13 21:35:22 | REFERENCED:   TEST01-PL17.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL18.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL19.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL2.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL3.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL4.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL5.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL6.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL7.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL8.ipt
+2026-01-13 21:35:22 | UNREFERENCED: TEST01-PL9.ipt
+2026-01-13 21:35:22 | REFERENCED:   Part1.ipt
+2026-01-13 21:35:22 | REFERENCED:   Part1.ipt
+2026-01-13 21:35:22 | UNREFERENCED: Part2 Angle.ipt
+2026-01-13 21:35:22 | UNREFERENCED: Part3 Stiffener.ipt
+2026-01-13 21:35:22 | UNREFERENCED: Part4 Stiffener.ipt
+2026-01-13 21:35:22 | UNREFERENCED: Part5 Stiffener.ipt
+2026-01-13 21:35:22 | UNREFERENCED: Part6 Handle.ipt
+2026-01-13 21:35:22 | TOTAL: 43 unreferenced files found
+2026-01-13 21:35:22 | STEP 4: Moving unreferenced files to 'Unrenamed Parts' folder
+2026-01-13 21:35:22 | Folder already exists: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Unrenamed Parts
+2026-01-13 21:35:22 | MOVED: TEST01-A1.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A10.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A2.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A3.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A4.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A5.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A6.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A7.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-A8.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FL1.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FL5.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FL6.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FL7.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG1.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG2.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG3.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG4.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG5.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-FLG6.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PART2.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL1.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL10.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL11.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL12.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL13.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL14.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL15.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL16.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL18.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL19.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL2.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL3.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL4.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL5.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL6.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL7.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL8.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: TEST01-PL9.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: Part2 Angle.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: Part3 Stiffener.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: Part4 Stiffener.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: Part5 Stiffener.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVED: Part6 Handle.ipt -> Unrenamed Parts\
+2026-01-13 21:35:22 | MOVE COMPLETE: 43 files moved, 0 errors
+2026-01-13 21:35:22 | === IDW PARTS LIST SCANNER COMPLETED ===

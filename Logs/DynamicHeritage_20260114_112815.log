@@ -1,0 +1,379 @@
+2026-01-14 11:28:15 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2026-01-14 11:28:15 | Auto-detecting open model and creating dynamic renaming workflow
+2026-01-14 11:28:16 | SUCCESS: Connected to existing Inventor instance
+2026-01-14 11:28:16 | STEP 1: Detecting open assembly and analyzing components
+2026-01-14 11:28:16 | DETECTED: Document type: 12291
+2026-01-14 11:28:16 | DETECTED: Assembly by .iam extension - proceeding
+2026-01-14 11:28:16 | DETECTED: Active assembly - N1SCR04-730.iam
+2026-01-14 11:28:16 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\N1SCR04-730.iam
+2026-01-14 11:28:18 | USER CONFIRMED: Proceeding with assembly processing
+2026-01-14 11:28:18 | CONFIRMED: 42 occurrences to process
+2026-01-14 11:28:18 | STEP 2: Flattening hierarchy and grouping components
+2026-01-14 11:28:18 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2026-01-14 11:28:18 | ANALYZE: Processing assembly - N1SCR04-730.iam (Level: ROOT)
+2026-01-14 11:28:18 | ANALYZE: Found 42 occurrences in N1SCR04-730.iam
+2026-01-14 11:28:18 | ANALYZE: RECURSING into sub-assembly - Head Box.iam
+2026-01-14 11:28:18 | ANALYZE: Processing assembly - Head Box.iam (Level: ROOT>Head Box.iam)
+2026-01-14 11:28:18 | ANALYZE: Found 86 occurrences in Head Box.iam
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL1.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL2.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL3.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL4.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL5.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL6.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL7.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL8.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL8.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL8.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL9.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL10.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL10.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: PART - N1SCR04-730-PART1.ipt -> Description: PIPE - 800NB S.A.B.S.719 - 6 W.T. -> Group: OTHER (from Head Box.iam)
+2026-01-14 11:28:18 | ANALYZE: Created new group - OTHER
+2026-01-14 11:28:18 | ANALYZE: PART - N1SCR04-730-FLG2.ipt -> Description: FLANGE - 600NB S.A.B.S.1123 1000/3 25 TH'K -> Group: FL (from Head Box.iam)
+2026-01-14 11:28:18 | ANALYZE: Created new group - FL
+2026-01-14 11:28:18 | ANALYZE: PART - N1SCR04-730-PART2.ipt -> Description: PIPE - 500NB S.A.B.S.719 - 6 W.T. -> Group: OTHER (from Head Box.iam)
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL2.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART2.ipt (already processed)
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL2.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: PART - N1SCR04-730-PART3.ipt -> Description: PIPE - 200NB S.A.B.S.719 - 6 W.T. -> Group: OTHER (from Head Box.iam)
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL3.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A1.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A2.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A3.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A4.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A5.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:18 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A6.ipt
+2026-01-14 11:28:18 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A7.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A8.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL11.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL12.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL13.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL4.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:19 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:19 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL14.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL15.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL16.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL16.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL16.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL16.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 11:28:20 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 11:28:20 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL17.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A9.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: PART - N1SCR04-730-PART4.ipt -> Description: R16 -> Group: OTHER (from Lid-1.iam)
+2026-01-14 11:28:20 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:20 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:20 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:20 | ANALYZE: RECURSING into sub-assembly - Lid-1.iam
+2026-01-14 11:28:20 | ANALYZE: Processing assembly - Lid-1.iam (Level: ROOT>Lid-1.iam)
+2026-01-14 11:28:20 | ANALYZE: Found 17 occurrences in Lid-1.iam
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL17.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A9.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL5.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:20 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:20 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL6.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL7.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART4.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: RECURSING into sub-assembly - Lid-2.iam
+2026-01-14 11:28:21 | ANALYZE: Processing assembly - Lid-2.iam (Level: ROOT>Lid-2.iam)
+2026-01-14 11:28:21 | ANALYZE: Found 18 occurrences in Lid-2.iam
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL18.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL8.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL8.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL8.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-A10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL9.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL9.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL9.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL9.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-FL10.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: PART - N1SCR04-730-PART5.ipt -> Description: R16 -> Group: OTHER (from Lid-2.iam)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: DUPLICATE PART SKIPPED - N1SCR04-730-PART5.ipt (already processed)
+2026-01-14 11:28:21 | ANALYZE: SKIPPING Bolted Connection1.iam (bolted connection assembly)
+2026-01-14 11:28:21 | ANALYZE: SKIPPING Bolted Connection2.iam (bolted connection assembly)
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:21 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:21 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: ⚠️ SKIPPING (already heritage-renamed) - N1SCR04-730-PL19.ipt
+2026-01-14 11:28:22 |          This file has already been processed by STEP 1. Skipping to prevent duplicate numbering.
+2026-01-14 11:28:22 | ANALYZE: Recursive processing completed - Total unique parts processed: 6
+2026-01-14 11:28:22 | ANALYZE: Created 2 component groups
+2026-01-14 11:28:22 | DEBUG GROUP: 'OTHER' contains 5 components:
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART1.ipt
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART2.ipt
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART3.ipt
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART4.ipt
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-PART5.ipt
+2026-01-14 11:28:22 | DEBUG GROUP: 'FL' contains 1 components:
+2026-01-14 11:28:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\730 CM Head Box\Head box\Old Parts\N1SCR04-730-FLG2.ipt
+2026-01-14 11:28:22 | STEP 3: Getting plant section naming convention
+2026-01-14 11:28:22 | PLANT: Getting plant section naming convention from user
+2026-01-14 11:28:27 | PLANT: Using custom naming convention: N1SCR04-730-
+2026-01-14 11:28:27 | STEP 3.5: Loading existing mappings for prefix: N1SCR04-730-
+2026-01-14 11:28:27 | MAPPING: No existing mapping file found for prefix 'N1SCR04-730-' (this is first run for this project)
+2026-01-14 11:28:27 | STEP 4: Showing component groups summary
+2026-01-14 11:28:27 | SUMMARY: Showing component groups to user
+2026-01-14 11:30:59 | SUMMARY: User cancelled after reviewing groups

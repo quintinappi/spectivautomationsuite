@@ -1,0 +1,192 @@
+﻿2025-12-16 11:31:06 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 11:31:06 | Using EXACT methodology from VBScript Option 9
+2025-12-16 11:31:06 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-7\Walkway-7.iam
+2025-12-16 11:31:06 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\21. SSCR04 - Primary Floats D&R Screen Station\000 Structure & Walkway\Walkway-7
+2025-12-16 11:31:07 | User confirmed clone operation
+2025-12-16 11:31:07 | Opening folder browser dialog...
+2025-12-16 11:31:17 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-7
+2025-12-16 11:31:18 | Rename parts: True
+2025-12-16 11:31:18 | Prompting for plant section prefix...
+2025-12-16 11:31:19 | Plant section prefix: Walkway-7
+2025-12-16 11:31:20 | New assembly name: Walkway-7
+2025-12-16 11:31:20 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-7\Walkway-7.iam
+2025-12-16 11:31:20 | COLLECT: Part16 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-16 11:31:20 | COLLECT: Part1 Beam.ipt (IPE200)
+2025-12-16 11:31:20 | COLLECT: Part2 Beam.ipt (IPE200)
+2025-12-16 11:31:20 | COLLECT: Part4 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part5 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part8 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part9 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part10 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part11 End Plate.ipt (PL 10mm S355JR)
+2025-12-16 11:31:20 | COLLECT: Part13 End Plate.ipt (PL 10mm S355JR)
+2025-12-16 11:31:20 | COLLECT: Part14 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-16 11:31:20 | COLLECT: Part15 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-16 11:31:20 | COLLECT: Part17 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part25 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part19 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part26 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part22 PFC.ipt (PFC180x70)
+2025-12-16 11:31:20 | COLLECT: Part24 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part27 Angle.ipt (L70x70x6)
+2025-12-16 11:31:20 | COLLECT: Part3 Beam.ipt (IPE200)
+2025-12-16 11:31:20 | COLLECT: Part12 End Plate.ipt (PL 10mm S355JR)
+2025-12-16 11:31:20 | Collected 21 parts
+2025-12-16 11:31:20 | Closing source assembly for safe copy...
+2025-12-16 11:31:20 | Copying assembly file...
+2025-12-16 11:31:20 | COPIED: Walkway-7.iam -> Walkway-7.iam
+2025-12-16 11:31:20 | Copying 21 parts...
+2025-12-16 11:31:20 | COPIED: Part16 Centre Gusset.ipt -> Walkway-7-PL1.ipt
+2025-12-16 11:31:20 | COPIED: Part1 Beam.ipt -> Walkway-7-IPE2.ipt
+2025-12-16 11:31:20 | COPIED: Part2 Beam.ipt -> Walkway-7-IPE3.ipt
+2025-12-16 11:31:20 | COPIED: Part4 PFC.ipt -> Walkway-7-CH4.ipt
+2025-12-16 11:31:21 | COPIED: Part5 PFC.ipt -> Walkway-7-CH5.ipt
+2025-12-16 11:31:21 | COPIED: Part8 PFC.ipt -> Walkway-7-CH6.ipt
+2025-12-16 11:31:21 | COPIED: Part9 PFC.ipt -> Walkway-7-CH7.ipt
+2025-12-16 11:31:21 | COPIED: Part10 PFC.ipt -> Walkway-7-CH8.ipt
+2025-12-16 11:31:21 | COPIED: Part11 End Plate.ipt -> Walkway-7-PL9.ipt
+2025-12-16 11:31:21 | COPIED: Part13 End Plate.ipt -> Walkway-7-PL10.ipt
+2025-12-16 11:31:21 | COPIED: Part14 Centre Gusset.ipt -> Walkway-7-PL11.ipt
+2025-12-16 11:31:21 | COPIED: Part15 Corner Gusset.ipt -> Walkway-7-PL12.ipt
+2025-12-16 11:31:21 | COPIED: Part17 Angle.ipt -> Walkway-7-A13.ipt
+2025-12-16 11:31:21 | COPIED: Part25 Angle.ipt -> Walkway-7-A14.ipt
+2025-12-16 11:31:21 | COPIED: Part19 Angle.ipt -> Walkway-7-A15.ipt
+2025-12-16 11:31:21 | COPIED: Part26 Angle.ipt -> Walkway-7-A16.ipt
+2025-12-16 11:31:21 | COPIED: Part22 PFC.ipt -> Walkway-7-CH17.ipt
+2025-12-16 11:31:21 | COPIED: Part24 Angle.ipt -> Walkway-7-A18.ipt
+2025-12-16 11:31:21 | COPIED: Part27 Angle.ipt -> Walkway-7-A19.ipt
+2025-12-16 11:31:21 | COPIED: Part3 Beam.ipt -> Walkway-7-IPE20.ipt
+2025-12-16 11:31:21 | COPIED: Part12 End Plate.ipt -> Walkway-7-PL21.ipt
+2025-12-16 11:31:21 | Updating assembly references and patching iLogic...
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Opened Walkway-7.iam
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Found 21 file references
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part1 Beam.ipt -> Walkway-7-IPE2.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part10 PFC.ipt -> Walkway-7-CH8.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part11 End Plate.ipt -> Walkway-7-PL9.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part12 End Plate.ipt -> Walkway-7-PL21.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part13 End Plate.ipt -> Walkway-7-PL10.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part14 Centre Gusset.ipt -> Walkway-7-PL11.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part15 Corner Gusset.ipt -> Walkway-7-PL12.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part16 Centre Gusset.ipt -> Walkway-7-PL1.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part17 Angle.ipt -> Walkway-7-A13.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part19 Angle.ipt -> Walkway-7-A15.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part2 Beam.ipt -> Walkway-7-IPE3.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part22 PFC.ipt -> Walkway-7-CH17.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part24 Angle.ipt -> Walkway-7-A18.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part25 Angle.ipt -> Walkway-7-A14.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part26 Angle.ipt -> Walkway-7-A16.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part27 Angle.ipt -> Walkway-7-A19.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part3 Beam.ipt -> Walkway-7-IPE20.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part4 PFC.ipt -> Walkway-7-CH4.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part5 PFC.ipt -> Walkway-7-CH5.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part8 PFC.ipt -> Walkway-7-CH6.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Replacing Part9 PFC.ipt -> Walkway-7-CH7.ipt
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Updated 21 references
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 11:31:21 | Patching iLogic rules (in same session)...
+2025-12-16 11:31:21 | Patched 0 iLogic rules
+2025-12-16 11:31:21 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 11:31:22 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 11:31:22 | Processing IDW files...
+2025-12-16 11:31:22 | IDW PROCESS: Found 1 IDW files
+2025-12-16 11:31:23 | IDW PROCESS: Processing MGY-200-DRP-01-08.idw -> MGY-200-DRP-01-08.idw
+2025-12-16 11:31:30 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 11:31:34 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 11:31:34 | IDW PROCESS: Found 22 references
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part1 Beam.ipt -> Walkway-7-IPE2.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part10 PFC.ipt -> Walkway-7-CH8.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part11 End Plate.ipt -> Walkway-7-PL9.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part12 End Plate.ipt -> Walkway-7-PL21.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part13 End Plate.ipt -> Walkway-7-PL10.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part14 Centre Gusset.ipt -> Walkway-7-PL11.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part15 Corner Gusset.ipt -> Walkway-7-PL12.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part16 Centre Gusset.ipt -> Walkway-7-PL1.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part17 Angle.ipt -> Walkway-7-A13.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: No mapping for Part18 Angle.ipt
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part19 Angle.ipt -> Walkway-7-A15.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part2 Beam.ipt -> Walkway-7-IPE3.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: No mapping for Part20 Angle.ipt
+2025-12-16 11:31:34 | IDW PROCESS: No mapping for Part21 Angle.ipt
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part3 Beam.ipt -> Walkway-7-IPE20.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part4 PFC.ipt -> Walkway-7-CH4.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part5 PFC.ipt -> Walkway-7-CH5.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: No mapping for Part6 PFC.ipt
+2025-12-16 11:31:34 | IDW PROCESS: No mapping for Part7 PFC.ipt
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part8 PFC.ipt -> Walkway-7-CH6.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Part9 PFC.ipt -> Walkway-7-CH7.ipt
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Updating Walkway-7.iam -> Walkway-7.iam
+2025-12-16 11:31:34 | IDW PROCESS: SUCCESS
+2025-12-16 11:31:34 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 11:31:34 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 11:31:34 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-08.idw
+2025-12-16 11:31:35 | IDW PROCESS: Updated Part Number to 'MGY-200-DRP-01-08'
+2025-12-16 11:31:35 | IDW PROCESS: Updated Description to 'Walkway-7'
+2025-12-16 11:31:35 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-08.idw
+2025-12-16 11:31:35 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Walkway-7\MGY-200-DRP-01-08.idw
+2025-12-16 11:31:37 | IDW PROCESS: Successfully saved MGY-200-DRP-01-08.idw as MGY-200-DRP-01-08.idw (17 references updated)
+2025-12-16 11:31:37 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 11:31:37 | Updating iProperties for copied documents...
+2025-12-16 11:31:37 | Updated iProperties for Walkway-7-PL1.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-IPE2.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-IPE3.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-CH4.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-CH5.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-CH6.ipt
+2025-12-16 11:31:38 | Updated iProperties for Walkway-7-CH7.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-CH8.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-PL9.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-PL10.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-PL11.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-PL12.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-A13.ipt
+2025-12-16 11:31:39 | Updated iProperties for Walkway-7-A14.ipt
+2025-12-16 11:31:40 | Updated iProperties for Walkway-7-A15.ipt
+2025-12-16 11:31:40 | Updated iProperties for Walkway-7-A16.ipt
+2025-12-16 11:31:40 | Updated iProperties for Walkway-7-A18.ipt
+2025-12-16 11:31:40 | Updated iProperties for Walkway-7-A19.ipt
+2025-12-16 11:31:40 | Updated iProperties for Walkway-7-IPE20.ipt
+2025-12-16 11:31:41 | Updated iProperties for Walkway-7-PL21.ipt
+2025-12-16 11:31:41 | Saving iLogic patch log...
+2025-12-16 11:31:41 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 11:31:41 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_113106.log

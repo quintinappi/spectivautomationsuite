@@ -1,0 +1,80 @@
+﻿2025-12-16 12:13:22 | === ASSEMBLY CLONER STARTED ===
+2025-12-16 12:13:22 | Using EXACT methodology from VBScript Option 9
+2025-12-16 12:13:22 | Source assembly: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\21. NSCR04 - Primary Floats D&R Screen Station\05. Model\Structure & Walkway\1.Structure\Beam30\Beam-30.iam
+2025-12-16 12:13:22 | Source directory: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\21. NSCR04 - Primary Floats D&R Screen Station\05. Model\Structure & Walkway\1.Structure\Beam30
+2025-12-16 12:13:23 | User confirmed clone operation
+2025-12-16 12:13:23 | Opening folder browser dialog...
+2025-12-16 12:14:04 | Destination folder selected: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam for Braces
+2025-12-16 12:14:05 | Rename parts: True
+2025-12-16 12:14:05 | Prompting for plant section prefix...
+2025-12-16 12:14:13 | Plant section prefix: BracesBeam
+2025-12-16 12:14:15 | New assembly name: BracesBeam
+2025-12-16 12:14:15 | New assembly path: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam for Braces\BracesBeam.iam
+2025-12-16 12:14:15 | COLLECT: Part1 Beam.ipt (UB203x133x25)
+2025-12-16 12:14:15 | COLLECT: Part2 End Plate.ipt (PL 10mm S355JR)
+2025-12-16 12:14:15 | COLLECT: Part3 Centre Gusset.ipt (PL 8mm S355JR)
+2025-12-16 12:14:15 | COLLECT: Part4 Corner Gusset.ipt (PL 8mm S355JR)
+2025-12-16 12:14:15 | Collected 4 parts
+2025-12-16 12:14:15 | Closing source assembly for safe copy...
+2025-12-16 12:14:15 | Copying assembly file...
+2025-12-16 12:14:15 | COPIED: Beam-30.iam -> BracesBeam.iam
+2025-12-16 12:14:15 | Copying 4 parts...
+2025-12-16 12:14:15 | COPIED: Part1 Beam.ipt -> BracesBeam-B1.ipt
+2025-12-16 12:14:15 | COPIED: Part2 End Plate.ipt -> BracesBeam-PL2.ipt
+2025-12-16 12:14:15 | COPIED: Part3 Centre Gusset.ipt -> BracesBeam-PL3.ipt
+2025-12-16 12:14:15 | COPIED: Part4 Corner Gusset.ipt -> BracesBeam-PL4.ipt
+2025-12-16 12:14:15 | Updating assembly references and patching iLogic...
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Using fd.ReplaceReference method (same as VBScript)
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Opened BracesBeam.iam
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Found 4 file references
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Replacing Part1 Beam.ipt -> BracesBeam-B1.ipt
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Replacing Part2 End Plate.ipt -> BracesBeam-PL2.ipt
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Replacing Part3 Centre Gusset.ipt -> BracesBeam-PL3.ipt
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Replacing Part4 Corner Gusset.ipt -> BracesBeam-PL4.ipt
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: SUCCESS
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Updated 4 references
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Renaming occurrences to match new filenames...
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Renamed 0 occurrences
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Forcing assembly update to resolve occurrences...
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Assembly updated and resolved
+2025-12-16 12:14:15 | Patching iLogic rules (in same session)...
+2025-12-16 12:14:15 | Patched 0 iLogic rules
+2025-12-16 12:14:15 | ASSEMBLY UPDATE: Saving assembly...
+2025-12-16 12:14:16 | ASSEMBLY UPDATE: Complete - references updated and iLogic patched
+2025-12-16 12:14:16 | Processing IDW files...
+2025-12-16 12:14:16 | IDW PROCESS: Found 1 IDW files
+2025-12-16 12:14:18 | IDW PROCESS: Processing MGY-200-DRP-01-01-30.idw -> BracesBeam.idw
+2025-12-16 12:14:23 | IDW PROCESS: Opening original IDW from source location...
+2025-12-16 12:14:24 | IDW PROCESS: Opened successfully, now updating references...
+2025-12-16 12:14:24 | IDW PROCESS: Found 5 references
+2025-12-16 12:14:24 | IDW PROCESS: Updating Beam-30.iam -> BracesBeam.iam
+2025-12-16 12:14:24 | IDW PROCESS: SUCCESS
+2025-12-16 12:14:24 | IDW PROCESS: Updating Part1 Beam.ipt -> BracesBeam-B1.ipt
+2025-12-16 12:14:24 | IDW PROCESS: SUCCESS
+2025-12-16 12:14:24 | IDW PROCESS: Updating Part2 End Plate.ipt -> BracesBeam-PL2.ipt
+2025-12-16 12:14:24 | IDW PROCESS: SUCCESS
+2025-12-16 12:14:24 | IDW PROCESS: Updating Part3 Centre Gusset.ipt -> BracesBeam-PL3.ipt
+2025-12-16 12:14:24 | IDW PROCESS: SUCCESS
+2025-12-16 12:14:24 | IDW PROCESS: Updating Part4 Corner Gusset.ipt -> BracesBeam-PL4.ipt
+2025-12-16 12:14:24 | IDW PROCESS: SUCCESS
+2025-12-16 12:14:24 | IDW PROCESS: Patching iLogic in IDW...
+2025-12-16 12:14:24 | IDW PROCESS: Patched 0 rules in IDW
+2025-12-16 12:14:24 | IDW PROCESS: Updating iProperties for MGY-200-DRP-01-01-30.idw
+2025-12-16 12:14:24 | IDW PROCESS: Updated Part Number to 'BracesBeam'
+2025-12-16 12:14:24 | IDW PROCESS: Updated Description to 'BracesBeam'
+2025-12-16 12:14:24 | IDW PROCESS: iProperties update complete for MGY-200-DRP-01-01-30.idw
+2025-12-16 12:14:24 | IDW PROCESS: Saving to destination: C:\Users\Quintin\Documents\Spectiv\3. Working\20. Primary - DMS\Library\Beam for Braces\BracesBeam.idw
+2025-12-16 12:14:25 | IDW PROCESS: Successfully saved MGY-200-DRP-01-01-30.idw as BracesBeam.idw (5 references updated)
+2025-12-16 12:14:25 | IDW PROCESS: All IDW files processed successfully
+2025-12-16 12:14:25 | Updating iProperties for copied documents...
+2025-12-16 12:14:25 | Updated iProperties for BracesBeam.iam
+2025-12-16 12:14:25 | Updated iProperties for BracesBeam-B1.ipt
+2025-12-16 12:14:25 | Updated iProperties for BracesBeam-PL2.ipt
+2025-12-16 12:14:25 | Updated iProperties for BracesBeam-PL3.ipt
+2025-12-16 12:14:26 | Updated iProperties for BracesBeam-PL4.ipt
+2025-12-16 12:14:26 | Saving iLogic patch log...
+2025-12-16 12:14:26 | === ASSEMBLY CLONE COMPLETED SUCCESSFULLY ===
+2025-12-16 12:14:26 | Log saved to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\Logs\AssemblyCloner_20251216_121322.log

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventor Automation Suite - Professional Edition</title>
+    <HTA:APPLICATION
+        ID="InventorAutomationSuite"
+        APPLICATIONNAME="Inventor Automation Suite"
+        BORDER="thick"
+        BORDERSTYLE="normal"
+        CAPTION="yes"
+        ICON="inventor.ico"
+        MAXIMIZEBUTTON="yes"
+        MINIMIZEBUTTON="yes"
+        SHOWINTASKBAR="yes"
+        SINGLEINSTANCE="yes"
+        SYSMENU="yes"
+        VERSION="1.0.0"
+        WINDOWSTATE="normal"
+        SCROLL="no"
+        INNERBORDER="no"
+        SELECTION="no"/>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header-btn {
+            background: transparent;
+            border: 1px solid #667eea;
+            color: #667eea;
+            padding: 6px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s ease;
+        }
+
+        .header-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            display: flex;
+            padding: 15px;
+            gap: 15px;
+            overflow: hidden;
+            min-height: 0;
+        }
+
+        /* Left Panel - Tools Menu */
+        .tools-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 15px;
+            width: 320px;
+            min-width: 320px;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .panel-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .tool-category {
+            margin-bottom: 15px;
+        }
+
+        .category-header {
+            font-size: 12px;
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .category-header:hover {
+            color: #667eea;
+        }
+
+        .category-arrow {
+            transition: transform 0.2s ease;
+        }
+
+        .category-arrow.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .category-content {
+            max-height: 1000px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .category-content.collapsed {
+            max-height: 0;
+        }
+
+        .tool-item {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-bottom: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .tool-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+        }
+
+        .tool-item.active {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-color: #667eea;
+        }
+
+        .tool-name {
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .tool-description {
+            font-size: 11px;
+            color: #666;
+            line-height: 1.3;
+        }
+
+        /* Right Panel - Tool Content */
+        .content-panel {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 25px;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            min-width: 0;
+        }
+
+        .tool-header {
+            margin-bottom: 25px;
+        }
+
+        .tool-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .tool-subtitle {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 6px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 13px;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 13px;
+            background: white;
+            cursor: pointer;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #d0d0d0;
+        }
+
+        /* Status Box */
+        .status-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        .status-title {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            font-size: 12px;
+        }
+
+        .status-label {
+            color: #666;
+        }
+
+        .status-value {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            margin-top: 15px;
+            display: none;
+        }
+
+        .progress-bar-bg {
+            background: #e0e0e0;
+            height: 22px;
+            border-radius: 11px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .progress-text {
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Registry Display */
+        .registry-display {
+            background: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .registry-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .registry-item:last-child {
+            border-bottom: none;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+            color: #666;
+            flex-shrink: 0;
+        }
+
+        .license-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .license-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4caf50;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+
+        /* Welcome Screen */
+        .welcome-screen {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .welcome-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .welcome-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+
+        .welcome-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">⚙ Inventor Automation Suite</div>
+            </div>
+            <div class="header-right">
+                <button class="header-btn" onclick="showHelp()">❓ Help</button>
+                <button class="header-btn" onclick="showAbout()">ℹ About</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Tools Panel -->
+            <div class="tools-panel">
+                <div class="panel-title">Available Tools</div>
+
+                <div class="tool-category">
+                    <div class="category-header" onclick="toggleCategory('main-workflow')">
+                        <span class="category-arrow" id="arrow-main-workflow">▼</span>
+                        <span>Main Workflow</span>
+                    </div>
+                    <div class="category-content" id="cat-main-workflow">
+                        <div class="tool-item active" onclick="selectTool('assemblercloner')" id="tool-assemblercloner">
+                            <div class="tool-name">1. Assembly Cloner</div>
+                            <div class="tool-description">Clone assemblies with numbering</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('partrenaming')" id="tool-partrenaming">
+                            <div class="tool-name">2. Part Renaming</div>
+                            <div class="tool-description">Rename parts with grouping</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('idwupdates')" id="tool-idwupdates">
+                            <div class="tool-name">3. IDW Updates</div>
+                            <div class="tool-description">Update drawing references</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('titleautomation')" id="tool-titleautomation">
+                            <div class="tool-name">4. Title Automation</div>
+                            <div class="tool-description">Automate view titles</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <div class="category-header" onclick="toggleCategory('management')">
+                        <span class="category-arrow" id="arrow-management">▼</span>
+                        <span>Management Tools</span>
+                    </div>
+                    <div class="category-content" id="cat-management">
+                        <div class="tool-item" onclick="selectTool('registrymgmt')" id="tool-registrymgmt">
+                            <div class="tool-name">5. Registry Management</div>
+                            <div class="tool-description">Manage numbering database</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('prefixscanner')" id="tool-prefixscanner">
+                            <div class="tool-name">6. Smart Prefix Scanner</div>
+                            <div class="tool-description">Scan and update registry</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <div class="category-header" onclick="toggleCategory('rescue')">
+                        <span class="category-arrow" id="arrow-rescue">▼</span>
+                        <span>Rescue Tools</span>
+                    </div>
+                    <div class="category-content" id="cat-rescue">
+                        <div class="tool-item" onclick="selectTool('emergencyfixer')" id="tool-emergencyfixer">
+                            <div class="tool-name">7. Emergency IDW Fixer</div>
+                            <div class="tool-description">Fix missed IDW files</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('groupingcorrection')" id="tool-groupingcorrection">
+                            <div class="tool-name">8. Part Grouping Correction</div>
+                            <div class="tool-description">Change grouping (e.g., IPE → B)</div>
+                        </div>
+                        <div class="tool-item" onclick="selectTool('mappingprotection')" id="tool-mappingprotection">
+                            <div class="tool-name">9. Mapping Protection</div>
+                            <div class="tool-description">Protect mapping files</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Panel -->
+            <div class="content-panel" id="contentPanel">
+                <!-- Assembly Cloner Tool (Default) -->
+                <div id="assemblercloner-content">
+                    <div class="tool-header">
+                        <div class="tool-title">Assembly Cloner</div>
+                        <div class="tool-subtitle">Clone assemblies with automatic numbering continuation</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Prefix</label>
+                        <input type="text" class="form-input" id="prefixInput" placeholder="e.g., NCRH01-000-" value="NCRH01-000-">
+                        <small style="color: #666; font-size: 11px;">Enter the prefix for part numbering (e.g., NCRH01-000-, PLANT1-000-)</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Number of Clones</label>
+                        <select class="form-select" id="cloneCount">
+                            <option value="1">1 Clone</option>
+                            <option value="2">2 Clones</option>
+                            <option value="3">3 Clones</option>
+                            <option value="4">4 Clones</option>
+                            <option value="5">5 Clones</option>
+                            <option value="6">6 Clones</option>
+                            <option value="7">7 Clones</option>
+                            <option value="8">8 Clones</option>
+                            <option value="9">9 Clones</option>
+                            <option value="10">10 Clones</option>
+                        </select>
+                    </div>
+
+                    <div class="status-box">
+                        <div class="status-title">Current Registry Status</div>
+                        <div class="registry-display" id="registryDisplay">
+                            <div class="registry-item">
+                                <span class="status-label">PL (Platework):</span>
+                                <span class="status-value" id="reg-PL">Not detected</span>
+                            </div>
+                            <div class="registry-item">
+                                <span class="status-label">B (Beams/Columns):</span>
+                                <span class="status-value" id="reg-B">Not detected</span>
+                            </div>
+                            <div class="registry-item">
+                                <span class="status-label">CH (Channels):</span>
+                                <span class="status-value" id="reg-CH">Not detected</span>
+                            </div>
+                            <div class="registry-item">
+                                <span class="status-label">A (Angles):</span>
+                                <span class="status-value" id="reg-A">Not detected</span>
+                            </div>
+                            <div class="registry-item">
+                                <span class="status-label">FL (Flatbar):</span>
+                                <span class="status-value" id="reg-FL">Not detected</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress-container" id="progressContainer">
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" id="progressBar"></div>
+                            <div class="progress-text" id="progressText">0%</div>
+                        </div>
+                        <div style="margin-top: 8px; text-align: center; color: #666; font-size: 12px;" id="statusMessage"></div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary" onclick="runAssemblyCloner()">🚀 Clone Assembly</button>
+                        <button class="btn btn-secondary" onclick="scanRegistry()">🔍 Scan Registry</button>
+                    </div>
+                </div>
+
+                <!-- Part Grouping Correction Tool -->
+                <div id="groupingcorrection-content" style="display: none;">
+                    <div class="tool-header">
+                        <div class="tool-title">Part Grouping Correction</div>
+                        <div class="tool-subtitle">Change parts from one grouping to another (e.g., IPE → B)</div>
+                    </div>
+
+                    <div class="status-box">
+                        <div class="status-title">What This Tool Does</div>
+                        <div style="margin-top: 10px; font-size: 12px; color: #666; line-height: 1.6;">
+                            Use this tool when you need to reclassify parts after cloning or renaming.<br><br>
+                            <strong>Example scenario:</strong> You cloned an assembly where IPE parts were grouped separately,
+                            but now you want all IPE parts to be included in the B (beam) grouping instead.<br><br>
+                            <strong>The tool will:</strong><br>
+                            1. Scan your assembly and list all part groupings<br>
+                            2. Let you select which grouping to change (e.g., "IPE")<br>
+                            3. Let you select the target grouping (e.g., "B")<br>
+                            4. Check registry for next available numbers<br>
+                            5. Rename parts using heritage method<br>
+                            6. Update all assembly references<br>
+                            7. Update IDW drawing references
+                        </div>
+                    </div>
+
+                    <div class="status-box" style="margin-top: 15px;">
+                        <div class="status-title">Prerequisites</div>
+                        <div style="margin-top: 10px; font-size: 12px; color: #666;">
+                            ✓ Inventor must be running<br>
+                            ✓ Your assembly must be open<br>
+                            ✓ You should know your prefix (e.g., NCRH01-000-)
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary" onclick="runGroupingCorrection()">🔄 Launch Grouping Correction</button>
+                    </div>
+                </div>
+
+                <!-- Placeholder for other tools -->
+                <div id="other-tools-content" style="display: none;">
+                    <div class="welcome-screen">
+                        <div class="welcome-icon">🔧</div>
+                        <div class="welcome-title">Tool Coming Soon</div>
+                        <div class="welcome-text">This tool is currently under development. Please check back in the next update.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="license-status">
+                <div class="license-indicator"></div>
+                <span>License: Professional Edition</span>
+            </div>
+            <div>Version 1.0.0 | © 2025 Spectiv Solutions</div>
+        </div>
+    </div>
+
+    <script language="VBScript">
+        ' Global variables
+        Dim currentTool
+        currentTool = "assemblercloner"
+
+        ' Toggle category collapse/expand
+        Sub toggleCategory(catId)
+            Dim content, arrow
+            Set content = document.getElementById("cat-" & catId)
+            Set arrow = document.getElementById("arrow-" & catId)
+
+            If content.className = "category-content collapsed" Then
+                content.className = "category-content"
+                arrow.className = "category-arrow"
+                arrow.innerHTML = "▼"
+            Else
+                content.className = "category-content collapsed"
+                arrow.className = "category-arrow collapsed"
+                arrow.innerHTML = "▼"
+            End If
+        End Sub
+
+        ' Tool selection
+        Sub selectTool(toolName)
+            ' Update active state in tools panel
+            Dim allTools
+            allTools = Array("assemblercloner", "partrenaming", "idwupdates", "titleautomation", "registrymgmt", "prefixscanner", "emergencyfixer", "groupingcorrection", "mappingprotection")
+
+            For Each tool In allTools
+                Set toolElement = document.getElementById("tool-" & tool)
+                If tool = toolName Then
+                    toolElement.className = "tool-item active"
+                Else
+                    toolElement.className = "tool-item"
+                End If
+            Next
+
+            currentTool = toolName
+
+            ' Show appropriate content
+            If toolName = "assemblercloner" Then
+                document.getElementById("assemblercloner-content").style.display = "block"
+                document.getElementById("other-tools-content").style.display = "none"
+                document.getElementById("groupingcorrection-content").style.display = "none"
+            ElseIf toolName = "groupingcorrection" Then
+                document.getElementById("assemblercloner-content").style.display = "none"
+                document.getElementById("other-tools-content").style.display = "none"
+                document.getElementById("groupingcorrection-content").style.display = "block"
+            Else
+                document.getElementById("assemblercloner-content").style.display = "none"
+                document.getElementById("other-tools-content").style.display = "block"
+                document.getElementById("groupingcorrection-content").style.display = "none"
+            End If
+        End Sub
+
+        ' Scan registry
+        Sub scanRegistry()
+            Dim shell, prefix, result
+            Set shell = CreateObject("WScript.Shell")
+
+            prefix = document.getElementById("prefixInput").value
+
+            ' Check if prefix ends with dash
+            If Right(prefix, 1) <> "-" Then
+                prefix = prefix & "-"
+            End If
+
+            ' Update registry display
+            On Error Resume Next
+            Dim regPath, plValue, bValue, chValue, aValue, flValue
+
+            regPath = "HKCU\Software\InventorRenamer\" & prefix & "PL"
+            plValue = shell.RegRead(regPath)
+            If Err.Number <> 0 Then
+                document.getElementById("reg-PL").innerHTML = "Not found"
+                Err.Clear
+            Else
+                document.getElementById("reg-PL").innerHTML = plValue
+            End If
+
+            regPath = "HKCU\Software\InventorRenamer\" & prefix & "B"
+            bValue = shell.RegRead(regPath)
+            If Err.Number <> 0 Then
+                document.getElementById("reg-B").innerHTML = "Not found"
+                Err.Clear
+            Else
+                document.getElementById("reg-B").innerHTML = bValue
+            End If
+
+            regPath = "HKCU\Software\InventorRenamer\" & prefix & "CH"
+            chValue = shell.RegRead(regPath)
+            If Err.Number <> 0 Then
+                document.getElementById("reg-CH").innerHTML = "Not found"
+                Err.Clear
+            Else
+                document.getElementById("reg-CH").innerHTML = chValue
+            End If
+
+            regPath = "HKCU\Software\InventorRenamer\" & prefix & "A"
+            aValue = shell.RegRead(regPath)
+            If Err.Number <> 0 Then
+                document.getElementById("reg-A").innerHTML = "Not found"
+                Err.Clear
+            Else
+                document.getElementById("reg-A").innerHTML = aValue
+            End If
+
+            regPath = "HKCU\Software\InventorRenamer\" & prefix & "FL"
+            flValue = shell.RegRead(regPath)
+            If Err.Number <> 0 Then
+                document.getElementById("reg-FL").innerHTML = "Not found"
+                Err.Clear
+            Else
+                document.getElementById("reg-FL").innerHTML = flValue
+            End If
+
+            On Error GoTo 0
+
+            MsgBox "Registry scan complete for prefix: " & prefix, vbInformation, "Registry Scan"
+        End Sub
+
+        ' Run Assembly Cloner
+        Sub runAssemblyCloner()
+            Dim prefix, cloneCount
+            prefix = document.getElementById("prefixInput").value
+            cloneCount = document.getElementById("cloneCount").value
+
+            ' Validate prefix
+            If Trim(prefix) = "" Then
+                MsgBox "Please enter a prefix", vbExclamation, "Validation Error"
+                Exit Sub
+            End If
+
+            ' Check if prefix ends with dash
+            If Right(prefix, 1) <> "-" Then
+                prefix = prefix & "-"
+            End If
+
+            ' Show progress
+            document.getElementById("progressContainer").style.display = "block"
+            updateProgress 10, "Launching Assembly Cloner..."
+
+            ' Execute the Assembly Cloner VBScript
+            Dim shell, scriptPath, command
+            Set shell = CreateObject("WScript.Shell")
+
+            ' Get the path to the VBScript
+            scriptPath = Replace(Location.Path, "Inventor_Automation_Suite.hta", "Assembly_Cloner.vbs")
+
+            ' Create command with arguments
+            command = "cscript //nologo """ & scriptPath & """ """ & prefix & """ " & cloneCount
+
+            ' Execute the script
+            updateProgress 30, "Running Assembly Cloner..."
+            Dim execResult
+            execResult = shell.Run(command, 1, True)
+
+            updateProgress 90, "Finalizing..."
+
+            If execResult = 0 Then
+                updateProgress 100, "Completed successfully!"
+                MsgBox "Assembly Cloner completed successfully!" & vbCrLf & vbCrLf & _
+                       "Prefix: " & prefix & vbCrLf & _
+                       "Clones Created: " & cloneCount & vbCrLf & vbCrLf & _
+                       "Please check the log file for details.", vbInformation, "Success"
+            Else
+                updateProgress 0, "Failed"
+                MsgBox "Assembly Cloner encountered an error. Please check the log file for details.", vbCritical, "Error"
+            End If
+
+            ' Hide progress after a delay
+            setTimeout "hideProgress()", 3000
+        End Sub
+
+        ' Run Part Grouping Correction
+        Sub runGroupingCorrection()
+            Dim shell, scriptPath, command
+            Set shell = CreateObject("WScript.Shell")
+
+            ' Get the path to the VBScript
+            scriptPath = Replace(Location.Path, "Inventor_Automation_Suite.hta", "Part_Grouping_Correction.vbs")
+
+            ' Check if script exists
+            Dim fso
+            Set fso = CreateObject("Scripting.FileSystemObject")
+            If Not fso.FileExists(scriptPath) Then
+                MsgBox "Part_Grouping_Correction.vbs not found!" & vbCrLf & vbCrLf & _
+                       "Expected location: " & scriptPath, vbCritical, "Error"
+                Exit Sub
+            End If
+
+            ' Execute the script
+            command = "cscript //nologo """ & scriptPath & """"
+            shell.Run command, 1, False
+        End Sub
+
+        Sub hideProgress()
+            document.getElementById("progressContainer").style.display = "none"
+        End Sub
+
+        ' Update progress bar
+        Sub updateProgress(percent, status)
+            document.getElementById("progressBar").style.width = percent & "%"
+            document.getElementById("progressText").innerHTML = percent & "%"
+            document.getElementById("statusMessage").innerHTML = status
+        End Sub
+
+        ' Show help
+        Sub showHelp()
+            MsgBox "Inventor Automation Suite - Help" & vbCrLf & vbCrLf & _
+                   "Select a tool from the left panel to get started." & vbCrLf & vbCrLf & _
+                   "Click on category headers to collapse/expand them." & vbCrLf & vbCrLf & _
+                   "For detailed documentation, please refer to the user manual.", vbInformation, "Help"
+        End Sub
+
+        ' Show about
+        Sub showAbout()
+            MsgBox "Inventor Automation Suite" & vbCrLf & vbCrLf & _
+                   "Version: 1.0.0" & vbCrLf & _
+                   "Edition: Professional" & vbCrLf & vbCrLf & _
+                   "© 2025 Spectiv Solutions" & vbCrLf & vbCrLf & _
+                   "Professional automation tools for Autodesk Inventor", vbInformation, "About"
+        End Sub
+
+        ' Initialize on load
+        Sub Window_OnLoad
+            ' Center window and make it bigger
+            Dim width, height
+            width = 1400
+            height = 850
+
+            Me.ResizeTo width, height
+            Me.MoveTo (Screen.AvailWidth - width) / 2, (Screen.AvailHeight - height) / 2
+
+            ' Initial registry scan
+            scanRegistry
+        End Sub
+    </script>
+</body>
+</html>

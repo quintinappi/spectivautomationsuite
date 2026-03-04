@@ -1,0 +1,135 @@
+2025-12-08 16:55:20 | === DYNAMIC HERITAGE-BASED SOLUTION ===
+2025-12-08 16:55:20 | Auto-detecting open model and creating dynamic renaming workflow
+2025-12-08 16:55:21 | SUCCESS: Connected to existing Inventor instance
+2025-12-08 16:55:21 | STEP 1: Detecting open assembly and analyzing components
+2025-12-08 16:55:21 | DETECTED: Document type: 12291
+2025-12-08 16:55:21 | DETECTED: Assembly by .iam extension - proceeding
+2025-12-08 16:55:21 | DETECTED: Active assembly - Access Walkway-3.iam
+2025-12-08 16:55:21 | DETECTED: Full path - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-3\Access Walkway-3.iam
+2025-12-08 16:55:22 | USER CONFIRMED: Proceeding with assembly processing
+2025-12-08 16:55:22 | CONFIRMED: 8 occurrences to process
+2025-12-08 16:55:22 | STEP 2: Flattening hierarchy and grouping components
+2025-12-08 16:55:22 | ANALYZE: Recursively flattening ENTIRE model hierarchy and reading iProperty descriptions
+2025-12-08 16:55:22 | ANALYZE: Processing assembly - Access Walkway-3.iam (Level: ROOT)
+2025-12-08 16:55:22 | ANALYZE: Found 8 occurrences in Access Walkway-3.iam
+2025-12-08 16:55:22 | ANALYZE: PART - WALKWAY-3-CH4.ipt -> Description: TFC178x54x15 -> Group: CH (from Access Walkway-3.iam)
+2025-12-08 16:55:22 | ANALYZE: Created new group - CH
+2025-12-08 16:55:22 | ANALYZE: PART - WALKWAY-3-CH5.ipt -> Description: TFC178x54x15 -> Group: CH (from Access Walkway-3.iam)
+2025-12-08 16:55:22 | ANALYZE: PART - WALKWAY-3-PL3.ipt -> Description: PL 10mm S355JR -> Group: PL (from Access Walkway-3.iam)
+2025-12-08 16:55:22 | ANALYZE: Created new group - PL
+2025-12-08 16:55:22 | ANALYZE: DUPLICATE PART SKIPPED - WALKWAY-3-PL3.ipt (already processed)
+2025-12-08 16:55:22 | ANALYZE: PART - WALKWAY-3-CH6.ipt -> Description: TFC178x54x15 -> Group: CH (from Access Walkway-3.iam)
+2025-12-08 16:55:22 | ANALYZE: DUPLICATE PART SKIPPED - WALKWAY-3-CH6.ipt (already processed)
+2025-12-08 16:55:22 | ANALYZE: PART - WALKWAY-3-PL4.ipt -> Description: PL 10mm S355JR -> Group: PL (from Access Walkway-3.iam)
+2025-12-08 16:55:22 | ANALYZE: DUPLICATE PART SKIPPED - WALKWAY-3-PL3.ipt (already processed)
+2025-12-08 16:55:22 | ANALYZE: Recursive processing completed - Total unique parts processed: 5
+2025-12-08 16:55:22 | ANALYZE: Created 2 component groups
+2025-12-08 16:55:22 | DEBUG GROUP: 'CH' contains 3 components:
+2025-12-08 16:55:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH4.ipt
+2025-12-08 16:55:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH5.ipt
+2025-12-08 16:55:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH6.ipt
+2025-12-08 16:55:22 | DEBUG GROUP: 'PL' contains 2 components:
+2025-12-08 16:55:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL3.ipt
+2025-12-08 16:55:22 |   - C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL4.ipt
+2025-12-08 16:55:22 | STEP 3: Getting plant section naming convention
+2025-12-08 16:55:22 | PLANT: Getting plant section naming convention from user
+2025-12-08 16:55:29 | PLANT: Using custom naming convention: WALKWAY-3-
+2025-12-08 16:55:32 | STEP 4: Showing component groups summary
+2025-12-08 16:55:32 | SUMMARY: Showing component groups to user
+2025-12-08 16:55:34 | SUMMARY: User approved component groups
+2025-12-08 16:55:34 | STEP 5: Getting user naming schemes for component groups
+2025-12-08 16:55:34 | INPUT: Getting user naming schemes for 2 groups
+2025-12-08 16:55:41 | INPUT: Group 'CH' -> Scheme: WALKWAY-3-CH{N}
+2025-12-08 16:55:43 | INPUT: Group 'PL' -> Scheme: WALKWAY-3-PL{N}
+2025-12-08 16:55:43 | STEP 6: Creating heritage-based copies with user naming
+2025-12-08 16:55:43 | HERITAGE: Creating dynamic heritage-based copies
+2025-12-08 16:55:43 | HERITAGE: Scanning mapping file for existing heritage files to continue numbering
+2025-12-08 16:55:43 | SCAN: Scanning Registry for existing counters to continue numbering with prefix: WALKWAY-3-
+2025-12-08 16:55:43 | SCAN: Found existing counter: WALKWAY-3-CH = 6
+2025-12-08 16:55:43 | SCAN: Found existing counter: WALKWAY-3-PL = 4
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-B (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-A (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-P (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-SQ (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-FL (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-LPL (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-IPE (will start from 1)
+2025-12-08 16:55:43 | SCAN: No existing counter for: WALKWAY-3-OTHER (will start from 1)
+2025-12-08 16:55:43 | SCAN: Loaded 2 existing counters from Registry
+2025-12-08 16:55:43 | EXTRACT: Processing naming scheme: WALKWAY-3-CH{N}
+2025-12-08 16:55:43 | EXTRACT: Extracted prefix: 'WALKWAY-3-'
+2025-12-08 16:55:43 | HERITAGE: Checking for existing counter with key: 'WALKWAY-3-CH'
+2025-12-08 16:55:43 | HERITAGE: Group 'CH' continuing from number 7 (found existing files with highest number 6)
+2025-12-08 16:55:43 | HERITAGE: Processing group 'CH' with scheme: WALKWAY-3-CH{N}
+2025-12-08 16:55:43 | HERITAGE: WALKWAY-3-CH4.ipt -> WALKWAY-3-CH7.ipt
+2025-12-08 16:55:43 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH7.ipt
+2025-12-08 16:55:43 | HERITAGE: Creating new file: WALKWAY-3-CH7.ipt
+2025-12-08 16:55:43 | HERITAGE: SUCCESS - Created WALKWAY-3-CH7.ipt
+2025-12-08 16:55:44 | HERITAGE: WALKWAY-3-CH5.ipt -> WALKWAY-3-CH8.ipt
+2025-12-08 16:55:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH5.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH8.ipt
+2025-12-08 16:55:44 | HERITAGE: Creating new file: WALKWAY-3-CH8.ipt
+2025-12-08 16:55:44 | HERITAGE: SUCCESS - Created WALKWAY-3-CH8.ipt
+2025-12-08 16:55:44 | HERITAGE: WALKWAY-3-CH6.ipt -> WALKWAY-3-CH9.ipt
+2025-12-08 16:55:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH6.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-CH9.ipt
+2025-12-08 16:55:44 | HERITAGE: Creating new file: WALKWAY-3-CH9.ipt
+2025-12-08 16:55:44 | HERITAGE: SUCCESS - Created WALKWAY-3-CH9.ipt
+2025-12-08 16:55:44 | REGISTRY: Saved WALKWAY-3-CH = 9
+2025-12-08 16:55:44 | EXTRACT: Processing naming scheme: WALKWAY-3-PL{N}
+2025-12-08 16:55:44 | EXTRACT: Extracted prefix: 'WALKWAY-3-'
+2025-12-08 16:55:44 | HERITAGE: Checking for existing counter with key: 'WALKWAY-3-PL'
+2025-12-08 16:55:44 | HERITAGE: Group 'PL' continuing from number 5 (found existing files with highest number 4)
+2025-12-08 16:55:44 | HERITAGE: Processing group 'PL' with scheme: WALKWAY-3-PL{N}
+2025-12-08 16:55:44 | HERITAGE: WALKWAY-3-PL3.ipt -> WALKWAY-3-PL5.ipt
+2025-12-08 16:55:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL3.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL5.ipt
+2025-12-08 16:55:44 | HERITAGE: Creating new file: WALKWAY-3-PL5.ipt
+2025-12-08 16:55:44 | HERITAGE: SUCCESS - Created WALKWAY-3-PL5.ipt
+2025-12-08 16:55:44 | HERITAGE: WALKWAY-3-PL4.ipt -> WALKWAY-3-PL6.ipt
+2025-12-08 16:55:44 | MAPPING: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL4.ipt -> C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\22. SSCR05 - Primary Sinks D&R Screen Station\000 Structure & Walkway\Access Walkway-2\WALKWAY-3-PL6.ipt
+2025-12-08 16:55:44 | HERITAGE: Creating new file: WALKWAY-3-PL6.ipt
+2025-12-08 16:55:44 | HERITAGE: SUCCESS - Created WALKWAY-3-PL6.ipt
+2025-12-08 16:55:44 | REGISTRY: Saved WALKWAY-3-PL = 6
+2025-12-08 16:55:44 | STEP 7: Updating assembly references
+2025-12-08 16:55:44 | ASSEMBLY: Recursively updating assembly references across entire model hierarchy
+2025-12-08 16:55:44 | ASSEMBLY: Updating references in - Access Walkway-3.iam (Level: ROOT)
+2025-12-08 16:55:44 | ASSEMBLY: Replacing WALKWAY-3-CH4.ipt -> WALKWAY-3-CH7.ipt [CH] (in Access Walkway-3.iam)
+2025-12-08 16:55:44 | ASSEMBLY: SUCCESS - Updated to WALKWAY-3-CH7.ipt
+2025-12-08 16:55:44 | ASSEMBLY: Replacing WALKWAY-3-CH5.ipt -> WALKWAY-3-CH8.ipt [CH] (in Access Walkway-3.iam)
+2025-12-08 16:55:44 | ASSEMBLY: SUCCESS - Updated to WALKWAY-3-CH8.ipt
+2025-12-08 16:55:44 | ASSEMBLY: Replacing WALKWAY-3-PL3.ipt -> WALKWAY-3-PL5.ipt [PL] (in Access Walkway-3.iam)
+2025-12-08 16:55:45 | ASSEMBLY: SUCCESS - Updated to WALKWAY-3-PL5.ipt
+2025-12-08 16:55:45 | ASSEMBLY: INFO - No mapping found for WALKWAY-3-PL5.ipt (not renamed)
+2025-12-08 16:55:45 | ASSEMBLY: Replacing WALKWAY-3-CH6.ipt -> WALKWAY-3-CH9.ipt [CH] (in Access Walkway-3.iam)
+2025-12-08 16:55:45 | ASSEMBLY: SUCCESS - Updated to WALKWAY-3-CH9.ipt
+2025-12-08 16:55:45 | ASSEMBLY: INFO - No mapping found for WALKWAY-3-CH9.ipt (not renamed)
+2025-12-08 16:55:45 | ASSEMBLY: Replacing WALKWAY-3-PL4.ipt -> WALKWAY-3-PL6.ipt [PL] (in Access Walkway-3.iam)
+2025-12-08 16:55:45 | ASSEMBLY: SUCCESS - Updated to WALKWAY-3-PL6.ipt
+2025-12-08 16:55:45 | ASSEMBLY: INFO - No mapping found for WALKWAY-3-PL5.ipt (not renamed)
+2025-12-08 16:55:45 | ASSEMBLY: Saving assembly with updated references...
+2025-12-08 16:55:45 | ASSEMBLY: Successfully saved assembly
+2025-12-08 16:55:45 | STEP 8: Auto-detecting and updating IDW files
+2025-12-08 16:55:45 | IDW: Auto-detecting IDW files in assembly directory
+2025-12-08 16:55:45 | IDW: Found drawing file - MGY-200-DRD-01-11.idw
+2025-12-08 16:55:45 | IDW: Processing MGY-200-DRD-01-11.idw
+2025-12-08 16:55:46 | IDW: Opening MGY-200-DRD-01-11.idw
+2025-12-08 16:55:50 | IDW: Found 8 referenced files
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Access Walkway-2.iam
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part1 TFC.ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part2 Stair End Plate.ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part3 TFC.ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part4 Stanchion Plate.ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part5 Angle.ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part6 (Part5 Angle MIR).ipt
+2025-12-08 16:55:50 | IDW: INFO - No mapping found for Part7 TFC.ipt
+2025-12-08 16:55:50 | IDW: Saved MGY-200-DRD-01-11.idw
+2025-12-08 16:55:50 | STEP 8.5: Saving mapping file for external IDW updater
+2025-12-08 16:55:50 | MAPPING: Saving comprehensive mapping file for STEP 2
+2025-12-08 16:55:50 | MAPPING: Saving mapping file to: C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\STEP_1_MAPPING.txt
+2025-12-08 16:55:50 | MAPPING: Appending to existing mapping file
+2025-12-08 16:55:50 | MAPPING: WALKWAY-3-CH4.ipt -> WALKWAY-3-CH7.ipt
+2025-12-08 16:55:50 | MAPPING: WALKWAY-3-CH5.ipt -> WALKWAY-3-CH8.ipt
+2025-12-08 16:55:50 | MAPPING: WALKWAY-3-CH6.ipt -> WALKWAY-3-CH9.ipt
+2025-12-08 16:55:50 | MAPPING: WALKWAY-3-PL3.ipt -> WALKWAY-3-PL5.ipt
+2025-12-08 16:55:50 | MAPPING: WALKWAY-3-PL4.ipt -> WALKWAY-3-PL6.ipt
+2025-12-08 16:55:50 | MAPPING: Saved comprehensive mapping to C:\Users\Quintin\Documents\Spectiv\3. Working\22. DMS plant\REF\FINAL_PRODUCTION_SCRIPTS 1 Oct 2025\STEP_1_MAPPING.txt (5 mappings)
+2025-12-08 16:55:50 | STEP 9: Keeping original files for safety (skipping cleanup)
+2025-12-08 16:55:50 | === DYNAMIC HERITAGE-BASED SOLUTION COMPLETED ===

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Addin Type="Standard">
+    <ClassId>{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}</ClassId>
+    <ClientId>{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}</ClientId>
+    <DisplayName>Spectiv Inventor Automation Suite 2026</DisplayName>
+    <Description>Spectiv Inventor Automation Suite 2026: Clone Assembly and Part Renamer tools. By Quintin de Bruin © 2025</Description>
+    <Assembly>AssemblyClonerAddIn.dll</Assembly>
+    <LoadOnStartUp>1</LoadOnStartUp>
+    <UserUnloadable>1</UserUnloadable>
+    <Hidden>0</Hidden>
+    <SupportedSoftwareVersionGreaterThan>15..</SupportedSoftwareVersionGreaterThan>
+</Addin>
