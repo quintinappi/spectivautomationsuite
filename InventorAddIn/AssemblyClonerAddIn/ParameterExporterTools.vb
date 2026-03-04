@@ -1098,39 +1098,74 @@ Namespace AssemblyClonerAddIn
         Private Function ScanAssemblyForPlateParts(ByVal asmDoc As AssemblyDocument) As Dictionary(Of String, String)
             Dim result As New Dictionary(Of String, String)(StringComparer.OrdinalIgnoreCase)
 
-            For Each occ As ComponentOccurrence In asmDoc.ComponentDefinition.Occurrences
-                Try
-                    If occ Is Nothing OrElse occ.Definition Is Nothing OrElse occ.Definition.Document Is Nothing Then
-                        Continue For
-                    End If
+            If asmDoc Is Nothing OrElse asmDoc.ComponentDefinition Is Nothing Then
+                Return result
+            End If
 
-                    Dim refDoc As Document = occ.Definition.Document
-                    If refDoc.DocumentType <> DocumentTypeEnum.kPartDocumentObject Then
-                        Continue For
-                    End If
-
-                    Dim partNumber As String = GetPartNumber(refDoc)
-                    Dim description As String = GetDescription(refDoc)
-                    Dim searchText As String = (If(partNumber, String.Empty) & " " & If(description, String.Empty)).ToUpperInvariant()
-
-                    Dim isPlate As Boolean = searchText.Contains("PL") OrElse
-                                             searchText.Contains("PLATE") OrElse
-                                             searchText.Contains("VRN") OrElse
-                                             searchText.Contains("S355JR")
-
-                    If isPlate Then
-                        Dim fullPath As String = refDoc.FullFileName
-                        If Not String.IsNullOrWhiteSpace(fullPath) AndAlso Not result.ContainsKey(fullPath) Then
-                            result.Add(fullPath, partNumber)
-                        End If
-                    End If
-                Catch ex As Exception
-                    AddInDiagnostics.Log("ParameterExporterTools", "Scan plate failed for occurrence '" & occ.Name & "' | " & ex.Message)
-                End Try
-            Next
+            CollectPlatePartsRecursive(asmDoc.ComponentDefinition.Occurrences, result)
 
             Return result
         End Function
+
+        Private Sub CollectPlatePartsRecursive(ByVal occurrences As ComponentOccurrences,
+                                               ByVal result As Dictionary(Of String, String))
+            If occurrences Is Nothing Then
+                Return
+            End If
+
+            For Each occ As ComponentOccurrence In occurrences
+                Try
+                    If occ Is Nothing OrElse occ.Suppressed Then
+                        Continue For
+                    End If
+                Catch
+                End Try
+
+                Dim refDoc As Document = Nothing
+                Try
+                    refDoc = occ.Definition.Document
+                Catch
+                    refDoc = Nothing
+                End Try
+
+                If refDoc Is Nothing Then
+                    Continue For
+                End If
+
+                If refDoc.DocumentType = DocumentTypeEnum.kAssemblyDocumentObject Then
+                    CollectPlatePartsRecursive(occ.SubOccurrences, result)
+                    Continue For
+                End If
+
+                If refDoc.DocumentType <> DocumentTypeEnum.kPartDocumentObject Then
+                    Continue For
+                End If
+
+                Dim partNumber As String = GetPartNumber(refDoc)
+                Dim description As String = GetDescription(refDoc)
+                Dim searchText As String = (If(partNumber, String.Empty) & " " & If(description, String.Empty)).ToUpperInvariant()
+
+                Dim isPlate As Boolean = searchText.Contains("PL") OrElse
+                                         searchText.Contains("PLATE") OrElse
+                                         searchText.Contains("VRN") OrElse
+                                         searchText.Contains("S355JR")
+
+                If Not isPlate Then
+                    Continue For
+                End If
+
+                Dim fullPath As String = String.Empty
+                Try
+                    fullPath = refDoc.FullFileName
+                Catch
+                    fullPath = String.Empty
+                End Try
+
+                If Not String.IsNullOrWhiteSpace(fullPath) AndAlso Not result.ContainsKey(fullPath) Then
+                    result.Add(fullPath, partNumber)
+                End If
+            Next
+        End Sub
 
         Private Sub CollectNonPlatePartsMissingLength(ByVal occurrences As ComponentOccurrences,
                                                       ByVal result As Dictionary(Of String, String))
@@ -1541,9 +1576,26 @@ Namespace AssemblyClonerAddIn
                     Return False
                 End If
 
-                Dim found As Boolean = EnableParameterInCollection(partDef.Parameters.UserParameters, parameterName)
-                If Not found Then
-                    found = EnableParameterInCollection(partDef.Parameters.ModelParameters, parameterName)
+                Dim exportDetail As String = String.Empty
+                Dim matchedModelParameter As Boolean = False
+                Dim found As Boolean = EnableParameterInCollection(partDef.Parameters.ModelParameters,
+                                                                   parameterName,
+                                                                   "ModelParameters",
+                                                                   exportDetail,
+                                                                   matchedModelParameter)
+                If Not found AndAlso Not matchedModelParameter Then
+                    Dim matchedUserParameter As Boolean = False
+                    found = EnableParameterInCollection(partDef.Parameters.UserParameters,
+                                                        parameterName,
+                                                        "UserParameters",
+                                                        exportDetail,
+                                                        matchedUserParameter)
+                End If
+
+                If found Then
+                    AddInDiagnostics.Log("ParameterExporterTools", "Parameter export enabled | Part='" & partDoc.FullFileName & "' | Param='" & parameterName & "' | " & exportDetail)
+                Else
+                    AddInDiagnostics.Log("ParameterExporterTools", "Parameter not enabled | Part='" & partDoc.FullFileName & "' | Param='" & parameterName & "' | " & exportDetail)
                 End If
 
                 Return found
@@ -1554,25 +1606,145 @@ Namespace AssemblyClonerAddIn
         End Function
 
         Private Function EnableParameterInCollection(ByVal parameterCollection As Object,
-                                                     ByVal parameterName As String) As Boolean
+                                                     ByVal parameterName As String,
+                                                     ByVal collectionName As String,
+                                                     ByRef detail As String,
+                                                     ByRef matchedParameter As Boolean) As Boolean
+            detail = String.Empty
+            matchedParameter = False
+
             If parameterCollection Is Nothing Then
+                detail = collectionName & " unavailable"
                 Return False
             End If
 
             Try
                 For Each param As Parameter In parameterCollection
                     If String.Equals(param.Name, parameterName, StringComparison.OrdinalIgnoreCase) Then
-                        If Not param.ExportedToSheet Then
-                            param.ExportedToSheet = True
+                        matchedParameter = True
+                        Dim enableMethod As String = String.Empty
+                        Dim enableTrace As String = String.Empty
+
+                        If TryEnableParameterExport(param, enableMethod, enableTrace) Then
+                            detail = "Collection='" & collectionName & "' | Method='" & enableMethod & "'" & If(String.IsNullOrWhiteSpace(enableTrace), String.Empty, " | " & enableTrace)
+                            Return True
                         End If
-                        Return True
+
+                        detail = "Collection='" & collectionName & "' | Found parameter but failed to enable export" & If(String.IsNullOrWhiteSpace(enableTrace), String.Empty, " | " & enableTrace)
+                        Return False
                     End If
                 Next
             Catch ex As Exception
                 AddInDiagnostics.Log("ParameterExporterTools", "Parameter collection scan failed | Param='" & parameterName & "' | " & ex.Message)
+                detail = "Collection='" & collectionName & "' | Scan failed: " & ex.Message
+                Return False
             End Try
 
+            detail = "Collection='" & collectionName & "' | Parameter not found"
             Return False
+        End Function
+
+        Private Function TryEnableParameterExport(ByVal param As Parameter,
+                                                  ByRef methodUsed As String,
+                                                  ByRef trace As String) As Boolean
+            methodUsed = String.Empty
+            trace = String.Empty
+
+            If param Is Nothing Then
+                trace = "Parameter unavailable"
+                Return False
+            End If
+
+            Dim attempts As New List(Of String)()
+            Dim propertyNames() As String = {"ExposedAsProperty", "ExportParameter", "ExportedToSheet"}
+
+            For Each propertyName As String In propertyNames
+                Dim currentValue As Boolean = False
+                Dim getError As String = String.Empty
+                If Not TryGetBooleanComProperty(param, propertyName, currentValue, getError) Then
+                    attempts.Add(propertyName & " unavailable: " & getError)
+                    Continue For
+                End If
+
+                If currentValue Then
+                    methodUsed = propertyName
+                    trace = "Already enabled"
+                    Return True
+                End If
+
+                Dim setError As String = String.Empty
+                If Not TrySetBooleanComProperty(param, propertyName, True, setError) Then
+                    attempts.Add(propertyName & " set failed: " & setError)
+                    Continue For
+                End If
+
+                Dim verifyValue As Boolean = False
+                Dim verifyError As String = String.Empty
+                If TryGetBooleanComProperty(param, propertyName, verifyValue, verifyError) Then
+                    If verifyValue Then
+                        methodUsed = propertyName
+                        trace = "Set to True"
+                        Return True
+                    End If
+
+                    attempts.Add(propertyName & " verification remained False")
+                    Continue For
+                End If
+
+                methodUsed = propertyName
+                trace = "Set to True (verification unavailable: " & verifyError & ")"
+                Return True
+            Next
+
+            trace = String.Join(" | ", attempts.ToArray())
+            Return False
+        End Function
+
+        Private Function TryGetBooleanComProperty(ByVal target As Object,
+                                                  ByVal propertyName As String,
+                                                  ByRef value As Boolean,
+                                                  ByRef errorText As String) As Boolean
+            value = False
+            errorText = String.Empty
+
+            If target Is Nothing Then
+                errorText = "Target is Nothing"
+                Return False
+            End If
+
+            Try
+                Dim rawValue As Object = CallByName(target, propertyName, CallType.Get)
+                If rawValue Is Nothing Then
+                    errorText = "Property returned Nothing"
+                    Return False
+                End If
+
+                value = Convert.ToBoolean(rawValue)
+                Return True
+            Catch ex As Exception
+                errorText = ex.Message
+                Return False
+            End Try
+        End Function
+
+        Private Function TrySetBooleanComProperty(ByVal target As Object,
+                                                  ByVal propertyName As String,
+                                                  ByVal desiredValue As Boolean,
+                                                  ByRef errorText As String) As Boolean
+            errorText = String.Empty
+
+            If target Is Nothing Then
+                errorText = "Target is Nothing"
+                Return False
+            End If
+
+            Try
+                CallByName(target, propertyName, CallType.Let, desiredValue)
+                Return True
+            Catch ex As Exception
+                errorText = ex.Message
+                Return False
+            End Try
         End Function
 
         Private Function GetPartNumber(ByVal doc As Document) As String
