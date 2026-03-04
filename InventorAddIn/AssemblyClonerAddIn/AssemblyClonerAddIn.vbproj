@@ -95,7 +95,11 @@
   <ItemGroup>
     <Compile Include="AddInToolCatalog.vb" />
     <Compile Include="AddInFeatureFlags.vb" />
+    <Compile Include="AutoDetailer.vb" />
+    <Compile Include="AutoBalloonerTool.vb" />
     <Compile Include="TitleAutomationUpdater.vb" />
+    <Compile Include="ViewIdentifierSetter.vb" />
+    <Compile Include="ViewScaleSetter.vb" />
     <Compile Include="RegistryManagementTool.vb" />
     <Compile Include="RegistryManagementForm.vb" />
     <Compile Include="DrawingAutomationTools.vb" />

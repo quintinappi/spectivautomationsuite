@@ -34,6 +34,10 @@ Namespace AssemblyClonerAddIn
         Private WithEvents m_CloneButton As ButtonDefinition
         Private WithEvents m_PartRenamerButton As ButtonDefinition
         Private WithEvents m_TitleAutomationButton As ButtonDefinition
+        Private WithEvents m_SetViewIdentifierButton As ButtonDefinition
+        Private WithEvents m_SetViewScaleButton As ButtonDefinition
+        Private WithEvents m_AutoBalloonerButton As ButtonDefinition
+        Private WithEvents m_AutoDetailIDWButton As ButtonDefinition
         Private WithEvents m_RegistryManagementButton As ButtonDefinition
         Private WithEvents m_PopulateDwgRefButton As ButtonDefinition
         Private WithEvents m_PopulateDwgRefAutoPlaceButton As ButtonDefinition
@@ -54,6 +58,10 @@ Namespace AssemblyClonerAddIn
         Private m_Cloner As AssemblyCloner
         Private m_AssemblyRenamer As AssemblyRenamerTool
         Private m_TitleAutomation As TitleAutomationUpdater
+        Private m_ViewIdentifierSetter As ViewIdentifierSetter
+        Private m_ViewScaleSetter As ViewScaleSetter
+        Private m_AutoBalloonerTool As AutoBalloonerTool
+        Private m_AutoDetailer As AutoDetailer
         Private m_RegistryManagement As RegistryManagementTool
         Private m_PopulateDwgRefTool As PopulateDwgRefTool
         Private m_PopulateDwgRefAutoPlaceTool As PopulateDwgRefTool
@@ -78,6 +86,10 @@ Namespace AssemblyClonerAddIn
             m_Cloner = New AssemblyCloner(m_InventorApp)
             m_AssemblyRenamer = New AssemblyRenamerTool(m_InventorApp)
             m_TitleAutomation = New TitleAutomationUpdater(m_InventorApp)
+            m_ViewIdentifierSetter = New ViewIdentifierSetter(m_InventorApp)
+            m_ViewScaleSetter = New ViewScaleSetter(m_InventorApp)
+            m_AutoBalloonerTool = New AutoBalloonerTool(m_InventorApp)
+            m_AutoDetailer = New AutoDetailer(m_InventorApp)
             m_RegistryManagement = New RegistryManagementTool(m_InventorApp)
             m_PopulateDwgRefTool = New PopulateDwgRefTool(m_InventorApp, False)
             m_PopulateDwgRefAutoPlaceTool = New PopulateDwgRefTool(m_InventorApp, True)
@@ -103,6 +115,10 @@ Namespace AssemblyClonerAddIn
             m_CloneButton = Nothing
             m_PartRenamerButton = Nothing
             m_TitleAutomationButton = Nothing
+            m_SetViewIdentifierButton = Nothing
+            m_SetViewScaleButton = Nothing
+            m_AutoBalloonerButton = Nothing
+            m_AutoDetailIDWButton = Nothing
             m_RegistryManagementButton = Nothing
             m_PopulateDwgRefButton = Nothing
             m_PopulateDwgRefAutoPlaceButton = Nothing
@@ -122,6 +138,10 @@ Namespace AssemblyClonerAddIn
             m_Cloner = Nothing
             m_AssemblyRenamer = Nothing
             m_TitleAutomation = Nothing
+            m_ViewIdentifierSetter = Nothing
+            m_ViewScaleSetter = Nothing
+            m_AutoBalloonerTool = Nothing
+            m_AutoDetailer = Nothing
             m_RegistryManagement = Nothing
             m_PopulateDwgRefTool = Nothing
             m_PopulateDwgRefAutoPlaceTool = Nothing
@@ -207,6 +227,54 @@ Namespace AssemblyClonerAddIn
                     "Title Automation (IDW only)",
                     titleIcon16,
                     titleIcon32)
+
+                Dim viewIdentifierIcon16 As stdole.IPictureDisp = CreateGlyphPicture("VI", 16, System.Drawing.Color.FromArgb(0, 150, 136))
+                Dim viewIdentifierIcon32 As stdole.IPictureDisp = CreateGlyphPicture("VI", 32, System.Drawing.Color.FromArgb(0, 150, 136))
+                m_SetViewIdentifierButton = controlDefs.AddButtonDefinition(
+                    "Set View Identifier",
+                    "Cmd_SpectivSetViewIdentifier2026",
+                    CommandTypesEnum.kNonShapeEditCmdType,
+                    "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}",
+                    "Pick a drawing view and set its View Identifier using preset names or custom text",
+                    "Set View Identifier",
+                    viewIdentifierIcon16,
+                    viewIdentifierIcon32)
+
+                Dim viewScaleIcon16 As stdole.IPictureDisp = CreateGlyphPicture("VS", 16, System.Drawing.Color.FromArgb(0, 137, 123))
+                Dim viewScaleIcon32 As stdole.IPictureDisp = CreateGlyphPicture("VS", 32, System.Drawing.Color.FromArgb(0, 137, 123))
+                m_SetViewScaleButton = controlDefs.AddButtonDefinition(
+                    "Set View Scale",
+                    "Cmd_SpectivSetViewScale2026",
+                    CommandTypesEnum.kNonShapeEditCmdType,
+                    "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}",
+                    "Choose a scale from presets or custom, then click a drawing view to apply it",
+                    "Set View Scale",
+                    viewScaleIcon16,
+                    viewScaleIcon32)
+
+                Dim autoBalloonIcon16 As stdole.IPictureDisp = CreateGlyphPicture("B", 16, System.Drawing.Color.FromArgb(0, 121, 107))
+                Dim autoBalloonIcon32 As stdole.IPictureDisp = CreateGlyphPicture("B", 32, System.Drawing.Color.FromArgb(0, 121, 107))
+                m_AutoBalloonerButton = controlDefs.AddButtonDefinition(
+                    "Auto Ballooner",
+                    "Cmd_SpectivAutoBallooner2026",
+                    CommandTypesEnum.kNonShapeEditCmdType,
+                    "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}",
+                    "Auto-place balloons on the active sheet for visible assembly parts using nearest-edge leader placement",
+                    "Auto Ballooner",
+                    autoBalloonIcon16,
+                    autoBalloonIcon32)
+
+                Dim autoDetailIcon16 As stdole.IPictureDisp = CreateGlyphPicture("AD", 16, System.Drawing.Color.FromArgb(63, 81, 181))
+                Dim autoDetailIcon32 As stdole.IPictureDisp = CreateGlyphPicture("AD", 32, System.Drawing.Color.FromArgb(63, 81, 181))
+                m_AutoDetailIDWButton = controlDefs.AddButtonDefinition(
+                    "Auto Detail IDW",
+                    "Cmd_SpectivAutoDetailIDW2026",
+                    CommandTypesEnum.kNonShapeEditCmdType,
+                    "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}",
+                    "Auto-place overall and feature dimensions for a selected drawing view",
+                    "Auto Detail IDW",
+                    autoDetailIcon16,
+                    autoDetailIcon32)
 
                 Dim registryIcon16 As stdole.IPictureDisp = CreateGlyphPicture("G", 16, System.Drawing.Color.FromArgb(0, 150, 136))
                 Dim registryIcon32 As stdole.IPictureDisp = CreateGlyphPicture("G", 32, System.Drawing.Color.FromArgb(0, 150, 136))
@@ -507,25 +575,56 @@ Namespace AssemblyClonerAddIn
                         Continue For
                     End If
 
-                    Dim panelInternalName As String = "Pnl_SpectivTools2026_Drawing_" & tab.InternalName
-                    DeletePanelIfExists(tab, panelInternalName)
+                    Dim legacyPanelInternalName As String = "Pnl_SpectivTools2026_Drawing_" & tab.InternalName
+                    Dim corePanelInternalName As String = "Pnl_SpectivDrawingCore2026_" & tab.InternalName
+                    Dim refPanelInternalName As String = "Pnl_SpectivDrawingRef2026_" & tab.InternalName
+                    Dim listPanelInternalName As String = "Pnl_SpectivDrawingList2026_" & tab.InternalName
 
-                    Dim drawingPanel As RibbonPanel = Nothing
+                    DeletePanelIfExists(tab, legacyPanelInternalName)
+                    DeletePanelIfExists(tab, corePanelInternalName)
+                    DeletePanelIfExists(tab, refPanelInternalName)
+                    DeletePanelIfExists(tab, listPanelInternalName)
+
+                    Dim corePanel As RibbonPanel = Nothing
                     Try
-                        drawingPanel = tab.RibbonPanels.Add("Spectiv Inventor Automation Suite 2026", panelInternalName, "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}")
+                        corePanel = tab.RibbonPanels.Add("Spectiv Drawing Core 2026", corePanelInternalName, "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}")
                     Catch
-                        drawingPanel = Nothing
+                        corePanel = Nothing
                     End Try
 
-                    If drawingPanel IsNot Nothing Then
-                        drawingPanel.CommandControls.AddButton(m_TitleAutomationButton, True)
-                        drawingPanel.CommandControls.AddButton(m_PopulateDwgRefButton, False)
-                        drawingPanel.CommandControls.AddButton(m_PopulateDwgRefAutoPlaceButton, False)
-                        drawingPanel.CommandControls.AddButton(m_CreateDxfForModelPlatesButton, False)
-                        drawingPanel.CommandControls.AddButton(m_PlacePartsFromOpenAssemblyButton, False)
-                        drawingPanel.CommandControls.AddButton(m_CreateSheetPartsListButton, False)
-                        drawingPanel.CommandControls.AddButton(m_CreateGAPartsListTopLevelButton, False)
-                        drawingPanel.CommandControls.AddButton(m_CleanUpUnusedFilesButton, False)
+                    If corePanel IsNot Nothing Then
+                        corePanel.CommandControls.AddButton(m_TitleAutomationButton, True)
+                        corePanel.CommandControls.AddButton(m_SetViewIdentifierButton, False)
+                        corePanel.CommandControls.AddButton(m_SetViewScaleButton, False)
+                        corePanel.CommandControls.AddButton(m_AutoBalloonerButton, False)
+                        corePanel.CommandControls.AddButton(m_AutoDetailIDWButton, False)
+                    End If
+
+                    Dim refPanel As RibbonPanel = Nothing
+                    Try
+                        refPanel = tab.RibbonPanels.Add("Spectiv DWG REF & DXF 2026", refPanelInternalName, "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}")
+                    Catch
+                        refPanel = Nothing
+                    End Try
+
+                    If refPanel IsNot Nothing Then
+                        refPanel.CommandControls.AddButton(m_PopulateDwgRefButton, True)
+                        refPanel.CommandControls.AddButton(m_PopulateDwgRefAutoPlaceButton, False)
+                        refPanel.CommandControls.AddButton(m_CreateDxfForModelPlatesButton, False)
+                    End If
+
+                    Dim listPanel As RibbonPanel = Nothing
+                    Try
+                        listPanel = tab.RibbonPanels.Add("Spectiv Lists & Placement 2026", listPanelInternalName, "{B8F4E2A1-3C5D-4E6F-9A8B-1C2D3E4F5A6B}")
+                    Catch
+                        listPanel = Nothing
+                    End Try
+
+                    If listPanel IsNot Nothing Then
+                        listPanel.CommandControls.AddButton(m_PlacePartsFromOpenAssemblyButton, True)
+                        listPanel.CommandControls.AddButton(m_CreateSheetPartsListButton, False)
+                        listPanel.CommandControls.AddButton(m_CreateGAPartsListTopLevelButton, False)
+                        listPanel.CommandControls.AddButton(m_CleanUpUnusedFilesButton, False)
                     End If
                 Next
             Catch
@@ -691,6 +790,46 @@ Namespace AssemblyClonerAddIn
                 m_TitleAutomation.Execute()
             Catch ex As Exception
                 MsgBox("Error running Title Automation (IDW): " & ex.Message, MsgBoxStyle.Critical, "Title Automation (IDW)")
+            End Try
+        End Sub
+
+        Private Sub m_SetViewIdentifierButton_OnExecute(ByVal Context As NameValueMap) Handles m_SetViewIdentifierButton.OnExecute
+            Try
+                If Not GuardToolEnabled(AddInTool.SetViewIdentifier, "Set View Identifier") Then Return
+                m_ViewIdentifierSetter.Execute()
+            Catch ex As Exception
+                LogToolError("SetViewIdentifier", ex)
+                MsgBox("Error running Set View Identifier: " & ex.Message, MsgBoxStyle.Critical, "Set View Identifier")
+            End Try
+        End Sub
+
+        Private Sub m_SetViewScaleButton_OnExecute(ByVal Context As NameValueMap) Handles m_SetViewScaleButton.OnExecute
+            Try
+                If Not GuardToolEnabled(AddInTool.SetViewScale, "Set View Scale") Then Return
+                m_ViewScaleSetter.Execute()
+            Catch ex As Exception
+                LogToolError("SetViewScale", ex)
+                MsgBox("Error running Set View Scale: " & ex.Message, MsgBoxStyle.Critical, "Set View Scale")
+            End Try
+        End Sub
+
+        Private Sub m_AutoBalloonerButton_OnExecute(ByVal Context As NameValueMap) Handles m_AutoBalloonerButton.OnExecute
+            Try
+                If Not GuardToolEnabled(AddInTool.AutoBalloonLeaders, "Auto Ballooner") Then Return
+                m_AutoBalloonerTool.Execute()
+            Catch ex As Exception
+                LogToolError("AutoBallooner", ex)
+                MsgBox("Error running Auto Ballooner: " & ex.Message, MsgBoxStyle.Critical, "Auto Ballooner")
+            End Try
+        End Sub
+
+        Private Sub m_AutoDetailIDWButton_OnExecute(ByVal Context As NameValueMap) Handles m_AutoDetailIDWButton.OnExecute
+            Try
+                If Not GuardToolEnabled(AddInTool.AutoDetailIDW, "Auto Detail IDW") Then Return
+                m_AutoDetailer.Execute()
+            Catch ex As Exception
+                LogToolError("AutoDetailIDW", ex)
+                MsgBox("Error running Auto Detail IDW: " & ex.Message, MsgBoxStyle.Critical, "Auto Detail IDW")
             End Try
         End Sub
 

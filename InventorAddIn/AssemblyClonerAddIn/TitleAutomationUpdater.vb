@@ -161,8 +161,32 @@ Namespace AssemblyClonerAddIn
             result = Regex.Replace(result, "(?i)\s*SCALE\b.*$", String.Empty).Trim()
             result = Regex.Replace(result, "\s*\d+\s*[:\-]\s*\d+\s*$", String.Empty).Trim()
             result = Regex.Replace(result, "(?i)\s*VIEW\s*$", String.Empty).Trim()
+            result = RemovePresetAutoSuffix(result)
 
             Return result
+        End Function
+
+        Private Function RemovePresetAutoSuffix(ByVal value As String) As String
+            Dim trimmed As String = If(value, String.Empty).Trim()
+            If trimmed = String.Empty Then
+                Return trimmed
+            End If
+
+            Dim suffixMatch As Match = Regex.Match(trimmed, "^(?<base>.+?)_(?<number>\d+)$", RegexOptions.IgnoreCase)
+            If Not suffixMatch.Success Then
+                Return trimmed
+            End If
+
+            Dim baseName As String = suffixMatch.Groups("base").Value.Trim()
+            If baseName = String.Empty Then
+                Return trimmed
+            End If
+
+            If Regex.IsMatch(baseName, "^(FRONT|TOP|SIDE|BOTTOM|LEFT|RIGHT|REAR)$", RegexOptions.IgnoreCase) Then
+                Return baseName
+            End If
+
+            Return trimmed
         End Function
 
         Private Function UpdateViewLabel(ByVal view As DrawingView, ByVal formattedTitle As String) As Boolean

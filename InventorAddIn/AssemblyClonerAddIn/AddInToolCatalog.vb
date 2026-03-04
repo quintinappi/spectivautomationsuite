@@ -19,6 +19,8 @@ Namespace AssemblyClonerAddIn
         UpdateSameFolderDerivedParts
         IDWUpdates
         TitleAutomationIDWOnly
+        SetViewIdentifier
+        SetViewScale
         RegistryManagement
         FileUtilities
         UnusedPartFinder
